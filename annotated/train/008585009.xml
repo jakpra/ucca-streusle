@@ -1,0 +1,38 @@
+<root annotationID="0" passageID="008585009">
+  <attributes annotationID="2770" passageID="806" remarks="26720" userID="4" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Alan" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="Alan" lexcat="N" lexlemma="Alan Grissom" lextag="B-N-n.PERSON" local_toknums="1 2" misc="null" orig_paragraph="1" remarks="0.226" smwe="[1, 1]" ss="n.PERSON" ss2="null" toknums="226 227" upos="PROPN" wmwe="null" word="Alan" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Grissom" />
+      <extra deprel="flat" edeps="1:flat" feats="Number=Sing" head="1" lemma="Grissom" lextag="I_" misc="null" orig_paragraph="1" remarks="0.227" smwe="[1, 2]" upos="PROPN" wmwe="null" word="Grissom" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="F">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.287" tree_id="40" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,30 @@
+<root annotationID="0" passageID="029218006">
+  <attributes annotationID="2956" passageID="505" remarks="26396" userID="4" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Mark" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="Mark" lexcat="N" lexlemma="Mark" lextag="O-N-n.PERSON" local_toknums="1" misc="null" orig_paragraph="1" remarks="0.58" smwe="null" ss="n.PERSON" ss2="null" toknums="58" upos="PROPN" wmwe="null" word="Mark" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.76" tree_id="11" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>
