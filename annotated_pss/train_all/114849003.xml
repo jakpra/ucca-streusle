@@ -1,0 +1,70 @@
+<root annotationID="0" passageID="114849003">
+  <attributes annotationID="2602" passageID="130" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Danny" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="Danny" lextag="O-N-n.PERSON" misc="null" orig_paragraph="1" remarks="0.74" smwe="null" upos="PROPN" wmwe="null" word="Danny" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text="(" />
+      <extra deprel="punct" edeps="3:punct" feats="null" head="3" lemma="(" lextag="O-PUNCT" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.75" smwe="null" upos="PUNCT" wmwe="null" word="(" xpos="-LRB-" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Australia" />
+      <extra deprel="parataxis" edeps="1:parataxis" feats="Number=Sing" head="1" lemma="Australia" lextag="O-N-n.LOCATION" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.76" smwe="null" upos="PROPN" wmwe="null" word="Australia" xpos="NNP" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text=")" />
+      <extra deprel="punct" edeps="3:punct" feats="null" head="3" lemma=")" lextag="O-PUNCT" misc="null" orig_paragraph="1" remarks="0.77" smwe="null" upos="PUNCT" wmwe="null" word=")" xpos="-RRB-" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="H" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.100" tree_id="17" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.4" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <extra remarks="1.110" />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="PNCT">
+      <attributes />
+      <extra remarks="1.109" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

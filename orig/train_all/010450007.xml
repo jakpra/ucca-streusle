@@ -1,0 +1,110 @@
+<root annotationID="0" passageID="010450007">
+  <attributes annotationID="54" passageID="16" remarks="Test" userID="4" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="1" text="***" />
+      <extra orig_paragraph="1" remarks="0.69" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="update" />
+      <extra orig_paragraph="1" remarks="0.70" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="***" />
+      <extra orig_paragraph="1" remarks="0.71" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="NEVER" />
+      <extra orig_paragraph="1" remarks="0.72" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="MIND" />
+      <extra orig_paragraph="1" remarks="0.73" />
+    </node>
+    <node ID="0.6" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="6" text="!" />
+      <extra orig_paragraph="1" remarks="0.74" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="L">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="L" />
+      </edge>
+      <edge toID="1.3" type="H">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="H" />
+      </edge>
+      <edge toID="1.4" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.79" tree_id="12" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <extra remarks="1.80" tree_id="13" />
+      <edge toID="1.6" type="G">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="G" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.4" type="PNCT">
+      <attributes />
+      <extra remarks="1.103" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="PNCT">
+      <attributes />
+      <extra remarks="1.104" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra remarks="1.81" tree_id="13-1" />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <extra remarks="1.105" />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>
