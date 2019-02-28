@@ -5,55 +5,55 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Men" />
-      <extra orig_paragraph="1" remarks="0.1" />
+      <extra deprel="compound" edeps="null" feats="Number=Sing" head="2" lemma="men" lextag="B-N-n.GROUP" misc="null" ner="O" orig_paragraph="1" remarks="0.1" smwe="[1, 1]" upos="NOUN" wmwe="null" word="Men" xpos="NN" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="s" />
-      <extra orig_paragraph="1" remarks="0.2" />
+      <extra deprel="root" edeps="null" feats="Number=Plur" head="0" lemma="s" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.2" smwe="[1, 2]" upos="NOUN" wmwe="null" word="s" xpos="NNS" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="and" />
-      <extra orig_paragraph="1" remarks="0.3" />
+      <extra deprel="cc" edeps="null" feats="null" head="2" lemma="and" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.3" smwe="[1, 3]" upos="CONJ" wmwe="null" word="and" xpos="CC" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Boys" />
-      <extra orig_paragraph="1" remarks="0.4" />
+      <extra deprel="conj" edeps="null" feats="Number=Plur" head="2" lemma="boy" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.4" smwe="[1, 4]" upos="NOUN" wmwe="null" word="Boys" xpos="NNS" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="Barbers" />
-      <extra orig_paragraph="1" remarks="0.5" />
+      <extra deprel="dep" edeps="null" feats="Number=Plur" head="2" lemma="barber" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.5" smwe="[1, 5]" upos="NOUN" wmwe="null" word="Barbers" xpos="NNS" />
     </node>
     <node ID="0.6" type="Punctuation">
       <attributes paragraph="1" paragraph_position="6" text="," />
-      <extra orig_paragraph="1" remarks="0.6" />
+      <extra deprel="punct" edeps="null" feats="null" head="2" lemma="," lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.6" smwe="null" upos="PUNCT" wmwe="null" word="," xpos="," />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="on" />
-      <extra orig_paragraph="1" remarks="0.7" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="2" govlemma="s" head="11" lemma="on" lexcat="P" lexlemma="on" lextag="O-P-p.Locus" local_gov="2" local_obj="11" local_toknums="7" misc="null" ner="O" obj="11" objlemma="bus" orig_paragraph="1" remarks="0.7" smwe="null" toknums="7" upos="ADP" wmwe="null" word="on" xpos="IN" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="the" />
-      <extra orig_paragraph="1" remarks="0.8" />
+      <extra deprel="det" edeps="null" feats="Definite=Def|PronType=Art" head="11" lemma="the" lextag="O-DET" misc="null" ner="O" orig_paragraph="1" remarks="0.8" smwe="null" upos="DET" wmwe="null" word="the" xpos="DT" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="number" />
-      <extra orig_paragraph="1" remarks="0.9" />
+      <extra deprel="compound" edeps="null" feats="Number=Sing" head="11" lemma="number" lextag="O-N-n.COMMUNICATION" misc="null" ner="O" orig_paragraph="1" remarks="0.9" smwe="null" upos="NOUN" wmwe="null" word="number" xpos="NN" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="9" />
-      <extra orig_paragraph="1" remarks="0.10" />
+      <extra deprel="nummod" edeps="null" feats="NumType=Card" head="11" lemma="9" lextag="O-NUM" misc="null" ner="NUMBER" orig_paragraph="1" remarks="0.10" smwe="null" upos="NUM" wmwe="null" word="9" xpos="CD" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="Bus" />
-      <extra orig_paragraph="1" remarks="0.11" />
+      <extra deprel="nmod" edeps="null" feats="Number=Sing" head="2" lemma="bus" lextag="B-N-n.ARTIFACT" misc="null" ner="O" orig_paragraph="1" remarks="0.11" smwe="null" ss="p.Locus" ss2="p.Locus" upos="NOUN" wmwe="[2, 1]" word="Bus" xpos="NN" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="route" />
-      <extra orig_paragraph="1" remarks="0.12" />
+      <extra deprel="advmod" edeps="null" feats="Number=Sing" head="11" lemma="route" lextag="I~-N-n.LOCATION" misc="null" ner="O" orig_paragraph="1" remarks="0.12" smwe="null" upos="NOUN" wmwe="[2, 2]" word="route" xpos="NN" />
     </node>
     <node ID="0.13" type="Punctuation">
       <attributes paragraph="1" paragraph_position="13" text="." />
-      <extra orig_paragraph="1" remarks="0.13" />
+      <extra deprel="punct" edeps="null" feats="null" head="2" lemma="." lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.13" smwe="null" upos="PUNCT" wmwe="null" word="." xpos="." />
     </node>
   </layer>
   <layer layerID="1">

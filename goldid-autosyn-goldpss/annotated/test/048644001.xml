@@ -5,47 +5,47 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="From" />
-      <extra orig_paragraph="1" remarks="0.9" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="13" govlemma="look" head="3" lemma="from" lexcat="P" lexlemma="from" lextag="O-P-p.Locus|p.Source" local_gov="5" local_obj="3" local_toknums="1" misc="null" ner="O" obj="11" objlemma="outside" orig_paragraph="1" remarks="0.9" smwe="null" ss="p.Locus" ss2="p.Source" toknums="9" upos="ADP" wmwe="null" word="From" xpos="IN" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="the" />
-      <extra orig_paragraph="1" remarks="0.10" />
+      <extra deprel="det" edeps="null" feats="Definite=Def|PronType=Art" head="3" lemma="the" lextag="O-DET" misc="null" ner="O" orig_paragraph="1" remarks="0.10" smwe="null" upos="DET" wmwe="null" word="the" xpos="DT" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="outside" />
-      <extra orig_paragraph="1" remarks="0.11" />
+      <extra deprel="nmod" edeps="null" feats="Degree=Pos" head="5" lemma="outside" lextag="O-N-n.LOCATION" misc="null" ner="O" orig_paragraph="1" remarks="0.11" smwe="null" upos="ADJ" wmwe="null" word="outside" xpos="JJ" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Ichiban" />
-      <extra orig_paragraph="1" remarks="0.12" />
+      <extra deprel="nsubj" edeps="null" feats="Number=Sing" head="5" lemma="Ichiban" lextag="O-N-n.GROUP" misc="null" ner="LOCATION" orig_paragraph="1" remarks="0.12" smwe="null" upos="PROPN" wmwe="null" word="Ichiban" xpos="NNP" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="looks" />
-      <extra orig_paragraph="1" remarks="0.13" />
+      <extra deprel="root" edeps="null" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="0" lemma="look" lextag="O-V-v.perception" misc="null" ner="O" orig_paragraph="1" remarks="0.13" smwe="null" upos="VERB" wmwe="null" word="looks" xpos="VBZ" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="like" />
-      <extra orig_paragraph="1" remarks="0.14" />
+      <extra config="subordinating" deprel="mark" edeps="null" feats="null" gov="13" govlemma="look" head="10" lemma="like" lexcat="P" lexlemma="like" lextag="O-P-p.Theme|p.ComparisonRef" local_gov="5" local_obj="9" local_toknums="6" misc="null" ner="O" obj="17" objlemma="be" orig_paragraph="1" remarks="0.14" smwe="null" ss="p.Theme" ss2="p.ComparisonRef" toknums="14" upos="SCONJ" wmwe="null" word="like" xpos="IN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="it" />
-      <extra orig_paragraph="1" remarks="0.15" />
+      <extra deprel="nsubj" edeps="null" feats="Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" head="10" lemma="it" lextag="O-PRON" misc="null" ner="O" orig_paragraph="1" remarks="0.15" smwe="null" upos="PRON" wmwe="null" word="it" xpos="PRP" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="will" />
-      <extra orig_paragraph="1" remarks="0.16" />
+      <extra deprel="aux" edeps="null" feats="VerbForm=Fin" head="10" lemma="will" lextag="O-AUX" misc="null" ner="O" orig_paragraph="1" remarks="0.16" smwe="null" upos="AUX" wmwe="null" word="will" xpos="MD" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="be" />
-      <extra orig_paragraph="1" remarks="0.17" />
+      <extra deprel="cop" edeps="null" feats="VerbForm=Inf" head="10" lemma="be" lextag="O-V-v.stative" misc="null" ner="O" orig_paragraph="1" remarks="0.17" smwe="null" upos="VERB" wmwe="null" word="be" xpos="VB" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="terrible" />
-      <extra orig_paragraph="1" remarks="0.18" />
+      <extra deprel="advcl" edeps="null" feats="Degree=Pos" head="5" lemma="terrible" lextag="O-ADJ" misc="null" ner="O" orig_paragraph="1" remarks="0.18" smwe="null" upos="ADJ" wmwe="null" word="terrible" xpos="JJ" />
     </node>
     <node ID="0.11" type="Punctuation">
       <attributes paragraph="1" paragraph_position="11" text="." />
-      <extra orig_paragraph="1" remarks="0.19" />
+      <extra deprel="punct" edeps="null" feats="null" head="5" lemma="." lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.19" smwe="null" upos="PUNCT" wmwe="null" word="." xpos="." />
     </node>
   </layer>
   <layer layerID="1">

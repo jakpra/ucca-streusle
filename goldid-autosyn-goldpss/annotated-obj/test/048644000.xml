@@ -5,35 +5,35 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Do" />
-      <extra orig_paragraph="1" remarks="0.1" />
+      <extra deprel="aux" edeps="null" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="3" lemma="do" lextag="B-AUX" misc="null" ner="O" orig_paragraph="1" remarks="0.1" smwe="null" upos="AUX" wmwe="[1, 1]" word="Do" xpos="VBP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="n't" />
-      <extra orig_paragraph="1" remarks="0.2" />
+      <extra deprel="neg" edeps="null" feats="null" head="3" lemma="not" lextag="I~-ADV" misc="null" ner="O" orig_paragraph="1" remarks="0.2" smwe="null" upos="PART" wmwe="[1, 2]" word="n't" xpos="RB" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="judge" />
-      <extra orig_paragraph="1" remarks="0.3" />
+      <extra deprel="root" edeps="null" feats="VerbForm=Inf" head="0" lemma="judge" lextag="I~-V-v.cognition" misc="null" ner="O" orig_paragraph="1" remarks="0.3" smwe="null" upos="VERB" wmwe="[1, 3]" word="judge" xpos="VB" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="a" />
-      <extra orig_paragraph="1" remarks="0.4" />
+      <extra deprel="det" edeps="null" feats="Definite=Ind|PronType=Art" head="5" lemma="a" lextag="I~-DET" misc="null" ner="O" orig_paragraph="1" remarks="0.4" smwe="null" upos="DET" wmwe="[1, 4]" word="a" xpos="DT" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="book" />
-      <extra orig_paragraph="1" remarks="0.5" />
+      <extra deprel="nsubj" edeps="null" feats="Number=Sing" head="3" lemma="book" lextag="I~-N-n.ARTIFACT" misc="null" ner="O" orig_paragraph="1" remarks="0.5" smwe="null" upos="NOUN" wmwe="[1, 5]" word="book" xpos="NN" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="by" />
-      <extra orig_paragraph="1" remarks="0.6" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="5" govlemma="book" head="8" lemma="by" lexcat="P" lexlemma="by" lextag="I~-P-p.Instrument" local_gov="5" local_obj="8" local_toknums="6" misc="null" ner="O" obj="8" objlemma="cover" orig_paragraph="1" remarks="0.6" smwe="null" toknums="6" upos="ADP" wmwe="[1, 6]" word="by" xpos="IN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="its" />
-      <extra orig_paragraph="1" remarks="0.7" />
+      <extra config="possessive" deprel="nmod:poss" edeps="null" feats="Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs" gov="8" govlemma="cover" head="8" lemma="its" lexcat="PRON.POSS" lexlemma="its" lextag="I~-PRON.POSS-p.Whole|p.Gestalt" local_gov="8" local_toknums="7" misc="null" ner="O" obj="null" objlemma="null" orig_paragraph="1" remarks="0.7" smwe="null" ss="p.Whole" ss2="p.Gestalt" toknums="7" upos="PRON" wmwe="[1, 7]" word="its" xpos="PRP$" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="cover" />
-      <extra orig_paragraph="1" remarks="0.8" />
+      <extra deprel="nmod" edeps="null" feats="Number=Sing" head="5" lemma="cover" lextag="I~-N-n.ARTIFACT" misc="null" ner="O" orig_paragraph="1" remarks="0.8" smwe="null" ss="p.Instrument" ss2="p.Instrument" upos="NOUN" wmwe="[1, 8]" word="cover" xpos="NN" />
     </node>
   </layer>
   <layer layerID="1">

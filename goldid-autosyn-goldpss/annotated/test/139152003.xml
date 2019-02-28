@@ -1,0 +1,78 @@
+<root annotationID="0" passageID="139152003">
+  <attributes annotationID="2818" passageID="212" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="1" text="-" />
+      <extra deprel="punct" edeps="null" feats="null" head="6" lemma="-" lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.12" smwe="null" upos="PUNCT" wmwe="null" word="-" xpos=":" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Shree" />
+      <extra deprel="compound" edeps="null" feats="Number=Sing" head="6" lemma="Shree" lextag="B-N-n.GROUP" misc="null" ner="PERSON" orig_paragraph="1" remarks="0.13" smwe="[1, 1]" upos="PROPN" wmwe="null" word="Shree" xpos="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Ghatkopar" />
+      <extra deprel="compound" edeps="null" feats="Number=Sing" head="6" lemma="Ghatkopar" lextag="I_" misc="null" ner="PERSON" orig_paragraph="1" remarks="0.14" smwe="[1, 2]" upos="PROPN" wmwe="null" word="Ghatkopar" xpos="NNP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Bhatia" />
+      <extra deprel="compound" edeps="null" feats="Number=Sing" head="6" lemma="Bhatia" lextag="I_" misc="null" ner="PERSON" orig_paragraph="1" remarks="0.15" smwe="[1, 3]" upos="PROPN" wmwe="null" word="Bhatia" xpos="NNP" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="Mitra" />
+      <extra deprel="compound" edeps="null" feats="Number=Sing" head="6" lemma="Mitra" lextag="I_" misc="null" ner="PERSON" orig_paragraph="1" remarks="0.16" smwe="[1, 4]" upos="PROPN" wmwe="null" word="Mitra" xpos="NNP" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="Mandal" />
+      <extra deprel="root" edeps="null" feats="Number=Sing" head="0" lemma="Mandal" lextag="I_" misc="null" ner="PERSON" orig_paragraph="1" remarks="0.17" smwe="[1, 5]" upos="PROPN" wmwe="null" word="Mandal" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.14" tree_id="4" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <extra remarks="1.18" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

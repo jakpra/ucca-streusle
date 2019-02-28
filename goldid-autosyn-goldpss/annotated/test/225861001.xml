@@ -5,67 +5,67 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="My" />
-      <extra orig_paragraph="1" remarks="0.5" />
+      <extra config="possessive" deprel="nmod:poss" edeps="null" feats="Number=Sing|Person=1|Poss=Yes|PronType=Prs" gov="6" govlemma="daughter" head="2" lemma="my" lexcat="PRON.POSS" lexlemma="my" lextag="O-PRON.POSS-p.SocialRel|p.Gestalt" local_gov="2" local_toknums="1" misc="null" ner="O" obj="null" objlemma="null" orig_paragraph="1" remarks="0.5" smwe="null" ss="p.SocialRel" ss2="p.Gestalt" toknums="5" upos="PRON" wmwe="null" word="My" xpos="PRP$" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="daughter" />
-      <extra orig_paragraph="1" remarks="0.6" />
+      <extra deprel="nsubj" edeps="null" feats="Number=Sing" head="5" lemma="daughter" lextag="O-N-n.PERSON" misc="null" ner="O" orig_paragraph="1" remarks="0.6" smwe="null" upos="NOUN" wmwe="null" word="daughter" xpos="NN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="and" />
-      <extra orig_paragraph="1" remarks="0.7" />
+      <extra deprel="cc" edeps="null" feats="null" head="2" lemma="and" lextag="O-CCONJ" misc="null" ner="O" orig_paragraph="1" remarks="0.7" smwe="null" upos="CONJ" wmwe="null" word="and" xpos="CC" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="I" />
-      <extra orig_paragraph="1" remarks="0.8" />
+      <extra deprel="conj" edeps="null" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="2" lemma="I" lextag="O-PRON" misc="null" ner="O" orig_paragraph="1" remarks="0.8" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="stayed" />
-      <extra orig_paragraph="1" remarks="0.9" />
+      <extra deprel="root" edeps="null" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="stay" lextag="O-V-v.social" misc="null" ner="O" orig_paragraph="1" remarks="0.9" smwe="null" upos="VERB" wmwe="null" word="stayed" xpos="VBD" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="here" />
-      <extra orig_paragraph="1" remarks="0.10" />
+      <extra deprel="advmod" edeps="null" feats="PronType=Dem" head="5" lemma="here" lextag="O-ADV" misc="null" ner="O" orig_paragraph="1" remarks="0.10" smwe="null" upos="ADV" wmwe="null" word="here" xpos="RB" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="again" />
-      <extra orig_paragraph="1" remarks="0.11" />
+      <extra deprel="advmod" edeps="null" feats="null" head="5" lemma="again" lextag="O-ADV" misc="null" ner="O" orig_paragraph="1" remarks="0.11" smwe="null" upos="ADV" wmwe="null" word="again" xpos="RB" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="from" />
-      <extra orig_paragraph="1" remarks="0.12" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="9" govlemma="stay" head="10" lemma="from" lexcat="P" lexlemma="from" lextag="O-P-p.StartTime" local_gov="5" local_obj="10" local_toknums="8" misc="null" ner="O" obj="14" objlemma="7th" orig_paragraph="1" remarks="0.12" smwe="null" ss="p.StartTime" ss2="p.StartTime" toknums="12" upos="ADP" wmwe="null" word="from" xpos="IN" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="the" />
-      <extra orig_paragraph="1" remarks="0.13" />
+      <extra deprel="det" edeps="null" feats="Definite=Def|PronType=Art" head="10" lemma="the" lextag="O-DET" misc="null" ner="O" orig_paragraph="1" remarks="0.13" smwe="null" upos="DET" wmwe="null" word="the" xpos="DT" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="7th" />
-      <extra orig_paragraph="1" remarks="0.14" />
+      <extra deprel="nmod" edeps="null" feats="Degree=Pos|NumType=Ord" head="5" lemma="7th" lextag="O-N-n.EVENT" misc="null" ner="ORDINAL" orig_paragraph="1" remarks="0.14" smwe="null" upos="ADJ" wmwe="null" word="7th" xpos="JJ" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="to" />
-      <extra orig_paragraph="1" remarks="0.15" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="9" govlemma="stay" head="13" lemma="to" lexcat="P" lexlemma="to" lextag="O-P-p.EndTime" local_gov="5" local_obj="13" local_toknums="11" misc="null" ner="O" obj="17" objlemma="14th" orig_paragraph="1" remarks="0.15" smwe="null" ss="p.EndTime" ss2="p.EndTime" toknums="15" upos="ADP" wmwe="null" word="to" xpos="TO" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="the" />
-      <extra orig_paragraph="1" remarks="0.16" />
+      <extra deprel="det" edeps="null" feats="Definite=Def|PronType=Art" head="13" lemma="the" lextag="O-DET" misc="null" ner="DATE" orig_paragraph="1" remarks="0.16" smwe="null" upos="DET" wmwe="null" word="the" xpos="DT" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="14th" />
-      <extra orig_paragraph="1" remarks="0.17" />
+      <extra deprel="nmod" edeps="null" feats="Degree=Pos|NumType=Ord" head="5" lemma="14th" lextag="O-N-n.EVENT" misc="null" ner="DATE" orig_paragraph="1" remarks="0.17" smwe="null" upos="ADJ" wmwe="null" word="14th" xpos="JJ" />
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="of" />
-      <extra orig_paragraph="1" remarks="0.18" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="17" govlemma="14th" head="15" lemma="of" lexcat="P" lexlemma="of" lextag="O-P-p.Time|p.Whole" local_gov="13" local_obj="15" local_toknums="14" misc="null" ner="DATE" obj="19" objlemma="December" orig_paragraph="1" remarks="0.18" smwe="null" ss="p.Time" ss2="p.Whole" toknums="18" upos="ADP" wmwe="null" word="of" xpos="IN" />
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="December" />
-      <extra orig_paragraph="1" remarks="0.19" />
+      <extra deprel="nmod" edeps="null" feats="Number=Sing" head="13" lemma="December" lextag="O-N-n.TIME" misc="null" ner="DATE" orig_paragraph="1" remarks="0.19" smwe="null" upos="PROPN" wmwe="null" word="December" xpos="NNP" />
     </node>
     <node ID="0.16" type="Punctuation">
       <attributes paragraph="1" paragraph_position="16" text="." />
-      <extra orig_paragraph="1" remarks="0.20" />
+      <extra deprel="punct" edeps="null" feats="null" head="5" lemma="." lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.20" smwe="null" upos="PUNCT" wmwe="null" word="." xpos="." />
     </node>
   </layer>
   <layer layerID="1">

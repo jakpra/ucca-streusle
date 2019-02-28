@@ -5,55 +5,55 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="I" />
-      <extra orig_paragraph="1" remarks="0.1" />
+      <extra deprel="nsubj" edeps="null" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="2" lemma="I" lextag="O-PRON" misc="null" ner="O" orig_paragraph="1" remarks="0.1" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="gave" />
-      <extra orig_paragraph="1" remarks="0.2" />
+      <extra deprel="root" edeps="null" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="give" lextag="O-V-v.stative" misc="null" ner="O" orig_paragraph="1" remarks="0.2" smwe="null" upos="VERB" wmwe="null" word="gave" xpos="VBD" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="Dr." />
-      <extra orig_paragraph="1" remarks="0.3" />
+      <extra deprel="compound" edeps="null" feats="Number=Sing" head="4" lemma="Dr." lextag="B-N-n.PERSON" misc="null" ner="O" orig_paragraph="1" remarks="0.3" smwe="null" upos="PROPN" wmwe="null" word="Dr." xpos="NNP" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Rohatgi" />
-      <extra orig_paragraph="1" remarks="0.4" />
+      <extra deprel="iobj" edeps="null" feats="Number=Sing" head="2" lemma="Rohatgi" lextag="I_" misc="null" ner="PERSON" orig_paragraph="1" remarks="0.4" smwe="null" upos="PROPN" wmwe="null" word="Rohatgi" xpos="NNP" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="2" />
-      <extra orig_paragraph="1" remarks="0.5" />
+      <extra deprel="nummod" edeps="null" feats="NumType=Card" head="6" lemma="2" lextag="B-N-n.COMMUNICATION" misc="null" ner="NUMBER" orig_paragraph="1" remarks="0.5" smwe="null" upos="NUM" wmwe="null" word="2" xpos="CD" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="stars" />
-      <extra orig_paragraph="1" remarks="0.6" />
+      <extra deprel="dobj" edeps="null" feats="Number=Plur" head="2" lemma="star" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.6" smwe="null" upos="NOUN" wmwe="null" word="stars" xpos="NNS" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="because" />
-      <extra orig_paragraph="1" remarks="0.7" />
+      <extra deprel="mark" edeps="null" feats="null" head="12" lemma="because" lextag="O-SCONJ" misc="null" ner="O" orig_paragraph="1" remarks="0.7" smwe="null" upos="SCONJ" wmwe="null" word="because" xpos="IN" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="her" />
-      <extra orig_paragraph="1" remarks="0.8" />
+      <extra config="possessive" deprel="nmod:poss" edeps="null" feats="Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs" gov="9" govlemma="assistant" head="9" lemma="she" lexcat="PRON.POSS" lexlemma="she" lextag="O-PRON.POSS-p.SocialRel|p.Gestalt" local_gov="9" local_toknums="8" misc="null" ner="O" obj="null" objlemma="null" orig_paragraph="1" remarks="0.8" smwe="null" ss="p.SocialRel" ss2="p.Gestalt" toknums="8" upos="PRON" wmwe="null" word="her" xpos="PRP$" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="assistant" />
-      <extra orig_paragraph="1" remarks="0.9" />
+      <extra deprel="nsubj" edeps="null" feats="Number=Sing" head="12" lemma="assistant" lextag="O-N-n.PERSON" misc="null" ner="O" orig_paragraph="1" remarks="0.9" smwe="null" upos="NOUN" wmwe="null" word="assistant" xpos="NN" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="was" />
-      <extra orig_paragraph="1" remarks="0.10" />
+      <extra deprel="cop" edeps="null" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="12" lemma="be" lextag="O-V-v.stative" misc="null" ner="O" orig_paragraph="1" remarks="0.10" smwe="null" upos="VERB" wmwe="null" word="was" xpos="VBD" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="very" />
-      <extra orig_paragraph="1" remarks="0.11" />
+      <extra deprel="advmod" edeps="null" feats="null" head="12" lemma="very" lextag="O-ADV" misc="null" ner="O" orig_paragraph="1" remarks="0.11" smwe="null" upos="ADV" wmwe="null" word="very" xpos="RB" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="pleasant" />
-      <extra orig_paragraph="1" remarks="0.12" />
+      <extra deprel="advcl" edeps="null" feats="Degree=Pos" head="2" lemma="pleasant" lextag="O-ADJ" misc="null" ner="O" orig_paragraph="1" remarks="0.12" smwe="null" upos="ADJ" wmwe="null" word="pleasant" xpos="JJ" />
     </node>
     <node ID="0.13" type="Punctuation">
       <attributes paragraph="1" paragraph_position="13" text="." />
-      <extra orig_paragraph="1" remarks="0.13" />
+      <extra deprel="punct" edeps="null" feats="null" head="2" lemma="." lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.13" smwe="null" upos="PUNCT" wmwe="null" word="." xpos="." />
     </node>
   </layer>
   <layer layerID="1">

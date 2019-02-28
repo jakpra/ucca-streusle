@@ -5,55 +5,55 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Nothing" />
-      <extra orig_paragraph="1" remarks="0.15" />
+      <extra deprel="root" edeps="null" feats="Number=Sing" head="0" lemma="nothing" lextag="O-PRON" misc="null" ner="O" orig_paragraph="1" remarks="0.15" smwe="null" upos="PRON" wmwe="null" word="Nothing" xpos="NN" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="too" />
-      <extra orig_paragraph="1" remarks="0.16" />
+      <extra deprel="advmod" edeps="null" feats="null" head="3" lemma="too" lextag="B-ADJ" misc="null" ner="O" orig_paragraph="1" remarks="0.16" smwe="[1, 1]" upos="ADV" wmwe="null" word="too" xpos="RB" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="much" />
-      <extra orig_paragraph="1" remarks="0.17" />
+      <extra deprel="amod" edeps="null" feats="Degree=Pos" head="4" lemma="much" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.17" smwe="[1, 2]" upos="ADJ" wmwe="null" word="much" xpos="JJ" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="trouble" />
-      <extra orig_paragraph="1" remarks="0.18" />
+      <extra deprel="dep" edeps="null" feats="Number=Sing" head="1" lemma="trouble" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.18" smwe="[1, 3]" upos="NOUN" wmwe="null" word="trouble" xpos="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="for" />
-      <extra orig_paragraph="1" remarks="0.19" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="18" govlemma="trouble" head="6" lemma="for" lexcat="P" lexlemma="for" lextag="O-P-p.Experiencer|p.Beneficiary" local_gov="4" local_obj="6" local_toknums="5" misc="null" ner="O" obj="20" objlemma="Ian" orig_paragraph="1" remarks="0.19" smwe="null" toknums="19" upos="ADP" wmwe="null" word="for" xpos="IN" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="Ian" />
-      <extra orig_paragraph="1" remarks="0.20" />
+      <extra deprel="nmod" edeps="null" feats="Number=Sing" head="4" lemma="Ian" lextag="O-N-n.PERSON" misc="null" ner="PERSON" orig_paragraph="1" remarks="0.20" smwe="null" ss="p.Experiencer" ss2="p.Beneficiary" upos="PROPN" wmwe="null" word="Ian" xpos="NNP" />
     </node>
     <node ID="0.7" type="Punctuation">
       <attributes paragraph="1" paragraph_position="7" text="," />
-      <extra orig_paragraph="1" remarks="0.21" />
+      <extra deprel="punct" edeps="null" feats="null" head="6" lemma="," lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.21" smwe="null" upos="PUNCT" wmwe="null" word="," xpos="," />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="thanks" />
-      <extra orig_paragraph="1" remarks="0.22" />
+      <extra deprel="appos" edeps="null" feats="Number=Plur" head="6" lemma="thanks" lextag="O-DISC" misc="null" ner="O" orig_paragraph="1" remarks="0.22" smwe="null" upos="NOUN" wmwe="null" word="thanks" xpos="NNS" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="for" />
-      <extra orig_paragraph="1" remarks="0.23" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="22" govlemma="thanks" head="12" lemma="for" lexcat="P" lexlemma="for" lextag="O-P-p.Explanation" local_gov="8" local_obj="12" local_toknums="9" misc="null" ner="O" obj="26" objlemma="stay" orig_paragraph="1" remarks="0.23" smwe="null" toknums="23" upos="ADP" wmwe="null" word="for" xpos="IN" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="a" />
-      <extra orig_paragraph="1" remarks="0.24" />
+      <extra deprel="det" edeps="null" feats="Definite=Ind|PronType=Art" head="12" lemma="a" lextag="O-DET" misc="null" ner="O" orig_paragraph="1" remarks="0.24" smwe="null" upos="DET" wmwe="null" word="a" xpos="DT" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="great" />
-      <extra orig_paragraph="1" remarks="0.25" />
+      <extra deprel="amod" edeps="null" feats="Degree=Pos" head="12" lemma="great" lextag="O-ADJ" misc="null" ner="O" orig_paragraph="1" remarks="0.25" smwe="null" upos="ADJ" wmwe="null" word="great" xpos="JJ" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="stay" />
-      <extra orig_paragraph="1" remarks="0.26" />
+      <extra deprel="nmod" edeps="null" feats="Number=Sing" head="8" lemma="stay" lextag="O-N-n.EVENT" misc="null" ner="O" orig_paragraph="1" remarks="0.26" smwe="null" ss="p.Explanation" ss2="p.Explanation" upos="NOUN" wmwe="null" word="stay" xpos="NN" />
     </node>
     <node ID="0.13" type="Punctuation">
       <attributes paragraph="1" paragraph_position="13" text="." />
-      <extra orig_paragraph="1" remarks="0.27" />
+      <extra deprel="punct" edeps="null" feats="null" head="1" lemma="." lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.27" smwe="null" upos="PUNCT" wmwe="null" word="." xpos="." />
     </node>
   </layer>
   <layer layerID="1">

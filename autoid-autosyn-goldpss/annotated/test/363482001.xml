@@ -5,59 +5,59 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="How" />
-      <extra orig_paragraph="1" remarks="0.10" />
+      <extra deprel="advmod" edeps="null" feats="PronType=Int" head="4" lemma="how" lextag="O-ADV" misc="null" ner="O" orig_paragraph="1" remarks="0.10" smwe="null" upos="ADV" wmwe="null" word="How" xpos="WRB" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="do" />
-      <extra orig_paragraph="1" remarks="0.11" />
+      <extra deprel="aux" edeps="null" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="4" lemma="do" lextag="O-AUX" misc="null" ner="O" orig_paragraph="1" remarks="0.11" smwe="null" upos="AUX" wmwe="null" word="do" xpos="VBP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="you" />
-      <extra orig_paragraph="1" remarks="0.12" />
+      <extra deprel="nsubj" edeps="null" feats="Case=Nom|Person=2|PronType=Prs" head="4" lemma="you" lextag="O-PRON" misc="null" ner="O" orig_paragraph="1" remarks="0.12" smwe="null" upos="PRON" wmwe="null" word="you" xpos="PRP" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="run" />
-      <extra orig_paragraph="1" remarks="0.13" />
+      <extra deprel="root" edeps="null" feats="VerbForm=Inf" head="0" lemma="run" lextag="O-V-v.social" misc="null" ner="O" orig_paragraph="1" remarks="0.13" smwe="null" upos="VERB" wmwe="null" word="run" xpos="VB" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="a" />
-      <extra orig_paragraph="1" remarks="0.14" />
+      <extra deprel="det" edeps="null" feats="Definite=Ind|PronType=Art" head="6" lemma="a" lextag="O-DET" misc="null" ner="O" orig_paragraph="1" remarks="0.14" smwe="null" upos="DET" wmwe="null" word="a" xpos="DT" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="cafe" />
-      <extra orig_paragraph="1" remarks="0.15" />
+      <extra deprel="dep" edeps="null" feats="Number=Sing" head="4" lemma="cafe" lextag="O-N-n.GROUP" misc="null" ner="O" orig_paragraph="1" remarks="0.15" smwe="null" upos="NOUN" wmwe="null" word="cafe" xpos="NN" />
     </node>
     <node ID="0.7" type="Punctuation">
       <attributes paragraph="1" paragraph_position="7" text="," />
-      <extra orig_paragraph="1" remarks="0.16" />
+      <extra deprel="punct" edeps="null" feats="null" head="6" lemma="," lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.16" smwe="null" upos="PUNCT" wmwe="null" word="," xpos="," />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="with" />
-      <extra orig_paragraph="1" remarks="0.17" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="15" govlemma="cafe" head="10" lemma="with" lexcat="P" lexlemma="with" lextag="O-P-p.Manner" local_gov="6" local_obj="10" local_toknums="8" misc="null" ner="O" obj="19" objlemma="refill" orig_paragraph="1" remarks="0.17" smwe="null" ss="p.Manner" ss2="p.Manner" toknums="17" upos="ADP" wmwe="null" word="with" xpos="IN" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="no" />
-      <extra orig_paragraph="1" remarks="0.18" />
+      <extra deprel="neg" edeps="null" feats="null" head="10" lemma="no" lextag="O-DET" misc="null" ner="O" orig_paragraph="1" remarks="0.18" smwe="null" upos="DET" wmwe="null" word="no" xpos="DT" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="refills" />
-      <extra orig_paragraph="1" remarks="0.19" />
+      <extra deprel="nmod" edeps="null" feats="Number=Plur" head="6" lemma="refill" lextag="O-N-n.ACT" misc="null" ner="O" orig_paragraph="1" remarks="0.19" smwe="null" upos="NOUN" wmwe="null" word="refills" xpos="NNS" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="on" />
-      <extra orig_paragraph="1" remarks="0.20" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="19" govlemma="refill" head="12" lemma="on" lexcat="P" lexlemma="on" lextag="O-P-p.Theme" local_gov="10" local_obj="12" local_toknums="11" misc="null" ner="O" obj="21" objlemma="coffee" orig_paragraph="1" remarks="0.20" smwe="null" ss="p.Theme" ss2="p.Theme" toknums="20" upos="ADP" wmwe="null" word="on" xpos="IN" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="coffee" />
-      <extra orig_paragraph="1" remarks="0.21" />
+      <extra deprel="nmod" edeps="null" feats="Number=Sing" head="10" lemma="coffee" lextag="O-N-n.FOOD" misc="null" ner="O" orig_paragraph="1" remarks="0.21" smwe="null" upos="NOUN" wmwe="null" word="coffee" xpos="NN" />
     </node>
     <node ID="0.13" type="Punctuation">
       <attributes paragraph="1" paragraph_position="13" text="-" />
-      <extra orig_paragraph="1" remarks="0.22" />
+      <extra deprel="punct" edeps="null" feats="null" head="6" lemma="-" lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.22" smwe="null" upos="PUNCT" wmwe="null" word="-" xpos=":" />
     </node>
     <node ID="0.14" type="Punctuation">
       <attributes paragraph="1" paragraph_position="14" text="?" />
-      <extra orig_paragraph="1" remarks="0.23" />
+      <extra deprel="punct" edeps="null" feats="null" head="4" lemma="?" lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.23" smwe="null" upos="PUNCT" wmwe="null" word="?" xpos="." />
     </node>
   </layer>
   <layer layerID="1">

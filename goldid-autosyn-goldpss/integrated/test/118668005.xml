@@ -1,0 +1,119 @@
+<root annotationID="0" passageID="118668005">
+  <attributes annotationID="2608" passageID="138" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Best" />
+      <extra deprel="root" edeps="null" feats="Number=Sing" head="0" lemma="best" lextag="O-ADJ" misc="null" ner="O" orig_paragraph="1" remarks="0.51" smwe="null" upos="NOUN" wmwe="null" word="Best" xpos="NN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="in" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="51" govlemma="best" head="3" lemma="in" lexcat="P" lexlemma="in" lextag="O-P-p.Whole|p.Locus" local_gov="1" local_obj="3" local_toknums="2" misc="null" ner="O" obj="53" objlemma="hr" orig_paragraph="1" remarks="0.52" smwe="null" ss="p.Whole" ss2="p.Locus" toknums="52" upos="ADP" wmwe="null" word="in" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="HR" />
+      <extra deprel="nmod" edeps="null" feats="Number=Sing" head="1" lemma="hr" lextag="O-N-n.LOCATION" misc="null" ner="DURATION" orig_paragraph="1" remarks="0.53" smwe="null" upos="NOUN" wmwe="null" word="HR" xpos="NN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="so" />
+      <extra deprel="advmod" edeps="null" feats="null" head="5" lemma="so" lextag="B-ADV" misc="null" ner="O" orig_paragraph="1" remarks="0.54" smwe="[1, 1]" upos="ADV" wmwe="null" word="so" xpos="RB" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="far" />
+      <extra deprel="advmod" edeps="null" feats="Degree=Pos" head="1" lemma="far" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.55" smwe="[1, 2]" upos="ADV" wmwe="null" word="far" xpos="RB" />
+    </node>
+    <node ID="0.6" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="6" text="!" />
+      <extra deprel="punct" edeps="null" feats="null" head="1" lemma="!" lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.56" smwe="null" upos="PUNCT" wmwe="null" word="!" xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.60" tree_id="12" />
+      <edge toID="1.3" type="D">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="D" />
+      </edge>
+      <edge toID="1.4" type="P">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="P" />
+        <category parent_name="P" tag="p.Whole" />
+      </edge>
+      <edge toID="1.5" type="T">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="T" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <extra remarks="1.61" tree_id="12-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra remarks="1.62" tree_id="12-2" />
+      <edge toID="1.7" type="R">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+      </edge>
+      <edge toID="1.8" type="C">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="C" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra remarks="1.65" tree_id="12-3" />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <extra remarks="1.76" />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <extra remarks="1.63" tree_id="12-2-1" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <extra remarks="1.64" tree_id="12-2-2" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -5,51 +5,51 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Fried" />
-      <extra orig_paragraph="1" remarks="0.4" />
+      <extra deprel="compound" edeps="null" feats="Number=Sing" head="2" lemma="Fried" lextag="B-N-n.FOOD" misc="null" ner="O" orig_paragraph="1" remarks="0.4" smwe="[1, 1]" upos="PROPN" wmwe="null" word="Fried" xpos="NNP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="rice" />
-      <extra orig_paragraph="1" remarks="0.5" />
+      <extra deprel="nsubj" edeps="null" feats="Number=Sing" head="3" lemma="rice" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.5" smwe="[1, 2]" upos="NOUN" wmwe="null" word="rice" xpos="NN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="has" />
-      <extra orig_paragraph="1" remarks="0.6" />
+      <extra deprel="ccomp" edeps="null" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="9" lemma="have" lextag="O-V-v.stative" misc="null" ner="O" orig_paragraph="1" remarks="0.6" smwe="null" upos="VERB" wmwe="null" word="has" xpos="VBZ" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="NO" />
-      <extra orig_paragraph="1" remarks="0.7" />
+      <extra deprel="compound" edeps="null" feats="Number=Sing" head="5" lemma="no" lextag="O-DET" misc="null" ner="O" orig_paragraph="1" remarks="0.7" smwe="null" upos="NOUN" wmwe="null" word="NO" xpos="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="flavor" />
-      <extra orig_paragraph="1" remarks="0.8" />
+      <extra deprel="dobj" edeps="null" feats="Number=Sing" head="3" lemma="flavor" lextag="O-N-n.COGNITION" misc="null" ner="O" orig_paragraph="1" remarks="0.8" smwe="null" upos="NOUN" wmwe="null" word="flavor" xpos="NN" />
     </node>
     <node ID="0.6" type="Punctuation">
       <attributes paragraph="1" paragraph_position="6" text="," />
-      <extra orig_paragraph="1" remarks="0.9" />
+      <extra deprel="punct" edeps="null" feats="null" head="9" lemma="," lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.9" smwe="null" upos="PUNCT" wmwe="null" word="," xpos="," />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="it" />
-      <extra orig_paragraph="1" remarks="0.10" />
+      <extra deprel="nsubj" edeps="null" feats="Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" head="9" lemma="it" lextag="O-PRON" misc="null" ner="O" orig_paragraph="1" remarks="0.10" smwe="null" upos="PRON" wmwe="null" word="it" xpos="PRP" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="literally" />
-      <extra orig_paragraph="1" remarks="0.11" />
+      <extra deprel="advmod" edeps="null" feats="null" head="9" lemma="literally" lextag="O-ADV" misc="null" ner="O" orig_paragraph="1" remarks="0.11" smwe="null" upos="ADV" wmwe="null" word="literally" xpos="RB" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="taste" />
-      <extra orig_paragraph="1" remarks="0.12" />
+      <extra deprel="root" edeps="null" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="taste" lextag="O-V-v.perception" misc="null" ner="O" orig_paragraph="1" remarks="0.12" smwe="null" upos="VERB" wmwe="null" word="taste" xpos="VBP" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="like" />
-      <extra orig_paragraph="1" remarks="0.13" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="12" govlemma="taste" head="11" lemma="like" lexcat="P" lexlemma="like" lextag="O-P-p.ComparisonRef" local_gov="9" local_obj="11" local_toknums="10" misc="null" ner="O" obj="14" objlemma="water" orig_paragraph="1" remarks="0.13" smwe="null" toknums="13" upos="ADP" wmwe="null" word="like" xpos="IN" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="water" />
-      <extra orig_paragraph="1" remarks="0.14" />
+      <extra deprel="nmod" edeps="null" feats="Number=Sing" head="9" lemma="water" lextag="O-N-n.FOOD" misc="null" ner="O" orig_paragraph="1" remarks="0.14" smwe="null" ss="p.ComparisonRef" ss2="p.ComparisonRef" upos="NOUN" wmwe="null" word="water" xpos="NN" />
     </node>
     <node ID="0.12" type="Punctuation">
       <attributes paragraph="1" paragraph_position="12" text="." />
-      <extra orig_paragraph="1" remarks="0.15" />
+      <extra deprel="punct" edeps="null" feats="null" head="9" lemma="." lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.15" smwe="null" upos="PUNCT" wmwe="null" word="." xpos="." />
     </node>
   </layer>
   <layer layerID="1">

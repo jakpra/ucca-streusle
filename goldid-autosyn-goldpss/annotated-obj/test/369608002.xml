@@ -5,47 +5,47 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="This" />
-      <extra orig_paragraph="1" remarks="0.20" />
+      <extra deprel="nsubj" edeps="null" feats="Number=Sing|PronType=Dem" head="8" lemma="this" lextag="O-PRON" misc="null" ner="O" orig_paragraph="1" remarks="0.20" smwe="null" upos="PRON" wmwe="null" word="This" xpos="DT" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="is" />
-      <extra orig_paragraph="1" remarks="0.21" />
+      <extra deprel="cop" edeps="null" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="8" lemma="be" lextag="O-V-v.stative" misc="null" ner="O" orig_paragraph="1" remarks="0.21" smwe="null" upos="VERB" wmwe="null" word="is" xpos="VBZ" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="by" />
-      <extra orig_paragraph="1" remarks="0.22" />
+      <extra config="predicative" deprel="case" edeps="null" feats="null" gov="20" govlemma="this" head="8" lemma="by" lexcat="PP" lexlemma="by far" lextag="B-PP-p.Extent" local_gov="1" local_obj="8" local_toknums="3 4" misc="null" ner="O" obj="27" objlemma="dealership" orig_paragraph="1" remarks="0.22" smwe="[1, 1]" toknums="22 23" upos="ADP" wmwe="null" word="by" xpos="IN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="far" />
-      <extra orig_paragraph="1" remarks="0.23" />
+      <extra deprel="advmod" edeps="null" feats="Degree=Pos" head="8" lemma="far" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.23" smwe="[1, 2]" upos="ADV" wmwe="null" word="far" xpos="RB" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="the" />
-      <extra orig_paragraph="1" remarks="0.24" />
+      <extra deprel="det" edeps="null" feats="Definite=Def|PronType=Art" head="8" lemma="the" lextag="O-DET" misc="null" ner="O" orig_paragraph="1" remarks="0.24" smwe="null" upos="DET" wmwe="null" word="the" xpos="DT" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="best" />
-      <extra orig_paragraph="1" remarks="0.25" />
+      <extra deprel="amod" edeps="null" feats="Degree=Sup" head="8" lemma="best" lextag="O-ADV" misc="null" ner="O" orig_paragraph="1" remarks="0.25" smwe="null" upos="ADJ" wmwe="null" word="best" xpos="JJS" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="run" />
-      <extra orig_paragraph="1" remarks="0.26" />
+      <extra deprel="compound" edeps="null" feats="Number=Sing" head="8" lemma="run" lextag="O-V-v.social" misc="null" ner="O" orig_paragraph="1" remarks="0.26" smwe="null" upos="NOUN" wmwe="null" word="run" xpos="NN" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="dealership" />
-      <extra orig_paragraph="1" remarks="0.27" />
+      <extra deprel="root" edeps="null" feats="Number=Sing" head="0" lemma="dealership" lextag="O-N-n.GROUP" misc="null" ner="O" orig_paragraph="1" remarks="0.27" smwe="null" ss="p.Extent" ss2="p.Extent" upos="NOUN" wmwe="null" word="dealership" xpos="NN" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="in" />
-      <extra orig_paragraph="1" remarks="0.28" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="27" govlemma="dealership" head="10" lemma="in" lexcat="P" lexlemma="in" lextag="O-P-p.Locus" local_gov="8" local_obj="10" local_toknums="9" misc="null" ner="O" obj="29" objlemma="Miami" orig_paragraph="1" remarks="0.28" smwe="null" toknums="28" upos="ADP" wmwe="null" word="in" xpos="IN" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="Miami" />
-      <extra orig_paragraph="1" remarks="0.29" />
+      <extra deprel="nmod" edeps="null" feats="Number=Sing" head="8" lemma="Miami" lextag="O-N-n.LOCATION" misc="null" ner="LOCATION" orig_paragraph="1" remarks="0.29" smwe="null" ss="p.Locus" ss2="p.Locus" upos="PROPN" wmwe="null" word="Miami" xpos="NNP" />
     </node>
     <node ID="0.11" type="Punctuation">
       <attributes paragraph="1" paragraph_position="11" text="." />
-      <extra orig_paragraph="1" remarks="0.30" />
+      <extra deprel="punct" edeps="null" feats="null" head="8" lemma="." lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.30" smwe="null" upos="PUNCT" wmwe="null" word="." xpos="." />
     </node>
   </layer>
   <layer layerID="1">

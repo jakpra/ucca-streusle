@@ -5,55 +5,55 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Drove" />
-      <extra orig_paragraph="1" remarks="0.1" />
+      <extra deprel="root" edeps="null" feats="VerbForm=Inf" head="0" lemma="drive" lextag="O-V-v.motion" misc="null" ner="O" orig_paragraph="1" remarks="0.1" smwe="null" upos="VERB" wmwe="null" word="Drove" xpos="VB" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="all" />
-      <extra orig_paragraph="1" remarks="0.2" />
+      <extra deprel="det:predet" edeps="null" feats="null" head="4" lemma="all" lextag="B-!!@" misc="null" ner="O" orig_paragraph="1" remarks="0.2" smwe="null" upos="DET" wmwe="null" word="all" xpos="PDT" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="the" />
-      <extra orig_paragraph="1" remarks="0.3" />
+      <extra deprel="det" edeps="null" feats="Definite=Def|PronType=Art" head="4" lemma="the" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.3" smwe="null" upos="DET" wmwe="null" word="the" xpos="DT" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="way" />
-      <extra orig_paragraph="1" remarks="0.4" />
+      <extra deprel="dobj" edeps="null" feats="Number=Sing" head="1" lemma="way" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.4" smwe="null" upos="NOUN" wmwe="null" word="way" xpos="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="over" />
-      <extra orig_paragraph="1" remarks="0.5" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="1" govlemma="drive" head="8" lemma="over" lexcat="P" lexlemma="over" lextag="O-P-p.Direction" local_gov="1" local_obj="8" local_toknums="5" misc="null" ner="O" obj="8" objlemma="highway" orig_paragraph="1" remarks="0.5" smwe="null" ss="p.Direction" ss2="p.Direction" toknums="5" upos="ADP" wmwe="null" word="over" xpos="IN" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="from" />
-      <extra orig_paragraph="1" remarks="0.6" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="1" govlemma="drive" head="8" lemma="from" lexcat="P" lexlemma="from" lextag="O-P-p.Source" local_gov="1" local_obj="8" local_toknums="6" misc="null" ner="O" obj="8" objlemma="highway" orig_paragraph="1" remarks="0.6" smwe="null" ss="p.Source" ss2="p.Source" toknums="6" upos="ADP" wmwe="null" word="from" xpos="IN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="the" />
-      <extra orig_paragraph="1" remarks="0.7" />
+      <extra deprel="det" edeps="null" feats="Definite=Def|PronType=Art" head="8" lemma="the" lextag="O-DET" misc="null" ner="O" orig_paragraph="1" remarks="0.7" smwe="null" upos="DET" wmwe="null" word="the" xpos="DT" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="highway" />
-      <extra orig_paragraph="1" remarks="0.8" />
+      <extra deprel="nmod" edeps="null" feats="Number=Sing" head="1" lemma="highway" lextag="O-N-n.LOCATION" misc="null" ner="O" orig_paragraph="1" remarks="0.8" smwe="null" upos="NOUN" wmwe="null" word="highway" xpos="NN" />
     </node>
     <node ID="0.9" type="Punctuation">
       <attributes paragraph="1" paragraph_position="9" text="..." />
-      <extra orig_paragraph="1" remarks="0.9" />
+      <extra deprel="punct" edeps="null" feats="null" head="8" lemma="..." lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.9" smwe="null" upos="PUNCT" wmwe="null" word="..." xpos=":" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="closed" />
-      <extra orig_paragraph="1" remarks="0.10" />
+      <extra deprel="acl" edeps="null" feats="Tense=Past|VerbForm=Part" head="8" lemma="close" lextag="O-V-v.stative" misc="null" ner="O" orig_paragraph="1" remarks="0.10" smwe="null" upos="VERB" wmwe="null" word="closed" xpos="VBN" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="at" />
-      <extra orig_paragraph="1" remarks="0.11" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="10" govlemma="close" head="12" lemma="at" lexcat="P" lexlemma="at" lextag="O-P-p.Time" local_gov="10" local_obj="12" local_toknums="11" misc="null" ner="O" obj="12" objlemma="7" orig_paragraph="1" remarks="0.11" smwe="null" ss="p.Time" ss2="p.Time" toknums="11" upos="ADP" wmwe="null" word="at" xpos="IN" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="7" />
-      <extra orig_paragraph="1" remarks="0.12" />
+      <extra deprel="nmod" edeps="null" feats="NumType=Card" head="10" lemma="7" lextag="O-NUM" misc="null" ner="NUMBER" orig_paragraph="1" remarks="0.12" smwe="null" upos="NUM" wmwe="null" word="7" xpos="CD" />
     </node>
     <node ID="0.13" type="Punctuation">
       <attributes paragraph="1" paragraph_position="13" text="." />
-      <extra orig_paragraph="1" remarks="0.13" />
+      <extra deprel="punct" edeps="null" feats="null" head="1" lemma="." lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.13" smwe="null" upos="PUNCT" wmwe="null" word="." xpos="." />
     </node>
   </layer>
   <layer layerID="1">

@@ -5,43 +5,43 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Deep" />
-      <extra orig_paragraph="1" remarks="0.1" />
+      <extra deprel="amod" edeps="null" feats="Degree=Pos" head="3" lemma="deep" lextag="B-N-n.BODY" misc="null" ner="O" orig_paragraph="1" remarks="0.1" smwe="null" upos="ADJ" wmwe="null" word="Deep" xpos="JJ" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="tissue" />
-      <extra orig_paragraph="1" remarks="0.2" />
+      <extra deprel="compound" edeps="null" feats="Number=Sing" head="3" lemma="tissue" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.2" smwe="null" upos="NOUN" wmwe="null" word="tissue" xpos="NN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="massage" />
-      <extra orig_paragraph="1" remarks="0.3" />
+      <extra deprel="nsubj" edeps="null" feats="Number=Sing" head="4" lemma="massage" lextag="O-N-n.ACT" misc="null" ner="O" orig_paragraph="1" remarks="0.3" smwe="null" upos="NOUN" wmwe="null" word="massage" xpos="NN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="helps" />
-      <extra orig_paragraph="1" remarks="0.4" />
+      <extra deprel="root" edeps="null" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="0" lemma="help" lextag="O-V-v.body" misc="null" ner="O" orig_paragraph="1" remarks="0.4" smwe="null" upos="VERB" wmwe="null" word="helps" xpos="VBZ" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="with" />
-      <extra orig_paragraph="1" remarks="0.5" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="4" govlemma="help" head="6" lemma="with" lexcat="P" lexlemma="with" lextag="O-P-p.Theme" local_gov="4" local_obj="6" local_toknums="5" misc="null" ner="O" obj="6" objlemma="pain" orig_paragraph="1" remarks="0.5" smwe="null" ss="p.Theme" ss2="p.Theme" toknums="5" upos="ADP" wmwe="null" word="with" xpos="IN" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="pain" />
-      <extra orig_paragraph="1" remarks="0.6" />
+      <extra deprel="nmod" edeps="null" feats="Number=Sing" head="4" lemma="pain" lextag="O-N-n.STATE" misc="null" ner="O" orig_paragraph="1" remarks="0.6" smwe="null" upos="NOUN" wmwe="null" word="pain" xpos="NN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="in" />
-      <extra orig_paragraph="1" remarks="0.7" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="6" govlemma="pain" head="8" lemma="in" lexcat="P" lexlemma="in" lextag="O-P-p.Locus" local_gov="6" local_obj="8" local_toknums="7" misc="null" ner="O" obj="8" objlemma="neck" orig_paragraph="1" remarks="0.7" smwe="null" ss="p.Locus" ss2="p.Locus" toknums="7" upos="ADP" wmwe="null" word="in" xpos="IN" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="neck" />
-      <extra orig_paragraph="1" remarks="0.8" />
+      <extra deprel="nmod" edeps="null" feats="Number=Sing" head="6" lemma="neck" lextag="O-N-n.BODY" misc="null" ner="O" orig_paragraph="1" remarks="0.8" smwe="null" upos="NOUN" wmwe="null" word="neck" xpos="NN" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="and" />
-      <extra orig_paragraph="1" remarks="0.9" />
+      <extra deprel="cc" edeps="null" feats="null" head="8" lemma="and" lextag="O-CCONJ" misc="null" ner="O" orig_paragraph="1" remarks="0.9" smwe="null" upos="CONJ" wmwe="null" word="and" xpos="CC" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="shoulders" />
-      <extra orig_paragraph="1" remarks="0.10" />
+      <extra deprel="conj" edeps="null" feats="Number=Plur" head="8" lemma="shoulder" lextag="O-N-n.BODY" misc="null" ner="O" orig_paragraph="1" remarks="0.10" smwe="null" upos="NOUN" wmwe="null" word="shoulders" xpos="NNS" />
     </node>
   </layer>
   <layer layerID="1">

@@ -5,35 +5,35 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Do" />
-      <extra orig_paragraph="1" remarks="0.1" />
+      <extra deprel="aux" edeps="null" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="3" lemma="do" lextag="O-AUX" misc="null" ner="O" orig_paragraph="1" remarks="0.1" smwe="null" upos="AUX" wmwe="null" word="Do" xpos="VBP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="n't" />
-      <extra orig_paragraph="1" remarks="0.2" />
+      <extra deprel="neg" edeps="null" feats="null" head="3" lemma="not" lextag="O-ADV" misc="null" ner="O" orig_paragraph="1" remarks="0.2" smwe="null" upos="PART" wmwe="null" word="n't" xpos="RB" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="waste" />
-      <extra orig_paragraph="1" remarks="0.3" />
+      <extra deprel="root" edeps="null" feats="VerbForm=Inf" head="0" lemma="waste" lextag="O-V-v.consumption" misc="null" ner="O" orig_paragraph="1" remarks="0.3" smwe="null" upos="VERB" wmwe="null" word="waste" xpos="VB" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="your" />
-      <extra orig_paragraph="1" remarks="0.4" />
+      <extra config="possessive" deprel="nmod:poss" edeps="null" feats="Person=2|Poss=Yes|PronType=Prs" gov="5" govlemma="money" head="5" lemma="you" lexcat="PRON.POSS" lexlemma="you" lextag="O-PRON.POSS-p.Possessor" local_gov="5" local_toknums="4" misc="null" ner="O" obj="null" objlemma="null" orig_paragraph="1" remarks="0.4" smwe="null" ss="p.Possessor" ss2="p.Possessor" toknums="4" upos="PRON" wmwe="null" word="your" xpos="PRP$" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="money" />
-      <extra orig_paragraph="1" remarks="0.5" />
+      <extra deprel="nsubj" edeps="null" feats="Number=Sing" head="3" lemma="money" lextag="O-N-n.POSSESSION" misc="null" ner="O" orig_paragraph="1" remarks="0.5" smwe="null" upos="NOUN" wmwe="null" word="money" xpos="NN" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="on" />
-      <extra orig_paragraph="1" remarks="0.6" />
+      <extra config="default" deprel="case" edeps="null" feats="null" gov="5" govlemma="money" head="8" lemma="on" lexcat="P" lexlemma="on" lextag="O-P-p.Theme" local_gov="5" local_obj="8" local_toknums="6" misc="null" ner="O" obj="8" objlemma="jukebox" orig_paragraph="1" remarks="0.6" smwe="null" ss="p.Theme" ss2="p.Theme" toknums="6" upos="ADP" wmwe="null" word="on" xpos="IN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="the" />
-      <extra orig_paragraph="1" remarks="0.7" />
+      <extra deprel="det" edeps="null" feats="Definite=Def|PronType=Art" head="8" lemma="the" lextag="O-DET" misc="null" ner="O" orig_paragraph="1" remarks="0.7" smwe="null" upos="DET" wmwe="null" word="the" xpos="DT" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="jukebox" />
-      <extra orig_paragraph="1" remarks="0.8" />
+      <extra deprel="nmod" edeps="null" feats="Number=Sing" head="5" lemma="jukebox" lextag="O-N-n.ARTIFACT" misc="null" ner="O" orig_paragraph="1" remarks="0.8" smwe="null" upos="NOUN" wmwe="null" word="jukebox" xpos="NN" />
     </node>
   </layer>
   <layer layerID="1">
