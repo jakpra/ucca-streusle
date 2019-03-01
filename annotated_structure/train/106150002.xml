@@ -5,47 +5,47 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="They" />
-      <extra deprel="nsubj" depth="0" edeps="3:nsubj|5:nsubj:xsubj" feats="Case=Nom|Number=Plur|Person=3|PronType=Prs" head="3" lemma="they" lextag="O-PRON" misc="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" remarks="0.14" smwe="null" upos="PRON" wmwe="null" word="They" xpos="PRP" />
+      <extra deprel="nsubj" depth="3" edeps="3:nsubj|5:nsubj:xsubj" feats="Case=Nom|Number=Plur|Person=3|PronType=Prs" head="3" lemma="they" lextag="O-PRON" misc="null" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" remarks="0.14" smwe="null" upos="PRON" wmwe="null" word="They" xpos="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="even" />
-      <extra deprel="advmod" depth="0" edeps="3:advmod" feats="null" head="3" lemma="even" lextag="O-ADV" misc="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" remarks="0.15" smwe="null" upos="ADV" wmwe="null" word="even" xpos="RB" />
+      <extra deprel="advmod" depth="3" edeps="3:advmod" feats="null" head="3" lemma="even" lextag="O-ADV" misc="null" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" remarks="0.15" smwe="null" upos="ADV" wmwe="null" word="even" xpos="RB" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="want" />
-      <extra deprel="root" depth="0" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="want" lexcat="V" lexlemma="want" lextag="O-V-v.cognition" local_toknums="3" misc="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" remarks="0.16" smwe="null" ss="v.cognition" ss2="null" toknums="16" upos="VERB" wmwe="null" word="want" xpos="VBP" />
+      <extra deprel="root" depth="3" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="want" lexcat="V" lexlemma="want" lextag="O-V-v.cognition" local_toknums="3" misc="null" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" remarks="0.16" smwe="null" ss="v.cognition" ss2="null" toknums="16" upos="VERB" wmwe="null" word="want" xpos="VBP" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="to" />
-      <extra deprel="mark" depth="0" edeps="5:mark" feats="null" head="5" lemma="to" lextag="O-INF" misc="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" remarks="0.17" smwe="null" upos="PART" wmwe="null" word="to" xpos="TO" />
+      <extra deprel="mark" depth="4" edeps="5:mark" feats="null" head="5" lemma="to" lextag="O-INF" misc="null" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" remarks="0.17" smwe="null" upos="PART" wmwe="null" word="to" xpos="TO" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="go" />
-      <extra deprel="xcomp" depth="0" edeps="3:xcomp" feats="VerbForm=Inf" head="3" lemma="go" lexcat="V" lexlemma="go" lextag="O-V-v.motion" local_toknums="5" misc="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" remarks="0.18" smwe="null" ss="v.motion" ss2="null" toknums="18" upos="VERB" wmwe="null" word="go" xpos="VB" />
+      <extra deprel="xcomp" depth="4" edeps="3:xcomp" feats="VerbForm=Inf" head="3" lemma="go" lexcat="V" lexlemma="go" lextag="O-V-v.motion" local_toknums="5" misc="null" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" remarks="0.18" smwe="null" ss="v.motion" ss2="null" toknums="18" upos="VERB" wmwe="null" word="go" xpos="VB" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="to" />
-      <extra config="default" deprel="case" depth="0" edeps="7:case" feats="null" gov="18" govlemma="go" head="7" lemma="to" lexcat="P" lexlemma="to" lextag="O-P-p.Goal" local_gov="5" local_obj="7" local_toknums="6" misc="null" next_terminal_lower_common_ancestor_depth="0" obj="20" objlemma="school" orig_paragraph="1" remarks="0.19" smwe="null" ss="p.Goal" ss2="p.Goal" toknums="19" upos="ADP" wmwe="null" word="to" xpos="IN" />
+      <extra config="default" deprel="case" depth="5" edeps="7:case" feats="null" gov="18" govlemma="go" head="7" lemma="to" lexcat="P" lexlemma="to" lextag="O-P-p.Goal" local_gov="5" local_obj="7" local_toknums="6" misc="null" next_terminal_lower_common_ancestor_depth="3" obj="20" objlemma="school" orig_paragraph="1" remarks="0.19" smwe="null" ss="p.Goal" ss2="p.Goal" toknums="19" upos="ADP" wmwe="null" word="to" xpos="IN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="school" />
-      <extra deprel="obl" depth="0" edeps="5:obl:to" feats="Number=Sing" head="5" lemma="school" lexcat="N" lexlemma="school" lextag="O-N-n.LOCATION" local_toknums="7" misc="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" remarks="0.2" smwe="null" ss="n.LOCATION" ss2="null" toknums="20" upos="NOUN" wmwe="null" word="school" xpos="NN" />
+      <extra deprel="obl" depth="5" edeps="5:obl:to" feats="Number=Sing" head="5" lemma="school" lexcat="N" lexlemma="school" lextag="O-N-n.LOCATION" local_toknums="7" misc="null" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" remarks="0.2" smwe="null" ss="n.LOCATION" ss2="null" toknums="20" upos="NOUN" wmwe="null" word="school" xpos="NN" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="on" />
-      <extra config="default" deprel="case" depth="0" edeps="10:case" feats="null" gov="18" govlemma="go" head="10" lemma="on" lexcat="P" lexlemma="on" lextag="O-P-p.Time" local_gov="5" local_obj="10" local_toknums="8" misc="null" next_terminal_lower_common_ancestor_depth="0" obj="23" objlemma="weekend" orig_paragraph="1" remarks="0.21" smwe="null" ss="p.Time" ss2="p.Time" toknums="21" upos="ADP" wmwe="null" word="on" xpos="IN" />
+      <extra config="default" deprel="case" depth="5" edeps="10:case" feats="null" gov="18" govlemma="go" head="10" lemma="on" lexcat="P" lexlemma="on" lextag="O-P-p.Time" local_gov="5" local_obj="10" local_toknums="8" misc="null" next_terminal_lower_common_ancestor_depth="3" obj="23" objlemma="weekend" orig_paragraph="1" remarks="0.21" smwe="null" ss="p.Time" ss2="p.Time" toknums="21" upos="ADP" wmwe="null" word="on" xpos="IN" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="the" />
-      <extra deprel="det" depth="0" edeps="10:det" feats="Definite=Def|PronType=Art" head="10" lemma="the" lextag="O-DET" misc="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" remarks="0.22" smwe="null" upos="DET" wmwe="null" word="the" xpos="DT" />
+      <extra deprel="det" depth="5" edeps="10:det" feats="Definite=Def|PronType=Art" head="10" lemma="the" lextag="O-DET" misc="null" next_terminal_lower_common_ancestor_depth="3" orig_paragraph="1" remarks="0.22" smwe="null" upos="DET" wmwe="null" word="the" xpos="DT" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="weekends" />
-      <extra deprel="obl" depth="0" edeps="5:obl:on" feats="Number=Plur" head="5" lemma="weekend" lexcat="N" lexlemma="weekend" lextag="O-N-n.TIME" local_toknums="10" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" remarks="0.23" smwe="null" ss="n.TIME" ss2="null" toknums="23" upos="NOUN" wmwe="null" word="weekends" xpos="NNS" />
+      <extra deprel="obl" depth="5" edeps="5:obl:on" feats="Number=Plur" head="5" lemma="weekend" lexcat="N" lexlemma="weekend" lextag="O-N-n.TIME" local_toknums="10" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" remarks="0.23" smwe="null" ss="n.TIME" ss2="null" toknums="23" upos="NOUN" wmwe="null" word="weekends" xpos="NNS" />
     </node>
     <node ID="0.11" type="Punctuation">
       <attributes paragraph="1" paragraph_position="11" text="!!" />
-      <extra deprel="punct" depth="0" edeps="3:punct" feats="null" head="3" lemma="!!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" remarks="0.24" smwe="null" upos="PUNCT" wmwe="null" word="!!" xpos="." />
+      <extra deprel="punct" depth="3" edeps="3:punct" feats="null" head="3" lemma="!!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" remarks="0.24" smwe="null" upos="PUNCT" wmwe="null" word="!!" xpos="." />
     </node>
   </layer>
   <layer layerID="1">
