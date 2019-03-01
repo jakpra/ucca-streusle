@@ -5,23 +5,23 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Favorite" />
-      <extra deprel="amod" depth="4" edeps="2:amod" feats="Degree=Pos" head="2" lemma="favorite" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" remarks="0.1" smwe="null" upos="ADJ" wmwe="null" word="Favorite" xpos="JJ" />
+      <extra deprel="amod" depth="4" edeps="2:amod" feats="Degree=Pos" head="2" lemma="favorite" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" remarks="0.1" smwe="null" upos="ADJ" wmwe="null" word="Favorite" xpos="JJ" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="place" />
-      <extra deprel="root" depth="3" edeps="0:root" feats="Number=Sing" head="0" lemma="place" lexcat="N" lexlemma="place" lextag="O-N-n.GROUP" local_toknums="2" misc="null" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" remarks="0.2" smwe="null" ss="n.GROUP" ss2="null" toknums="2" upos="NOUN" wmwe="null" word="place" xpos="NN" />
+      <extra deprel="root" depth="3" edeps="0:root" feats="Number=Sing" head="0" lemma="place" lexcat="N" lexlemma="place" lextag="O-N-n.GROUP" local_toknums="2" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" remarks="0.2" smwe="null" ss="n.GROUP" ss2="null" toknums="2" upos="NOUN" wmwe="null" word="place" xpos="NN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="in" />
-      <extra config="default" deprel="case" depth="4" edeps="4:case" feats="null" gov="2" govlemma="place" head="4" lemma="in" lexcat="P" lexlemma="in" lextag="O-P-p.Locus" local_gov="2" local_obj="4" local_toknums="3" misc="null" next_terminal_lower_common_ancestor_depth="2" obj="4" objlemma="Tampa" orig_paragraph="1" remarks="0.3" smwe="null" ss="p.Locus" ss2="p.Locus" toknums="3" upos="ADP" wmwe="null" word="in" xpos="IN" />
+      <extra config="default" deprel="case" depth="4" edeps="4:case" feats="null" gov="2" govlemma="place" head="4" lemma="in" lexcat="P" lexlemma="in" lextag="O-P-p.Locus" local_gov="2" local_obj="4" local_toknums="3" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" obj="4" objlemma="Tampa" orig_paragraph="1" remarks="0.3" smwe="null" ss="p.Locus" ss2="p.Locus" toknums="3" upos="ADP" wmwe="null" word="in" xpos="IN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Tampa" />
-      <extra deprel="nmod" depth="4" edeps="2:nmod:in" feats="Number=Sing" head="2" lemma="Tampa" lexcat="N" lexlemma="Tampa" lextag="O-N-n.LOCATION" local_toknums="4" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" remarks="0.4" smwe="null" ss="n.LOCATION" ss2="null" toknums="4" upos="PROPN" wmwe="null" word="Tampa" xpos="NNP" />
+      <extra deprel="nmod" depth="4" edeps="2:nmod:in" feats="Number=Sing" head="2" lemma="Tampa" lexcat="N" lexlemma="Tampa" lextag="O-N-n.LOCATION" local_toknums="4" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" remarks="0.4" smwe="null" ss="n.LOCATION" ss2="null" toknums="4" upos="PROPN" wmwe="null" word="Tampa" xpos="NNP" />
     </node>
     <node ID="0.5" type="Punctuation">
       <attributes paragraph="1" paragraph_position="5" text="." />
-      <extra deprel="punct" depth="3" edeps="2:punct" feats="null" head="2" lemma="." lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" remarks="0.5" smwe="null" upos="PUNCT" wmwe="null" word="." xpos="." />
+      <extra deprel="punct" depth="3" edeps="2:punct" feats="null" head="2" lemma="." lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" remarks="0.5" smwe="null" upos="PUNCT" wmwe="null" word="." xpos="." />
     </node>
   </layer>
   <layer layerID="1">
