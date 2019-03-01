@@ -1,0 +1,62 @@
+<root annotationID="0" passageID="274498005">
+  <attributes annotationID="2942" passageID="474" remarks="26365" userID="4" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Dave" />
+      <extra deprel="root" depth="0" edeps="0:root" feats="Number=Sing" head="0" lemma="Dave" lexcat="N" lexlemma="Dave Terrell" lextag="B-N-n.PERSON" local_toknums="1 2" misc="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" remarks="0.8" smwe="[1, 1]" ss="n.PERSON" ss2="null" toknums="80 81" upos="PROPN" wmwe="null" word="Dave" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Terrell" />
+      <extra deprel="flat" depth="0" edeps="1:flat" feats="Number=Sing" head="1" lemma="Terrell" lextag="I_" misc="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" remarks="0.81" smwe="[1, 2]" upos="PROPN" wmwe="null" word="Terrell" xpos="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="www.norcalfightingalliance.com" />
+      <extra deprel="list" depth="0" edeps="1:list" feats="null" head="1" lemma="www.norcalfightingalliance.com" lexcat="N" lexlemma="www.norcalfightingalliance.com" lextag="O-N-n.COMMUNICATION" local_toknums="3" misc="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" remarks="0.82" smwe="null" ss="n.COMMUNICATION" ss2="null" toknums="82" upos="X" wmwe="null" word="www.norcalfightingalliance.com" xpos="ADD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.97" tree_id="18" />
+      <edge toID="1.3" type="C">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+      </edge>
+      <edge toID="1.4" type="E">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <extra remarks="1.98" tree_id="18-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra remarks="1.99" tree_id="18-2" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>
