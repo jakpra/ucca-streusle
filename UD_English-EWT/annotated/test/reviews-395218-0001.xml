@@ -1,0 +1,51 @@
+<root annotationID="0" passageID="reviews-395218-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[6385793819841479772, 11828434862751881309, 15794550382381185553, 95, 0, 2, 7037928807040764755, 1, 10887629174180191697, 5582244037879929967, 5303704553415556917], [9483213437537425733, 1569419880797785406, 15794550382381185553, 95, 0, 2, 8206900633647566924, 0, 16072095006890171862, 16829822105563051112, 3798872544648389107]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Tire" />
+      <extra deprel="compound" edeps="2:compound" enhanced="2:compound" feats="Number=Sing" features="Number=Sing" frame="_" head="2" lemma="Tire" lexcat="N" lexlemma="Tire Gooroo" lextag="B-N-n.PERSON" local_toknums="1 2" misc="null" orig_paragraph="1" pos="PROPN" remarks="0.1" smwe="[1, 1]" ss="n.PERSON" ss2="null" tag="NNP" toknums="1 2" upos="PROPN" wmwe="null" word="Tire" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Gooroo" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Number=Sing" features="Number=Sing" frame="_" head="0" lemma="Gooroo" lextag="I_" misc="null" orig_paragraph="1" pos="PROPN" remarks="0.2" smwe="[1, 2]" tag="NNP" upos="PROPN" wmwe="null" word="Gooroo" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

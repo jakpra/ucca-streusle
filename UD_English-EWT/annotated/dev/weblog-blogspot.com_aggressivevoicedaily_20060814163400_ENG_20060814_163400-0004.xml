@@ -1,0 +1,89 @@
+<root annotationID="0" passageID="weblog-blogspot.com_aggressivevoicedaily_20060814163400_ENG_20060814_163400-0004">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[15904557542066346725, 374566020249249047, 15794550382381185553, 95, 382, 3, 8206900633647566924, 0, 13862804199789047564, 5582244037879929967, 6445852744978059015], [12638816674900267446, 12638816674900267446, 17111077179131903759, 96, 0, 2, 442, 1, 12638816674900267446, 12638816674900267446, 12638816674900267446], [239768812124188899, 7019880658452382285, 15794550382381185553, 95, 381, 3, 400, -2, 3552942401566437853, 14862748245026736845, 239768812124188899], [3842344029291005339, 3842344029291005339, 2465883113906300949, 96, 0, 2, 442, -1, 3842344029291005339, 3842344029291005339, 3842344029291005339], [9153284864653046197, 9153284864653046197, 12646065887601541794, 96, 0, 2, 442, -4, 9153284864653046197, 9153284864653046197, 9153284864653046197]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="TEHRAN" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="TEHRAN" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text="(" />
+      <extra enhanced="1:punct" features="_" frame="_" lemma="(" pos="PUNCT" tag="-LRB-" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="AFP" />
+      <extra enhanced="1:parataxis" features="Number=Sing" frame="_" lemma="AFP" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text=")" />
+      <extra enhanced="1:punct" features="_" frame="_" lemma=")" pos="PUNCT" tag="-RRB-" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="-" />
+      <extra enhanced="1:punct" features="_" frame="_" lemma="-" pos="PUNCT" tag=":" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.3" type="parataxis">
+        <attributes />
+        <category tag="parataxis" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.4" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

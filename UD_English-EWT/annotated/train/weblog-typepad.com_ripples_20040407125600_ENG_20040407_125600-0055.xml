@@ -1,0 +1,96 @@
+<root annotationID="0" passageID="weblog-typepad.com_ripples_20040407125600_ENG_20040407_125600-0055">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[4759254855483594167, 4380130941430378203, 1292078113972184607, 84, 0, 2, 427, 3, 10887629174180191697, 5582244037879929967, 14949295185858420483], [12286903790479710773, 12286903790479710773, 164681854541413346, 85, 0, 2, 397, 2, 4088098365541558500, 15369245168918225700, 12286903790479710773], [9921686513378912864, 10382539506755952630, 17109001835818727656, 99, 0, 2, 403, 1, 4088098365541558500, 260667111241363922, 9921686513378912864], [214600132313568644, 8369783199685603043, 3822385049556375858, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 16978132545290669629, 15950762329401383738], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -1, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="That" />
+      <extra enhanced="4:nsubj:pass" features="Number=Sing|PronType=Dem" frame="_" lemma="that" pos="PRON" tag="DT" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="too" />
+      <extra enhanced="4:advmod" features="_" frame="_" lemma="too" pos="ADV" tag="RB" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="was" />
+      <extra enhanced="4:aux:pass" features="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" frame="_" lemma="be" pos="AUX" tag="VBD" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="stopped" />
+      <extra enhanced="0:root" features="Tense=Past|VerbForm=Part|Voice=Pass" frame="_" lemma="stop" pos="VERB" tag="VBN" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="." />
+      <extra enhanced="4:punct" features="_" frame="_" lemma="." pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.5" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+      <edge toID="1.6" type="aux">
+        <attributes />
+        <category tag="aux" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

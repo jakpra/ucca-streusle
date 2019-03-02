@@ -1,0 +1,178 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_humanities.lit.authors.shakespeare_0018a7697318f71f_ENG_20031006_163200-0070">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[11617948655469988509, 11617948655469988509, 8427216679587749980, 92, 0, 2, 12837356684637874264, 2, 16540303583526207617, 5533571732986600803, 5999820051990807793], [3703653699352675859, 1047287922369204131, 15794550382381185553, 95, 378, 3, 7037928807040764755, 1, 18200729499220207786, 16337536289976144572, 3703653699352675859], [71578279259833008, 17576454368018205418, 15794550382381185553, 95, 378, 1, 426, 1, 16072095006890171862, 10603054956214495369, 5638743856276225884], [3096367789270067910, 14973525170827174687, 13927759927860985106, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 8148669997605808657, 734606212825900919], [16652247175759725537, 16652247175759725537, 10554686591937588953, 83, 0, 2, 399, 2, 13110060611322374290, 16978132545290669629, 4315724021008692873], [5531874271875889137, 5531874271875889137, 10554686591937588953, 83, 0, 2, 399, 1, 13110060611322374290, 1720370409040345145, 12182527387764416033], [3980041932456026091, 3885285634180617021, 783433942507015291, 91, 0, 2, 413, -3, 13110060611322374290, 8861071527689086543, 7409412530419520829], [3002984154512732771, 3002984154512732771, 1292078113972184607, 84, 0, 2, 440, -1, 4370460163704169311, 5097672513440128799, 3002984154512732771], [7430892194449458039, 12892192433043846746, 15794550382381185553, 95, 382, 3, 436, -1, 10887629174180191697, 16337536289976144572, 16679871905258096564], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -6, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="1572" />
+      <extra enhanced="0:root" features="NumType=Card" frame="_" lemma="1572" pos="NUM" tag="CD" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Ruy" />
+      <extra enhanced="4:nsubj" features="Number=Sing" frame="_" lemma="Ruy" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Lopez" />
+      <extra enhanced="2:flat" features="Number=Sing" frame="_" lemma="Lopez" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="defeats" />
+      <extra enhanced="1:parataxis" features="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" frame="_" lemma="defeat" pos="VERB" tag="VBZ" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="several" />
+      <extra enhanced="7:amod" features="Degree=Pos" frame="_" lemma="several" pos="ADJ" tag="JJ" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="eminent" />
+      <extra enhanced="7:amod" features="Degree=Pos" frame="_" lemma="eminent" pos="ADJ" tag="JJ" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="players" />
+      <extra enhanced="4:obj" features="Number=Plur" frame="_" lemma="player" pos="NOUN" tag="NNS" />
+    </node>
+    <node ID="0.8" type="Word">
+      <attributes paragraph="1" paragraph_position="8" text="in" />
+      <extra enhanced="9:case" features="_" frame="_" lemma="in" pos="ADP" tag="IN" />
+    </node>
+    <node ID="0.9" type="Word">
+      <attributes paragraph="1" paragraph_position="9" text="Rome" />
+      <extra enhanced="4:obl:in" features="Number=Sing" frame="_" lemma="Rome" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.10" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="10" text="." />
+      <extra enhanced="1:punct" features="_" frame="_" lemma="." pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.3" type="parataxis">
+        <attributes />
+        <category tag="parataxis" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.10" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="1.4" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.5" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.6" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+      <edge toID="1.8" type="obl">
+        <attributes />
+        <category tag="obl" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="1.7" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.11" type="amod">
+        <attributes />
+        <category tag="amod" />
+      </edge>
+      <edge toID="1.12" type="amod">
+        <attributes />
+        <category tag="amod" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="1.9" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.13" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.9" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="PNCT">
+      <attributes />
+      <edge toID="0.10" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.11" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.12" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.13" type="FN">
+      <attributes />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

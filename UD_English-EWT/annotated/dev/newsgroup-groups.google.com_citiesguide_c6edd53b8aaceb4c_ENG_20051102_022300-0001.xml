@@ -1,0 +1,119 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_citiesguide_c6edd53b8aaceb4c_ENG_20051102_022300-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[11010771136823990775, 7320900731437023467, 15308085513773655218, 91, 0, 2, 8206900633647566924, 0, 16072095006890171862, 9391737413944127320, 13717921461261367060], [11532473245541075862, 11532473245541075862, 11532473245541075862, 96, 0, 2, 442, -1, 11532473245541075862, 11532473245541075862, 11532473245541075862], [3141763777567620846, 16039565763714113712, 15794550382381185553, 95, 378, 3, 7037928807040764755, 1, 16072095006890171862, 14862748245026736845, 5700881407479370692], [769169189799025663, 16998429331760201013, 15794550382381185553, 95, 378, 1, 400, -3, 16072095006890171862, 12290980237632234855, 15366090995793808690], [3623639567105129204, 3623639567105129204, 14968597813295776895, 100, 0, 2, 423, 1, 3623639567105129204, 3623639567105129204, 3623639567105129204], [2694177400918459214, 2694177400918459214, 8812103347613839895, 100, 0, 2, 8206900633647566924, 0, 1518892616752039201, 11901859001352538922, 15609295637765553343], [5924344943059983899, 5924344943059983899, 14968597813295776895, 100, 0, 2, 8206900633647566924, 0, 5924344943059983899, 5924344943059983899, 5924344943059983899]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Email" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="email" pos="NOUN" tag="NN" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text=":" />
+      <extra enhanced="1:punct" features="_" frame="_" lemma=":" pos="PUNCT" tag=":" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Adelia" />
+      <extra enhanced="1:appos" features="Number=Sing" frame="_" lemma="Adelia" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Smith" />
+      <extra enhanced="3:flat" features="Number=Sing" frame="_" lemma="Smith" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="&lt;" />
+      <extra enhanced="6:punct" features="_" frame="_" lemma="&lt;" pos="PUNCT" tag="-LRB-" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="adorabledelia6...@gmail.com" />
+      <extra enhanced="3:appos" features="_" frame="_" lemma="adorabledelia6...@gmail.com" pos="X" tag="ADD" />
+    </node>
+    <node ID="0.7" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="7" text="&gt;" />
+      <extra enhanced="6:punct" features="_" frame="_" lemma="&gt;" pos="PUNCT" tag="-RRB-" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.3" type="appos">
+        <attributes />
+        <category tag="appos" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="1.4" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.6" type="appos">
+        <attributes />
+        <category tag="appos" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.8" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="PNCT">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,148 @@
+<root annotationID="0" passageID="weblog-blogspot.com_tacitusproject_20040712123425_ENG_20040712_123425-0006">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[15884554869126768810, 15884554869126768810, 4969857429396651903, 96, 0, 2, 442, 5, 15884554869126768810, 15884554869126768810, 15884554869126768810], [6398231955146299758, 7425985699627899538, 15267657372422890137, 89, 0, 2, 412, 1, 3552942401566437853, 5582244037879929967, 6398231955146299758], [12999748546397611138, 13696383780240996584, 15794550382381185553, 95, 0, 2, 411, 3, 13862804199789047564, 17714545831559622561, 18126027751668137475], [11532473245541075862, 11532473245541075862, 11532473245541075862, 96, 0, 2, 442, 2, 11532473245541075862, 11532473245541075862, 11532473245541075862], [4690420944186131903, 561228191312463089, 13656873538139661788, 94, 0, 2, 426, 1, 100, 4690420944186131903, 4690420944186131903], [11915230412772266274, 11915230412772266274, 9188597074677201817, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 11901859001352538922, 10806788082624814911], [4380130941430378203, 4380130941430378203, 15267657372422890137, 89, 0, 2, 413, -1, 13110060611322374290, 15369245168918225700, 14949295185858420483], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -2, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="1" text="&quot;" />
+      <extra enhanced="3:punct" features="_" frame="_" lemma="&quot;" pos="PUNCT" tag="``" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="THE" />
+      <extra enhanced="3:det" features="Definite=Def|PronType=Art" frame="_" lemma="the" pos="DET" tag="DT" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="PRESIDENT" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="PRESIDENT" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text=":" />
+      <extra enhanced="3:punct" features="_" frame="_" lemma=":" pos="PUNCT" tag=":" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="I" />
+      <extra enhanced="6:nsubj" features="Case=Nom|Number=Sing|Person=1|PronType=Prs" frame="_" lemma="I" pos="PRON" tag="PRP" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="appreciate" />
+      <extra enhanced="3:parataxis" features="Mood=Ind|Tense=Pres|VerbForm=Fin" frame="_" lemma="appreciate" pos="VERB" tag="VBP" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="that" />
+      <extra enhanced="6:obj" features="Number=Sing|PronType=Dem" frame="_" lemma="that" pos="PRON" tag="DT" />
+    </node>
+    <node ID="0.8" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="8" text="." />
+      <extra enhanced="3:punct" features="_" frame="_" lemma="." pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="parataxis">
+        <attributes />
+        <category tag="parataxis" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.7" type="det">
+        <attributes />
+        <category tag="det" />
+      </edge>
+      <edge toID="1.8" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.11" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="1.5" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.9" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.10" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.11" type="PNCT">
+      <attributes />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

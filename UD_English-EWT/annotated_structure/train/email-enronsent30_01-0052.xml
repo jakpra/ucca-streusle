@@ -1,0 +1,96 @@
+<root annotationID="0" passageID="email-enronsent30_01-0052">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[8416598322089702775, 3239781349108733490, 15794550382381185553, 95, 378, 3, 7037928807040764755, 1, 16072095006890171862, 18003918085672799305, 2555790282192608669], [1984703152285413239, 12190480305048066621, 15794550382381185553, 95, 378, 1, 426, 1, 16072095006890171862, 149303876845869574, 10806788082624814911], [11137614687254113498, 11137614687254113498, 10554686591937588953, 83, 0, 2, 8206900633647566924, 0, 13110060611322374290, 1720370409040345145, 12182527387764416033], [11283501755624150392, 11283501755624150392, 11283501755624150392, 98, 0, 2, 423, 1, 11283501755624150392, 11283501755624150392, 11283501755624150392], [3872251186937134790, 3872251186937134790, 8427216679587749980, 92, 391, 3, 413, -2, 12222701515222900556, 10999827425508017904, 340883122670591473]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Jason" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Jason" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Choate" />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="Choate" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="excellent" />
+      <extra enhanced="1:list" features="Degree=Pos" frame="_" lemma="excellent" pos="ADJ" tag="JJ" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="$" />
+      <extra enhanced="1:list" features="_" frame="_" lemma="$" pos="SYM" tag="$" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="60,008" />
+      <extra enhanced="4:nummod" features="NumType=Card" frame="_" lemma="60,008" pos="NUM" tag="CD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="list">
+        <attributes />
+        <category tag="list" />
+      </edge>
+      <edge toID="1.5" type="list">
+        <attributes />
+        <category tag="list" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.7" type="nummod">
+        <attributes />
+        <category tag="nummod" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

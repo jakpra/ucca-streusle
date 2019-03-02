@@ -1,0 +1,59 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_alt.animals.cat_0c8ba71c3cca7699_ENG_20040617_035200-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[11010771136823990775, 7320900731437023467, 15308085513773655218, 91, 0, 2, 8206900633647566924, 0, 16072095006890171862, 9391737413944127320, 13717921461261367060], [11532473245541075862, 11532473245541075862, 11532473245541075862, 96, 0, 2, 442, -1, 11532473245541075862, 11532473245541075862, 11532473245541075862], [7873805922479374098, 7873805922479374098, 15308085513773655218, 91, 0, 2, 400, -2, 12988699816883370413, 8148669997605808657, 2297266526497069708]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Email" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="email" pos="NOUN" tag="NN" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text=":" />
+      <extra enhanced="1:punct" features="_" frame="_" lemma=":" pos="PUNCT" tag=":" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="davidr...@optonline.net" />
+      <extra enhanced="1:appos" features="_" frame="_" lemma="davidr...@optonline.net" pos="X" tag="ADD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.3" type="appos">
+        <attributes />
+        <category tag="appos" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.4" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,96 @@
+<root annotationID="0" passageID="email-enronsent17_01-0013">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[5117079446564601502, 5117079446564601502, 8427216679587749980, 92, 394, 3, 8206900633647566924, 0, 8148669997605808657, 5117079446564601502, 5117079446564601502], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -1, 12646065887601541794, 12646065887601541794, 12646065887601541794], [7305363750327503362, 17246285218438246014, 3822385049556375858, 99, 0, 2, 399, 2, 16072095006890171862, 12290980237632234855, 16602120460534419010], [16398877448063810194, 13035402893022699687, 15794550382381185553, 95, 0, 2, 7037928807040764755, 1, 16072095006890171862, 9391737413944127320, 9803189552068640945], [15345655072916781796, 14759225161440374483, 783433942507015291, 91, 0, 2, 8206900633647566924, 0, 16072095006890171862, 149303876845869574, 7409412530419520829]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="8" />
+      <extra enhanced="2:nummod" features="_" frame="_" lemma="8" pos="X" tag="LS" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text="." />
+      <extra enhanced="5:punct" features="_" frame="_" lemma="." pos="PUNCT" tag="." />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Satisfied" />
+      <extra enhanced="5:amod" features="Degree=Pos" frame="_" lemma="satisfied" pos="ADJ" tag="JJ" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Enron" />
+      <extra enhanced="5:compound" features="Number=Sing" frame="_" lemma="Enron" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="Customers" />
+      <extra enhanced="0:root" features="Number=Plur" frame="_" lemma="customer" pos="NOUN" tag="NNS" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nummod">
+        <attributes />
+        <category tag="nummod" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.6" type="amod">
+        <attributes />
+        <category tag="amod" />
+      </edge>
+      <edge toID="1.7" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

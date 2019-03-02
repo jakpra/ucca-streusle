@@ -1,0 +1,155 @@
+<root annotationID="0" passageID="email-enronsent32_01-0062">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[4690420944186131903, 561228191312463089, 13656873538139661788, 94, 0, 2, 426, 1, 100, 4690420944186131903, 4690420944186131903], [2007541482882326072, 7993799438358599552, 17109001835818727656, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 13110760720460257827, 9892311364426042061], [11905010032862877530, 15057923854949126052, 783433942507015291, 91, 0, 2, 413, -1, 13110060611322374290, 16900879642891266615, 12849174896969601389], [3791531372978436496, 3791531372978436496, 1292078113972184607, 84, 0, 2, 3965108062993911700, -2, 4370460163704169311, 15369245168918225700, 3791531372978436496], [7624161793554793053, 561228191312463089, 13656873538139661788, 94, 0, 2, 436, -1, 4088098365541558500, 9409450202036847209, 7624161793554793053], [5640369432778651323, 5640369432778651323, 1292078113972184607, 84, 0, 2, 440, -4, 4370460163704169311, 1489474827855109852, 5640369432778651323], [5388305455467122407, 5388305455467122407, 15308085513773655218, 91, 0, 2, 436, -1, 13110060611322374290, 8148669997605808657, 15496613179896748230], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -6, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="I" />
+      <extra enhanced="2:nsubj" features="Case=Nom|Number=Sing|Person=1|PronType=Prs" frame="_" lemma="I" pos="PRON" tag="PRP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="faxed" />
+      <extra enhanced="0:root" features="Mood=Ind|Tense=Past|VerbForm=Fin" frame="_" lemma="fax" pos="VERB" tag="VBD" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="comments" />
+      <extra enhanced="2:obj" features="Number=Plur" frame="_" lemma="comment" pos="NOUN" tag="NNS" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="to" />
+      <extra enhanced="5:case" features="_" frame="_" lemma="to" pos="ADP" tag="IN" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="you" />
+      <extra enhanced="2:obl:to" features="Case=Acc|Person=2|PronType=Prs" frame="_" lemma="you" pos="PRON" tag="PRP" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="on" />
+      <extra enhanced="7:case" features="_" frame="_" lemma="on" pos="ADP" tag="IN" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="dash" />
+      <extra enhanced="2:obl:on" features="Number=Sing" frame="_" lemma="dash" pos="NOUN" tag="NN" />
+    </node>
+    <node ID="0.8" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="8" text="." />
+      <extra enhanced="2:punct" features="_" frame="_" lemma="." pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+      <edge toID="1.6" type="obl">
+        <attributes />
+        <category tag="obl" />
+      </edge>
+      <edge toID="1.8" type="obl">
+        <attributes />
+        <category tag="obl" />
+      </edge>
+      <edge toID="1.10" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="1.7" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.11" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="1.9" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.12" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="PNCT">
+      <attributes />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.11" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.12" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

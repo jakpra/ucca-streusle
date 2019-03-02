@@ -1,0 +1,59 @@
+<root annotationID="0" passageID="email-enronsent05_02-0007">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[12606808928477742206, 12606808928477742206, 14872845191859177490, 96, 0, 2, 442, 1, 12606808928477742206, 3623639567105129204, 12606808928477742206], [15603474098878818876, 3560505566892475642, 8427216679587749980, 92, 0, 2, 8206900633647566924, 0, 11973197311560834776, 5533571732986600803, 16348098840470589605], [2341228919083383362, 2341228919083383362, 14872845191859177490, 96, 0, 2, 442, -1, 2341228919083383362, 5924344943059983899, 2341228919083383362]]]" />
+    <node ID="0.1" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="1" text="&lt;&lt;" />
+      <extra enhanced="2:punct" features="_" frame="_" lemma="&lt;&lt;" pos="PUNCT" tag="-LRB-" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="1%P701!.doc" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="1%p701!.doc" pos="SYM" tag="NN" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="&gt;&gt;" />
+      <extra enhanced="2:punct" features="_" frame="_" lemma="&gt;&gt;" pos="PUNCT" tag="-RRB-" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.4" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

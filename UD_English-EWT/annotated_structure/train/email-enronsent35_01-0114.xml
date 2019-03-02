@@ -1,0 +1,52 @@
+<root annotationID="0" passageID="email-enronsent35_01-0114">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[16623299875770883202, 17451660008333295086, 15794550382381185553, 95, 382, 3, 7037928807040764755, 1, 17096342708991983284, 12290980237632234855, 16623299875770883202], [15510618951548034108, 16309232303425273585, 15794550382381185553, 95, 382, 1, 8206900633647566924, 0, 16072095006890171862, 17714545831559622561, 10438648983378644488], [8205403955989537350, 8205403955989537350, 12646065887601541794, 96, 0, 2, 442, -1, 8205403955989537350, 8205403955989537350, 8205403955989537350]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="St." />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="St." pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Petersburg" />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="Petersburg" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="?" />
+      <extra enhanced="1:punct" features="_" frame="_" lemma="?" pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

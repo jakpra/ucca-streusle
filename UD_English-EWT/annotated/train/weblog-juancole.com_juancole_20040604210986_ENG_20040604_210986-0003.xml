@@ -1,0 +1,118 @@
+<root annotationID="0" passageID="weblog-juancole.com_juancole_20040604210986_ENG_20040604_210986-0003">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[2779572115700458022, 11784865196037645502, 15794550382381185553, 95, 388, 3, 8206900633647566924, 0, 16072095006890171862, 9148987913859918431, 1608482186128794349], [2593208677638477497, 2593208677638477497, 2593208677638477497, 96, 388, 1, 442, -1, 2593208677638477497, 2593208677638477497, 2593208677638477497], [187940016428511799, 5199297412456044473, 15794550382381185553, 95, 388, 1, 400, -2, 10887629174180191697, 18003918085672799305, 16752500866415647], [9920090784869387584, 9920090784869387584, 8427216679587749980, 92, 388, 1, 12837356684637874264, -1, 4620368362210911820, 746762829127501960, 9920090784869387584], [2593208677638477497, 2593208677638477497, 2593208677638477497, 96, 388, 1, 442, -2, 2593208677638477497, 2593208677638477497, 2593208677638477497], [7494021291716847955, 7494021291716847955, 8427216679587749980, 92, 388, 1, 12837356684637874264, -3, 16540303583526207617, 15180167692696242062, 15698208023047288852]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Friday" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Friday" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text="," />
+      <extra enhanced="1:punct" features="_" frame="_" lemma="," pos="PUNCT" tag="," />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="June" />
+      <extra enhanced="1:appos" features="Number=Sing" frame="_" lemma="June" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="04" />
+      <extra enhanced="3:nummod" features="NumType=Card" frame="_" lemma="04" pos="NUM" tag="CD" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="," />
+      <extra enhanced="1:punct" features="_" frame="_" lemma="," pos="PUNCT" tag="," />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="2004" />
+      <extra enhanced="1:nmod:tmod" features="NumType=Card" frame="_" lemma="2004" pos="NUM" tag="CD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="appos">
+        <attributes />
+        <category tag="appos" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.8" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.9" type="nmod">
+        <attributes />
+        <category tag="nmod" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="1.5" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.7" type="nummod">
+        <attributes />
+        <category tag="nummod" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="PNCT">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

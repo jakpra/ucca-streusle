@@ -1,0 +1,81 @@
+<root annotationID="0" passageID="email-enronsent36_02-0042">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[717880881345064706, 5711639017775284443, 15794550382381185553, 95, 0, 2, 7037928807040764755, 1, 10887629174180191697, 16829822105563051112, 14387080380872362826], [14910402197023548758, 945086212746794651, 15794550382381185553, 95, 0, 2, 7037928807040764755, 1, 16072095006890171862, 14862748245026736845, 6176493615996027527], [5456652001231343673, 10987288205139217165, 15794550382381185553, 95, 0, 2, 8206900633647566924, 0, 10887629174180191697, 12290980237632234855, 1210649839879893733], [2593208677638477497, 2593208677638477497, 2593208677638477497, 96, 0, 2, 442, -1, 2593208677638477497, 2593208677638477497, 2593208677638477497]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Good" />
+      <extra enhanced="2:amod" features="Degree=Pos" frame="_" lemma="good" pos="ADJ" tag="JJ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Afternoon" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="afternoon" pos="NOUN" tag="NN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Sara" />
+      <extra enhanced="2:vocative" features="Number=Sing" frame="_" lemma="Sara" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="," />
+      <extra enhanced="2:punct" features="_" frame="_" lemma="," pos="PUNCT" tag="," />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="amod">
+        <attributes />
+        <category tag="amod" />
+      </edge>
+      <edge toID="1.5" type="vocative">
+        <attributes />
+        <category tag="vocative" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

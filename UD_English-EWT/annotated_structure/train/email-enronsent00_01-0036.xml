@@ -1,0 +1,66 @@
+<root annotationID="0" passageID="email-enronsent00_01-0036">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[4965177937666302486, 3876862883474502309, 4808651922106831370, 91, 0, 2, 426, 1, 18200729499220207786, 14825646868312541310, 4965177937666302486], [13474488988463497195, 14027581762467160941, 13927759927860985106, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 16900879642891266615, 18119152608922315876], [14554608759064249460, 14554608759064249460, 12646065887601541794, 96, 0, 2, 442, -1, 11463250009154201713, 8205403955989537350, 4832098117332359220]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Who" />
+      <extra enhanced="2:nsubj" features="PronType=Int" frame="_" lemma="who" pos="PRON" tag="WP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="cares" />
+      <extra enhanced="0:root" features="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" frame="_" lemma="care" pos="VERB" tag="VBZ" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="??????" />
+      <extra enhanced="2:punct" features="_" frame="_" lemma="??????" pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,88 @@
+<root annotationID="0" passageID="reviews-209465-0007">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[4429974322456332988, 4429974322456332988, 14200088355797579614, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 15817570140490810055, 18020990058753680179], [1995909169258310477, 1995909169258310477, 15267657372422890137, 89, 0, 2, 426, 1, 13110060611322374290, 15369245168918225700, 2661093235354845946], [245637087864966835, 17461235395181654430, 13927759927860985106, 99, 0, 2, 405, -2, 13110060611322374290, 15817570140490810055, 13395971831203328909], [4253493419013473486, 4253493419013473486, 12646065887601541794, 96, 0, 2, 442, -3, 4253493419013473486, 17494803046312582752, 4253493419013473486]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="hope" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" features="Mood=Ind|Tense=Pres|VerbForm=Fin" frame="_" head="0" lemma="hope" lexcat="V" lexlemma="hope" lextag="O-V-v.emotion" local_toknums="1" misc="null" orig_paragraph="1" pos="VERB" remarks="0.121" smwe="null" ss="v.emotion" ss2="null" tag="VBP" toknums="121" upos="VERB" wmwe="null" word="hope" xpos="VBP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="this" />
+      <extra deprel="nsubj" edeps="3:nsubj" enhanced="3:nsubj" feats="Number=Sing|PronType=Dem" features="Number=Sing|PronType=Dem" frame="_" head="3" lemma="this" lextag="O-PRON" misc="null" orig_paragraph="1" pos="PRON" remarks="0.122" smwe="null" tag="DT" upos="PRON" wmwe="null" word="this" xpos="DT" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="helps" />
+      <extra deprel="ccomp" edeps="1:ccomp" enhanced="1:ccomp" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" features="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" frame="_" head="1" lemma="help" lexcat="V" lexlemma="help" lextag="O-V-v.social" local_toknums="3" misc="SpaceAfter=No" orig_paragraph="1" pos="VERB" remarks="0.123" smwe="null" ss="v.social" ss2="null" tag="VBZ" toknums="123" upos="VERB" wmwe="null" word="helps" xpos="VBZ" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="!!" />
+      <extra deprel="punct" edeps="1:punct" enhanced="1:punct" feats="null" features="_" frame="_" head="1" lemma="!!" lextag="O-PUNCT" misc="SpaceAfter=No" orig_paragraph="1" pos="PUNCT" remarks="0.124" smwe="null" tag="." upos="PUNCT" wmwe="null" word="!!" xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="ccomp">
+        <attributes />
+        <category tag="ccomp" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="1.5" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.7" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

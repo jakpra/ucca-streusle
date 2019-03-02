@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="weblog-typepad.com_ripples_20040407125600_ENG_20040407_125600-0043">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[15443782562302227422, 15443782562302227422, 8812103347613839895, 100, 0, 2, 8206900633647566924, 0, 14311737322040570611, 15817570140490810055, 9930496526604702357]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="http://www.nea.fr/html/rp/chernobyl/conclusions5.html" />
+      <extra enhanced="0:root" features="_" frame="_" lemma="http://www.nea.fr/html/rp/chernobyl/conclusions5.html" pos="X" tag="ADD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

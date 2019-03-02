@@ -1,0 +1,96 @@
+<root annotationID="0" passageID="answers-20090605110350AA2V8bW_ans-0003">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[16837189116253782916, 2729152175939713910, 15794550382381185553, 95, 382, 3, 426, 1, 16072095006890171862, 4690420944186131903, 12909133149635556531], [3411606890003347522, 10382539506755952630, 13927759927860985106, 99, 0, 2, 8206900633647566924, 0, 4370460163704169311, 5097672513440128799, 3411606890003347522], [3002984154512732771, 3002984154512732771, 1292078113972184607, 84, 0, 2, 440, -1, 4370460163704169311, 5097672513440128799, 3002984154512732771], [8892412674995408215, 4216067174274908836, 15794550382381185553, 95, 382, 3, 436, -1, 16072095006890171862, 14862748245026736845, 8725436655671225952], [5920004935509210957, 5920004935509210957, 12646065887601541794, 96, 0, 2, 442, -3, 5920004935509210957, 11532473245541075862, 5920004935509210957]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Iguazu" />
+      <extra enhanced="4:nsubj" features="Number=Sing" frame="_" lemma="Iguazu" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="is" />
+      <extra enhanced="4:cop" features="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" frame="_" lemma="be" pos="AUX" tag="VBZ" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="in" />
+      <extra enhanced="4:case" features="_" frame="_" lemma="in" pos="ADP" tag="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Argentina" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Argentina" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text=":)" />
+      <extra enhanced="4:discourse" features="_" frame="_" lemma=":)" pos="SYM" tag="NFP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.5" type="cop">
+        <attributes />
+        <category tag="cop" />
+      </edge>
+      <edge toID="1.6" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+      <edge toID="1.7" type="discourse">
+        <attributes />
+        <category tag="discourse" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

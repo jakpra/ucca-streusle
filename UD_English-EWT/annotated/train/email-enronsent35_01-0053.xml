@@ -1,0 +1,45 @@
+<root annotationID="0" passageID="email-enronsent35_01-0053">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[4120716660589266209, 899448293453128486, 15794550382381185553, 95, 378, 3, 7037928807040764755, 1, 16072095006890171862, 3929483993944067416, 4958144247407165748], [16337536289976144572, 16562859848569467201, 15308085513773655218, 91, 378, 1, 7037928807040764755, 1, 100, 16337536289976144572, 16337536289976144572], [8249272869054262790, 5707377250040447668, 15794550382381185553, 95, 0, 2, 8206900633647566924, 0, 6285559130646640386, 149303876845869574, 18126027751668137475]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Daniel" />
+      <extra enhanced="0:root" features="_" frame="_" lemma="daniel" pos="X" tag="GW" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="R" />
+      <extra enhanced="1:goeswith" features="_" frame="_" lemma="r" pos="X" tag="GW" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Castagnola@ENRON_DEVELOPMENT" />
+      <extra enhanced="1:goeswith" features="_" frame="_" lemma="castagnola@enron_development" pos="X" tag="ADD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

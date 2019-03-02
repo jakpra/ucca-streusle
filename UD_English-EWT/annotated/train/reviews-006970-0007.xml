@@ -1,0 +1,66 @@
+<root annotationID="0" passageID="reviews-006970-0007">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[14947529218328092544, 561228191312463089, 13656873538139661788, 94, 0, 2, 426, 1, 10887629174180191697, 5582244037879929967, 6375554876062815730], [11444003755946311703, 11292271180201420792, 17109001835818727656, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 16562859848569467201, 11208870015262361521], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -1, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="They" />
+      <extra deprel="nsubj" edeps="2:nsubj" enhanced="2:nsubj" feats="Case=Nom|Number=Plur|Person=3|PronType=Prs" features="Case=Nom|Number=Plur|Person=3|PronType=Prs" frame="_" head="2" lemma="they" lextag="O-PRON" misc="null" orig_paragraph="1" pos="PRON" remarks="0.105" smwe="null" tag="PRP" upos="PRON" wmwe="null" word="They" xpos="PRP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="refused" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" features="Mood=Ind|Tense=Past|VerbForm=Fin" frame="_" head="0" lemma="refuse" lexcat="V" lexlemma="refuse" lextag="O-V-v.communication" local_toknums="2" misc="SpaceAfter=No" orig_paragraph="1" pos="VERB" remarks="0.106" smwe="null" ss="v.communication" ss2="null" tag="VBD" toknums="106" upos="VERB" wmwe="null" word="refused" xpos="VBD" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="." />
+      <extra deprel="punct" edeps="2:punct" enhanced="2:punct" feats="null" features="_" frame="_" head="2" lemma="." lextag="O-PUNCT" misc="null" orig_paragraph="1" pos="PUNCT" remarks="0.107" smwe="null" tag="." upos="PUNCT" wmwe="null" word="." xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

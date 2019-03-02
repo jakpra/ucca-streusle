@@ -1,0 +1,37 @@
+<root annotationID="0" passageID="weblog-blogspot.com_rigorousintuition_20060511134300_ENG_20060511_134300-0189">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[16917176369711839255, 8454557265910848171, 15794550382381185553, 95, 378, 3, 7037928807040764755, 1, 16072095006890171862, 3209455878668673793, 3429583124065431381], [11499744776575384627, 523356299592574681, 15794550382381185553, 95, 378, 1, 8206900633647566924, 0, 16072095006890171862, 5582244037879929967, 18376276814437252990]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Michele" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Michele" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Tollis" />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="Tollis" pos="PROPN" tag="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

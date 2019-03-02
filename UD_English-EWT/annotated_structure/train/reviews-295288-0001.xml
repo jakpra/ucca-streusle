@@ -1,0 +1,103 @@
+<root annotationID="0" passageID="reviews-295288-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[1627781620377393522, 7148522813498185515, 164681854541413346, 85, 0, 2, 397, 1, 10887629174180191697, 18003918085672799305, 11544752174441366476], [7044484142656674363, 8828430276747728323, 783433942507015291, 91, 0, 2, 426, 1, 16072095006890171862, 14862748245026736845, 6032957681412523794], [11061341230758823191, 8960195134057108264, 9188597074677201817, 99, 0, 2, 8206900633647566924, 0, 16072095006890171862, 5582244037879929967, 1230421989022628249], [7624161793554793053, 561228191312463089, 13656873538139661788, 94, 0, 2, 413, -1, 4088098365541558500, 9409450202036847209, 7624161793554793053], [17494803046312582752, 17494803046312582752, 12646065887601541794, 96, 0, 2, 442, -2, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Just" />
+      <extra deprel="compound" depth="3" edeps="2:compound" enhanced="2:compound" feats="Number=Sing" features="Number=Sing" frame="_" head="2" lemma="Just" lexcat="N" lexlemma="Just Autos" lextag="B-N-n.GROUP" local_toknums="1 2" misc="null" next_terminal_lower_common_ancestor_category="A" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" pos="PROPN" remarks="0.1" smwe="[1, 1]" ss="n.GROUP" ss2="null" tag="NNP" toknums="1 2" upos="PROPN" wmwe="null" word="Just" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Autos" />
+      <extra deprel="vocative" depth="3" edeps="3:vocative" enhanced="3:vocative" feats="Number=Plur" features="Number=Plur" frame="_" head="3" lemma="Autos" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" pos="PROPN" remarks="0.2" smwe="[1, 2]" tag="NNPS" upos="PROPN" wmwe="null" word="Autos" xpos="NNPS" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Thank" />
+      <extra deprel="root" depth="3" edeps="0:root" enhanced="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" features="Mood=Ind|Tense=Pres|VerbForm=Fin" frame="_" head="0" lemma="thank" lextag="B-DISC" misc="null" next_terminal_lower_common_ancestor_category="P" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" pos="VERB" remarks="0.3" smwe="[2, 1]" tag="VBP" upos="VERB" wmwe="null" word="Thank" xpos="VBP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="you" />
+      <extra deprel="obj" depth="3" edeps="3:obj" enhanced="3:obj" feats="Case=Nom|Person=2|PronType=Prs" features="Case=Nom|Person=2|PronType=Prs" frame="_" head="3" lemma="you" lextag="I_" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" pos="PRON" remarks="0.4" smwe="[2, 2]" tag="PRP" upos="PRON" wmwe="null" word="you" xpos="PRP" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="!" />
+      <extra deprel="punct" depth="3" edeps="3:punct" enhanced="3:punct" feats="null" features="_" frame="_" head="3" lemma="!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" pos="PUNCT" remarks="0.5" smwe="null" tag="." upos="PUNCT" wmwe="null" word="!" xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="vocative">
+        <attributes />
+        <category tag="vocative" />
+      </edge>
+      <edge toID="1.6" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="1.5" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.8" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

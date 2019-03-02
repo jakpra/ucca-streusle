@@ -1,0 +1,207 @@
+<root annotationID="0" passageID="email-enronsent03_01-0152">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[12036716919471833162, 3032277038203448767, 164681854541413346, 85, 0, 2, 397, 3, 16072095006890171862, 14862748245026736845, 7309984611441301903], [7425985699627899538, 7425985699627899538, 15267657372422890137, 89, 0, 2, 412, 1, 4088098365541558500, 15369245168918225700, 7425985699627899538], [728339108046626067, 14667099791903937066, 15794550382381185553, 95, 0, 2, 426, 1, 10887629174180191697, 149303876845869574, 18073403844224381957], [2537872997886871862, 4201870561030741218, 17109001835818727656, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 5097672513440128799, 14009161575225144129], [7976265300568155021, 561228191312463089, 13656873538139661788, 94, 0, 2, 413, -1, 13110060611322374290, 15369245168918225700, 7393087608504110699], [4380130941430378203, 4380130941430378203, 1292078113972184607, 84, 0, 2, 420, 4, 13110060611322374290, 15369245168918225700, 14949295185858420483], [13055779130471031426, 13055779130471031426, 15267657372422890137, 89, 0, 2, 412, 1, 4370460163704169311, 13210364986222294696, 13055779130471031426], [9292186954023887150, 9292186954023887150, 15308085513773655218, 91, 0, 2, 427, 2, 13110060611322374290, 8861071527689086543, 403527350404785839], [3411606890003347522, 10382539506755952630, 13927759927860985106, 99, 0, 2, 403, 1, 4370460163704169311, 5097672513440128799, 3411606890003347522], [2757536088714772928, 9094995078650759376, 3822385049556375858, 99, 0, 2, 405, -6, 13110060611322374290, 16562859848569467201, 17551718516836219974], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -7, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Apparently" />
+      <extra enhanced="4:advmod" features="_" frame="_" lemma="apparently" pos="ADV" tag="RB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="the" />
+      <extra enhanced="3:det" features="Definite=Def|PronType=Art" frame="_" lemma="the" pos="DET" tag="DT" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="City" />
+      <extra enhanced="4:nsubj" features="Number=Sing" frame="_" lemma="city" pos="NOUN" tag="NN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="informed" />
+      <extra enhanced="0:root" features="Mood=Ind|Tense=Past|VerbForm=Fin" frame="_" lemma="inform" pos="VERB" tag="VBD" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="them" />
+      <extra enhanced="4:obj" features="Case=Acc|Number=Plur|Person=3|PronType=Prs" frame="_" lemma="they" pos="PRON" tag="PRP" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="that" />
+      <extra enhanced="10:mark" features="_" frame="_" lemma="that" pos="SCONJ" tag="IN" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="no" />
+      <extra enhanced="8:det" features="_" frame="_" lemma="no" pos="DET" tag="DT" />
+    </node>
+    <node ID="0.8" type="Word">
+      <attributes paragraph="1" paragraph_position="8" text="permit" />
+      <extra enhanced="10:nsubj:pass" features="Number=Sing" frame="_" lemma="permit" pos="NOUN" tag="NN" />
+    </node>
+    <node ID="0.9" type="Word">
+      <attributes paragraph="1" paragraph_position="9" text="is" />
+      <extra enhanced="10:aux:pass" features="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" frame="_" lemma="be" pos="AUX" tag="VBZ" />
+    </node>
+    <node ID="0.10" type="Word">
+      <attributes paragraph="1" paragraph_position="10" text="required" />
+      <extra enhanced="4:ccomp" features="Tense=Past|VerbForm=Part|Voice=Pass" frame="_" lemma="require" pos="VERB" tag="VBN" />
+    </node>
+    <node ID="0.11" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="11" text="." />
+      <extra enhanced="4:punct" features="_" frame="_" lemma="." pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+      <edge toID="1.5" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.7" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+      <edge toID="1.8" type="ccomp">
+        <attributes />
+        <category tag="ccomp" />
+      </edge>
+      <edge toID="1.10" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.11" type="det">
+        <attributes />
+        <category tag="det" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="1.9" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.12" type="mark">
+        <attributes />
+        <category tag="mark" />
+      </edge>
+      <edge toID="1.13" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.15" type="aux">
+        <attributes />
+        <category tag="aux" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.10" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="PNCT">
+      <attributes />
+      <edge toID="0.11" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.11" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.12" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.13" type="FN">
+      <attributes />
+      <edge toID="1.14" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.16" type="det">
+        <attributes />
+        <category tag="det" />
+      </edge>
+    </node>
+    <node ID="1.14" type="FN">
+      <attributes />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.15" type="FN">
+      <attributes />
+      <edge toID="0.9" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.16" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

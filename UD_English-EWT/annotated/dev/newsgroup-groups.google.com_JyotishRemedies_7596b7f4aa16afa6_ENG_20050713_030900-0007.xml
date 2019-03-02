@@ -1,0 +1,45 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_JyotishRemedies_7596b7f4aa16afa6_ENG_20050713_030900-0007">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[10926178514336144719, 2482183445564601373, 15794550382381185553, 95, 0, 2, 7037928807040764755, 2, 100, 10926178514336144719, 10926178514336144719], [8656007278630577320, 15917291556903334389, 15794550382381185553, 95, 0, 2, 7037928807040764755, 1, 100, 8656007278630577320, 8656007278630577320], [2669164986116022157, 7430065407197955499, 15794550382381185553, 95, 0, 2, 8206900633647566924, 0, 16072095006890171862, 149303876845869574, 3225541176443882486]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="V" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="V" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="K" />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="K" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Choudhry" />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="Choudhry" pos="PROPN" tag="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,96 @@
+<root annotationID="0" passageID="email-enronsent40_01-0096">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[16678997079844996237, 15941742163725543144, 15794550382381185553, 95, 0, 2, 7037928807040764755, 1, 9398085548156119782, 12290980237632234855, 15210456668098210329], [13253649979635857425, 1033203767314310935, 15794550382381185553, 95, 388, 3, 425, 3, 14250693805477780693, 12290980237632234855, 3042738636347230273], [17750038938330149908, 17750038938330149908, 8427216679587749980, 92, 388, 1, 12837356684637874264, -1, 4620368362210911820, 602994839685422785, 17750038938330149908], [9153284864653046197, 9153284864653046197, 8214596291009089021, 96, 0, 2, 442, 1, 9153284864653046197, 9153284864653046197, 9153284864653046197], [10427160276079242800, 15322182186497800017, 15794550382381185553, 95, 382, 3, 8206900633647566924, 0, 16072095006890171862, 17714545831559622561, 17063285134097196690]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Sat." />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Sat." pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Sept." />
+      <extra enhanced="1:appos" features="Number=Sing" frame="_" lemma="Sept." pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="30" />
+      <extra enhanced="2:nummod" features="NumType=Card" frame="_" lemma="30" pos="NUM" tag="CD" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="-" />
+      <extra enhanced="1:punct" features="_" frame="_" lemma="-" pos="PUNCT" tag="," />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="Paris" />
+      <extra enhanced="1:parataxis" features="Number=Sing" frame="_" lemma="Paris" pos="PROPN" tag="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.3" type="appos">
+        <attributes />
+        <category tag="appos" />
+      </edge>
+      <edge toID="1.5" type="parataxis">
+        <attributes />
+        <category tag="parataxis" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="1.4" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.6" type="nummod">
+        <attributes />
+        <category tag="nummod" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="email-enronsent19_01-0049">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[1884725361625551717, 12848614334718043426, 15794550382381185553, 95, 381, 3, 8206900633647566924, 0, 3552942401566437853, 9148987913859918431, 1884725361625551717]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="FYI" />
+      <extra enhanced="0:root" features="_" frame="_" lemma="fyi" pos="ADV" tag="RB" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

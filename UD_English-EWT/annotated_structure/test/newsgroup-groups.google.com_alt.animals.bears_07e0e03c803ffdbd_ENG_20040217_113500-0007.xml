@@ -1,0 +1,111 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_alt.animals.bears_07e0e03c803ffdbd_ENG_20040217_113500-0007">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[6212218119169193728, 3758689755797932712, 15794550382381185553, 95, 381, 3, 7037928807040764755, 2, 16072095006890171862, 14862748245026736845, 10748144119362648261], [11179050979078045360, 813965819887107378, 15794550382381185553, 95, 381, 1, 7037928807040764755, 1, 16072095006890171862, 16337536289976144572, 13717921461261367060], [14647001453044906304, 12576423953024044684, 15794550382381185553, 95, 381, 1, 8206900633647566924, 0, 16072095006890171862, 12290980237632234855, 18119152608922315876], [15473034735919704609, 15473034735919704609, 17571114184892886314, 88, 381, 1, 404, -1, 15473034735919704609, 15473034735919704609, 15473034735919704609], [15184103052823928696, 2160998316008163669, 783433942507015291, 91, 381, 1, 407, -2, 16072095006890171862, 10926178514336144719, 18235455151798668787], [11532473245541075862, 11532473245541075862, 11532473245541075862, 96, 0, 2, 442, -3, 11532473245541075862, 11532473245541075862, 11532473245541075862]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Attention" />
+      <extra enhanced="3:discourse" features="Number=Sing" frame="_" lemma="attention" pos="NOUN" tag="NN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Retail" />
+      <extra enhanced="3:compound" features="Number=Sing" frame="_" lemma="retail" pos="NOUN" tag="NN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Stores" />
+      <extra enhanced="0:root" features="Number=Plur" frame="_" lemma="store" pos="NOUN" tag="NNS" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="&amp;" />
+      <extra enhanced="5:cc" features="_" frame="_" lemma="&amp;" pos="CCONJ" tag="CC" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="Vendors" />
+      <extra enhanced="3:conj" features="Number=Plur" frame="_" lemma="vendor" pos="NOUN" tag="NNS" />
+    </node>
+    <node ID="0.6" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="6" text=":" />
+      <extra enhanced="3:punct" features="_" frame="_" lemma=":" pos="PUNCT" tag=":" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="cc">
+        <attributes />
+        <category tag="cc" />
+      </edge>
+      <edge toID="1.5" type="conj">
+        <attributes />
+        <category tag="conj" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.6" type="discourse">
+        <attributes />
+        <category tag="discourse" />
+      </edge>
+      <edge toID="1.7" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+      <edge toID="1.8" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="PNCT">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

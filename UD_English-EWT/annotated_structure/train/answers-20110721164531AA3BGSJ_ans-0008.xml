@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="answers-20110721164531AA3BGSJ_ans-0008">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[13055779130471031426, 13055779130471031426, 15267657372422890137, 89, 0, 2, 8206900633647566924, 0, 4370460163704169311, 13210364986222294696, 13055779130471031426]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="no" />
+      <extra enhanced="0:root" features="_" frame="_" lemma="no" pos="INTJ" tag="UH" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

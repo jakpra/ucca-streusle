@@ -1,0 +1,81 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_alt.animals.bears_1125853b1f13cff6_ENG_20040126_171100-0006">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[7184416568231013059, 4525988469032889948, 3252815442139690129, 90, 0, 2, 399, 2, 13862804199789047564, 14825646868312541310, 9061071591651000789], [17681921588738181790, 1399273842756378753, 164681854541413346, 85, 0, 2, 7037928807040764755, 1, 13862804199789047564, 16829822105563051112, 9524463762318707933], [15106855954730550516, 5865838185239622912, 17202369883303991778, 83, 0, 2, 8206900633647566924, 0, 13862804199789047564, 14825646868312541310, 13909561150576445886], [12736066093347293436, 12736066093347293436, 12646065887601541794, 96, 0, 2, 442, -1, 12736066093347293436, 17494803046312582752, 12736066093347293436]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="WELL" />
+      <extra enhanced="2:discourse" features="_" frame="_" lemma="well" pos="INTJ" tag="UH" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="GUESS" />
+      <extra enhanced="0:root" features="Mood=Imp|VerbForm=Fin" frame="_" lemma="guess" pos="VERB" tag="VB" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="WHAT" />
+      <extra enhanced="2:obj" features="PronType=Int" frame="_" lemma="what" pos="PRON" tag="WP" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="!!!" />
+      <extra enhanced="2:punct" features="_" frame="_" lemma="!!!" pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="discourse">
+        <attributes />
+        <category tag="discourse" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

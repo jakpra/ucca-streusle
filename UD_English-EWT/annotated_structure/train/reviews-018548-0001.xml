@@ -1,0 +1,81 @@
+<root annotationID="0" passageID="reviews-018548-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[2435515429348335628, 12938003400095470489, 15794550382381185553, 95, 378, 3, 7037928807040764755, 1, 16072095006890171862, 3209455878668673793, 14351626505423870853], [15974444957387828554, 1297721558634355905, 15794550382381185553, 95, 378, 1, 7037928807040764755, 1, 10887629174180191697, 10603054956214495369, 1019041181156623609], [7128288563961686348, 10545984616616630162, 15794550382381185553, 95, 378, 1, 8206900633647566924, 0, 3552942401566437853, 9148987913859918431, 7128288563961686348], [17494803046312582752, 17494803046312582752, 12646065887601541794, 96, 0, 2, 442, -1, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Mezza" />
+      <extra deprel="compound" depth="3" edeps="2:compound" enhanced="2:compound" feats="Number=Sing" features="Number=Sing" frame="_" head="2" lemma="mezza" lexcat="N" lexlemma="mezza luna" lextag="B-N-n.FOOD" local_toknums="1 2" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" pos="NOUN" remarks="0.1" smwe="[1, 1]" ss="n.FOOD" ss2="null" tag="NN" toknums="1 2" upos="NOUN" wmwe="null" word="Mezza" xpos="NN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Luna" />
+      <extra deprel="root" depth="3" edeps="0:root" enhanced="0:root" feats="Number=Sing" features="Number=Sing" frame="_" head="0" lemma="luna" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" pos="NOUN" remarks="0.2" smwe="[1, 2]" tag="NN" upos="NOUN" wmwe="null" word="Luna" xpos="NN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="FTW" />
+      <extra deprel="discourse" depth="2" edeps="2:discourse" enhanced="2:discourse" feats="null" features="_" frame="_" head="2" lemma="ftw" lextag="O-ADV" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" pos="ADV" remarks="0.3" smwe="null" tag="RB" upos="ADV" wmwe="null" word="FTW" xpos="RB" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="!" />
+      <extra deprel="punct" depth="3" edeps="2:punct" enhanced="2:punct" feats="null" features="_" frame="_" head="2" lemma="!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" pos="PUNCT" remarks="0.4" smwe="null" tag="." upos="PUNCT" wmwe="null" word="!" xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+      <edge toID="1.5" type="discourse">
+        <attributes />
+        <category tag="discourse" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

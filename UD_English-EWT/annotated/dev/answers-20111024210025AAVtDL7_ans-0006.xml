@@ -1,0 +1,103 @@
+<root annotationID="0" passageID="answers-20111024210025AAVtDL7_ans-0006">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[7624161793554793053, 561228191312463089, 13656873538139661788, 94, 0, 2, 426, 2, 4088098365541558500, 9409450202036847209, 7624161793554793053], [6635067063807956629, 6635067063807956629, 16235386156175103506, 99, 0, 2, 402, 1, 4088098365541558500, 16900879642891266615, 6635067063807956629], [2608925738682777778, 2608925738682777778, 14200088355797579614, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 2482183445564601373, 10572380676402051993], [11667289587015813222, 11667289587015813222, 1292078113972184607, 84, 0, 2, 440, -1, 4370460163704169311, 11901859001352538922, 11667289587015813222], [6651908870405400474, 6651908870405400474, 8812103347613839895, 100, 0, 2, 436, -1, 10292541189845663631, 8148669997605808657, 15609295637765553343]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="you" />
+      <extra enhanced="3:nsubj" features="Case=Nom|Person=2|PronType=Prs" frame="_" lemma="you" pos="PRON" tag="PRP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="can" />
+      <extra enhanced="3:aux" features="VerbForm=Fin" frame="_" lemma="can" pos="AUX" tag="MD" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="view" />
+      <extra enhanced="0:root" features="VerbForm=Inf" frame="_" lemma="view" pos="VERB" tag="VB" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="at" />
+      <extra enhanced="5:case" features="_" frame="_" lemma="at" pos="ADP" tag="IN" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="dresscod.com" />
+      <extra enhanced="3:obl:at" features="_" frame="_" lemma="dresscod.com" pos="X" tag="ADD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.5" type="aux">
+        <attributes />
+        <category tag="aux" />
+      </edge>
+      <edge toID="1.6" type="obl">
+        <attributes />
+        <category tag="obl" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="1.7" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.8" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,81 @@
+<root annotationID="0" passageID="email-enronsent11_01-0093">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[10460112544927249051, 99974891130002844, 3252815442139690129, 90, 0, 2, 418, 1, 16072095006890171862, 17714545831559622561, 3743965404940708265], [14229572451745258962, 14229572451745258962, 14200088355797579614, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 16900879642891266615, 13409319323822384369], [18197037023634208128, 561228191312463089, 13656873538139661788, 94, 0, 2, 413, -1, 4370460163704169311, 646772771845179972, 18197037023634208128], [13269280543881497561, 13269280543881497561, 8427216679587749980, 92, 394, 3, 430, -2, 303672493610270774, 2462676316711722248, 12137109266633496665]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Please" />
+      <extra enhanced="2:discourse" features="_" frame="_" lemma="please" pos="INTJ" tag="UH" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="call" />
+      <extra enhanced="0:root" features="Mood=Imp|VerbForm=Fin" frame="_" lemma="call" pos="VERB" tag="VB" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="me" />
+      <extra enhanced="2:obj" features="Case=Acc|Number=Sing|Person=1|PronType=Prs" frame="_" lemma="I" pos="PRON" tag="PRP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="713-853-4743" />
+      <extra enhanced="2:parataxis" features="NumType=Card" frame="_" lemma="713-853-4743" pos="NUM" tag="CD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="parataxis">
+        <attributes />
+        <category tag="parataxis" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.5" type="discourse">
+        <attributes />
+        <category tag="discourse" />
+      </edge>
+      <edge toID="1.6" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

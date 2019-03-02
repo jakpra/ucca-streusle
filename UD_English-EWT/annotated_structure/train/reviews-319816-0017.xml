@@ -1,0 +1,81 @@
+<root annotationID="0" passageID="reviews-319816-0017">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[6267662999465156951, 10001145146352519825, 3252815442139690129, 90, 0, 2, 418, 2, 12204527652707022206, 17427324969254097257, 6267662999465156951], [10501404726543969396, 10501404726543969396, 11532473245541075862, 96, 0, 2, 442, 1, 10501404726543969396, 9153284864653046197, 10501404726543969396], [16884455833306854589, 16884455833306854589, 10554686591937588953, 83, 0, 2, 8206900633647566924, 0, 13110060611322374290, 13110760720460257827, 11197236520932772837], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -1, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Ok" />
+      <extra depth="3" enhanced="0:root" features="_" frame="_" lemma="ok" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" pos="INTJ" tag="UH" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text="--" />
+      <extra depth="3" enhanced="1:punct" features="_" frame="_" lemma="--" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" pos="PUNCT" tag="," />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="fine" />
+      <extra depth="2" enhanced="1:discourse" features="_" frame="_" lemma="fine" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" pos="INTJ" tag="UH" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="." />
+      <extra depth="3" enhanced="1:punct" features="_" frame="_" lemma="." next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.5" type="discourse">
+        <attributes />
+        <category tag="discourse" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

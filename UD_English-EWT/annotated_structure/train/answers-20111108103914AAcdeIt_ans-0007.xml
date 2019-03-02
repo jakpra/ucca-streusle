@@ -1,0 +1,144 @@
+<root annotationID="0" passageID="answers-20111108103914AAcdeIt_ans-0007">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[4759254855483594167, 4380130941430378203, 15267657372422890137, 89, 0, 2, 426, 1, 10887629174180191697, 5582244037879929967, 14949295185858420483], [2446979777954330933, 15203660437495798636, 13927759927860985106, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 16978132545290669629, 7880491877800203539], [12882887196030139432, 12882887196030139432, 10554686591937588953, 83, 0, 2, 430, -1, 13110060611322374290, 16900879642891266615, 1523662840261514607], [3791531372978436496, 3791531372978436496, 1292078113972184607, 84, 0, 2, 440, -1, 4370460163704169311, 15369245168918225700, 3791531372978436496], [18197037023634208128, 561228191312463089, 13656873538139661788, 94, 0, 2, 436, -1, 4370460163704169311, 646772771845179972, 18197037023634208128], [16680099953739830072, 16680099953739830072, 164681854541413346, 85, 0, 2, 397, -4, 13110060611322374290, 15369245168918225700, 17582552359806429995], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -5, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="That" />
+      <extra enhanced="2:nsubj|3:nsubj:xsubj" features="Number=Sing|PronType=Dem" frame="_" lemma="that" pos="PRON" tag="DT" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="seems" />
+      <extra enhanced="0:root" features="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" frame="_" lemma="seem" pos="VERB" tag="VBZ" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="cruel" />
+      <extra enhanced="2:xcomp" features="Degree=Pos" frame="_" lemma="cruel" pos="ADJ" tag="JJ" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="to" />
+      <extra enhanced="5:case" features="_" frame="_" lemma="to" pos="ADP" tag="IN" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="me" />
+      <extra enhanced="2:obl:to" features="Case=Acc|Number=Sing|Person=1|PronType=Prs" frame="_" lemma="I" pos="PRON" tag="PRP" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="though" />
+      <extra enhanced="2:advmod" features="_" frame="_" lemma="though" pos="ADV" tag="RB" />
+    </node>
+    <node ID="0.7" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="7" text="." />
+      <extra enhanced="2:punct" features="_" frame="_" lemma="." pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="xcomp">
+        <attributes />
+        <category tag="xcomp" />
+      </edge>
+      <edge toID="1.6" type="obl">
+        <attributes />
+        <category tag="obl" />
+      </edge>
+      <edge toID="1.8" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+      <edge toID="1.9" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.10" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="1.5" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.10" type="nsubj">
+        <attributes remote="True" />
+        <category tag="nsubj" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="1.7" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.11" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="PNCT">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.11" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

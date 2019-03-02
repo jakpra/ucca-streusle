@@ -1,0 +1,89 @@
+<root annotationID="0" passageID="email-enronsent33_01-0072">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[8865853569924406130, 3657443224830427268, 15794550382381185553, 95, 378, 3, 7037928807040764755, 1, 18200729499220207786, 16337536289976144572, 8865853569924406130], [7972232495878360149, 17214724549870294492, 15794550382381185553, 95, 378, 1, 426, 2, 16072095006890171862, 18003918085672799305, 10723582728176985672], [3623639567105129204, 3623639567105129204, 14968597813295776895, 100, 378, 1, 423, 1, 3623639567105129204, 3623639567105129204, 3623639567105129204], [14480904981860106906, 9418087806781209529, 15794550382381185553, 95, 378, 1, 8206900633647566924, 0, 339938809772604655, 16562859848569467201, 15609295637765553343], [5924344943059983899, 5924344943059983899, 14968597813295776895, 100, 0, 2, 8206900633647566924, 0, 5924344943059983899, 5924344943059983899, 5924344943059983899]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Rob" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Rob" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Jacobs" />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="Jacobs" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="&lt;" />
+      <extra enhanced="4:punct" features="_" frame="_" lemma="&lt;" pos="PUNCT" tag="-LRB-" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="rsjacobs@Encoreacq.com" />
+      <extra enhanced="1:list" features="_" frame="_" lemma="rsjacobs@encoreacq.com" pos="X" tag="ADD" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="&gt;" />
+      <extra enhanced="4:punct" features="_" frame="_" lemma="&gt;" pos="PUNCT" tag="-RRB-" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="list">
+        <attributes />
+        <category tag="list" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.5" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

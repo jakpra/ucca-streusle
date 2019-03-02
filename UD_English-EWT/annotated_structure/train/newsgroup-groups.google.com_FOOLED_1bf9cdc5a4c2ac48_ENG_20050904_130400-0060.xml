@@ -1,0 +1,96 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_FOOLED_1bf9cdc5a4c2ac48_ENG_20050904_130400-0060">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[7148522813498185515, 7148522813498185515, 164681854541413346, 85, 0, 2, 397, 3, 13110060611322374290, 8565857220533584986, 11544752174441366476], [227504873216781231, 561228191312463089, 4062917326063685704, 83, 0, 2, 437, 2, 4370460163704169311, 646772771845179972, 227504873216781231], [11711838292424000352, 11711838292424000352, 8427216679587749980, 92, 391, 3, 12837356684637874264, 1, 4088098365541558500, 15369245168918225700, 11711838292424000352], [2584926751610074008, 14327185883159486099, 783433942507015291, 91, 391, 1, 8206900633647566924, 0, 13110060611322374290, 16900879642891266615, 12849174896969601389], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -1, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="just" />
+      <extra enhanced="4:advmod" features="_" frame="_" lemma="just" pos="ADV" tag="RB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="my" />
+      <extra enhanced="4:nmod:poss" features="Number=Sing|Person=1|Poss=Yes|PronType=Prs" frame="_" lemma="my" pos="PRON" tag="PRP$" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="two" />
+      <extra enhanced="4:nummod" features="NumType=Card" frame="_" lemma="two" pos="NUM" tag="CD" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="cents" />
+      <extra enhanced="0:root" features="Number=Plur" frame="_" lemma="cent" pos="NOUN" tag="NNS" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="." />
+      <extra enhanced="4:punct" features="_" frame="_" lemma="." pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+      <edge toID="1.5" type="nmod">
+        <attributes />
+        <category tag="nmod" />
+      </edge>
+      <edge toID="1.6" type="nummod">
+        <attributes />
+        <category tag="nummod" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

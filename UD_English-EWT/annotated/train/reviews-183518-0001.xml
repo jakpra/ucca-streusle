@@ -1,0 +1,88 @@
+<root annotationID="0" passageID="reviews-183518-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[17652899683494573057, 15099054000809333061, 15267657372422890137, 89, 0, 2, 412, 1, 12204527652707022206, 14862748245026736845, 17652899683494573057], [17455109193554806144, 706148391318671201, 15794550382381185553, 95, 0, 2, 8206900633647566924, 0, 16072095006890171862, 14862748245026736845, 11268780503345276587], [3791531372978436496, 3791531372978436496, 1292078113972184607, 84, 0, 2, 440, -1, 4370460163704169311, 15369245168918225700, 3791531372978436496], [14312649441703710401, 14482009779575096305, 15794550382381185553, 95, 382, 3, 436, -1, 16072095006890171862, 16337536289976144572, 2202124469992147544]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="An" />
+      <extra deprel="det" edeps="2:det" enhanced="2:det" feats="Definite=Ind|PronType=Art" features="Definite=Ind|PronType=Art" frame="_" head="2" lemma="a" lextag="O-DET" misc="null" orig_paragraph="1" pos="DET" remarks="0.1" smwe="null" tag="DT" upos="DET" wmwe="null" word="An" xpos="DT" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Asset" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Number=Sing" features="Number=Sing" frame="_" head="0" lemma="asset" lexcat="N" lexlemma="asset" lextag="O-N-n.ATTRIBUTE" local_toknums="2" misc="null" orig_paragraph="1" pos="NOUN" remarks="0.2" smwe="null" ss="n.ATTRIBUTE" ss2="null" tag="NN" toknums="2" upos="NOUN" wmwe="null" word="Asset" xpos="NN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="to" />
+      <extra config="default" deprel="case" edeps="4:case" enhanced="4:case" feats="null" features="_" frame="_" gov="2" govlemma="asset" head="4" lemma="to" lexcat="P" lexlemma="to" lextag="O-P-p.Beneficiary|p.Goal" local_gov="2" local_obj="4" local_toknums="3" misc="null" obj="4" objlemma="Richmond" orig_paragraph="1" pos="ADP" remarks="0.3" smwe="null" ss="p.Beneficiary" ss2="p.Goal" tag="IN" toknums="3" upos="ADP" wmwe="null" word="to" xpos="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Richmond" />
+      <extra deprel="nmod" edeps="2:nmod:to" enhanced="2:nmod:to" feats="Number=Sing" features="Number=Sing" frame="_" head="2" lemma="Richmond" lexcat="N" lexlemma="Richmond" lextag="O-N-n.GROUP" local_toknums="4" misc="null" orig_paragraph="1" pos="PROPN" remarks="0.4" smwe="null" ss="n.GROUP" ss2="null" tag="NNP" toknums="4" upos="PROPN" wmwe="null" word="Richmond" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="det">
+        <attributes />
+        <category tag="det" />
+      </edge>
+      <edge toID="1.5" type="nmod">
+        <attributes />
+        <category tag="nmod" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.7" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

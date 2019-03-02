@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="email-enronsent18_02-0024">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[3018827928181282877, 3018827928181282877, 8427216679587749980, 92, 0, 2, 8206900633647566924, 0, 16540303583526207617, 16743743820210141046, 9305872643138996531]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="42299" />
+      <extra enhanced="0:root" features="NumType=Card" frame="_" lemma="42299" pos="NUM" tag="CD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

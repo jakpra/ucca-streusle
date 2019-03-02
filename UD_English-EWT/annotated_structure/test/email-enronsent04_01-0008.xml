@@ -1,0 +1,200 @@
+<root annotationID="0" passageID="email-enronsent04_01-0008">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[12671847146901420343, 2462409371957257944, 15794550382381185553, 95, 381, 3, 399, 3, 16072095006890171862, 17714545831559622561, 4666434434954617251], [2466615745961202537, 2466615745961202537, 98, 98, 381, 1, 442, 2, 2466615745961202537, 2466615745961202537, 2466615745961202537], [4799862250050485299, 2281936889388004993, 15794550382381185553, 95, 381, 1, 7037928807040764755, 1, 16072095006890171862, 149303876845869574, 8723741297177204404], [7262725514246706477, 5552516367584430480, 15794550382381185553, 95, 381, 1, 427, 3, 16072095006890171862, 4690420944186131903, 10748144119362648261], [14378475389916013800, 14378475389916013800, 16235386156175103506, 99, 0, 2, 402, 2, 4088098365541558500, 646772771845179972, 14378475389916013800], [10382539506755952630, 10382539506755952630, 14200088355797579614, 99, 0, 2, 403, 1, 4370460163704169311, 15598372446745583797, 10382539506755952630], [10865820209810682419, 9364007743113479444, 3822385049556375858, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 16900879642891266615, 4305850001634943401], [3002984154512732771, 3002984154512732771, 1292078113972184607, 84, 0, 2, 440, -1, 4370460163704169311, 5097672513440128799, 3002984154512732771], [1995909169258310477, 1995909169258310477, 15267657372422890137, 89, 0, 2, 412, 1, 13110060611322374290, 15369245168918225700, 2661093235354845946], [1381057396011922202, 1381057396011922202, 15308085513773655218, 91, 0, 2, 436, -2, 13110060611322374290, 646772771845179972, 10400321950887182855], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -4, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Privileged" />
+      <extra enhanced="4:amod" features="Degree=Pos" frame="_" lemma="privileged" pos="ADJ" tag="JJ" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text="/" />
+      <extra enhanced="4:punct" features="_" frame="_" lemma="/" pos="PUNCT" tag="," />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Confidential" />
+      <extra enhanced="4:amod" features="Degree=Pos" frame="_" lemma="confidential" pos="ADJ" tag="JJ" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Information" />
+      <extra enhanced="7:nsubj:pass" features="Number=Sing" frame="_" lemma="information" pos="NOUN" tag="NN" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="may" />
+      <extra enhanced="7:aux" features="VerbForm=Fin" frame="_" lemma="may" pos="AUX" tag="MD" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="be" />
+      <extra enhanced="7:aux:pass" features="VerbForm=Inf" frame="_" lemma="be" pos="AUX" tag="VB" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="contained" />
+      <extra enhanced="0:root" features="Tense=Past|VerbForm=Part|Voice=Pass" frame="_" lemma="contain" pos="VERB" tag="VBN" />
+    </node>
+    <node ID="0.8" type="Word">
+      <attributes paragraph="1" paragraph_position="8" text="in" />
+      <extra enhanced="10:case" features="_" frame="_" lemma="in" pos="ADP" tag="IN" />
+    </node>
+    <node ID="0.9" type="Word">
+      <attributes paragraph="1" paragraph_position="9" text="this" />
+      <extra enhanced="10:det" features="Number=Sing|PronType=Dem" frame="_" lemma="this" pos="DET" tag="DT" />
+    </node>
+    <node ID="0.10" type="Word">
+      <attributes paragraph="1" paragraph_position="10" text="message" />
+      <extra enhanced="7:obl:in" features="Number=Sing" frame="_" lemma="message" pos="NOUN" tag="NN" />
+    </node>
+    <node ID="0.11" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="11" text="." />
+      <extra enhanced="7:punct" features="_" frame="_" lemma="." pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.6" type="aux">
+        <attributes />
+        <category tag="aux" />
+      </edge>
+      <edge toID="1.7" type="aux">
+        <attributes />
+        <category tag="aux" />
+      </edge>
+      <edge toID="1.8" type="obl">
+        <attributes />
+        <category tag="obl" />
+      </edge>
+      <edge toID="1.10" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="1.5" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.11" type="amod">
+        <attributes />
+        <category tag="amod" />
+      </edge>
+      <edge toID="1.12" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.13" type="amod">
+        <attributes />
+        <category tag="amod" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="1.9" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.14" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+      <edge toID="1.15" type="det">
+        <attributes />
+        <category tag="det" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.10" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="PNCT">
+      <attributes />
+      <edge toID="0.11" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.11" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.12" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.13" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.14" type="FN">
+      <attributes />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.15" type="FN">
+      <attributes />
+      <edge toID="0.9" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

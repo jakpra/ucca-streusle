@@ -1,0 +1,162 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_Meditation20052_06390a5f75b2e1f2_ENG_20050316_091700-0028">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[10116246733966211823, 4812066089261065646, 14200088355797579614, 99, 0, 2, 8206900633647566924, 0, 18200729499220207786, 5582244037879929967, 10116246733966211823], [1995909169258310477, 1995909169258310477, 15267657372422890137, 89, 0, 2, 413, -1, 13110060611322374290, 15369245168918225700, 2661093235354845946], [16037325823156266367, 16037325823156266367, 1292078113972184607, 84, 0, 2, 440, -2, 4088098365541558500, 13110760720460257827, 16037325823156266367], [2090661578966068036, 2090661578966068036, 8427216679587749980, 92, 389, 3, 443, 2, 8148669997605808657, 2090661578966068036, 2090661578966068036], [3791531372978436496, 3791531372978436496, 5595707737748328492, 93, 389, 1, 443, 1, 4370460163704169311, 15369245168918225700, 3791531372978436496], [6572986864102252890, 6572986864102252890, 8427216679587749980, 92, 389, 1, 12837356684637874264, 1, 4620368362210911820, 5533571732986600803, 6572986864102252890], [15970778350426902295, 11139402979604626973, 783433942507015291, 91, 389, 1, 436, -4, 13110060611322374290, 646772771845179972, 9351806356543846235], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -7, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Try" />
+      <extra enhanced="0:root" features="Mood=Imp|VerbForm=Fin" frame="_" lemma="try" pos="VERB" tag="VB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="this" />
+      <extra enhanced="1:obj" features="Number=Sing|PronType=Dem" frame="_" lemma="this" pos="PRON" tag="DT" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="for" />
+      <extra enhanced="7:case" features="_" frame="_" lemma="for" pos="ADP" tag="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="5" />
+      <extra enhanced="7:nummod" features="NumType=Card" frame="_" lemma="5" pos="NUM" tag="CD" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="to" />
+      <extra enhanced="6:case" features="_" frame="_" lemma="to" pos="ADP" tag="IN" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="10" />
+      <extra enhanced="4:nmod:to" features="NumType=Card" frame="_" lemma="10" pos="NUM" tag="CD" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="minutes" />
+      <extra enhanced="1:obl:for" features="Number=Plur" frame="_" lemma="minute" pos="NOUN" tag="NNS" />
+    </node>
+    <node ID="0.8" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="8" text="." />
+      <extra enhanced="1:punct" features="_" frame="_" lemma="." pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+      <edge toID="1.5" type="obl">
+        <attributes />
+        <category tag="obl" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.8" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+      <edge toID="1.9" type="nummod">
+        <attributes />
+        <category tag="nummod" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="1.10" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.11" type="nmod">
+        <attributes />
+        <category tag="nmod" />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.11" type="FN">
+      <attributes />
+      <edge toID="1.12" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.13" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+    </node>
+    <node ID="1.12" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.13" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

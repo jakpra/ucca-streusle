@@ -1,0 +1,44 @@
+<root annotationID="0" passageID="email-enronsent16_01-0087">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[9153284864653046197, 9153284864653046197, 11532473245541075862, 96, 0, 2, 442, 1, 9153284864653046197, 9153284864653046197, 9153284864653046197], [18353373915002437788, 17714049875738635387, 15794550382381185553, 95, 0, 2, 8206900633647566924, 0, 7850982721113174915, 9391737413944127320, 16348098840470589605]]]" />
+    <node ID="0.1" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="1" text="-" />
+      <extra enhanced="2:punct" features="_" frame="_" lemma="-" pos="PUNCT" tag="NFP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="ETA_revision0307.doc" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="eta_revision0307.doc" pos="NOUN" tag="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

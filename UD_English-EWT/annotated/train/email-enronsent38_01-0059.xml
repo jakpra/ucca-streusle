@@ -1,0 +1,74 @@
+<root annotationID="0" passageID="email-enronsent38_01-0059">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[142089387193273642, 2472836014183183013, 15794550382381185553, 95, 381, 3, 8206900633647566924, 0, 16072095006890171862, 149303876845869574, 5979457044106899080], [3740602843040177340, 3740602843040177340, 17571114184892886314, 88, 381, 1, 404, -1, 4370460163704169311, 1489474827855109852, 3740602843040177340], [11690492693010851662, 10553618391925213710, 15794550382381185553, 95, 378, 3, 407, -2, 10887629174180191697, 149303876845869574, 14495111538762983819], [11532473245541075862, 11532473245541075862, 11532473245541075862, 96, 0, 2, 442, -3, 11532473245541075862, 11532473245541075862, 11532473245541075862]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Christie" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Christie" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="or" />
+      <extra enhanced="3:cc" features="_" frame="_" lemma="or" pos="CCONJ" tag="CC" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Cass" />
+      <extra enhanced="1:conj:or" features="Number=Sing" frame="_" lemma="Cass" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text=":" />
+      <extra enhanced="1:punct" features="_" frame="_" lemma=":" pos="PUNCT" tag=":" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.3" type="cc">
+        <attributes />
+        <category tag="cc" />
+      </edge>
+      <edge toID="1.4" type="conj">
+        <attributes />
+        <category tag="conj" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

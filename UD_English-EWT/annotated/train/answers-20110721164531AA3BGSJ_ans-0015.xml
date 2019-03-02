@@ -1,0 +1,81 @@
+<root annotationID="0" passageID="answers-20110721164531AA3BGSJ_ans-0015">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[5097672513440128799, 5097672513440128799, 13656873538139661788, 94, 0, 2, 426, 1, 11123243248953317070, 5097672513440128799, 5097672513440128799], [9959572535527750153, 9959572535527750153, 17109001835818727656, 99, 0, 2, 8206900633647566924, 0, 4088098365541558500, 6217145520856553898, 9959572535527750153], [5865838185239622912, 5865838185239622912, 4808651922106831370, 91, 0, 2, 426, 1, 13110060611322374290, 260667111241363922, 14949295185858420483], [18027416633089640386, 18027416633089640386, 12646065887601541794, 96, 0, 2, 397, -2, 4088098365541558500, 2985121464356781022, 18027416633089640386]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="i" />
+      <extra enhanced="2:nsubj" features="Case=Nom|Number=Sing|Person=1|PronType=Prs" frame="_" lemma="i" pos="PRON" tag="PRP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="guz" />
+      <extra enhanced="0:root" features="Mood=Ind|Tense=Pres|VerbForm=Fin" frame="_" lemma="guz" pos="VERB" tag="VBP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="what" />
+      <extra enhanced="2:obj" features="PronType=Int" frame="_" lemma="what" pos="PRON" tag="WP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="lol" />
+      <extra enhanced="2:discourse" features="_" frame="_" lemma="lol" pos="INTJ" tag="UH" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+      <edge toID="1.6" type="discourse">
+        <attributes />
+        <category tag="discourse" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

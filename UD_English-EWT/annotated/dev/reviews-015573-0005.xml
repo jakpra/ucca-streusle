@@ -1,0 +1,66 @@
+<root annotationID="0" passageID="reviews-015573-0005">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[16173034612666007580, 12767647472892411841, 14200088355797579614, 99, 0, 2, 8206900633647566924, 0, 18200729499220207786, 16337536289976144572, 16173034612666007580], [15726112966383307120, 15726112966383307120, 164681854541413346, 85, 0, 2, 397, -1, 13110060611322374290, 11901859001352538922, 6878210874361030284], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -2, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Run" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Mood=Imp|VerbForm=Fin" features="Mood=Imp|VerbForm=Fin" frame="_" head="0" lemma="run" lexcat="V" lexlemma="run" lextag="O-V-v.motion" local_toknums="1" misc="null" orig_paragraph="1" pos="VERB" remarks="0.31" smwe="null" ss="v.motion" ss2="null" tag="VB" toknums="31" upos="VERB" wmwe="null" word="Run" xpos="VB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="away" />
+      <extra config="default" deprel="advmod" edeps="1:advmod" enhanced="1:advmod" feats="null" features="_" frame="_" gov="31" govlemma="run" head="1" lemma="away" lexcat="P" lexlemma="away" lextag="O-P-p.Direction" local_gov="1" local_toknums="2" misc="SpaceAfter=No" obj="null" objlemma="null" orig_paragraph="1" pos="ADV" remarks="0.32" smwe="null" ss="p.Direction" ss2="p.Direction" tag="RB" toknums="32" upos="ADV" wmwe="null" word="away" xpos="RB" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="." />
+      <extra deprel="punct" edeps="1:punct" enhanced="1:punct" feats="null" features="_" frame="_" head="1" lemma="." lextag="O-PUNCT" misc="null" orig_paragraph="1" pos="PUNCT" remarks="0.33" smwe="null" tag="." upos="PUNCT" wmwe="null" word="." xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

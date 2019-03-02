@@ -1,0 +1,134 @@
+<root annotationID="0" passageID="weblog-blogspot.com_aggressivevoicedaily_20060811122000_ENG_20060811_122000-0020">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[14454616769571299476, 1182147944274714987, 15794550382381185553, 95, 382, 3, 7037928807040764755, 2, 16072095006890171862, 12290980237632234855, 5179928102577838771], [13349942352666443185, 6606291225673971982, 15794550382381185553, 95, 378, 3, 7037928807040764755, 1, 16072095006890171862, 3209455878668673793, 14009161575225144129], [5420755771682766637, 14559561744831717084, 15794550382381185553, 95, 378, 1, 8206900633647566924, 0, 16072095006890171862, 8804677687338025421, 9255585900330915604], [2593208677638477497, 2593208677638477497, 2593208677638477497, 96, 0, 2, 442, -1, 2593208677638477497, 2593208677638477497, 2593208677638477497], [301403532581378974, 301403532581378974, 8427216679587749980, 92, 388, 3, 400, -2, 4620368362210911820, 602994839685422785, 301403532581378974], [2593208677638477497, 2593208677638477497, 2593208677638477497, 96, 0, 2, 442, -3, 2593208677638477497, 2593208677638477497, 2593208677638477497], [5398023836555690631, 6354878466732550036, 15794550382381185553, 95, 382, 3, 7037928807040764755, 1, 16072095006890171862, 12290980237632234855, 10746617681048959497], [17185969319935362084, 6739582297979157612, 15794550382381185553, 95, 382, 1, 425, -5, 16072095006890171862, 10850957288794122991, 5826824642517542187]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Shamin" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Shamin" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Mohammed" />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="Mohammed" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Uddin" />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="Uddin" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="," />
+      <extra enhanced="1:punct" features="_" frame="_" lemma="," pos="PUNCT" tag="," />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="36" />
+      <extra enhanced="1:list" features="NumType=Card" frame="_" lemma="36" pos="NUM" tag="CD" />
+    </node>
+    <node ID="0.6" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="6" text="," />
+      <extra enhanced="1:punct" features="_" frame="_" lemma="," pos="PUNCT" tag="," />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="Stoke" />
+      <extra enhanced="8:compound" features="Number=Sing" frame="_" lemma="Stoke" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.8" type="Word">
+      <attributes paragraph="1" paragraph_position="8" text="Newington" />
+      <extra enhanced="1:list" features="Number=Sing" frame="_" lemma="Newington" pos="PROPN" tag="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.5" type="list">
+        <attributes />
+        <category tag="list" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.7" type="list">
+        <attributes />
+        <category tag="list" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="1.8" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.9" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,103 @@
+<root annotationID="0" passageID="answers-20111108090913AAf83Jh_ans-0024">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[9961096612964047077, 16863119063280262273, 14200088355797579614, 99, 0, 2, 8206900633647566924, 0, 16072095006890171862, 5582244037879929967, 7970704286052693043], [6459564349623679250, 6459564349623679250, 15267657372422890137, 89, 0, 2, 412, 1, 13110060611322374290, 15369245168918225700, 17080020411610877296], [4586336391509335125, 12967506265518776220, 783433942507015291, 91, 0, 2, 413, -2, 13110060611322374290, 16978132545290669629, 2805338876362049277], [12478187489817984631, 12478187489817984631, 164681854541413346, 85, 0, 2, 397, -3, 13110060611322374290, 16978132545290669629, 1344279032286957731], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -4, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Tighten" />
+      <extra enhanced="0:root" features="Mood=Imp|VerbForm=Fin" frame="_" lemma="tighten" pos="VERB" tag="VB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="these" />
+      <extra enhanced="3:det" features="Number=Plur|PronType=Dem" frame="_" lemma="these" pos="DET" tag="DT" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="screws" />
+      <extra enhanced="1:obj" features="Number=Plur" frame="_" lemma="screw" pos="NOUN" tag="NNS" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="securely" />
+      <extra enhanced="1:advmod" features="_" frame="_" lemma="securely" pos="ADV" tag="RB" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="." />
+      <extra enhanced="1:punct" features="_" frame="_" lemma="." pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+      <edge toID="1.6" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="1.5" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.8" type="det">
+        <attributes />
+        <category tag="det" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

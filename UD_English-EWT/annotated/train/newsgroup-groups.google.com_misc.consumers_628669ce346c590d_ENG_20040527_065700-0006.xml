@@ -1,0 +1,96 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_misc.consumers_628669ce346c590d_ENG_20040527_065700-0006">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[3155028153093623332, 12347511982927073470, 15794550382381185553, 95, 0, 2, 399, 3, 10887629174180191697, 3929483993944067416, 14872279755251211665], [2395064516775349445, 5697616328808756553, 15794550382381185553, 95, 0, 2, 423, 2, 18200729499220207786, 12290980237632234855, 2395064516775349445], [2466615745961202537, 2466615745961202537, 98, 98, 0, 2, 442, 1, 2466615745961202537, 2466615745961202537, 2466615745961202537], [2368254710606327362, 940538739835881325, 15794550382381185553, 95, 0, 2, 8206900633647566924, 0, 16072095006890171862, 3209455878668673793, 11965583295111685829], [2593208677638477497, 2593208677638477497, 2593208677638477497, 96, 0, 2, 442, -1, 2593208677638477497, 2593208677638477497, 2593208677638477497]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Dear" />
+      <extra enhanced="4:amod" features="Degree=Pos" frame="_" lemma="dear" pos="ADJ" tag="JJ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Sir" />
+      <extra enhanced="4:compound" features="Number=Sing" frame="_" lemma="sir" pos="NOUN" tag="NN" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="/" />
+      <extra enhanced="4:punct" features="_" frame="_" lemma="/" pos="PUNCT" tag="," />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Madam" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="madam" pos="NOUN" tag="NN" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="," />
+      <extra enhanced="4:punct" features="_" frame="_" lemma="," pos="PUNCT" tag="," />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="amod">
+        <attributes />
+        <category tag="amod" />
+      </edge>
+      <edge toID="1.5" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

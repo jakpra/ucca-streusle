@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="answers-20111107213255AAT0HQq_ans-0003">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[12504283424103698867, 13507852243512175260, 8812103347613839895, 100, 0, 2, 8206900633647566924, 0, 548457813366661873, 15817570140490810055, 9930496526604702357]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="http://www.smooth-on.com/p132/Beginner-Brushable-Mold-Rubber-Options/pages.html" />
+      <extra enhanced="0:root" features="_" frame="_" lemma="http://www.smooth-on.com/p132/beginner-brushable-mold-rubber-options/pages.html" pos="X" tag="ADD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

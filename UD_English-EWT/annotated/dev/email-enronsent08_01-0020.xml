@@ -1,0 +1,155 @@
+<root annotationID="0" passageID="email-enronsent08_01-0020">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[11807324956200684967, 5990740696547475882, 1534113631682161808, 99, 0, 2, 426, 4, 16072095006890171862, 14230521632333904559, 7679303661980345986], [5456543204961066030, 5456543204961066030, 1292078113972184607, 84, 0, 2, 397, 1, 13110060611322374290, 1489474827855109852, 16203534885047373824], [411390626470654571, 411390626470654571, 164681854541413346, 85, 0, 2, 397, -2, 13110060611322374290, 15817570140490810055, 18139757808136603089], [1248239241591158246, 14692702688101715474, 13927759927860985106, 99, 0, 2, 402, 1, 4088098365541558500, 15817570140490810055, 1248239241591158246], [12517269084653561647, 10382539506755952630, 3822385049556375858, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 15598372446745583797, 11571764995849485429], [7379188904070621703, 7379188904070621703, 164681854541413346, 85, 0, 2, 397, 1, 13110060611322374290, 8861071527689086543, 10689130625501954288], [179292792496133125, 179292792496133125, 10554686591937588953, 83, 0, 2, 395, -2, 13110060611322374290, 16562859848569467201, 7679303661980345986], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -3, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Brokering" />
+      <extra enhanced="7:csubj" features="VerbForm=Ger" frame="_" lemma="broker" pos="VERB" tag="VBG" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="over" />
+      <extra enhanced="3:case" features="_" frame="_" lemma="over" pos="ADP" tag="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="here" />
+      <extra enhanced="1:obl:over" features="PronType=Dem" frame="_" lemma="here" pos="ADV" tag="RB" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="has" />
+      <extra enhanced="7:aux" features="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" frame="_" lemma="have" pos="AUX" tag="VBZ" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="been" />
+      <extra enhanced="7:cop" features="Tense=Past|VerbForm=Part" frame="_" lemma="be" pos="AUX" tag="VBN" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="pretty" />
+      <extra enhanced="7:advmod" features="_" frame="_" lemma="pretty" pos="ADV" tag="RB" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="rewarding" />
+      <extra enhanced="0:root" features="Degree=Pos" frame="_" lemma="rewarding" pos="ADJ" tag="JJ" />
+    </node>
+    <node ID="0.8" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="8" text="." />
+      <extra enhanced="7:punct" features="_" frame="_" lemma="." pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="csubj">
+        <attributes />
+        <category tag="csubj" />
+      </edge>
+      <edge toID="1.6" type="aux">
+        <attributes />
+        <category tag="aux" />
+      </edge>
+      <edge toID="1.7" type="cop">
+        <attributes />
+        <category tag="cop" />
+      </edge>
+      <edge toID="1.8" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+      <edge toID="1.9" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="1.5" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.10" type="obl">
+        <attributes />
+        <category tag="obl" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="PNCT">
+      <attributes />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <edge toID="1.11" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.12" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+    </node>
+    <node ID="1.11" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.12" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

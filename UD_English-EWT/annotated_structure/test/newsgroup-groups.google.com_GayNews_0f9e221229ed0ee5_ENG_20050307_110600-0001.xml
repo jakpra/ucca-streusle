@@ -1,0 +1,103 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_GayNews_0f9e221229ed0ee5_ENG_20050307_110600-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[916201001919687022, 11185617643287287306, 783433942507015291, 91, 0, 2, 426, 2, 16072095006890171862, 9350754067018752509, 9727125788672890116], [2326915202511957355, 2326915202511957355, 164681854541413346, 85, 0, 2, 397, 1, 13110060611322374290, 5097672513440128799, 8180010184028890126], [15255859468896132977, 15255859468896132977, 9188597074677201817, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 15598372446745583797, 12794475650786432352], [5754201015754630361, 5754201015754630361, 10554686591937588953, 83, 0, 2, 399, 1, 4088098365541558500, 6217145520856553898, 5754201015754630361], [15611710199099623610, 15611710199099623610, 15308085513773655218, 91, 0, 2, 413, -2, 13110060611322374290, 646772771845179972, 10400321950887182855]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Heterosexuals" />
+      <extra enhanced="3:nsubj" features="Number=Plur" frame="_" lemma="heterosexual" pos="NOUN" tag="NNS" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="increasingly" />
+      <extra enhanced="3:advmod" features="_" frame="_" lemma="increasingly" pos="ADV" tag="RB" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="back" />
+      <extra enhanced="0:root" features="Mood=Ind|Tense=Pres|VerbForm=Fin" frame="_" lemma="back" pos="VERB" tag="VBP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="gay" />
+      <extra enhanced="5:amod" features="Degree=Pos" frame="_" lemma="gay" pos="ADJ" tag="JJ" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="marriage" />
+      <extra enhanced="3:obj" features="Number=Sing" frame="_" lemma="marriage" pos="NOUN" tag="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.5" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+      <edge toID="1.6" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="1.7" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.8" type="amod">
+        <attributes />
+        <category tag="amod" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

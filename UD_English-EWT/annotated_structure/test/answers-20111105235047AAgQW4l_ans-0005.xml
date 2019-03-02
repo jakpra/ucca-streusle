@@ -1,0 +1,51 @@
+<root annotationID="0" passageID="answers-20111105235047AAgQW4l_ans-0005">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[15528747877560661607, 9217037007768002741, 15794550382381185553, 95, 9191306739292312949, 3, 7037928807040764755, 1, 16072095006890171862, 16337536289976144572, 5292187339609965175], [5727228414329210793, 14629044596807299988, 15794550382381185553, 95, 9191306739292312949, 1, 8206900633647566924, 0, 10887629174180191697, 16337536289976144572, 17213313759721705086]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Rumba" />
+      <extra enhanced="2:compound" features="Number=Sing" frame="_" lemma="Rumba" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Room" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Room" pos="PROPN" tag="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

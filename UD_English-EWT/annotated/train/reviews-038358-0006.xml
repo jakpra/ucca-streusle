@@ -1,0 +1,88 @@
+<root annotationID="0" passageID="reviews-038358-0006">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[11061341230758823191, 8960195134057108264, 9188597074677201817, 99, 0, 2, 8206900633647566924, 0, 16072095006890171862, 5582244037879929967, 1230421989022628249], [7624161793554793053, 561228191312463089, 13656873538139661788, 94, 0, 2, 413, -1, 4088098365541558500, 9409450202036847209, 7624161793554793053], [6960060917401040104, 3214351218142306951, 15794550382381185553, 95, 0, 2, 7037928807040764755, 1, 16072095006890171862, 149303876845869574, 2308372342712821294], [4450667286858199603, 13382239391501194836, 15794550382381185553, 95, 0, 2, 413, -3, 10887629174180191697, 7173976090571422945, 17454115351911680600]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Thank" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" features="Mood=Ind|Tense=Pres|VerbForm=Fin" frame="_" head="0" lemma="thank" lextag="B-DISC" misc="null" orig_paragraph="1" pos="VERB" remarks="0.62" smwe="[1, 1]" tag="VBP" upos="VERB" wmwe="null" word="Thank" xpos="VBP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="you" />
+      <extra deprel="iobj" edeps="1:iobj" enhanced="1:iobj" feats="Case=Acc|Person=2|PronType=Prs" features="Case=Acc|Person=2|PronType=Prs" frame="_" head="1" lemma="you" lextag="I_" misc="null" orig_paragraph="1" pos="PRON" remarks="0.63" smwe="[1, 2]" tag="PRP" upos="PRON" wmwe="null" word="you" xpos="PRP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Comfort" />
+      <extra deprel="compound" edeps="4:compound" enhanced="4:compound" feats="Number=Sing" features="Number=Sing" frame="_" head="4" lemma="Comfort" lexcat="N" lexlemma="Comfort Zone" lextag="B-N-n.GROUP" local_toknums="3 4" misc="null" orig_paragraph="1" pos="PROPN" remarks="0.64" smwe="[2, 1]" ss="n.GROUP" ss2="null" tag="NNP" toknums="64 65" upos="PROPN" wmwe="null" word="Comfort" xpos="NNP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Zone" />
+      <extra deprel="obj" edeps="1:obj" enhanced="1:obj" feats="Number=Sing" features="Number=Sing" frame="_" head="1" lemma="Zone" lextag="I_" misc="null" orig_paragraph="1" pos="PROPN" remarks="0.65" smwe="[2, 2]" tag="NNP" upos="PROPN" wmwe="null" word="Zone" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="iobj">
+        <attributes />
+        <category tag="iobj" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.7" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

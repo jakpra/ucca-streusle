@@ -1,0 +1,66 @@
+<root annotationID="0" passageID="weblog-blogspot.com_dakbangla_20050311135387_ENG_20050311_135387-0182">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[10311559949328506146, 1289836513871212815, 10554686591937588953, 83, 0, 2, 8206900633647566924, 0, 16072095006890171862, 12290980237632234855, 11593690929944126543], [5822865963143960024, 5822865963143960024, 10554686591937588953, 83, 0, 2, 399, -1, 13110060611322374290, 13110760720460257827, 15143342974050162013], [8205403955989537350, 8205403955989537350, 12646065887601541794, 96, 0, 2, 442, -2, 8205403955989537350, 8205403955989537350, 8205403955989537350]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Sound" />
+      <extra enhanced="0:root" features="VerbForm=Inf" frame="_" lemma="sound" pos="VERB" tag="VB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="familiar" />
+      <extra enhanced="1:xcomp" features="Degree=Pos" frame="_" lemma="familiar" pos="ADJ" tag="JJ" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="?" />
+      <extra enhanced="1:punct" features="_" frame="_" lemma="?" pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="xcomp">
+        <attributes />
+        <category tag="xcomp" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

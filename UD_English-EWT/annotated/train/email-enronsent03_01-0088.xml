@@ -1,0 +1,37 @@
+<root annotationID="0" passageID="email-enronsent03_01-0088">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[811929623321334340, 12186173274563709640, 15794550382381185553, 95, 378, 3, 7037928807040764755, 1, 16072095006890171862, 12290980237632234855, 10719031914917289064], [2272849500224425416, 11780741422313266544, 15794550382381185553, 95, 378, 1, 8206900633647566924, 0, 16072095006890171862, 14825646868312541310, 5826824642517542187]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Sheila" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Sheila" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Walton" />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="Walton" pos="PROPN" tag="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

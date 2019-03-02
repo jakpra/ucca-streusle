@@ -1,0 +1,107 @@
+<root annotationID="0" passageID="email-enronsent13_01-0031">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[12606808928477742206, 12606808928477742206, 14872845191859177490, 96, 0, 2, 442, 7, 12606808928477742206, 3623639567105129204, 12606808928477742206], [16398877448063810194, 13035402893022699687, 15794550382381185553, 95, 381, 3, 7037928807040764755, 2, 16072095006890171862, 9391737413944127320, 9803189552068640945], [9153284864653046197, 9153284864653046197, 8214596291009089021, 96, 0, 2, 442, 1, 9153284864653046197, 9153284864653046197, 9153284864653046197], [4618876679147761588, 11437618214103708755, 15794550382381185553, 95, 0, 2, 7037928807040764755, 4, 14968597813295776895, 8804677687338025421, 4618876679147761588], [13124263106572512573, 10195888877917791284, 15794550382381185553, 95, 0, 2, 7037928807040764755, 3, 16072095006890171862, 3209455878668673793, 16111258787187009011], [5334115035801324036, 16246638286389273127, 15794550382381185553, 95, 0, 2, 7037928807040764755, 2, 16072095006890171862, 14862748245026736845, 12182527387764416033], [9153284864653046197, 9153284864653046197, 8214596291009089021, 96, 0, 2, 442, 1, 9153284864653046197, 9153284864653046197, 9153284864653046197], [9319017432894530793, 9319017432894530793, 8427216679587749980, 92, 0, 2, 8206900633647566924, 0, 14303273749117346959, 746762829127501960, 16348098840470589605], [2341228919083383362, 2341228919083383362, 14872845191859177490, 96, 0, 2, 442, -1, 2341228919083383362, 5924344943059983899, 2341228919083383362]]]" />
+    <node ID="0.1" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="1" text="&lt;&lt;" />
+      <extra enhanced="8:punct" features="_" frame="_" lemma="&lt;&lt;" pos="PUNCT" tag="-LRB-" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Enron" />
+      <extra enhanced="8:goeswith" features="_" frame="_" lemma="enron" pos="X" tag="GW" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="-" />
+      <extra enhanced="8:goeswith" features="_" frame="_" lemma="-" pos="X" tag="GW" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="UC" />
+      <extra enhanced="8:goeswith" features="_" frame="_" lemma="uc" pos="X" tag="GW" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="Master" />
+      <extra enhanced="8:goeswith" features="_" frame="_" lemma="master" pos="X" tag="GW" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="Agreement" />
+      <extra enhanced="8:goeswith" features="_" frame="_" lemma="agreement" pos="X" tag="GW" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="-" />
+      <extra enhanced="8:goeswith" features="_" frame="_" lemma="-" pos="X" tag="GW" />
+    </node>
+    <node ID="0.8" type="Word">
+      <attributes paragraph="1" paragraph_position="8" text="0308.doc" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="0308.doc" pos="NOUN" tag="NN" />
+    </node>
+    <node ID="0.9" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="9" text="&gt;&gt;" />
+      <extra enhanced="8:punct" features="_" frame="_" lemma="&gt;&gt;" pos="PUNCT" tag="-RRB-" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.4" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="PNCT">
+      <attributes />
+      <edge toID="0.9" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

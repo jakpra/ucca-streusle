@@ -1,0 +1,118 @@
+<root annotationID="0" passageID="reviews-327867-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[717880881345064706, 5711639017775284443, 10554686591937588953, 83, 0, 2, 399, 5, 10887629174180191697, 16829822105563051112, 14387080380872362826], [12079679860671010484, 12079679860671010484, 10554686591937588953, 83, 0, 2, 399, 1, 13110060611322374290, 16900879642891266615, 12934803712391722121], [7338335557000497525, 7338335557000497525, 15308085513773655218, 91, 0, 2, 423, 3, 13110060611322374290, 16978132545290669629, 16639369580702547507], [14121509715367036122, 14121509715367036122, 10554686591937588953, 83, 0, 2, 399, 2, 13110060611322374290, 13210364986222294696, 16077735445828477292], [17545852598994811774, 17545852598994811774, 15308085513773655218, 91, 0, 2, 7037928807040764755, 1, 4088098365541558500, 16900879642891266615, 17545852598994811774], [17323914973283037315, 17323914973283037315, 15308085513773655218, 91, 0, 2, 8206900633647566924, 0, 13110060611322374290, 260667111241363922, 15496613179896748230]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Good" />
+      <extra deprel="amod" edeps="3:amod" enhanced="3:amod" feats="Degree=Pos" features="Degree=Pos" frame="_" head="3" lemma="good" lextag="O-ADJ" misc="null" orig_paragraph="1" pos="ADJ" remarks="0.1" smwe="null" tag="JJ" upos="ADJ" wmwe="null" word="Good" xpos="JJ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="clean" />
+      <extra deprel="amod" edeps="3:amod" enhanced="3:amod" feats="Degree=Pos" features="Degree=Pos" frame="_" head="3" lemma="clean" lextag="O-ADJ" misc="null" orig_paragraph="1" pos="ADJ" remarks="0.2" smwe="null" tag="JJ" upos="ADJ" wmwe="null" word="clean" xpos="JJ" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="store" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Number=Sing" features="Number=Sing" frame="_" head="0" lemma="store" lexcat="N" lexlemma="store" lextag="O-N-n.GROUP" local_toknums="3" misc="null" orig_paragraph="1" pos="NOUN" remarks="0.3" smwe="null" ss="n.GROUP" ss2="null" tag="NN" toknums="3" upos="NOUN" wmwe="null" word="store" xpos="NN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="nice" />
+      <extra deprel="amod" edeps="6:amod" enhanced="6:amod" feats="Degree=Pos" features="Degree=Pos" frame="_" head="6" lemma="nice" lextag="O-ADJ" misc="null" orig_paragraph="1" pos="ADJ" remarks="0.4" smwe="null" tag="JJ" upos="ADJ" wmwe="null" word="nice" xpos="JJ" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="car" />
+      <extra deprel="compound" edeps="6:compound" enhanced="6:compound" feats="Number=Sing" features="Number=Sing" frame="_" head="6" lemma="car" lexcat="N" lexlemma="car wash" lextag="B-N-n.GROUP" local_toknums="5 6" misc="null" orig_paragraph="1" pos="NOUN" remarks="0.5" smwe="[1, 1]" ss="n.GROUP" ss2="null" tag="NN" toknums="5 6" upos="NOUN" wmwe="null" word="car" xpos="NN" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="wash" />
+      <extra deprel="conj" edeps="3:conj" enhanced="3:conj" feats="Number=Sing" features="Number=Sing" frame="_" head="3" lemma="wash" lextag="I_" misc="null" orig_paragraph="1" pos="NOUN" remarks="0.6" smwe="[1, 2]" tag="NN" upos="NOUN" wmwe="null" word="wash" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="conj">
+        <attributes />
+        <category tag="conj" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.6" type="amod">
+        <attributes />
+        <category tag="amod" />
+      </edge>
+      <edge toID="1.7" type="amod">
+        <attributes />
+        <category tag="amod" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="1.5" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.8" type="amod">
+        <attributes />
+        <category tag="amod" />
+      </edge>
+      <edge toID="1.9" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

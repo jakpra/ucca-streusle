@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_HistoricalLinguistics_f65a1220aacc96f3_ENG_20050517_153400-0003">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[7604282942154934344, 15918087274476610748, 15794550382381185553, 95, 381, 3, 8206900633647566924, 0, 16072095006890171862, 17714545831559622561, 1378273283833375277]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Portia" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Portia" pos="PROPN" tag="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

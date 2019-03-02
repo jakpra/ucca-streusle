@@ -1,0 +1,96 @@
+<root annotationID="0" passageID="email-enronsent30_01-0053">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[9921205968090752755, 2736464462867629676, 15794550382381185553, 95, 378, 3, 7037928807040764755, 1, 10887629174180191697, 5582244037879929967, 9827378539134616127], [9996929555614198315, 9198701348823020899, 15794550382381185553, 95, 378, 1, 426, 1, 9865645468993860738, 3929483993944067416, 16606746569461509355], [12618292361406372890, 12618292361406372890, 10554686591937588953, 83, 0, 2, 8206900633647566924, 0, 13110060611322374290, 16978132545290669629, 7274326117416781431], [11283501755624150392, 11283501755624150392, 11283501755624150392, 98, 0, 2, 423, 1, 11283501755624150392, 11283501755624150392, 11283501755624150392], [10490154623183283329, 10490154623183283329, 8427216679587749980, 92, 391, 3, 413, -2, 12222701515222900556, 16743743820210141046, 340883122670591473]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Todd" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Todd" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="DeCook" />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="DeCook" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="strong" />
+      <extra enhanced="1:list" features="Degree=Pos" frame="_" lemma="strong" pos="ADJ" tag="JJ" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="$" />
+      <extra enhanced="1:list" features="_" frame="_" lemma="$" pos="SYM" tag="$" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="42,008" />
+      <extra enhanced="4:nummod" features="NumType=Card" frame="_" lemma="42,008" pos="NUM" tag="CD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="list">
+        <attributes />
+        <category tag="list" />
+      </edge>
+      <edge toID="1.5" type="list">
+        <attributes />
+        <category tag="list" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.7" type="nummod">
+        <attributes />
+        <category tag="nummod" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

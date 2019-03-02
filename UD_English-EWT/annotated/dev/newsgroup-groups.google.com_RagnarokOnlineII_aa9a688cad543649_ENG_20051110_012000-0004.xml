@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_RagnarokOnlineII_aa9a688cad543649_ENG_20051110_012000-0004">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[11113095454065110022, 11278273783512279807, 15308085513773655218, 91, 0, 2, 8206900633647566924, 0, 16072095006890171862, 16337536289976144572, 13419580929783865587]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Reply" />
+      <extra enhanced="0:root" features="Mood=Imp|VerbForm=Fin" frame="_" lemma="reply" pos="VERB" tag="VB" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

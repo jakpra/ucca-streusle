@@ -1,0 +1,133 @@
+<root annotationID="0" passageID="answers-20110909115731AAl3uzs_ans-0002">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[11283501755624150392, 11283501755624150392, 11283501755624150392, 98, 0, 2, 423, 1, 11283501755624150392, 11283501755624150392, 11283501755624150392], [2894260978727671124, 2894260978727671124, 8427216679587749980, 92, 391, 3, 8206900633647566924, 0, 2452215101453390771, 2090661578966068036, 14433353470802465402], [423185678490233567, 16037325823156266367, 1292078113972184607, 84, 0, 2, 440, -1, 18200729499220207786, 9148987913859918431, 423185678490233567], [7425985699627899538, 7425985699627899538, 15267657372422890137, 89, 0, 2, 412, 2, 4088098365541558500, 15369245168918225700, 7425985699627899538], [115058456863600949, 6831833658090104025, 15794550382381185553, 95, 381, 3, 7037928807040764755, 1, 16072095006890171862, 149303876845869574, 13296593487424212577], [16279010155734418059, 15832034414286931965, 15794550382381185553, 95, 381, 1, 436, -3, 10887629174180191697, 3209455878668673793, 6994356607058922890], [4253493419013473486, 4253493419013473486, 12646065887601541794, 96, 0, 2, 442, -5, 4253493419013473486, 17494803046312582752, 4253493419013473486]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="$" />
+      <extra enhanced="0:root" features="_" frame="_" lemma="$" pos="SYM" tag="$" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="5.76" />
+      <extra enhanced="1:nummod" features="NumType=Card" frame="_" lemma="5.76" pos="NUM" tag="CD" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="For" />
+      <extra enhanced="6:case" features="_" frame="_" lemma="for" pos="ADP" tag="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="the" />
+      <extra enhanced="6:det" features="Definite=Def|PronType=Art" frame="_" lemma="the" pos="DET" tag="DT" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="Combo" />
+      <extra enhanced="6:compound" features="Number=Sing" frame="_" lemma="Combo" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="Meal" />
+      <extra enhanced="1:nmod:for" features="Number=Sing" frame="_" lemma="Meal" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.7" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="7" text="!!" />
+      <extra enhanced="1:punct" features="_" frame="_" lemma="!!" pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nummod">
+        <attributes />
+        <category tag="nummod" />
+      </edge>
+      <edge toID="1.5" type="nmod">
+        <attributes />
+        <category tag="nmod" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.8" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+      <edge toID="1.9" type="det">
+        <attributes />
+        <category tag="det" />
+      </edge>
+      <edge toID="1.10" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

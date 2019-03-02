@@ -1,0 +1,66 @@
+<root annotationID="0" passageID="weblog-blogspot.com_dakbangla_20041028153019_ENG_20041028_153019-0038">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[8812112232444892211, 14841823269549666764, 15794550382381185553, 95, 381, 3, 7037928807040764755, 1, 16072095006890171862, 14825646868312541310, 5826824642517542187], [1612183719418108329, 12380071558262218793, 15794550382381185553, 95, 381, 1, 8206900633647566924, 0, 16072095006890171862, 5582244037879929967, 11263725817377229159], [2557093311375099494, 2557093311375099494, 8427216679587749980, 92, 0, 2, 12837356684637874264, -1, 8292859512838764449, 15180167692696242062, 15698208023047288852]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Washington" />
+      <extra enhanced="2:compound" features="Number=Sing" frame="_" lemma="Washington" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Times" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Times" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="28/10/2004" />
+      <extra enhanced="2:nmod:tmod" features="NumType=Card" frame="_" lemma="28/10/2004" pos="NUM" tag="CD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+      <edge toID="1.5" type="nmod">
+        <attributes />
+        <category tag="nmod" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

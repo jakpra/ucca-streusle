@@ -1,0 +1,88 @@
+<root annotationID="0" passageID="email-enronsent22_01-0066">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[3438489356621435858, 12763746643991857148, 15794550382381185553, 95, 381, 3, 7037928807040764755, 2, 16072095006890171862, 12290980237632234855, 10806788082624814911], [15148611102227541380, 18081161880225858350, 15794550382381185553, 95, 0, 2, 7037928807040764755, 1, 16072095006890171862, 16337536289976144572, 18368739048743112828], [197197336512611397, 13084401038175140655, 15794550382381185553, 95, 0, 2, 8206900633647566924, 0, 16072095006890171862, 3929483993944067416, 7984095891839822198], [1336066625677624622, 1336066625677624622, 8427216679587749980, 92, 394, 3, 12837356684637874264, -1, 4620368362210911820, 1819085394523955522, 1336066625677624622]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="State" />
+      <extra enhanced="2:compound" features="Number=Sing" frame="_" lemma="State" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Representative" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Representative" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="District" />
+      <extra enhanced="2:compound" features="Number=Sing" frame="_" lemma="District" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="94" />
+      <extra enhanced="3:nummod" features="NumType=Card" frame="_" lemma="94" pos="NUM" tag="CD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+      <edge toID="1.5" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.7" type="nummod">
+        <attributes />
+        <category tag="nummod" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

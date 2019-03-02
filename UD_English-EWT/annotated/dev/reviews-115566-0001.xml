@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="reviews-115566-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[8095685968348925184, 16686495386067661125, 3822385049556375858, 99, 0, 2, 8206900633647566924, 0, 16072095006890171862, 16337536289976144572, 17551718516836219974]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Retired" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" features="Mood=Ind|Tense=Past|VerbForm=Fin" frame="_" head="0" lemma="retire" lextag="O-ADJ" misc="null" orig_paragraph="1" pos="VERB" remarks="0.1" smwe="null" tag="VBD" upos="VERB" wmwe="null" word="Retired" xpos="VBD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="answers-20111108105137AA9BNtk_ans-0011">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[17342977091326757902, 12535383309711548260, 8812103347613839895, 100, 0, 2, 8206900633647566924, 0, 13735693502083210583, 15817570140490810055, 13295261294415594186]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="http://www.debenhams.com/women/craghoppers#catalogId=10001&amp;lid=//productsuniverse/en_GB/product_online0Y/categories%3C0productsuniverse_186610/brand_description0.000000E+000craghoppers0/categories%3C0productsuniverse_18661_186820&amp;ps=default&amp;sfn=Categories&amp;sfv=Coats+%26amp0+jackets&amp;storeId=10001" />
+      <extra enhanced="0:root" features="_" frame="_" lemma="http://www.debenhams.com/women/craghoppers#catalogid=10001&amp;lid=//productsuniverse/en_gb/product_online0y/categories%3c0productsuniverse_186610/brand_description0.000000e+000craghoppers0/categories%3c0productsuniverse_18661_186820&amp;ps=default&amp;sfn=categories&amp;sfv=coats+%26amp0+jackets&amp;storeid=10001" pos="X" tag="ADD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

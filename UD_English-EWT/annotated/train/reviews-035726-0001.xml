@@ -1,0 +1,51 @@
+<root annotationID="0" passageID="reviews-035726-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[5059648917813135842, 7425985699627899538, 15267657372422890137, 89, 0, 2, 412, 1, 18200729499220207786, 5582244037879929967, 5059648917813135842], [4825077605461121943, 6250203919658647129, 15794550382381185553, 95, 0, 2, 8206900633647566924, 0, 13862804199789047564, 14230521632333904559, 2005752694753009904]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="The" />
+      <extra deprel="det" edeps="2:det" enhanced="2:det" feats="Definite=Def|PronType=Art" features="Definite=Def|PronType=Art" frame="_" head="2" lemma="the" lextag="O-DET" misc="null" orig_paragraph="1" pos="DET" remarks="0.1" smwe="null" tag="DT" upos="DET" wmwe="null" word="The" xpos="DT" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="BEST" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Degree=Sup" features="Degree=Sup" frame="_" head="0" lemma="best" lextag="O-ADJ" misc="null" orig_paragraph="1" pos="ADJ" remarks="0.2" smwe="null" tag="JJS" upos="ADJ" wmwe="null" word="BEST" xpos="JJS" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="det">
+        <attributes />
+        <category tag="det" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

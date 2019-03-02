@@ -1,0 +1,59 @@
+<root annotationID="0" passageID="reviews-185045-0009">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[638406326233104482, 4931664268180178709, 15794550382381185553, 95, 378, 3, 8206900633647566924, 0, 16072095006890171862, 12290980237632234855, 6548371310617178534], [2593208677638477497, 2593208677638477497, 2593208677638477497, 96, 0, 2, 442, -1, 2593208677638477497, 2593208677638477497, 2593208677638477497], [1154848167638442873, 9849136775615186736, 15794550382381185553, 95, 382, 3, 400, -2, 16072095006890171862, 10926178514336144719, 16203534885047373824]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Suzanne" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Number=Sing" features="Number=Sing" frame="_" head="0" lemma="Suzanne" lexcat="N" lexlemma="Suzanne , Vancouver" lextag="B-N-n.LOCATION" local_toknums="1 2 3" misc="SpaceAfter=No" orig_paragraph="1" pos="PROPN" remarks="0.66" smwe="[1, 1]" ss="n.LOCATION" ss2="null" tag="NNP" toknums="66 67 68" upos="PROPN" wmwe="null" word="Suzanne" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text="," />
+      <extra deprel="punct" edeps="1:punct" enhanced="1:punct" feats="null" features="_" frame="_" head="1" lemma="," lextag="I_" misc="null" orig_paragraph="1" pos="PUNCT" remarks="0.67" smwe="[1, 2]" tag="," upos="PUNCT" wmwe="null" word="," xpos="," />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Vancouver" />
+      <extra deprel="parataxis" edeps="1:parataxis" enhanced="1:parataxis" feats="Number=Sing" features="Number=Sing" frame="_" head="1" lemma="Vancouver" lextag="I_" misc="null" orig_paragraph="1" pos="PROPN" remarks="0.68" smwe="[1, 3]" tag="NNP" upos="PROPN" wmwe="null" word="Vancouver" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.3" type="parataxis">
+        <attributes />
+        <category tag="parataxis" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.4" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

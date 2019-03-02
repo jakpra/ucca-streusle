@@ -1,0 +1,118 @@
+<root annotationID="0" passageID="answers-20111108093211AA8bYFE_ans-0005">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[12282305502432618342, 15055965918023794976, 15794550382381185553, 95, 0, 2, 7037928807040764755, 5, 16072095006890171862, 12290980237632234855, 799935474406865112], [3630135817502956256, 8199115189604440881, 15794550382381185553, 95, 0, 2, 7037928807040764755, 4, 18200729499220207786, 17714545831559622561, 3630135817502956256], [9420234242394148326, 16602643206033239142, 15794550382381185553, 95, 0, 2, 7037928807040764755, 1, 16072095006890171862, 12290980237632234855, 12182527387764416033], [5459164208061191781, 7089128463357049412, 15794550382381185553, 95, 0, 2, 7037928807040764755, 2, 16072095006890171862, 12290980237632234855, 15636847292248824302], [15149541784123097252, 9652663489128248624, 15794550382381185553, 95, 0, 2, 7037928807040764755, 1, 16072095006890171862, 9391737413944127320, 2926014423527483667], [7835802342236269427, 6708189667121247833, 15794550382381185553, 95, 0, 2, 8206900633647566924, 0, 16072095006890171862, 14825646868312541310, 1114642380290141148]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Super" />
+      <extra enhanced="6:compound" features="Number=Sing" frame="_" lemma="Super" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Pet" />
+      <extra enhanced="6:compound" features="Number=Sing" frame="_" lemma="Pet" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Silent" />
+      <extra enhanced="4:compound" features="Number=Sing" frame="_" lemma="Silent" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Spinner" />
+      <extra enhanced="6:compound" features="Number=Sing" frame="_" lemma="Spinner" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="Exercise" />
+      <extra enhanced="6:compound" features="Number=Sing" frame="_" lemma="Exercise" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="Wheel" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Wheel" pos="PROPN" tag="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+      <edge toID="1.5" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+      <edge toID="1.6" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+      <edge toID="1.8" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="1.7" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.9" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

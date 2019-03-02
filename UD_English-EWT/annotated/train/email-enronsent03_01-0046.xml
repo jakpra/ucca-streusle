@@ -1,0 +1,88 @@
+<root annotationID="0" passageID="email-enronsent03_01-0046">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[9773560408811058176, 18013116431080350173, 15794550382381185553, 95, 378, 3, 7037928807040764755, 3, 16072095006890171862, 3929483993944067416, 5970677615225002445], [14607988023003208381, 6590155073391794321, 15794550382381185553, 95, 378, 1, 7037928807040764755, 2, 16072095006890171862, 16829822105563051112, 11126824982384070247], [9245954753952281271, 17934676104927248284, 15794550382381185553, 95, 0, 2, 7037928807040764755, 1, 16072095006890171862, 12290980237632234855, 50675144885613741], [7935727207843533368, 10487263364798605376, 15794550382381185553, 95, 0, 2, 8206900633647566924, 0, 16072095006890171862, 12290980237632234855, 17662423340270362397]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Diane" />
+      <extra enhanced="2:compound" features="Number=Sing" frame="_" lemma="Diane" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Goode" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Goode" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Senior" />
+      <extra enhanced="4:amod" features="Degree=Pos" frame="_" lemma="senior" pos="ADJ" tag="JJ" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Specialist" />
+      <extra enhanced="2:appos" features="Number=Sing" frame="_" lemma="specialist" pos="NOUN" tag="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="appos">
+        <attributes />
+        <category tag="appos" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.6" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="1.5" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.7" type="amod">
+        <attributes />
+        <category tag="amod" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

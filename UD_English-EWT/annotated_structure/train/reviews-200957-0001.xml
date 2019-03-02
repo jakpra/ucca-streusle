@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="reviews-200957-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[13938131744494859639, 7427181392772256425, 10554686591937588953, 83, 0, 2, 8206900633647566924, 0, 16072095006890171862, 9350754067018752509, 17094567523389501479]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Horrible" />
+      <extra depth="2" enhanced="0:root" features="Degree=Pos" frame="_" lemma="horrible" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" pos="ADJ" tag="JJ" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

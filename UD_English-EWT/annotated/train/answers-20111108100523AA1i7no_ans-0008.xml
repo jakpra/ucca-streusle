@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="answers-20111108100523AA1i7no_ans-0008">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[5743072158232402236, 5743072158232402236, 13656873538139661788, 94, 0, 2, 8206900633647566924, 0, 2063265114292144847, 15817570140490810055, 4474766678816539903]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="http://www.petsathome.com/shop/combi-1-dwarf-hamster-cage-by-ferplast-15986" />
+      <extra enhanced="0:root" features="_" frame="_" lemma="http://www.petsathome.com/shop/combi-1-dwarf-hamster-cage-by-ferplast-15986" pos="X" tag="ADD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

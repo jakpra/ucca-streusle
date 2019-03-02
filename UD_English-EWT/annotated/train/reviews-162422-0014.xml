@@ -1,0 +1,148 @@
+<root annotationID="0" passageID="reviews-162422-0014">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[4690420944186131903, 561228191312463089, 13656873538139661788, 94, 0, 2, 426, 2, 100, 4690420944186131903, 4690420944186131903], [763475990769043802, 763475990769043802, 164681854541413346, 85, 0, 2, 397, 1, 13110060611322374290, 13110760720460257827, 12215235795949914907], [16366815125507634655, 4670405151688538211, 17109001835818727656, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 11901859001352538922, 14814004474743358178], [1739263527992748485, 561228191312463089, 13656873538139661788, 94, 0, 2, 413, -1, 4088098365541558500, 15817570140490810055, 1739263527992748485], [3791531372978436496, 3791531372978436496, 1292078113972184607, 84, 0, 2, 440, -2, 4370460163704169311, 15369245168918225700, 3791531372978436496], [2661093235354845946, 561228191312463089, 4062917326063685704, 83, 0, 2, 437, 1, 4088098365541558500, 15817570140490810055, 2661093235354845946], [6951435567836289381, 6951435567836289381, 15308085513773655218, 91, 0, 2, 436, -2, 13110060611322374290, 16562859848569467201, 3696947921433045507], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -5, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="I" />
+      <extra deprel="nsubj" edeps="3:nsubj" enhanced="3:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" features="Case=Nom|Number=Sing|Person=1|PronType=Prs" frame="_" head="3" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" pos="PRON" remarks="0.167" smwe="null" tag="PRP" upos="PRON" wmwe="null" word="I" xpos="PRP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="finally" />
+      <extra deprel="advmod" edeps="3:advmod" enhanced="3:advmod" feats="null" features="_" frame="_" head="3" lemma="finally" lextag="O-ADV" misc="null" orig_paragraph="1" pos="ADV" remarks="0.168" smwe="null" tag="RB" upos="ADV" wmwe="null" word="finally" xpos="RB" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="alerted" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" features="Mood=Ind|Tense=Past|VerbForm=Fin" frame="_" head="0" lemma="alert" lexcat="V" lexlemma="alert" lextag="O-V-v.communication" local_toknums="3" misc="null" orig_paragraph="1" pos="VERB" remarks="0.169" smwe="null" ss="v.communication" ss2="null" tag="VBD" toknums="169" upos="VERB" wmwe="null" word="alerted" xpos="VBD" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="him" />
+      <extra deprel="obj" edeps="3:obj" enhanced="3:obj" feats="Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs" features="Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs" frame="_" head="3" lemma="he" lextag="O-PRON" misc="null" orig_paragraph="1" pos="PRON" remarks="0.17" smwe="null" tag="PRP" upos="PRON" wmwe="null" word="him" xpos="PRP" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="to" />
+      <extra config="default" deprel="case" edeps="7:case" enhanced="7:case" feats="null" features="_" frame="_" gov="169" govlemma="alert" head="7" lemma="to" lexcat="P" lexlemma="to" lextag="O-P-p.Topic|p.Goal" local_gov="3" local_obj="7" local_toknums="5" misc="null" obj="173" objlemma="rudeness" orig_paragraph="1" pos="ADP" remarks="0.171" smwe="null" ss="p.Topic" ss2="p.Goal" tag="IN" toknums="171" upos="ADP" wmwe="null" word="to" xpos="IN" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="his" />
+      <extra config="possessive" deprel="nmod:poss" edeps="7:nmod:poss" enhanced="7:nmod:poss" feats="Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs" features="Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs" frame="_" gov="173" govlemma="rudeness" head="7" lemma="he" lexcat="PRON.POSS" lexlemma="he" lextag="O-PRON.POSS-p.Gestalt" local_gov="7" local_toknums="6" misc="null" obj="null" objlemma="null" orig_paragraph="1" pos="PRON" remarks="0.172" smwe="null" ss="p.Gestalt" ss2="p.Gestalt" tag="PRP$" toknums="172" upos="PRON" wmwe="null" word="his" xpos="PRP$" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="rudeness" />
+      <extra deprel="obl" edeps="3:obl:to" enhanced="3:obl:to" feats="Number=Sing" features="Number=Sing" frame="_" head="3" lemma="rudeness" lexcat="N" lexlemma="rudeness" lextag="O-N-n.ATTRIBUTE" local_toknums="7" misc="SpaceAfter=No" orig_paragraph="1" pos="NOUN" remarks="0.173" smwe="null" ss="n.ATTRIBUTE" ss2="null" tag="NN" toknums="173" upos="NOUN" wmwe="null" word="rudeness" xpos="NN" />
+    </node>
+    <node ID="0.8" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="8" text="." />
+      <extra deprel="punct" edeps="3:punct" enhanced="3:punct" feats="null" features="_" frame="_" head="3" lemma="." lextag="O-PUNCT" misc="null" orig_paragraph="1" pos="PUNCT" remarks="0.174" smwe="null" tag="." upos="PUNCT" wmwe="null" word="." xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.5" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+      <edge toID="1.6" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+      <edge toID="1.7" type="obl">
+        <attributes />
+        <category tag="obl" />
+      </edge>
+      <edge toID="1.9" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="1.8" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.10" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+      <edge toID="1.11" type="nmod">
+        <attributes />
+        <category tag="nmod" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="PNCT">
+      <attributes />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.11" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

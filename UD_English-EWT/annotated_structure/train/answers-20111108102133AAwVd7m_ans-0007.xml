@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="answers-20111108102133AAwVd7m_ans-0007">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[18001887420717519552, 13952323299323945378, 3252815442139690129, 90, 0, 2, 8206900633647566924, 0, 13735693502083210583, 15817570140490810055, 6462109667866738627]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="http://www.ebay.co.uk/itm/250927098564?var=550057729382&amp;ssPageName=STRK:MEWAX:IT&amp;_trksid=p3984.m1438.l2649#ht_" />
+      <extra enhanced="0:root" features="_" frame="_" lemma="http://www.ebay.co.uk/itm/250927098564?var=550057729382&amp;sspagename=strk:mewax:it&amp;_trksid=p3984.m1438.l2649#ht_" pos="X" tag="ADD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

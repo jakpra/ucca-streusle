@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="answers-20111108082304AAEbrNs_ans-0017">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[7997266226713706572, 7997266226713706572, 15794550382381185553, 95, 0, 2, 8206900633647566924, 0, 16229275978396943005, 15817570140490810055, 278066919066513387]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="http://www.squidoo.com/nook-tablet" />
+      <extra enhanced="0:root" features="_" frame="_" lemma="http://www.squidoo.com/nook-tablet" pos="X" tag="ADD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

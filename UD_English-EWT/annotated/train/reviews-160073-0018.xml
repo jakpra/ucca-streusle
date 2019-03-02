@@ -1,0 +1,60 @@
+<root annotationID="0" passageID="reviews-160073-0018">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[17294171189578504246, 14922535939779092072, 15794550382381185553, 95, 378, 3, 7037928807040764755, 3, 16072095006890171862, 8656007278630577320, 9740469585300521959], [4751561762142920854, 17531706785308695797, 15794550382381185553, 95, 378, 1, 7037928807040764755, 2, 16072095006890171862, 9148987913859918431, 2555790282192608669], [9153284864653046197, 9153284864653046197, 8214596291009089021, 96, 378, 1, 442, 1, 9153284864653046197, 9153284864653046197, 9153284864653046197], [14002563463100118055, 11270462320212780690, 15794550382381185553, 95, 378, 1, 8206900633647566924, 0, 16072095006890171862, 16829822105563051112, 1493767276839627183]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Karla" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Number=Sing" features="Number=Sing" frame="_" head="0" lemma="Karla" lexcat="N" lexlemma="Karla Ferguson - Granger" lextag="B-N-n.PERSON" local_toknums="1 2 3 4" misc="null" orig_paragraph="1" pos="PROPN" remarks="0.271" smwe="[1, 1]" ss="n.PERSON" ss2="null" tag="NNP" toknums="271 272 273 274" upos="PROPN" wmwe="null" word="Karla" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Ferguson" />
+      <extra deprel="flat" edeps="1:flat" enhanced="1:flat" feats="Number=Sing" features="Number=Sing" frame="_" head="1" lemma="Ferguson" lextag="I_" misc="SpaceAfter=No" orig_paragraph="1" pos="PROPN" remarks="0.272" smwe="[1, 2]" tag="NNP" upos="PROPN" wmwe="null" word="Ferguson" xpos="NNP" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="-" />
+      <extra deprel="punct" edeps="1:punct" enhanced="1:punct" feats="null" features="_" frame="_" head="1" lemma="-" lextag="I_" misc="SpaceAfter=No" orig_paragraph="1" pos="PUNCT" remarks="0.273" smwe="[1, 3]" tag="HYPH" upos="PUNCT" wmwe="null" word="-" xpos="HYPH" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Granger" />
+      <extra deprel="flat" edeps="1:flat" enhanced="1:flat" feats="Number=Sing" features="Number=Sing" frame="_" head="1" lemma="Granger" lextag="I_" misc="null" orig_paragraph="1" pos="PROPN" remarks="0.274" smwe="[1, 4]" tag="NNP" upos="PROPN" wmwe="null" word="Granger" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

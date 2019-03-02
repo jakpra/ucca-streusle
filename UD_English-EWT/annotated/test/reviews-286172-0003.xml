@@ -1,0 +1,66 @@
+<root annotationID="0" passageID="reviews-286172-0003">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[18175470623534560340, 6343125077413305616, 164681854541413346, 85, 0, 2, 397, 1, 16072095006890171862, 3929483993944067416, 1344279032286957731], [14242014708739787450, 8004577259940138793, 1534113631682161808, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 6217145520856553898, 7679303661980345986], [15255859468896132977, 15255859468896132977, 164681854541413346, 85, 0, 2, 397, -1, 13110060611322374290, 15598372446745583797, 12794475650786432352]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Definetely" />
+      <extra deprel="advmod" edeps="2:advmod" enhanced="2:advmod" feats="null" features="_" frame="_" head="2" lemma="definetely" lextag="O-ADV" misc="null" orig_paragraph="1" pos="ADV" remarks="0.11" smwe="null" tag="RB" upos="ADV" wmwe="null" word="Definetely" xpos="RB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="going" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="VerbForm=Ger" features="VerbForm=Ger" frame="_" head="0" lemma="go" lexcat="V" lexlemma="go" lextag="O-V-v.motion" local_toknums="2" misc="null" orig_paragraph="1" pos="VERB" remarks="0.12" smwe="null" ss="v.motion" ss2="null" tag="VBG" toknums="12" upos="VERB" wmwe="null" word="going" xpos="VBG" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="back" />
+      <extra config="default" deprel="advmod" edeps="2:advmod" enhanced="2:advmod" feats="null" features="_" frame="_" gov="12" govlemma="go" head="2" lemma="back" lexcat="P" lexlemma="back" lextag="O-P-p.Direction" local_gov="2" local_toknums="3" misc="null" obj="null" objlemma="null" orig_paragraph="1" pos="ADV" remarks="0.13" smwe="null" ss="p.Direction" ss2="p.Direction" tag="RB" toknums="13" upos="ADV" wmwe="null" word="back" xpos="RB" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+      <edge toID="1.5" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

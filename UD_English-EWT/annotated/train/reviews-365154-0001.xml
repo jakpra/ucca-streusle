@@ -1,0 +1,37 @@
+<root annotationID="0" passageID="reviews-365154-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[12921814047719899021, 15095196982196684349, 15794550382381185553, 95, 0, 2, 7037928807040764755, 1, 17096342708991983284, 3929483993944067416, 12921814047719899021], [64435922645430983, 4702115525806078306, 15794550382381185553, 95, 378, 3, 8206900633647566924, 0, 16072095006890171862, 12290980237632234855, 3022070420845254612]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Dr." />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Number=Sing" features="Number=Sing" frame="_" head="0" lemma="Dr." lexcat="N" lexlemma="Dr. Shady" lextag="B-N-n.PERSON" local_toknums="1 2" misc="null" orig_paragraph="1" pos="PROPN" remarks="0.1" smwe="[1, 1]" ss="n.PERSON" ss2="null" tag="NNP" toknums="1 2" upos="PROPN" wmwe="null" word="Dr." xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Shady" />
+      <extra deprel="flat" edeps="1:flat" enhanced="1:flat" feats="Number=Sing" features="Number=Sing" frame="_" head="1" lemma="Shady" lextag="I_" misc="null" orig_paragraph="1" pos="PROPN" remarks="0.2" smwe="[1, 2]" tag="NNP" upos="PROPN" wmwe="null" word="Shady" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

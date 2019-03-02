@@ -1,0 +1,52 @@
+<root annotationID="0" passageID="weblog-blogspot.com_rigorousintuition_20060511134300_ENG_20060511_134300-0169">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[9153284864653046197, 9153284864653046197, 11532473245541075862, 96, 0, 2, 442, 2, 9153284864653046197, 9153284864653046197, 9153284864653046197], [16400056688704609268, 7031829229952543879, 15794550382381185553, 95, 378, 3, 7037928807040764755, 1, 16072095006890171862, 12290980237632234855, 17454115351911680600], [15318190278786701723, 11656023326768073490, 15794550382381185553, 95, 378, 1, 8206900633647566924, 0, 10887629174180191697, 14825646868312541310, 9113047341877232477]]]" />
+    <node ID="0.1" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="1" text="-" />
+      <extra enhanced="2:punct" features="_" frame="_" lemma="-" pos="PUNCT" tag="NFP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Simone" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Simone" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Weil" />
+      <extra enhanced="2:flat" features="Number=Sing" frame="_" lemma="Weil" pos="PROPN" tag="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

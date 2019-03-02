@@ -1,0 +1,81 @@
+<root annotationID="0" passageID="reviews-260640-0004">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[8221653641239262907, 7136306862885743101, 3252815442139690129, 90, 0, 2, 418, 2, 18200729499220207786, 14825646868312541310, 8221653641239262907], [2593208677638477497, 2593208677638477497, 2593208677638477497, 96, 0, 2, 442, -1, 2593208677638477497, 2593208677638477497, 2593208677638477497], [14653600329166397554, 14653600329166397554, 164681854541413346, 85, 0, 2, 8206900633647566924, 0, 13110060611322374290, 16562859848569467201, 12215235795949914907], [8205403955989537350, 8205403955989537350, 12646065887601541794, 96, 0, 2, 442, -1, 8205403955989537350, 8205403955989537350, 8205403955989537350]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Wow" />
+      <extra deprel="discourse" edeps="3:discourse" enhanced="3:discourse" feats="null" features="_" frame="_" head="3" lemma="wow" lextag="O-INTJ" misc="SpaceAfter=No" orig_paragraph="1" pos="INTJ" remarks="0.51" smwe="null" tag="UH" upos="INTJ" wmwe="null" word="Wow" xpos="UH" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text="," />
+      <extra deprel="punct" edeps="3:punct" enhanced="3:punct" feats="null" features="_" frame="_" head="3" lemma="," lextag="O-PUNCT" misc="null" orig_paragraph="1" pos="PUNCT" remarks="0.52" smwe="null" tag="," upos="PUNCT" wmwe="null" word="," xpos="," />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="really" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="null" features="_" frame="_" head="0" lemma="really" lextag="O-ADV" misc="SpaceAfter=No" orig_paragraph="1" pos="ADV" remarks="0.53" smwe="null" tag="RB" upos="ADV" wmwe="null" word="really" xpos="RB" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="?" />
+      <extra deprel="punct" edeps="3:punct" enhanced="3:punct" feats="null" features="_" frame="_" head="3" lemma="?" lextag="O-PUNCT" misc="null" orig_paragraph="1" pos="PUNCT" remarks="0.54" smwe="null" tag="." upos="PUNCT" wmwe="null" word="?" xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="discourse">
+        <attributes />
+        <category tag="discourse" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

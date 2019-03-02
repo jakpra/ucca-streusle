@@ -1,0 +1,44 @@
+<root annotationID="0" passageID="answers-20111106215236AAycANO_ans-0021">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[15939996382227049445, 15939996382227049445, 1292078113972184607, 84, 0, 2, 12837356684637874264, 1, 303672493610270774, 602994839685422785, 1009696153705120359], [15021211584735958309, 7101693008741443383, 15794550382381185553, 95, 0, 2, 8206900633647566924, 0, 18200729499220207786, 5582244037879929967, 15021211584735958309]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="312-666-2372" />
+      <extra enhanced="0:root" features="NumType=Card" frame="_" lemma="312-666-2372" pos="NUM" tag="CD" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Tel" />
+      <extra enhanced="1:appos" features="Number=Sing" frame="_" lemma="tel" pos="NOUN" tag="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.3" type="appos">
+        <attributes />
+        <category tag="appos" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

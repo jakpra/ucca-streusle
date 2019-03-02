@@ -1,0 +1,88 @@
+<root annotationID="0" passageID="reviews-257735-0003">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[8395131317770283464, 447765159362469301, 164681854541413346, 85, 0, 2, 422, 1, 18200729499220207786, 10850957288794122991, 8395131317770283464], [5083403373732563023, 5083403373732563023, 10554686591937588953, 83, 0, 2, 399, 1, 13110060611322374290, 1720370409040345145, 17582552359806429995], [13883711460582684172, 13883711460582684172, 15308085513773655218, 91, 0, 2, 8206900633647566924, 0, 13110060611322374290, 16978132545290669629, 7679303661980345986], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -1, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Not" />
+      <extra deprel="advmod" edeps="2:advmod" enhanced="2:advmod" feats="null" features="_" frame="_" head="2" lemma="not" lextag="O-ADV" misc="null" orig_paragraph="1" pos="ADV" remarks="0.41" smwe="null" tag="RB" upos="ADV" wmwe="null" word="Not" xpos="RB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="enough" />
+      <extra deprel="amod" edeps="3:amod" enhanced="3:amod" feats="Degree=Pos" features="Degree=Pos" frame="_" head="3" lemma="enough" lextag="O-ADJ" misc="null" orig_paragraph="1" pos="ADJ" remarks="0.42" smwe="null" tag="JJ" upos="ADJ" wmwe="null" word="enough" xpos="JJ" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="seating" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Number=Sing" features="Number=Sing" frame="_" head="0" lemma="seating" lexcat="N" lexlemma="seating" lextag="O-N-n.ATTRIBUTE" local_toknums="3" misc="SpaceAfter=No" orig_paragraph="1" pos="NOUN" remarks="0.43" smwe="null" ss="n.ATTRIBUTE" ss2="null" tag="NN" toknums="43" upos="NOUN" wmwe="null" word="seating" xpos="NN" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="." />
+      <extra deprel="punct" edeps="3:punct" enhanced="3:punct" feats="null" features="_" frame="_" head="3" lemma="." lextag="O-PUNCT" misc="null" orig_paragraph="1" pos="PUNCT" remarks="0.44" smwe="null" tag="." upos="PUNCT" wmwe="null" word="." xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="amod">
+        <attributes />
+        <category tag="amod" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="1.5" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.7" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_magicworld_04c89d43ff4fd6ea_ENG_20050104_152000-0104">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[15110124308645081385, 15110124308645081385, 16530679158541427010, 96, 0, 2, 8206900633647566924, 0, 11274432279006620077, 1489474827855109852, 10535296423668628059]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="online?u=mayursha&amp;m=g&amp;t=1" />
+      <extra enhanced="0:root" features="_" frame="_" lemma="online?u=mayursha&amp;m=g&amp;t=1" pos="X" tag="ADD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

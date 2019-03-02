@@ -1,0 +1,66 @@
+<root annotationID="0" passageID="reviews-187266-0011">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[9292011059273893969, 17472408549241926372, 1292078113972184607, 84, 0, 2, 8206900633647566924, 0, 16072095006890171862, 8804677687338025421, 11402152577528684049], [5049104408726598361, 785804726337173213, 15794550382381185553, 95, 382, 3, 436, -1, 16072095006890171862, 12290980237632234855, 6679230115154754852], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -2, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Unlike" />
+      <extra config="default" deprel="case" edeps="2:case" enhanced="2:case" feats="null" features="_" frame="_" gov="null" govlemma="null" head="2" lemma="unlike" lexcat="P" lexlemma="unlike" lextag="O-P-p.ComparisonRef" local_obj="2" local_toknums="1" misc="null" obj="178" objlemma="Saratoga" orig_paragraph="1" pos="ADP" remarks="0.177" smwe="null" ss="p.ComparisonRef" ss2="p.ComparisonRef" tag="IN" toknums="177" upos="ADP" wmwe="null" word="Unlike" xpos="IN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Saratoga" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Number=Sing" features="Number=Sing" frame="_" head="0" lemma="Saratoga" lexcat="N" lexlemma="Saratoga" lextag="O-N-n.LOCATION" local_toknums="2" misc="SpaceAfter=No" orig_paragraph="1" pos="PROPN" remarks="0.178" smwe="null" ss="n.LOCATION" ss2="null" tag="NNP" toknums="178" upos="PROPN" wmwe="null" word="Saratoga" xpos="NNP" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="." />
+      <extra deprel="punct" edeps="2:punct" enhanced="2:punct" feats="null" features="_" frame="_" head="2" lemma="." lextag="O-PUNCT" misc="null" orig_paragraph="1" pos="PUNCT" remarks="0.179" smwe="null" tag="." upos="PUNCT" wmwe="null" word="." xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

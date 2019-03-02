@@ -1,0 +1,155 @@
+<root annotationID="0" passageID="reviews-181748-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[3503697206246672715, 10382539506755952630, 14200088355797579614, 99, 0, 2, 8206900633647566924, 0, 12204527652707022206, 14230521632333904559, 3503697206246672715], [10606943831406018008, 13557793935247935909, 10554686591937588953, 83, 0, 2, 395, -1, 16072095006890171862, 149303876845869574, 6901033109670990563], [1566334907877312002, 886050111519832510, 1292078113972184607, 84, 0, 2, 440, -1, 12204527652707022206, 17427324969254097257, 1566334907877312002], [4965177937666302486, 3876862883474502309, 4808651922106831370, 91, 0, 2, 436, -1, 18200729499220207786, 14825646868312541310, 4965177937666302486], [11245257067546591794, 561228191312463089, 4062917326063685704, 83, 0, 2, 437, 2, 10887629174180191697, 16961793518281001049, 17577015140245084783], [13265478253048405467, 17915366176788269570, 783433942507015291, 91, 0, 2, 7037928807040764755, 1, 16072095006890171862, 12290980237632234855, 5902437463952755554], [426270977293442477, 13296119330568554208, 15794550382381185553, 95, 378, 3, 426, 1, 18200729499220207786, 16829822105563051112, 426270977293442477], [12346995674149584082, 10382539506755952630, 13927759927860985106, 99, 0, 2, 8206900633647566924, 0, 12204527652707022206, 4690420944186131903, 12346995674149584082]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Be" />
+      <extra deprel="cop" edeps="2:cop" enhanced="2:cop" feats="Mood=Imp|VerbForm=Fin" features="Mood=Imp|VerbForm=Fin" frame="_" head="2" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="1" misc="null" orig_paragraph="1" pos="AUX" remarks="0.1" smwe="null" ss="v.stative" ss2="null" tag="VB" toknums="1" upos="AUX" wmwe="null" word="Be" xpos="VB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Careful" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Degree=Pos" features="Degree=Pos" frame="_" head="0" lemma="careful" lextag="O-ADJ" misc="null" orig_paragraph="1" pos="ADJ" remarks="0.2" smwe="null" tag="JJ" upos="ADJ" wmwe="null" word="Careful" xpos="JJ" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Of" />
+      <extra config="subordinating" deprel="mark" edeps="4:mark" enhanced="4:mark" feats="null" features="_" frame="_" gov="2" govlemma="careful" head="4" lemma="of" lexcat="P" lexlemma="of" lextag="O-P-p.Topic" local_gov="2" local_obj="8" local_toknums="3" misc="null" obj="8" objlemma="be" orig_paragraph="1" pos="SCONJ" remarks="0.3" smwe="null" ss="p.Topic" ss2="p.Topic" tag="IN" toknums="3" upos="SCONJ" wmwe="null" word="Of" xpos="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Who" />
+      <extra deprel="advcl" edeps="2:advcl:of" enhanced="2:advcl:of" feats="PronType=Int" features="PronType=Int" frame="_" head="2" lemma="who" lextag="O-PRON" misc="null" orig_paragraph="1" pos="PRON" remarks="0.4" smwe="null" tag="WP" upos="PRON" wmwe="null" word="Who" xpos="WP" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="Your" />
+      <extra config="possessive" deprel="nmod:poss" edeps="7:nmod:poss" enhanced="7:nmod:poss" feats="Person=2|Poss=Yes|PronType=Prs" features="Person=2|Poss=Yes|PronType=Prs" frame="_" gov="7" govlemma="guy" head="7" lemma="you" lexcat="PRON.POSS" lexlemma="you" lextag="O-PRON.POSS-p.SocialRel|p.Gestalt" local_gov="7" local_toknums="5" misc="null" obj="null" objlemma="null" orig_paragraph="1" pos="PRON" remarks="0.5" smwe="null" ss="p.SocialRel" ss2="p.Gestalt" tag="PRP$" toknums="5" upos="PRON" wmwe="null" word="Your" xpos="PRP$" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="Sales" />
+      <extra deprel="compound" edeps="7:compound" enhanced="7:compound" feats="Number=Plur" features="Number=Plur" frame="_" head="7" lemma="sale" lexcat="N" lexlemma="sale guy" lextag="B-N-n.PERSON" local_toknums="6 7" misc="null" orig_paragraph="1" pos="NOUN" remarks="0.6" smwe="[1, 1]" ss="n.PERSON" ss2="null" tag="NNS" toknums="6 7" upos="NOUN" wmwe="null" word="Sales" xpos="NNS" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="Guy" />
+      <extra deprel="nsubj" edeps="4:nsubj" enhanced="4:nsubj" feats="Number=Sing" features="Number=Sing" frame="_" head="4" lemma="guy" lextag="I_" misc="null" orig_paragraph="1" pos="NOUN" remarks="0.7" smwe="[1, 2]" tag="NN" upos="NOUN" wmwe="null" word="Guy" xpos="NN" />
+    </node>
+    <node ID="0.8" type="Word">
+      <attributes paragraph="1" paragraph_position="8" text="Is" />
+      <extra deprel="cop" edeps="4:cop" enhanced="4:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" features="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" frame="_" head="4" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="8" misc="null" orig_paragraph="1" pos="AUX" remarks="0.8" smwe="null" ss="v.stative" ss2="null" tag="VBZ" toknums="8" upos="AUX" wmwe="null" word="Is" xpos="VBZ" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="mark">
+        <attributes />
+        <category tag="mark" />
+      </edge>
+      <edge toID="1.5" type="advcl">
+        <attributes />
+        <category tag="advcl" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.7" type="cop">
+        <attributes />
+        <category tag="cop" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.8" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.10" type="cop">
+        <attributes />
+        <category tag="cop" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="1.9" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.11" type="nmod">
+        <attributes />
+        <category tag="nmod" />
+      </edge>
+      <edge toID="1.12" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.11" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.12" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

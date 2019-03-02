@@ -1,0 +1,126 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_GayMarriage_0ccbb50b41a5830b_ENG_20050321_181500-0044">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[6005358355014000477, 6078229752324319001, 15794550382381185553, 95, 378, 3, 7037928807040764755, 3, 18200729499220207786, 5582244037879929967, 6005358355014000477], [3263108235190330345, 9637299225151261051, 15794550382381185553, 95, 378, 1, 7037928807040764755, 2, 16072095006890171862, 3929483993944067416, 3658600736238064331], [5828330346845963582, 2302644563477177921, 15794550382381185553, 95, 378, 1, 7037928807040764755, 1, 10887629174180191697, 16829822105563051112, 13260548798553602183], [17527550883556175467, 15033570357229891142, 15794550382381185553, 95, 378, 1, 8206900633647566924, 0, 16072095006890171862, 14230521632333904559, 10557497897788894751], [2593208677638477497, 2593208677638477497, 2593208677638477497, 96, 0, 2, 442, -1, 2593208677638477497, 2593208677638477497, 2593208677638477497], [12609554364439871443, 4028385504774843091, 15794550382381185553, 95, 382, 3, 400, -2, 14968597813295776895, 9148987913859918431, 12609554364439871443], [8615932722222681812, 8615932722222681812, 8427216679587749980, 92, 0, 2, 400, -3, 303672493610270774, 5117079446564601502, 17037230413297511045]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Tom" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Tom" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Dempsey" />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="Dempsey" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Gulf" />
+      <extra enhanced="4:compound" features="Number=Sing" frame="_" lemma="Gulf" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Breeze" />
+      <extra enhanced="1:list" features="Number=Sing" frame="_" lemma="Breeze" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="," />
+      <extra enhanced="4:punct" features="_" frame="_" lemma="," pos="PUNCT" tag="," />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="FL" />
+      <extra enhanced="4:appos" features="Number=Sing" frame="_" lemma="FL" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="850-748-0740" />
+      <extra enhanced="1:list" features="NumType=Card" frame="_" lemma="850-748-0740" pos="NUM" tag="CD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="list">
+        <attributes />
+        <category tag="list" />
+      </edge>
+      <edge toID="1.6" type="list">
+        <attributes />
+        <category tag="list" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="1.5" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.7" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+      <edge toID="1.8" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.9" type="appos">
+        <attributes />
+        <category tag="appos" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="PNCT">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

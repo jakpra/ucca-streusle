@@ -1,0 +1,66 @@
+<root annotationID="0" passageID="reviews-351561-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[16996225844944156334, 9092410277064288436, 14753207560692742245, 83, 0, 2, 399, 1, 16072095006890171862, 3929483993944067416, 14619786160612475726], [11897035775431411437, 13083674546125693855, 783433942507015291, 91, 0, 2, 8206900633647566924, 0, 4864049671252889873, 9148987913859918431, 7409412530419520829], [6231102377460051108, 6231102377460051108, 164681854541413346, 85, 0, 2, 397, -1, 13110060611322374290, 1720370409040345145, 16203534885047373824]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Dumbest" />
+      <extra deprel="amod" depth="3" edeps="2:amod" enhanced="2:amod" feats="Degree=Sup" features="Degree=Sup" frame="_" head="2" lemma="dumbest" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" pos="ADJ" remarks="0.1" smwe="null" tag="JJS" upos="ADJ" wmwe="null" word="Dumbest" xpos="JJS" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="F'ers" />
+      <extra deprel="root" depth="3" edeps="0:root" enhanced="0:root" feats="Number=Plur" features="Number=Plur" frame="_" head="0" lemma="f'er" lexcat="N" lexlemma="f'er" lextag="O-N-n.PERSON" local_toknums="2" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" pos="NOUN" remarks="0.2" smwe="null" ss="n.PERSON" ss2="null" tag="NNS" toknums="2" upos="NOUN" wmwe="null" word="F'ers" xpos="NNS" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="ever" />
+      <extra deprel="advmod" depth="3" edeps="2:advmod" enhanced="2:advmod" feats="null" features="_" frame="_" head="2" lemma="ever" lextag="O-ADV" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" pos="ADV" remarks="0.3" smwe="null" tag="RB" upos="ADV" wmwe="null" word="ever" xpos="RB" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="amod">
+        <attributes />
+        <category tag="amod" />
+      </edge>
+      <edge toID="1.5" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

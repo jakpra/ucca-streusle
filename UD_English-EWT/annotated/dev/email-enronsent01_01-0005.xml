@@ -1,0 +1,96 @@
+<root annotationID="0" passageID="email-enronsent01_01-0005">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[4678963469726251353, 561228191312463089, 13656873538139661788, 94, 0, 2, 426, 3, 18200729499220207786, 16961793518281001049, 4678963469726251353], [2989924464908128948, 2989924464908128948, 9188597074677201817, 99, 0, 2, 402, 2, 4848600484254711268, 11221368173670222813, 2989924464908128948], [13409319323822384369, 13409319323822384369, 15267657372422890137, 89, 0, 2, 397, 1, 4088098365541558500, 11901859001352538922, 13409319323822384369], [17443957830238004141, 471204509717844521, 3822385049556375858, 99, 0, 2, 8206900633647566924, 0, 4088098365541558500, 260667111241363922, 17443957830238004141], [17494803046312582752, 17494803046312582752, 12646065887601541794, 96, 0, 2, 442, -1, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="You" />
+      <extra enhanced="4:nsubj" features="Case=Nom|Person=2|PronType=Prs" frame="_" lemma="you" pos="PRON" tag="PRP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="'ve" />
+      <extra enhanced="4:aux" features="Mood=Ind|Tense=Pres|VerbForm=Fin" frame="_" lemma="have" pos="AUX" tag="VBP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="all" />
+      <extra enhanced="4:advmod" features="_" frame="_" lemma="all" pos="ADV" tag="RB" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="won" />
+      <extra enhanced="0:root" features="Tense=Past|VerbForm=Part" frame="_" lemma="win" pos="VERB" tag="VBN" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="!" />
+      <extra enhanced="4:punct" features="_" frame="_" lemma="!" pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.5" type="aux">
+        <attributes />
+        <category tag="aux" />
+      </edge>
+      <edge toID="1.6" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

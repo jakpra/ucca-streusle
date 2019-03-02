@@ -1,0 +1,66 @@
+<root annotationID="0" passageID="email-enronsent03_01-0062">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[16683907968087242959, 999230142414118192, 15794550382381185553, 95, 378, 3, 7037928807040764755, 2, 10887629174180191697, 10850957288794122991, 6882335226185725233], [13576669136662245543, 5918307197990940649, 15794550382381185553, 95, 378, 1, 7037928807040764755, 1, 10887629174180191697, 10603054956214495369, 15055317959408037229], [10206333332594821831, 10335291774835994262, 9188597074677201817, 99, 378, 1, 8206900633647566924, 0, 7332449694400699531, 3929483993944067416, 18126027751668137475]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Ngoc" />
+      <extra enhanced="3:compound" features="_" frame="_" lemma="ngoc" pos="X" tag="GW" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Luan" />
+      <extra enhanced="3:compound" features="_" frame="_" lemma="luan" pos="X" tag="GW" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Do@ENRON_DEVELOPMENT" />
+      <extra enhanced="0:root" features="_" frame="_" lemma="do@enron_development" pos="X" tag="ADD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+      <edge toID="1.5" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

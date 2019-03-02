@@ -1,0 +1,103 @@
+<root annotationID="0" passageID="reviews-201156-0002">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[4690420944186131903, 561228191312463089, 13656873538139661788, 94, 0, 2, 426, 1, 100, 4690420944186131903, 4690420944186131903], [13599639812707930908, 3702023516439754181, 9188597074677201817, 99, 0, 2, 8206900633647566924, 0, 10887629174180191697, 10603054956214495369, 12291129470069670338], [3658365485397752837, 3596944126597240920, 15794550382381185553, 95, 0, 2, 7037928807040764755, 1, 16072095006890171862, 9350754067018752509, 96605466793171914], [7136586755328934498, 14382251003559758616, 15794550382381185553, 95, 0, 2, 413, -2, 16072095006890171862, 16829822105563051112, 14432934319865826938], [17494803046312582752, 17494803046312582752, 12646065887601541794, 96, 0, 2, 442, -3, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="I" />
+      <extra deprel="nsubj" edeps="2:nsubj" enhanced="2:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" features="Case=Nom|Number=Sing|Person=1|PronType=Prs" frame="_" head="2" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" pos="PRON" remarks="0.4" smwe="null" tag="PRP" upos="PRON" wmwe="null" word="I" xpos="PRP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Love" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" features="Mood=Ind|Tense=Pres|VerbForm=Fin" frame="_" head="0" lemma="love" lexcat="V" lexlemma="love" lextag="O-V-v.emotion" local_toknums="2" misc="null" orig_paragraph="1" pos="VERB" remarks="0.5" smwe="null" ss="v.emotion" ss2="null" tag="VBP" toknums="5" upos="VERB" wmwe="null" word="Love" xpos="VBP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Hellada" />
+      <extra deprel="compound" edeps="4:compound" enhanced="4:compound" feats="Number=Sing" features="Number=Sing" frame="_" head="4" lemma="Hellada" lexcat="N" lexlemma="Hellada Gallery" lextag="B-N-n.GROUP" local_toknums="3 4" misc="null" orig_paragraph="1" pos="PROPN" remarks="0.6" smwe="[1, 1]" ss="n.GROUP" ss2="null" tag="NNP" toknums="6 7" upos="PROPN" wmwe="null" word="Hellada" xpos="NNP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Gallery" />
+      <extra deprel="obj" edeps="2:obj" enhanced="2:obj" feats="Number=Sing" features="Number=Sing" frame="_" head="2" lemma="Gallery" lextag="I_" misc="SpaceAfter=No" orig_paragraph="1" pos="PROPN" remarks="0.7" smwe="[1, 2]" tag="NNP" upos="PROPN" wmwe="null" word="Gallery" xpos="NNP" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="!" />
+      <extra deprel="punct" edeps="2:punct" enhanced="2:punct" feats="null" features="_" frame="_" head="2" lemma="!" lextag="O-PUNCT" misc="null" orig_paragraph="1" pos="PUNCT" remarks="0.8" smwe="null" tag="." upos="PUNCT" wmwe="null" word="!" xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.8" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,89 @@
+<root annotationID="0" passageID="email-enronsent08_02-0082">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[18030014925099294369, 1737143837079702470, 15794550382381185553, 95, 378, 3, 7037928807040764755, 3, 10887629174180191697, 17714545831559622561, 12454661189205067574], [13457919947926435707, 17752787851895509703, 15794550382381185553, 95, 378, 1, 7037928807040764755, 2, 18260797920084237221, 3929483993944067416, 16799973512044659907], [9153284864653046197, 9153284864653046197, 8214596291009089021, 96, 378, 1, 442, 1, 9153284864653046197, 9153284864653046197, 9153284864653046197], [2899122006102653376, 269131395021514181, 15794550382381185553, 95, 378, 1, 8206900633647566924, 0, 16072095006890171862, 3929483993944067416, 16986153139410903314], [6879609026261598225, 6879609026261598225, 8427216679587749980, 92, 0, 2, 400, -1, 303672493610270774, 16743743820210141046, 10550816003188449474]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Paul" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Paul" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="DeVries" />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="DeVries" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="-" />
+      <extra enhanced="1:punct" features="_" frame="_" lemma="-" pos="PUNCT" tag="," />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Director" />
+      <extra enhanced="1:list" features="Number=Sing" frame="_" lemma="director" pos="NOUN" tag="NN" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="416-865-3703" />
+      <extra enhanced="1:list" features="NumType=Card" frame="_" lemma="416-865-3703" pos="NUM" tag="CD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.5" type="list">
+        <attributes />
+        <category tag="list" />
+      </edge>
+      <edge toID="1.6" type="list">
+        <attributes />
+        <category tag="list" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

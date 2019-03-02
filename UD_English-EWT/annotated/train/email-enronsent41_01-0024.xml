@@ -1,0 +1,45 @@
+<root annotationID="0" passageID="email-enronsent41_01-0024">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[6909594316259897223, 963576917736409904, 15794550382381185553, 95, 378, 3, 7037928807040764755, 2, 16072095006890171862, 16337536289976144572, 684745465822051461], [14230521632333904559, 15598372446745583797, 15794550382381185553, 95, 378, 1, 7037928807040764755, 1, 100, 14230521632333904559, 14230521632333904559], [11690492693010851662, 10553618391925213710, 15794550382381185553, 95, 378, 1, 8206900633647566924, 0, 10887629174180191697, 149303876845869574, 14495111538762983819]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Robert" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="Robert" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="B" />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="B" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Cass" />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="Cass" pos="PROPN" tag="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,51 @@
+<root annotationID="0" passageID="reviews-001325-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[1199885522574840802, 11694386822286564188, 164681854541413346, 85, 0, 2, 397, 1, 16072095006890171862, 9350754067018752509, 4609239387706200225], [11399884220402545168, 5869997465047222503, 3822385049556375858, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 16562859848569467201, 15654095305962636923]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Highly" />
+      <extra deprel="advmod" edeps="2:advmod" enhanced="2:advmod" feats="null" features="_" frame="_" head="2" lemma="highly" lextag="O-ADV" misc="null" orig_paragraph="1" pos="ADV" remarks="0.1" smwe="null" tag="RB" upos="ADV" wmwe="null" word="Highly" xpos="RB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="recommended" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Tense=Past|VerbForm=Part" features="Tense=Past|VerbForm=Part" frame="_" head="0" lemma="recommend" lexcat="V" lexlemma="recommend" lextag="O-V-v.communication" local_toknums="2" misc="null" orig_paragraph="1" pos="VERB" remarks="0.2" smwe="null" ss="v.communication" ss2="null" tag="VBN" toknums="2" upos="VERB" wmwe="null" word="recommended" xpos="VBN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

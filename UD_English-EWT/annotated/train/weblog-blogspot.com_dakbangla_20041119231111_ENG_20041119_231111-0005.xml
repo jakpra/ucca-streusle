@@ -1,0 +1,103 @@
+<root annotationID="0" passageID="weblog-blogspot.com_dakbangla_20041119231111_ENG_20041119_231111-0005">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[13756031414435721121, 9504827836828505330, 15794550382381185553, 95, 382, 3, 8206900633647566924, 0, 16072095006890171862, 4690420944186131903, 8107556697577969458], [7849976293718030710, 7849976293718030710, 10554686591937588953, 83, 0, 2, 399, -1, 13110060611322374290, 8148669997605808657, 18368739048743112828], [5456543204961066030, 5456543204961066030, 1292078113972184607, 84, 0, 2, 440, -1, 13110060611322374290, 1489474827855109852, 16203534885047373824], [4531240172435218881, 10825142599646778662, 15794550382381185553, 95, 382, 3, 7037928807040764755, 1, 18200729499220207786, 12290980237632234855, 4531240172435218881], [18049532213738356621, 12201970968439191798, 15794550382381185553, 95, 382, 1, 436, -2, 16072095006890171862, 10603054956214495369, 1851328847880927195]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="India" />
+      <extra enhanced="2:compound" features="Number=Sing" frame="_" lemma="India" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="defensive" />
+      <extra enhanced="0:root" features="Degree=Pos" frame="_" lemma="defensive" pos="ADJ" tag="JJ" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="over" />
+      <extra enhanced="5:case" features="_" frame="_" lemma="over" pos="ADP" tag="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Sri" />
+      <extra enhanced="5:compound" features="Number=Sing" frame="_" lemma="Sri" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="Lanka" />
+      <extra enhanced="2:obl:over" features="Number=Sing" frame="_" lemma="Lanka" pos="PROPN" tag="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+      <edge toID="1.5" type="obl">
+        <attributes />
+        <category tag="obl" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.7" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+      <edge toID="1.8" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

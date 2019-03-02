@@ -1,0 +1,81 @@
+<root annotationID="0" passageID="answers-20111108110610AA4bcXX_ans-0011">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[11900585902006465355, 11166160968544952343, 15794550382381185553, 95, 381, 3, 7037928807040764755, 1, 16072095006890171862, 10603054956214495369, 4932520593635672838], [9796807554284407750, 1703489418272052182, 15794550382381185553, 95, 381, 1, 8206900633647566924, 0, 16072095006890171862, 14825646868312541310, 1946122098559876805], [11532473245541075862, 11532473245541075862, 11532473245541075862, 96, 0, 2, 442, -1, 11532473245541075862, 11532473245541075862, 11532473245541075862], [16955105545855906901, 5269745548435211144, 8812103347613839895, 100, 0, 2, 400, -2, 13735693502083210583, 15817570140490810055, 16997456328864395068]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Lotte" />
+      <extra enhanced="2:compound" features="Number=Sing" frame="_" lemma="Lotte" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="World" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="World" pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text=":" />
+      <extra enhanced="2:punct" features="_" frame="_" lemma=":" pos="PUNCT" tag=":" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="http://3.bp.blogspot.com/-X_e2uwT6wPw/Tkj_7UVTw6I/AAAAAAAAAGs/e_hICAdYPYI/s1600/lotte_world_from_high_up.jpg" />
+      <extra enhanced="2:appos" features="_" frame="_" lemma="http://3.bp.blogspot.com/-x_e2uwt6wpw/tkj_7uvtw6i/aaaaaaaaags/e_hicadypyi/s1600/lotte_world_from_high_up.jpg" pos="X" tag="ADD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="appos">
+        <attributes />
+        <category tag="appos" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.5" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

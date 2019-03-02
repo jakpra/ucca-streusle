@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="email-enronsent29_01-0063">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[3980824418539871983, 14719599314108579071, 8427216679587749980, 92, 0, 2, 8206900633647566924, 0, 10211464657565474497, 16743743820210141046, 4296220923443685907]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="4105SF" />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="4105sf" pos="NOUN" tag="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

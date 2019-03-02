@@ -1,0 +1,37 @@
+<root annotationID="0" passageID="reviews-008585-0010">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[2842603903658607413, 14071705333880004892, 15794550382381185553, 95, 378, 3, 7037928807040764755, 1, 10887629174180191697, 14862748245026736845, 15477786265674439119], [17993675237817865823, 13501311878007726681, 15794550382381185553, 95, 378, 1, 8206900633647566924, 0, 16072095006890171862, 16829822105563051112, 1318411374457351833]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Alan" />
+      <extra deprel="root" depth="2" edeps="0:root" enhanced="0:root" feats="Number=Sing" features="Number=Sing" frame="_" head="0" lemma="Alan" lexcat="N" lexlemma="Alan Grissom" lextag="B-N-n.PERSON" local_toknums="1 2" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" pos="PROPN" remarks="0.226" smwe="[1, 1]" ss="n.PERSON" ss2="null" tag="NNP" toknums="226 227" upos="PROPN" wmwe="null" word="Alan" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Grissom" />
+      <extra deprel="flat" depth="2" edeps="1:flat" enhanced="1:flat" feats="Number=Sing" features="Number=Sing" frame="_" head="1" lemma="Grissom" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" pos="PROPN" remarks="0.227" smwe="[1, 2]" tag="NNP" upos="PROPN" wmwe="null" word="Grissom" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

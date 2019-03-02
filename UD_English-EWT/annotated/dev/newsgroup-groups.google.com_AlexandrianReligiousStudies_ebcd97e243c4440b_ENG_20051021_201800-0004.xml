@@ -1,0 +1,45 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_AlexandrianReligiousStudies_ebcd97e243c4440b_ENG_20051021_201800-0004">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[5600198690017719860, 4627090644982542228, 15794550382381185553, 95, 378, 3, 7037928807040764755, 2, 4544266894710282985, 16337536289976144572, 5600198690017719860], [8365365655385350094, 3897883951587952083, 15794550382381185553, 95, 378, 1, 7037928807040764755, 1, 4544266894710282985, 9391737413944127320, 8365365655385350094], [9382677671179942625, 2328836444396781287, 15794550382381185553, 95, 378, 1, 8206900633647566924, 0, 16072095006890171862, 16829822105563051112, 13607609072745310818]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="R." />
+      <extra enhanced="0:root" features="Number=Sing" frame="_" lemma="R." pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="E." />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="E." pos="PROPN" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Glenn" />
+      <extra enhanced="1:flat" features="Number=Sing" frame="_" lemma="Glenn" pos="PROPN" tag="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

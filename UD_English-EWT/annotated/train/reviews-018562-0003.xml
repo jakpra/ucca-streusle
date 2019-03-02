@@ -1,0 +1,259 @@
+<root annotationID="0" passageID="reviews-018562-0003">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[3599643655907665440, 7111508780595485950, 17571114184892886314, 88, 0, 2, 412, 2, 10887629174180191697, 14230521632333904559, 11457622295542428873], [227504873216781231, 561228191312463089, 4062917326063685704, 83, 0, 2, 437, 1, 4370460163704169311, 646772771845179972, 227504873216781231], [15008487314310514837, 14001696597410981972, 783433942507015291, 91, 0, 2, 426, 1, 13110060611322374290, 6217145520856553898, 12849174896969601389], [2171663640577120751, 4028211059174100358, 17109001835818727656, 99, 0, 2, 8206900633647566924, 0, 13110060611322374290, 8861071527689086543, 11208870015262361521], [15726112966383307120, 15726112966383307120, 164681854541413346, 85, 0, 2, 397, -1, 13110060611322374290, 11901859001352538922, 6878210874361030284], [16743743820210141046, 16743743820210141046, 8427216679587749980, 92, 388, 3, 12837356684637874264, 1, 8148669997605808657, 16743743820210141046, 16743743820210141046], [11199438407386692767, 14920206370424861916, 783433942507015291, 91, 388, 1, 425, 1, 13110060611322374290, 646772771845179972, 11921680366710505387], [17866890529369146682, 17866890529369146682, 164681854541413346, 85, 0, 2, 397, -4, 13110060611322374290, 11901859001352538922, 3460763187682215441], [2283656566040971221, 2283656566040971221, 17571114184892886314, 88, 0, 2, 404, -5, 4088098365541558500, 11901859001352538922, 2283656566040971221], [363389113119905364, 5513065127745367808, 15794550382381185553, 95, 378, 3, 426, 1, 10887629174180191697, 3209455878668673793, 11402152577528684049], [9921686513378912864, 10382539506755952630, 17109001835818727656, 99, 0, 2, 407, -7, 4088098365541558500, 260667111241363922, 9921686513378912864], [9548244504980166557, 9548244504980166557, 164681854541413346, 85, 0, 2, 397, 1, 13110060611322374290, 2482183445564601373, 14432934319865826938], [1392792401359955612, 1392792401359955612, 15308085513773655218, 91, 0, 2, 395, -2, 13110060611322374290, 12247454108283186160, 7679303661980345986], [12646065887601541794, 12646065887601541794, 12646065887601541794, 96, 0, 2, 442, -3, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Both" />
+      <extra deprel="det:predet" edeps="3:det:predet" enhanced="3:det:predet" feats="null" features="_" frame="_" head="3" lemma="both" lextag="O-DET" misc="null" orig_paragraph="1" pos="DET" remarks="0.22" smwe="null" tag="PDT" upos="DET" wmwe="null" word="Both" xpos="PDT" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="my" />
+      <extra config="possessive" deprel="nmod:poss" edeps="3:nmod:poss" enhanced="3:nmod:poss" feats="Number=Sing|Person=1|Poss=Yes|PronType=Prs" features="Number=Sing|Person=1|Poss=Yes|PronType=Prs" frame="_" gov="24" govlemma="grandparent" head="3" lemma="my" lexcat="PRON.POSS" lexlemma="my" lextag="O-PRON.POSS-p.SocialRel|p.Gestalt" local_gov="3" local_toknums="2" misc="null" obj="null" objlemma="null" orig_paragraph="1" pos="PRON" remarks="0.23" smwe="null" ss="p.SocialRel" ss2="p.Gestalt" tag="PRP$" toknums="23" upos="PRON" wmwe="null" word="my" xpos="PRP$" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="grandparents" />
+      <extra deprel="nsubj" edeps="4:nsubj" enhanced="4:nsubj" feats="Number=Plur" features="Number=Plur" frame="_" head="4" lemma="grandparent" lexcat="N" lexlemma="grandparent" lextag="O-N-n.PERSON" local_toknums="3" misc="null" orig_paragraph="1" pos="NOUN" remarks="0.24" smwe="null" ss="n.PERSON" ss2="null" tag="NNS" toknums="24" upos="NOUN" wmwe="null" word="grandparents" xpos="NNS" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="passed" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" features="Mood=Ind|Tense=Past|VerbForm=Fin" frame="_" head="0" lemma="pass" lexcat="V.VID" lexlemma="pass away" lextag="B-V.VID-v.body" local_toknums="4 5" misc="null" orig_paragraph="1" pos="VERB" remarks="0.25" smwe="[1, 1]" ss="v.body" ss2="null" tag="VBD" toknums="25 26" upos="VERB" wmwe="null" word="passed" xpos="VBD" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="away" />
+      <extra deprel="advmod" edeps="4:advmod" enhanced="4:advmod" feats="null" features="_" frame="_" head="4" lemma="away" lextag="I_" misc="null" orig_paragraph="1" pos="ADV" remarks="0.26" smwe="[1, 2]" tag="RB" upos="ADV" wmwe="null" word="away" xpos="RB" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="4" />
+      <extra deprel="nummod" edeps="7:nummod" enhanced="7:nummod" feats="NumType=Card" features="NumType=Card" frame="_" head="7" lemma="4" lextag="O-NUM" misc="null" orig_paragraph="1" pos="NUM" remarks="0.27" smwe="null" tag="CD" upos="NUM" wmwe="null" word="4" xpos="CD" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="months" />
+      <extra deprel="obl:npmod" edeps="8:obl:npmod" enhanced="8:obl:npmod" feats="Number=Plur" features="Number=Plur" frame="_" head="8" lemma="month" lexcat="N" lexlemma="month" lextag="O-N-n.TIME" local_toknums="7" misc="null" orig_paragraph="1" pos="NOUN" remarks="0.28" smwe="null" ss="n.TIME" ss2="null" tag="NNS" toknums="28" upos="NOUN" wmwe="null" word="months" xpos="NNS" />
+    </node>
+    <node ID="0.8" type="Word">
+      <attributes paragraph="1" paragraph_position="8" text="apart" />
+      <extra config="default" deprel="advmod" edeps="4:advmod" enhanced="4:advmod" feats="null" features="_" frame="_" gov="25" govlemma="pass" head="4" lemma="apart" lexcat="P" lexlemma="apart" lextag="O-P-p.Time" local_gov="4" local_toknums="8" misc="null" obj="null" objlemma="null" orig_paragraph="1" pos="ADV" remarks="0.29" smwe="null" ss="p.Time" ss2="p.Time" tag="RB" toknums="29" upos="ADV" wmwe="null" word="apart" xpos="RB" />
+    </node>
+    <node ID="0.9" type="Word">
+      <attributes paragraph="1" paragraph_position="9" text="and" />
+      <extra deprel="cc" edeps="13:cc" enhanced="13:cc" feats="null" features="_" frame="_" head="13" lemma="and" lextag="O-CCONJ" misc="null" orig_paragraph="1" pos="CCONJ" remarks="0.3" smwe="null" tag="CC" upos="CCONJ" wmwe="null" word="and" xpos="CC" />
+    </node>
+    <node ID="0.10" type="Word">
+      <attributes paragraph="1" paragraph_position="10" text="Mike" />
+      <extra deprel="nsubj" edeps="13:nsubj" enhanced="13:nsubj" feats="Number=Sing" features="Number=Sing" frame="_" head="13" lemma="Mike" lexcat="N" lexlemma="Mike" lextag="O-N-n.PERSON" local_toknums="10" misc="null" orig_paragraph="1" pos="PROPN" remarks="0.31" smwe="null" ss="n.PERSON" ss2="null" tag="NNP" toknums="31" upos="PROPN" wmwe="null" word="Mike" xpos="NNP" />
+    </node>
+    <node ID="0.11" type="Word">
+      <attributes paragraph="1" paragraph_position="11" text="was" />
+      <extra deprel="cop" edeps="13:cop" enhanced="13:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" features="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" frame="_" head="13" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="11" misc="null" orig_paragraph="1" pos="AUX" remarks="0.32" smwe="null" ss="v.stative" ss2="null" tag="VBD" toknums="32" upos="AUX" wmwe="null" word="was" xpos="VBD" />
+    </node>
+    <node ID="0.12" type="Word">
+      <attributes paragraph="1" paragraph_position="12" text="very" />
+      <extra deprel="advmod" edeps="13:advmod" enhanced="13:advmod" feats="null" features="_" frame="_" head="13" lemma="very" lextag="O-ADV" misc="null" orig_paragraph="1" pos="ADV" remarks="0.33" smwe="null" tag="RB" upos="ADV" wmwe="null" word="very" xpos="RB" />
+    </node>
+    <node ID="0.13" type="Word">
+      <attributes paragraph="1" paragraph_position="13" text="understanding" />
+      <extra deprel="conj" edeps="4:conj:and" enhanced="4:conj:and" feats="Degree=Pos" features="Degree=Pos" frame="_" head="4" lemma="understanding" lextag="O-ADJ" misc="SpaceAfter=No" orig_paragraph="1" pos="ADJ" remarks="0.34" smwe="null" tag="JJ" upos="ADJ" wmwe="null" word="understanding" xpos="JJ" />
+    </node>
+    <node ID="0.14" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="14" text="." />
+      <extra deprel="punct" edeps="4:punct" enhanced="4:punct" feats="null" features="_" frame="_" head="4" lemma="." lextag="O-PUNCT" misc="null" orig_paragraph="1" pos="PUNCT" remarks="0.35" smwe="null" tag="." upos="PUNCT" wmwe="null" word="." xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="cc">
+        <attributes />
+        <category tag="cc" />
+      </edge>
+      <edge toID="1.5" type="conj">
+        <attributes />
+        <category tag="conj" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.7" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.9" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+      <edge toID="1.10" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+      <edge toID="1.15" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.9" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.12" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.13" type="cop">
+        <attributes />
+        <category tag="cop" />
+      </edge>
+      <edge toID="1.14" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.13" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="1.8" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.16" type="det">
+        <attributes />
+        <category tag="det" />
+      </edge>
+      <edge toID="1.17" type="nmod">
+        <attributes />
+        <category tag="nmod" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <edge toID="1.11" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.18" type="obl">
+        <attributes />
+        <category tag="obl" />
+      </edge>
+    </node>
+    <node ID="1.11" type="FN">
+      <attributes />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.12" type="FN">
+      <attributes />
+      <edge toID="0.10" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.13" type="FN">
+      <attributes />
+      <edge toID="0.11" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.14" type="FN">
+      <attributes />
+      <edge toID="0.12" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.15" type="PNCT">
+      <attributes />
+      <edge toID="0.14" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.16" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.17" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.18" type="FN">
+      <attributes />
+      <edge toID="1.19" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.20" type="nummod">
+        <attributes />
+        <category tag="nummod" />
+      </edge>
+    </node>
+    <node ID="1.19" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.20" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

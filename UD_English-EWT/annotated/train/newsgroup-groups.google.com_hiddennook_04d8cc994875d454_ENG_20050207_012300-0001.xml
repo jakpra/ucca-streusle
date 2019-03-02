@@ -1,0 +1,59 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_hiddennook_04d8cc994875d454_ENG_20050207_012300-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[4398759943034541363, 4398759943034541363, 17111077179131903759, 96, 0, 2, 442, 1, 4398759943034541363, 4398759943034541363, 4398759943034541363], [12409177509954467014, 16495250960159714870, 783433942507015291, 91, 0, 2, 8206900633647566924, 0, 13735693502083210583, 15817570140490810055, 5129495575088765286], [3806482680584466996, 3806482680584466996, 2465883113906300949, 96, 0, 2, 442, -1, 3806482680584466996, 3806482680584466996, 3806482680584466996]]]" />
+    <node ID="0.1" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="1" text="[" />
+      <extra enhanced="2:punct" features="_" frame="_" lemma="[" pos="PUNCT" tag="-LRB-" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="http://www.newsday.com/news/opinion/ny-vpnasa054135614feb05,0,5979821.story?coll=ny-editorials-headlines" />
+      <extra enhanced="0:root" features="_" frame="_" lemma="http://www.newsday.com/news/opinion/ny-vpnasa054135614feb05,0,5979821.story?coll=ny-editorials-headlines" pos="X" tag="ADD" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="]" />
+      <extra enhanced="2:punct" features="_" frame="_" lemma="]" pos="PUNCT" tag="-RRB-" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.4" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

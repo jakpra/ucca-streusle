@@ -1,0 +1,200 @@
+<root annotationID="0" passageID="newsgroup-groups.google.com_alt.animals.bears_1125853b1f13cff6_ENG_20040126_171100-0071">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[15956957248983403459, 15956957248983403459, 14872845191859177490, 96, 0, 2, 442, 1, 933608101861781771, 2005922715127769938, 14633558450229620012], [16942842939424094131, 895834437038626927, 783433942507015291, 91, 0, 2, 8206900633647566924, 0, 13862804199789047564, 3929483993944067416, 17962511132363979124], [12810251076255213251, 16037325823156266367, 1292078113972184607, 84, 0, 2, 440, -1, 3552942401566437853, 9148987913859918431, 12810251076255213251], [17511355987853752758, 16331095434822636218, 15794550382381185553, 95, 0, 2, 436, -1, 3552942401566437853, 9350754067018752509, 17511355987853752758], [5595707737748328492, 3791531372978436496, 1292078113972184607, 84, 0, 2, 440, -3, 14968597813295776895, 5582244037879929967, 5595707737748328492], [9274725989412901073, 6601561424492272668, 15794550382381185553, 95, 0, 2, 436, -1, 13862804199789047564, 17714545831559622561, 4410383347724972319], [5595707737748328492, 3791531372978436496, 1292078113972184607, 84, 0, 2, 440, -1, 14968597813295776895, 5582244037879929967, 5595707737748328492], [17775201114085937041, 7614825220766900367, 15794550382381185553, 95, 0, 2, 7037928807040764755, 1, 13862804199789047564, 10850957288794122991, 3270185828925831478], [11073469545020096932, 16767868930224892138, 783433942507015291, 91, 0, 2, 436, -2, 13862804199789047564, 16829822105563051112, 8875132460027656997], [12736066093347293436, 12736066093347293436, 12646065887601541794, 96, 0, 2, 442, -8, 12736066093347293436, 17494803046312582752, 12736066093347293436], [15956957248983403459, 15956957248983403459, 14872845191859177490, 96, 0, 2, 8206900633647566924, 0, 933608101861781771, 2005922715127769938, 14633558450229620012]]]" />
+    <node ID="0.1" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="1" text="*****" />
+      <extra enhanced="2:punct" features="_" frame="_" lemma="*****" pos="PUNCT" tag="NFP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="DIRECTIONS" />
+      <extra enhanced="0:root" features="Number=Plur" frame="_" lemma="direction" pos="NOUN" tag="NNS" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="FOR" />
+      <extra enhanced="6:mark" features="_" frame="_" lemma="for" pos="SCONJ" tag="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="HOW" />
+      <extra enhanced="6:advmod" features="PronType=Int" frame="_" lemma="how" pos="ADV" tag="WRB" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="TO" />
+      <extra enhanced="6:mark" features="_" frame="_" lemma="to" pos="PART" tag="TO" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="POST" />
+      <extra enhanced="2:acl:to" features="VerbForm=Inf" frame="_" lemma="post" pos="VERB" tag="VB" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="TO" />
+      <extra enhanced="9:case" features="_" frame="_" lemma="to" pos="ADP" tag="IN" />
+    </node>
+    <node ID="0.8" type="Word">
+      <attributes paragraph="1" paragraph_position="8" text="NEWS" />
+      <extra enhanced="9:compound" features="Number=Sing" frame="_" lemma="news" pos="NOUN" tag="NN" />
+    </node>
+    <node ID="0.9" type="Word">
+      <attributes paragraph="1" paragraph_position="9" text="GROUPS" />
+      <extra enhanced="6:obl:to" features="Number=Plur" frame="_" lemma="group" pos="NOUN" tag="NNS" />
+    </node>
+    <node ID="0.10" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="10" text="!!!" />
+      <extra enhanced="2:punct" features="_" frame="_" lemma="!!!" pos="PUNCT" tag="." />
+    </node>
+    <node ID="0.11" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="11" text="*****" />
+      <extra enhanced="2:punct" features="_" frame="_" lemma="*****" pos="PUNCT" tag="NFP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.5" type="acl">
+        <attributes />
+        <category tag="acl" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.8" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="PNCT">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.9" type="mark">
+        <attributes />
+        <category tag="mark" />
+      </edge>
+      <edge toID="1.10" type="advmod">
+        <attributes />
+        <category tag="advmod" />
+      </edge>
+      <edge toID="1.11" type="mark">
+        <attributes />
+        <category tag="mark" />
+      </edge>
+      <edge toID="1.12" type="obl">
+        <attributes />
+        <category tag="obl" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.10" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="PNCT">
+      <attributes />
+      <edge toID="0.11" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.11" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.12" type="FN">
+      <attributes />
+      <edge toID="1.13" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.14" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+      <edge toID="1.15" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.13" type="FN">
+      <attributes />
+      <edge toID="0.9" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.14" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.15" type="FN">
+      <attributes />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

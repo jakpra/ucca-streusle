@@ -1,0 +1,51 @@
+<root annotationID="0" passageID="email-enronsent37_01-0140">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[2095513323427870257, 2095513323427870257, 8427216679587749980, 92, 0, 2, 426, 1, 8292859512838764449, 15180167692696242062, 13295261294415594186], [10161657011877740116, 10161657011877740116, 8427216679587749980, 92, 0, 2, 8206900633647566924, 0, 17782828777410369671, 746762829127501960, 2278821105029828355]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="25/01/2001" />
+      <extra enhanced="0:root" features="NumType=Card" frame="_" lemma="25/01/2001" pos="NUM" tag="CD" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="00:20" />
+      <extra enhanced="1:nmod:tmod" features="NumType=Card" frame="_" lemma="00:20" pos="NUM" tag="CD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nmod">
+        <attributes />
+        <category tag="nmod" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

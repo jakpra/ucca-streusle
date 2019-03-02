@@ -1,0 +1,118 @@
+<root annotationID="0" passageID="email-enronsent40_01-0079">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[12346995674149584082, 10382539506755952630, 13927759927860985106, 99, 0, 2, 8206900633647566924, 0, 12204527652707022206, 4690420944186131903, 12346995674149584082], [4380130941430378203, 4380130941430378203, 15267657372422890137, 89, 0, 2, 426, -1, 13110060611322374290, 15369245168918225700, 14949295185858420483], [5865838185239622912, 5865838185239622912, 4808651922106831370, 91, 0, 2, 413, 2, 13110060611322374290, 260667111241363922, 14949295185858420483], [7624161793554793053, 561228191312463089, 13656873538139661788, 94, 0, 2, 426, 1, 4088098365541558500, 9409450202036847209, 7624161793554793053], [7597692042947428029, 7597692042947428029, 9188597074677201817, 99, 0, 2, 405, -4, 13110060611322374290, 260667111241363922, 7886043512438591911], [8205403955989537350, 8205403955989537350, 12646065887601541794, 96, 0, 2, 442, -5, 8205403955989537350, 8205403955989537350, 8205403955989537350]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Is" />
+      <extra enhanced="0:root" features="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" frame="_" lemma="be" pos="VERB" tag="VBZ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="that" />
+      <extra enhanced="1:nsubj" features="Number=Sing|PronType=Dem" frame="_" lemma="that" pos="PRON" tag="DT" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="what" />
+      <extra enhanced="5:obj" features="PronType=Int" frame="_" lemma="what" pos="PRON" tag="WP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="you" />
+      <extra enhanced="5:nsubj" features="Case=Nom|Person=2|PronType=Prs" frame="_" lemma="you" pos="PRON" tag="PRP" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="want" />
+      <extra enhanced="1:ccomp" features="Mood=Ind|Tense=Pres|VerbForm=Fin" frame="_" lemma="want" pos="VERB" tag="VBP" />
+    </node>
+    <node ID="0.6" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="6" text="?" />
+      <extra enhanced="1:punct" features="_" frame="_" lemma="?" pos="PUNCT" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+      <edge toID="1.5" type="ccomp">
+        <attributes />
+        <category tag="ccomp" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.8" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+      <edge toID="1.9" type="nsubj">
+        <attributes />
+        <category tag="nsubj" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

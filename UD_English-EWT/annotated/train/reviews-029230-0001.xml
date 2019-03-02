@@ -1,0 +1,103 @@
+<root annotationID="0" passageID="reviews-029230-0001">
+  <attributes />
+  <extra format="conllu" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[9335770981443976163, 6250203919658647129, 15794550382381185553, 95, 381, 3, 399, 1, 10887629174180191697, 14230521632333904559, 14619786160612475726], [13427265767486740119, 7338335557000497525, 15794550382381185553, 95, 381, 1, 8206900633647566924, 0, 16072095006890171862, 12290980237632234855, 16639369580702547507], [17831099778462416609, 3002984154512732771, 1292078113972184607, 84, 0, 2, 440, -1, 12204527652707022206, 4690420944186131903, 17831099778462416609], [11743628472172276009, 5450737819673896245, 15794550382381185553, 95, 382, 3, 7037928807040764755, 1, 16072095006890171862, 14230521632333904559, 15547946342384620083], [2618776145913944735, 7573734102494906692, 15794550382381185553, 95, 382, 1, 436, -2, 16072095006890171862, 9350754067018752509, 18194972281163004607]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Best" />
+      <extra deprel="amod" edeps="2:amod" enhanced="2:amod" feats="Degree=Sup" features="Degree=Sup" frame="_" head="2" lemma="best" lextag="O-ADJ" misc="null" orig_paragraph="1" pos="ADJ" remarks="0.1" smwe="null" tag="JJS" upos="ADJ" wmwe="null" word="Best" xpos="JJS" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Store" />
+      <extra deprel="root" edeps="0:root" enhanced="0:root" feats="Number=Sing" features="Number=Sing" frame="_" head="0" lemma="store" lexcat="N" lexlemma="store" lextag="O-N-n.GROUP" local_toknums="2" misc="null" orig_paragraph="1" pos="NOUN" remarks="0.2" smwe="null" ss="n.GROUP" ss2="null" tag="NN" toknums="2" upos="NOUN" wmwe="null" word="Store" xpos="NN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="In" />
+      <extra config="default" deprel="case" edeps="5:case" enhanced="5:case" feats="null" features="_" frame="_" gov="2" govlemma="store" head="5" lemma="in" lexcat="P" lexlemma="in" lextag="O-P-p.Locus" local_gov="2" local_obj="5" local_toknums="3" misc="null" obj="5" objlemma="Harbor" orig_paragraph="1" pos="ADP" remarks="0.3" smwe="null" ss="p.Locus" ss2="p.Locus" tag="IN" toknums="3" upos="ADP" wmwe="null" word="In" xpos="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Boothbay" />
+      <extra deprel="compound" edeps="5:compound" enhanced="5:compound" feats="Number=Sing" features="Number=Sing" frame="_" head="5" lemma="Boothbay" lexcat="N" lexlemma="Boothbay Harbor" lextag="B-N-n.LOCATION" local_toknums="4 5" misc="null" orig_paragraph="1" pos="PROPN" remarks="0.4" smwe="[1, 1]" ss="n.LOCATION" ss2="null" tag="NNP" toknums="4 5" upos="PROPN" wmwe="null" word="Boothbay" xpos="NNP" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="Harbor" />
+      <extra deprel="nmod" edeps="2:nmod:in" enhanced="2:nmod:in" feats="Number=Sing" features="Number=Sing" frame="_" head="2" lemma="Harbor" lextag="I_" misc="null" orig_paragraph="1" pos="PROPN" remarks="0.5" smwe="[1, 2]" tag="NNP" upos="PROPN" wmwe="null" word="Harbor" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.4" type="amod">
+        <attributes />
+        <category tag="amod" />
+      </edge>
+      <edge toID="1.5" type="nmod">
+        <attributes />
+        <category tag="nmod" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="1.6" type="head">
+        <attributes />
+        <category tag="head" />
+      </edge>
+      <edge toID="1.7" type="case">
+        <attributes />
+        <category tag="case" />
+      </edge>
+      <edge toID="1.8" type="compound">
+        <attributes />
+        <category tag="compound" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>
