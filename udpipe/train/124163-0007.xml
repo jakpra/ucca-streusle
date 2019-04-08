@@ -1,0 +1,37 @@
+<root annotationID="0" passageID="124163-0007">
+  <attributes annotationID="4312" passageID="21" remarks="Test" userID="4" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Pam" />
+      <extra dep="root" ent_iob="3" ent_type="PERSON" head="1" lemma="Pam" orig_paragraph="1" orth="Pam" pos="PROPN" prefix="P" shape="Xxx" suffix="Pam" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Gillies" />
+      <extra dep="flat" ent_iob="1" ent_type="PERSON" head="-1" lemma="Gillies" orig_paragraph="1" orth="Gillies" pos="PROPN" prefix="G" shape="Xxxxx" suffix="ies" tag="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="24-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>
