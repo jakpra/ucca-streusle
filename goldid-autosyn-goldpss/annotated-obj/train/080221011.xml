@@ -1,0 +1,142 @@
+<root annotationID="0" passageID="080221011">
+  <attributes annotationID="2763" passageID="793" remarks="26707" userID="4" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Gold" />
+      <extra deprel="compound" edeps="null" feats="Number=Sing" head="3" lemma="Gold" lextag="B-N-n.RELATION" misc="null" ner="O" orig_paragraph="1" remarks="0.96" smwe="[1, 1]" upos="PROPN" wmwe="null" word="Gold" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="award" />
+      <extra deprel="compound" edeps="null" feats="Number=Sing" head="3" lemma="award" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.97" smwe="[1, 2]" upos="NOUN" wmwe="null" word="award" xpos="NN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="parts" />
+      <extra deprel="root" edeps="null" feats="Number=Plur" head="0" lemma="part" lextag="O-N-n.ARTIFACT" misc="null" ner="O" orig_paragraph="1" remarks="0.98" smwe="null" upos="NOUN" wmwe="null" word="parts" xpos="NNS" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="excellence" />
+      <extra deprel="dep" edeps="null" feats="Number=Sing" head="3" lemma="excellence" lextag="O-N-n.COGNITION" misc="null" ner="O" orig_paragraph="1" remarks="0.99" smwe="null" upos="NOUN" wmwe="null" word="excellence" xpos="NN" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="," />
+      <extra deprel="punct" edeps="null" feats="null" head="4" lemma="," lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.100" smwe="null" upos="PUNCT" wmwe="null" word="," xpos="," />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="metro" />
+      <extra deprel="appos" edeps="null" feats="Number=Sing" head="4" lemma="metro" lextag="O-N-n.LOCATION" misc="null" ner="O" orig_paragraph="1" remarks="0.101" smwe="null" upos="NOUN" wmwe="null" word="metro" xpos="NN" />
+    </node>
+    <node ID="0.7" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="7" text="." />
+      <extra deprel="punct" edeps="null" feats="null" head="3" lemma="." lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.102" smwe="null" upos="PUNCT" wmwe="null" word="." xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.126" />
+      <edge toID="1.4" type="D">
+        <attributes />
+        <category tag="D" />
+      </edge>
+      <edge toID="1.5" type="P">
+        <attributes />
+        <category tag="P" />
+      </edge>
+      <edge toID="1.6" type="A">
+        <attributes />
+        <category tag="A" />
+      </edge>
+      <edge toID="1.7" type="A">
+        <attributes />
+        <category tag="A" />
+      </edge>
+      <edge toID="1.8" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <extra remarks="1.159" />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra remarks="1.127" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra remarks="1.128" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra remarks="1.129" />
+      <edge toID="1.9" type="A">
+        <attributes />
+        <category tag="A" />
+      </edge>
+      <edge toID="1.10" type="S">
+        <attributes />
+        <category tag="S" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <extra remarks="1.133" />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="PNCT">
+      <attributes />
+      <extra remarks="1.158" />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <extra remarks="1.130" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <extra remarks="1.131" />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

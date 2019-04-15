@@ -1,0 +1,46 @@
+<root annotationID="0" passageID="200957000">
+  <attributes annotationID="1835" passageID="334" remarks="26225" userID="14" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Horrible" />
+      <extra deprel="root" edeps="null" feats="Degree=Pos" head="0" lemma="horrible" lextag="O-ADJ" misc="null" ner="O" orig_paragraph="1" remarks="0.1" smwe="null" upos="ADJ" wmwe="null" word="Horrible" xpos="JJ" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.2" />
+      <edge toID="1.3" type="A">
+        <attributes />
+        <category tag="A" />
+      </edge>
+      <edge toID="1.4" type="S">
+        <attributes />
+        <category tag="S" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes implicit="True" />
+      <extra remarks="1.3" />
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra remarks="1.4" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

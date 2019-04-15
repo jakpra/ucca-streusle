@@ -152,10 +152,11 @@
     </node>
     <node ID="1.11" type="FN">
       <attributes />
-      <extra remarks="1.46" tree_id="7-3-2-4-1-1" />
-      <edge toID="0.6" type="Terminal">
+      <extra remarks="1.45" tree_id="7-3-2-4-1" />
+      <edge toID="1.14" type="A">
         <attributes />
-        <category tag="Terminal" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
       </edge>
     </node>
     <node ID="1.12" type="FN">
@@ -168,8 +169,16 @@
     </node>
     <node ID="1.13" type="PNCT">
       <attributes />
-      <extra remarks="1.49" />
+      <extra remarks="1.50" />
       <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.14" type="FN">
+      <attributes />
+      <extra remarks="1.46" tree_id="7-3-2-4-1-1" />
+      <edge toID="0.6" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>

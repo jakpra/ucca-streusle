@@ -131,7 +131,7 @@
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
         <category parent_name="A" tag="p.Topic" />
       </edge>
-      <edge toID="1.26" type="A">
+      <edge toID="1.27" type="A">
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
@@ -254,14 +254,11 @@
     </node>
     <node ID="1.16" type="FN">
       <attributes />
-      <extra remarks="1.17" tree_id="3-1-1" />
-      <edge toID="1.25" type="F">
+      <extra remarks="1.16" tree_id="3-1" />
+      <edge toID="1.25" type="A">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
-      </edge>
-      <edge toID="1.26" type="C">
-        <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
       </edge>
     </node>
     <node ID="1.17" type="FN">
@@ -346,13 +343,25 @@
     </node>
     <node ID="1.25" type="FN">
       <attributes />
+      <extra remarks="1.17" tree_id="3-1-1" />
+      <edge toID="1.26" type="F">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
+      </edge>
+      <edge toID="1.27" type="C">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+      </edge>
+    </node>
+    <node ID="1.26" type="FN">
+      <attributes />
       <extra remarks="1.18" tree_id="3-1-1-1" />
       <edge toID="0.1" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>
-    <node ID="1.26" type="FN">
+    <node ID="1.27" type="FN">
       <attributes />
       <extra remarks="1.19" tree_id="3-1-1-2" />
       <edge toID="0.2" type="Terminal">

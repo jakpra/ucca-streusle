@@ -1,0 +1,206 @@
+<root annotationID="0" passageID="210066003">
+  <attributes annotationID="1853" passageID="352" remarks="26243" userID="14" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="No" />
+      <extra deprel="neg" edeps="null" feats="null" head="2" lemma="no" lextag="B-DET" misc="null" ner="O" orig_paragraph="1" remarks="0.68" smwe="null" upos="DET" wmwe="[1, 1]" word="No" xpos="DT" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="problem" />
+      <extra deprel="nsubj" edeps="null" feats="Number=Sing" head="4" lemma="problem" lextag="I~-N-n.COGNITION" misc="null" ner="O" orig_paragraph="1" remarks="0.69" smwe="null" upos="NOUN" wmwe="[1, 2]" word="problem" xpos="NN" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="," />
+      <extra deprel="punct" edeps="null" feats="null" head="4" lemma="," lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.70" smwe="null" upos="PUNCT" wmwe="null" word="," xpos="," />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="sounded" />
+      <extra deprel="root" edeps="null" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="sound" lextag="O-V-v.cognition" misc="null" ner="O" orig_paragraph="1" remarks="0.71" smwe="null" upos="VERB" wmwe="null" word="sounded" xpos="VBD" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="like" />
+      <extra config="subordinating" deprel="mark" edeps="null" feats="null" gov="71" govlemma="sound" head="8" lemma="like" lexcat="P" lexlemma="like" lextag="O-P-p.Theme|p.ComparisonRef" local_gov="4" local_obj="8" local_toknums="5" misc="null" ner="O" obj="75" objlemma="do" orig_paragraph="1" remarks="0.72" smwe="null" toknums="72" upos="SCONJ" wmwe="null" word="like" xpos="IN" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="it" />
+      <extra deprel="nsubjpass" edeps="null" feats="Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" head="8" lemma="it" lextag="O-PRON" misc="null" ner="O" orig_paragraph="1" remarks="0.73" smwe="null" upos="PRON" wmwe="null" word="it" xpos="PRP" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="'s" />
+      <extra deprel="auxpass" edeps="null" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="8" lemma="be" lextag="O-AUX" misc="null" ner="O" orig_paragraph="1" remarks="0.74" smwe="null" upos="AUX" wmwe="null" word="'s" xpos="VBZ" />
+    </node>
+    <node ID="0.8" type="Word">
+      <attributes paragraph="1" paragraph_position="8" text="done" />
+      <extra deprel="advcl" edeps="null" feats="Tense=Past|VerbForm=Part|Voice=Pass" head="4" lemma="do" lextag="O-V-v.stative" misc="null" ner="O" orig_paragraph="1" remarks="0.75" smwe="null" ss="p.Theme" ss2="p.ComparisonRef" upos="VERB" wmwe="null" word="done" xpos="VBN" />
+    </node>
+    <node ID="0.9" type="Word">
+      <attributes paragraph="1" paragraph_position="9" text="every" />
+      <extra deprel="det" edeps="null" feats="null" head="10" lemma="every" lextag="O-DET" misc="null" ner="SET" orig_paragraph="1" remarks="0.76" smwe="null" upos="DET" wmwe="null" word="every" xpos="DT" />
+    </node>
+    <node ID="0.10" type="Word">
+      <attributes paragraph="1" paragraph_position="10" text="day" />
+      <extra deprel="nmod:tmod" edeps="null" feats="Number=Sing" head="8" lemma="day" lextag="O-N-n.EVENT" misc="null" ner="SET" orig_paragraph="1" remarks="0.77" smwe="null" upos="NOUN" wmwe="null" word="day" xpos="NN" />
+    </node>
+    <node ID="0.11" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="11" text="." />
+      <extra deprel="punct" edeps="null" feats="null" head="4" lemma="." lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.78" smwe="null" upos="PUNCT" wmwe="null" word="." xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+      <edge toID="1.3" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+      <edge toID="1.4" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.94" />
+      <edge toID="1.13" type="D">
+        <attributes />
+        <category tag="D" />
+      </edge>
+      <edge toID="1.14" type="P">
+        <attributes />
+        <category tag="P" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <extra remarks="1.98" />
+      <edge toID="1.6" type="G">
+        <attributes />
+        <category tag="G" />
+      </edge>
+      <edge toID="1.7" type="A">
+        <attributes />
+        <category tag="A" />
+      </edge>
+      <edge toID="1.8" type="F">
+        <attributes />
+        <category tag="F" />
+      </edge>
+      <edge toID="1.9" type="P">
+        <attributes />
+        <category tag="P" />
+      </edge>
+      <edge toID="1.10" type="T">
+        <attributes />
+        <category tag="T" />
+      </edge>
+    </node>
+    <node ID="1.4" type="PNCT">
+      <attributes />
+      <extra remarks="1.272" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="PNCT">
+      <attributes />
+      <extra remarks="1.273" />
+      <edge toID="0.11" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra remarks="1.99" />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <extra remarks="1.100" />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <extra remarks="1.101" />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <extra remarks="1.102" />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <extra remarks="1.103" />
+      <edge toID="1.11" type="Q">
+        <attributes />
+        <category tag="Q" />
+      </edge>
+      <edge toID="1.12" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+    </node>
+    <node ID="1.11" type="FN">
+      <attributes />
+      <extra remarks="1.104" />
+      <edge toID="0.9" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.12" type="FN">
+      <attributes />
+      <extra remarks="1.105" />
+      <edge toID="0.10" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.13" type="FN">
+      <attributes />
+      <extra remarks="1.95" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.14" type="FN">
+      <attributes />
+      <extra remarks="1.96" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>
