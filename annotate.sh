@@ -8,6 +8,10 @@ python -m semstr.scripts.annotate ../UCCA_English-EWT/sentences/train -s en -o s
 python -m semstr.scripts.annotate ../UCCA_English-EWT/sentences/dev -s en -o stanfordnlp/dev -a
 python -m semstr.scripts.annotate ../UCCA_English-EWT/sentences/test -s en -o stanfordnlp/test -a
 
+python -m semstr.scripts.annotate ../UCCA_English-EWT/sentences/train -o spacy/train -a
+python -m semstr.scripts.annotate ../UCCA_English-EWT/sentences/dev -o spacy/dev -a
+python -m semstr.scripts.annotate ../UCCA_English-EWT/sentences/test -o spacy/test -a
+
 python -m semstr.scripts.annotate ../UCCA_English-EWT/sentences/train -c ../UD_English-EWT/en_ewt-ud-train.conllu -o goldud/train -a
 python -m semstr.scripts.annotate ../UCCA_English-EWT/sentences/dev -c ../UD_English-EWT/en_ewt-ud-dev.conllu -o goldud/dev -a
 python -m semstr.scripts.annotate ../UCCA_English-EWT/sentences/test -c ../UD_English-EWT/en_ewt-ud-test.conllu -o goldud/test -a
