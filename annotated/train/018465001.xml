@@ -1,15 +1,15 @@
 <root annotationID="0" passageID="018465001">
-  <attributes annotationID="637" passageID="299" remarks="26190" userID="1" />
+  <attributes annotationID="4368" passageID="299" remarks="26190" userID="4" />
   <layer layerID="0">
     <attributes />
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="I" />
-      <extra deprel="nsubj" edeps="2:nsubj|3:nsubj:xsubj|5:nsubj:xsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="2" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.6" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
+      <extra deprel="nsubj" edeps="2:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="2" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.6" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="feel" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="feel" lexcat="V" lexlemma="feel" lextag="O-V-v.emotion" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.7" smwe="null" ss="v.emotion" ss2="null" toknums="7" upos="VERB" wmwe="null" word="feel" xpos="VBP" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="feel" lextag="O-V-v.emotion" misc="null" orig_paragraph="1" remarks="0.7" smwe="null" upos="VERB" wmwe="null" word="feel" xpos="VBP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="obligated" />
@@ -21,7 +21,7 @@
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="share" />
-      <extra deprel="xcomp" edeps="3:xcomp" feats="VerbForm=Inf" head="3" lemma="share" lexcat="V" lexlemma="share" lextag="O-V-v.communication" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.10" smwe="null" ss="v.communication" ss2="null" toknums="10" upos="VERB" wmwe="null" word="share" xpos="VB" />
+      <extra deprel="xcomp" edeps="3:xcomp" feats="VerbForm=Inf" head="3" lemma="share" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.10" smwe="null" upos="VERB" wmwe="null" word="share" xpos="VB" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="this" />
@@ -29,7 +29,7 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="story" />
-      <extra deprel="obj" edeps="5:obj" feats="Number=Sing" head="5" lemma="story" lexcat="N" lexlemma="story" lextag="O-N-n.COMMUNICATION" local_toknums="7" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.12" smwe="null" ss="n.COMMUNICATION" ss2="null" toknums="12" upos="NOUN" wmwe="null" word="story" xpos="NN" />
+      <extra deprel="obj" edeps="5:obj" feats="Number=Sing" head="5" lemma="story" lextag="O-N-n.COMMUNICATION" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.12" smwe="null" upos="NOUN" wmwe="null" word="story" xpos="NN" />
     </node>
     <node ID="0.8" type="Punctuation">
       <attributes paragraph="1" paragraph_position="8" text="." />
@@ -57,9 +57,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.5" type="D">
+      <edge toID="1.5" type="G">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="G" />
       </edge>
       <edge toID="1.6" type="S">
         <attributes />
@@ -72,7 +72,7 @@
     </node>
     <node ID="1.3" type="PNCT">
       <attributes />
-      <extra remarks="1.382" />
+      <extra remarks="1.383" />
       <edge toID="0.8" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -105,6 +105,10 @@
     <node ID="1.7" type="FN">
       <attributes />
       <extra remarks="1.14" tree_id="2-4" />
+      <edge toID="1.4" type="A">
+        <attributes remote="True" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
       <edge toID="1.8" type="R">
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
@@ -120,7 +124,7 @@
     </node>
     <node ID="1.8" type="FN">
       <attributes />
-      <extra remarks="1.15" tree_id="2-4-1" />
+      <extra remarks="1.15" tree_id="2-4-2" />
       <edge toID="0.4" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -128,7 +132,7 @@
     </node>
     <node ID="1.9" type="FN">
       <attributes />
-      <extra remarks="1.16" tree_id="2-4-2" />
+      <extra remarks="1.16" tree_id="2-4-3" />
       <edge toID="0.5" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -136,10 +140,10 @@
     </node>
     <node ID="1.10" type="FN">
       <attributes />
-      <extra remarks="1.17" tree_id="2-4-3" />
-      <edge toID="1.11" type="R">
+      <extra remarks="1.17" tree_id="2-4-4" />
+      <edge toID="1.11" type="E">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
       </edge>
       <edge toID="1.12" type="C">
         <attributes />
@@ -148,7 +152,7 @@
     </node>
     <node ID="1.11" type="FN">
       <attributes />
-      <extra remarks="1.18" tree_id="2-4-3-1" />
+      <extra remarks="1.18" tree_id="2-4-4-1" />
       <edge toID="0.6" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -156,7 +160,7 @@
     </node>
     <node ID="1.12" type="FN">
       <attributes />
-      <extra remarks="1.19" tree_id="2-4-3-2" />
+      <extra remarks="1.19" tree_id="2-4-4-2" />
       <edge toID="0.7" type="Terminal">
         <attributes />
         <category tag="Terminal" />

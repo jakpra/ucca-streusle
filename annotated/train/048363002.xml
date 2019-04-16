@@ -1,5 +1,5 @@
 <root annotationID="0" passageID="048363002">
-  <attributes annotationID="1505" passageID="724" remarks="26638" userID="1" />
+  <attributes annotationID="3508" passageID="724" remarks="26638" userID="4" />
   <layer layerID="0">
     <attributes />
     <extra doc="[[]]" />
@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="family" />
-      <extra deprel="compound" edeps="5:compound" feats="Number=Sing" head="5" lemma="family" lexcat="N" lexlemma="family emergency" lextag="B-N-n.EVENT" local_toknums="4 5" misc="null" orig_paragraph="1" remarks="0.34" smwe="[1, 1]" ss="n.EVENT" ss2="null" toknums="34 35" upos="NOUN" wmwe="null" word="family" xpos="NN" />
+      <extra deprel="compound" edeps="5:compound" feats="Number=Sing" head="5" lemma="family" lextag="B-N-n.EVENT" misc="null" orig_paragraph="1" remarks="0.34" smwe="[1, 1]" upos="NOUN" wmwe="null" word="family" xpos="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="emergency" />
@@ -25,11 +25,11 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="required" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="require" lexcat="V" lexlemma="require" lextag="O-V-v.cognition" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.36" smwe="null" ss="v.cognition" ss2="null" toknums="36" upos="VERB" wmwe="null" word="required" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="require" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.36" smwe="null" upos="VERB" wmwe="null" word="required" xpos="VBD" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="me" />
-      <extra deprel="obj" edeps="6:obj|9:nsubj:xsubj" feats="Case=Acc|Number=Sing|Person=1|PronType=Prs" head="6" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.37" smwe="null" upos="PRON" wmwe="null" word="me" xpos="PRP" />
+      <extra deprel="obj" edeps="6:obj" feats="Case=Acc|Number=Sing|Person=1|PronType=Prs" head="6" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.37" smwe="null" upos="PRON" wmwe="null" word="me" xpos="PRP" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="to" />
@@ -37,7 +37,7 @@
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="conquer" />
-      <extra deprel="xcomp" edeps="6:xcomp" feats="VerbForm=Inf" head="6" lemma="conquer" lexcat="V" lexlemma="conquer" lextag="O-V-v.competition" local_toknums="9" misc="null" orig_paragraph="1" remarks="0.39" smwe="null" ss="v.competition" ss2="null" toknums="39" upos="VERB" wmwe="null" word="conquer" xpos="VB" />
+      <extra deprel="xcomp" edeps="6:xcomp" feats="VerbForm=Inf" head="6" lemma="conquer" lextag="O-V-v.competition" misc="null" orig_paragraph="1" remarks="0.39" smwe="null" upos="VERB" wmwe="null" word="conquer" xpos="VB" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="this" />
@@ -45,7 +45,7 @@
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="fear" />
-      <extra deprel="obj" edeps="9:obj" feats="Number=Sing" head="9" lemma="fear" lexcat="N" lexlemma="fear" lextag="O-N-n.COGNITION" local_toknums="11" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.41" smwe="null" ss="n.COGNITION" ss2="null" toknums="41" upos="NOUN" wmwe="null" word="fear" xpos="NN" />
+      <extra deprel="obj" edeps="9:obj" feats="Number=Sing" head="9" lemma="fear" lextag="O-N-n.COGNITION" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.41" smwe="null" upos="NOUN" wmwe="null" word="fear" xpos="NN" />
     </node>
     <node ID="0.12" type="Punctuation">
       <attributes paragraph="1" paragraph_position="12" text="." />
@@ -104,7 +104,7 @@
     </node>
     <node ID="1.3" type="PNCT">
       <attributes />
-      <extra remarks="1.427" />
+      <extra remarks="1.428" />
       <edge toID="0.12" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -176,7 +176,7 @@
     </node>
     <node ID="1.11" type="PNCT">
       <attributes />
-      <extra remarks="1.426" />
+      <extra remarks="1.427" />
       <edge toID="0.2" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -201,9 +201,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.43" tree_id="8-2-1" />
-      <edge toID="1.16" type="E">
+      <edge toID="1.16" type="F">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
       </edge>
       <edge toID="1.17" type="C">
         <attributes />

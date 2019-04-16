@@ -5,7 +5,7 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Encino" />
-      <extra deprel="nsubj:pass" edeps="4:nsubj:pass" feats="Number=Sing" head="4" lemma="Encino" lexcat="N" lexlemma="Encino" lextag="O-N-n.PERSON" local_toknums="1" misc="null" orig_paragraph="1" remarks="0.8" smwe="null" ss="n.PERSON" ss2="null" toknums="8" upos="PROPN" wmwe="null" word="Encino" xpos="NNP" />
+      <extra deprel="nsubj:pass" edeps="4:nsubj:pass" feats="Number=Sing" head="4" lemma="Encino" lextag="O-N-n.PERSON" misc="null" orig_paragraph="1" remarks="0.8" smwe="null" upos="PROPN" wmwe="null" word="Encino" xpos="NNP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="has" />
@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="blessed" />
-      <extra deprel="root" edeps="0:root" feats="Tense=Past|VerbForm=Part" head="0" lemma="bless" lexcat="V" lexlemma="bless" lextag="O-V-v.stative" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.11" smwe="null" ss="v.stative" ss2="null" toknums="11" upos="VERB" wmwe="null" word="blessed" xpos="VBN" />
+      <extra deprel="root" edeps="0:root" feats="Tense=Past|VerbForm=Part" head="0" lemma="bless" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.11" smwe="null" upos="VERB" wmwe="null" word="blessed" xpos="VBN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="by" />
@@ -29,7 +29,7 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="opening" />
-      <extra deprel="obl" edeps="4:obl:by" feats="Number=Sing" head="4" lemma="opening" lexcat="N" lexlemma="opening" lextag="O-N-n.EVENT" local_toknums="7" misc="null" orig_paragraph="1" remarks="0.14" smwe="null" ss="n.EVENT" ss2="null" toknums="14" upos="NOUN" wmwe="null" word="opening" xpos="NN" />
+      <extra deprel="obl" edeps="4:obl" feats="Number=Sing" head="4" lemma="opening" lextag="O-N-n.EVENT" misc="null" orig_paragraph="1" remarks="0.14" smwe="null" upos="NOUN" wmwe="null" word="opening" xpos="NN" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="of" />
@@ -41,11 +41,11 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="smoke" />
-      <extra deprel="compound" edeps="11:compound" feats="Number=Sing" head="11" lemma="smoke" lexcat="N" lexlemma="smoke shop" lextag="B-N-n.GROUP" local_toknums="10 11" misc="null" orig_paragraph="1" remarks="0.17" smwe="[1, 1]" ss="n.GROUP" ss2="null" toknums="17 18" upos="NOUN" wmwe="null" word="smoke" xpos="NN" />
+      <extra deprel="compound" edeps="11:compound" feats="Number=Sing" head="11" lemma="smoke" lextag="B-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.17" smwe="[1, 1]" upos="NOUN" wmwe="null" word="smoke" xpos="NN" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="shop" />
-      <extra deprel="nmod" edeps="7:nmod:of" feats="Number=Sing" head="7" lemma="shop" lextag="I_" misc="null" orig_paragraph="1" remarks="0.18" smwe="[1, 2]" upos="NOUN" wmwe="null" word="shop" xpos="NN" />
+      <extra deprel="nmod" edeps="7:nmod" feats="Number=Sing" head="7" lemma="shop" lextag="I_" misc="null" orig_paragraph="1" remarks="0.18" smwe="[1, 2]" upos="NOUN" wmwe="null" word="shop" xpos="NN" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="most" />

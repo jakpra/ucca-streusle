@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="signed" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="sign" lexcat="V.VPC.full" lexlemma="sign up" lextag="B-V.VPC.full-v.communication" local_toknums="2 3" misc="null" orig_paragraph="1" remarks="0.54" smwe="[1, 1]" ss="v.communication" ss2="null" toknums="54 55" upos="VERB" wmwe="null" word="signed" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="sign" lextag="B-V-v.communication" misc="null" orig_paragraph="1" remarks="0.54" smwe="[1, 1]" upos="VERB" wmwe="null" word="signed" xpos="VBD" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="up" />
@@ -21,7 +21,7 @@
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="one" />
-      <extra deprel="obl" edeps="2:obl:with|12:nsubj|14:nsubj" feats="NumType=Card" head="2" lemma="one" lextag="O-NUM" misc="null" orig_paragraph="1" remarks="0.57" smwe="null" upos="NUM" wmwe="null" word="one" xpos="CD" />
+      <extra deprel="obl" edeps="2:obl" feats="NumType=Card" head="2" lemma="one" lextag="O-NUM" misc="null" orig_paragraph="1" remarks="0.57" smwe="null" upos="NUM" wmwe="null" word="one" xpos="CD" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="of" />
@@ -33,15 +33,15 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="staff" />
-      <extra deprel="nmod" edeps="5:nmod:of" feats="Number=Plur" head="5" lemma="staff" lexcat="N" lexlemma="staff" lextag="O-N-n.PERSON" local_toknums="8" misc="null" orig_paragraph="1" remarks="0.60" smwe="null" ss="n.PERSON" ss2="null" toknums="60" upos="NOUN" wmwe="null" word="staff" xpos="NNS" />
+      <extra deprel="nmod" edeps="5:nmod" feats="Number=Plur" head="5" lemma="staff" lextag="O-N-n.PERSON" misc="null" orig_paragraph="1" remarks="0.60" smwe="null" upos="NOUN" wmwe="null" word="staff" xpos="NNS" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="who" />
-      <extra deprel="nsubj" edeps="5:ref" feats="PronType=Rel" head="12" lemma="who" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.61" smwe="null" upos="PRON" wmwe="null" word="who" xpos="WP" />
+      <extra deprel="nsubj" edeps="12:nsubj" feats="PronType=Rel" head="12" lemma="who" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.61" smwe="null" upos="PRON" wmwe="null" word="who" xpos="WP" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="was" />
-      <extra deprel="cop" edeps="12:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="12" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="10" misc="null" orig_paragraph="1" remarks="0.62" smwe="null" ss="v.stative" ss2="null" toknums="62" upos="AUX" wmwe="null" word="was" xpos="VBD" />
+      <extra deprel="cop" edeps="12:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="12" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.62" smwe="null" upos="AUX" wmwe="null" word="was" xpos="VBD" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="very" />
@@ -57,7 +57,7 @@
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="professional" />
-      <extra deprel="conj" edeps="5:acl:relcl|12:conj:and" feats="Degree=Pos" head="12" lemma="professional" lextag="O-ADJ" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.66" smwe="null" upos="ADJ" wmwe="null" word="professional" xpos="JJ" />
+      <extra deprel="conj" edeps="12:conj" feats="Degree=Pos" head="12" lemma="professional" lextag="O-ADJ" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.66" smwe="null" upos="ADJ" wmwe="null" word="professional" xpos="JJ" />
     </node>
     <node ID="0.15" type="Punctuation">
       <attributes paragraph="1" paragraph_position="15" text="." />
@@ -96,7 +96,7 @@
     </node>
     <node ID="1.3" type="PNCT">
       <attributes />
-      <extra remarks="1.372" />
+      <extra remarks="1.370" />
       <edge toID="0.15" type="Terminal">
         <attributes />
         <category tag="Terminal" />

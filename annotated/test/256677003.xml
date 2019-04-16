@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="know" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="know" lexcat="V" lexlemma="know" lextag="O-V-v.cognition" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.16" smwe="null" ss="v.cognition" ss2="null" toknums="16" upos="VERB" wmwe="null" word="know" xpos="VBP" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="know" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.16" smwe="null" upos="VERB" wmwe="null" word="know" xpos="VBP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="now" />
@@ -25,7 +25,7 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="get" />
-      <extra deprel="ccomp" edeps="2:ccomp" feats="VerbForm=Inf" head="2" lemma="get" lexcat="V" lexlemma="get" lextag="O-V-v.possession" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.20" smwe="null" ss="v.possession" ss2="null" toknums="20" upos="VERB" wmwe="null" word="get" xpos="VB" />
+      <extra deprel="ccomp" edeps="2:ccomp" feats="VerbForm=Inf" head="2" lemma="get" lextag="O-V-v.possession" misc="null" orig_paragraph="1" remarks="0.20" smwe="null" upos="VERB" wmwe="null" word="get" xpos="VB" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="all" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="wine" />
-      <extra deprel="nmod" edeps="7:nmod:of" feats="Number=Sing" head="7" lemma="wine" lexcat="N" lexlemma="wine" lextag="O-N-n.FOOD" local_toknums="10" misc="null" orig_paragraph="1" remarks="0.24" smwe="null" ss="n.FOOD" ss2="null" toknums="24" upos="NOUN" wmwe="null" word="wine" xpos="NN" />
+      <extra deprel="nmod" edeps="7:nmod" feats="Number=Sing" head="7" lemma="wine" lextag="O-N-n.FOOD" misc="null" orig_paragraph="1" remarks="0.24" smwe="null" upos="NOUN" wmwe="null" word="wine" xpos="NN" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="and" />
@@ -49,7 +49,7 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="beer" />
-      <extra deprel="conj" edeps="7:nmod:of|10:conj:and" feats="Number=Sing" head="10" lemma="beer" lexcat="N" lexlemma="beer" lextag="O-N-n.FOOD" local_toknums="12" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.26" smwe="null" ss="n.FOOD" ss2="null" toknums="26" upos="NOUN" wmwe="null" word="beer" xpos="NN" />
+      <extra deprel="conj" edeps="10:conj" feats="Number=Sing" head="10" lemma="beer" lextag="O-N-n.FOOD" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.26" smwe="null" upos="NOUN" wmwe="null" word="beer" xpos="NN" />
     </node>
     <node ID="0.13" type="Punctuation">
       <attributes paragraph="1" paragraph_position="13" text="." />

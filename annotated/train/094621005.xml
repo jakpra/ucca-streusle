@@ -5,7 +5,7 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Seems" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="0" lemma="seem" lexcat="V" lexlemma="seem" lextag="B-V-v.cognition" local_toknums="1" misc="null" orig_paragraph="1" remarks="0.116" smwe="null" ss="v.cognition" ss2="null" toknums="116" upos="VERB" wmwe="[1, 1]" word="Seems" xpos="VBZ" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="0" lemma="seem" lextag="B-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.116" smwe="null" upos="VERB" wmwe="[1, 1]" word="Seems" xpos="VBZ" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="to" />
@@ -13,7 +13,7 @@
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="me" />
-      <extra deprel="obl" edeps="1:obl:to" feats="Case=Acc|Number=Sing|Person=1|PronType=Prs" head="1" lemma="I" lextag="I~-PRON" misc="null" orig_paragraph="1" remarks="0.118" smwe="null" upos="PRON" wmwe="[1, 3]" word="me" xpos="PRP" />
+      <extra deprel="obl" edeps="1:obl" feats="Case=Acc|Number=Sing|Person=1|PronType=Prs" head="1" lemma="I" lextag="I~-PRON" misc="null" orig_paragraph="1" remarks="0.118" smwe="null" upos="PRON" wmwe="[1, 3]" word="me" xpos="PRP" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="like" />
@@ -21,11 +21,11 @@
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="A&amp;E" />
-      <extra deprel="nsubj" edeps="6:nsubj" feats="Number=Sing" head="6" lemma="A&amp;E" lexcat="N" lexlemma="A&amp;E" lextag="O-N-n.GROUP" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.120" smwe="null" ss="n.GROUP" ss2="null" toknums="120" upos="PROPN" wmwe="null" word="A&amp;E" xpos="NNP" />
+      <extra deprel="nsubj" edeps="6:nsubj" feats="Number=Sing" head="6" lemma="A&amp;E" lextag="O-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.120" smwe="null" upos="PROPN" wmwe="null" word="A&amp;E" xpos="NNP" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="charges" />
-      <extra deprel="advcl" edeps="1:advcl:like" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="1" lemma="charge" lexcat="V" lexlemma="charge" lextag="O-V-v.possession" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.121" smwe="null" ss="v.possession" ss2="null" toknums="121" upos="VERB" wmwe="null" word="charges" xpos="VBZ" />
+      <extra deprel="advcl" edeps="1:advcl" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="1" lemma="charge" lextag="O-V-v.possession" misc="null" orig_paragraph="1" remarks="0.121" smwe="null" upos="VERB" wmwe="null" word="charges" xpos="VBZ" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="way" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="necessary" />
-      <extra deprel="advcl" edeps="8:advcl:than" feats="Degree=Pos" head="8" lemma="necessary" lextag="O-ADJ" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.125" smwe="null" upos="ADJ" wmwe="null" word="necessary" xpos="JJ" />
+      <extra deprel="advcl" edeps="8:advcl" feats="Degree=Pos" head="8" lemma="necessary" lextag="O-ADJ" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.125" smwe="null" upos="ADJ" wmwe="null" word="necessary" xpos="JJ" />
     </node>
     <node ID="0.11" type="Punctuation">
       <attributes paragraph="1" paragraph_position="11" text="!" />

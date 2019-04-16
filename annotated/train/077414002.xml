@@ -13,7 +13,7 @@
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="preferred" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="prefer" lexcat="V" lexlemma="prefer" lextag="B-V-v.cognition" local_toknums="3" misc="null" orig_paragraph="1" remarks="0.35" smwe="null" ss="v.cognition" ss2="null" toknums="35" upos="VERB" wmwe="[3, 1]" word="preferred" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="prefer" lextag="B-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.35" smwe="null" upos="VERB" wmwe="[3, 1]" word="preferred" xpos="VBD" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="the" />
@@ -37,11 +37,11 @@
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="one" />
-      <extra deprel="nmod" edeps="5:nmod:on" feats="NumType=Card" head="5" lemma="one" lextag="i_" misc="null" orig_paragraph="1" remarks="0.41" smwe="[1, 5]" upos="NUM" wmwe="null" word="one" xpos="CD" />
+      <extra deprel="nmod" edeps="5:nmod" feats="NumType=Card" head="5" lemma="one" lextag="i_" misc="null" orig_paragraph="1" remarks="0.41" smwe="[1, 5]" upos="NUM" wmwe="null" word="one" xpos="CD" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="service" />
-      <extra deprel="obj" edeps="3:obj" feats="Number=Sing" head="3" lemma="service" lexcat="N" lexlemma="service" lextag="o-N-n.ACT" local_toknums="10" misc="null" orig_paragraph="1" remarks="0.42" smwe="null" ss="n.ACT" ss2="null" toknums="42" upos="NOUN" wmwe="null" word="service" xpos="NN" />
+      <extra deprel="obj" edeps="3:obj" feats="Number=Sing" head="3" lemma="service" lextag="o-N-n.ACT" misc="null" orig_paragraph="1" remarks="0.42" smwe="null" upos="NOUN" wmwe="null" word="service" xpos="NN" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="here" />
@@ -57,7 +57,7 @@
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="experiences" />
-      <extra deprel="obl" edeps="3:obl:to" feats="Number=Plur" head="3" lemma="experience" lexcat="V.VPC.full" lexlemma="experience have" lextag="B-V.VPC.full-v.social" local_toknums="14 17" misc="null" orig_paragraph="1" remarks="0.46" smwe="[2, 1]" ss="v.social" ss2="null" toknums="46 49" upos="NOUN" wmwe="null" word="experiences" xpos="NNS" />
+      <extra deprel="obl" edeps="3:obl" feats="Number=Plur" head="3" lemma="experience" lextag="B-V-v.social" misc="null" orig_paragraph="1" remarks="0.46" smwe="[2, 1]" upos="NOUN" wmwe="null" word="experiences" xpos="NNS" />
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="I" />
@@ -81,7 +81,7 @@
     </node>
     <node ID="0.20" type="Word">
       <attributes paragraph="1" paragraph_position="20" text="offices" />
-      <extra deprel="obl" edeps="17:obl:with" feats="Number=Plur" head="17" lemma="office" lexcat="N" lexlemma="office" lextag="O-N-n.GROUP" local_toknums="20" misc="null" orig_paragraph="1" remarks="0.52" smwe="null" ss="n.GROUP" ss2="null" toknums="52" upos="NOUN" wmwe="null" word="offices" xpos="NNS" />
+      <extra deprel="obl" edeps="17:obl" feats="Number=Plur" head="17" lemma="office" lextag="O-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.52" smwe="null" upos="NOUN" wmwe="null" word="offices" xpos="NNS" />
     </node>
     <node ID="0.21" type="Word">
       <attributes paragraph="1" paragraph_position="21" text="and" />
@@ -89,7 +89,7 @@
     </node>
     <node ID="0.22" type="Word">
       <attributes paragraph="1" paragraph_position="22" text="firms" />
-      <extra deprel="conj" edeps="17:obl:with|20:conj:and" feats="Number=Plur" head="20" lemma="firm" lexcat="N" lexlemma="firm" lextag="O-N-n.GROUP" local_toknums="22" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.54" smwe="null" ss="n.GROUP" ss2="null" toknums="54" upos="NOUN" wmwe="null" word="firms" xpos="NNS" />
+      <extra deprel="conj" edeps="20:conj" feats="Number=Plur" head="20" lemma="firm" lextag="O-N-n.GROUP" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.54" smwe="null" upos="NOUN" wmwe="null" word="firms" xpos="NNS" />
     </node>
     <node ID="0.23" type="Punctuation">
       <attributes paragraph="1" paragraph_position="23" text="." />

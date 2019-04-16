@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="called" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="call" lexcat="V" lexlemma="call" lextag="O-V-v.communication" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.99" smwe="null" ss="v.communication" ss2="null" toknums="99" upos="VERB" wmwe="null" word="called" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="call" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.99" smwe="null" upos="VERB" wmwe="null" word="called" xpos="VBD" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="our" />
@@ -17,15 +17,15 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="representative" />
-      <extra deprel="obj" edeps="2:obj|6:nsubj" feats="Number=Sing" head="2" lemma="representative" lexcat="N" lexlemma="representative" lextag="O-N-n.PERSON" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.101" smwe="null" ss="n.PERSON" ss2="null" toknums="101" upos="NOUN" wmwe="null" word="representative" xpos="NN" />
+      <extra deprel="obj" edeps="2:obj" feats="Number=Sing" head="2" lemma="representative" lextag="O-N-n.PERSON" misc="null" orig_paragraph="1" remarks="0.101" smwe="null" upos="NOUN" wmwe="null" word="representative" xpos="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="who" />
-      <extra deprel="nsubj" edeps="4:ref" feats="PronType=Rel" head="6" lemma="who" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.102" smwe="null" upos="PRON" wmwe="null" word="who" xpos="WP" />
+      <extra deprel="nsubj" edeps="6:nsubj" feats="PronType=Rel" head="6" lemma="who" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.102" smwe="null" upos="PRON" wmwe="null" word="who" xpos="WP" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="assured" />
-      <extra deprel="acl:relcl" edeps="4:acl:relcl" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="4" lemma="assure" lexcat="V" lexlemma="assure" lextag="O-V-v.communication" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.103" smwe="null" ss="v.communication" ss2="null" toknums="103" upos="VERB" wmwe="null" word="assured" xpos="VBD" />
+      <extra deprel="acl:relcl" edeps="4:acl:relcl" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="4" lemma="assure" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.103" smwe="null" upos="VERB" wmwe="null" word="assured" xpos="VBD" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="me" />
@@ -33,7 +33,7 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="he" />
-      <extra deprel="nsubj" edeps="10:nsubj|14:nsubj" feats="Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs" head="10" lemma="he" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.105" smwe="null" upos="PRON" wmwe="null" word="he" xpos="PRP" />
+      <extra deprel="nsubj" edeps="10:nsubj" feats="Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs" head="10" lemma="he" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.105" smwe="null" upos="PRON" wmwe="null" word="he" xpos="PRP" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="would" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="call" />
-      <extra deprel="ccomp" edeps="6:ccomp" feats="VerbForm=Inf" head="6" lemma="call" lexcat="V" lexlemma="call" lextag="O-V-v.communication" local_toknums="10" misc="null" orig_paragraph="1" remarks="0.107" smwe="null" ss="v.communication" ss2="null" toknums="107" upos="VERB" wmwe="null" word="call" xpos="VB" />
+      <extra deprel="ccomp" edeps="6:ccomp" feats="VerbForm=Inf" head="6" lemma="call" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.107" smwe="null" upos="VERB" wmwe="null" word="call" xpos="VB" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="the" />
@@ -49,7 +49,7 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="office" />
-      <extra deprel="obj" edeps="10:obj" feats="Number=Sing" head="10" lemma="office" lexcat="N" lexlemma="office" lextag="O-N-n.GROUP" local_toknums="12" misc="null" orig_paragraph="1" remarks="0.109" smwe="null" ss="n.GROUP" ss2="null" toknums="109" upos="NOUN" wmwe="null" word="office" xpos="NN" />
+      <extra deprel="obj" edeps="10:obj" feats="Number=Sing" head="10" lemma="office" lextag="O-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.109" smwe="null" upos="NOUN" wmwe="null" word="office" xpos="NN" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="and" />
@@ -57,15 +57,15 @@
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="have" />
-      <extra deprel="conj" edeps="6:ccomp|10:conj:and" feats="VerbForm=Inf" head="10" lemma="have" lexcat="V" lexlemma="have" lextag="O-V-v.stative" local_toknums="14" misc="null" orig_paragraph="1" remarks="0.111" smwe="null" ss="v.stative" ss2="null" toknums="111" upos="VERB" wmwe="null" word="have" xpos="VB" />
+      <extra deprel="conj" edeps="10:conj" feats="VerbForm=Inf" head="10" lemma="have" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.111" smwe="null" upos="VERB" wmwe="null" word="have" xpos="VB" />
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="it" />
-      <extra deprel="obj" edeps="14:obj|16:nsubj:xsubj" feats="Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" head="14" lemma="it" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.112" smwe="null" upos="PRON" wmwe="null" word="it" xpos="PRP" />
+      <extra deprel="obj" edeps="14:obj" feats="Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs" head="14" lemma="it" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.112" smwe="null" upos="PRON" wmwe="null" word="it" xpos="PRP" />
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="taken" />
-      <extra deprel="xcomp" edeps="14:xcomp" feats="Tense=Past|VerbForm=Part" head="14" lemma="take" lexcat="V.IAV" lexlemma="take care of" lextag="B-V.IAV-v.social" local_toknums="16 17 18" misc="null" orig_paragraph="1" remarks="0.113" smwe="[1, 1]" ss="v.social" ss2="null" toknums="113 114 115" upos="VERB" wmwe="null" word="taken" xpos="VBN" />
+      <extra deprel="xcomp" edeps="14:xcomp" feats="Tense=Past|VerbForm=Part" head="14" lemma="take" lextag="B-V-v.social" misc="null" orig_paragraph="1" remarks="0.113" smwe="[1, 1]" upos="VERB" wmwe="null" word="taken" xpos="VBN" />
     </node>
     <node ID="0.17" type="Word">
       <attributes paragraph="1" paragraph_position="17" text="care" />

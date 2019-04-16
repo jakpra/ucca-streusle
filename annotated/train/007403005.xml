@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="visit" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Imp|VerbForm=Fin" head="0" lemma="visit" lexcat="V" lexlemma="visit" lextag="O-V-v.communication" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.67" smwe="null" ss="v.communication" ss2="null" toknums="67" upos="VERB" wmwe="null" word="visit" xpos="VB" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Imp|VerbForm=Fin" head="0" lemma="visit" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.67" smwe="null" upos="VERB" wmwe="null" word="visit" xpos="VB" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="my" />
@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="website" />
-      <extra deprel="obj" edeps="2:obj" feats="Number=Sing" head="2" lemma="website" lexcat="N" lexlemma="website" lextag="O-N-n.COMMUNICATION" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.69" smwe="null" ss="n.COMMUNICATION" ss2="null" toknums="69" upos="NOUN" wmwe="null" word="website" xpos="NN" />
+      <extra deprel="obj" edeps="2:obj" feats="Number=Sing" head="2" lemma="website" lextag="O-N-n.COMMUNICATION" misc="null" orig_paragraph="1" remarks="0.69" smwe="null" upos="NOUN" wmwe="null" word="website" xpos="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="to" />
@@ -25,7 +25,7 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="learn" />
-      <extra deprel="advcl" edeps="2:advcl:to" feats="VerbForm=Inf" head="2" lemma="learn" lexcat="V" lexlemma="learn" lextag="O-V-v.cognition" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.71" smwe="null" ss="v.cognition" ss2="null" toknums="71" upos="VERB" wmwe="null" word="learn" xpos="VB" />
+      <extra deprel="advcl" edeps="2:advcl" feats="VerbForm=Inf" head="2" lemma="learn" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.71" smwe="null" upos="VERB" wmwe="null" word="learn" xpos="VB" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="more" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="practice" />
-      <extra deprel="obl" edeps="7:obl:about" feats="Number=Sing" head="7" lemma="practice" lexcat="N" lexlemma="practice" lextag="O-N-n.GROUP" local_toknums="10" misc="null" orig_paragraph="1" remarks="0.75" smwe="null" ss="n.GROUP" ss2="null" toknums="75" upos="NOUN" wmwe="null" word="practice" xpos="NN" />
+      <extra deprel="obl" edeps="7:obl" feats="Number=Sing" head="7" lemma="practice" lextag="O-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.75" smwe="null" upos="NOUN" wmwe="null" word="practice" xpos="NN" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="at" />
@@ -49,7 +49,7 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="www.veraakulov.com" />
-      <extra deprel="obl" edeps="2:obl:at" feats="null" head="2" lemma="www.veraakulov.com" lexcat="N" lexlemma="www.veraakulov.com" lextag="O-N-n.COMMUNICATION" local_toknums="12" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.77" smwe="null" ss="n.COMMUNICATION" ss2="null" toknums="77" upos="X" wmwe="null" word="www.veraakulov.com" xpos="ADD" />
+      <extra deprel="obl" edeps="2:obl" feats="null" head="2" lemma="www.veraakulov.com" lextag="O-N-n.COMMUNICATION" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.77" smwe="null" upos="X" wmwe="null" word="www.veraakulov.com" xpos="ADD" />
     </node>
     <node ID="0.13" type="Punctuation">
       <attributes paragraph="1" paragraph_position="13" text="." />
@@ -128,7 +128,7 @@
     </node>
     <node ID="1.5" type="PNCT">
       <attributes />
-      <extra remarks="1.155" />
+      <extra remarks="1.156" />
       <edge toID="0.13" type="Terminal">
         <attributes />
         <category tag="Terminal" />

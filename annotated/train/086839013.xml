@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="anyone" />
-      <extra deprel="conj" edeps="1:conj:nor|12:nsubj" feats="Number=Sing" head="1" lemma="anyone" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.253" smwe="null" upos="PRON" wmwe="null" word="anyone" xpos="NN" />
+      <extra deprel="conj" edeps="1:conj" feats="Number=Sing" head="1" lemma="anyone" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.253" smwe="null" upos="PRON" wmwe="null" word="anyone" xpos="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="else" />
@@ -33,7 +33,7 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="family" />
-      <extra deprel="nmod" edeps="4:nmod:in" feats="Number=Sing" head="4" lemma="family" lexcat="N" lexlemma="family" lextag="O-N-n.GROUP" local_toknums="8" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.257" smwe="null" ss="n.GROUP" ss2="null" toknums="257" upos="NOUN" wmwe="null" word="family" xpos="NN" />
+      <extra deprel="nmod" edeps="4:nmod" feats="Number=Sing" head="4" lemma="family" lextag="O-N-n.GROUP" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.257" smwe="null" upos="NOUN" wmwe="null" word="family" xpos="NN" />
     </node>
     <node ID="0.9" type="Punctuation">
       <attributes paragraph="1" paragraph_position="9" text="," />
@@ -49,7 +49,7 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="go" />
-      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="go" lexcat="V" lexlemma="go" lextag="O-V-v.social" local_toknums="12" misc="null" orig_paragraph="1" remarks="0.261" smwe="null" ss="v.social" ss2="null" toknums="261" upos="VERB" wmwe="null" word="go" xpos="VB" />
+      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="go" lextag="O-V-v.social" misc="null" orig_paragraph="1" remarks="0.261" smwe="null" upos="VERB" wmwe="null" word="go" xpos="VB" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="to" />
@@ -57,7 +57,7 @@
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="Sun" />
-      <extra deprel="compound" edeps="15:compound" feats="Number=Sing" head="15" lemma="Sun" lexcat="N" lexlemma="Sun Devil Auto" lextag="B-N-n.GROUP" local_toknums="14 15 16" misc="null" orig_paragraph="1" remarks="0.263" smwe="[1, 1]" ss="n.GROUP" ss2="null" toknums="263 264 265" upos="PROPN" wmwe="null" word="Sun" xpos="NNP" />
+      <extra deprel="compound" edeps="15:compound" feats="Number=Sing" head="15" lemma="Sun" lextag="B-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.263" smwe="[1, 1]" upos="PROPN" wmwe="null" word="Sun" xpos="NNP" />
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="Devil" />
@@ -65,7 +65,7 @@
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="Auto" />
-      <extra deprel="obl" edeps="12:obl:to" feats="Number=Sing" head="12" lemma="Auto" lextag="I_" misc="null" orig_paragraph="1" remarks="0.265" smwe="[1, 3]" upos="PROPN" wmwe="null" word="Auto" xpos="NNP" />
+      <extra deprel="obl" edeps="12:obl" feats="Number=Sing" head="12" lemma="Auto" lextag="I_" misc="null" orig_paragraph="1" remarks="0.265" smwe="[1, 3]" upos="PROPN" wmwe="null" word="Auto" xpos="NNP" />
     </node>
     <node ID="0.17" type="Word">
       <attributes paragraph="1" paragraph_position="17" text="again" />
@@ -92,7 +92,7 @@
     </node>
     <node ID="1.2" type="FN">
       <attributes />
-      <extra remarks="1.302" tree_id="44" />
+      <extra remarks="1.300" tree_id="44" />
       <edge toID="1.4" type="D">
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
@@ -128,7 +128,7 @@
     </node>
     <node ID="1.3" type="PNCT">
       <attributes />
-      <extra remarks="1.370" />
+      <extra remarks="1.368" />
       <edge toID="0.18" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -136,11 +136,11 @@
     </node>
     <node ID="1.4" type="FN">
       <attributes implicit="True" />
-      <extra remarks="1.303" tree_id="44-1" />
+      <extra remarks="1.301" tree_id="44-1" />
     </node>
     <node ID="1.5" type="FN">
       <attributes />
-      <extra remarks="1.304" tree_id="44-2" />
+      <extra remarks="1.302" tree_id="44-2" />
       <edge toID="1.14" type="C">
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
@@ -160,7 +160,7 @@
     </node>
     <node ID="1.6" type="FN">
       <attributes />
-      <extra remarks="1.314" tree_id="44-3" />
+      <extra remarks="1.312" tree_id="44-3" />
       <edge toID="0.10" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -168,7 +168,7 @@
     </node>
     <node ID="1.7" type="FN">
       <attributes />
-      <extra remarks="1.315" tree_id="44-4" />
+      <extra remarks="1.313" tree_id="44-4" />
       <edge toID="0.11" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -176,7 +176,7 @@
     </node>
     <node ID="1.8" type="FN">
       <attributes />
-      <extra remarks="1.316" tree_id="44-5" />
+      <extra remarks="1.314" tree_id="44-5" />
       <edge toID="0.12" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -184,7 +184,7 @@
     </node>
     <node ID="1.9" type="FN">
       <attributes />
-      <extra remarks="1.317" tree_id="44-6" />
+      <extra remarks="1.315" tree_id="44-6" />
       <edge toID="1.12" type="R">
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
@@ -196,7 +196,7 @@
     </node>
     <node ID="1.10" type="FN">
       <attributes />
-      <extra remarks="1.320" tree_id="44-7" />
+      <extra remarks="1.318" tree_id="44-7" />
       <edge toID="0.17" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -204,7 +204,7 @@
     </node>
     <node ID="1.11" type="PNCT">
       <attributes />
-      <extra remarks="1.369" />
+      <extra remarks="1.367" />
       <edge toID="0.9" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -212,7 +212,7 @@
     </node>
     <node ID="1.12" type="FN">
       <attributes />
-      <extra remarks="1.318" tree_id="44-6-1" />
+      <extra remarks="1.316" tree_id="44-6-1" />
       <edge toID="0.13" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -220,7 +220,7 @@
     </node>
     <node ID="1.13" type="FN">
       <attributes />
-      <extra remarks="1.319" tree_id="44-6-2" />
+      <extra remarks="1.317" tree_id="44-6-2" />
       <edge toID="0.14" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -236,7 +236,7 @@
     </node>
     <node ID="1.14" type="FN">
       <attributes />
-      <extra remarks="1.305" tree_id="44-2-1" />
+      <extra remarks="1.303" tree_id="44-2-1" />
       <edge toID="0.1" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -244,7 +244,7 @@
     </node>
     <node ID="1.15" type="FN">
       <attributes />
-      <extra remarks="1.306" tree_id="44-2-2" />
+      <extra remarks="1.304" tree_id="44-2-2" />
       <edge toID="0.3" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -252,7 +252,7 @@
     </node>
     <node ID="1.16" type="FN">
       <attributes />
-      <extra remarks="1.307" tree_id="44-2-3" />
+      <extra remarks="1.305" tree_id="44-2-3" />
       <edge toID="1.18" type="C">
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
@@ -268,7 +268,7 @@
     </node>
     <node ID="1.17" type="PNCT">
       <attributes />
-      <extra remarks="1.368" />
+      <extra remarks="1.366" />
       <edge toID="0.2" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -276,7 +276,7 @@
     </node>
     <node ID="1.18" type="FN">
       <attributes />
-      <extra remarks="1.308" tree_id="44-2-3-1" />
+      <extra remarks="1.306" tree_id="44-2-3-1" />
       <edge toID="0.4" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -284,7 +284,7 @@
     </node>
     <node ID="1.19" type="FN">
       <attributes />
-      <extra remarks="1.309" tree_id="44-2-3-2" />
+      <extra remarks="1.307" tree_id="44-2-3-2" />
       <edge toID="0.5" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -292,7 +292,7 @@
     </node>
     <node ID="1.20" type="FN">
       <attributes />
-      <extra remarks="1.310" tree_id="44-2-3-3" />
+      <extra remarks="1.308" tree_id="44-2-3-3" />
       <edge toID="1.21" type="R">
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
@@ -309,7 +309,7 @@
     </node>
     <node ID="1.21" type="FN">
       <attributes />
-      <extra remarks="1.311" tree_id="44-2-3-3-1" />
+      <extra remarks="1.309" tree_id="44-2-3-3-1" />
       <edge toID="0.6" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -317,7 +317,7 @@
     </node>
     <node ID="1.22" type="FN">
       <attributes />
-      <extra remarks="1.312" tree_id="44-2-3-3-2" />
+      <extra remarks="1.310" tree_id="44-2-3-3-2" />
       <edge toID="0.7" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -325,7 +325,7 @@
     </node>
     <node ID="1.23" type="FN">
       <attributes />
-      <extra remarks="1.313" tree_id="44-2-3-3-3" />
+      <extra remarks="1.311" tree_id="44-2-3-3-3" />
       <edge toID="0.8" type="Terminal">
         <attributes />
         <category tag="Terminal" />

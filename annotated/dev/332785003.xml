@@ -5,11 +5,11 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="I" />
-      <extra deprel="nsubj" edeps="3:nsubj|5:nsubj:xsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="3" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.22" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
+      <extra deprel="nsubj" edeps="3:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="3" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.22" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="was" />
-      <extra deprel="cop" edeps="3:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="3" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.23" smwe="null" ss="v.stative" ss2="null" toknums="23" upos="AUX" wmwe="null" word="was" xpos="VBD" />
+      <extra deprel="cop" edeps="3:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="3" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.23" smwe="null" upos="AUX" wmwe="null" word="was" xpos="VBD" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="ready" />
@@ -21,7 +21,7 @@
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="buy" />
-      <extra deprel="xcomp" edeps="3:xcomp" feats="VerbForm=Inf" head="3" lemma="buy" lexcat="V" lexlemma="buy" lextag="O-V-v.possession" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.26" smwe="null" ss="v.possession" ss2="null" toknums="26" upos="VERB" wmwe="null" word="buy" xpos="VB" />
+      <extra deprel="xcomp" edeps="3:xcomp" feats="VerbForm=Inf" head="3" lemma="buy" lextag="O-V-v.possession" misc="null" orig_paragraph="1" remarks="0.26" smwe="null" upos="VERB" wmwe="null" word="buy" xpos="VB" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="a" />
@@ -33,7 +33,7 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="jacket" />
-      <extra deprel="obj" edeps="5:obj" feats="Number=Sing" head="5" lemma="jacket" lexcat="N" lexlemma="jacket" lextag="O-N-n.ARTIFACT" local_toknums="8" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.29" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="29" upos="NOUN" wmwe="null" word="jacket" xpos="NN" />
+      <extra deprel="obj" edeps="5:obj" feats="Number=Sing" head="5" lemma="jacket" lextag="O-N-n.ARTIFACT" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.29" smwe="null" upos="NOUN" wmwe="null" word="jacket" xpos="NN" />
     </node>
     <node ID="0.9" type="Punctuation">
       <attributes paragraph="1" paragraph_position="9" text="," />
@@ -49,7 +49,7 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="sweater" />
-      <extra deprel="conj" edeps="5:obj|8:conj:and" feats="Number=Sing" head="8" lemma="sweater" lexcat="N" lexlemma="sweater" lextag="O-N-n.ARTIFACT" local_toknums="12" misc="null" orig_paragraph="1" remarks="0.33" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="33" upos="NOUN" wmwe="null" word="sweater" xpos="NN" />
+      <extra deprel="conj" edeps="8:conj" feats="Number=Sing" head="8" lemma="sweater" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.33" smwe="null" upos="NOUN" wmwe="null" word="sweater" xpos="NN" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="and" />
@@ -61,7 +61,7 @@
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="couple" />
-      <extra deprel="conj" edeps="5:obj|8:conj:and" feats="Number=Sing" head="8" lemma="couple" lextag="I_" misc="null" orig_paragraph="1" remarks="0.36" smwe="[1, 2]" upos="NOUN" wmwe="null" word="couple" xpos="NN" />
+      <extra deprel="conj" edeps="8:conj" feats="Number=Sing" head="8" lemma="couple" lextag="I_" misc="null" orig_paragraph="1" remarks="0.36" smwe="[1, 2]" upos="NOUN" wmwe="null" word="couple" xpos="NN" />
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="of" />
@@ -69,7 +69,7 @@
     </node>
     <node ID="0.17" type="Word">
       <attributes paragraph="1" paragraph_position="17" text="your" />
-      <extra config="possessive" deprel="nmod:poss" edeps="19:nmod:poss" feats="Person=2|Poss=Yes|PronType=Prs" gov="40" govlemma="belt" head="19" lemma="you" lexcat="PRON.POSS" lexlemma="you" lextag="O-PRON.POSS-p.Originator|p.Gestalt" local_gov="19" local_toknums="17" misc="null" obj="null" objlemma="null" orig_paragraph="1" remarks="0.38" smwe="null" ss="p.Originator" ss2="p.Gestalt" toknums="38" upos="PRON" wmwe="null" word="your" xpos="PRP$" />
+      <extra config="possessive" deprel="nmod:poss" edeps="19:nmod:poss" feats="Person=2|Poss=Yes|PronType=Prs" gov="40" govlemma="belt" head="19" lemma="you" lexcat="PRON.POSS" lexlemma="you" lextag="O-PRON.POSS-p.Originator|p.Possessor" local_gov="19" local_toknums="17" misc="null" obj="null" objlemma="null" orig_paragraph="1" remarks="0.38" smwe="null" ss="p.Originator" ss2="p.Possessor" toknums="38" upos="PRON" wmwe="null" word="your" xpos="PRP$" />
     </node>
     <node ID="0.18" type="Word">
       <attributes paragraph="1" paragraph_position="18" text="overpriced" />
@@ -77,7 +77,7 @@
     </node>
     <node ID="0.19" type="Word">
       <attributes paragraph="1" paragraph_position="19" text="belts" />
-      <extra deprel="nmod" edeps="15:nmod:of" feats="Number=Plur" head="15" lemma="belt" lexcat="N" lexlemma="belt" lextag="O-N-n.ARTIFACT" local_toknums="19" misc="null" orig_paragraph="1" remarks="0.40" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="40" upos="NOUN" wmwe="null" word="belts" xpos="NNS" />
+      <extra deprel="nmod" edeps="15:nmod" feats="Number=Plur" head="15" lemma="belt" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.40" smwe="null" upos="NOUN" wmwe="null" word="belts" xpos="NNS" />
     </node>
     <node ID="0.20" type="Word">
       <attributes paragraph="1" paragraph_position="20" text="and" />
@@ -89,7 +89,7 @@
     </node>
     <node ID="0.22" type="Word">
       <attributes paragraph="1" paragraph_position="22" text="walked" />
-      <extra deprel="conj" edeps="3:conj:and" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="3" lemma="walk" lexcat="V.VPC.semi" lexlemma="walk out" lextag="B-V.VPC.semi-v.motion" local_toknums="22 23" misc="null" orig_paragraph="1" remarks="0.43" smwe="[2, 1]" ss="v.motion" ss2="null" toknums="43 44" upos="VERB" wmwe="null" word="walked" xpos="VBD" />
+      <extra deprel="conj" edeps="3:conj" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="3" lemma="walk" lextag="B-V-v.motion" misc="null" orig_paragraph="1" remarks="0.43" smwe="[2, 1]" upos="VERB" wmwe="null" word="walked" xpos="VBD" />
     </node>
     <node ID="0.23" type="Word">
       <attributes paragraph="1" paragraph_position="23" text="out" />
@@ -113,7 +113,7 @@
     </node>
     <node ID="0.28" type="Word">
       <attributes paragraph="1" paragraph_position="28" text="lurking" />
-      <extra deprel="obl" edeps="22:obl:because_of" feats="Number=Sing" head="22" lemma="lurking" lexcat="N" lexlemma="lurking" lextag="O-N-n.ACT" local_toknums="28" misc="null" orig_paragraph="1" remarks="0.49" smwe="null" ss="n.ACT" ss2="null" toknums="49" upos="NOUN" wmwe="null" word="lurking" xpos="NN" />
+      <extra deprel="obl" edeps="22:obl" feats="Number=Sing" head="22" lemma="lurking" lextag="O-N-n.ACT" misc="null" orig_paragraph="1" remarks="0.49" smwe="null" upos="NOUN" wmwe="null" word="lurking" xpos="NN" />
     </node>
   </layer>
   <layer layerID="1">

@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="customer" />
-      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="customer" lexcat="N" lexlemma="customer" lextag="O-N-n.PERSON" local_toknums="2" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.2" smwe="null" ss="n.PERSON" ss2="null" toknums="2" upos="NOUN" wmwe="null" word="customer" xpos="NN" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="customer" lextag="O-N-n.PERSON" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.2" smwe="null" upos="NOUN" wmwe="null" word="customer" xpos="NN" />
     </node>
     <node ID="0.3" type="Punctuation">
       <attributes paragraph="1" paragraph_position="3" text="," />
@@ -17,11 +17,11 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="I" />
-      <extra deprel="nsubj" edeps="5:nsubj|10:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="5" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.4" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
+      <extra deprel="nsubj" edeps="5:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="5" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.4" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="went" />
-      <extra deprel="parataxis" edeps="2:parataxis" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="2" lemma="go" lexcat="V" lexlemma="go" lextag="O-V-v.social" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.5" smwe="null" ss="v.social" ss2="null" toknums="5" upos="VERB" wmwe="null" word="went" xpos="VBD" />
+      <extra deprel="parataxis" edeps="2:parataxis" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="2" lemma="go" lextag="O-V-v.social" misc="null" orig_paragraph="1" remarks="0.5" smwe="null" upos="VERB" wmwe="null" word="went" xpos="VBD" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="through" />
@@ -29,11 +29,11 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="Kitchen" />
-      <extra deprel="compound" edeps="8:compound" feats="Number=Sing" head="8" lemma="Kitchen" lexcat="N" lexlemma="Kitchen Aid" lextag="B-N-n.GROUP" local_toknums="7 8" misc="null" orig_paragraph="1" remarks="0.7" smwe="[1, 1]" ss="n.GROUP" ss2="null" toknums="7 8" upos="PROPN" wmwe="null" word="Kitchen" xpos="NNP" />
+      <extra deprel="compound" edeps="8:compound" feats="Number=Sing" head="8" lemma="Kitchen" lextag="B-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.7" smwe="[1, 1]" upos="PROPN" wmwe="null" word="Kitchen" xpos="NNP" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="Aid" />
-      <extra deprel="obl" edeps="5:obl:through" feats="Number=Sing" head="5" lemma="Aid" lextag="I_" misc="null" orig_paragraph="1" remarks="0.8" smwe="[1, 2]" upos="PROPN" wmwe="null" word="Aid" xpos="NNP" />
+      <extra deprel="obl" edeps="5:obl" feats="Number=Sing" head="5" lemma="Aid" lextag="I_" misc="null" orig_paragraph="1" remarks="0.8" smwe="[1, 2]" upos="PROPN" wmwe="null" word="Aid" xpos="NNP" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="and" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="used" />
-      <extra deprel="conj" edeps="5:conj:and" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="5" lemma="use" lexcat="V" lexlemma="use" lextag="O-V-v.social" local_toknums="10" misc="null" orig_paragraph="1" remarks="0.10" smwe="null" ss="v.social" ss2="null" toknums="10" upos="VERB" wmwe="null" word="used" xpos="VBD" />
+      <extra deprel="conj" edeps="5:conj" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="5" lemma="use" lextag="O-V-v.social" misc="null" orig_paragraph="1" remarks="0.10" smwe="null" upos="VERB" wmwe="null" word="used" xpos="VBD" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="one" />
@@ -53,15 +53,15 @@
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="their" />
-      <extra config="possessive" deprel="nmod:poss" edeps="15:nmod:poss" feats="Number=Plur|Person=3|Poss=Yes|PronType=Prs" gov="15" govlemma="vendor" head="15" lemma="they" lexcat="PRON.POSS" lexlemma="they" lextag="O-PRON.POSS-p.Originator|p.Gestalt" local_gov="15" local_toknums="13" misc="null" obj="null" objlemma="null" orig_paragraph="1" remarks="0.13" smwe="null" ss="p.Originator" ss2="p.Gestalt" toknums="13" upos="PRON" wmwe="null" word="their" xpos="PRP$" />
+      <extra config="possessive" deprel="nmod:poss" edeps="15:nmod:poss" feats="Number=Plur|Person=3|Poss=Yes|PronType=Prs" gov="15" govlemma="vendor" head="15" lemma="they" lexcat="PRON.POSS" lexlemma="they" lextag="O-PRON.POSS-p.Originator|p.Possessor" local_gov="15" local_toknums="13" misc="null" obj="null" objlemma="null" orig_paragraph="1" remarks="0.13" smwe="null" ss="p.Originator" ss2="p.Possessor" toknums="13" upos="PRON" wmwe="null" word="their" xpos="PRP$" />
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="recommended" />
-      <extra deprel="amod" edeps="15:amod" feats="Tense=Past|VerbForm=Part" head="15" lemma="recommend" lexcat="V" lexlemma="recommend" lextag="O-V-v.communication" local_toknums="14" misc="null" orig_paragraph="1" remarks="0.14" smwe="null" ss="v.communication" ss2="null" toknums="14" upos="VERB" wmwe="null" word="recommended" xpos="VBN" />
+      <extra deprel="amod" edeps="15:amod" feats="Tense=Past|VerbForm=Part" head="15" lemma="recommend" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.14" smwe="null" upos="VERB" wmwe="null" word="recommended" xpos="VBN" />
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="vendors" />
-      <extra deprel="nmod" edeps="11:nmod:of" feats="Number=Plur" head="11" lemma="vendor" lexcat="N" lexlemma="vendor" lextag="O-N-n.PERSON" local_toknums="15" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.15" smwe="null" ss="n.PERSON" ss2="null" toknums="15" upos="NOUN" wmwe="null" word="vendors" xpos="NNS" />
+      <extra deprel="nmod" edeps="11:nmod" feats="Number=Plur" head="11" lemma="vendor" lextag="O-N-n.PERSON" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.15" smwe="null" upos="NOUN" wmwe="null" word="vendors" xpos="NNS" />
     </node>
     <node ID="0.16" type="Punctuation">
       <attributes paragraph="1" paragraph_position="16" text="." />

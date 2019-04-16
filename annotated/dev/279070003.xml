@@ -5,11 +5,11 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="It" />
-      <extra deprel="nsubj" edeps="6:nsubj|14:nsubj" feats="Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" head="6" lemma="it" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.30" smwe="null" upos="PRON" wmwe="null" word="It" xpos="PRP" />
+      <extra deprel="nsubj" edeps="6:nsubj" feats="Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" head="6" lemma="it" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.30" smwe="null" upos="PRON" wmwe="null" word="It" xpos="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="is" />
-      <extra deprel="cop" edeps="6:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="6" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.31" smwe="null" ss="v.stative" ss2="null" toknums="31" upos="AUX" wmwe="null" word="is" xpos="VBZ" />
+      <extra deprel="cop" edeps="6:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="6" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.31" smwe="null" upos="AUX" wmwe="null" word="is" xpos="VBZ" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="a" />
@@ -17,15 +17,15 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="cloth" />
-      <extra deprel="compound" edeps="6:compound" feats="Number=Sing" head="6" lemma="cloth" lexcat="N" lexlemma="cloth" lextag="O-N-n.ARTIFACT" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.33" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="33" upos="NOUN" wmwe="null" word="cloth" xpos="NN" />
+      <extra deprel="compound" edeps="6:compound" feats="Number=Sing" head="6" lemma="cloth" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.33" smwe="null" upos="NOUN" wmwe="null" word="cloth" xpos="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="napkin" />
-      <extra deprel="compound" edeps="6:compound" feats="Number=Sing" head="6" lemma="napkin" lexcat="N" lexlemma="napkin" lextag="O-N-n.ARTIFACT" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.34" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="34" upos="NOUN" wmwe="null" word="napkin" xpos="NN" />
+      <extra deprel="compound" edeps="6:compound" feats="Number=Sing" head="6" lemma="napkin" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.34" smwe="null" upos="NOUN" wmwe="null" word="napkin" xpos="NN" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="kind" />
-      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="kind" lexcat="N" lexlemma="kind" lextag="O-N-n.COGNITION" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.35" smwe="null" ss="n.COGNITION" ss2="null" toknums="35" upos="NOUN" wmwe="null" word="kind" xpos="NN" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="kind" lextag="O-N-n.COGNITION" misc="null" orig_paragraph="1" remarks="0.35" smwe="null" upos="NOUN" wmwe="null" word="kind" xpos="NN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="of" />
@@ -33,7 +33,7 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="place" />
-      <extra deprel="nmod" edeps="6:nmod:of" feats="Number=Sing" head="6" lemma="place" lexcat="N" lexlemma="place" lextag="O-N-n.GROUP" local_toknums="8" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.37" smwe="null" ss="n.GROUP" ss2="null" toknums="37" upos="NOUN" wmwe="null" word="place" xpos="NN" />
+      <extra deprel="nmod" edeps="6:nmod" feats="Number=Sing" head="6" lemma="place" lextag="O-N-n.GROUP" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.37" smwe="null" upos="NOUN" wmwe="null" word="place" xpos="NN" />
     </node>
     <node ID="0.9" type="Punctuation">
       <attributes paragraph="1" paragraph_position="9" text="," />
@@ -49,7 +49,7 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="thought" />
-      <extra deprel="discourse" edeps="6:discourse" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="6" lemma="think" lexcat="V" lexlemma="think" lextag="O-V-v.cognition" local_toknums="12" misc="null" orig_paragraph="1" remarks="0.41" smwe="null" ss="v.cognition" ss2="null" toknums="41" upos="VERB" wmwe="null" word="thought" xpos="VBD" />
+      <extra deprel="discourse" edeps="6:discourse" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="6" lemma="think" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.41" smwe="null" upos="VERB" wmwe="null" word="thought" xpos="VBD" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="well" />
@@ -57,7 +57,7 @@
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="worth" />
-      <extra deprel="conj" edeps="6:conj:but" feats="Degree=Pos" head="6" lemma="worth" lextag="I~-!@" misc="null" orig_paragraph="1" remarks="0.43" smwe="[1, 1]" upos="ADJ" wmwe="[2, 2]" word="worth" xpos="JJ" />
+      <extra deprel="conj" edeps="6:conj" feats="Degree=Pos" head="6" lemma="worth" lextag="I~-!@" misc="null" orig_paragraph="1" remarks="0.43" smwe="[1, 1]" upos="ADJ" wmwe="[2, 2]" word="worth" xpos="JJ" />
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="it" />

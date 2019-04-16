@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="have" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="have" lexcat="V" lexlemma="have" lextag="O-V-v.stative" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.13" smwe="null" ss="v.stative" ss2="null" toknums="13" upos="VERB" wmwe="null" word="have" xpos="VBP" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="have" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.13" smwe="null" upos="VERB" wmwe="null" word="have" xpos="VBP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="3" />
@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="children" />
-      <extra deprel="obj" edeps="2:obj" feats="Number=Plur" head="2" lemma="child" lexcat="N" lexlemma="child" lextag="O-N-n.PERSON" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.15" smwe="null" ss="n.PERSON" ss2="null" toknums="15" upos="NOUN" wmwe="null" word="children" xpos="NNS" />
+      <extra deprel="obj" edeps="2:obj" feats="Number=Plur" head="2" lemma="child" lextag="O-N-n.PERSON" misc="null" orig_paragraph="1" remarks="0.15" smwe="null" upos="NOUN" wmwe="null" word="children" xpos="NNS" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="there" />
@@ -33,7 +33,7 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="are" />
-      <extra deprel="cop" edeps="10:cop" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="10" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="8" misc="null" orig_paragraph="1" remarks="0.19" smwe="null" ss="v.stative" ss2="null" toknums="19" upos="AUX" wmwe="null" word="are" xpos="VBP" />
+      <extra deprel="cop" edeps="10:cop" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="10" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.19" smwe="null" upos="AUX" wmwe="null" word="are" xpos="VBP" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="the" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="Best" />
-      <extra deprel="conj" edeps="2:conj:and" feats="Degree=Sup" head="2" lemma="best" lextag="O-ADJ" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.21" smwe="null" upos="ADJ" wmwe="null" word="Best" xpos="JJS" />
+      <extra deprel="conj" edeps="2:conj" feats="Degree=Sup" head="2" lemma="best" lextag="O-ADJ" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.21" smwe="null" upos="ADJ" wmwe="null" word="Best" xpos="JJS" />
     </node>
     <node ID="0.11" type="Punctuation">
       <attributes paragraph="1" paragraph_position="11" text="." />
@@ -211,6 +211,15 @@
       </edge>
     </node>
     <node ID="1.16" type="FN">
+      <attributes />
+      <extra remarks="1.19" tree_id="2-3-2" />
+      <edge toID="1.17" type="S">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+    </node>
+    <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.20" tree_id="2-3-2-1" />
       <edge toID="0.4" type="Terminal">

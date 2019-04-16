@@ -1,5 +1,5 @@
 <root annotationID="0" passageID="185045003">
-  <attributes annotationID="641" passageID="301" remarks="26192" userID="1" />
+  <attributes annotationID="4369" passageID="301" remarks="26192" userID="4" />
   <layer layerID="0">
     <attributes />
     <extra doc="[[]]" />
@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="spraying" />
-      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="spraying" lexcat="N" lexlemma="spraying" lextag="O-N-n.ACT" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.35" smwe="null" ss="n.ACT" ss2="null" toknums="35" upos="NOUN" wmwe="null" word="spraying" xpos="NN" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="spraying" lextag="O-N-n.ACT" misc="null" orig_paragraph="1" remarks="0.35" smwe="null" upos="NOUN" wmwe="null" word="spraying" xpos="NN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="of" />
@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="pesticides" />
-      <extra deprel="nmod" edeps="2:nmod:of" feats="Number=Plur" head="2" lemma="pesticide" lexcat="N" lexlemma="pesticide" lextag="O-N-n.SUBSTANCE" local_toknums="4" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.37" smwe="null" ss="n.SUBSTANCE" ss2="null" toknums="37" upos="NOUN" wmwe="null" word="pesticides" xpos="NNS" />
+      <extra deprel="nmod" edeps="2:nmod" feats="Number=Plur" head="2" lemma="pesticide" lextag="O-N-n.SUBSTANCE" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.37" smwe="null" upos="NOUN" wmwe="null" word="pesticides" xpos="NNS" />
     </node>
     <node ID="0.5" type="Punctuation">
       <attributes paragraph="1" paragraph_position="5" text="!" />
@@ -56,7 +56,7 @@
     </node>
     <node ID="1.3" type="PNCT">
       <attributes />
-      <extra remarks="1.93" />
+      <extra remarks="1.91" />
       <edge toID="0.5" type="Terminal">
         <attributes />
         <category tag="Terminal" />

@@ -1,11 +1,11 @@
 <root annotationID="0" passageID="055207000">
-  <attributes annotationID="1527" passageID="735" remarks="26649" userID="1" />
+  <attributes annotationID="3514" passageID="735" remarks="26649" userID="4" />
   <layer layerID="0">
     <attributes />
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Spay" />
-      <extra deprel="compound" edeps="4:compound" feats="Number=Sing" head="4" lemma="spay" lexcat="N" lexlemma="spay and neuter" lextag="B-N-n.ACT" local_toknums="1 2 3" misc="null" orig_paragraph="1" remarks="0.1" smwe="[1, 1]" ss="n.ACT" ss2="null" toknums="1 2 3" upos="NOUN" wmwe="null" word="Spay" xpos="NN" />
+      <extra deprel="compound" edeps="4:compound" feats="Number=Sing" head="4" lemma="spay" lextag="B-N-n.ACT" misc="null" orig_paragraph="1" remarks="0.1" smwe="[1, 1]" upos="NOUN" wmwe="null" word="Spay" xpos="NN" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="and" />
@@ -13,11 +13,11 @@
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="neuter" />
-      <extra deprel="conj" edeps="1:conj:and|4:compound" feats="Number=Sing" head="1" lemma="neuter" lextag="I_" misc="null" orig_paragraph="1" remarks="0.3" smwe="[1, 3]" upos="NOUN" wmwe="null" word="neuter" xpos="NN" />
+      <extra deprel="conj" edeps="1:conj" feats="Number=Sing" head="1" lemma="neuter" lextag="I_" misc="null" orig_paragraph="1" remarks="0.3" smwe="[1, 3]" upos="NOUN" wmwe="null" word="neuter" xpos="NN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="service" />
-      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="service" lexcat="N" lexlemma="service" lextag="O-N-n.ACT" local_toknums="4" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.4" smwe="null" ss="n.ACT" ss2="null" toknums="4" upos="NOUN" wmwe="null" word="service" xpos="NN" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="service" lextag="O-N-n.ACT" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.4" smwe="null" upos="NOUN" wmwe="null" word="service" xpos="NN" />
     </node>
     <node ID="0.5" type="Punctuation">
       <attributes paragraph="1" paragraph_position="5" text="." />
@@ -52,7 +52,7 @@
     </node>
     <node ID="1.3" type="PNCT">
       <attributes />
-      <extra remarks="1.217" />
+      <extra remarks="1.214" />
       <edge toID="0.5" type="Terminal">
         <attributes />
         <category tag="Terminal" />

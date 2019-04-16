@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="are" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.2" smwe="null" ss="v.stative" ss2="null" toknums="2" upos="VERB" wmwe="null" word="are" xpos="VBP" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.2" smwe="null" upos="VERB" wmwe="null" word="are" xpos="VBP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="so" />
@@ -29,7 +29,7 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="places" />
-      <extra deprel="nsubj" edeps="2:nsubj" feats="Number=Plur" head="2" lemma="place" lexcat="N" lexlemma="place" lextag="O-N-n.GROUP" local_toknums="7" misc="null" orig_paragraph="1" remarks="0.7" smwe="null" ss="n.GROUP" ss2="null" toknums="7" upos="NOUN" wmwe="null" word="places" xpos="NNS" />
+      <extra deprel="nsubj" edeps="2:nsubj" feats="Number=Plur" head="2" lemma="place" lextag="O-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.7" smwe="null" upos="NOUN" wmwe="null" word="places" xpos="NNS" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="to" />
@@ -37,7 +37,7 @@
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="dine" />
-      <extra deprel="acl" edeps="7:acl:to" feats="VerbForm=Inf" head="7" lemma="dine" lexcat="V" lexlemma="dine" lextag="O-V-v.social" local_toknums="9" misc="null" orig_paragraph="1" remarks="0.9" smwe="null" ss="v.social" ss2="null" toknums="9" upos="VERB" wmwe="null" word="dine" xpos="VB" />
+      <extra deprel="acl" edeps="7:acl" feats="VerbForm=Inf" head="7" lemma="dine" lextag="O-V-v.social" misc="null" orig_paragraph="1" remarks="0.9" smwe="null" upos="VERB" wmwe="null" word="dine" xpos="VB" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="in" />
@@ -45,7 +45,7 @@
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="houston" />
-      <extra deprel="obl" edeps="2:obl:in" feats="Number=Sing" head="2" lemma="houston" lexcat="N" lexlemma="houston" lextag="O-N-n.LOCATION" local_toknums="11" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.11" smwe="null" ss="n.LOCATION" ss2="null" toknums="11" upos="PROPN" wmwe="null" word="houston" xpos="NNP" />
+      <extra deprel="obl" edeps="2:obl" feats="Number=Sing" head="2" lemma="houston" lextag="O-N-n.LOCATION" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.11" smwe="null" upos="PROPN" wmwe="null" word="houston" xpos="NNP" />
     </node>
     <node ID="0.12" type="Punctuation">
       <attributes paragraph="1" paragraph_position="12" text="...." />
@@ -65,7 +65,7 @@
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="waste" />
-      <extra deprel="parataxis" edeps="2:parataxis" feats="Mood=Imp|VerbForm=Fin" head="2" lemma="waste" lexcat="V.VID" lexlemma="waste time" lextag="B-V.VID-v.social" local_toknums="16 18" misc="null" orig_paragraph="1" remarks="0.16" smwe="[1, 1]" ss="v.social" ss2="null" toknums="16 18" upos="VERB" wmwe="null" word="waste" xpos="VB" />
+      <extra deprel="parataxis" edeps="2:parataxis" feats="Mood=Imp|VerbForm=Fin" head="2" lemma="waste" lextag="B-V-v.social" misc="null" orig_paragraph="1" remarks="0.16" smwe="[1, 1]" upos="VERB" wmwe="null" word="waste" xpos="VB" />
     </node>
     <node ID="0.17" type="Word">
       <attributes paragraph="1" paragraph_position="17" text="your" />
@@ -164,7 +164,7 @@
     </node>
     <node ID="1.4" type="PNCT">
       <attributes />
-      <extra remarks="1.100" />
+      <extra remarks="1.101" />
       <edge toID="0.12" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -172,7 +172,7 @@
     </node>
     <node ID="1.5" type="PNCT">
       <attributes />
-      <extra remarks="1.102" />
+      <extra remarks="1.103" />
       <edge toID="0.20" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -224,7 +224,7 @@
     </node>
     <node ID="1.11" type="PNCT">
       <attributes />
-      <extra remarks="1.101" />
+      <extra remarks="1.102" />
       <edge toID="0.15" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -325,11 +325,11 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.6" tree_id="1-3-1" />
-      <edge toID="1.28" type="E">
+      <edge toID="1.29" type="E">
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
       </edge>
-      <edge toID="1.29" type="C">
+      <edge toID="1.30" type="C">
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
@@ -337,13 +337,13 @@
     <node ID="1.23" type="FN">
       <attributes />
       <extra remarks="1.9" tree_id="1-3-2" />
-      <edge toID="1.24" type="A">
-        <attributes remote="True" />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
-      </edge>
-      <edge toID="1.25" type="S">
+      <edge toID="1.25" type="H">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="H" />
+      </edge>
+      <edge toID="1.26" type="H">
+        <attributes />
+        <category tag="H" />
       </edge>
     </node>
     <node ID="1.24" type="FN">
@@ -356,22 +356,26 @@
     </node>
     <node ID="1.25" type="FN">
       <attributes />
-      <extra remarks="1.10" tree_id="1-3-2-1" />
-      <edge toID="1.26" type="C">
-        <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+      <extra remarks="1.111" />
+      <edge toID="1.24" type="A">
+        <attributes remote="True" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.27" type="C">
+      <edge toID="1.28" type="S">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
       </edge>
     </node>
     <node ID="1.26" type="FN">
       <attributes />
-      <extra remarks="1.11" tree_id="1-3-2-1-1" />
-      <edge toID="0.5" type="Terminal">
+      <extra remarks="1.112" />
+      <edge toID="1.24" type="A">
+        <attributes remote="True" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.27" type="S">
         <attributes />
-        <category tag="Terminal" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
       </edge>
     </node>
     <node ID="1.27" type="FN">
@@ -384,13 +388,21 @@
     </node>
     <node ID="1.28" type="FN">
       <attributes />
+      <extra remarks="1.11" tree_id="1-3-2-1-1" />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.29" type="FN">
+      <attributes />
       <extra remarks="1.7" tree_id="1-3-1-1" />
       <edge toID="0.3" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>
-    <node ID="1.29" type="FN">
+    <node ID="1.30" type="FN">
       <attributes />
       <extra remarks="1.8" tree_id="1-3-1-2" />
       <edge toID="0.4" type="Terminal">

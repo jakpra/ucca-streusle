@@ -5,7 +5,7 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Had" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="have" lexcat="V" lexlemma="have" lextag="O-V-v.stative" local_toknums="1" misc="null" orig_paragraph="1" remarks="0.3" smwe="null" ss="v.stative" ss2="null" toknums="3" upos="VERB" wmwe="null" word="Had" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="have" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.3" smwe="null" upos="VERB" wmwe="null" word="Had" xpos="VBD" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="a" />
@@ -13,7 +13,7 @@
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="meal" />
-      <extra deprel="obj" edeps="1:obj" feats="Number=Sing" head="1" lemma="meal" lexcat="N" lexlemma="meal" lextag="O-N-n.FOOD" local_toknums="3" misc="null" orig_paragraph="1" remarks="0.5" smwe="null" ss="n.FOOD" ss2="null" toknums="5" upos="NOUN" wmwe="null" word="meal" xpos="NN" />
+      <extra deprel="obj" edeps="1:obj" feats="Number=Sing" head="1" lemma="meal" lextag="O-N-n.FOOD" misc="null" orig_paragraph="1" remarks="0.5" smwe="null" upos="NOUN" wmwe="null" word="meal" xpos="NN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="in" />
@@ -25,7 +25,7 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="pub" />
-      <extra deprel="obl" edeps="1:obl:in" feats="Number=Sing" head="1" lemma="pub" lexcat="N" lexlemma="pub" lextag="O-N-n.GROUP" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.8" smwe="null" ss="n.GROUP" ss2="null" toknums="8" upos="NOUN" wmwe="null" word="pub" xpos="NN" />
+      <extra deprel="obl" edeps="1:obl" feats="Number=Sing" head="1" lemma="pub" lextag="O-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.8" smwe="null" upos="NOUN" wmwe="null" word="pub" xpos="NN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="and" />
@@ -33,11 +33,11 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="i" />
-      <extra deprel="nsubj" edeps="9:nsubj|11:nsubj:xsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="9" lemma="i" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.10" smwe="null" upos="PRON" wmwe="null" word="i" xpos="PRP" />
+      <extra deprel="nsubj" edeps="9:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="9" lemma="i" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.10" smwe="null" upos="PRON" wmwe="null" word="i" xpos="PRP" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="have" />
-      <extra deprel="conj" edeps="1:conj:and" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="1" lemma="have" lextag="B-AUX" misc="null" orig_paragraph="1" remarks="0.11" smwe="[1, 1]" upos="VERB" wmwe="[2, 1]" word="have" xpos="VBP" />
+      <extra deprel="conj" edeps="1:conj" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="1" lemma="have" lextag="B-AUX" misc="null" orig_paragraph="1" remarks="0.11" smwe="[1, 1]" upos="VERB" wmwe="[2, 1]" word="have" xpos="VBP" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="to" />
@@ -45,7 +45,7 @@
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="say" />
-      <extra deprel="xcomp" edeps="9:xcomp" feats="VerbForm=Inf" head="9" lemma="say" lexcat="V" lexlemma="say" lextag="I~-V-v.communication" local_toknums="11" misc="null" orig_paragraph="1" remarks="0.13" smwe="null" ss="v.communication" ss2="null" toknums="13" upos="VERB" wmwe="[2, 3]" word="say" xpos="VB" />
+      <extra deprel="xcomp" edeps="9:xcomp" feats="VerbForm=Inf" head="9" lemma="say" lextag="I~-V-v.communication" misc="null" orig_paragraph="1" remarks="0.13" smwe="null" upos="VERB" wmwe="[2, 3]" word="say" xpos="VB" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="it" />
@@ -53,7 +53,7 @@
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="was" />
-      <extra deprel="cop" edeps="14:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="14" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="13" misc="null" orig_paragraph="1" remarks="0.15" smwe="null" ss="v.stative" ss2="null" toknums="15" upos="AUX" wmwe="null" word="was" xpos="VBD" />
+      <extra deprel="cop" edeps="14:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="14" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.15" smwe="null" upos="AUX" wmwe="null" word="was" xpos="VBD" />
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="excellant" />

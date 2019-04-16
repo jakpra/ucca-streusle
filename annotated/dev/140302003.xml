@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="have" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="have" lexcat="V" lexlemma="have" lextag="O-V-v.stative" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.49" smwe="null" ss="v.stative" ss2="null" toknums="49" upos="VERB" wmwe="null" word="have" xpos="VBP" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="have" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.49" smwe="null" upos="VERB" wmwe="null" word="have" xpos="VBP" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="great" />
@@ -25,7 +25,7 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="customer" />
-      <extra deprel="compound" edeps="7:compound" feats="Number=Sing" head="7" lemma="customer" lexcat="N" lexlemma="customer service" lextag="B-N-n.ACT" local_toknums="6 7" misc="null" orig_paragraph="1" remarks="0.51" smwe="[1, 1]" ss="n.ACT" ss2="null" toknums="51 52" upos="NOUN" wmwe="null" word="customer" xpos="NN" />
+      <extra deprel="compound" edeps="7:compound" feats="Number=Sing" head="7" lemma="customer" lextag="B-N-n.ACT" misc="null" orig_paragraph="1" remarks="0.51" smwe="[1, 1]" upos="NOUN" wmwe="null" word="customer" xpos="NN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="service" />
@@ -49,7 +49,7 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="staff" />
-      <extra deprel="conj" edeps="4:obj|7:conj:and" feats="Number=Sing" head="7" lemma="staff" lexcat="N" lexlemma="staff" lextag="O-N-n.GROUP" local_toknums="12" misc="null" orig_paragraph="1" remarks="0.57" smwe="null" ss="n.GROUP" ss2="null" toknums="57" upos="NOUN" wmwe="null" word="staff" xpos="NN" />
+      <extra deprel="conj" edeps="7:conj" feats="Number=Sing" head="7" lemma="staff" lextag="O-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.57" smwe="null" upos="NOUN" wmwe="null" word="staff" xpos="NN" />
     </node>
   </layer>
   <layer layerID="1">
@@ -194,11 +194,11 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.63" tree_id="12-3" />
-      <edge toID="1.17" type="F">
+      <edge toID="1.18" type="F">
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
       </edge>
-      <edge toID="1.18" type="C">
+      <edge toID="1.19" type="C">
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
@@ -213,10 +213,11 @@
     </node>
     <node ID="1.15" type="FN">
       <attributes />
-      <extra remarks="1.68" tree_id="12-5-1" />
-      <edge toID="0.6" type="Terminal">
+      <extra remarks="1.67" tree_id="12-5" />
+      <edge toID="1.17" type="S">
         <attributes />
-        <category tag="Terminal" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
     </node>
     <node ID="1.16" type="PNCT">
@@ -229,13 +230,21 @@
     </node>
     <node ID="1.17" type="FN">
       <attributes />
+      <extra remarks="1.68" tree_id="12-5-1" />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.18" type="FN">
+      <attributes />
       <extra remarks="1.64" tree_id="12-3-1" />
       <edge toID="0.4" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>
-    <node ID="1.18" type="FN">
+    <node ID="1.19" type="FN">
       <attributes />
       <extra remarks="1.65" tree_id="12-3-2" />
       <edge toID="0.7" type="Terminal">

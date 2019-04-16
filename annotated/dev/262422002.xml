@@ -5,7 +5,7 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Jason" />
-      <extra deprel="nsubj" edeps="6:nsubj" feats="Number=Sing" head="6" lemma="Jason" lexcat="N" lexlemma="Jason" lextag="O-N-n.PERSON" local_toknums="1" misc="null" orig_paragraph="1" remarks="0.10" smwe="null" ss="n.PERSON" ss2="null" toknums="10" upos="PROPN" wmwe="null" word="Jason" xpos="NNP" />
+      <extra deprel="nsubj" edeps="6:nsubj" feats="Number=Sing" head="6" lemma="Jason" lextag="O-N-n.PERSON" misc="null" orig_paragraph="1" remarks="0.10" smwe="null" upos="PROPN" wmwe="null" word="Jason" xpos="NNP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="and" />
@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="boys" />
-      <extra deprel="conj" edeps="1:conj:and|6:nsubj" feats="Number=Plur" head="1" lemma="boy" lexcat="N" lexlemma="boy" lextag="O-N-n.PERSON" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.13" smwe="null" ss="n.PERSON" ss2="null" toknums="13" upos="NOUN" wmwe="null" word="boys" xpos="NNS" />
+      <extra deprel="conj" edeps="1:conj" feats="Number=Plur" head="1" lemma="boy" lextag="O-N-n.PERSON" misc="null" orig_paragraph="1" remarks="0.13" smwe="null" upos="NOUN" wmwe="null" word="boys" xpos="NNS" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="can" />
@@ -25,11 +25,11 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="do" />
-      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="do" lexcat="V" lexlemma="do" lextag="O-V-v.social" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.15" smwe="null" ss="v.social" ss2="null" toknums="15" upos="VERB" wmwe="null" word="do" xpos="VB" />
+      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="do" lextag="O-V-v.social" misc="null" orig_paragraph="1" remarks="0.15" smwe="null" upos="VERB" wmwe="null" word="do" xpos="VB" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="about" />
-      <extra config="default" deprel="advmod" edeps="8:advmod" feats="null" gov="null" govlemma="null" head="8" lemma="about" lexcat="P" lexlemma="about" lextag="O-P-p.Approximator" local_obj="8" local_toknums="7" misc="null" obj="17" objlemma="anything" orig_paragraph="1" remarks="0.16" smwe="null" ss="p.Approximator" ss2="p.Approximator" toknums="16" upos="ADV" wmwe="null" word="about" xpos="RB" />
+      <extra config="default" deprel="advmod" edeps="8:advmod" feats="null" gov="17" govlemma="anything" head="8" lemma="about" lexcat="P" lexlemma="about" lextag="O-P-p.Approximator" local_gov="8" local_toknums="7" misc="null" obj="null" objlemma="null" orig_paragraph="1" remarks="0.16" smwe="null" ss="p.Approximator" ss2="p.Approximator" toknums="16" upos="ADV" wmwe="null" word="about" xpos="RB" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="anything" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="need" />
-      <extra deprel="acl:relcl" edeps="8:acl:relcl" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="8" lemma="need" lexcat="V" lexlemma="need" lextag="O-V-v.cognition" local_toknums="10" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.19" smwe="null" ss="v.cognition" ss2="null" toknums="19" upos="VERB" wmwe="null" word="need" xpos="VBP" />
+      <extra deprel="acl:relcl" edeps="8:acl:relcl" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="8" lemma="need" lextag="O-V-v.cognition" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.19" smwe="null" upos="VERB" wmwe="null" word="need" xpos="VBP" />
     </node>
     <node ID="0.11" type="Punctuation">
       <attributes paragraph="1" paragraph_position="11" text="." />

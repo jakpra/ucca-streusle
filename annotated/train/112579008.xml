@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="describe" />
-      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="describe" lexcat="V" lexlemma="describe" lextag="O-V-v.communication" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.149" smwe="null" ss="v.communication" ss2="null" toknums="149" upos="VERB" wmwe="null" word="describe" xpos="VB" />
+      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="describe" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.149" smwe="null" upos="VERB" wmwe="null" word="describe" xpos="VB" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="how" />
@@ -33,7 +33,7 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="mango" />
-      <extra deprel="compound" edeps="11:compound" feats="Number=Sing" head="11" lemma="mango" lexcat="N" lexlemma="mango" lextag="O-N-n.FOOD" local_toknums="8" misc="null" orig_paragraph="1" remarks="0.153" smwe="null" ss="n.FOOD" ss2="null" toknums="153" upos="NOUN" wmwe="null" word="mango" xpos="NN" />
+      <extra deprel="compound" edeps="11:compound" feats="Number=Sing" head="11" lemma="mango" lextag="O-N-n.FOOD" misc="null" orig_paragraph="1" remarks="0.153" smwe="null" upos="NOUN" wmwe="null" word="mango" xpos="NN" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="and" />
@@ -41,11 +41,11 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="cheese" />
-      <extra deprel="conj" edeps="8:conj:and|11:compound" feats="Number=Sing" head="8" lemma="cheese" lexcat="N" lexlemma="cheese" lextag="O-N-n.FOOD" local_toknums="10" misc="null" orig_paragraph="1" remarks="0.155" smwe="null" ss="n.FOOD" ss2="null" toknums="155" upos="NOUN" wmwe="null" word="cheese" xpos="NN" />
+      <extra deprel="conj" edeps="8:conj" feats="Number=Sing" head="8" lemma="cheese" lextag="O-N-n.FOOD" misc="null" orig_paragraph="1" remarks="0.155" smwe="null" upos="NOUN" wmwe="null" word="cheese" xpos="NN" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="pastries" />
-      <extra deprel="nsubj" edeps="6:nsubj|17:nsubj" feats="Number=Plur" head="6" lemma="pastry" lexcat="N" lexlemma="pastry" lextag="O-N-n.FOOD" local_toknums="11" misc="null" orig_paragraph="1" remarks="0.156" smwe="null" ss="n.FOOD" ss2="null" toknums="156" upos="NOUN" wmwe="null" word="pastries" xpos="NNS" />
+      <extra deprel="nsubj" edeps="6:nsubj" feats="Number=Plur" head="6" lemma="pastry" lextag="O-N-n.FOOD" misc="null" orig_paragraph="1" remarks="0.156" smwe="null" upos="NOUN" wmwe="null" word="pastries" xpos="NNS" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="and" />
@@ -57,11 +57,11 @@
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="omelets" />
-      <extra deprel="nsubj" edeps="6:nsubj" feats="Number=Plur" head="6" lemma="omelet" lexcat="N" lexlemma="omelet" lextag="O-N-n.FOOD" local_toknums="14" misc="null" orig_paragraph="1" remarks="0.159" smwe="null" ss="n.FOOD" ss2="null" toknums="159" upos="NOUN" wmwe="null" word="omelets" xpos="NNS" />
+      <extra deprel="nsubj" edeps="6:nsubj" feats="Number=Plur" head="6" lemma="omelet" lextag="O-N-n.FOOD" misc="null" orig_paragraph="1" remarks="0.159" smwe="null" upos="NOUN" wmwe="null" word="omelets" xpos="NNS" />
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="are" />
-      <extra deprel="cop" edeps="6:cop" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="6" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="15" misc="null" orig_paragraph="1" remarks="0.160" smwe="null" ss="v.stative" ss2="null" toknums="160" upos="AUX" wmwe="null" word="are" xpos="VBP" />
+      <extra deprel="cop" edeps="6:cop" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="6" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.160" smwe="null" upos="AUX" wmwe="null" word="are" xpos="VBP" />
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="to" />
@@ -69,7 +69,7 @@
     </node>
     <node ID="0.17" type="Word">
       <attributes paragraph="1" paragraph_position="17" text="die" />
-      <extra deprel="conj" edeps="4:ccomp|6:conj:and" feats="VerbForm=Inf" head="6" lemma="die" lextag="I_" misc="null" orig_paragraph="1" remarks="0.162" smwe="[1, 2]" upos="VERB" wmwe="null" word="die" xpos="VB" />
+      <extra deprel="conj" edeps="6:conj" feats="VerbForm=Inf" head="6" lemma="die" lextag="I_" misc="null" orig_paragraph="1" remarks="0.162" smwe="[1, 2]" upos="VERB" wmwe="null" word="die" xpos="VB" />
     </node>
     <node ID="0.18" type="Word">
       <attributes paragraph="1" paragraph_position="18" text="for" />

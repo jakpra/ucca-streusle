@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="they" />
-      <extra deprel="nsubj" edeps="4:nsubj|13:nsubj" feats="Case=Nom|Number=Plur|Person=3|PronType=Prs" head="4" lemma="they" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.43" smwe="null" upos="PRON" wmwe="null" word="they" xpos="PRP" />
+      <extra deprel="nsubj" edeps="4:nsubj" feats="Case=Nom|Number=Plur|Person=3|PronType=Prs" head="4" lemma="they" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.43" smwe="null" upos="PRON" wmwe="null" word="they" xpos="PRP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="will" />
@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="fill" />
-      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="fill" lexcat="V" lexlemma="fill" lextag="O-V-v.contact" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.45" smwe="null" ss="v.contact" ss2="null" toknums="45" upos="VERB" wmwe="null" word="fill" xpos="VB" />
+      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="fill" lextag="O-V-v.contact" misc="null" orig_paragraph="1" remarks="0.45" smwe="null" upos="VERB" wmwe="null" word="fill" xpos="VB" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="your" />
@@ -25,7 +25,7 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="tires" />
-      <extra deprel="obj" edeps="4:obj" feats="Number=Plur" head="4" lemma="tire" lexcat="N" lexlemma="tire" lextag="O-N-n.ARTIFACT" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.47" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="47" upos="NOUN" wmwe="null" word="tires" xpos="NNS" />
+      <extra deprel="obj" edeps="4:obj" feats="Number=Plur" head="4" lemma="tire" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.47" smwe="null" upos="NOUN" wmwe="null" word="tires" xpos="NNS" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="with" />
@@ -33,7 +33,7 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="air" />
-      <extra deprel="obl" edeps="4:obl:with" feats="Number=Sing" head="4" lemma="air" lexcat="N" lexlemma="air" lextag="O-N-n.SUBSTANCE" local_toknums="8" misc="null" orig_paragraph="1" remarks="0.49" smwe="null" ss="n.SUBSTANCE" ss2="null" toknums="49" upos="NOUN" wmwe="null" word="air" xpos="NN" />
+      <extra deprel="obl" edeps="4:obl" feats="Number=Sing" head="4" lemma="air" lextag="O-N-n.SUBSTANCE" misc="null" orig_paragraph="1" remarks="0.49" smwe="null" upos="NOUN" wmwe="null" word="air" xpos="NN" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="and" />
@@ -49,11 +49,11 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="maintenance" />
-      <extra deprel="compound" edeps="13:compound" feats="Number=Sing" head="13" lemma="maintenance" lexcat="N" lexlemma="maintenance" lextag="O-N-n.ACT" local_toknums="12" misc="null" orig_paragraph="1" remarks="0.53" smwe="null" ss="n.ACT" ss2="null" toknums="53" upos="NOUN" wmwe="null" word="maintenance" xpos="NN" />
+      <extra deprel="compound" edeps="13:compound" feats="Number=Sing" head="13" lemma="maintenance" lextag="O-N-n.ACT" misc="null" orig_paragraph="1" remarks="0.53" smwe="null" upos="NOUN" wmwe="null" word="maintenance" xpos="NN" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="tasks" />
-      <extra deprel="conj" edeps="4:conj:and" feats="Number=Plur" head="4" lemma="task" lexcat="N" lexlemma="task" lextag="O-N-n.EVENT" local_toknums="13" misc="null" orig_paragraph="1" remarks="0.54" smwe="null" ss="n.EVENT" ss2="null" toknums="54" upos="NOUN" wmwe="null" word="tasks" xpos="NNS" />
+      <extra deprel="conj" edeps="4:conj" feats="Number=Plur" head="4" lemma="task" lextag="O-N-n.EVENT" misc="null" orig_paragraph="1" remarks="0.54" smwe="null" upos="NOUN" wmwe="null" word="tasks" xpos="NNS" />
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="for" />
@@ -61,7 +61,7 @@
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="free" />
-      <extra deprel="obl" edeps="4:obl:for" feats="Degree=Pos" head="4" lemma="free" lextag="I_" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.56" smwe="[1, 2]" upos="ADJ" wmwe="null" word="free" xpos="JJ" />
+      <extra deprel="obl" edeps="4:obl" feats="Degree=Pos" head="4" lemma="free" lextag="I_" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.56" smwe="[1, 2]" upos="ADJ" wmwe="null" word="free" xpos="JJ" />
     </node>
     <node ID="0.16" type="Punctuation">
       <attributes paragraph="1" paragraph_position="16" text="," />
@@ -89,7 +89,7 @@
     </node>
     <node ID="0.22" type="Word">
       <attributes paragraph="1" paragraph_position="22" text="buy" />
-      <extra deprel="advcl" edeps="4:advcl:if" feats="VerbForm=Inf" head="4" lemma="buy" lexcat="V" lexlemma="buy" lextag="O-V-v.possession" local_toknums="22" misc="null" orig_paragraph="1" remarks="0.63" smwe="null" ss="v.possession" ss2="null" toknums="63" upos="VERB" wmwe="null" word="buy" xpos="VB" />
+      <extra deprel="advcl" edeps="4:advcl" feats="VerbForm=Inf" head="4" lemma="buy" lextag="O-V-v.possession" misc="null" orig_paragraph="1" remarks="0.63" smwe="null" upos="VERB" wmwe="null" word="buy" xpos="VB" />
     </node>
     <node ID="0.23" type="Word">
       <attributes paragraph="1" paragraph_position="23" text="your" />
@@ -97,7 +97,7 @@
     </node>
     <node ID="0.24" type="Word">
       <attributes paragraph="1" paragraph_position="24" text="car" />
-      <extra deprel="obj" edeps="22:obj" feats="Number=Sing" head="22" lemma="car" lexcat="N" lexlemma="car" lextag="O-N-n.ARTIFACT" local_toknums="24" misc="null" orig_paragraph="1" remarks="0.65" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="65" upos="NOUN" wmwe="null" word="car" xpos="NN" />
+      <extra deprel="obj" edeps="22:obj" feats="Number=Sing" head="22" lemma="car" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.65" smwe="null" upos="NOUN" wmwe="null" word="car" xpos="NN" />
     </node>
     <node ID="0.25" type="Word">
       <attributes paragraph="1" paragraph_position="25" text="there" />

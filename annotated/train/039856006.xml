@@ -17,11 +17,11 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="are" />
-      <extra deprel="ccomp" edeps="1:ccomp" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="1" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.73" smwe="null" ss="v.stative" ss2="null" toknums="73" upos="VERB" wmwe="null" word="are" xpos="VBP" />
+      <extra deprel="ccomp" edeps="1:ccomp" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="1" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.73" smwe="null" upos="VERB" wmwe="null" word="are" xpos="VBP" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="plenty" />
-      <extra deprel="nsubj" edeps="4:nsubj" feats="Number=Sing" head="4" lemma="plenty" lexcat="N" lexlemma="plenty" lextag="B-N-n.QUANTITY" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.74" smwe="null" ss="n.QUANTITY" ss2="null" toknums="74" upos="NOUN" wmwe="[2, 1]" word="plenty" xpos="NN" />
+      <extra deprel="nsubj" edeps="4:nsubj" feats="Number=Sing" head="4" lemma="plenty" lextag="B-N-n.QUANTITY" misc="null" orig_paragraph="1" remarks="0.74" smwe="null" upos="NOUN" wmwe="[2, 1]" word="plenty" xpos="NN" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="of" />
@@ -29,11 +29,11 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="Toyota" />
-      <extra deprel="compound" edeps="8:compound" feats="Number=Sing" head="8" lemma="Toyota" lexcat="N" lexlemma="Toyota" lextag="o-N-n.GROUP" local_toknums="7" misc="null" orig_paragraph="1" remarks="0.76" smwe="null" ss="n.GROUP" ss2="null" toknums="76" upos="PROPN" wmwe="null" word="Toyota" xpos="NNP" />
+      <extra deprel="compound" edeps="8:compound" feats="Number=Sing" head="8" lemma="Toyota" lextag="o-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.76" smwe="null" upos="PROPN" wmwe="null" word="Toyota" xpos="NNP" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="dealerships" />
-      <extra deprel="nmod" edeps="5:nmod:of" feats="Number=Plur" head="5" lemma="dealership" lexcat="N" lexlemma="dealership" lextag="o-N-n.GROUP" local_toknums="8" misc="null" orig_paragraph="1" remarks="0.77" smwe="null" ss="n.GROUP" ss2="null" toknums="77" upos="NOUN" wmwe="null" word="dealerships" xpos="NNS" />
+      <extra deprel="nmod" edeps="5:nmod" feats="Number=Plur" head="5" lemma="dealership" lextag="o-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.77" smwe="null" upos="NOUN" wmwe="null" word="dealerships" xpos="NNS" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="to" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="choose" />
-      <extra deprel="acl" edeps="8:acl:to" feats="VerbForm=Inf" head="8" lemma="choose" lexcat="V" lexlemma="choose" lextag="O-V-v.cognition" local_toknums="10" misc="null" orig_paragraph="1" remarks="0.79" smwe="null" ss="v.cognition" ss2="null" toknums="79" upos="VERB" wmwe="null" word="choose" xpos="VB" />
+      <extra deprel="acl" edeps="8:acl" feats="VerbForm=Inf" head="8" lemma="choose" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.79" smwe="null" upos="VERB" wmwe="null" word="choose" xpos="VB" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="from" />
@@ -57,7 +57,7 @@
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="city" />
-      <extra deprel="obl" edeps="4:obl:in" feats="Number=Sing" head="4" lemma="city" lexcat="N" lexlemma="city" lextag="O-N-n.LOCATION" local_toknums="14" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.83" smwe="null" ss="n.LOCATION" ss2="null" toknums="83" upos="NOUN" wmwe="null" word="city" xpos="NN" />
+      <extra deprel="obl" edeps="4:obl" feats="Number=Sing" head="4" lemma="city" lextag="O-N-n.LOCATION" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.83" smwe="null" upos="NOUN" wmwe="null" word="city" xpos="NN" />
     </node>
     <node ID="0.15" type="Punctuation">
       <attributes paragraph="1" paragraph_position="15" text="." />

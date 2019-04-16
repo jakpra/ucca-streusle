@@ -5,11 +5,11 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="It" />
-      <extra deprel="nsubj" edeps="3:nsubj|6:nsubj" feats="Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" head="3" lemma="it" lextag="O-PRON" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.20" smwe="null" upos="PRON" wmwe="null" word="It" xpos="PRP" />
+      <extra deprel="nsubj" edeps="3:nsubj" feats="Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" head="3" lemma="it" lextag="O-PRON" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.20" smwe="null" upos="PRON" wmwe="null" word="It" xpos="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="'s" />
-      <extra deprel="cop" edeps="3:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="3" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.21" smwe="null" ss="v.stative" ss2="null" toknums="21" upos="AUX" wmwe="null" word="'s" xpos="VBZ" />
+      <extra deprel="cop" edeps="3:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="3" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.21" smwe="null" upos="AUX" wmwe="null" word="'s" xpos="VBZ" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="fresh" />
@@ -25,7 +25,7 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="tasty" />
-      <extra deprel="conj" edeps="3:conj:and" feats="Degree=Pos" head="3" lemma="tasty" lextag="O-ADJ" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.25" smwe="null" upos="ADJ" wmwe="null" word="tasty" xpos="JJ" />
+      <extra deprel="conj" edeps="3:conj" feats="Degree=Pos" head="3" lemma="tasty" lextag="O-ADJ" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.25" smwe="null" upos="ADJ" wmwe="null" word="tasty" xpos="JJ" />
     </node>
     <node ID="0.7" type="Punctuation">
       <attributes paragraph="1" paragraph_position="7" text="." />
@@ -89,6 +89,10 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
       </edge>
+      <edge toID="1.8" type="A">
+        <attributes remote="True" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
     </node>
     <node ID="1.5" type="PNCT">
       <attributes />
@@ -100,7 +104,7 @@
     </node>
     <node ID="1.6" type="FN">
       <attributes />
-      <extra remarks="1.34" tree_id="4-1" />
+      <extra remarks="1.34" tree_id="4-2" />
       <edge toID="0.5" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -108,7 +112,7 @@
     </node>
     <node ID="1.7" type="FN">
       <attributes />
-      <extra remarks="1.35" tree_id="4-2" />
+      <extra remarks="1.35" tree_id="4-3" />
       <edge toID="0.6" type="Terminal">
         <attributes />
         <category tag="Terminal" />

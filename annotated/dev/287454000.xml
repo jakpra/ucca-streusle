@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="is" />
-      <extra deprel="cop" edeps="8:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="8" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.2" smwe="null" ss="v.stative" ss2="null" toknums="2" upos="AUX" wmwe="null" word="is" xpos="VBZ" />
+      <extra deprel="cop" edeps="8:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="8" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.2" smwe="null" upos="AUX" wmwe="null" word="is" xpos="VBZ" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="not" />
@@ -29,11 +29,11 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="hotdog" />
-      <extra deprel="compound" edeps="8:compound" feats="Number=Sing" head="8" lemma="hotdog" lexcat="N" lexlemma="hotdog" lextag="O-N-n.FOOD" local_toknums="7" misc="null" orig_paragraph="1" remarks="0.7" smwe="null" ss="n.FOOD" ss2="null" toknums="7" upos="NOUN" wmwe="null" word="hotdog" xpos="NN" />
+      <extra deprel="compound" edeps="8:compound" feats="Number=Sing" head="8" lemma="hotdog" lextag="O-N-n.FOOD" misc="null" orig_paragraph="1" remarks="0.7" smwe="null" upos="NOUN" wmwe="null" word="hotdog" xpos="NN" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="place" />
-      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="place" lexcat="N" lexlemma="place" lextag="O-N-n.GROUP" local_toknums="8" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.8" smwe="null" ss="n.GROUP" ss2="null" toknums="8" upos="NOUN" wmwe="null" word="place" xpos="NN" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="place" lextag="O-N-n.GROUP" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.8" smwe="null" upos="NOUN" wmwe="null" word="place" xpos="NN" />
     </node>
     <node ID="0.9" type="Punctuation">
       <attributes paragraph="1" paragraph_position="9" text="." />
@@ -137,13 +137,13 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.8" tree_id="1-4-2" />
-      <edge toID="1.11" type="A">
-        <attributes remote="True" />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
-      </edge>
-      <edge toID="1.12" type="S">
+      <edge toID="1.12" type="H">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="H" />
+      </edge>
+      <edge toID="1.13" type="H">
+        <attributes />
+        <category tag="H" />
       </edge>
     </node>
     <node ID="1.10" type="FN">
@@ -164,28 +164,40 @@
     </node>
     <node ID="1.12" type="FN">
       <attributes />
-      <extra remarks="1.9" tree_id="1-4-2-1" />
-      <edge toID="1.13" type="C">
-        <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+      <extra remarks="1.85" />
+      <edge toID="1.11" type="A">
+        <attributes remote="True" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.14" type="C">
+      <edge toID="1.15" type="S">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
       </edge>
     </node>
     <node ID="1.13" type="FN">
       <attributes />
-      <extra remarks="1.10" tree_id="1-4-2-1-1" />
-      <edge toID="0.5" type="Terminal">
+      <extra remarks="1.86" />
+      <edge toID="1.11" type="A">
+        <attributes remote="True" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.14" type="S">
         <attributes />
-        <category tag="Terminal" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
       </edge>
     </node>
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.11" tree_id="1-4-2-1-2" />
       <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.15" type="FN">
+      <attributes />
+      <extra remarks="1.10" tree_id="1-4-2-1-1" />
+      <edge toID="0.5" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>

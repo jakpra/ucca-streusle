@@ -1,5 +1,5 @@
 <root annotationID="0" passageID="003418009">
-  <attributes annotationID="1247" passageID="601" remarks="26499" userID="1" />
+  <attributes annotationID="4195" passageID="601" remarks="26499" userID="4" />
   <layer layerID="0">
     <attributes />
     <extra doc="[[]]" />
@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="was" />
-      <extra deprel="cop" edeps="5:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="5" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.131" smwe="null" ss="v.stative" ss2="null" toknums="131" upos="AUX" wmwe="null" word="was" xpos="VBD" />
+      <extra deprel="cop" edeps="5:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="5" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.131" smwe="null" upos="AUX" wmwe="null" word="was" xpos="VBD" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="an" />
@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="ingrown" />
-      <extra deprel="amod" edeps="5:amod" feats="Degree=Pos" head="5" lemma="ingrown" lexcat="N" lexlemma="ingrown toenail" lextag="B-N-n.BODY" local_toknums="4 5" misc="null" orig_paragraph="1" remarks="0.133" smwe="[1, 1]" ss="n.BODY" ss2="null" toknums="133 134" upos="ADJ" wmwe="null" word="ingrown" xpos="JJ" />
+      <extra deprel="amod" edeps="5:amod" feats="Degree=Pos" head="5" lemma="ingrown" lextag="B-N-n.BODY" misc="null" orig_paragraph="1" remarks="0.133" smwe="[1, 1]" upos="ADJ" wmwe="null" word="ingrown" xpos="JJ" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="toenail" />
@@ -60,7 +60,7 @@
     </node>
     <node ID="1.3" type="PNCT">
       <attributes />
-      <extra remarks="1.227" />
+      <extra remarks="1.224" />
       <edge toID="0.6" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -85,9 +85,9 @@
     <node ID="1.6" type="FN">
       <attributes />
       <extra remarks="1.160" tree_id="19-3" />
-      <edge toID="1.7" type="E">
+      <edge toID="1.7" type="F">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
       </edge>
       <edge toID="1.8" type="E">
         <attributes />
@@ -113,9 +113,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.10" type="S">
+      <edge toID="1.10" type="P">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
       </edge>
     </node>
     <node ID="1.9" type="FN">

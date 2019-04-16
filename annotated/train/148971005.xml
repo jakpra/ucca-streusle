@@ -13,7 +13,7 @@
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="said" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="say" lexcat="V" lexlemma="say" lextag="O-V-v.communication" local_toknums="3" misc="null" orig_paragraph="1" remarks="0.119" smwe="null" ss="v.communication" ss2="null" toknums="119" upos="VERB" wmwe="null" word="said" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="say" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.119" smwe="null" upos="VERB" wmwe="null" word="said" xpos="VBD" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="that" />
@@ -29,7 +29,7 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="months" />
-      <extra deprel="obl" edeps="10:obl:by" feats="Number=Plur" head="10" lemma="month" lexcat="N" lexlemma="month" lextag="o-N-n.TIME" local_toknums="7" misc="null" orig_paragraph="1" remarks="0.123" smwe="null" ss="n.TIME" ss2="null" toknums="123" upos="NOUN" wmwe="null" word="months" xpos="NNS" />
+      <extra deprel="obl" edeps="10:obl" feats="Number=Plur" head="10" lemma="month" lextag="o-N-n.TIME" misc="null" orig_paragraph="1" remarks="0.123" smwe="null" upos="NOUN" wmwe="null" word="months" xpos="NNS" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="he" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="meant" />
-      <extra deprel="ccomp" edeps="3:ccomp" feats="VerbForm=Inf" head="3" lemma="mean" lexcat="V" lexlemma="mean" lextag="I~-V-v.cognition" local_toknums="10" misc="null" orig_paragraph="1" remarks="0.126" smwe="null" ss="v.cognition" ss2="null" toknums="126" upos="VERB" wmwe="[2, 2]" word="meant" xpos="VB" />
+      <extra deprel="ccomp" edeps="3:ccomp" feats="VerbForm=Inf" head="3" lemma="mean" lextag="I~-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.126" smwe="null" upos="VERB" wmwe="[2, 2]" word="meant" xpos="VB" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="at" />
@@ -49,7 +49,7 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="least" />
-      <extra deprel="nmod" edeps="14:nmod:at" feats="Degree=Sup" head="14" lemma="least" lextag="I_" misc="null" orig_paragraph="1" remarks="0.128" smwe="[1, 2]" upos="ADV" wmwe="null" word="least" xpos="RBS" />
+      <extra deprel="nmod" edeps="14:nmod" feats="Degree=Sup" head="14" lemma="least" lextag="I_" misc="null" orig_paragraph="1" remarks="0.128" smwe="[1, 2]" upos="ADV" wmwe="null" word="least" xpos="RBS" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="two" />
@@ -57,7 +57,7 @@
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="months" />
-      <extra deprel="ccomp" edeps="10:ccomp" feats="Number=Plur" head="10" lemma="month" lexcat="N" lexlemma="month" lextag="O-N-n.TIME" local_toknums="14" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.130" smwe="null" ss="n.TIME" ss2="null" toknums="130" upos="NOUN" wmwe="null" word="months" xpos="NNS" />
+      <extra deprel="ccomp" edeps="10:ccomp" feats="Number=Plur" head="10" lemma="month" lextag="O-N-n.TIME" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.130" smwe="null" upos="NOUN" wmwe="null" word="months" xpos="NNS" />
     </node>
     <node ID="0.15" type="Punctuation">
       <attributes paragraph="1" paragraph_position="15" text="&quot;" />
@@ -108,7 +108,7 @@
     </node>
     <node ID="1.3" type="PNCT">
       <attributes />
-      <extra remarks="1.467" />
+      <extra remarks="1.468" />
       <edge toID="0.15" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -116,7 +116,7 @@
     </node>
     <node ID="1.4" type="PNCT">
       <attributes />
-      <extra remarks="1.468" />
+      <extra remarks="1.469" />
       <edge toID="0.16" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -232,7 +232,7 @@
     </node>
     <node ID="1.14" type="PNCT">
       <attributes />
-      <extra remarks="1.466" />
+      <extra remarks="1.467" />
       <edge toID="0.9" type="Terminal">
         <attributes />
         <category tag="Terminal" />

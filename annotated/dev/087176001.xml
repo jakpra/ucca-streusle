@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="are" />
-      <extra deprel="cop" edeps="7:cop" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="7" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.4" smwe="null" ss="v.stative" ss2="null" toknums="4" upos="AUX" wmwe="null" word="are" xpos="VBP" />
+      <extra deprel="cop" edeps="7:cop" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="7" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.4" smwe="null" upos="AUX" wmwe="null" word="are" xpos="VBP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="by" />
@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="far" />
-      <extra deprel="obl" edeps="7:obl:by" feats="Degree=Pos" head="7" lemma="far" lextag="I_" misc="null" orig_paragraph="1" remarks="0.6" smwe="[1, 2]" upos="ADV" wmwe="null" word="far" xpos="RB" />
+      <extra deprel="obl" edeps="7:obl" feats="Degree=Pos" head="7" lemma="far" lextag="I_" misc="null" orig_paragraph="1" remarks="0.6" smwe="[1, 2]" upos="ADV" wmwe="null" word="far" xpos="RB" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="the" />
@@ -29,7 +29,7 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="salon" />
-      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="salon" lexcat="N" lexlemma="salon" lextag="O-N-n.GROUP" local_toknums="7" misc="null" orig_paragraph="1" remarks="0.9" smwe="null" ss="n.GROUP" ss2="null" toknums="9" upos="NOUN" wmwe="null" word="salon" xpos="NN" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="salon" lextag="O-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.9" smwe="null" upos="NOUN" wmwe="null" word="salon" xpos="NN" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="in" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="miles" />
-      <extra deprel="nmod" edeps="7:nmod:in" feats="Number=Plur" head="7" lemma="mile" lexcat="N" lexlemma="mile" lextag="O-N-n.QUANTITY" local_toknums="10" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.12" smwe="null" ss="n.QUANTITY" ss2="null" toknums="12" upos="NOUN" wmwe="null" word="miles" xpos="NNS" />
+      <extra deprel="nmod" edeps="7:nmod" feats="Number=Plur" head="7" lemma="mile" lextag="O-N-n.QUANTITY" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.12" smwe="null" upos="NOUN" wmwe="null" word="miles" xpos="NNS" />
     </node>
     <node ID="0.11" type="Punctuation">
       <attributes paragraph="1" paragraph_position="11" text="," />
@@ -49,7 +49,7 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="Trust" />
-      <extra deprel="parataxis" edeps="7:parataxis" feats="Mood=Imp|VerbForm=Fin" head="7" lemma="trust" lexcat="V" lexlemma="trust" lextag="O-V-v.cognition" local_toknums="12" misc="null" orig_paragraph="1" remarks="0.14" smwe="null" ss="v.cognition" ss2="null" toknums="14" upos="VERB" wmwe="null" word="Trust" xpos="VB" />
+      <extra deprel="parataxis" edeps="7:parataxis" feats="Mood=Imp|VerbForm=Fin" head="7" lemma="trust" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.14" smwe="null" upos="VERB" wmwe="null" word="Trust" xpos="VB" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="me" />
@@ -61,7 +61,7 @@
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="know" />
-      <extra deprel="parataxis" edeps="12:parataxis" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="12" lemma="know" lexcat="V" lexlemma="know" lextag="O-V-v.cognition" local_toknums="15" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.17" smwe="null" ss="v.cognition" ss2="null" toknums="17" upos="VERB" wmwe="null" word="know" xpos="VBP" />
+      <extra deprel="parataxis" edeps="12:parataxis" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="12" lemma="know" lextag="O-V-v.cognition" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.17" smwe="null" upos="VERB" wmwe="null" word="know" xpos="VBP" />
     </node>
     <node ID="0.16" type="Punctuation">
       <attributes paragraph="1" paragraph_position="16" text="!!" />

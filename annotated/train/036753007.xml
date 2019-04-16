@@ -5,11 +5,11 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="I" />
-      <extra deprel="nsubj" edeps="2:nsubj|4:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="2" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.95" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
+      <extra deprel="nsubj" edeps="2:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="2" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.95" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="called" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="call" lexcat="V" lexlemma="call" lextag="O-V-v.communication" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.96" smwe="null" ss="v.communication" ss2="null" toknums="96" upos="VERB" wmwe="null" word="called" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="call" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.96" smwe="null" upos="VERB" wmwe="null" word="called" xpos="VBD" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="and" />
@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="got" />
-      <extra deprel="conj" edeps="2:conj:and" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="2" lemma="get" lexcat="V" lexlemma="get" lextag="O-V-v.stative" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.98" smwe="null" ss="v.stative" ss2="null" toknums="98" upos="VERB" wmwe="null" word="got" xpos="VBD" />
+      <extra deprel="conj" edeps="2:conj" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="2" lemma="get" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.98" smwe="null" upos="VERB" wmwe="null" word="got" xpos="VBD" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="the" />
@@ -29,7 +29,7 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="runaround" />
-      <extra deprel="obj" edeps="4:obj" feats="Number=Sing" head="4" lemma="runaround" lexcat="N" lexlemma="runaround" lextag="O-N-n.COGNITION" local_toknums="7" misc="null" orig_paragraph="1" remarks="0.101" smwe="null" ss="n.COGNITION" ss2="null" toknums="101" upos="NOUN" wmwe="null" word="runaround" xpos="NN" />
+      <extra deprel="obj" edeps="4:obj" feats="Number=Sing" head="4" lemma="runaround" lextag="O-N-n.COGNITION" misc="null" orig_paragraph="1" remarks="0.101" smwe="null" upos="NOUN" wmwe="null" word="runaround" xpos="NN" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="on" />
@@ -37,7 +37,7 @@
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="hold" />
-      <extra deprel="nmod" edeps="7:nmod:on" feats="Number=Sing" head="7" lemma="hold" lextag="I_" misc="null" orig_paragraph="1" remarks="0.103" smwe="[1, 2]" upos="NOUN" wmwe="null" word="hold" xpos="NN" />
+      <extra deprel="nmod" edeps="7:nmod" feats="Number=Sing" head="7" lemma="hold" lextag="I_" misc="null" orig_paragraph="1" remarks="0.103" smwe="[1, 2]" upos="NOUN" wmwe="null" word="hold" xpos="NN" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="and" />
@@ -49,7 +49,7 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="calls" />
-      <extra deprel="conj" edeps="2:conj:and" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="2" lemma="call" lexcat="V.VPC.semi" lexlemma="call back" lextag="B-V.VPC.semi-v.communication" local_toknums="12 14" misc="null" orig_paragraph="1" remarks="0.106" smwe="[2, 1]" ss="v.communication" ss2="null" toknums="106 108" upos="VERB" wmwe="null" word="calls" xpos="VBZ" />
+      <extra deprel="conj" edeps="2:conj" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="2" lemma="call" lextag="B-V-v.communication" misc="null" orig_paragraph="1" remarks="0.106" smwe="[2, 1]" upos="VERB" wmwe="null" word="calls" xpos="VBZ" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="you" />

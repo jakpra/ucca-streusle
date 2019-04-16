@@ -1,5 +1,5 @@
 <root annotationID="0" passageID="101972004">
-  <attributes annotationID="47" passageID="9" remarks="Test" userID="4" />
+  <attributes annotationID="4305" passageID="9" remarks="Test" userID="4" />
   <layer layerID="0">
     <attributes />
     <extra doc="[[]]" />
@@ -9,11 +9,11 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="greeter" />
-      <extra deprel="nsubj" edeps="3:nsubj" feats="Number=Sing" head="3" lemma="greeter" lexcat="N" lexlemma="greeter" lextag="O-N-n.PERSON" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.39" smwe="null" ss="n.PERSON" ss2="null" toknums="39" upos="NOUN" wmwe="null" word="greeter" xpos="NN" />
+      <extra deprel="nsubj" edeps="3:nsubj" feats="Number=Sing" head="3" lemma="greeter" lextag="O-N-n.PERSON" misc="null" orig_paragraph="1" remarks="0.39" smwe="null" upos="NOUN" wmwe="null" word="greeter" xpos="NN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="said" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="say" lexcat="V" lexlemma="say" lextag="O-V-v.communication" local_toknums="3" misc="null" orig_paragraph="1" remarks="0.40" smwe="null" ss="v.communication" ss2="null" toknums="40" upos="VERB" wmwe="null" word="said" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="say" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.40" smwe="null" upos="VERB" wmwe="null" word="said" xpos="VBD" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="there" />
@@ -21,11 +21,11 @@
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="was" />
-      <extra deprel="ccomp" edeps="3:ccomp" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="3" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.42" smwe="null" ss="v.stative" ss2="null" toknums="42" upos="VERB" wmwe="null" word="was" xpos="VBD" />
+      <extra deprel="ccomp" edeps="3:ccomp" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="3" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.42" smwe="null" upos="VERB" wmwe="null" word="was" xpos="VBD" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="about" />
-      <extra config="default" deprel="advmod" edeps="7:advmod" feats="null" gov="null" govlemma="null" head="7" lemma="about" lexcat="P" lexlemma="about" lextag="O-P-p.Approximator" local_obj="7" local_toknums="6" misc="null" obj="44" objlemma="15" orig_paragraph="1" remarks="0.43" smwe="null" ss="p.Approximator" ss2="p.Approximator" toknums="43" upos="ADV" wmwe="null" word="about" xpos="RB" />
+      <extra config="default" deprel="advmod" edeps="7:advmod" feats="null" gov="44" govlemma="15" head="7" lemma="about" lexcat="P" lexlemma="about" lextag="O-P-p.Approximator" local_gov="7" local_toknums="6" misc="null" obj="null" objlemma="null" orig_paragraph="1" remarks="0.43" smwe="null" ss="p.Approximator" ss2="p.Approximator" toknums="43" upos="ADV" wmwe="null" word="about" xpos="RB" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="15" />
@@ -33,11 +33,11 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="minutes" />
-      <extra deprel="compound" edeps="9:compound" feats="Number=Plur" head="9" lemma="minute" lexcat="N" lexlemma="minute" lextag="O-N-n.TIME" local_toknums="8" misc="null" orig_paragraph="1" remarks="0.45" smwe="null" ss="n.TIME" ss2="null" toknums="45" upos="NOUN" wmwe="null" word="minutes" xpos="NNS" />
+      <extra deprel="compound" edeps="9:compound" feats="Number=Plur" head="9" lemma="minute" lextag="O-N-n.TIME" misc="null" orig_paragraph="1" remarks="0.45" smwe="null" upos="NOUN" wmwe="null" word="minutes" xpos="NNS" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="waiting" />
-      <extra deprel="nsubj" edeps="5:nsubj" feats="Number=Sing" head="5" lemma="waiting" lexcat="N" lexlemma="waiting" lextag="O-N-n.ACT" local_toknums="9" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.46" smwe="null" ss="n.ACT" ss2="null" toknums="46" upos="NOUN" wmwe="null" word="waiting" xpos="NN" />
+      <extra deprel="nsubj" edeps="5:nsubj" feats="Number=Sing" head="5" lemma="waiting" lextag="O-N-n.ACT" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.46" smwe="null" upos="NOUN" wmwe="null" word="waiting" xpos="NN" />
     </node>
     <node ID="0.10" type="Punctuation">
       <attributes paragraph="1" paragraph_position="10" text="." />
@@ -76,7 +76,7 @@
     </node>
     <node ID="1.3" type="PNCT">
       <attributes />
-      <extra remarks="1.204" />
+      <extra remarks="1.202" />
       <edge toID="0.10" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -88,6 +88,7 @@
       <edge toID="1.14" type="P">
         <attributes />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="P" />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
       </edge>
     </node>
     <node ID="1.5" type="FN">
@@ -109,9 +110,9 @@
         <attributes />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="F" />
       </edge>
-      <edge toID="1.9" type="A">
+      <edge toID="1.9" type="T">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="T" />
       </edge>
       <edge toID="1.10" type="P">
         <attributes />
@@ -185,9 +186,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.48" tree_id="7-1-1" />
-      <edge toID="1.15" type="E">
+      <edge toID="1.15" type="F">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="E" />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="F" />
       </edge>
       <edge toID="1.16" type="C">
         <attributes />

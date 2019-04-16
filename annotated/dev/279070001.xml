@@ -5,7 +5,7 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Happened" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="happen" lexcat="V.VID" lexlemma="happen on to" lextag="B-V.VID-v.cognition" local_toknums="1 2 3" misc="null" orig_paragraph="1" remarks="0.3" smwe="[1, 1]" ss="v.cognition" ss2="null" toknums="3 4 5" upos="VERB" wmwe="null" word="Happened" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="happen" lextag="B-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.3" smwe="[1, 1]" upos="VERB" wmwe="null" word="Happened" xpos="VBD" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="on" />
@@ -21,7 +21,7 @@
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="place" />
-      <extra deprel="obl" edeps="1:obl:to" feats="Number=Sing" head="1" lemma="place" lexcat="N" lexlemma="place" lextag="O-N-n.GROUP" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.7" smwe="null" ss="n.GROUP" ss2="null" toknums="7" upos="NOUN" wmwe="null" word="place" xpos="NN" />
+      <extra deprel="obl" edeps="1:obl" feats="Number=Sing" head="1" lemma="place" lextag="O-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.7" smwe="null" upos="NOUN" wmwe="null" word="place" xpos="NN" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="while" />
@@ -37,7 +37,7 @@
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="town" />
-      <extra deprel="advcl" edeps="1:advcl:of" feats="Number=Sing" head="1" lemma="town" lextag="I_" misc="null" orig_paragraph="1" remarks="0.11" smwe="[2, 3]" upos="NOUN" wmwe="null" word="town" xpos="NN" />
+      <extra deprel="advcl" edeps="1:advcl" feats="Number=Sing" head="1" lemma="town" lextag="I_" misc="null" orig_paragraph="1" remarks="0.11" smwe="[2, 3]" upos="NOUN" wmwe="null" word="town" xpos="NN" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="on" />
@@ -45,7 +45,7 @@
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="business" />
-      <extra deprel="nmod" edeps="9:nmod:on" feats="Number=Sing" head="9" lemma="business" lextag="I~-!!@" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.13" smwe="null" upos="NOUN" wmwe="[3, 2]" word="business" xpos="NN" />
+      <extra deprel="nmod" edeps="9:nmod" feats="Number=Sing" head="9" lemma="business" lextag="I~-!!@" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.13" smwe="null" upos="NOUN" wmwe="[3, 2]" word="business" xpos="NN" />
     </node>
     <node ID="0.12" type="Punctuation">
       <attributes paragraph="1" paragraph_position="12" text="," />
@@ -61,11 +61,11 @@
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="was" />
-      <extra deprel="cop" edeps="16:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="16" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="15" misc="null" orig_paragraph="1" remarks="0.17" smwe="null" ss="v.stative" ss2="null" toknums="17" upos="AUX" wmwe="null" word="was" xpos="VBD" />
+      <extra deprel="cop" edeps="16:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="16" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.17" smwe="null" upos="AUX" wmwe="null" word="was" xpos="VBD" />
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="great" />
-      <extra deprel="conj" edeps="1:conj:and" feats="Degree=Pos" head="1" lemma="great" lextag="O-ADJ" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.18" smwe="null" upos="ADJ" wmwe="null" word="great" xpos="JJ" />
+      <extra deprel="conj" edeps="1:conj" feats="Degree=Pos" head="1" lemma="great" lextag="O-ADJ" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.18" smwe="null" upos="ADJ" wmwe="null" word="great" xpos="JJ" />
     </node>
     <node ID="0.17" type="Punctuation">
       <attributes paragraph="1" paragraph_position="17" text="!" />

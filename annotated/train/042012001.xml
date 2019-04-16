@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Sicily" />
-      <extra deprel="advcl" edeps="6:advcl:in" feats="Number=Sing" head="6" lemma="Sicily" lexcat="N" lexlemma="Sicily" lextag="O-N-n.LOCATION" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.9" smwe="null" ss="n.LOCATION" ss2="null" toknums="9" upos="PROPN" wmwe="null" word="Sicily" xpos="NNP" />
+      <extra deprel="advcl" edeps="6:advcl" feats="Number=Sing" head="6" lemma="Sicily" lextag="O-N-n.LOCATION" misc="null" orig_paragraph="1" remarks="0.9" smwe="null" upos="PROPN" wmwe="null" word="Sicily" xpos="NNP" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="please" />
@@ -25,7 +25,7 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="take" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Imp|VerbForm=Fin" head="0" lemma="take" lexcat="V.VID" lexlemma="take the time" lextag="B-V.VID-v.social" local_toknums="6 7 8" misc="null" orig_paragraph="1" remarks="0.11" smwe="[2, 1]" ss="v.social" ss2="null" toknums="11 12 13" upos="VERB" wmwe="null" word="take" xpos="VB" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Imp|VerbForm=Fin" head="0" lemma="take" lextag="B-V-v.social" misc="null" orig_paragraph="1" remarks="0.11" smwe="[2, 1]" upos="VERB" wmwe="null" word="take" xpos="VB" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="the" />
@@ -41,11 +41,11 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="visit" />
-      <extra deprel="advcl" edeps="6:advcl:to" feats="VerbForm=Inf" head="6" lemma="visit" lexcat="V" lexlemma="visit" lextag="O-V-v.social" local_toknums="10" misc="null" orig_paragraph="1" remarks="0.15" smwe="null" ss="v.social" ss2="null" toknums="15" upos="VERB" wmwe="null" word="visit" xpos="VB" />
+      <extra deprel="advcl" edeps="6:advcl" feats="VerbForm=Inf" head="6" lemma="visit" lextag="O-V-v.social" misc="null" orig_paragraph="1" remarks="0.15" smwe="null" upos="VERB" wmwe="null" word="visit" xpos="VB" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="Anna" />
-      <extra deprel="obj" edeps="10:obj" feats="Number=Sing" head="10" lemma="Anna" lexcat="N" lexlemma="Anna Maria Jose Mudo" lextag="B-N-n.PERSON" local_toknums="11 12 13 14" misc="null" orig_paragraph="1" remarks="0.16" smwe="[3, 1]" ss="n.PERSON" ss2="null" toknums="16 17 18 19" upos="PROPN" wmwe="null" word="Anna" xpos="NNP" />
+      <extra deprel="obj" edeps="10:obj" feats="Number=Sing" head="10" lemma="Anna" lextag="B-N-n.PERSON" misc="null" orig_paragraph="1" remarks="0.16" smwe="[3, 1]" upos="PROPN" wmwe="null" word="Anna" xpos="NNP" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="Maria" />
@@ -69,7 +69,7 @@
     </node>
     <node ID="0.17" type="Word">
       <attributes paragraph="1" paragraph_position="17" text="familia" />
-      <extra deprel="conj" edeps="10:obj|11:conj:and" feats="Number=Sing" head="11" lemma="familia" lexcat="N" lexlemma="familia" lextag="O-N-n.GROUP" local_toknums="17" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.22" smwe="null" ss="n.GROUP" ss2="null" toknums="22" upos="NOUN" wmwe="null" word="familia" xpos="NN" />
+      <extra deprel="conj" edeps="11:conj" feats="Number=Sing" head="11" lemma="familia" lextag="O-N-n.GROUP" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.22" smwe="null" upos="NOUN" wmwe="null" word="familia" xpos="NN" />
     </node>
     <node ID="0.18" type="Punctuation">
       <attributes paragraph="1" paragraph_position="18" text="." />
@@ -152,7 +152,7 @@
     </node>
     <node ID="1.5" type="PNCT">
       <attributes />
-      <extra remarks="1.122" />
+      <extra remarks="1.123" />
       <edge toID="0.18" type="Terminal">
         <attributes />
         <category tag="Terminal" />

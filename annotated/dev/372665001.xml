@@ -5,11 +5,11 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="This" />
-      <extra deprel="nsubj" edeps="5:nsubj|10:nsubj" feats="Number=Sing|PronType=Dem" head="5" lemma="this" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.6" smwe="null" upos="PRON" wmwe="null" word="This" xpos="DT" />
+      <extra deprel="nsubj" edeps="5:nsubj" feats="Number=Sing|PronType=Dem" head="5" lemma="this" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.6" smwe="null" upos="PRON" wmwe="null" word="This" xpos="DT" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="is" />
-      <extra deprel="cop" edeps="5:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="5" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.7" smwe="null" ss="v.stative" ss2="null" toknums="7" upos="AUX" wmwe="null" word="is" xpos="VBZ" />
+      <extra deprel="cop" edeps="5:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="5" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.7" smwe="null" upos="AUX" wmwe="null" word="is" xpos="VBZ" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="a" />
@@ -17,11 +17,11 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="delivery" />
-      <extra deprel="compound" edeps="5:compound" feats="Number=Sing" head="5" lemma="delivery" lexcat="N" lexlemma="delivery" lextag="O-N-n.ACT" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.9" smwe="null" ss="n.ACT" ss2="null" toknums="9" upos="NOUN" wmwe="null" word="delivery" xpos="NN" />
+      <extra deprel="compound" edeps="5:compound" feats="Number=Sing" head="5" lemma="delivery" lextag="O-N-n.ACT" misc="null" orig_paragraph="1" remarks="0.9" smwe="null" upos="NOUN" wmwe="null" word="delivery" xpos="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="office" />
-      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="office" lexcat="N" lexlemma="office" lextag="O-N-n.GROUP" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.10" smwe="null" ss="n.GROUP" ss2="null" toknums="10" upos="NOUN" wmwe="null" word="office" xpos="NN" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="office" lextag="O-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.10" smwe="null" upos="NOUN" wmwe="null" word="office" xpos="NN" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="only" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="take" />
-      <extra deprel="conj" edeps="5:conj:and" feats="VerbForm=Inf" head="5" lemma="take" lexcat="V.VID" lexlemma="take walk in" lextag="B-V.VID-v.social" local_toknums="10 11 12" misc="null" orig_paragraph="1" remarks="0.15" smwe="[1, 1]" ss="v.social" ss2="null" toknums="15 16 17" upos="VERB" wmwe="null" word="take" xpos="VB" />
+      <extra deprel="conj" edeps="5:conj" feats="VerbForm=Inf" head="5" lemma="take" lextag="B-V-v.social" misc="null" orig_paragraph="1" remarks="0.15" smwe="[1, 1]" upos="VERB" wmwe="null" word="take" xpos="VB" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="walk" />
@@ -65,7 +65,7 @@
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="have" />
-      <extra deprel="conj" edeps="5:conj:and" feats="VerbForm=Inf" head="5" lemma="have" lexcat="V" lexlemma="have" lextag="O-V-v.stative" local_toknums="16" misc="null" orig_paragraph="1" remarks="0.21" smwe="null" ss="v.stative" ss2="null" toknums="21" upos="VERB" wmwe="null" word="have" xpos="VB" />
+      <extra deprel="conj" edeps="5:conj" feats="VerbForm=Inf" head="5" lemma="have" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.21" smwe="null" upos="VERB" wmwe="null" word="have" xpos="VB" />
     </node>
     <node ID="0.17" type="Word">
       <attributes paragraph="1" paragraph_position="17" text="a" />
@@ -73,15 +73,15 @@
     </node>
     <node ID="0.18" type="Word">
       <attributes paragraph="1" paragraph_position="18" text="blue" />
-      <extra deprel="compound" edeps="19:compound" feats="Number=Sing" head="19" lemma="blue" lexcat="N" lexlemma="blue" lextag="O-N-n.COGNITION" local_toknums="18" misc="null" orig_paragraph="1" remarks="0.23" smwe="null" ss="n.COGNITION" ss2="null" toknums="23" upos="NOUN" wmwe="null" word="blue" xpos="NN" />
+      <extra deprel="compound" edeps="19:compound" feats="Number=Sing" head="19" lemma="blue" lextag="O-N-n.COGNITION" misc="null" orig_paragraph="1" remarks="0.23" smwe="null" upos="NOUN" wmwe="null" word="blue" xpos="NN" />
     </node>
     <node ID="0.19" type="Word">
       <attributes paragraph="1" paragraph_position="19" text="box" />
-      <extra deprel="obj" edeps="16:obj" feats="Number=Sing" head="16" lemma="box" lexcat="N" lexlemma="box" lextag="O-N-n.ARTIFACT" local_toknums="19" misc="null" orig_paragraph="1" remarks="0.24" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="24" upos="NOUN" wmwe="null" word="box" xpos="NN" />
+      <extra deprel="obj" edeps="16:obj" feats="Number=Sing" head="16" lemma="box" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.24" smwe="null" upos="NOUN" wmwe="null" word="box" xpos="NN" />
     </node>
     <node ID="0.20" type="Word">
       <attributes paragraph="1" paragraph_position="20" text="out" />
-      <extra config="default" deprel="advmod" edeps="21:advmod" feats="null" gov="21" govlemma="have" head="21" lemma="out" lexcat="PP" lexlemma="out front" lextag="B-PP-p.Locus|p.Source" local_gov="16" local_toknums="20 21" misc="null" obj="null" objlemma="null" orig_paragraph="1" remarks="0.25" smwe="[2, 1]" ss="p.Locus" ss2="p.Source" toknums="25 26" upos="ADV" wmwe="null" word="out" xpos="RB" />
+      <extra config="default" deprel="advmod" edeps="21:advmod" feats="null" gov="26" govlemma="front" head="21" lemma="out" lexcat="PP" lexlemma="out front" lextag="B-PP-p.Locus|p.Source" local_gov="21" local_toknums="20 21" misc="null" obj="null" objlemma="null" orig_paragraph="1" remarks="0.25" smwe="[2, 1]" ss="p.Locus" ss2="p.Source" toknums="25 26" upos="ADV" wmwe="null" word="out" xpos="RB" />
     </node>
     <node ID="0.21" type="Word">
       <attributes paragraph="1" paragraph_position="21" text="front" />

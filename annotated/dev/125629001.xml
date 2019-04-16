@@ -9,11 +9,11 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="they" />
-      <extra deprel="nsubj" edeps="3:nsubj|6:nsubj:xsubj" feats="Case=Nom|Number=Plur|Person=3|PronType=Prs" head="3" lemma="they" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.43" smwe="null" upos="PRON" wmwe="null" word="they" xpos="PRP" />
+      <extra deprel="nsubj" edeps="3:nsubj" feats="Case=Nom|Number=Plur|Person=3|PronType=Prs" head="3" lemma="they" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.43" smwe="null" upos="PRON" wmwe="null" word="they" xpos="PRP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="seem" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="seem" lexcat="V" lexlemma="seem" lextag="O-V-v.cognition" local_toknums="3" misc="null" orig_paragraph="1" remarks="0.44" smwe="null" ss="v.cognition" ss2="null" toknums="44" upos="VERB" wmwe="null" word="seem" xpos="VBP" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="seem" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.44" smwe="null" upos="VERB" wmwe="null" word="seem" xpos="VBP" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="to" />
@@ -25,7 +25,7 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="posted" />
-      <extra deprel="xcomp" edeps="3:xcomp" feats="Tense=Past|VerbForm=Part" head="3" lemma="post" lexcat="V" lexlemma="post" lextag="O-V-v.communication" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.47" smwe="null" ss="v.communication" ss2="null" toknums="47" upos="VERB" wmwe="null" word="posted" xpos="VBN" />
+      <extra deprel="xcomp" edeps="3:xcomp" feats="Tense=Past|VerbForm=Part" head="3" lemma="post" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.47" smwe="null" upos="VERB" wmwe="null" word="posted" xpos="VBN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="at" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="intervals" />
-      <extra deprel="obl" edeps="6:obl:at" feats="Number=Plur" head="6" lemma="interval" lexcat="N" lexlemma="interval" lextag="O-N-n.TIME" local_toknums="10" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.51" smwe="null" ss="n.TIME" ss2="null" toknums="51" upos="NOUN" wmwe="null" word="intervals" xpos="NNS" />
+      <extra deprel="obl" edeps="6:obl" feats="Number=Plur" head="6" lemma="interval" lextag="O-N-n.TIME" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.51" smwe="null" upos="NOUN" wmwe="null" word="intervals" xpos="NNS" />
     </node>
     <node ID="0.11" type="Punctuation">
       <attributes paragraph="1" paragraph_position="11" text="?" />

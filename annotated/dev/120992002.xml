@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="'s" />
-      <extra deprel="cop" edeps="4:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="4" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.30" smwe="null" ss="v.stative" ss2="null" toknums="30" upos="AUX" wmwe="null" word="'s" xpos="VBZ" />
+      <extra deprel="cop" edeps="4:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="4" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.30" smwe="null" upos="AUX" wmwe="null" word="'s" xpos="VBZ" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="an" />
@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="A" />
-      <extra deprel="root" edeps="0:root" feats="null" head="0" lemma="A" lexcat="N" lexlemma="A +" lextag="B-N-n.COMMUNICATION" local_toknums="4 5" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.32" smwe="[1, 1]" ss="n.COMMUNICATION" ss2="null" toknums="32 33" upos="SYM" wmwe="null" word="A" xpos="SYM" />
+      <extra deprel="root" edeps="0:root" feats="null" head="0" lemma="A" lextag="B-N-n.COMMUNICATION" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.32" smwe="[1, 1]" upos="SYM" wmwe="null" word="A" xpos="SYM" />
     </node>
     <node ID="0.5" type="Punctuation">
       <attributes paragraph="1" paragraph_position="5" text="+" />
@@ -29,19 +29,19 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="so" />
-      <extra deprel="conj" edeps="4:conj:and" feats="null" head="4" lemma="so" lextag="O-ADV" misc="null" orig_paragraph="1" remarks="0.35" smwe="null" upos="ADV" wmwe="null" word="so" xpos="RB" />
+      <extra deprel="conj" edeps="4:conj" feats="null" head="4" lemma="so" lextag="O-ADV" misc="null" orig_paragraph="1" remarks="0.35" smwe="null" upos="ADV" wmwe="null" word="so" xpos="RB" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="are" />
-      <extra deprel="cop" edeps="7:cop" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="7" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="8" misc="null" orig_paragraph="1" remarks="0.36" smwe="null" ss="v.stative" ss2="null" toknums="36" upos="AUX" wmwe="null" word="are" xpos="VBP" />
+      <extra deprel="cop" edeps="7:cop" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="7" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.36" smwe="null" upos="AUX" wmwe="null" word="are" xpos="VBP" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="her" />
-      <extra config="possessive" deprel="nmod:poss" edeps="10:nmod:poss" feats="Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs" gov="38" govlemma="clothes" head="10" lemma="she" lexcat="PRON.POSS" lexlemma="she" lextag="O-PRON.POSS-p.Originator|p.Gestalt" local_gov="10" local_toknums="9" misc="null" obj="null" objlemma="null" orig_paragraph="1" remarks="0.37" smwe="null" ss="p.Originator" ss2="p.Gestalt" toknums="37" upos="PRON" wmwe="null" word="her" xpos="PRP$" />
+      <extra config="possessive" deprel="nmod:poss" edeps="10:nmod:poss" feats="Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs" gov="38" govlemma="clothes" head="10" lemma="she" lexcat="PRON.POSS" lexlemma="she" lextag="O-PRON.POSS-p.Originator|p.Possessor" local_gov="10" local_toknums="9" misc="null" obj="null" objlemma="null" orig_paragraph="1" remarks="0.37" smwe="null" ss="p.Originator" ss2="p.Possessor" toknums="37" upos="PRON" wmwe="null" word="her" xpos="PRP$" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="clothes" />
-      <extra deprel="nsubj" edeps="7:nsubj" feats="Number=Plur" head="7" lemma="clothes" lexcat="N" lexlemma="clothes" lextag="O-N-n.ARTIFACT" local_toknums="10" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.38" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="38" upos="NOUN" wmwe="null" word="clothes" xpos="NNS" />
+      <extra deprel="nsubj" edeps="7:nsubj" feats="Number=Plur" head="7" lemma="clothes" lextag="O-N-n.ARTIFACT" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.38" smwe="null" upos="NOUN" wmwe="null" word="clothes" xpos="NNS" />
     </node>
     <node ID="0.11" type="Punctuation">
       <attributes paragraph="1" paragraph_position="11" text="!" />

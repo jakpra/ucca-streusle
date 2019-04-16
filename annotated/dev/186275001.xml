@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="recommend" />
-      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="recommend" lexcat="V" lexlemma="recommend" lextag="O-V-v.communication" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.5" smwe="null" ss="v.communication" ss2="null" toknums="5" upos="VERB" wmwe="null" word="recommend" xpos="VB" />
+      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="recommend" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.5" smwe="null" upos="VERB" wmwe="null" word="recommend" xpos="VB" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="you" />
@@ -29,7 +29,7 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="anyone" />
-      <extra deprel="obl" edeps="4:obl:to" feats="Number=Sing" head="4" lemma="anyone" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.8" smwe="null" upos="PRON" wmwe="null" word="anyone" xpos="NN" />
+      <extra deprel="obl" edeps="4:obl" feats="Number=Sing" head="4" lemma="anyone" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.8" smwe="null" upos="PRON" wmwe="null" word="anyone" xpos="NN" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="in" />
@@ -37,7 +37,7 @@
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="need" />
-      <extra deprel="nmod" edeps="7:nmod:in" feats="Number=Sing" head="7" lemma="need" lextag="I_" misc="null" orig_paragraph="1" remarks="0.10" smwe="[1, 2]" upos="NOUN" wmwe="null" word="need" xpos="NN" />
+      <extra deprel="nmod" edeps="7:nmod" feats="Number=Sing" head="7" lemma="need" lextag="I_" misc="null" orig_paragraph="1" remarks="0.10" smwe="[1, 2]" upos="NOUN" wmwe="null" word="need" xpos="NN" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="of" />
@@ -49,7 +49,7 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="looking" />
-      <extra deprel="conj" edeps="7:nmod:in|9:conj:or" feats="VerbForm=Ger" head="9" lemma="look" lexcat="V" lexlemma="look" lextag="B-V-v.cognition" local_toknums="12" misc="null" orig_paragraph="1" remarks="0.13" smwe="null" ss="v.cognition" ss2="null" toknums="13" upos="VERB" wmwe="[2, 1]" word="looking" xpos="VBG" />
+      <extra deprel="conj" edeps="9:conj" feats="VerbForm=Ger" head="9" lemma="look" lextag="B-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.13" smwe="null" upos="VERB" wmwe="[2, 1]" word="looking" xpos="VBG" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="for" />
@@ -65,7 +65,7 @@
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="florist" />
-      <extra deprel="obl" edeps="12:obl:for" feats="Number=Sing" head="12" lemma="florist" lexcat="N" lexlemma="florist" lextag="O-N-n.PERSON" local_toknums="16" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.17" smwe="null" ss="n.PERSON" ss2="null" toknums="17" upos="NOUN" wmwe="null" word="florist" xpos="NN" />
+      <extra deprel="obl" edeps="12:obl" feats="Number=Sing" head="12" lemma="florist" lextag="O-N-n.PERSON" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.17" smwe="null" upos="NOUN" wmwe="null" word="florist" xpos="NN" />
     </node>
     <node ID="0.17" type="Punctuation">
       <attributes paragraph="1" paragraph_position="17" text="." />

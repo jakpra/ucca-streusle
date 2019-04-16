@@ -21,7 +21,7 @@
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="feel" />
-      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="feel" lexcat="V" lexlemma="feel" lextag="O-V-v.cognition" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.121" smwe="null" ss="v.cognition" ss2="null" toknums="121" upos="VERB" wmwe="null" word="feel" xpos="VB" />
+      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="feel" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.121" smwe="null" upos="VERB" wmwe="null" word="feel" xpos="VB" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="like" />
@@ -29,11 +29,11 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="they" />
-      <extra deprel="nsubj" edeps="8:nsubj|10:nsubj:xsubj" feats="Case=Nom|Number=Plur|Person=3|PronType=Prs" head="8" lemma="they" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.123" smwe="null" upos="PRON" wmwe="null" word="they" xpos="PRP" />
+      <extra deprel="nsubj" edeps="8:nsubj" feats="Case=Nom|Number=Plur|Person=3|PronType=Prs" head="8" lemma="they" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.123" smwe="null" upos="PRON" wmwe="null" word="they" xpos="PRP" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="tried" />
-      <extra deprel="advcl" edeps="5:advcl:like" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="5" lemma="try" lexcat="V" lexlemma="try" lextag="O-V-v.social" local_toknums="8" misc="null" orig_paragraph="1" remarks="0.124" smwe="null" ss="v.social" ss2="null" toknums="124" upos="VERB" wmwe="null" word="tried" xpos="VBD" />
+      <extra deprel="advcl" edeps="5:advcl" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="5" lemma="try" lextag="O-V-v.social" misc="null" orig_paragraph="1" remarks="0.124" smwe="null" upos="VERB" wmwe="null" word="tried" xpos="VBD" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="to" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="sell" />
-      <extra deprel="xcomp" edeps="8:xcomp" feats="VerbForm=Inf" head="8" lemma="sell" lexcat="V" lexlemma="sell" lextag="O-V-v.possession" local_toknums="10" misc="null" orig_paragraph="1" remarks="0.126" smwe="null" ss="v.possession" ss2="null" toknums="126" upos="VERB" wmwe="null" word="sell" xpos="VB" />
+      <extra deprel="xcomp" edeps="8:xcomp" feats="VerbForm=Inf" head="8" lemma="sell" lextag="O-V-v.possession" misc="null" orig_paragraph="1" remarks="0.126" smwe="null" upos="VERB" wmwe="null" word="sell" xpos="VB" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="me" />
@@ -61,11 +61,11 @@
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="services" />
-      <extra deprel="nmod" edeps="13:nmod:of|20:obj" feats="Number=Plur" head="13" lemma="service" lexcat="N" lexlemma="service" lextag="O-N-n.ACT" local_toknums="15" misc="null" orig_paragraph="1" remarks="0.131" smwe="null" ss="n.ACT" ss2="null" toknums="131" upos="NOUN" wmwe="null" word="services" xpos="NNS" />
+      <extra deprel="nmod" edeps="13:nmod" feats="Number=Plur" head="13" lemma="service" lextag="O-N-n.ACT" misc="null" orig_paragraph="1" remarks="0.131" smwe="null" upos="NOUN" wmwe="null" word="services" xpos="NNS" />
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="that" />
-      <extra deprel="obj" edeps="15:ref" feats="PronType=Rel" head="20" lemma="that" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.132" smwe="null" upos="PRON" wmwe="null" word="that" xpos="WDT" />
+      <extra deprel="obj" edeps="20:obj" feats="PronType=Rel" head="20" lemma="that" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.132" smwe="null" upos="PRON" wmwe="null" word="that" xpos="WDT" />
     </node>
     <node ID="0.17" type="Word">
       <attributes paragraph="1" paragraph_position="17" text="I" />
@@ -81,7 +81,7 @@
     </node>
     <node ID="0.20" type="Word">
       <attributes paragraph="1" paragraph_position="20" text="need" />
-      <extra deprel="acl:relcl" edeps="15:acl:relcl" feats="VerbForm=Inf" head="15" lemma="need" lexcat="V" lexlemma="need" lextag="O-V-v.cognition" local_toknums="20" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.136" smwe="null" ss="v.cognition" ss2="null" toknums="136" upos="VERB" wmwe="null" word="need" xpos="VB" />
+      <extra deprel="acl:relcl" edeps="15:acl:relcl" feats="VerbForm=Inf" head="15" lemma="need" lextag="O-V-v.cognition" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.136" smwe="null" upos="VERB" wmwe="null" word="need" xpos="VB" />
     </node>
     <node ID="0.21" type="Punctuation">
       <attributes paragraph="1" paragraph_position="21" text="." />

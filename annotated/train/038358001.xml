@@ -21,11 +21,11 @@
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="imagine" />
-      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="imagine" lexcat="V" lexlemma="imagine" lextag="O-V-v.cognition" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.8" smwe="null" ss="v.cognition" ss2="null" toknums="8" upos="VERB" wmwe="null" word="imagine" xpos="VB" />
+      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="imagine" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.8" smwe="null" upos="VERB" wmwe="null" word="imagine" xpos="VB" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="having" />
-      <extra deprel="ccomp" edeps="5:ccomp" feats="VerbForm=Ger" head="5" lemma="have" lexcat="V.IAV" lexlemma="have to" lextag="B-V.IAV-v.stative" local_toknums="6 7" misc="null" orig_paragraph="1" remarks="0.9" smwe="[1, 1]" ss="v.stative" ss2="null" toknums="9 10" upos="VERB" wmwe="null" word="having" xpos="VBG" />
+      <extra deprel="ccomp" edeps="5:ccomp" feats="VerbForm=Ger" head="5" lemma="have" lextag="B-AUX" misc="null" orig_paragraph="1" remarks="0.9" smwe="[1, 1]" upos="VERB" wmwe="null" word="having" xpos="VBG" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="to" />
@@ -33,7 +33,7 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="live" />
-      <extra deprel="xcomp" edeps="6:xcomp" feats="VerbForm=Inf" head="6" lemma="live" lexcat="V.VID" lexlemma="live through" lextag="B-V.VID-v.stative" local_toknums="8 9" misc="null" orig_paragraph="1" remarks="0.11" smwe="[2, 1]" ss="v.stative" ss2="null" toknums="11 12" upos="VERB" wmwe="null" word="live" xpos="VB" />
+      <extra deprel="xcomp" edeps="6:xcomp" feats="VerbForm=Inf" head="6" lemma="live" lextag="B-V-v.stative" misc="null" orig_paragraph="1" remarks="0.11" smwe="[2, 1]" upos="VERB" wmwe="null" word="live" xpos="VB" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="through" />
@@ -53,7 +53,7 @@
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="nights" />
-      <extra deprel="obl" edeps="8:obl:through" feats="Number=Plur" head="8" lemma="night" lexcat="N" lexlemma="night" lextag="O-N-n.TIME" local_toknums="13" misc="null" orig_paragraph="1" remarks="0.16" smwe="null" ss="n.TIME" ss2="null" toknums="16" upos="NOUN" wmwe="null" word="nights" xpos="NNS" />
+      <extra deprel="obl" edeps="8:obl" feats="Number=Plur" head="8" lemma="night" lextag="O-N-n.TIME" misc="null" orig_paragraph="1" remarks="0.16" smwe="null" upos="NOUN" wmwe="null" word="nights" xpos="NNS" />
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="without" />
@@ -61,7 +61,7 @@
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="heat" />
-      <extra deprel="obl" edeps="8:obl:without" feats="Number=Sing" head="8" lemma="heat" lexcat="N" lexlemma="heat" lextag="O-N-n.ARTIFACT" local_toknums="15" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.18" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="18" upos="NOUN" wmwe="null" word="heat" xpos="NN" />
+      <extra deprel="obl" edeps="8:obl" feats="Number=Sing" head="8" lemma="heat" lextag="O-N-n.ARTIFACT" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.18" smwe="null" upos="NOUN" wmwe="null" word="heat" xpos="NN" />
     </node>
     <node ID="0.16" type="Punctuation">
       <attributes paragraph="1" paragraph_position="16" text="?" />

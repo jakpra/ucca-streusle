@@ -5,7 +5,7 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="I" />
-      <extra deprel="nsubj" edeps="2:nsubj|4:nsubj:xsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="2" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.4" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
+      <extra deprel="nsubj" edeps="2:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="2" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.4" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="had" />
@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="take" />
-      <extra deprel="xcomp" edeps="2:xcomp" feats="VerbForm=Inf" head="2" lemma="take" lexcat="V.IAV" lexlemma="take care of" lextag="B-V.IAV-v.social" local_toknums="4 5 6" misc="null" orig_paragraph="1" remarks="0.7" smwe="[2, 1]" ss="v.social" ss2="null" toknums="7 8 9" upos="VERB" wmwe="null" word="take" xpos="VB" />
+      <extra deprel="xcomp" edeps="2:xcomp" feats="VerbForm=Inf" head="2" lemma="take" lextag="B-V-v.social" misc="null" orig_paragraph="1" remarks="0.7" smwe="[2, 1]" upos="VERB" wmwe="null" word="take" xpos="VB" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="care" />
@@ -33,7 +33,7 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="ants" />
-      <extra deprel="obl" edeps="4:obl:of" feats="Number=Plur" head="4" lemma="ant" lexcat="N" lexlemma="ant" lextag="O-N-n.ANIMAL" local_toknums="8" misc="null" orig_paragraph="1" remarks="0.11" smwe="null" ss="n.ANIMAL" ss2="null" toknums="11" upos="NOUN" wmwe="null" word="ants" xpos="NNS" />
+      <extra deprel="obl" edeps="4:obl" feats="Number=Plur" head="4" lemma="ant" lextag="O-N-n.ANIMAL" misc="null" orig_paragraph="1" remarks="0.11" smwe="null" upos="NOUN" wmwe="null" word="ants" xpos="NNS" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="myself" />

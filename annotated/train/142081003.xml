@@ -13,7 +13,7 @@
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="came" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="come" lexcat="V.IAV" lexlemma="come with" lextag="B-V.IAV-v.social" local_toknums="3 4" misc="null" orig_paragraph="1" remarks="0.59" smwe="[1, 1]" ss="v.social" ss2="null" toknums="59 60" upos="VERB" wmwe="null" word="came" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="come" lextag="B-V-v.social" misc="null" orig_paragraph="1" remarks="0.59" smwe="[1, 1]" upos="VERB" wmwe="null" word="came" xpos="VBD" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="with" />
@@ -25,7 +25,7 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="balance" />
-      <extra deprel="obl" edeps="3:obl:with" feats="Number=Sing" head="3" lemma="balance" lexcat="N" lexlemma="balance" lextag="O-N-n.ACT" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.62" smwe="null" ss="n.ACT" ss2="null" toknums="62" upos="NOUN" wmwe="null" word="balance" xpos="NN" />
+      <extra deprel="obl" edeps="3:obl" feats="Number=Sing" head="3" lemma="balance" lextag="O-N-n.ACT" misc="null" orig_paragraph="1" remarks="0.62" smwe="null" upos="NOUN" wmwe="null" word="balance" xpos="NN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="and" />
@@ -33,7 +33,7 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="rotation" />
-      <extra deprel="conj" edeps="3:obl:with|6:conj:and" feats="Number=Sing" head="6" lemma="rotation" lexcat="N" lexlemma="rotation" lextag="O-N-n.ACT" local_toknums="8" misc="null" orig_paragraph="1" remarks="0.64" smwe="null" ss="n.ACT" ss2="null" toknums="64" upos="NOUN" wmwe="null" word="rotation" xpos="NN" />
+      <extra deprel="conj" edeps="6:conj" feats="Number=Sing" head="6" lemma="rotation" lextag="O-N-n.ACT" misc="null" orig_paragraph="1" remarks="0.64" smwe="null" upos="NOUN" wmwe="null" word="rotation" xpos="NN" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="for" />
@@ -45,7 +45,7 @@
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="life" />
-      <extra deprel="nmod" edeps="6:nmod:for" feats="Number=Sing" head="6" lemma="life" lexcat="N" lexlemma="life" lextag="O-N-n.PHENOMENON" local_toknums="11" misc="null" orig_paragraph="1" remarks="0.67" smwe="null" ss="n.PHENOMENON" ss2="null" toknums="67" upos="NOUN" wmwe="null" word="life" xpos="NN" />
+      <extra deprel="nmod" edeps="6:nmod" feats="Number=Sing" head="6" lemma="life" lextag="O-N-n.PHENOMENON" misc="null" orig_paragraph="1" remarks="0.67" smwe="null" upos="NOUN" wmwe="null" word="life" xpos="NN" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="of" />
@@ -57,7 +57,7 @@
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="tires" />
-      <extra deprel="nmod" edeps="11:nmod:of" feats="Number=Plur" head="11" lemma="tire" lexcat="N" lexlemma="tire" lextag="O-N-n.ARTIFACT" local_toknums="14" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.70" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="70" upos="NOUN" wmwe="null" word="tires" xpos="NNS" />
+      <extra deprel="nmod" edeps="11:nmod" feats="Number=Plur" head="11" lemma="tire" lextag="O-N-n.ARTIFACT" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.70" smwe="null" upos="NOUN" wmwe="null" word="tires" xpos="NNS" />
     </node>
     <node ID="0.15" type="Punctuation">
       <attributes paragraph="1" paragraph_position="15" text="!" />

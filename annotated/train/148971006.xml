@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="months" />
-      <extra deprel="nsubj" edeps="11:nsubj" feats="Number=Plur" head="11" lemma="month" lexcat="N" lexlemma="month" lextag="O-N-n.TIME" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.134" smwe="null" ss="n.TIME" ss2="null" toknums="134" upos="NOUN" wmwe="null" word="months" xpos="NNS" />
+      <extra deprel="nsubj" edeps="11:nsubj" feats="Number=Plur" head="11" lemma="month" lextag="O-N-n.TIME" misc="null" orig_paragraph="1" remarks="0.134" smwe="null" upos="NOUN" wmwe="null" word="months" xpos="NNS" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="and" />
@@ -21,7 +21,7 @@
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="least" />
-      <extra deprel="nmod" edeps="7:nmod:at" feats="Degree=Sup" head="7" lemma="least" lextag="I_" misc="null" orig_paragraph="1" remarks="0.137" smwe="[1, 2]" upos="ADV" wmwe="null" word="least" xpos="RBS" />
+      <extra deprel="nmod" edeps="7:nmod" feats="Degree=Sup" head="7" lemma="least" lextag="I_" misc="null" orig_paragraph="1" remarks="0.137" smwe="[1, 2]" upos="ADV" wmwe="null" word="least" xpos="RBS" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="two" />
@@ -29,11 +29,11 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="months" />
-      <extra deprel="conj" edeps="2:conj:and|11:nsubj" feats="Number=Plur" head="2" lemma="month" lexcat="N" lexlemma="month" lextag="O-N-n.TIME" local_toknums="7" misc="null" orig_paragraph="1" remarks="0.139" smwe="null" ss="n.TIME" ss2="null" toknums="139" upos="NOUN" wmwe="null" word="months" xpos="NNS" />
+      <extra deprel="conj" edeps="2:conj" feats="Number=Plur" head="2" lemma="month" lextag="O-N-n.TIME" misc="null" orig_paragraph="1" remarks="0.139" smwe="null" upos="NOUN" wmwe="null" word="months" xpos="NNS" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="are" />
-      <extra deprel="cop" edeps="11:cop" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="11" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="8" misc="null" orig_paragraph="1" remarks="0.140" smwe="null" ss="v.stative" ss2="null" toknums="140" upos="AUX" wmwe="null" word="are" xpos="VBP" />
+      <extra deprel="cop" edeps="11:cop" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="11" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.140" smwe="null" upos="AUX" wmwe="null" word="are" xpos="VBP" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="totally" />
@@ -92,7 +92,7 @@
     </node>
     <node ID="1.3" type="PNCT">
       <attributes />
-      <extra remarks="1.469" />
+      <extra remarks="1.470" />
       <edge toID="0.12" type="Terminal">
         <attributes />
         <category tag="Terminal" />
