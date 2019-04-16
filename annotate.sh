@@ -6,5 +6,5 @@ for div in train dev test; do
   python -m semstr.scripts.annotate ../UCCA_English-EWT/sentences/$div -s en -o stanfordnlp/$div -ae
   python -m semstr.scripts.annotate ../UCCA_English-EWT/sentences/$div -o spacy/$div -ae
   python -m semstr.scripts.annotate ../UCCA_English-EWT/sentences/$div -c ../UD_English-EWT/en_ewt-ud-$div.conllu -o goldud/$div -ae
-  python annotate_structural.py annotated/$div -f ../streusle/$div/xml -o annotated_structure/$div
+  python annotate_structural.py goldud/$div -f ../streusle/$div/xml -c annotated/$div -o annotated_structure/$div
 done
