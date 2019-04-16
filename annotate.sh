@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget https://raw.githubusercontent.com/danielhers/tupa/streusle-features/tupa/scripts/annotate_structural.py
+[[ -f annotated_structure.py ]] || wget https://raw.githubusercontent.com/danielhers/tupa/streusle-features/tupa/scripts/annotate_structural.py
 for div in train dev test; do
   python -m semstr.scripts.annotate ../UCCA_English-EWT/sentences/$div -u ../udpipe/models/english-ewt-ud-2.3-181115.udpipe -o udpipe/$div -ae
   python -m semstr.scripts.annotate ../UCCA_English-EWT/sentences/$div -s en -o stanfordnlp/$div -ae
