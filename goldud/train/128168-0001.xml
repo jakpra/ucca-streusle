@@ -5,39 +5,39 @@
     <extra doc="[[[13082494150066684235, 12747335289542760454, 10554686591937588953, 84, 0, 2, 402, 1, 16072095006890171862, 10603054956214495369, 1344279032286957731], [5583843279275395515, 5583843279275395515, 15794550382381185553, 96, 0, 2, 8206900633647566924, 0, 16072095006890171862, 10850957288794122991, 7400529878339724166], [5640369432778651323, 5640369432778651323, 1292078113972184607, 85, 0, 2, 443, -1, 4370460163704169311, 1489474827855109852, 5640369432778651323], [11180802170221939018, 11180802170221939018, 15794550382381185553, 96, 384, 3, 7037928807040764755, 1, 16072095006890171862, 149303876845869574, 7644437101305892776], [16623299875770883202, 16623299875770883202, 15794550382381185553, 96, 384, 1, 439, -2, 17096342708991983284, 12290980237632234855, 16623299875770883202], [3002984154512732771, 3002984154512732771, 1292078113972184607, 85, 0, 2, 443, -1, 4370460163704169311, 5097672513440128799, 3002984154512732771], [4416895232847471026, 4416895232847471026, 15794550382381185553, 96, 384, 3, 439, -1, 16072095006890171862, 10603054956214495369, 5826824642517542187], [2593208677638477497, 2593208677638477497, 2593208677638477497, 97, 0, 2, 445, -1, 2593208677638477497, 2593208677638477497, 2593208677638477497], [18040812117822614091, 18040812117822614091, 15794550382381185553, 96, 384, 3, 439, -1, 14968597813295776895, 10850957288794122991, 18040812117822614091]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Lovely" />
-      <extra orig_paragraph="1" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="1" lemma="lovely" orig_paragraph="1" orth="Lovely" pos="ADJ" prefix="L" shape="Xxxxx" suffix="ely" tag="JJ" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Nails" />
-      <extra orig_paragraph="1" />
+      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="Nails" orig_paragraph="1" orth="Nails" pos="PROPN" prefix="N" shape="Xxxxx" suffix="ils" tag="NNP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="on" />
-      <extra orig_paragraph="1" />
+      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="on" orig_paragraph="1" orth="on" pos="ADP" prefix="o" shape="xx" suffix="on" tag="IN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Cayuga" />
-      <extra orig_paragraph="1" />
+      <extra dep="compound" ent_iob="3" ent_type="GPE" head="1" lemma="Cayuga" orig_paragraph="1" orth="Cayuga" pos="PROPN" prefix="C" shape="Xxxxx" suffix="uga" tag="NNP" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="St." />
-      <extra orig_paragraph="1" />
+      <extra dep="pobj" ent_iob="1" ent_type="GPE" head="-2" lemma="St." orig_paragraph="1" orth="St." pos="PROPN" prefix="S" shape="Xx." suffix="St." tag="NNP" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="in" />
-      <extra orig_paragraph="1" />
+      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="in" orig_paragraph="1" orth="in" pos="ADP" prefix="i" shape="xx" suffix="in" tag="IN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="Lewiston" />
-      <extra orig_paragraph="1" />
+      <extra dep="pobj" ent_iob="3" ent_type="GPE" head="-1" lemma="Lewiston" orig_paragraph="1" orth="Lewiston" pos="PROPN" prefix="L" shape="Xxxxx" suffix="ton" tag="NNP" />
     </node>
     <node ID="0.8" type="Punctuation">
       <attributes paragraph="1" paragraph_position="8" text="," />
-      <extra orig_paragraph="1" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="," orig_paragraph="1" orth="," pos="PUNCT" prefix="," shape="," suffix="," tag="," />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="NY" />
-      <extra orig_paragraph="1" />
+      <extra dep="pobj" ent_iob="3" ent_type="GPE" head="-1" lemma="NY" orig_paragraph="1" orth="NY" pos="PROPN" prefix="N" shape="XX" suffix="NY" tag="NNP" />
     </node>
   </layer>
   <layer layerID="1">

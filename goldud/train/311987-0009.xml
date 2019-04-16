@@ -5,23 +5,23 @@
     <extra doc="[[[17944108875402847331, 17944108875402847331, 15794550382381185553, 96, 383, 3, 429, 1, 10887629174180191697, 5582244037879929967, 14566506874396066252], [3411606890003347522, 10382539506755952630, 13927759927860985106, 100, 0, 2, 8206900633647566924, 0, 4370460163704169311, 5097672513440128799, 3411606890003347522], [447765159362469301, 447765159362469301, 164681854541413346, 86, 0, 2, 425, -1, 4088098365541558500, 13210364986222294696, 447765159362469301], [9781598966686434415, 9781598966686434415, 164681854541413346, 86, 0, 2, 400, 1, 4370460163704169311, 16978132545290669629, 9781598966686434415], [8881679497796027013, 8881679497796027013, 10554686591937588953, 84, 0, 2, 398, -3, 13110060611322374290, 6217145520856553898, 9837207709914848172]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Trek" />
-      <extra orig_paragraph="1" />
+      <extra dep="nsubj" ent_iob="3" ent_type="ORG" head="1" lemma="Trek" orig_paragraph="1" orth="Trek" pos="PROPN" prefix="T" shape="Xxxx" suffix="rek" tag="NNP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="is" />
-      <extra orig_paragraph="1" />
+      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="be" orig_paragraph="1" orth="is" pos="VERB" prefix="i" shape="xx" suffix="is" tag="VBZ" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="not" />
-      <extra orig_paragraph="1" />
+      <extra dep="neg" ent_iob="2" ent_type="" head="-1" lemma="not" orig_paragraph="1" orth="not" pos="ADV" prefix="n" shape="xxx" suffix="not" tag="RB" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="so" />
-      <extra orig_paragraph="1" />
+      <extra dep="advmod" ent_iob="2" ent_type="" head="1" lemma="so" orig_paragraph="1" orth="so" pos="ADV" prefix="s" shape="xx" suffix="so" tag="RB" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="great" />
-      <extra orig_paragraph="1" />
+      <extra dep="acomp" ent_iob="2" ent_type="" head="-3" lemma="great" orig_paragraph="1" orth="great" pos="ADJ" prefix="g" shape="xxxx" suffix="eat" tag="JJ" />
     </node>
   </layer>
   <layer layerID="1">
