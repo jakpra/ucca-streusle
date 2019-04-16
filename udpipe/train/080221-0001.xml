@@ -5,23 +5,23 @@
     <extra doc="[[[14815795315979193981, 14815795315979193981, 15794550382381185553, 96, 380, 3, 7037928807040764755, 1, 10887629174180191697, 9350754067018752509, 13285439290294838763], [14845642866201588396, 14845642866201588396, 15794550382381185553, 96, 380, 1, 449, 0, 16072095006890171862, 3929483993944067416, 13917291617986564764], [886050111519832510, 886050111519832510, 1292078113972184607, 85, 0, 2, 8110129090154140942, 2, 4370460163704169311, 1489474827855109852, 886050111519832510], [7425985699627899538, 7425985699627899538, 15267657372422890137, 90, 0, 2, 415, 1, 4088098365541558500, 15369245168918225700, 7425985699627899538], [17454158605054592686, 17454158605054592686, 15794550382381185553, 96, 0, 2, 426, -3, 10887629174180191697, 16961793518281001049, 14872279755251211665]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Hino" />
-      <extra orig_paragraph="1" />
+      <extra dep="compound" ent_iob="3" ent_type="PERSON" head="1" lemma="Hino" orig_paragraph="1" orth="Hino" pos="PROPN" prefix="H" shape="Xxxx" suffix="ino" tag="NNP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Dealer" />
-      <extra orig_paragraph="1" />
+      <extra dep="root" ent_iob="1" ent_type="PERSON" head="0" lemma="Dealer" orig_paragraph="1" orth="Dealer" pos="PROPN" prefix="D" shape="Xxxxx" suffix="ler" tag="NNP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="of" />
-      <extra orig_paragraph="1" />
+      <extra dep="case" ent_iob="2" ent_type="" head="2" lemma="of" orig_paragraph="1" orth="of" pos="ADP" prefix="o" shape="xx" suffix="of" tag="IN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="the" />
-      <extra orig_paragraph="1" />
+      <extra dep="det" ent_iob="2" ent_type="" head="1" lemma="the" orig_paragraph="1" orth="the" pos="DET" prefix="t" shape="xxx" suffix="the" tag="DT" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="Year" />
-      <extra orig_paragraph="1" />
+      <extra dep="nmod" ent_iob="2" ent_type="" head="-3" lemma="Year" orig_paragraph="1" orth="Year" pos="PROPN" prefix="Y" shape="Xxxx" suffix="ear" tag="NNP" />
     </node>
   </layer>
   <layer layerID="1">

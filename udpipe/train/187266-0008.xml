@@ -5,43 +5,43 @@
     <extra doc="[[[13160736844271464609, 18064169627558009102, 14200088355797579614, 100, 0, 2, 449, 0, 16072095006890171862, 5582244037879929967, 9837207709914848172], [3109722610398367559, 3109722610398367559, 13656873538139661788, 95, 0, 2, 434, -1, 13110060611322374290, 9409450202036847209, 2217932081129937342], [2283656566040971221, 2283656566040971221, 17571114184892886314, 89, 0, 2, 407, 1, 4088098365541558500, 11901859001352538922, 2283656566040971221], [8004577259940138793, 8004577259940138793, 14200088355797579614, 100, 0, 2, 410, -3, 4370460163704169311, 6217145520856553898, 8004577259940138793], [10501404726543969396, 10501404726543969396, 2593208677638477497, 97, 0, 2, 445, -4, 10501404726543969396, 9153284864653046197, 10501404726543969396], [7624161793554793053, 7624161793554793053, 13656873538139661788, 95, 0, 2, 429, 2, 4088098365541558500, 9409450202036847209, 7624161793554793053], [18307573501153647118, 18307573501153647118, 16235386156175103506, 87, 0, 2, 405, 1, 13110060611322374290, 260667111241363922, 10522273805588696859], [8004577259940138793, 8004577259940138793, 14200088355797579614, 100, 0, 2, 436, -7, 4370460163704169311, 6217145520856553898, 8004577259940138793], [15255859468896132977, 15255859468896132977, 164681854541413346, 86, 0, 2, 400, -1, 13110060611322374290, 15598372446745583797, 12794475650786432352], [17494803046312582752, 17494803046312582752, 12646065887601541794, 97, 0, 2, 445, -9, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Treat" />
-      <extra orig_paragraph="1" />
+      <extra dep="root" ent_iob="2" ent_type="" head="7" lemma="treat" orig_paragraph="1" orth="Treat" pos="VERB" prefix="T" shape="Xxxxx" suffix="eat" tag="VB" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="yourself" />
-      <extra orig_paragraph="1" />
+      <extra dep="obj" ent_iob="2" ent_type="" head="-1" lemma="yourself" orig_paragraph="1" orth="yourself" pos="PRON" prefix="y" shape="xxxx" suffix="elf" tag="PRP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="and" />
-      <extra orig_paragraph="1" />
+      <extra dep="cc" ent_iob="2" ent_type="" head="1" lemma="and" orig_paragraph="1" orth="and" pos="CCONJ" prefix="a" shape="xxx" suffix="and" tag="CC" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="go" />
-      <extra orig_paragraph="1" />
+      <extra dep="conj" ent_iob="2" ent_type="" head="-3" lemma="go" orig_paragraph="1" orth="go" pos="VERB" prefix="g" shape="xx" suffix="go" tag="VB" />
     </node>
     <node ID="0.5" type="Punctuation">
       <attributes paragraph="1" paragraph_position="5" text="--" />
-      <extra orig_paragraph="1" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-4" lemma="--" orig_paragraph="1" orth="--" pos="PUNCT" prefix="-" shape="--" suffix="--" tag="," />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="you" />
-      <extra orig_paragraph="1" />
+      <extra dep="nsubj" ent_iob="2" ent_type="" head="2" lemma="you" orig_paragraph="1" orth="you" pos="PRON" prefix="y" shape="xxx" suffix="you" tag="PRP" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="will" />
-      <extra orig_paragraph="1" />
+      <extra dep="aux" ent_iob="2" ent_type="" head="1" lemma="will" orig_paragraph="1" orth="will" pos="AUX" prefix="w" shape="xxxx" suffix="ill" tag="MD" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="go" />
-      <extra orig_paragraph="1" />
+      <extra dep="parataxis" ent_iob="2" ent_type="" head="-7" lemma="go" orig_paragraph="1" orth="go" pos="VERB" prefix="g" shape="xx" suffix="go" tag="VB" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="back" />
-      <extra orig_paragraph="1" />
+      <extra dep="advmod" ent_iob="2" ent_type="" head="-1" lemma="back" orig_paragraph="1" orth="back" pos="ADV" prefix="b" shape="xxxx" suffix="ack" tag="RB" />
     </node>
     <node ID="0.10" type="Punctuation">
       <attributes paragraph="1" paragraph_position="10" text="!" />
-      <extra orig_paragraph="1" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-9" lemma="!" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" shape="!" suffix="!" tag="." />
     </node>
   </layer>
   <layer layerID="1">

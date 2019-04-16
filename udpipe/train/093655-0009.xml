@@ -5,27 +5,27 @@
     <extra doc="[[[1286636410600250842, 1286636410600250842, 15794550382381185553, 96, 384, 3, 7037928807040764755, 1, 16072095006890171862, 5582244037879929967, 16869941268100621406], [7428392509596984644, 7428392509596984644, 15794550382381185553, 96, 0, 2, 429, 3, 16072095006890171862, 16337536289976144572, 6873750497785110593], [3411606890003347522, 10382539506755952630, 13927759927860985106, 87, 0, 2, 411, 2, 4370460163704169311, 5097672513440128799, 3411606890003347522], [6740271432459014555, 6878210874361030284, 164681854541413346, 86, 0, 2, 400, 1, 3552942401566437853, 14825646868312541310, 6740271432459014555], [13468287115010965206, 13468287115010965206, 272890857012483650, 84, 0, 2, 449, 0, 13110060611322374290, 15598372446745583797, 16111258787187009011], [4253493419013473486, 4253493419013473486, 12646065887601541794, 97, 0, 2, 445, -1, 4253493419013473486, 17494803046312582752, 4253493419013473486]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Texas" />
-      <extra orig_paragraph="1" />
+      <extra dep="compound" ent_iob="3" ent_type="GPE" head="1" lemma="Texas" orig_paragraph="1" orth="Texas" pos="PROPN" prefix="T" shape="Xxxxx" suffix="xas" tag="NNP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Roadhouse" />
-      <extra orig_paragraph="1" />
+      <extra dep="nsubj" ent_iob="2" ent_type="" head="3" lemma="Roadhouse" orig_paragraph="1" orth="Roadhouse" pos="PROPN" prefix="R" shape="Xxxxx" suffix="use" tag="NNP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="is" />
-      <extra orig_paragraph="1" />
+      <extra dep="cop" ent_iob="2" ent_type="" head="2" lemma="be" orig_paragraph="1" orth="is" pos="AUX" prefix="i" shape="xx" suffix="is" tag="VBZ" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="WAY" />
-      <extra orig_paragraph="1" />
+      <extra dep="advmod" ent_iob="2" ent_type="" head="1" lemma="way" orig_paragraph="1" orth="WAY" pos="ADV" prefix="W" shape="XXX" suffix="WAY" tag="RB" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="better" />
-      <extra orig_paragraph="1" />
+      <extra dep="root" ent_iob="2" ent_type="" head="-2" lemma="better" orig_paragraph="1" orth="better" pos="ADJ" prefix="b" shape="xxxx" suffix="ter" tag="JJR" />
     </node>
     <node ID="0.6" type="Punctuation">
       <attributes paragraph="1" paragraph_position="6" text="!!" />
-      <extra orig_paragraph="1" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="!!" orig_paragraph="1" orth="!!" pos="PUNCT" prefix="!" shape="!!" suffix="!!" tag="." />
     </node>
   </layer>
   <layer layerID="1">

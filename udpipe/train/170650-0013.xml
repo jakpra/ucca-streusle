@@ -5,43 +5,43 @@
     <extra doc="[[[4702673633009417316, 4702673633009417316, 15794550382381185553, 96, 380, 3, 7037928807040764755, 2, 16072095006890171862, 16337536289976144572, 5013609920864673658], [7192747039380374936, 7192747039380374936, 15794550382381185553, 96, 380, 1, 7037928807040764755, 1, 4544266894710282985, 3209455878668673793, 7192747039380374936], [11611782106838836593, 11611782106838836593, 15794550382381185553, 96, 380, 1, 449, 0, 16072095006890171862, 10603054956214495369, 8763145503621571671], [8095685968348925184, 9206123585699053632, 10554686591937588953, 84, 0, 2, 402, 1, 16072095006890171862, 16337536289976144572, 17551718516836219974], [17353167980776124806, 2068705132202320188, 15308085513773655218, 92, 0, 2, 403, -2, 16072095006890171862, 149303876845869574, 16986153139410903314], [2593208677638477497, 2593208677638477497, 2593208677638477497, 97, 0, 2, 445, -3, 2593208677638477497, 2593208677638477497, 2593208677638477497], [7496166116523034490, 7496166116523034490, 15794550382381185553, 96, 383, 3, 7037928807040764755, 1, 16072095006890171862, 149303876845869574, 8179384140789734470], [4711421789829454093, 4711421789829454093, 15794550382381185553, 96, 383, 1, 7037928807040764755, 2, 16072095006890171862, 149303876845869574, 2123943893838069919], [7456905267358575394, 7456905267358575394, 15794550382381185553, 96, 383, 1, 7037928807040764755, 1, 16072095006890171862, 12290980237632234855, 4631154258224306596], [197197336512611397, 197197336512611397, 15794550382381185553, 96, 383, 1, 403, -7, 16072095006890171862, 3929483993944067416, 7984095891839822198]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Rocky" />
-      <extra orig_paragraph="1" />
+      <extra dep="compound" ent_iob="3" ent_type="PERSON" head="2" lemma="Rocky" orig_paragraph="1" orth="Rocky" pos="PROPN" prefix="R" shape="Xxxxx" suffix="cky" tag="NNP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="M." />
-      <extra orig_paragraph="1" />
+      <extra dep="compound" ent_iob="1" ent_type="PERSON" head="1" lemma="M." orig_paragraph="1" orth="M." pos="PROPN" prefix="M" shape="X." suffix="M." tag="NNP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="Lange" />
-      <extra orig_paragraph="1" />
+      <extra dep="root" ent_iob="1" ent_type="PERSON" head="2" lemma="Lange" orig_paragraph="1" orth="Lange" pos="PROPN" prefix="L" shape="Xxxxx" suffix="nge" tag="NNP" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Retired" />
-      <extra orig_paragraph="1" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="1" lemma="retired" orig_paragraph="1" orth="Retired" pos="ADJ" prefix="R" shape="Xxxxx" suffix="red" tag="JJ" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="Coordinator" />
-      <extra orig_paragraph="1" />
+      <extra dep="appos" ent_iob="2" ent_type="" head="-2" lemma="coordinator" orig_paragraph="1" orth="Coordinator" pos="NOUN" prefix="C" shape="Xxxxx" suffix="tor" tag="NN" />
     </node>
     <node ID="0.6" type="Punctuation">
       <attributes paragraph="1" paragraph_position="6" text="," />
-      <extra orig_paragraph="1" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-3" lemma="," orig_paragraph="1" orth="," pos="PUNCT" prefix="," shape="," suffix="," tag="," />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="Clark" />
-      <extra orig_paragraph="1" />
+      <extra dep="compound" ent_iob="3" ent_type="ORG" head="1" lemma="Clark" orig_paragraph="1" orth="Clark" pos="PROPN" prefix="C" shape="Xxxxx" suffix="ark" tag="NNP" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="County" />
-      <extra orig_paragraph="1" />
+      <extra dep="compound" ent_iob="1" ent_type="ORG" head="2" lemma="County" orig_paragraph="1" orth="County" pos="PROPN" prefix="C" shape="Xxxxx" suffix="nty" tag="NNP" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="School" />
-      <extra orig_paragraph="1" />
+      <extra dep="compound" ent_iob="1" ent_type="ORG" head="1" lemma="School" orig_paragraph="1" orth="School" pos="PROPN" prefix="S" shape="Xxxxx" suffix="ool" tag="NNP" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="District" />
-      <extra orig_paragraph="1" />
+      <extra dep="appos" ent_iob="1" ent_type="ORG" head="-7" lemma="District" orig_paragraph="1" orth="District" pos="PROPN" prefix="D" shape="Xxxxx" suffix="ict" tag="NNP" />
     </node>
   </layer>
   <layer layerID="1">

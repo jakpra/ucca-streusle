@@ -5,23 +5,23 @@
     <extra doc="[[[17072491697737356008, 9562838480087292809, 15308085513773655218, 92, 383, 3, 7037928807040764755, 4, 16072095006890171862, 16829822105563051112, 14432934319865826938], [2283656566040971221, 2283656566040971221, 17571114184892886314, 89, 383, 1, 407, 2, 4088098365541558500, 11901859001352538922, 2283656566040971221], [6950287807344158680, 7369875328865446693, 10554686591937588953, 84, 383, 1, 402, 1, 16072095006890171862, 3929483993944067416, 11960532512963341329], [13802559706346492444, 478886015463313967, 783433942507015291, 92, 383, 1, 410, -3, 16072095006890171862, 10850957288794122991, 7217447295428548820], [13427265767486740119, 7338335557000497525, 15308085513773655218, 92, 383, 1, 449, 0, 16072095006890171862, 12290980237632234855, 16639369580702547507]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Grocery" />
-      <extra orig_paragraph="1" />
+      <extra dep="compound" ent_iob="3" ent_type="ORG" head="4" lemma="grocery" orig_paragraph="1" orth="Grocery" pos="NOUN" prefix="G" shape="Xxxxx" suffix="ery" tag="NN" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="and" />
-      <extra orig_paragraph="1" />
+      <extra dep="cc" ent_iob="1" ent_type="ORG" head="2" lemma="and" orig_paragraph="1" orth="and" pos="CCONJ" prefix="a" shape="xxx" suffix="and" tag="CC" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="Daily" />
-      <extra orig_paragraph="1" />
+      <extra dep="amod" ent_iob="1" ent_type="ORG" head="1" lemma="daily" orig_paragraph="1" orth="Daily" pos="ADJ" prefix="D" shape="Xxxxx" suffix="ily" tag="JJ" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Needs" />
-      <extra orig_paragraph="1" />
+      <extra dep="conj" ent_iob="1" ent_type="ORG" head="-3" lemma="need" orig_paragraph="1" orth="Needs" pos="NOUN" prefix="N" shape="Xxxxx" suffix="eds" tag="NNS" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="Store" />
-      <extra orig_paragraph="1" />
+      <extra dep="root" ent_iob="1" ent_type="ORG" head="-4" lemma="store" orig_paragraph="1" orth="Store" pos="NOUN" prefix="S" shape="Xxxxx" suffix="ore" tag="NN" />
     </node>
   </layer>
   <layer layerID="1">

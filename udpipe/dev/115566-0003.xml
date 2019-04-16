@@ -5,27 +5,27 @@
     <extra doc="[[[12921814047719899021, 12921814047719899021, 15794550382381185553, 96, 0, 2, 429, 4, 17096342708991983284, 3929483993944067416, 12921814047719899021], [12831166701826912234, 12831166701826912234, 15794550382381185553, 96, 380, 3, 2666271516716718244, -1, 10887629174180191697, 3929483993944067416, 4554426888101169433], [3411606890003347522, 10382539506755952630, 13927759927860985106, 87, 0, 2, 411, 2, 4370460163704169311, 5097672513440128799, 3411606890003347522], [2661093235354845946, 1655312771067108281, 4062917326063685704, 95, 0, 2, 1227985075839834553, 1, 4088098365541558500, 15817570140490810055, 2661093235354845946], [17870452617554995862, 17870452617554995862, 15308085513773655218, 92, 0, 2, 449, 0, 13110060611322374290, 15598372446745583797, 17411569730957288347], [12646065887601541794, 12646065887601541794, 12646065887601541794, 97, 0, 2, 445, -1, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Dr." />
-      <extra orig_paragraph="1" />
+      <extra dep="nsubj" ent_iob="2" ent_type="" head="4" lemma="Dr." orig_paragraph="1" orth="Dr." pos="PROPN" prefix="D" shape="Xx." suffix="Dr." tag="NNP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Dorn" />
-      <extra orig_paragraph="1" />
+      <extra dep="flat" ent_iob="3" ent_type="PERSON" head="-1" lemma="Dorn" orig_paragraph="1" orth="Dorn" pos="PROPN" prefix="D" shape="Xxxx" suffix="orn" tag="NNP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="is" />
-      <extra orig_paragraph="1" />
+      <extra dep="cop" ent_iob="2" ent_type="" head="2" lemma="be" orig_paragraph="1" orth="is" pos="AUX" prefix="i" shape="xx" suffix="is" tag="VBZ" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="his" />
-      <extra orig_paragraph="1" />
+      <extra dep="nmod:poss" ent_iob="2" ent_type="" head="1" lemma="he" orig_paragraph="1" orth="his" pos="PRON" prefix="h" shape="xxx" suffix="his" tag="PRP$" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="backup" />
-      <extra orig_paragraph="1" />
+      <extra dep="root" ent_iob="2" ent_type="" head="-2" lemma="backup" orig_paragraph="1" orth="backup" pos="NOUN" prefix="b" shape="xxxx" suffix="kup" tag="NN" />
     </node>
     <node ID="0.6" type="Punctuation">
       <attributes paragraph="1" paragraph_position="6" text="." />
-      <extra orig_paragraph="1" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="." orig_paragraph="1" orth="." pos="PUNCT" prefix="." shape="." suffix="." tag="." />
     </node>
   </layer>
   <layer layerID="1">

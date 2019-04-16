@@ -5,35 +5,35 @@
     <extra doc="[[[3467517236374042109, 6740321247510922449, 13656873538139661788, 95, 0, 2, 429, 1, 3552942401566437853, 12290980237632234855, 3467517236374042109], [6603341995706161228, 7743033266031195906, 13927759927860985106, 100, 0, 2, 449, 0, 13862804199789047564, 8656007278630577320, 10749432686673713490], [7403947472428570677, 8881679497796027013, 10554686591937588953, 84, 0, 2, 402, 1, 13862804199789047564, 16829822105563051112, 16560757395776560528], [17898275690771780158, 18057327756930201825, 15308085513773655218, 92, 0, 2, 434, -2, 13862804199789047564, 9148987913859918431, 10918283356755374517], [15782361296849931437, 2283656566040971221, 17571114184892886314, 89, 0, 2, 407, 2, 3552942401566437853, 14862748245026736845, 15782361296849931437], [4261824090880401439, 12709037649632472568, 15308085513773655218, 92, 0, 2, 7037928807040764755, 1, 13862804199789047564, 3929483993944067416, 14782788761692149611], [3474414832420155435, 12090100147684300169, 783433942507015291, 92, 0, 2, 410, -3, 13862804199789047564, 9391737413944127320, 738554709527483190], [12646065887601541794, 12646065887601541794, 12646065887601541794, 97, 0, 2, 445, -6, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="SHE" />
-      <extra orig_paragraph="1" />
+      <extra dep="nsubj" ent_iob="2" ent_type="" head="1" lemma="she" orig_paragraph="1" orth="SHE" pos="PRON" prefix="S" shape="XXX" suffix="SHE" tag="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="KNOWS" />
-      <extra orig_paragraph="1" />
+      <extra dep="root" ent_iob="2" ent_type="" head="0" lemma="know" orig_paragraph="1" orth="KNOWS" pos="VERB" prefix="K" shape="XXXX" suffix="OWS" tag="VBZ" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="GREAT" />
-      <extra orig_paragraph="1" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="1" lemma="great" orig_paragraph="1" orth="GREAT" pos="ADJ" prefix="G" shape="XXXX" suffix="EAT" tag="JJ" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="FOOD" />
-      <extra orig_paragraph="1" />
+      <extra dep="obj" ent_iob="2" ent_type="" head="-2" lemma="food" orig_paragraph="1" orth="FOOD" pos="NOUN" prefix="F" shape="XXXX" suffix="OOD" tag="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="AND" />
-      <extra orig_paragraph="1" />
+      <extra dep="cc" ent_iob="2" ent_type="" head="2" lemma="and" orig_paragraph="1" orth="AND" pos="CCONJ" prefix="A" shape="XXX" suffix="AND" tag="CC" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="DINING" />
-      <extra orig_paragraph="1" />
+      <extra dep="compound" ent_iob="2" ent_type="" head="1" lemma="dining" orig_paragraph="1" orth="DINING" pos="NOUN" prefix="D" shape="XXXX" suffix="ING" tag="NN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="EXPERIENCES" />
-      <extra orig_paragraph="1" />
+      <extra dep="conj" ent_iob="2" ent_type="" head="-3" lemma="experience" orig_paragraph="1" orth="EXPERIENCES" pos="NOUN" prefix="E" shape="XXXX" suffix="CES" tag="NNS" />
     </node>
     <node ID="0.8" type="Punctuation">
       <attributes paragraph="1" paragraph_position="8" text="." />
-      <extra orig_paragraph="1" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-6" lemma="." orig_paragraph="1" orth="." pos="PUNCT" prefix="." shape="." suffix="." tag="." />
     </node>
   </layer>
   <layer layerID="1">

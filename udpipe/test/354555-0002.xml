@@ -5,27 +5,27 @@
     <extra doc="[[[2283656566040971221, 2283656566040971221, 17571114184892886314, 89, 0, 2, 407, 4, 4088098365541558500, 11901859001352538922, 2283656566040971221], [7425985699627899538, 7425985699627899538, 15267657372422890137, 90, 0, 2, 415, 1, 4088098365541558500, 15369245168918225700, 7425985699627899538], [7593739049417968140, 7593739049417968140, 783433942507015291, 92, 0, 2, 429, 2, 13110060611322374290, 8861071527689086543, 16838316573854262908], [5012629990875267006, 10382539506755952630, 9188597074677201817, 87, 0, 2, 411, 1, 4088098365541558500, 11901859001352538922, 5012629990875267006], [4037681670669609543, 4037681670669609543, 10554686591937588953, 84, 0, 2, 449, 0, 13110060611322374290, 16978132545290669629, 9923973541365920147], [5920004935509210957, 5920004935509210957, 14872845191859177490, 99, 0, 2, 32368682835521138, -1, 5920004935509210957, 11532473245541075862, 5920004935509210957]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="and" />
-      <extra orig_paragraph="1" />
+      <extra dep="cc" ent_iob="2" ent_type="" head="4" lemma="and" orig_paragraph="1" orth="and" pos="CCONJ" prefix="a" shape="xxx" suffix="and" tag="CC" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="the" />
-      <extra orig_paragraph="1" />
+      <extra dep="det" ent_iob="2" ent_type="" head="1" lemma="the" orig_paragraph="1" orth="the" pos="DET" prefix="t" shape="xxx" suffix="the" tag="DT" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="people" />
-      <extra orig_paragraph="1" />
+      <extra dep="nsubj" ent_iob="2" ent_type="" head="2" lemma="people" orig_paragraph="1" orth="people" pos="NOUN" prefix="p" shape="xxxx" suffix="ple" tag="NNS" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="are" />
-      <extra orig_paragraph="1" />
+      <extra dep="cop" ent_iob="2" ent_type="" head="1" lemma="be" orig_paragraph="1" orth="are" pos="AUX" prefix="a" shape="xxx" suffix="are" tag="VBP" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="sweet" />
-      <extra orig_paragraph="1" />
+      <extra dep="root" ent_iob="2" ent_type="" head="-1" lemma="sweet" orig_paragraph="1" orth="sweet" pos="ADJ" prefix="s" shape="xxxx" suffix="eet" tag="JJ" />
     </node>
     <node ID="0.6" type="Punctuation">
       <attributes paragraph="1" paragraph_position="6" text=":)" />
-      <extra orig_paragraph="1" />
+      <extra dep="discourse" ent_iob="2" ent_type="" head="-1" lemma=":)" orig_paragraph="1" orth=":)" pos="SYM" prefix=":" shape=":)" suffix=":)" tag="NFP" />
     </node>
   </layer>
   <layer layerID="1">

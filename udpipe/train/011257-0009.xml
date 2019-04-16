@@ -5,19 +5,19 @@
     <extra doc="[[[3374232459564476082, 3374232459564476082, 15794550382381185553, 96, 380, 3, 449, 0, 16072095006890171862, 16337536289976144572, 1493767276839627183], [7192747039380374936, 7192747039380374936, 15794550382381185553, 96, 380, 1, 2666271516716718244, -1, 4544266894710282985, 3209455878668673793, 7192747039380374936], [2593208677638477497, 2593208677638477497, 2593208677638477497, 97, 0, 2, 445, -2, 2593208677638477497, 2593208677638477497, 2593208677638477497], [3173113726037577717, 3173113726037577717, 15794550382381185553, 96, 384, 3, 403, -3, 16072095006890171862, 14825646868312541310, 3147381831675906515]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Roger" />
-      <extra orig_paragraph="1" />
+      <extra dep="root" ent_iob="3" ent_type="PERSON" head="1" lemma="Roger" orig_paragraph="1" orth="Roger" pos="PROPN" prefix="R" shape="Xxxxx" suffix="ger" tag="NNP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="M." />
-      <extra orig_paragraph="1" />
+      <extra dep="flat" ent_iob="1" ent_type="PERSON" head="-1" lemma="M." orig_paragraph="1" orth="M." pos="PROPN" prefix="M" shape="X." suffix="M." tag="NNP" />
     </node>
     <node ID="0.3" type="Punctuation">
       <attributes paragraph="1" paragraph_position="3" text="," />
-      <extra orig_paragraph="1" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-2" lemma="," orig_paragraph="1" orth="," pos="PUNCT" prefix="," shape="," suffix="," tag="," />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Woodinville" />
-      <extra orig_paragraph="1" />
+      <extra dep="appos" ent_iob="3" ent_type="GPE" head="-3" lemma="Woodinville" orig_paragraph="1" orth="Woodinville" pos="PROPN" prefix="W" shape="Xxxxx" suffix="lle" tag="NNP" />
     </node>
   </layer>
   <layer layerID="1">

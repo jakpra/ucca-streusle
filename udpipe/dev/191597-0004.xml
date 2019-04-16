@@ -5,55 +5,55 @@
     <extra doc="[[[11435165368058203794, 11435165368058203794, 10554686591937588953, 84, 0, 2, 402, 1, 10887629174180191697, 9148987913859918431, 7828870370800362841], [5646669767552006879, 1720263546922585028, 783433942507015291, 92, 0, 2, 429, 4, 13110060611322374290, 15369245168918225700, 5827203507584285142], [5012629990875267006, 10382539506755952630, 9188597074677201817, 87, 0, 2, 411, 3, 4088098365541558500, 11901859001352538922, 5012629990875267006], [227504873216781231, 227504873216781231, 4062917326063685704, 95, 0, 2, 1227985075839834553, 2, 4370460163704169311, 646772771845179972, 227504873216781231], [8827386837104223792, 8827386837104223792, 10554686591937588953, 84, 0, 2, 402, 1, 13110060611322374290, 13110760720460257827, 13891979019686982531], [14749329488166600143, 14749329488166600143, 10554686591937588953, 84, 0, 2, 449, 0, 13110060611322374290, 16978132545290669629, 16838316573854262908], [2283656566040971221, 2283656566040971221, 17571114184892886314, 89, 0, 2, 407, 1, 4088098365541558500, 11901859001352538922, 2283656566040971221], [11394681264277079570, 2967419177637544458, 1534113631682161808, 100, 0, 2, 410, -2, 13110060611322374290, 13110760720460257827, 7679303661980345986], [1199885522574840802, 11694386822286564188, 164681854541413346, 86, 0, 2, 400, 1, 16072095006890171862, 9350754067018752509, 4609239387706200225], [5869997465047222503, 5869997465047222503, 14200088355797579614, 100, 0, 2, 450, -2, 13110060611322374290, 16562859848569467201, 18250316222013540736], [16281271840332988529, 8676063341920465065, 15794550382381185553, 96, 384, 3, 7037928807040764755, 1, 12204527652707022206, 3209455878668673793, 16281271840332988529], [8996970378922902597, 8996970378922902597, 15794550382381185553, 96, 384, 1, 434, -2, 16072095006890171862, 17714545831559622561, 13456245383108387159], [12646065887601541794, 12646065887601541794, 12646065887601541794, 97, 0, 2, 445, -7, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Fish" />
-      <extra orig_paragraph="1" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="1" lemma="Fish" orig_paragraph="1" orth="Fish" pos="ADJ" prefix="F" shape="Xxxx" suffix="ish" tag="JJ" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="tacos" />
-      <extra orig_paragraph="1" />
+      <extra dep="nsubj" ent_iob="2" ent_type="" head="4" lemma="taco" orig_paragraph="1" orth="tacos" pos="NOUN" prefix="t" shape="xxxx" suffix="cos" tag="NNS" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="are" />
-      <extra orig_paragraph="1" />
+      <extra dep="cop" ent_iob="2" ent_type="" head="3" lemma="be" orig_paragraph="1" orth="are" pos="AUX" prefix="a" shape="xxx" suffix="are" tag="VBP" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="my" />
-      <extra orig_paragraph="1" />
+      <extra dep="nmod:poss" ent_iob="2" ent_type="" head="2" lemma="my" orig_paragraph="1" orth="my" pos="PRON" prefix="m" shape="xx" suffix="my" tag="PRP$" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="fave" />
-      <extra orig_paragraph="1" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="1" lemma="fave" orig_paragraph="1" orth="fave" pos="ADJ" prefix="f" shape="xxxx" suffix="ave" tag="JJ" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="simple" />
-      <extra orig_paragraph="1" />
+      <extra dep="root" ent_iob="2" ent_type="" head="-3" lemma="simple" orig_paragraph="1" orth="simple" pos="ADJ" prefix="s" shape="xxxx" suffix="ple" tag="JJ" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="and" />
-      <extra orig_paragraph="1" />
+      <extra dep="cc" ent_iob="2" ent_type="" head="1" lemma="and" orig_paragraph="1" orth="and" pos="CCONJ" prefix="a" shape="xxx" suffix="and" tag="CC" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="filling" />
-      <extra orig_paragraph="1" />
+      <extra dep="conj" ent_iob="2" ent_type="" head="-2" lemma="fill" orig_paragraph="1" orth="filling" pos="VERB" prefix="f" shape="xxxx" suffix="ing" tag="VBG" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="Highly" />
-      <extra orig_paragraph="1" />
+      <extra dep="advmod" ent_iob="2" ent_type="" head="1" lemma="highly" orig_paragraph="1" orth="Highly" pos="ADV" prefix="H" shape="Xxxxx" suffix="hly" tag="RB" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="recommend" />
-      <extra orig_paragraph="1" />
+      <extra dep="xcomp" ent_iob="2" ent_type="" head="-2" lemma="recommend" orig_paragraph="1" orth="recommend" pos="VERB" prefix="r" shape="xxxx" suffix="end" tag="VB" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="Mi" />
-      <extra orig_paragraph="1" />
+      <extra dep="compound" ent_iob="3" ent_type="GPE" head="1" lemma="mi" orig_paragraph="1" orth="Mi" pos="PROPN" prefix="M" shape="Xx" suffix="Mi" tag="NNP" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="Pueblo" />
-      <extra orig_paragraph="1" />
+      <extra dep="obj" ent_iob="1" ent_type="GPE" head="-2" lemma="Pueblo" orig_paragraph="1" orth="Pueblo" pos="PROPN" prefix="P" shape="Xxxxx" suffix="blo" tag="NNP" />
     </node>
     <node ID="0.13" type="Punctuation">
       <attributes paragraph="1" paragraph_position="13" text="." />
-      <extra orig_paragraph="1" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-7" lemma="." orig_paragraph="1" orth="." pos="PUNCT" prefix="." shape="." suffix="." tag="." />
     </node>
   </layer>
   <layer layerID="1">

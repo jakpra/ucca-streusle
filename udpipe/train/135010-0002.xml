@@ -5,27 +5,27 @@
     <extra doc="[[[7281588815941221186, 7270490914741406701, 15267657372422890137, 90, 0, 2, 415, 2, 16072095006890171862, 14862748245026736845, 4115755726172261197], [2467304008471796504, 6724303495137589442, 10554686591937588953, 84, 381, 3, 402, 1, 16072095006890171862, 4690420944186131903, 3477492905443839178], [13030476447309488184, 13030476447309488184, 15308085513773655218, 92, 0, 2, 449, 0, 13110060611322374290, 16562859848569467201, 7886043512438591911], [3002984154512732771, 3002984154512732771, 1292078113972184607, 85, 0, 2, 8110129090154140942, 1, 4370460163704169311, 5097672513440128799, 3002984154512732771], [5700069078701153402, 5700069078701153402, 15794550382381185553, 96, 384, 3, 426, -2, 16072095006890171862, 149303876845869574, 14387080380872362826], [8205403955989537350, 8205403955989537350, 12646065887601541794, 97, 0, 2, 445, -3, 8205403955989537350, 8205403955989537350, 8205403955989537350]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Another" />
-      <extra orig_paragraph="1" />
+      <extra dep="det" ent_iob="2" ent_type="" head="2" lemma="another" orig_paragraph="1" orth="Another" pos="DET" prefix="A" shape="Xxxxx" suffix="her" tag="DT" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Italian" />
-      <extra orig_paragraph="1" />
+      <extra dep="amod" ent_iob="3" ent_type="NORP" head="1" lemma="italian" orig_paragraph="1" orth="Italian" pos="ADJ" prefix="I" shape="Xxxxx" suffix="ian" tag="JJ" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="restaurant" />
-      <extra orig_paragraph="1" />
+      <extra dep="root" ent_iob="2" ent_type="" head="0" lemma="restaurant" orig_paragraph="1" orth="restaurant" pos="NOUN" prefix="r" shape="xxxx" suffix="ant" tag="NN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="in" />
-      <extra orig_paragraph="1" />
+      <extra dep="case" ent_iob="2" ent_type="" head="1" lemma="in" orig_paragraph="1" orth="in" pos="ADP" prefix="i" shape="xx" suffix="in" tag="IN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="Collingswood" />
-      <extra orig_paragraph="1" />
+      <extra dep="nmod" ent_iob="3" ent_type="GPE" head="-2" lemma="Collingswood" orig_paragraph="1" orth="Collingswood" pos="PROPN" prefix="C" shape="Xxxxx" suffix="ood" tag="NNP" />
     </node>
     <node ID="0.6" type="Punctuation">
       <attributes paragraph="1" paragraph_position="6" text="?" />
-      <extra orig_paragraph="1" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-3" lemma="?" orig_paragraph="1" orth="?" pos="PUNCT" prefix="?" shape="?" suffix="?" tag="." />
     </node>
   </layer>
   <layer layerID="1">

@@ -5,35 +5,35 @@
     <extra doc="[[[5059648917813135842, 7425985699627899538, 15267657372422890137, 90, 0, 2, 415, 1, 18200729499220207786, 5582244037879929967, 5059648917813135842], [12620364840477785591, 10375657863284908246, 783433942507015291, 92, 0, 2, 429, 2, 13110060611322374290, 8861071527689086543, 10477575395255680452], [9570894245975188254, 10382539506755952630, 17109001835818727656, 87, 0, 2, 411, 1, 13110060611322374290, 260667111241363922, 18139757808136603089], [12282438651404021516, 12282438651404021516, 10554686591937588953, 84, 0, 2, 449, 0, 13110060611322374290, 260667111241363922, 3155103904874937243], [5865838185239622912, 5865838185239622912, 4808651922106831370, 95, 0, 2, 434, -1, 13110060611322374290, 260667111241363922, 14949295185858420483], [4690420944186131903, 4690420944186131903, 13656873538139661788, 95, 0, 2, 429, 1, 101, 4690420944186131903, 4690420944186131903], [12579384389446384672, 2013399242189103424, 17109001835818727656, 100, 0, 2, 6025759613719693942, -3, 4088098365541558500, 6217145520856553898, 12579384389446384672], [12646065887601541794, 12646065887601541794, 12646065887601541794, 97, 0, 2, 445, -4, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="The" />
-      <extra orig_paragraph="1" />
+      <extra dep="det" ent_iob="2" ent_type="" head="1" lemma="the" orig_paragraph="1" orth="The" pos="DET" prefix="T" shape="Xxx" suffix="The" tag="DT" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="prices" />
-      <extra orig_paragraph="1" />
+      <extra dep="nsubj" ent_iob="2" ent_type="" head="2" lemma="price" orig_paragraph="1" orth="prices" pos="NOUN" prefix="p" shape="xxxx" suffix="ces" tag="NNS" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="were" />
-      <extra orig_paragraph="1" />
+      <extra dep="cop" ent_iob="2" ent_type="" head="1" lemma="be" orig_paragraph="1" orth="were" pos="AUX" prefix="w" shape="xxxx" suffix="ere" tag="VBD" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="worth" />
-      <extra orig_paragraph="1" />
+      <extra dep="root" ent_iob="2" ent_type="" head="-1" lemma="worth" orig_paragraph="1" orth="worth" pos="ADJ" prefix="w" shape="xxxx" suffix="rth" tag="JJ" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="what" />
-      <extra orig_paragraph="1" />
+      <extra dep="obj" ent_iob="2" ent_type="" head="-1" lemma="what" orig_paragraph="1" orth="what" pos="PRON" prefix="w" shape="xxxx" suffix="hat" tag="WP" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="I" />
-      <extra orig_paragraph="1" />
+      <extra dep="nsubj" ent_iob="2" ent_type="" head="1" lemma="I" orig_paragraph="1" orth="I" pos="PRON" prefix="I" shape="X" suffix="I" tag="PRP" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="got" />
-      <extra orig_paragraph="1" />
+      <extra dep="acl:relcl" ent_iob="2" ent_type="" head="-3" lemma="get" orig_paragraph="1" orth="got" pos="VERB" prefix="g" shape="xxx" suffix="got" tag="VBD" />
     </node>
     <node ID="0.8" type="Punctuation">
       <attributes paragraph="1" paragraph_position="8" text="." />
-      <extra orig_paragraph="1" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-4" lemma="." orig_paragraph="1" orth="." pos="PUNCT" prefix="." shape="." suffix="." tag="." />
     </node>
   </layer>
   <layer layerID="1">
