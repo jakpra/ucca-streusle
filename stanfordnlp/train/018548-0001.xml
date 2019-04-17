@@ -1,0 +1,76 @@
+<root annotationID="0" passageID="018548-0001">
+  <attributes annotationID="4370" passageID="302" remarks="26193" userID="4" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[2435515429348335628, 12938003400095470489, 15794550382381185553, 96, 380, 3, 7037928807040764755, 1, 16072095006890171862, 3209455878668673793, 14351626505423870853], [15974444957387828554, 1297721558634355905, 15794550382381185553, 96, 380, 1, 449, 0, 10887629174180191697, 10603054956214495369, 1019041181156623609], [7128288563961686348, 10545984616616630162, 15308085513773655218, 92, 380, 1, 32368682835521138, -1, 3552942401566437853, 9148987913859918431, 7128288563961686348], [17494803046312582752, 17494803046312582752, 12646065887601541794, 97, 0, 2, 445, -2, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Mezza" />
+      <extra dep="compound" ent_iob="3" ent_type="PERSON" head="1" lemma="mezza" orig_paragraph="1" orth="Mezza" pos="PROPN" prefix="M" shape="Xxxxx" suffix="zza" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Luna" />
+      <extra dep="root" ent_iob="1" ent_type="PERSON" head="1" lemma="luna" orig_paragraph="1" orth="Luna" pos="PROPN" prefix="L" shape="Xxxx" suffix="una" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="FTW" />
+      <extra dep="discourse" ent_iob="1" ent_type="PERSON" head="-1" lemma="ftw" orig_paragraph="1" orth="FTW" pos="NOUN" prefix="F" shape="XXX" suffix="FTW" tag="NN" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="!" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-2" lemma="!" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" shape="!" suffix="!" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="1.4" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.5" type="S">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra tree_id="1-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra remarks="for the win&#10;&#10;L: yes, but is it really an S?" tree_id="1-2" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

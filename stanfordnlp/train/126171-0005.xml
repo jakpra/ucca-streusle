@@ -1,0 +1,100 @@
+<root annotationID="0" passageID="126171-0005">
+  <attributes annotationID="4313" passageID="28" remarks="Test" userID="4" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[7859011591137717335, 10239237003504588839, 13656873538139661788, 95, 0, 2, 429, 3, 12204527652707022206, 4690420944186131903, 7859011591137717335], [16428057658620181782, 10382539506755952630, 13927759927860985106, 87, 0, 2, 411, 2, 3155823383004454315, 11221368173670222813, 16428057658620181782], [7379188904070621703, 7379188904070621703, 164681854541413346, 86, 0, 2, 400, 1, 13110060611322374290, 8861071527689086543, 10689130625501954288], [10595077177392105327, 10595077177392105327, 10554686591937588953, 84, 0, 2, 449, 0, 13110060611322374290, 16562859848569467201, 13906627124797355281], [17494803046312582752, 17494803046312582752, 12646065887601541794, 97, 0, 2, 445, -1, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="It" />
+      <extra dep="nsubj" ent_iob="2" ent_type="" head="3" lemma="it" orig_paragraph="1" orth="It" pos="PRON" prefix="I" shape="Xx" suffix="It" tag="PRP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="'s" />
+      <extra dep="cop" ent_iob="2" ent_type="" head="2" lemma="be" orig_paragraph="1" orth="'s" pos="AUX" prefix="'" shape="'x" suffix="'s" tag="VBZ" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="pretty" />
+      <extra dep="advmod" ent_iob="2" ent_type="" head="1" lemma="pretty" orig_paragraph="1" orth="pretty" pos="ADV" prefix="p" shape="xxxx" suffix="tty" tag="RB" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="ridiculous" />
+      <extra dep="root" ent_iob="2" ent_type="" head="-2" lemma="ridiculous" orig_paragraph="1" orth="ridiculous" pos="ADJ" prefix="r" shape="xxxx" suffix="ous" tag="JJ" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="!" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="!" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" shape="!" suffix="!" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="17" />
+      <edge toID="1.4" type="A">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.5" type="F">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="F" />
+      </edge>
+      <edge toID="1.6" type="D">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="D" />
+      </edge>
+      <edge toID="1.7" type="S">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="S" />
+      </edge>
+      <edge toID="1.8" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra tree_id="17-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra tree_id="17-2" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra tree_id="17-3" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <extra tree_id="17-4" />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="PNCT">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

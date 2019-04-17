@@ -1,0 +1,92 @@
+<root annotationID="0" passageID="080814-0001">
+  <attributes annotationID="2569" passageID="794" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[15794932719539824593, 4316640507316845735, 10554686591937588953, 84, 0, 2, 402, 2, 16072095006890171862, 9148987913859918431, 17373278164342752178], [1628340908579922823, 1628340908579922823, 10554686591937588953, 84, 0, 2, 402, 1, 13110060611322374290, 8861071527689086543, 12011358794423696868], [208172016153456603, 208172016153456603, 15308085513773655218, 92, 0, 2, 449, 0, 13110060611322374290, 16978132545290669629, 16077735445828477292], [9153284864653046197, 9153284864653046197, 2593208677638477497, 97, 0, 2, 445, -1, 9153284864653046197, 9153284864653046197, 9153284864653046197]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Fantastic" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="2" lemma="fantastic" orig_paragraph="1" orth="Fantastic" pos="ADJ" prefix="F" shape="Xxxxx" suffix="tic" tag="JJ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="professional" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="1" lemma="professional" orig_paragraph="1" orth="professional" pos="ADJ" prefix="p" shape="xxxx" suffix="nal" tag="JJ" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="service" />
+      <extra dep="root" ent_iob="2" ent_type="" head="0" lemma="service" orig_paragraph="1" orth="service" pos="NOUN" prefix="s" shape="xxxx" suffix="ice" tag="NN" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="-" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="-" orig_paragraph="1" orth="-" pos="PUNCT" prefix="-" shape="-" suffix="-" tag="," />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="1.4" type="D">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+      </edge>
+      <edge toID="1.5" type="P">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
+      </edge>
+      <edge toID="1.8" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra remarks="revise" tree_id="1-1" />
+      <edge toID="1.6" type="C">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+      </edge>
+      <edge toID="1.7" type="C">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra tree_id="1-2" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra tree_id="1-1-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <extra tree_id="1-1-2" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

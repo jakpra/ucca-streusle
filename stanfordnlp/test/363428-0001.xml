@@ -1,0 +1,45 @@
+<root annotationID="0" passageID="363428-0001">
+  <attributes annotationID="2901" passageID="656" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[6694610956716722548, 6694610956716722548, 15794550382381185553, 96, 380, 3, 449, 0, 18200729499220207786, 17714545831559622561, 6694610956716722548], [7425985699627899538, 7425985699627899538, 15267657372422890137, 90, 0, 2, 415, 1, 4088098365541558500, 15369245168918225700, 7425985699627899538], [10957160699525115571, 10461843079470224305, 15794550382381185553, 96, 0, 2, 403, -2, 18200729499220207786, 17714545831559622561, 10957160699525115571]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Pam" />
+      <extra dep="root" ent_iob="3" ent_type="PERSON" head="0" lemma="Pam" orig_paragraph="1" orth="Pam" pos="PROPN" prefix="P" shape="Xxx" suffix="Pam" tag="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="the" />
+      <extra dep="det" ent_iob="2" ent_type="" head="1" lemma="the" orig_paragraph="1" orth="the" pos="DET" prefix="t" shape="xxx" suffix="the" tag="DT" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Pom" />
+      <extra dep="appos" ent_iob="2" ent_type="" head="-2" lemma="pom" orig_paragraph="1" orth="Pom" pos="PROPN" prefix="P" shape="Xxx" suffix="Pom" tag="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

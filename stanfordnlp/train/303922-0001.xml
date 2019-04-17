@@ -1,0 +1,44 @@
+<root annotationID="0" passageID="303922-0001">
+  <attributes annotationID="2967" passageID="525" remarks="26416" userID="4" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[14862748245026736845, 11901859001352538922, 99, 99, 0, 2, 449, 0, 101, 14862748245026736845, 14862748245026736845], [13710799475896836168, 13710799475896836168, 99, 99, 0, 2, 7037928807040764755, -1, 13710799475896836168, 13710799475896836168, 13710799475896836168]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="A" />
+      <extra dep="root" ent_iob="2" ent_type="" head="0" lemma="a" orig_paragraph="1" orth="A" pos="SYM" prefix="A" shape="X" suffix="A" tag="SYM" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text="+" />
+      <extra dep="compound" ent_iob="2" ent_type="" head="-1" lemma="+" orig_paragraph="1" orth="+" pos="SYM" prefix="+" shape="+" suffix="+" tag="SYM" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

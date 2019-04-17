@@ -1,0 +1,92 @@
+<root annotationID="0" passageID="205014-0005">
+  <attributes annotationID="4186" passageID="340" remarks="26231" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[6898525711325499184, 7722715852355611219, 15308085513773655218, 92, 0, 2, 449, 0, 16072095006890171862, 5582244037879929967, 227923054444777232], [4502205900248518970, 4502205900248518970, 164681854541413346, 86, 0, 2, 400, -1, 13110060611322374290, 11901859001352538922, 8265820206415514174], [6863738223365738282, 6863738223365738282, 15794550382381185553, 96, 380, 3, 9951093558573299227, -2, 10887629174180191697, 10850957288794122991, 8725436655671225952], [12646065887601541794, 12646065887601541794, 12646065887601541794, 97, 0, 2, 445, -3, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Thanks" />
+      <extra dep="root" ent_iob="2" ent_type="" head="0" lemma="thanks" orig_paragraph="1" orth="Thanks" pos="NOUN" prefix="T" shape="Xxxxx" suffix="nks" tag="NN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="again" />
+      <extra dep="advmod" ent_iob="2" ent_type="" head="-1" lemma="again" orig_paragraph="1" orth="again" pos="ADV" prefix="a" shape="xxxx" suffix="ain" tag="RB" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Nina" />
+      <extra dep="vocative" ent_iob="3" ent_type="PERSON" head="-2" lemma="Nina" orig_paragraph="1" orth="Nina" pos="PROPN" prefix="N" shape="Xxxx" suffix="ina" tag="NNP" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="." />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-3" lemma="." orig_paragraph="1" orth="." pos="PUNCT" prefix="." shape="." suffix="." tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="7" />
+      <edge toID="1.4" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.5" type="P">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
+      </edge>
+      <edge toID="1.6" type="D">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+      </edge>
+      <edge toID="1.7" type="G">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" tag="G" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.8" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes implicit="True" />
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra tree_id="7-2" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra tree_id="7-3" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <extra remarks="ground" tree_id="7-4" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

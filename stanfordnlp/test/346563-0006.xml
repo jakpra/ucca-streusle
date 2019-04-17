@@ -1,0 +1,116 @@
+<root annotationID="0" passageID="346563-0006">
+  <attributes annotationID="2891" passageID="613" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[16248400320781648534, 227504873216781231, 4062917326063685704, 95, 0, 2, 1227985075839834553, 2, 12204527652707022206, 3209455878668673793, 16248400320781648534], [12038938448708751531, 12038938448708751531, 10554686591937588953, 84, 0, 2, 402, 1, 14350255799852683113, 8861071527689086543, 4321811497343732896], [17998780750743588112, 17998780750743588112, 15308085513773655218, 92, 0, 2, 429, 2, 13110060611322374290, 15369245168918225700, 12182527387764416033], [9921686513378912864, 10382539506755952630, 17109001835818727656, 87, 0, 2, 411, 1, 4088098365541558500, 260667111241363922, 9921686513378912864], [4066546018936282709, 10546341774584045391, 10554686591937588953, 84, 0, 2, 449, 0, 13862804199789047564, 5582244037879929967, 15948143402276925195], [12646065887601541794, 12646065887601541794, 12646065887601541794, 97, 0, 2, 445, -1, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="My" />
+      <extra dep="nmod:poss" ent_iob="2" ent_type="" head="2" lemma="my" orig_paragraph="1" orth="My" pos="PRON" prefix="M" shape="Xx" suffix="My" tag="PRP$" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="post-op" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="1" lemma="post-op" orig_paragraph="1" orth="post-op" pos="ADJ" prefix="p" shape="xxxx-xx" suffix="-op" tag="JJ" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="treatment" />
+      <extra dep="nsubj" ent_iob="2" ent_type="" head="2" lemma="treatment" orig_paragraph="1" orth="treatment" pos="NOUN" prefix="t" shape="xxxx" suffix="ent" tag="NN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="was" />
+      <extra dep="cop" ent_iob="2" ent_type="" head="1" lemma="be" orig_paragraph="1" orth="was" pos="AUX" prefix="w" shape="xxx" suffix="was" tag="VBD" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="TERRIBLE" />
+      <extra dep="root" ent_iob="2" ent_type="" head="-1" lemma="terrible" orig_paragraph="1" orth="TERRIBLE" pos="ADJ" prefix="T" shape="XXXX" suffix="BLE" tag="JJ" />
+    </node>
+    <node ID="0.6" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="6" text="." />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="." orig_paragraph="1" orth="." pos="PUNCT" prefix="." shape="." suffix="." tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="6" />
+      <edge toID="1.4" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.5" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.6" type="P">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
+      </edge>
+      <edge toID="1.7" type="F">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
+      </edge>
+      <edge toID="1.8" type="D">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+      </edge>
+      <edge toID="1.9" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra tree_id="6-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra tree_id="6-2" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra tree_id="6-3" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <extra tree_id="6-4" />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <extra tree_id="6-5" />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="PNCT">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

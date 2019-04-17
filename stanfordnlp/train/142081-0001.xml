@@ -1,0 +1,68 @@
+<root annotationID="0" passageID="142081-0001">
+  <attributes annotationID="1776" passageID="217" remarks="26118" userID="14" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[15794932719539824593, 4316640507316845735, 10554686591937588953, 84, 383, 3, 402, 1, 16072095006890171862, 9148987913859918431, 17373278164342752178], [1069327236522697900, 208172016153456603, 15308085513773655218, 92, 383, 1, 449, 0, 16072095006890171862, 12290980237632234855, 16077735445828477292], [17494803046312582752, 17494803046312582752, 12646065887601541794, 97, 0, 2, 445, -1, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Fantastic" />
+      <extra dep="amod" ent_iob="3" ent_type="ORG" head="1" lemma="fantastic" orig_paragraph="1" orth="Fantastic" pos="ADJ" prefix="F" shape="Xxxxx" suffix="tic" tag="JJ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Service" />
+      <extra dep="root" ent_iob="1" ent_type="ORG" head="0" lemma="service" orig_paragraph="1" orth="Service" pos="NOUN" prefix="S" shape="Xxxxx" suffix="ice" tag="NN" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="!" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="!" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" shape="!" suffix="!" tag="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="1.4" type="D">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+      </edge>
+      <edge toID="1.5" type="P">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra tree_id="1-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra tree_id="1-2" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>
