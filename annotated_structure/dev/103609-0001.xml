@@ -5,23 +5,23 @@
     <extra doc="[[[14637358012790906115, 8881679497796027013, 10554686591937588953, 84, 0, 2, 7037928807040764755, 2, 16072095006890171862, 16829822105563051112, 9837207709914848172], [2317567240539029606, 2317567240539029606, 15794550382381185553, 96, 0, 2, 7037928807040764755, 1, 16072095006890171862, 9148987913859918431, 11960532512963341329], [13240462122502376739, 13240462122502376739, 15794550382381185553, 96, 0, 2, 8206900633647566924, 0, 18200729499220207786, 9148987913859918431, 13240462122502376739], [2283656566040971221, 2283656566040971221, 17571114184892886314, 89, 0, 2, 407, -1, 4088098365541558500, 11901859001352538922, 2283656566040971221], [14347261927789417509, 14347261927789417509, 15794550382381185553, 96, 0, 2, 410, -2, 16072095006890171862, 14230521632333904559, 7679303661980345986]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Great" />
-      <extra dep="compound" ent_iob="2" ent_type="" head="2" lemma="great" orig_paragraph="1" orth="Great" pos="ADJ" prefix="G" shape="Xxxxx" suffix="eat" tag="JJ" />
+      <extra dep="compound" deprel="amod" depth="4" edeps="3:amod" ent_iob="2" ent_type="" feats="Degree=Pos" head="3" lemma="great" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Great" pos="ADJ" prefix="G" remarks="0.1" shape="Xxxxx" smwe="null" suffix="eat" tag="JJ" upos="ADJ" wmwe="null" word="Great" xpos="JJ" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Family" />
-      <extra dep="compound" ent_iob="2" ent_type="" head="1" lemma="Family" orig_paragraph="1" orth="Family" pos="PROPN" prefix="F" shape="Xxxxx" suffix="ily" tag="NNP" />
+      <extra dep="compound" deprel="compound" depth="3" edeps="3:compound" ent_iob="2" ent_type="" feats="Number=Sing" head="3" lemma="family" lextag="B-N-n.COGNITION" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Family" pos="PROPN" prefix="F" remarks="0.2" shape="Xxxxx" smwe="[1, 1]" suffix="ily" tag="NNP" upos="NOUN" wmwe="null" word="Family" xpos="NN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="Fun" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="Fun" orig_paragraph="1" orth="Fun" pos="PROPN" prefix="F" shape="Xxx" suffix="Fun" tag="NNP" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="fun" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Fun" pos="PROPN" prefix="F" remarks="0.3" shape="Xxx" smwe="[1, 2]" suffix="Fun" tag="NNP" upos="NOUN" wmwe="null" word="Fun" xpos="NN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="and" />
-      <extra dep="cc" ent_iob="2" ent_type="" head="-1" lemma="and" orig_paragraph="1" orth="and" pos="CCONJ" prefix="a" shape="xxx" suffix="and" tag="CC" />
+      <extra dep="cc" deprel="cc" depth="2" edeps="5:cc" ent_iob="2" ent_type="" feats="null" head="5" lemma="and" lextag="O-CCONJ" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="and" pos="CCONJ" prefix="a" remarks="0.4" shape="xxx" smwe="null" suffix="and" tag="CC" upos="CCONJ" wmwe="null" word="and" xpos="CC" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="Bonding" />
-      <extra dep="conj" ent_iob="2" ent_type="" head="-2" lemma="Bonding" orig_paragraph="1" orth="Bonding" pos="PROPN" prefix="B" shape="Xxxxx" suffix="ing" tag="NNP" />
+      <extra dep="conj" deprel="conj" depth="2" edeps="3:conj" ent_iob="2" ent_type="" feats="Number=Sing" head="3" lemma="bonding" lextag="O-N-n.ACT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Bonding" pos="PROPN" prefix="B" remarks="0.5" shape="Xxxxx" smwe="null" suffix="ing" tag="NNP" upos="NOUN" wmwe="null" word="Bonding" xpos="NN" />
     </node>
   </layer>
   <layer layerID="1">

@@ -5,15 +5,15 @@
     <extra doc="[[[6898525711325499184, 8960195134057108264, 783433942507015291, 92, 0, 2, 8206900633647566924, 0, 16072095006890171862, 5582244037879929967, 227923054444777232], [12347345673626210333, 7831658034963690409, 1292078113972184607, 85, 0, 2, 443, -1, 10887629174180191697, 9148987913859918431, 16701608521236914874], [64021084765094941, 64021084765094941, 15794550382381185553, 96, 0, 2, 439, -1, 10887629174180191697, 14230521632333904559, 10522273805588696859]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Thanks" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="thank" orig_paragraph="1" orth="Thanks" pos="NOUN" prefix="T" shape="Xxxxx" suffix="nks" tag="NNS" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="thanks" lextag="O-DISC" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Thanks" pos="NOUN" prefix="T" remarks="0.43" shape="Xxxxx" smwe="null" suffix="nks" tag="NNS" upos="NOUN" wmwe="null" word="Thanks" xpos="NN" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="From" />
-      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="from" orig_paragraph="1" orth="From" pos="ADP" prefix="F" shape="Xxxx" suffix="rom" tag="IN" />
+      <extra config="default" dep="prep" deprel="case" depth="4" edeps="3:case" ent_iob="2" ent_type="" feats="null" gov="43" govlemma="thanks" head="3" lemma="from" lexcat="P" lexlemma="from" lextag="O-P-p.Originator|p.Source" local_gov="1" local_obj="3" local_toknums="2" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" obj="45" objlemma="Bill" orig_paragraph="1" orth="From" pos="ADP" prefix="F" remarks="0.44" shape="Xxxx" smwe="null" ss="p.Originator" ss2="p.Source" suffix="rom" tag="IN" toknums="44" upos="ADP" wmwe="null" word="From" xpos="IN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="Bill" />
-      <extra dep="pobj" ent_iob="2" ent_type="" head="-1" lemma="Bill" orig_paragraph="1" orth="Bill" pos="PROPN" prefix="B" shape="Xxxx" suffix="ill" tag="NNP" />
+      <extra dep="pobj" deprel="nmod" depth="4" edeps="1:nmod" ent_iob="2" ent_type="" feats="Number=Sing" head="1" lemma="Bill" lextag="O-N-n.PERSON" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Bill" pos="PROPN" prefix="B" remarks="0.45" shape="Xxxx" smwe="null" suffix="ill" tag="NNP" upos="PROPN" wmwe="null" word="Bill" xpos="NNP" />
     </node>
   </layer>
   <layer layerID="1">

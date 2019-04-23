@@ -5,15 +5,15 @@
     <extra doc="[[[11127065301023854977, 11127065301023854977, 15794550382381185553, 96, 0, 2, 7037928807040764755, 1, 16072095006890171862, 14230521632333904559, 7679303661980345986], [7408798179463644844, 4747730822158419200, 783433942507015291, 92, 0, 2, 8206900633647566924, 0, 16072095006890171862, 4690420944186131903, 15963301666394721303], [10875615029400813363, 10875615029400813363, 11532473245541075862, 97, 0, 2, 445, -1, 10875615029400813363, 12646065887601541794, 10875615029400813363]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Billing" />
-      <extra dep="compound" ent_iob="2" ent_type="" head="1" lemma="Billing" orig_paragraph="1" orth="Billing" pos="PROPN" prefix="B" shape="Xxxxx" suffix="ing" tag="NNP" />
+      <extra dep="compound" deprel="compound" depth="3" edeps="2:compound" ent_iob="2" ent_type="" feats="Number=Sing" head="2" lemma="billing" lextag="O-N-n.POSSESSION" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Billing" pos="PROPN" prefix="B" remarks="0.1" shape="Xxxxx" smwe="null" suffix="ing" tag="NNP" upos="NOUN" wmwe="null" word="Billing" xpos="NN" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Issues" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="issue" orig_paragraph="1" orth="Issues" pos="NOUN" prefix="I" shape="Xxxxx" suffix="ues" tag="NNS" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Plur" head="0" lemma="issue" lextag="O-N-n.COGNITION" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Issues" pos="NOUN" prefix="I" remarks="0.2" shape="Xxxxx" smwe="null" suffix="ues" tag="NNS" upos="NOUN" wmwe="null" word="Issues" xpos="NNS" />
     </node>
     <node ID="0.3" type="Punctuation">
       <attributes paragraph="1" paragraph_position="3" text="..." />
-      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="..." orig_paragraph="1" orth="..." pos="PUNCT" prefix="." shape="..." suffix="..." tag=":" />
+      <extra dep="punct" deprel="punct" depth="3" edeps="2:punct" ent_iob="2" ent_type="" feats="null" head="2" lemma="..." lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="..." pos="PUNCT" prefix="." remarks="0.3" shape="..." smwe="null" suffix="..." tag=":" upos="PUNCT" wmwe="null" word="..." xpos="," />
     </node>
   </layer>
   <layer layerID="1">

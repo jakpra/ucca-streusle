@@ -5,15 +5,15 @@
     <extra doc="[[[14637358012790906115, 8881679497796027013, 10554686591937588953, 84, 0, 2, 7037928807040764755, 2, 16072095006890171862, 16829822105563051112, 9837207709914848172], [4565110489480448652, 4565110489480448652, 15794550382381185553, 96, 0, 2, 7037928807040764755, 1, 16072095006890171862, 10850957288794122991, 14387080380872362826], [7515855916405297824, 14413355063160700468, 15308085513773655218, 92, 0, 2, 8206900633647566924, 0, 16072095006890171862, 9350754067018752509, 1696981056005371314]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Great" />
-      <extra dep="compound" ent_iob="2" ent_type="" head="2" lemma="great" orig_paragraph="1" orth="Great" pos="ADJ" prefix="G" shape="Xxxxx" suffix="eat" tag="JJ" />
+      <extra dep="compound" deprel="amod" depth="4" edeps="3:amod" ent_iob="2" ent_type="" feats="Degree=Pos" head="3" lemma="great" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Great" pos="ADJ" prefix="G" remarks="0.1" shape="Xxxxx" smwe="null" suffix="eat" tag="JJ" upos="ADJ" wmwe="null" word="Great" xpos="JJ" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Neighborhood" />
-      <extra dep="compound" ent_iob="2" ent_type="" head="1" lemma="Neighborhood" orig_paragraph="1" orth="Neighborhood" pos="PROPN" prefix="N" shape="Xxxxx" suffix="ood" tag="NNP" />
+      <extra dep="compound" deprel="compound" depth="3" edeps="3:compound" ent_iob="2" ent_type="" feats="Number=Sing" head="3" lemma="neighborhood" lextag="O-N-n.LOCATION" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Neighborhood" pos="PROPN" prefix="N" remarks="0.2" shape="Xxxxx" smwe="null" suffix="ood" tag="NNP" upos="NOUN" wmwe="null" word="Neighborhood" xpos="NN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="Hangout" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="hangout" orig_paragraph="1" orth="Hangout" pos="NOUN" prefix="H" shape="Xxxxx" suffix="out" tag="NN" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="hangout" lextag="O-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Hangout" pos="NOUN" prefix="H" remarks="0.3" shape="Xxxxx" smwe="null" suffix="out" tag="NN" upos="NOUN" wmwe="null" word="Hangout" xpos="NN" />
     </node>
   </layer>
   <layer layerID="1">

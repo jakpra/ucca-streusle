@@ -5,23 +5,23 @@
     <extra doc="[[[4825077605461121943, 5711639017775284443, 14753207560692742245, 84, 0, 2, 7037928807040764755, 2, 13862804199789047564, 14230521632333904559, 2005752694753009904], [15749221787789388429, 11005044255398403076, 10554686591937588953, 84, 381, 3, 7037928807040764755, 1, 13862804199789047564, 149303876845869574, 11362356441335443692], [6716283354851035970, 6716283354851035970, 783433942507015291, 92, 0, 2, 8206900633647566924, 0, 13862804199789047564, 16337536289976144572, 909161139269209243], [7308474687633886682, 6231102377460051108, 164681854541413346, 86, 0, 2, 400, -1, 13862804199789047564, 9391737413944127320, 8917360829493217530], [12736066093347293436, 12736066093347293436, 12646065887601541794, 97, 0, 2, 445, -2, 12736066093347293436, 17494803046312582752, 12736066093347293436]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="BEST" />
-      <extra dep="compound" ent_iob="2" ent_type="" head="2" lemma="good" orig_paragraph="1" orth="BEST" pos="ADJ" prefix="B" shape="XXXX" suffix="EST" tag="JJS" />
+      <extra dep="compound" deprel="amod" depth="4" edeps="3:amod" ent_iob="2" ent_type="" feats="Degree=Sup" head="3" lemma="best" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="BEST" pos="ADJ" prefix="B" remarks="0.1" shape="XXXX" smwe="null" suffix="EST" tag="JJS" upos="ADJ" wmwe="null" word="BEST" xpos="JJS" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="CHINESE" />
-      <extra dep="compound" ent_iob="3" ent_type="NORP" head="1" lemma="chinese" orig_paragraph="1" orth="CHINESE" pos="ADJ" prefix="C" shape="XXXX" suffix="ESE" tag="JJ" />
+      <extra dep="compound" deprel="amod" depth="4" edeps="3:amod" ent_iob="3" ent_type="NORP" feats="Degree=Pos" head="3" lemma="chinese" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="CHINESE" pos="ADJ" prefix="C" remarks="0.2" shape="XXXX" smwe="null" suffix="ESE" tag="JJ" upos="ADJ" wmwe="null" word="CHINESE" xpos="JJ" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="RESTAURANT" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="RESTAURANT" orig_paragraph="1" orth="RESTAURANT" pos="NOUN" prefix="R" shape="XXXX" suffix="ANT" tag="NNS" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="restaurant" lextag="O-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="RESTAURANT" pos="NOUN" prefix="R" remarks="0.3" shape="XXXX" smwe="null" suffix="ANT" tag="NNS" upos="NOUN" wmwe="null" word="RESTAURANT" xpos="NN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="EVER" />
-      <extra dep="advmod" ent_iob="2" ent_type="" head="-1" lemma="ever" orig_paragraph="1" orth="EVER" pos="ADV" prefix="E" shape="XXXX" suffix="VER" tag="RB" />
+      <extra dep="advmod" deprel="advmod" depth="3" edeps="3:advmod" ent_iob="2" ent_type="" feats="null" head="3" lemma="ever" lextag="O-ADV" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="EVER" pos="ADV" prefix="E" remarks="0.4" shape="XXXX" smwe="null" suffix="VER" tag="RB" upos="ADV" wmwe="null" word="EVER" xpos="RB" />
     </node>
     <node ID="0.5" type="Punctuation">
       <attributes paragraph="1" paragraph_position="5" text="!!!" />
-      <extra dep="punct" ent_iob="2" ent_type="" head="-2" lemma="!!!" orig_paragraph="1" orth="!!!" pos="PUNCT" prefix="!" shape="!!!" suffix="!!!" tag="." />
+      <extra dep="punct" deprel="punct" depth="3" edeps="3:punct" ent_iob="2" ent_type="" feats="null" head="3" lemma="!!!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="!!!" pos="PUNCT" prefix="!" remarks="0.5" shape="!!!" smwe="null" suffix="!!!" tag="." upos="PUNCT" wmwe="null" word="!!!" xpos="." />
     </node>
   </layer>
   <layer layerID="1">

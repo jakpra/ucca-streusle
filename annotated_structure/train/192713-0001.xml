@@ -5,39 +5,39 @@
     <extra doc="[[[5059648917813135842, 7425985699627899538, 15267657372422890137, 90, 0, 2, 415, 3, 18200729499220207786, 5582244037879929967, 5059648917813135842], [300093323897581788, 16884455833306854589, 14753207560692742245, 84, 0, 2, 402, 2, 13110060611322374290, 13110760720460257827, 14619786160612475726], [14187672823834451420, 14187672823834451420, 15794550382381185553, 96, 0, 2, 7037928807040764755, 1, 16072095006890171862, 149303876845869574, 16473155134315006466], [3203961808604286341, 3203961808604286341, 11233576250605462493, 96, 0, 2, 8206900633647566924, 0, 16072095006890171862, 5582244037879929967, 15325422215832800209], [5097672513440128799, 5097672513440128799, 13656873538139661788, 95, 0, 2, 429, 3, 11123243248953317070, 5097672513440128799, 5097672513440128799], [2989924464908128948, 2989924464908128948, 9188597074677201817, 100, 0, 2, 405, 2, 4848600484254711268, 11221368173670222813, 2989924464908128948], [6231102377460051108, 6231102377460051108, 164681854541413346, 86, 0, 2, 400, 1, 13110060611322374290, 1720370409040345145, 16203534885047373824], [15866718007544400459, 11925638236994514241, 3822385049556375858, 100, 0, 2, 447, -4, 13110060611322374290, 16978132545290669629, 11571764995849485429], [12646065887601541794, 12646065887601541794, 12646065887601541794, 97, 0, 2, 445, -1, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="The" />
-      <extra dep="det" ent_iob="2" ent_type="" head="3" lemma="the" orig_paragraph="1" orth="The" pos="DET" prefix="T" shape="Xxx" suffix="The" tag="DT" />
+      <extra dep="det" deprel="det" depth="3" edeps="4:det" ent_iob="2" ent_type="" feats="Definite=Def|PronType=Art" head="4" lemma="the" lextag="O-DET" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="The" pos="DET" prefix="T" remarks="0.1" shape="Xxx" smwe="null" suffix="The" tag="DT" upos="DET" wmwe="null" word="The" xpos="DT" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="finest" />
-      <extra dep="amod" ent_iob="2" ent_type="" head="2" lemma="fine" orig_paragraph="1" orth="finest" pos="ADJ" prefix="f" shape="xxxx" suffix="est" tag="JJS" />
+      <extra dep="amod" deprel="amod" depth="4" edeps="4:amod" ent_iob="2" ent_type="" feats="Degree=Sup" head="4" lemma="finest" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="finest" pos="ADJ" prefix="f" remarks="0.2" shape="xxxx" smwe="null" suffix="est" tag="JJS" upos="ADJ" wmwe="null" word="finest" xpos="JJS" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="Christmas" />
-      <extra dep="compound" ent_iob="2" ent_type="" head="1" lemma="Christmas" orig_paragraph="1" orth="Christmas" pos="PROPN" prefix="C" shape="Xxxxx" suffix="mas" tag="NNP" />
+      <extra dep="compound" deprel="compound" depth="3" edeps="4:compound" ent_iob="2" ent_type="" feats="Number=Sing" head="4" lemma="Christmas" lextag="B-N-n.PLANT" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Christmas" pos="PROPN" prefix="C" remarks="0.3" shape="Xxxxx" smwe="[1, 1]" suffix="mas" tag="NNP" upos="PROPN" wmwe="null" word="Christmas" xpos="NNP" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Trees" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="Trees" orig_paragraph="1" orth="Trees" pos="PROPN" prefix="T" shape="Xxxxx" suffix="ees" tag="NNPS" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Plur" head="0" lemma="tree" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Trees" pos="PROPN" prefix="T" remarks="0.4" shape="Xxxxx" smwe="[1, 2]" suffix="ees" tag="NNPS" upos="NOUN" wmwe="null" word="Trees" xpos="NNS" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="i" />
-      <extra dep="nsubj" ent_iob="2" ent_type="" head="3" lemma="i" orig_paragraph="1" orth="i" pos="PRON" prefix="i" shape="x" suffix="i" tag="PRP" />
+      <extra dep="nsubj" deprel="nsubj" depth="4" edeps="8:nsubj" ent_iob="2" ent_type="" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="8" lemma="i" lextag="O-PRON" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="i" pos="PRON" prefix="i" remarks="0.5" shape="x" smwe="null" suffix="i" tag="PRP" upos="PRON" wmwe="null" word="i" xpos="PRP" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="'ve" />
-      <extra dep="aux" ent_iob="2" ent_type="" head="2" lemma="'ve" orig_paragraph="1" orth="'ve" pos="VERB" prefix="'" shape="'xx" suffix="'ve" tag="VBP" />
+      <extra dep="aux" deprel="aux" depth="4" edeps="8:aux" ent_iob="2" ent_type="" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="8" lemma="have" lextag="O-AUX" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="'ve" pos="VERB" prefix="'" remarks="0.6" shape="'xx" smwe="null" suffix="'ve" tag="VBP" upos="AUX" wmwe="null" word="'ve" xpos="VBP" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="ever" />
-      <extra dep="advmod" ent_iob="2" ent_type="" head="1" lemma="ever" orig_paragraph="1" orth="ever" pos="ADV" prefix="e" shape="xxxx" suffix="ver" tag="RB" />
+      <extra dep="advmod" deprel="advmod" depth="4" edeps="8:advmod" ent_iob="2" ent_type="" feats="null" head="8" lemma="ever" lextag="O-ADV" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="ever" pos="ADV" prefix="e" remarks="0.7" shape="xxxx" smwe="null" suffix="ver" tag="RB" upos="ADV" wmwe="null" word="ever" xpos="RB" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="seen" />
-      <extra dep="relcl" ent_iob="2" ent_type="" head="-4" lemma="see" orig_paragraph="1" orth="seen" pos="VERB" prefix="s" shape="xxxx" suffix="een" tag="VBN" />
+      <extra dep="relcl" deprel="acl:relcl" depth="4" edeps="4:acl:relcl" ent_iob="2" ent_type="" feats="Tense=Past|VerbForm=Part" head="4" lemma="see" lextag="O-V-v.perception" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="seen" pos="VERB" prefix="s" remarks="0.8" shape="xxxx" smwe="null" suffix="een" tag="VBN" upos="VERB" wmwe="null" word="seen" xpos="VBN" />
     </node>
     <node ID="0.9" type="Punctuation">
       <attributes paragraph="1" paragraph_position="9" text="." />
-      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="." orig_paragraph="1" orth="." pos="PUNCT" prefix="." shape="." suffix="." tag="." />
+      <extra dep="punct" deprel="punct" depth="3" edeps="4:punct" ent_iob="2" ent_type="" feats="null" head="4" lemma="." lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="." pos="PUNCT" prefix="." remarks="0.9" shape="." smwe="null" suffix="." tag="." upos="PUNCT" wmwe="null" word="." xpos="." />
     </node>
   </layer>
   <layer layerID="1">

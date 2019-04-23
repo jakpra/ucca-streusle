@@ -5,23 +5,23 @@
     <extra doc="[[[9335770981443976163, 9335770981443976163, 15794550382381185553, 96, 383, 3, 7037928807040764755, 1, 10887629174180191697, 14230521632333904559, 14619786160612475726], [13427265767486740119, 13427265767486740119, 15794550382381185553, 96, 383, 1, 8206900633647566924, 0, 16072095006890171862, 12290980237632234855, 16639369580702547507], [17831099778462416609, 3002984154512732771, 1292078113972184607, 85, 0, 2, 8206900633647566924, 0, 12204527652707022206, 4690420944186131903, 17831099778462416609], [11743628472172276009, 11743628472172276009, 15794550382381185553, 96, 384, 3, 7037928807040764755, 1, 16072095006890171862, 14230521632333904559, 15547946342384620083], [2618776145913944735, 2618776145913944735, 15794550382381185553, 96, 384, 1, 439, -2, 16072095006890171862, 9350754067018752509, 18194972281163004607]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Best" />
-      <extra dep="compound" ent_iob="3" ent_type="ORG" head="1" lemma="Best" orig_paragraph="1" orth="Best" pos="PROPN" prefix="B" shape="Xxxx" suffix="est" tag="NNP" />
+      <extra dep="compound" deprel="amod" depth="4" edeps="2:amod" ent_iob="3" ent_type="ORG" feats="Degree=Sup" head="2" lemma="best" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="Best" pos="PROPN" prefix="B" remarks="0.1" shape="Xxxx" smwe="null" suffix="est" tag="NNP" upos="ADJ" wmwe="null" word="Best" xpos="JJS" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Store" />
-      <extra dep="ROOT" ent_iob="1" ent_type="ORG" head="0" lemma="Store" orig_paragraph="1" orth="Store" pos="PROPN" prefix="S" shape="Xxxxx" suffix="ore" tag="NNP" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="1" ent_type="ORG" feats="Number=Sing" head="0" lemma="store" lextag="O-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Store" pos="PROPN" prefix="S" remarks="0.2" shape="Xxxxx" smwe="null" suffix="ore" tag="NNP" upos="NOUN" wmwe="null" word="Store" xpos="NN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="In" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="in" orig_paragraph="1" orth="In" pos="ADP" prefix="I" shape="Xx" suffix="In" tag="IN" />
+      <extra config="default" dep="ROOT" deprel="case" depth="4" edeps="5:case" ent_iob="2" ent_type="" feats="null" gov="2" govlemma="store" head="5" lemma="in" lexcat="P" lexlemma="in" lextag="O-P-p.Locus" local_gov="2" local_obj="5" local_toknums="3" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" obj="5" objlemma="Harbor" orig_paragraph="1" orth="In" pos="ADP" prefix="I" remarks="0.3" shape="Xx" smwe="null" ss="p.Locus" ss2="p.Locus" suffix="In" tag="IN" toknums="3" upos="ADP" wmwe="null" word="In" xpos="IN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Boothbay" />
-      <extra dep="compound" ent_iob="3" ent_type="GPE" head="1" lemma="Boothbay" orig_paragraph="1" orth="Boothbay" pos="PROPN" prefix="B" shape="Xxxxx" suffix="bay" tag="NNP" />
+      <extra dep="compound" deprel="compound" depth="4" edeps="5:compound" ent_iob="3" ent_type="GPE" feats="Number=Sing" head="5" lemma="Boothbay" lextag="B-N-n.LOCATION" misc="null" next_terminal_lower_common_ancestor_category="C" next_terminal_lower_common_ancestor_depth="3" orig_paragraph="1" orth="Boothbay" pos="PROPN" prefix="B" remarks="0.4" shape="Xxxxx" smwe="[1, 1]" suffix="bay" tag="NNP" upos="PROPN" wmwe="null" word="Boothbay" xpos="NNP" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="Harbor" />
-      <extra dep="pobj" ent_iob="1" ent_type="GPE" head="-2" lemma="Harbor" orig_paragraph="1" orth="Harbor" pos="PROPN" prefix="H" shape="Xxxxx" suffix="bor" tag="NNP" />
+      <extra dep="pobj" deprel="nmod" depth="4" edeps="2:nmod" ent_iob="1" ent_type="GPE" feats="Number=Sing" head="2" lemma="Harbor" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Harbor" pos="PROPN" prefix="H" remarks="0.5" shape="Xxxxx" smwe="[1, 2]" suffix="bor" tag="NNP" upos="PROPN" wmwe="null" word="Harbor" xpos="NNP" />
     </node>
   </layer>
   <layer layerID="1">

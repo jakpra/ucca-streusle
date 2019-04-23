@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="275595-0001">
+  <attributes annotationID="2867" passageID="476" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[9319379455476776844, 12501386816439561693, 783433942507015291, 92, 0, 2, 8206900633647566924, 0, 13110060611322374290, 15369245168918225700, 1618118161982538982]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="teeth" />
+      <extra dep="ROOT" deprel="root" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Plur" head="0" lemma="tooth" lextag="O-N-n.BODY" misc="null" orig_paragraph="1" orth="teeth" pos="NOUN" prefix="t" remarks="0.1" shape="xxxx" smwe="null" suffix="eth" tag="NNS" upos="NOUN" wmwe="null" word="teeth" xpos="NNS" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

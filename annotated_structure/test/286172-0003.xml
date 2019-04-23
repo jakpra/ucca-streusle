@@ -5,15 +5,15 @@
     <extra doc="[[[18175470623534560340, 6343125077413305616, 164681854541413346, 86, 0, 2, 400, 1, 16072095006890171862, 3929483993944067416, 1344279032286957731], [14242014708739787450, 8004577259940138793, 1534113631682161808, 100, 0, 2, 8206900633647566924, 0, 13110060611322374290, 6217145520856553898, 7679303661980345986], [15255859468896132977, 15255859468896132977, 164681854541413346, 86, 0, 2, 400, -1, 13110060611322374290, 15598372446745583797, 12794475650786432352]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Definetely" />
-      <extra dep="advmod" ent_iob="2" ent_type="" head="1" lemma="definetely" orig_paragraph="1" orth="Definetely" pos="ADV" prefix="D" shape="Xxxxx" suffix="ely" tag="RB" />
+      <extra dep="advmod" deprel="advmod" depth="3" edeps="2:advmod" ent_iob="2" ent_type="" feats="null" head="2" lemma="definetely" lextag="O-ADV" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Definetely" pos="ADV" prefix="D" remarks="0.11" shape="Xxxxx" smwe="null" suffix="ely" tag="RB" upos="ADV" wmwe="null" word="Definetely" xpos="RB" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="going" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="go" orig_paragraph="1" orth="going" pos="VERB" prefix="g" shape="xxxx" suffix="ing" tag="VBG" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="VerbForm=Ger" head="0" lemma="go" lextag="O-V-v.motion" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="going" pos="VERB" prefix="g" remarks="0.12" shape="xxxx" smwe="null" suffix="ing" tag="VBG" upos="VERB" wmwe="null" word="going" xpos="VBG" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="back" />
-      <extra dep="advmod" ent_iob="2" ent_type="" head="-1" lemma="back" orig_paragraph="1" orth="back" pos="ADV" prefix="b" shape="xxxx" suffix="ack" tag="RB" />
+      <extra config="default" dep="advmod" deprel="advmod" depth="3" edeps="2:advmod" ent_iob="2" ent_type="" feats="null" gov="12" govlemma="go" head="2" lemma="back" lexcat="P" lexlemma="back" lextag="O-P-p.Direction" local_gov="2" local_toknums="3" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" obj="null" objlemma="null" orig_paragraph="1" orth="back" pos="ADV" prefix="b" remarks="0.13" shape="xxxx" smwe="null" ss="p.Direction" ss2="p.Direction" suffix="ack" tag="RB" toknums="13" upos="ADV" wmwe="null" word="back" xpos="RB" />
     </node>
   </layer>
   <layer layerID="1">

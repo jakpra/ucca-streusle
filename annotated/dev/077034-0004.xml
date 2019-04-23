@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="077034-0004">
+  <attributes annotationID="4166" passageID="782" remarks="26698" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[10510604576490185068, 10510604576490185068, 8812103347613839895, 101, 0, 2, 8206900633647566924, 0, 11505453159520538582, 15817570140490810055, 5057071754763382208]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="http://cambridgefoodfrivolity.blogspot.com/" />
+      <extra dep="ROOT" deprel="root" edeps="0:root" ent_iob="2" ent_type="" feats="null" head="0" lemma="http://cambridgefoodfrivolity.blogspot.com/" lextag="O-X" misc="null" orig_paragraph="1" orth="http://cambridgefoodfrivolity.blogspot.com/" pos="X" prefix="h" remarks="0.38" shape="xxxx://xxxx.xxxx.xxx/" smwe="null" suffix="om/" tag="ADD" upos="X" wmwe="null" word="http://cambridgefoodfrivolity.blogspot.com/" xpos="ADD" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="10" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

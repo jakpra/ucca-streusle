@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="015687-0001">
+  <attributes annotationID="4074" passageID="240" remarks="26141" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[13480102745641758639, 13480102745641758639, 15794550382381185553, 96, 0, 2, 8206900633647566924, 0, 13110060611322374290, 646772771845179972, 8338881580749099160]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="marisol" />
+      <extra dep="ROOT" deprel="root" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="marisol" lextag="O-N-n.PERSON" misc="null" orig_paragraph="1" orth="marisol" pos="PROPN" prefix="m" remarks="0.1" shape="xxxx" smwe="null" suffix="sol" tag="NNP" upos="PROPN" wmwe="null" word="marisol" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

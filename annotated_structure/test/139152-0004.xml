@@ -5,27 +5,27 @@
     <extra doc="[[[9153284864653046197, 9153284864653046197, 11532473245541075862, 97, 380, 3, 445, 2, 9153284864653046197, 9153284864653046197, 9153284864653046197], [16500640787848907462, 16500640787848907462, 15794550382381185553, 96, 380, 1, 7037928807040764755, 1, 16072095006890171862, 12290980237632234855, 1885430333798768031], [7116510761610077682, 7116510761610077682, 15794550382381185553, 96, 380, 1, 7037928807040764755, 3, 16072095006890171862, 16829822105563051112, 11560817535472117264], [9946890365738788363, 9946890365738788363, 15794550382381185553, 96, 380, 1, 7037928807040764755, 2, 16072095006890171862, 14230521632333904559, 1378273283833375277], [10648212074706584165, 10648212074706584165, 15794550382381185553, 96, 380, 1, 7037928807040764755, 1, 16072095006890171862, 3209455878668673793, 12745027602831959536], [18320188218667379811, 18320188218667379811, 15794550382381185553, 96, 380, 1, 8206900633647566924, 0, 16072095006890171862, 3209455878668673793, 470538875325686083]]]" />
     <node ID="0.1" type="Punctuation">
       <attributes paragraph="1" paragraph_position="1" text="-" />
-      <extra dep="punct" ent_iob="3" ent_type="PERSON" head="2" lemma="-" orig_paragraph="1" orth="-" pos="PUNCT" prefix="-" shape="-" suffix="-" tag=":" />
+      <extra dep="punct" deprel="punct" depth="3" edeps="2:punct" ent_iob="3" ent_type="PERSON" feats="null" head="2" lemma="-" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="-" pos="PUNCT" prefix="-" remarks="0.12" shape="-" smwe="null" suffix="-" tag=":" upos="PUNCT" wmwe="null" word="-" xpos="," />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Shree" />
-      <extra dep="compound" ent_iob="1" ent_type="PERSON" head="1" lemma="Shree" orig_paragraph="1" orth="Shree" pos="PROPN" prefix="S" shape="Xxxxx" suffix="ree" tag="NNP" />
+      <extra dep="compound" deprel="root" depth="3" edeps="0:root" ent_iob="1" ent_type="PERSON" feats="Number=Sing" head="0" lemma="Shree" lextag="B-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="C" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="Shree" pos="PROPN" prefix="S" remarks="0.13" shape="Xxxxx" smwe="[1, 1]" suffix="ree" tag="NNP" upos="PROPN" wmwe="null" word="Shree" xpos="NNP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="Ghatkopar" />
-      <extra dep="compound" ent_iob="1" ent_type="PERSON" head="3" lemma="Ghatkopar" orig_paragraph="1" orth="Ghatkopar" pos="PROPN" prefix="G" shape="Xxxxx" suffix="par" tag="NNP" />
+      <extra dep="compound" deprel="flat" depth="3" edeps="2:flat" ent_iob="1" ent_type="PERSON" feats="Number=Sing" head="2" lemma="Ghatkopar" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="C" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="Ghatkopar" pos="PROPN" prefix="G" remarks="0.14" shape="Xxxxx" smwe="[1, 2]" suffix="par" tag="NNP" upos="PROPN" wmwe="null" word="Ghatkopar" xpos="NNP" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Bhatia" />
-      <extra dep="compound" ent_iob="1" ent_type="PERSON" head="2" lemma="Bhatia" orig_paragraph="1" orth="Bhatia" pos="PROPN" prefix="B" shape="Xxxxx" suffix="tia" tag="NNP" />
+      <extra dep="compound" deprel="flat" depth="3" edeps="2:flat" ent_iob="1" ent_type="PERSON" feats="Number=Sing" head="2" lemma="Bhatia" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="C" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="Bhatia" pos="PROPN" prefix="B" remarks="0.15" shape="Xxxxx" smwe="[1, 3]" suffix="tia" tag="NNP" upos="PROPN" wmwe="null" word="Bhatia" xpos="NNP" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="Mitra" />
-      <extra dep="compound" ent_iob="1" ent_type="PERSON" head="1" lemma="Mitra" orig_paragraph="1" orth="Mitra" pos="PROPN" prefix="M" shape="Xxxxx" suffix="tra" tag="NNP" />
+      <extra dep="compound" deprel="flat" depth="3" edeps="2:flat" ent_iob="1" ent_type="PERSON" feats="Number=Sing" head="2" lemma="Mitra" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="C" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="Mitra" pos="PROPN" prefix="M" remarks="0.16" shape="Xxxxx" smwe="[1, 4]" suffix="tra" tag="NNP" upos="PROPN" wmwe="null" word="Mitra" xpos="NNP" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="Mandal" />
-      <extra dep="ROOT" ent_iob="1" ent_type="PERSON" head="0" lemma="Mandal" orig_paragraph="1" orth="Mandal" pos="PROPN" prefix="M" shape="Xxxxx" suffix="dal" tag="NNP" />
+      <extra dep="ROOT" deprel="flat" depth="3" edeps="2:flat" ent_iob="1" ent_type="PERSON" feats="Number=Sing" head="2" lemma="Mandal" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Mandal" pos="PROPN" prefix="M" remarks="0.17" shape="Xxxxx" smwe="[1, 5]" suffix="dal" tag="NNP" upos="PROPN" wmwe="null" word="Mandal" xpos="NNP" />
     </node>
   </layer>
   <layer layerID="1">

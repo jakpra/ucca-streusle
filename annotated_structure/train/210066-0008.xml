@@ -5,35 +5,35 @@
     <extra doc="[[[3893465145528745987, 9781598966686434415, 164681854541413346, 86, 0, 2, 8206900633647566924, 0, 12204527652707022206, 12290980237632234855, 3893465145528745987], [7831658034963690409, 7831658034963690409, 1292078113972184607, 85, 0, 2, 443, -1, 13110060611322374290, 13110760720460257827, 16701608521236914874], [11283501755624150392, 11283501755624150392, 11283501755624150392, 99, 394, 3, 446, 4, 11283501755624150392, 11283501755624150392, 11283501755624150392], [11120190145537401925, 11120190145537401925, 8427216679587749980, 93, 394, 1, 446, 3, 4620368362210911820, 2090661578966068036, 11120190145537401925], [3791531372978436496, 3791531372978436496, 5595707737748328492, 94, 394, 1, 446, 2, 4370460163704169311, 15369245168918225700, 3791531372978436496], [11283501755624150392, 11283501755624150392, 11283501755624150392, 99, 394, 1, 446, 1, 11283501755624150392, 11283501755624150392, 11283501755624150392], [3756745330456722599, 3756745330456722599, 8427216679587749980, 93, 394, 1, 439, -5, 15814017338663416870, 15180167692696242062, 3756745330456722599], [8205403955989537350, 8205403955989537350, 12646065887601541794, 97, 0, 2, 445, -6, 8205403955989537350, 8205403955989537350, 8205403955989537350]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="So" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="so" orig_paragraph="1" orth="So" pos="ADV" prefix="S" shape="Xx" suffix="So" tag="RB" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="null" head="0" lemma="so" lextag="O-ADV" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="So" pos="ADV" prefix="S" remarks="0.134" shape="Xx" smwe="null" suffix="So" tag="RB" upos="ADV" wmwe="null" word="So" xpos="RB" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="from" />
-      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="from" orig_paragraph="1" orth="from" pos="ADP" prefix="f" shape="xxxx" suffix="rom" tag="IN" />
+      <extra config="default" dep="prep" deprel="case" depth="4" edeps="3:case" ent_iob="2" ent_type="" feats="null" gov="134" govlemma="so" head="3" lemma="from" lexcat="P" lexlemma="from" lextag="O-P-p.Source" local_gov="1" local_obj="3" local_toknums="2" misc="null" next_terminal_lower_common_ancestor_category="A" next_terminal_lower_common_ancestor_depth="2" obj="136" objlemma="$" orig_paragraph="1" orth="from" pos="ADP" prefix="f" remarks="0.135" shape="xxxx" smwe="null" ss="p.Source" ss2="p.Source" suffix="rom" tag="IN" toknums="135" upos="ADP" wmwe="null" word="from" xpos="IN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="$" />
-      <extra dep="quantmod" ent_iob="3" ent_type="MONEY" head="4" lemma="$" orig_paragraph="1" orth="$" pos="SYM" prefix="$" shape="$" suffix="$" tag="$" />
+      <extra dep="quantmod" deprel="obl" depth="4" edeps="1:obl" ent_iob="3" ent_type="MONEY" feats="null" head="1" lemma="$" lextag="O-SYM" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="A" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="$" pos="SYM" prefix="$" remarks="0.136" shape="$" smwe="null" suffix="$" tag="$" upos="SYM" wmwe="null" word="$" xpos="$" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="55" />
-      <extra dep="quantmod" ent_iob="1" ent_type="MONEY" head="3" lemma="55" orig_paragraph="1" orth="55" pos="NUM" prefix="5" shape="dd" suffix="55" tag="CD" />
+      <extra dep="quantmod" deprel="nummod" depth="4" edeps="3:nummod" ent_iob="1" ent_type="MONEY" feats="NumType=Card" head="3" lemma="55" lextag="O-NUM" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="55" pos="NUM" prefix="5" remarks="0.137" shape="dd" smwe="null" suffix="55" tag="CD" upos="NUM" wmwe="null" word="55" xpos="CD" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="to" />
-      <extra dep="quantmod" ent_iob="1" ent_type="MONEY" head="2" lemma="to" orig_paragraph="1" orth="to" pos="PART" prefix="t" shape="xx" suffix="to" tag="TO" />
+      <extra config="default" dep="quantmod" deprel="case" depth="4" edeps="6:case" ent_iob="1" ent_type="MONEY" feats="null" gov="134" govlemma="so" head="6" lemma="to" lexcat="P" lexlemma="to" lextag="O-P-p.Goal" local_gov="1" local_obj="6" local_toknums="5" misc="null" next_terminal_lower_common_ancestor_category="A" next_terminal_lower_common_ancestor_depth="2" obj="139" objlemma="$" orig_paragraph="1" orth="to" pos="PART" prefix="t" remarks="0.138" shape="xx" smwe="null" ss="p.Goal" ss2="p.Goal" suffix="to" tag="TO" toknums="138" upos="ADP" wmwe="null" word="to" xpos="IN" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="$" />
-      <extra dep="quantmod" ent_iob="1" ent_type="MONEY" head="1" lemma="$" orig_paragraph="1" orth="$" pos="SYM" prefix="$" shape="$" suffix="$" tag="$" />
+      <extra dep="quantmod" deprel="obl" depth="4" edeps="1:obl" ent_iob="1" ent_type="MONEY" feats="null" head="1" lemma="$" lextag="O-SYM" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="A" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="$" pos="SYM" prefix="$" remarks="0.139" shape="$" smwe="null" suffix="$" tag="$" upos="SYM" wmwe="null" word="$" xpos="$" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="260" />
-      <extra dep="pobj" ent_iob="1" ent_type="MONEY" head="-5" lemma="260" orig_paragraph="1" orth="260" pos="NUM" prefix="2" shape="ddd" suffix="260" tag="CD" />
+      <extra dep="pobj" deprel="nummod" depth="4" edeps="6:nummod" ent_iob="1" ent_type="MONEY" feats="NumType=Card" head="6" lemma="260" lextag="O-NUM" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="260" pos="NUM" prefix="2" remarks="0.14" shape="ddd" smwe="null" suffix="260" tag="CD" upos="NUM" wmwe="null" word="260" xpos="CD" />
     </node>
     <node ID="0.8" type="Punctuation">
       <attributes paragraph="1" paragraph_position="8" text="?" />
-      <extra dep="punct" ent_iob="2" ent_type="" head="-6" lemma="?" orig_paragraph="1" orth="?" pos="PUNCT" prefix="?" shape="?" suffix="?" tag="." />
+      <extra dep="punct" deprel="punct" depth="3" edeps="1:punct" ent_iob="2" ent_type="" feats="null" head="1" lemma="?" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="?" pos="PUNCT" prefix="?" remarks="0.141" shape="?" smwe="null" suffix="?" tag="." upos="PUNCT" wmwe="null" word="?" xpos="." />
     </node>
   </layer>
   <layer layerID="1">

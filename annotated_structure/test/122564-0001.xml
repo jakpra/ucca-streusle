@@ -5,23 +5,23 @@
     <extra doc="[[[5711639017775284443, 5711639017775284443, 10554686591937588953, 84, 0, 2, 402, 3, 13110060611322374290, 6217145520856553898, 14387080380872362826], [12341974070768608367, 12341974070768608367, 164681854541413346, 86, 0, 2, 400, -1, 13110060611322374290, 1489474827855109852, 12882197036088020736], [2593208677638477497, 2593208677638477497, 2593208677638477497, 97, 0, 2, 445, 1, 2593208677638477497, 2593208677638477497, 2593208677638477497], [12342627399458421040, 12342627399458421040, 10554686591937588953, 84, 0, 2, 8206900633647566924, 0, 4088098365541558500, 15598372446745583797, 12342627399458421040], [3410355712981309345, 3410355712981309345, 164681854541413346, 86, 0, 2, 400, -1, 13110060611322374290, 5097672513440128799, 12882197036088020736]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="good" />
-      <extra dep="amod" ent_iob="2" ent_type="" head="3" lemma="good" orig_paragraph="1" orth="good" pos="ADJ" prefix="g" shape="xxxx" suffix="ood" tag="JJ" />
+      <extra dep="amod" deprel="amod" depth="4" edeps="2:amod" ent_iob="2" ent_type="" feats="Degree=Pos" head="2" lemma="good" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="E" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="good" pos="ADJ" prefix="g" remarks="0.1" shape="xxxx" smwe="null" suffix="ood" tag="JJ" upos="ADJ" wmwe="null" word="good" xpos="JJ" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="outside" />
-      <extra dep="advmod" ent_iob="2" ent_type="" head="-1" lemma="outside" orig_paragraph="1" orth="outside" pos="ADV" prefix="o" shape="xxxx" suffix="ide" tag="RB" />
+      <extra config="default" dep="advmod" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="null" gov="null" govlemma="null" head="0" lemma="outside" lexcat="P" lexlemma="outside" lextag="O-P-p.Locus" local_toknums="2" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" obj="null" objlemma="null" orig_paragraph="1" orth="outside" pos="ADV" prefix="o" remarks="0.2" shape="xxxx" smwe="null" ss="p.Locus" ss2="p.Locus" suffix="ide" tag="RB" toknums="2" upos="ADV" wmwe="null" word="outside" xpos="RB" />
     </node>
     <node ID="0.3" type="Punctuation">
       <attributes paragraph="1" paragraph_position="3" text="," />
-      <extra dep="punct" ent_iob="2" ent_type="" head="1" lemma="," orig_paragraph="1" orth="," pos="PUNCT" prefix="," shape="," suffix="," tag="," />
+      <extra dep="punct" deprel="punct" depth="3" edeps="2:punct" ent_iob="2" ent_type="" feats="null" head="2" lemma="," lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="," pos="PUNCT" prefix="," remarks="0.3" shape="," smwe="null" suffix="," tag="," upos="PUNCT" wmwe="null" word="," xpos="," />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="bad" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="bad" orig_paragraph="1" orth="bad" pos="ADJ" prefix="b" shape="xxx" suffix="bad" tag="JJ" />
+      <extra dep="ROOT" deprel="amod" depth="4" edeps="5:amod" ent_iob="2" ent_type="" feats="Degree=Pos" head="5" lemma="bad" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="E" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="bad" pos="ADJ" prefix="b" remarks="0.4" shape="xxx" smwe="null" suffix="bad" tag="JJ" upos="ADJ" wmwe="null" word="bad" xpos="JJ" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="inside" />
-      <extra dep="advmod" ent_iob="2" ent_type="" head="-1" lemma="inside" orig_paragraph="1" orth="inside" pos="ADV" prefix="i" shape="xxxx" suffix="ide" tag="RB" />
+      <extra config="default" dep="advmod" deprel="conj" depth="3" edeps="2:conj" ent_iob="2" ent_type="" feats="null" gov="2" govlemma="outside" head="2" lemma="inside" lexcat="P" lexlemma="inside" lextag="O-P-p.Locus" local_gov="2" local_toknums="5" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" obj="null" objlemma="null" orig_paragraph="1" orth="inside" pos="ADV" prefix="i" remarks="0.5" shape="xxxx" smwe="null" ss="p.Locus" ss2="p.Locus" suffix="ide" tag="RB" toknums="5" upos="ADV" wmwe="null" word="inside" xpos="RB" />
     </node>
   </layer>
   <layer layerID="1">

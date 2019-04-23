@@ -5,19 +5,19 @@
     <extra doc="[[[12780552510584381201, 7924123946469092124, 10554686591937588953, 84, 0, 2, 8206900633647566924, 0, 16072095006890171862, 9148987913859918431, 5773902504851881391], [2283656566040971221, 2283656566040971221, 17571114184892886314, 89, 0, 2, 407, -1, 4088098365541558500, 11901859001352538922, 2283656566040971221], [3824365634643441934, 3824365634643441934, 10554686591937588953, 84, 0, 2, 410, -2, 13110060611322374290, 12247454108283186160, 7450487766364355902], [17494803046312582752, 17494803046312582752, 12646065887601541794, 97, 0, 2, 445, -3, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Fresh" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="fresh" orig_paragraph="1" orth="Fresh" pos="ADJ" prefix="F" shape="Xxxxx" suffix="esh" tag="JJ" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Degree=Pos" head="0" lemma="fresh" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Fresh" pos="ADJ" prefix="F" remarks="0.1" shape="Xxxxx" smwe="null" suffix="esh" tag="JJ" upos="ADJ" wmwe="null" word="Fresh" xpos="JJ" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="and" />
-      <extra dep="cc" ent_iob="2" ent_type="" head="-1" lemma="and" orig_paragraph="1" orth="and" pos="CCONJ" prefix="a" shape="xxx" suffix="and" tag="CC" />
+      <extra dep="cc" deprel="cc" depth="2" edeps="3:cc" ent_iob="2" ent_type="" feats="null" head="3" lemma="and" lextag="O-CCONJ" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="and" pos="CCONJ" prefix="a" remarks="0.2" shape="xxx" smwe="null" suffix="and" tag="CC" upos="CCONJ" wmwe="null" word="and" xpos="CC" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="unic" />
-      <extra dep="conj" ent_iob="2" ent_type="" head="-2" lemma="unic" orig_paragraph="1" orth="unic" pos="ADJ" prefix="u" shape="xxxx" suffix="nic" tag="JJ" />
+      <extra dep="conj" deprel="conj" depth="2" edeps="1:conj" ent_iob="2" ent_type="" feats="Degree=Pos" head="1" lemma="unic" lextag="O-ADJ" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="unic" pos="ADJ" prefix="u" remarks="0.3" shape="xxxx" smwe="null" suffix="nic" tag="JJ" upos="ADJ" wmwe="null" word="unic" xpos="JJ" />
     </node>
     <node ID="0.4" type="Punctuation">
       <attributes paragraph="1" paragraph_position="4" text="!" />
-      <extra dep="punct" ent_iob="2" ent_type="" head="-3" lemma="!" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" shape="!" suffix="!" tag="." />
+      <extra dep="punct" deprel="punct" depth="3" edeps="1:punct" ent_iob="2" ent_type="" feats="null" head="1" lemma="!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" remarks="0.4" shape="!" smwe="null" suffix="!" tag="." upos="PUNCT" wmwe="null" word="!" xpos="." />
     </node>
   </layer>
   <layer layerID="1">

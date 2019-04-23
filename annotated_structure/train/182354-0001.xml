@@ -5,15 +5,15 @@
     <extra doc="[[[2745723271962638237, 2745723271962638237, 15794550382381185553, 96, 0, 2, 402, 1, 16072095006890171862, 17714545831559622561, 12182527387764416033], [5795664554816171710, 5795664554816171710, 11233576250605462493, 96, 0, 2, 7037928807040764755, 1, 16072095006890171862, 14230521632333904559, 7409412530419520829], [9654826846207504256, 9654826846207504256, 15794550382381185553, 96, 0, 2, 8206900633647566924, 0, 14968597813295776895, 10850957288794122991, 9654826846207504256]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Prominent" />
-      <extra dep="amod" ent_iob="2" ent_type="" head="1" lemma="Prominent" orig_paragraph="1" orth="Prominent" pos="PROPN" prefix="P" shape="Xxxxx" suffix="ent" tag="NNP" />
+      <extra dep="amod" deprel="compound" depth="3" edeps="2:compound" ent_iob="2" ent_type="" feats="Number=Sing" head="2" lemma="Prominent" lextag="B-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="C" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="Prominent" pos="PROPN" prefix="P" remarks="0.1" shape="Xxxxx" smwe="[1, 1]" suffix="ent" tag="NNP" upos="PROPN" wmwe="null" word="Prominent" xpos="NNP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Builders" />
-      <extra dep="compound" ent_iob="2" ent_type="" head="1" lemma="Builders" orig_paragraph="1" orth="Builders" pos="PROPN" prefix="B" shape="Xxxxx" suffix="ers" tag="NNPS" />
+      <extra dep="compound" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Plur" head="0" lemma="Builders" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Builders" pos="PROPN" prefix="B" remarks="0.2" shape="Xxxxx" smwe="[1, 2]" suffix="ers" tag="NNPS" upos="PROPN" wmwe="null" word="Builders" xpos="NNPS" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="NJ" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="NJ" orig_paragraph="1" orth="NJ" pos="PROPN" prefix="N" shape="XX" suffix="NJ" tag="NNP" />
+      <extra dep="ROOT" deprel="appos" depth="3" edeps="2:appos" ent_iob="2" ent_type="" feats="Number=Sing" head="2" lemma="NJ" lextag="O-N-n.LOCATION" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="NJ" pos="PROPN" prefix="N" remarks="0.3" shape="XX" smwe="null" suffix="NJ" tag="NNP" upos="PROPN" wmwe="null" word="NJ" xpos="NNP" />
     </node>
   </layer>
   <layer layerID="1">

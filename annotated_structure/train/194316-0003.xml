@@ -5,31 +5,31 @@
     <extra doc="[[[5059648917813135842, 7425985699627899538, 15267657372422890137, 90, 0, 2, 415, 1, 18200729499220207786, 5582244037879929967, 5059648917813135842], [3521328219799016164, 18011188783243346642, 783433942507015291, 92, 0, 2, 429, 1, 13110060611322374290, 260667111241363922, 7409412530419520829], [5012629990875267006, 10382539506755952630, 9188597074677201817, 100, 0, 2, 8206900633647566924, 0, 4088098365541558500, 11901859001352538922, 5012629990875267006], [18194338103975822726, 18194338103975822726, 1292078113972184607, 85, 0, 2, 443, -1, 13110060611322374290, 2985121464356781022, 11402152577528684049], [13055779130471031426, 13055779130471031426, 15267657372422890137, 90, 0, 2, 415, 1, 4370460163704169311, 13210364986222294696, 13055779130471031426], [1176656782636220709, 1176656782636220709, 10554686591937588953, 84, 0, 2, 439, -2, 13110060611322374290, 1489474827855109852, 4115755726172261197], [10875615029400813363, 10875615029400813363, 12646065887601541794, 97, 0, 2, 445, -4, 10875615029400813363, 12646065887601541794, 10875615029400813363]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="The" />
-      <extra dep="det" ent_iob="2" ent_type="" head="1" lemma="the" orig_paragraph="1" orth="The" pos="DET" prefix="T" shape="Xxx" suffix="The" tag="DT" />
+      <extra dep="det" deprel="det" depth="4" edeps="2:det" ent_iob="2" ent_type="" feats="Definite=Def|PronType=Art" head="2" lemma="the" lextag="O-DET" misc="null" next_terminal_lower_common_ancestor_category="A" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="The" pos="DET" prefix="T" remarks="0.4" shape="Xxx" smwe="null" suffix="The" tag="DT" upos="DET" wmwe="null" word="The" xpos="DT" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="waiters" />
-      <extra dep="nsubj" ent_iob="2" ent_type="" head="1" lemma="waiter" orig_paragraph="1" orth="waiters" pos="NOUN" prefix="w" shape="xxxx" suffix="ers" tag="NNS" />
+      <extra dep="nsubj" deprel="nsubj" depth="4" edeps="6:nsubj" ent_iob="2" ent_type="" feats="Number=Plur" head="6" lemma="waiter" lextag="O-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="waiters" pos="NOUN" prefix="w" remarks="0.41" shape="xxxx" smwe="null" suffix="ers" tag="NNS" upos="NOUN" wmwe="null" word="waiters" xpos="NNS" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="are" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="be" orig_paragraph="1" orth="are" pos="VERB" prefix="a" shape="xxx" suffix="are" tag="VBP" />
+      <extra dep="ROOT" deprel="cop" depth="3" edeps="6:cop" ent_iob="2" ent_type="" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="6" lemma="be" lextag="O-V-v.stative" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="are" pos="VERB" prefix="a" remarks="0.42" shape="xxx" smwe="null" suffix="are" tag="VBP" upos="AUX" wmwe="null" word="are" xpos="VBP" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="like" />
-      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="like" orig_paragraph="1" orth="like" pos="ADP" prefix="l" shape="xxxx" suffix="ike" tag="IN" />
+      <extra config="predicative" dep="prep" deprel="case" depth="3" edeps="6:case" ent_iob="2" ent_type="" feats="null" gov="41" govlemma="waiter" head="6" lemma="like" lexcat="P" lexlemma="like" lextag="O-P-p.ComparisonRef" local_gov="2" local_obj="6" local_toknums="4" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" obj="45" objlemma="other" orig_paragraph="1" orth="like" pos="ADP" prefix="l" remarks="0.43" shape="xxxx" smwe="null" ss="p.ComparisonRef" ss2="p.ComparisonRef" suffix="ike" tag="IN" toknums="43" upos="ADP" wmwe="null" word="like" xpos="IN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="no" />
-      <extra dep="det" ent_iob="2" ent_type="" head="1" lemma="no" orig_paragraph="1" orth="no" pos="DET" prefix="n" shape="xx" suffix="no" tag="DT" />
+      <extra dep="det" deprel="det" depth="3" edeps="6:det" ent_iob="2" ent_type="" feats="null" head="6" lemma="no" lextag="O-DET" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="no" pos="DET" prefix="n" remarks="0.44" shape="xx" smwe="null" suffix="no" tag="DT" upos="DET" wmwe="null" word="no" xpos="DT" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="other" />
-      <extra dep="pobj" ent_iob="2" ent_type="" head="-2" lemma="other" orig_paragraph="1" orth="other" pos="ADJ" prefix="o" shape="xxxx" suffix="her" tag="JJ" />
+      <extra dep="pobj" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Degree=Pos" head="0" lemma="other" lextag="O-ADJ" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="other" pos="ADJ" prefix="o" remarks="0.45" shape="xxxx" smwe="null" suffix="her" tag="JJ" upos="ADJ" wmwe="null" word="other" xpos="JJ" />
     </node>
     <node ID="0.7" type="Punctuation">
       <attributes paragraph="1" paragraph_position="7" text="..." />
-      <extra dep="punct" ent_iob="2" ent_type="" head="-4" lemma="..." orig_paragraph="1" orth="..." pos="PUNCT" prefix="." shape="..." suffix="..." tag="." />
+      <extra dep="punct" deprel="punct" depth="3" edeps="6:punct" ent_iob="2" ent_type="" feats="null" head="6" lemma="..." lextag="O-PUNCT" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="..." pos="PUNCT" prefix="." remarks="0.46" shape="..." smwe="null" suffix="..." tag="." upos="PUNCT" wmwe="null" word="..." xpos="." />
     </node>
   </layer>
   <layer layerID="1">

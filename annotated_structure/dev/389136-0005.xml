@@ -5,15 +5,15 @@
     <extra doc="[[[5341905273524142386, 16764210730586636600, 1292078113972184607, 85, 0, 2, 8206900633647566924, 0, 12204527652707022206, 14230521632333904559, 5341905273524142386], [12642664950031522641, 12642664950031522641, 15794550382381185553, 96, 380, 3, 7037928807040764755, 1, 13110060611322374290, 16978132545290669629, 17108018270360954118], [153757753028092381, 153757753028092381, 15794550382381185553, 96, 380, 1, 439, -2, 18200729499220207786, 9148987913859918431, 153757753028092381]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="By" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="by" orig_paragraph="1" orth="By" pos="ADP" prefix="B" shape="Xx" suffix="By" tag="IN" />
+      <extra config="default" dep="ROOT" deprel="case" depth="3" edeps="2:case" ent_iob="2" ent_type="" feats="null" gov="null" govlemma="null" head="2" lemma="by" lexcat="P" lexlemma="by" lextag="O-P-p.Originator|p.Agent" local_obj="2" local_toknums="1" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" obj="21" objlemma="samantha" orig_paragraph="1" orth="By" pos="ADP" prefix="B" remarks="0.2" shape="Xx" smwe="null" ss="p.Originator" ss2="p.Agent" suffix="By" tag="IN" toknums="20" upos="ADP" wmwe="null" word="By" xpos="IN" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="samantha" />
-      <extra dep="compound" ent_iob="3" ent_type="PERSON" head="1" lemma="samantha" orig_paragraph="1" orth="samantha" pos="PROPN" prefix="s" shape="xxxx" suffix="tha" tag="NNP" />
+      <extra dep="compound" deprel="root" depth="3" edeps="0:root" ent_iob="3" ent_type="PERSON" feats="Number=Sing" head="0" lemma="samantha" lextag="B-N-n.PERSON" misc="null" next_terminal_lower_common_ancestor_category="C" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="samantha" pos="PROPN" prefix="s" remarks="0.21" shape="xxxx" smwe="[1, 1]" suffix="tha" tag="NNP" upos="PROPN" wmwe="null" word="samantha" xpos="NNP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="Fox" />
-      <extra dep="pobj" ent_iob="1" ent_type="PERSON" head="-2" lemma="Fox" orig_paragraph="1" orth="Fox" pos="PROPN" prefix="F" shape="Xxx" suffix="Fox" tag="NNP" />
+      <extra dep="pobj" deprel="flat" depth="3" edeps="2:flat" ent_iob="1" ent_type="PERSON" feats="Number=Sing" head="2" lemma="Fox" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Fox" pos="PROPN" prefix="F" remarks="0.22" shape="Xxx" smwe="[1, 2]" suffix="Fox" tag="NNP" upos="PROPN" wmwe="null" word="Fox" xpos="NNP" />
     </node>
   </layer>
   <layer layerID="1">

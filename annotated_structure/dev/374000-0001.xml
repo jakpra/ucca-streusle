@@ -5,23 +5,23 @@
     <extra doc="[[[7403947472428570677, 7403947472428570677, 15794550382381185553, 96, 383, 3, 402, 3, 13862804199789047564, 16829822105563051112, 16560757395776560528], [13427265767486740119, 13427265767486740119, 15794550382381185553, 96, 383, 1, 7037928807040764755, 2, 16072095006890171862, 12290980237632234855, 16639369580702547507], [7403947472428570677, 7403947472428570677, 15794550382381185553, 96, 383, 1, 7037928807040764755, 1, 13862804199789047564, 16829822105563051112, 16560757395776560528], [1069327236522697900, 1069327236522697900, 15794550382381185553, 96, 383, 1, 8206900633647566924, 0, 16072095006890171862, 12290980237632234855, 16077735445828477292], [17494803046312582752, 17494803046312582752, 12646065887601541794, 97, 0, 2, 445, -1, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="GREAT" />
-      <extra dep="amod" ent_iob="3" ent_type="ORG" head="3" lemma="GREAT" orig_paragraph="1" orth="GREAT" pos="PROPN" prefix="G" shape="XXXX" suffix="EAT" tag="NNP" />
+      <extra dep="amod" deprel="amod" depth="4" edeps="2:amod" ent_iob="3" ent_type="ORG" feats="Degree=Pos" head="2" lemma="great" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="GREAT" pos="PROPN" prefix="G" remarks="0.1" shape="XXXX" smwe="null" suffix="EAT" tag="NNP" upos="ADJ" wmwe="null" word="GREAT" xpos="JJ" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Store" />
-      <extra dep="compound" ent_iob="1" ent_type="ORG" head="2" lemma="Store" orig_paragraph="1" orth="Store" pos="PROPN" prefix="S" shape="Xxxxx" suffix="ore" tag="NNP" />
+      <extra dep="compound" deprel="root" depth="3" edeps="0:root" ent_iob="1" ent_type="ORG" feats="Number=Sing" head="0" lemma="store" lextag="O-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Store" pos="PROPN" prefix="S" remarks="0.2" shape="Xxxxx" smwe="null" suffix="ore" tag="NNP" upos="NOUN" wmwe="null" word="Store" xpos="NN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="GREAT" />
-      <extra dep="compound" ent_iob="1" ent_type="ORG" head="1" lemma="GREAT" orig_paragraph="1" orth="GREAT" pos="PROPN" prefix="G" shape="XXXX" suffix="EAT" tag="NNP" />
+      <extra dep="compound" deprel="amod" depth="3" edeps="4:amod" ent_iob="1" ent_type="ORG" feats="Degree=Pos" head="4" lemma="great" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="GREAT" pos="PROPN" prefix="G" remarks="0.3" shape="XXXX" smwe="null" suffix="EAT" tag="NNP" upos="ADJ" wmwe="null" word="GREAT" xpos="JJ" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Service" />
-      <extra dep="ROOT" ent_iob="1" ent_type="ORG" head="0" lemma="Service" orig_paragraph="1" orth="Service" pos="PROPN" prefix="S" shape="Xxxxx" suffix="ice" tag="NNP" />
+      <extra dep="ROOT" deprel="conj" depth="3" edeps="2:conj" ent_iob="1" ent_type="ORG" feats="Number=Sing" head="2" lemma="service" lextag="O-N-n.ACT" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Service" pos="PROPN" prefix="S" remarks="0.4" shape="Xxxxx" smwe="null" suffix="ice" tag="NNP" upos="NOUN" wmwe="null" word="Service" xpos="NN" />
     </node>
     <node ID="0.5" type="Punctuation">
       <attributes paragraph="1" paragraph_position="5" text="!" />
-      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="!" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" shape="!" suffix="!" tag="." />
+      <extra dep="punct" deprel="punct" depth="3" edeps="2:punct" ent_iob="2" ent_type="" feats="null" head="2" lemma="!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" remarks="0.5" shape="!" smwe="null" suffix="!" tag="." upos="PUNCT" wmwe="null" word="!" xpos="." />
     </node>
   </layer>
   <layer layerID="1">

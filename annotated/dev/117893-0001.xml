@@ -1,0 +1,45 @@
+<root annotationID="0" passageID="117893-0001">
+  <attributes annotationID="4048" passageID="136" remarks="1207" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[10037736579842679463, 10037736579842679463, 15794550382381185553, 96, 383, 3, 8206900633647566924, 0, 16072095006890171862, 14862748245026736845, 16679871905258096564]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Aweesome" />
+      <extra dep="ROOT" deprel="root" edeps="0:root" ent_iob="3" ent_type="ORG" feats="Degree=Pos" head="0" lemma="aweesome" lextag="O-ADJ" misc="null" orig_paragraph="1" orth="Aweesome" pos="PROPN" prefix="A" remarks="0.1" shape="Xxxxx" smwe="null" suffix="ome" tag="NNP" upos="ADJ" wmwe="null" word="Aweesome" xpos="JJ" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="1.3" type="A">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.4" type="S">
+        <attributes />
+        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="S" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes implicit="True" />
+      <extra tree_id="1-1" />
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra tree_id="1-2" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

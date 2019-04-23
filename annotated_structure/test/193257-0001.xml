@@ -5,19 +5,19 @@
     <extra doc="[[[16319540881030452507, 2013399242189103424, 13927759927860985106, 100, 0, 2, 8206900633647566924, 0, 10887629174180191697, 16829822105563051112, 4292847300468124231], [7425985699627899538, 7425985699627899538, 15267657372422890137, 90, 0, 2, 415, 1, 4088098365541558500, 15369245168918225700, 7425985699627899538], [16842181437347778509, 16842181437347778509, 15794550382381185553, 96, 0, 2, 416, -2, 18200729499220207786, 18003918085672799305, 16842181437347778509], [7886231398970161479, 2158845516055552166, 3822385049556375858, 100, 0, 2, 398, -3, 10887629174180191697, 3929483993944067416, 17454115351911680600]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Gets" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="get" orig_paragraph="1" orth="Gets" pos="VERB" prefix="G" shape="Xxxx" suffix="ets" tag="VBZ" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="0" lemma="get" lextag="B-!!@" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Gets" pos="VERB" prefix="G" remarks="0.1" shape="Xxxx" smwe="[1, 1]" suffix="ets" tag="VBZ" upos="VERB" wmwe="null" word="Gets" xpos="VBZ" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="the" />
-      <extra dep="det" ent_iob="2" ent_type="" head="1" lemma="the" orig_paragraph="1" orth="the" pos="DET" prefix="t" shape="xxx" suffix="the" tag="DT" />
+      <extra dep="det" deprel="det" depth="4" edeps="3:det" ent_iob="2" ent_type="" feats="Definite=Def|PronType=Art" head="3" lemma="the" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="A" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="the" pos="DET" prefix="t" remarks="0.2" shape="xxx" smwe="[1, 2]" suffix="the" tag="DT" upos="DET" wmwe="null" word="the" xpos="DT" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="Job" />
-      <extra dep="dobj" ent_iob="2" ent_type="" head="-2" lemma="Job" orig_paragraph="1" orth="Job" pos="PROPN" prefix="J" shape="Xxx" suffix="Job" tag="NNP" />
+      <extra dep="dobj" deprel="obj" depth="4" edeps="1:obj" ent_iob="2" ent_type="" feats="Number=Sing" head="1" lemma="job" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Job" pos="PROPN" prefix="J" remarks="0.3" shape="Xxx" smwe="[1, 3]" suffix="Job" tag="NNP" upos="NOUN" wmwe="null" word="Job" xpos="NN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Done" />
-      <extra dep="acomp" ent_iob="2" ent_type="" head="-3" lemma="do" orig_paragraph="1" orth="Done" pos="VERB" prefix="D" shape="Xxxx" suffix="one" tag="VBN" />
+      <extra dep="acomp" deprel="xcomp" depth="4" edeps="1:xcomp" ent_iob="2" ent_type="" feats="Degree=Pos" head="1" lemma="done" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Done" pos="VERB" prefix="D" remarks="0.4" shape="Xxxx" smwe="[1, 4]" suffix="one" tag="VBN" upos="ADJ" wmwe="null" word="Done" xpos="JJ" />
     </node>
   </layer>
   <layer layerID="1">

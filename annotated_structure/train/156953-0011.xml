@@ -5,23 +5,23 @@
     <extra doc="[[[4690420944186131903, 561228191312463089, 13656873538139661788, 95, 0, 2, 429, 3, 101, 4690420944186131903, 4690420944186131903], [959164148857638496, 10382539506755952630, 9188597074677201817, 100, 0, 2, 405, 2, 4370460163704169311, 11901859001352538922, 959164148857638496], [5421073421983476317, 5421073421983476317, 164681854541413346, 86, 0, 2, 400, 1, 13110060611322374290, 8148669997605808657, 1344279032286957731], [14242014708739787450, 8004577259940138793, 1534113631682161808, 100, 0, 2, 8206900633647566924, 0, 13110060611322374290, 6217145520856553898, 7679303661980345986], [15255859468896132977, 15255859468896132977, 164681854541413346, 86, 0, 2, 400, -1, 13110060611322374290, 15598372446745583797, 12794475650786432352]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="I" />
-      <extra dep="nsubj" ent_iob="2" ent_type="" head="3" lemma="-PRON-" orig_paragraph="1" orth="I" pos="PRON" prefix="I" shape="X" suffix="I" tag="PRP" />
+      <extra dep="nsubj" deprel="nsubj" depth="3" edeps="4:nsubj" ent_iob="2" ent_type="" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="4" lemma="I" lextag="O-PRON" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="I" pos="PRON" prefix="I" remarks="0.147" shape="X" smwe="null" suffix="I" tag="PRP" upos="PRON" wmwe="null" word="I" xpos="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="am" />
-      <extra dep="aux" ent_iob="2" ent_type="" head="2" lemma="be" orig_paragraph="1" orth="am" pos="VERB" prefix="a" shape="xx" suffix="am" tag="VBP" />
+      <extra dep="aux" deprel="aux" depth="3" edeps="4:aux" ent_iob="2" ent_type="" feats="Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin" head="4" lemma="be" lextag="O-AUX" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="am" pos="VERB" prefix="a" remarks="0.148" shape="xx" smwe="null" suffix="am" tag="VBP" upos="AUX" wmwe="null" word="am" xpos="VBP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="definitely" />
-      <extra dep="advmod" ent_iob="2" ent_type="" head="1" lemma="definitely" orig_paragraph="1" orth="definitely" pos="ADV" prefix="d" shape="xxxx" suffix="ely" tag="RB" />
+      <extra dep="advmod" deprel="advmod" depth="3" edeps="4:advmod" ent_iob="2" ent_type="" feats="null" head="4" lemma="definitely" lextag="O-ADV" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="definitely" pos="ADV" prefix="d" remarks="0.149" shape="xxxx" smwe="null" suffix="ely" tag="RB" upos="ADV" wmwe="null" word="definitely" xpos="RB" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="going" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="go" orig_paragraph="1" orth="going" pos="VERB" prefix="g" shape="xxxx" suffix="ing" tag="VBG" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Tense=Pres|VerbForm=Part" head="0" lemma="go" lextag="O-V-v.motion" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="going" pos="VERB" prefix="g" remarks="0.15" shape="xxxx" smwe="null" suffix="ing" tag="VBG" upos="VERB" wmwe="null" word="going" xpos="VBG" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="back" />
-      <extra dep="advmod" ent_iob="2" ent_type="" head="-1" lemma="back" orig_paragraph="1" orth="back" pos="ADV" prefix="b" shape="xxxx" suffix="ack" tag="RB" />
+      <extra config="default" dep="advmod" deprel="advmod" depth="3" edeps="4:advmod" ent_iob="2" ent_type="" feats="null" gov="150" govlemma="go" head="4" lemma="back" lexcat="P" lexlemma="back" lextag="O-P-p.Direction" local_gov="4" local_toknums="5" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" obj="null" objlemma="null" orig_paragraph="1" orth="back" pos="ADV" prefix="b" remarks="0.151" shape="xxxx" smwe="null" ss="p.Direction" ss2="p.Direction" suffix="ack" tag="RB" toknums="151" upos="ADV" wmwe="null" word="back" xpos="RB" />
     </node>
   </layer>
   <layer layerID="1">

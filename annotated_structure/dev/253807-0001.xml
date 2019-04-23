@@ -5,23 +5,23 @@
     <extra doc="[[[706676008974352840, 4175037253379558654, 14753207560692742245, 84, 0, 2, 402, 1, 16072095006890171862, 149303876845869574, 14619786160612475726], [15994409289946134265, 8799542030263951485, 783433942507015291, 92, 0, 2, 8206900633647566924, 0, 13110060611322374290, 8148669997605808657, 227923054444777232], [3002984154512732771, 3002984154512732771, 1292078113972184607, 85, 0, 2, 443, -1, 4370460163704169311, 5097672513440128799, 3002984154512732771], [16777434390698854700, 16777434390698854700, 15794550382381185553, 96, 384, 3, 439, -1, 16072095006890171862, 8656007278630577320, 17970580055335648935], [17494803046312582752, 17494803046312582752, 12646065887601541794, 97, 0, 2, 445, -3, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Cheapest" />
-      <extra dep="amod" ent_iob="2" ent_type="" head="1" lemma="cheap" orig_paragraph="1" orth="Cheapest" pos="ADJ" prefix="C" shape="Xxxxx" suffix="est" tag="JJS" />
+      <extra dep="amod" deprel="amod" depth="4" edeps="2:amod" ent_iob="2" ent_type="" feats="Degree=Sup" head="2" lemma="cheapest" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="Cheapest" pos="ADJ" prefix="C" remarks="0.1" shape="Xxxxx" smwe="null" suffix="est" tag="JJS" upos="ADJ" wmwe="null" word="Cheapest" xpos="JJS" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="drinks" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="drink" orig_paragraph="1" orth="drinks" pos="NOUN" prefix="d" shape="xxxx" suffix="nks" tag="NNS" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Plur" head="0" lemma="drink" lextag="O-N-n.FOOD" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="drinks" pos="NOUN" prefix="d" remarks="0.2" shape="xxxx" smwe="null" suffix="nks" tag="NNS" upos="NOUN" wmwe="null" word="drinks" xpos="NNS" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="in" />
-      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="in" orig_paragraph="1" orth="in" pos="ADP" prefix="i" shape="xx" suffix="in" tag="IN" />
+      <extra config="default" dep="prep" deprel="case" depth="4" edeps="4:case" ent_iob="2" ent_type="" feats="null" gov="2" govlemma="drink" head="4" lemma="in" lexcat="P" lexlemma="in" lextag="O-P-p.Locus" local_gov="2" local_obj="4" local_toknums="3" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" obj="4" objlemma="Keene" orig_paragraph="1" orth="in" pos="ADP" prefix="i" remarks="0.3" shape="xx" smwe="null" ss="p.Locus" ss2="p.Locus" suffix="in" tag="IN" toknums="3" upos="ADP" wmwe="null" word="in" xpos="IN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Keene" />
-      <extra dep="pobj" ent_iob="3" ent_type="GPE" head="-1" lemma="Keene" orig_paragraph="1" orth="Keene" pos="PROPN" prefix="K" shape="Xxxxx" suffix="ene" tag="NNP" />
+      <extra dep="pobj" deprel="nmod" depth="4" edeps="2:nmod" ent_iob="3" ent_type="GPE" feats="Number=Sing" head="2" lemma="Keene" lextag="O-N-n.LOCATION" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Keene" pos="PROPN" prefix="K" remarks="0.4" shape="Xxxxx" smwe="null" suffix="ene" tag="NNP" upos="PROPN" wmwe="null" word="Keene" xpos="NNP" />
     </node>
     <node ID="0.5" type="Punctuation">
       <attributes paragraph="1" paragraph_position="5" text="!" />
-      <extra dep="punct" ent_iob="2" ent_type="" head="-3" lemma="!" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" shape="!" suffix="!" tag="." />
+      <extra dep="punct" deprel="punct" depth="3" edeps="2:punct" ent_iob="2" ent_type="" feats="null" head="2" lemma="!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" remarks="0.5" shape="!" smwe="null" suffix="!" tag="." upos="PUNCT" wmwe="null" word="!" xpos="." />
     </node>
   </layer>
   <layer layerID="1">

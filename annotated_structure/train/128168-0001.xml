@@ -5,39 +5,39 @@
     <extra doc="[[[13082494150066684235, 12747335289542760454, 10554686591937588953, 84, 0, 2, 402, 1, 16072095006890171862, 10603054956214495369, 1344279032286957731], [5583843279275395515, 5583843279275395515, 15794550382381185553, 96, 0, 2, 8206900633647566924, 0, 16072095006890171862, 10850957288794122991, 7400529878339724166], [5640369432778651323, 5640369432778651323, 1292078113972184607, 85, 0, 2, 443, -1, 4370460163704169311, 1489474827855109852, 5640369432778651323], [11180802170221939018, 11180802170221939018, 15794550382381185553, 96, 384, 3, 7037928807040764755, 1, 16072095006890171862, 149303876845869574, 7644437101305892776], [16623299875770883202, 16623299875770883202, 15794550382381185553, 96, 384, 1, 439, -2, 17096342708991983284, 12290980237632234855, 16623299875770883202], [3002984154512732771, 3002984154512732771, 1292078113972184607, 85, 0, 2, 443, -1, 4370460163704169311, 5097672513440128799, 3002984154512732771], [4416895232847471026, 4416895232847471026, 15794550382381185553, 96, 384, 3, 439, -1, 16072095006890171862, 10603054956214495369, 5826824642517542187], [2593208677638477497, 2593208677638477497, 2593208677638477497, 97, 0, 2, 445, -1, 2593208677638477497, 2593208677638477497, 2593208677638477497], [18040812117822614091, 18040812117822614091, 15794550382381185553, 96, 384, 3, 439, -1, 14968597813295776895, 10850957288794122991, 18040812117822614091]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Lovely" />
-      <extra dep="amod" ent_iob="2" ent_type="" head="1" lemma="lovely" orig_paragraph="1" orth="Lovely" pos="ADJ" prefix="L" shape="Xxxxx" suffix="ely" tag="JJ" />
+      <extra dep="amod" deprel="compound" depth="3" edeps="2:compound" ent_iob="2" ent_type="" feats="Number=Sing" head="2" lemma="Lovely" lextag="B-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="C" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="Lovely" pos="ADJ" prefix="L" remarks="0.1" shape="Xxxxx" smwe="[1, 1]" suffix="ely" tag="JJ" upos="PROPN" wmwe="null" word="Lovely" xpos="NNP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Nails" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="Nails" orig_paragraph="1" orth="Nails" pos="PROPN" prefix="N" shape="Xxxxx" suffix="ils" tag="NNP" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="Nails" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Nails" pos="PROPN" prefix="N" remarks="0.2" shape="Xxxxx" smwe="[1, 2]" suffix="ils" tag="NNP" upos="PROPN" wmwe="null" word="Nails" xpos="NNP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="on" />
-      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="on" orig_paragraph="1" orth="on" pos="ADP" prefix="o" shape="xx" suffix="on" tag="IN" />
+      <extra config="default" dep="prep" deprel="case" depth="4" edeps="5:case" ent_iob="2" ent_type="" feats="null" gov="2" govlemma="Nails" head="5" lemma="on" lexcat="P" lexlemma="on" lextag="O-P-p.Locus" local_gov="2" local_obj="5" local_toknums="3" misc="null" next_terminal_lower_common_ancestor_category="E" next_terminal_lower_common_ancestor_depth="2" obj="5" objlemma="St." orig_paragraph="1" orth="on" pos="ADP" prefix="o" remarks="0.3" shape="xx" smwe="null" ss="p.Locus" ss2="p.Locus" suffix="on" tag="IN" toknums="3" upos="ADP" wmwe="null" word="on" xpos="IN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Cayuga" />
-      <extra dep="compound" ent_iob="3" ent_type="GPE" head="1" lemma="Cayuga" orig_paragraph="1" orth="Cayuga" pos="PROPN" prefix="C" shape="Xxxxx" suffix="uga" tag="NNP" />
+      <extra dep="compound" deprel="compound" depth="4" edeps="5:compound" ent_iob="3" ent_type="GPE" feats="Number=Sing" head="5" lemma="Cayuga" lextag="B-N-n.LOCATION" misc="null" next_terminal_lower_common_ancestor_category="C" next_terminal_lower_common_ancestor_depth="3" orig_paragraph="1" orth="Cayuga" pos="PROPN" prefix="C" remarks="0.4" shape="Xxxxx" smwe="[2, 1]" suffix="uga" tag="NNP" upos="PROPN" wmwe="null" word="Cayuga" xpos="NNP" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="St." />
-      <extra dep="pobj" ent_iob="1" ent_type="GPE" head="-2" lemma="St." orig_paragraph="1" orth="St." pos="PROPN" prefix="S" shape="Xx." suffix="St." tag="NNP" />
+      <extra dep="pobj" deprel="nmod" depth="4" edeps="2:nmod" ent_iob="1" ent_type="GPE" feats="Number=Sing" head="2" lemma="St." lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="St." pos="PROPN" prefix="S" remarks="0.5" shape="Xx." smwe="[2, 2]" suffix="St." tag="NNP" upos="PROPN" wmwe="null" word="St." xpos="NNP" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="in" />
-      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="in" orig_paragraph="1" orth="in" pos="ADP" prefix="i" shape="xx" suffix="in" tag="IN" />
+      <extra config="default" dep="prep" deprel="case" depth="4" edeps="7:case" ent_iob="2" ent_type="" feats="null" gov="2" govlemma="Nails" head="7" lemma="in" lexcat="P" lexlemma="in" lextag="O-P-p.Locus" local_gov="2" local_obj="7" local_toknums="6" misc="null" next_terminal_lower_common_ancestor_category="E" next_terminal_lower_common_ancestor_depth="2" obj="7" objlemma="Lewiston" orig_paragraph="1" orth="in" pos="ADP" prefix="i" remarks="0.6" shape="xx" smwe="null" ss="p.Locus" ss2="p.Locus" suffix="in" tag="IN" toknums="6" upos="ADP" wmwe="null" word="in" xpos="IN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="Lewiston" />
-      <extra dep="pobj" ent_iob="3" ent_type="GPE" head="-1" lemma="Lewiston" orig_paragraph="1" orth="Lewiston" pos="PROPN" prefix="L" shape="Xxxxx" suffix="ton" tag="NNP" />
+      <extra dep="pobj" deprel="nmod" depth="4" edeps="2:nmod" ent_iob="3" ent_type="GPE" feats="Number=Sing" head="2" lemma="Lewiston" lextag="B-N-n.LOCATION" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="E" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="Lewiston" pos="PROPN" prefix="L" remarks="0.7" shape="Xxxxx" smwe="null" suffix="ton" tag="NNP" upos="PROPN" wmwe="[3, 1]" word="Lewiston" xpos="NNP" />
     </node>
     <node ID="0.8" type="Punctuation">
       <attributes paragraph="1" paragraph_position="8" text="," />
-      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="," orig_paragraph="1" orth="," pos="PUNCT" prefix="," shape="," suffix="," tag="," />
+      <extra dep="punct" deprel="punct" depth="4" edeps="7:punct" ent_iob="2" ent_type="" feats="null" head="7" lemma="," lextag="I~-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="E" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="," pos="PUNCT" prefix="," remarks="0.8" shape="," smwe="null" suffix="," tag="," upos="PUNCT" wmwe="[3, 2]" word="," xpos="," />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="NY" />
-      <extra dep="pobj" ent_iob="3" ent_type="GPE" head="-1" lemma="NY" orig_paragraph="1" orth="NY" pos="PROPN" prefix="N" shape="XX" suffix="NY" tag="NNP" />
+      <extra dep="pobj" deprel="appos" depth="4" edeps="7:appos" ent_iob="3" ent_type="GPE" feats="Number=Sing" head="7" lemma="NY" lextag="I~-N-n.LOCATION" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="NY" pos="PROPN" prefix="N" remarks="0.9" shape="XX" smwe="null" suffix="NY" tag="NNP" upos="PROPN" wmwe="[3, 3]" word="NY" xpos="NNP" />
     </node>
   </layer>
   <layer layerID="1">

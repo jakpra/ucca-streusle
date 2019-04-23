@@ -5,59 +5,59 @@
     <extra doc="[[[3835421507060326203, 3835421507060326203, 15794550382381185553, 96, 383, 3, 429, 1, 16072095006890171862, 16829822105563051112, 15704635785123300228], [3411606890003347522, 10382539506755952630, 13927759927860985106, 100, 0, 2, 8206900633647566924, 0, 4370460163704169311, 5097672513440128799, 3411606890003347522], [2160362229054775535, 2160362229054775535, 1895579588947004264, 86, 0, 2, 400, 1, 13110060611322374290, 646772771845179972, 16639369580702547507], [6780738473926269129, 6780738473926269129, 10554686591937588953, 84, 0, 2, 398, -2, 13110060611322374290, 1720370409040345145, 14814004474743358178], [3791531372978436496, 3791531372978436496, 5595707737748328492, 94, 0, 2, 405, 1, 4370460163704169311, 15369245168918225700, 3791531372978436496], [11925638236994514241, 11925638236994514241, 14200088355797579614, 100, 0, 2, 450, -2, 4088098365541558500, 16978132545290669629, 11925638236994514241], [4115755726172261197, 561228191312463089, 13656873538139661788, 95, 0, 2, 416, -1, 4088098365541558500, 15817570140490810055, 4115755726172261197], [10794458019344880855, 10794458019344880855, 1292078113972184607, 85, 0, 2, 423, 2, 13110060611322374290, 15369245168918225700, 6645331381689172409], [6740321247510922449, 561228191312463089, 13656873538139661788, 95, 0, 2, 429, 1, 4088098365541558500, 16978132545290669629, 6740321247510922449], [3411606890003347522, 10382539506755952630, 13927759927860985106, 100, 0, 2, 408, -4, 4370460163704169311, 5097672513440128799, 3411606890003347522], [3791531372978436496, 3791531372978436496, 5595707737748328492, 94, 0, 2, 405, 1, 4370460163704169311, 15369245168918225700, 3791531372978436496], [11925638236994514241, 11925638236994514241, 14200088355797579614, 100, 0, 2, 450, -2, 4088098365541558500, 16978132545290669629, 11925638236994514241], [18197037023634208128, 561228191312463089, 13656873538139661788, 95, 0, 2, 416, -1, 4370460163704169311, 646772771845179972, 18197037023634208128], [13418647357316071057, 13418647357316071057, 12646065887601541794, 97, 0, 2, 445, -12, 13418647357316071057, 17494803046312582752, 12736066093347293436]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Gracee" />
-      <extra dep="nsubj" ent_iob="3" ent_type="ORG" head="1" lemma="Gracee" orig_paragraph="1" orth="Gracee" pos="PROPN" prefix="G" shape="Xxxxx" suffix="cee" tag="NNP" />
+      <extra dep="nsubj" deprel="nsubj" depth="3" edeps="4:nsubj" ent_iob="3" ent_type="ORG" feats="Number=Sing" head="4" lemma="Gracee" lextag="O-N-n.ANIMAL" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Gracee" pos="PROPN" prefix="G" remarks="0.26" shape="Xxxxx" smwe="null" suffix="cee" tag="NNP" upos="PROPN" wmwe="null" word="Gracee" xpos="NNP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="is" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="be" orig_paragraph="1" orth="is" pos="VERB" prefix="i" shape="xx" suffix="is" tag="VBZ" />
+      <extra dep="ROOT" deprel="cop" depth="3" edeps="4:cop" ent_iob="2" ent_type="" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="4" lemma="be" lextag="O-V-v.stative" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="is" pos="VERB" prefix="i" remarks="0.27" shape="xx" smwe="null" suffix="is" tag="VBZ" upos="AUX" wmwe="null" word="is" xpos="VBZ" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="more" />
-      <extra dep="advmod" ent_iob="2" ent_type="" head="1" lemma="more" orig_paragraph="1" orth="more" pos="ADV" prefix="m" shape="xxxx" suffix="ore" tag="RBR" />
+      <extra dep="advmod" deprel="advmod" depth="3" edeps="4:advmod" ent_iob="2" ent_type="" feats="null" head="4" lemma="more" lextag="O-ADV" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="more" pos="ADV" prefix="m" remarks="0.28" shape="xxxx" smwe="null" suffix="ore" tag="RBR" upos="ADV" wmwe="null" word="more" xpos="RBR" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="excited" />
-      <extra dep="acomp" ent_iob="2" ent_type="" head="-2" lemma="excited" orig_paragraph="1" orth="excited" pos="ADJ" prefix="e" shape="xxxx" suffix="ted" tag="JJ" />
+      <extra dep="acomp" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Degree=Pos" head="0" lemma="excited" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="excited" pos="ADJ" prefix="e" remarks="0.29" shape="xxxx" smwe="null" suffix="ted" tag="JJ" upos="ADJ" wmwe="null" word="excited" xpos="JJ" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="to" />
-      <extra dep="aux" ent_iob="2" ent_type="" head="1" lemma="to" orig_paragraph="1" orth="to" pos="PART" prefix="t" shape="xx" suffix="to" tag="TO" />
+      <extra dep="aux" deprel="mark" depth="4" edeps="6:mark" ent_iob="2" ent_type="" feats="null" head="6" lemma="to" lextag="O-INF" misc="null" next_terminal_lower_common_ancestor_category="A" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="to" pos="PART" prefix="t" remarks="0.3" shape="xx" smwe="null" suffix="to" tag="TO" upos="PART" wmwe="null" word="to" xpos="TO" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="see" />
-      <extra dep="xcomp" ent_iob="2" ent_type="" head="-2" lemma="see" orig_paragraph="1" orth="see" pos="VERB" prefix="s" shape="xxx" suffix="see" tag="VB" />
+      <extra dep="xcomp" deprel="xcomp" depth="4" edeps="4:xcomp" ent_iob="2" ent_type="" feats="VerbForm=Inf" head="4" lemma="see" lextag="O-V-v.social" misc="null" next_terminal_lower_common_ancestor_category="A" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="see" pos="VERB" prefix="s" remarks="0.31" shape="xxx" smwe="null" suffix="see" tag="VB" upos="VERB" wmwe="null" word="see" xpos="VB" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="her" />
-      <extra dep="dobj" ent_iob="2" ent_type="" head="-1" lemma="-PRON-" orig_paragraph="1" orth="her" pos="PRON" prefix="h" shape="xxx" suffix="her" tag="PRP" />
+      <extra dep="dobj" deprel="obj" depth="4" edeps="6:obj" ent_iob="2" ent_type="" feats="Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs" head="6" lemma="she" lextag="O-PRON" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="her" pos="PRON" prefix="h" remarks="0.32" shape="xxx" smwe="null" suffix="her" tag="PRP" upos="PRON" wmwe="null" word="her" xpos="PRP" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="than" />
-      <extra dep="mark" ent_iob="2" ent_type="" head="2" lemma="than" orig_paragraph="1" orth="than" pos="ADP" prefix="t" shape="xxxx" suffix="han" tag="IN" />
+      <extra config="subordinating" dep="mark" deprel="mark" depth="2" edeps="10.1:mark" ent_iob="2" ent_type="" feats="null" gov="29" govlemma="excited" head="10" lemma="than" lexcat="P" lexlemma="than" lextag="O-P-p.ComparisonRef" local_gov="4" local_obj="10" local_toknums="8" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" obj="35" objlemma="be" orig_paragraph="1" orth="than" pos="ADP" prefix="t" remarks="0.33" shape="xxxx" smwe="null" ss="p.ComparisonRef" ss2="p.ComparisonRef" suffix="han" tag="IN" toknums="33" upos="SCONJ" wmwe="null" word="than" xpos="IN" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="she" />
-      <extra dep="nsubj" ent_iob="2" ent_type="" head="1" lemma="-PRON-" orig_paragraph="1" orth="she" pos="PRON" prefix="s" shape="xxx" suffix="she" tag="PRP" />
+      <extra dep="nsubj" deprel="nsubj" depth="3" edeps="10.1:nsubj" ent_iob="2" ent_type="" feats="Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs" head="10" lemma="she" lextag="O-PRON" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="she" pos="PRON" prefix="s" remarks="0.34" shape="xxx" smwe="null" suffix="she" tag="PRP" upos="PRON" wmwe="null" word="she" xpos="PRP" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="is" />
-      <extra dep="ccomp" ent_iob="2" ent_type="" head="-4" lemma="be" orig_paragraph="1" orth="is" pos="VERB" prefix="i" shape="xx" suffix="is" tag="VBZ" />
+      <extra dep="ccomp" deprel="advcl" depth="3" edeps="10.1:cop" ent_iob="2" ent_type="" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="4" lemma="be" lextag="O-V-v.stative" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="is" pos="VERB" prefix="i" remarks="0.35" shape="xx" smwe="null" suffix="is" tag="VBZ" upos="AUX" wmwe="null" word="is" xpos="VBZ" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="to" />
-      <extra dep="aux" ent_iob="2" ent_type="" head="1" lemma="to" orig_paragraph="1" orth="to" pos="PART" prefix="t" shape="xx" suffix="to" tag="TO" />
+      <extra dep="aux" deprel="mark" depth="4" edeps="12:mark" ent_iob="2" ent_type="" feats="null" head="12" lemma="to" lextag="O-INF" misc="null" next_terminal_lower_common_ancestor_category="A" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="to" pos="PART" prefix="t" remarks="0.36" shape="xx" smwe="null" suffix="to" tag="TO" upos="PART" wmwe="null" word="to" xpos="TO" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="see" />
-      <extra dep="xcomp" ent_iob="2" ent_type="" head="-2" lemma="see" orig_paragraph="1" orth="see" pos="VERB" prefix="s" shape="xxx" suffix="see" tag="VB" />
+      <extra dep="xcomp" deprel="orphan" depth="4" edeps="10.1:xcomp" ent_iob="2" ent_type="" feats="VerbForm=Inf" head="10" lemma="see" lextag="O-V-v.social" misc="null" next_terminal_lower_common_ancestor_category="A" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="see" pos="VERB" prefix="s" remarks="0.37" shape="xxx" smwe="null" suffix="see" tag="VB" upos="VERB" wmwe="null" word="see" xpos="VB" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="me" />
-      <extra dep="dobj" ent_iob="2" ent_type="" head="-1" lemma="-PRON-" orig_paragraph="1" orth="me" pos="PRON" prefix="m" shape="xx" suffix="me" tag="PRP" />
+      <extra dep="dobj" deprel="obj" depth="4" edeps="12:obj" ent_iob="2" ent_type="" feats="Case=Acc|Number=Sing|Person=1|PronType=Prs" head="12" lemma="I" lextag="O-PRON" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="me" pos="PRON" prefix="m" remarks="0.38" shape="xx" smwe="null" suffix="me" tag="PRP" upos="PRON" wmwe="null" word="me" xpos="PRP" />
     </node>
     <node ID="0.14" type="Punctuation">
       <attributes paragraph="1" paragraph_position="14" text="!!!!" />
-      <extra dep="punct" ent_iob="2" ent_type="" head="-12" lemma="!!!!" orig_paragraph="1" orth="!!!!" pos="PUNCT" prefix="!" shape="!!!!" suffix="!!!" tag="." />
+      <extra dep="punct" deprel="punct" depth="3" edeps="4:punct" ent_iob="2" ent_type="" feats="null" head="4" lemma="!!!!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="!!!!" pos="PUNCT" prefix="!" remarks="0.39" shape="!!!!" smwe="null" suffix="!!!" tag="." upos="PUNCT" wmwe="null" word="!!!!" xpos="." />
     </node>
   </layer>
   <layer layerID="1">

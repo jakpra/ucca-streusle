@@ -5,27 +5,27 @@
     <extra doc="[[[3790800195458886901, 3790800195458886901, 15794550382381185553, 96, 384, 3, 440, 4, 16072095006890171862, 3209455878668673793, 15329765571964767260], [16428057658620181782, 16428057658620181782, 74, 94, 0, 2, 8110129090154140942, -1, 3155823383004454315, 11221368173670222813, 16428057658620181782], [6250203919658647129, 5711639017775284443, 14753207560692742245, 84, 0, 2, 402, 2, 13110060611322374290, 15598372446745583797, 14619786160612475726], [2705130936181386703, 2705130936181386703, 15308085513773655218, 92, 0, 2, 7037928807040764755, 1, 13110060611322374290, 15369245168918225700, 7679303661980345986], [208172016153456603, 208172016153456603, 15308085513773655218, 92, 0, 2, 8206900633647566924, 0, 13110060611322374290, 16978132545290669629, 16077735445828477292], [17494803046312582752, 17494803046312582752, 12646065887601541794, 97, 0, 2, 445, -1, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Miami" />
-      <extra dep="poss" ent_iob="3" ent_type="GPE" head="4" lemma="Miami" orig_paragraph="1" orth="Miami" pos="PROPN" prefix="M" shape="Xxxxx" suffix="ami" tag="NNP" />
+      <extra dep="poss" deprel="nmod:poss" depth="4" edeps="5:nmod:poss" ent_iob="3" ent_type="GPE" feats="Number=Sing" head="5" lemma="Miami" lextag="O-N-n.LOCATION" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="D" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="Miami" pos="PROPN" prefix="M" remarks="0.1" shape="Xxxxx" smwe="null" suffix="ami" tag="NNP" upos="PROPN" wmwe="null" word="Miami" xpos="NNP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="'s" />
-      <extra dep="case" ent_iob="2" ent_type="" head="-1" lemma="'s" orig_paragraph="1" orth="'s" pos="PART" prefix="'" shape="'x" suffix="'s" tag="POS" />
+      <extra config="default" dep="case" deprel="case" depth="4" edeps="1:case" ent_iob="2" ent_type="" feats="null" gov="5" govlemma="service" head="1" lemma="'s" lexcat="POSS" lexlemma="'s" lextag="O-POSS-p.Locus|p.Gestalt" local_gov="5" local_obj="1" local_toknums="2" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" obj="1" objlemma="Miami" orig_paragraph="1" orth="'s" pos="PART" prefix="'" remarks="0.2" shape="'x" smwe="null" ss="p.Locus" ss2="p.Gestalt" suffix="'s" tag="POS" toknums="2" upos="PART" wmwe="null" word="'s" xpos="POS" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="best" />
-      <extra dep="amod" ent_iob="2" ent_type="" head="2" lemma="good" orig_paragraph="1" orth="best" pos="ADJ" prefix="b" shape="xxxx" suffix="est" tag="JJS" />
+      <extra dep="amod" deprel="amod" depth="3" edeps="5:amod" ent_iob="2" ent_type="" feats="Degree=Sup" head="5" lemma="best" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="best" pos="ADJ" prefix="b" remarks="0.3" shape="xxxx" smwe="null" suffix="est" tag="JJS" upos="ADJ" wmwe="null" word="best" xpos="JJS" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="tutoring" />
-      <extra dep="compound" ent_iob="2" ent_type="" head="1" lemma="tutoring" orig_paragraph="1" orth="tutoring" pos="NOUN" prefix="t" shape="xxxx" suffix="ing" tag="NN" />
+      <extra dep="compound" deprel="compound" depth="3" edeps="5:compound" ent_iob="2" ent_type="" feats="Number=Sing" head="5" lemma="tutoring" lextag="O-!!@" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="tutoring" pos="NOUN" prefix="t" remarks="0.4" shape="xxxx" smwe="null" suffix="ing" tag="NN" upos="NOUN" wmwe="null" word="tutoring" xpos="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="service" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="service" orig_paragraph="1" orth="service" pos="NOUN" prefix="s" shape="xxxx" suffix="ice" tag="NN" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="service" lextag="O-N-n.ACT" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="service" pos="NOUN" prefix="s" remarks="0.5" shape="xxxx" smwe="null" suffix="ice" tag="NN" upos="NOUN" wmwe="null" word="service" xpos="NN" />
     </node>
     <node ID="0.6" type="Punctuation">
       <attributes paragraph="1" paragraph_position="6" text="!" />
-      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="!" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" shape="!" suffix="!" tag="." />
+      <extra dep="punct" deprel="punct" depth="3" edeps="5:punct" ent_iob="2" ent_type="" feats="null" head="5" lemma="!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" remarks="0.6" shape="!" smwe="null" suffix="!" tag="." upos="PUNCT" wmwe="null" word="!" xpos="." />
     </node>
   </layer>
   <layer layerID="1">

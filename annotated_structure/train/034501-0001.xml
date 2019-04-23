@@ -5,23 +5,23 @@
     <extra doc="[[[9335770981443976163, 5711639017775284443, 14753207560692742245, 84, 0, 2, 402, 2, 10887629174180191697, 14230521632333904559, 14619786160612475726], [1637936657307008376, 2896954000364782673, 15308085513773655218, 92, 0, 2, 7037928807040764755, 1, 16072095006890171862, 12290980237632234855, 14432934319865826938], [7338335557000497525, 7338335557000497525, 15308085513773655218, 92, 0, 2, 8206900633647566924, 0, 13110060611322374290, 16978132545290669629, 16639369580702547507], [3002984154512732771, 3002984154512732771, 1292078113972184607, 85, 0, 2, 443, -1, 4370460163704169311, 5097672513440128799, 3002984154512732771], [6637855273436131072, 6637855273436131072, 15794550382381185553, 96, 384, 3, 439, -1, 16072095006890171862, 14230521632333904559, 4784117743431579028]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Best" />
-      <extra dep="amod" ent_iob="2" ent_type="" head="2" lemma="good" orig_paragraph="1" orth="Best" pos="ADJ" prefix="B" shape="Xxxx" suffix="est" tag="JJS" />
+      <extra dep="amod" deprel="amod" depth="4" edeps="3:amod" ent_iob="2" ent_type="" feats="Degree=Sup" head="3" lemma="best" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Best" pos="ADJ" prefix="B" remarks="0.1" shape="Xxxx" smwe="null" suffix="est" tag="JJS" upos="ADJ" wmwe="null" word="Best" xpos="JJS" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Stationery" />
-      <extra dep="compound" ent_iob="2" ent_type="" head="1" lemma="stationery" orig_paragraph="1" orth="Stationery" pos="NOUN" prefix="S" shape="Xxxxx" suffix="ery" tag="NN" />
+      <extra dep="compound" deprel="compound" depth="3" edeps="3:compound" ent_iob="2" ent_type="" feats="Number=Sing" head="3" lemma="stationery" lextag="O-N-n.ARTIFACT" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Stationery" pos="NOUN" prefix="S" remarks="0.2" shape="Xxxxx" smwe="null" suffix="ery" tag="NN" upos="NOUN" wmwe="null" word="Stationery" xpos="NN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="store" />
-      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="store" orig_paragraph="1" orth="store" pos="NOUN" prefix="s" shape="xxxx" suffix="ore" tag="NN" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="store" lextag="O-N-n.ARTIFACT" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="store" pos="NOUN" prefix="s" remarks="0.3" shape="xxxx" smwe="null" suffix="ore" tag="NN" upos="NOUN" wmwe="null" word="store" xpos="NN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="in" />
-      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="in" orig_paragraph="1" orth="in" pos="ADP" prefix="i" shape="xx" suffix="in" tag="IN" />
+      <extra config="default" dep="prep" deprel="case" depth="4" edeps="5:case" ent_iob="2" ent_type="" feats="null" gov="3" govlemma="store" head="5" lemma="in" lexcat="P" lexlemma="in" lextag="O-P-p.Locus" local_gov="3" local_obj="5" local_toknums="4" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" obj="5" objlemma="Bethesda" orig_paragraph="1" orth="in" pos="ADP" prefix="i" remarks="0.4" shape="xx" smwe="null" ss="p.Locus" ss2="p.Locus" suffix="in" tag="IN" toknums="4" upos="ADP" wmwe="null" word="in" xpos="IN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="Bethesda" />
-      <extra dep="pobj" ent_iob="3" ent_type="GPE" head="-1" lemma="Bethesda" orig_paragraph="1" orth="Bethesda" pos="PROPN" prefix="B" shape="Xxxxx" suffix="sda" tag="NNP" />
+      <extra dep="pobj" deprel="nmod" depth="4" edeps="3:nmod" ent_iob="3" ent_type="GPE" feats="Number=Sing" head="3" lemma="Bethesda" lextag="O-N-n.LOCATION" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Bethesda" pos="PROPN" prefix="B" remarks="0.5" shape="Xxxxx" smwe="null" suffix="sda" tag="NNP" upos="PROPN" wmwe="null" word="Bethesda" xpos="NNP" />
     </node>
   </layer>
   <layer layerID="1">
