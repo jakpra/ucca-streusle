@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="280844_0004_5-5">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="shared" />
+      <extra deprel="root" edeps="0:root" feats="Tense=Past|VerbForm=Part|Voice=Pass" head="0" identified_for_pss="0" ind="4" is_part_of_mwe="False" lemma="share" lexcat="V" lexlemma="share" lextag="O-V-v.social" misc="null" smwe="null" upos="VERB" wmwe="null" word="shared" xpos="VBN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="with" />
+      <extra config="default" deprel="case" edeps="8:case" feats="null" gov="38" govlemma="share" head="8" identified_for_pss="1" ind="5" is_part_of_mwe="False" lemma="with" lexcat="P" lexlemma="with" lextag="O-P-p.Co-Agent" local_gov="4" local_obj="8" misc="null" obj="42" objlemma="doctor" smwe="null" upos="ADP" wmwe="null" word="with" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="doctor" />
+      <extra deprel="obl" edeps="4:obl" feats="Number=Sing" head="4" identified_for_pss="0" ind="8" is_part_of_mwe="False" lemma="doctor" lexcat="N" lexlemma="doctor" lextag="O-N-n.PERSON" misc="null" smwe="null" upos="NOUN" wmwe="null" word="doctor" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Co-Agent">
+        <attributes />
+        <category tag="p.Co-Agent" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

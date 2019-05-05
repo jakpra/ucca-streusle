@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="181748_0006_39-39">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="compose" />
+      <extra deprel="conj" edeps="32:conj" feats="VerbForm=Inf" head="32" identified_for_pss="0" ind="37" is_part_of_mwe="False" lemma="compose" lexcat="V" lexlemma="compose" lextag="O-V-v.cognition" misc="null" smwe="null" upos="VERB" wmwe="null" word="compose" xpos="VB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="before" />
+      <extra config="subordinating" deprel="mark" edeps="40:mark" feats="null" gov="119" govlemma="compose" head="40" identified_for_pss="1" ind="39" is_part_of_mwe="False" lemma="before" lexcat="P" lexlemma="before" lextag="O-P-p.Time" local_gov="37" local_obj="40" misc="null" obj="122" objlemma="come" smwe="null" upos="SCONJ" wmwe="null" word="before" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="coming" />
+      <extra deprel="advcl" edeps="37:advcl" feats="VerbForm=Ger" head="37" identified_for_pss="0" ind="40" is_part_of_mwe="False" lemma="come" lexcat="V" lexlemma="come" lextag="O-V-v.motion" misc="null" smwe="null" upos="VERB" wmwe="null" word="coming" xpos="VBG" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Time">
+        <attributes />
+        <category tag="p.Time" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

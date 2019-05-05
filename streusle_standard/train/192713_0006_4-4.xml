@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="192713_0006_4-4">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="one" />
+      <extra deprel="root" edeps="0:root" feats="NumType=Card" head="0" identified_for_pss="0" ind="3" is_part_of_mwe="False" lemma="one" lexcat="NUM" lexlemma="one" lextag="O-NUM" misc="null" smwe="null" upos="NUM" wmwe="null" word="one" xpos="CD" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="of" />
+      <extra config="default" deprel="case" edeps="7:case" feats="null" gov="66" govlemma="one" head="7" identified_for_pss="1" ind="4" is_part_of_mwe="False" lemma="of" lexcat="P" lexlemma="of" lextag="O-P-p.Whole" local_gov="3" local_obj="7" misc="null" obj="70" objlemma="farm" smwe="null" upos="ADP" wmwe="null" word="of" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="farms" />
+      <extra deprel="nmod" edeps="3:nmod" feats="Number=Plur" head="3" identified_for_pss="0" ind="7" is_part_of_mwe="False" lemma="farm" lexcat="N" lexlemma="farm" lextag="O-N-n.GROUP" misc="null" smwe="null" upos="NOUN" wmwe="null" word="farms" xpos="NNS" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Whole">
+        <attributes />
+        <category tag="p.Whole" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

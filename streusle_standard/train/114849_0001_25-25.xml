@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="114849_0001_25-25">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="received" />
+      <extra deprel="parataxis" edeps="1:parataxis" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="1" identified_for_pss="0" ind="16" is_part_of_mwe="False" lemma="receive" lexcat="V" lexlemma="receive" lextag="O-V-v.social" misc="null" smwe="null" upos="VERB" wmwe="null" word="received" xpos="VBD" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="to" />
+      <extra config="subordinating" deprel="mark" edeps="26:mark" feats="null" gov="16" govlemma="receive" head="26" identified_for_pss="1" ind="25" is_part_of_mwe="False" lemma="to" lexcat="INF.P" lexlemma="to" lextag="O-INF.P-p.Purpose" local_gov="16" local_obj="26" misc="null" obj="26" objlemma="confirm" smwe="null" upos="PART" wmwe="null" word="to" xpos="TO" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="confirm" />
+      <extra deprel="advcl" edeps="16:advcl" feats="VerbForm=Inf" head="16" identified_for_pss="0" ind="26" is_part_of_mwe="False" lemma="confirm" lexcat="V" lexlemma="confirm" lextag="O-V-v.communication" misc="null" smwe="null" upos="VERB" wmwe="null" word="confirm" xpos="VB" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Purpose">
+        <attributes />
+        <category tag="p.Purpose" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

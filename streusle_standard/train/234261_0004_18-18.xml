@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="234261_0004_18-18">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="brought" />
+      <extra deprel="conj" edeps="12:conj" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="12" identified_for_pss="0" ind="15" is_part_of_mwe="True" lemma="bring" lexcat="V" lexlemma="bring up" lextag="B-V-v.communication" misc="null" smwe="[2, 1]" upos="VERB" wmwe="null" word="brought" xpos="VBD" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="at" />
+      <extra config="default" deprel="case" edeps="21:case" feats="null" gov="42" govlemma="bring" head="21" identified_for_pss="1" ind="18" is_part_of_mwe="False" lemma="at" lexcat="P" lexlemma="at" lextag="O-P-p.Circumstance" local_gov="15" local_obj="21" misc="null" obj="48" objlemma="gathering" smwe="null" upos="ADP" wmwe="null" word="at" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="gatherings" />
+      <extra deprel="obl" edeps="15:obl" feats="Number=Plur" head="15" identified_for_pss="0" ind="21" is_part_of_mwe="False" lemma="gathering" lexcat="N" lexlemma="gathering" lextag="O-N-n.ACT" misc="null" smwe="null" upos="NOUN" wmwe="null" word="gatherings" xpos="NNS" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Circumstance">
+        <attributes />
+        <category tag="p.Circumstance" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

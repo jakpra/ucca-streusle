@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="164805_0010_25-25">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="experience" />
+      <extra deprel="nsubj" edeps="35:nsubj" feats="Number=Sing" head="35" identified_for_pss="0" ind="24" is_part_of_mwe="False" lemma="experience" lexcat="N" lexlemma="experience" lextag="O-N-n.EVENT" misc="null" smwe="null" upos="NOUN" wmwe="null" word="experience" xpos="NN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="with" />
+      <extra config="default" deprel="case" edeps="26:case" feats="null" gov="173" govlemma="experience" head="26" identified_for_pss="1" ind="25" is_part_of_mwe="False" lemma="with" lexcat="P" lexlemma="with" lextag="O-P-p.Topic" local_gov="24" local_obj="26" misc="null" obj="175" objlemma="Michael" smwe="null" upos="ADP" wmwe="null" word="with" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Michael" />
+      <extra deprel="nmod" edeps="24:nmod" feats="Number=Sing" head="24" identified_for_pss="0" ind="26" is_part_of_mwe="False" lemma="Michael" lexcat="N" lexlemma="Michael" lextag="O-N-n.PERSON" misc="null" smwe="null" upos="PROPN" wmwe="null" word="Michael" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Topic">
+        <attributes />
+        <category tag="p.Topic" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

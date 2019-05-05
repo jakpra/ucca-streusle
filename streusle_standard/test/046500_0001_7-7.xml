@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="046500_0001_7-7">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Barbers" />
+      <extra deprel="root" edeps="0:root" feats="Number=Plur" head="0" identified_for_pss="0" ind="5" is_part_of_mwe="True" lemma="barber" lexcat="N" lexlemma="man 's and boy barber" lextag="I_" misc="SpaceAfter=No" smwe="[1, 5]" upos="NOUN" wmwe="null" word="Barbers" xpos="NNS" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="on" />
+      <extra config="default" deprel="case" edeps="12:case" feats="null" gov="5" govlemma="barber" head="12" identified_for_pss="1" ind="7" is_part_of_mwe="False" lemma="on" lexcat="P" lexlemma="on" lextag="O-P-p.Locus" local_gov="5" local_obj="12" misc="null" obj="12" objlemma="route" smwe="null" upos="ADP" wmwe="null" word="on" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="route" />
+      <extra deprel="nmod" edeps="5:nmod" feats="Number=Sing" head="5" identified_for_pss="0" ind="12" is_part_of_mwe="False" lemma="route" lexcat="N" lexlemma="route" lextag="I~-N-n.LOCATION" misc="SpaceAfter=No" smwe="null" upos="NOUN" wmwe="[2, 2]" word="route" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Locus">
+        <attributes />
+        <category tag="p.Locus" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

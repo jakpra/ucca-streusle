@@ -1,0 +1,72 @@
+<root annotationID="0" passageID="160073_0006_22-23">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Office" />
+      <extra deprel="obj" edeps="16:obj" feats="Number=Sing" head="16" identified_for_pss="0" ind="21" is_part_of_mwe="True" lemma="Office" lexcat="N" lexlemma="Bexar County Tax Office" lextag="I_" misc="null" smwe="[4, 4]" upos="PROPN" wmwe="null" word="Office" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="off" />
+      <extra config="default" deprel="case" edeps="25:case" feats="null" gov="119" govlemma="Office" head="25" identified_for_pss="1" ind="22" is_part_of_mwe="True" lemma="off" lexcat="P" lexlemma="off of" lextag="B-P-p.Locus|p.Source" local_gov="21" local_obj="25" misc="null" obj="123" objlemma="Road" smwe="[5, 1]" upos="ADP" wmwe="null" word="off" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="of" />
+      <extra config="default" deprel="case" edeps="25:case" feats="null" gov="119" govlemma="Office" head="25" identified_for_pss="1" ind="23" is_part_of_mwe="True" lemma="of" lexcat="P" lexlemma="off of" lextag="I_" local_gov="21" local_obj="25" misc="null" obj="123" objlemma="Road" smwe="[5, 2]" upos="ADP" wmwe="null" word="of" xpos="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Road" />
+      <extra deprel="nmod" edeps="21:nmod" feats="Number=Sing" head="21" identified_for_pss="0" ind="25" is_part_of_mwe="True" lemma="Road" lexcat="N" lexlemma="Bandera Road" lextag="I_" misc="SpaceAfter=No" smwe="[6, 2]" upos="PROPN" wmwe="null" word="Road" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Locus">
+        <attributes />
+        <category tag="p.Locus" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

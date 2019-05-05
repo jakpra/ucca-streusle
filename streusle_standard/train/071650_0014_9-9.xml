@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="071650_0014_9-9">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="good" />
+      <extra deprel="amod" edeps="8:amod" feats="Degree=Pos" head="8" identified_for_pss="0" ind="7" is_part_of_mwe="False" lemma="good" lexcat="ADJ" lexlemma="good" lextag="O-ADJ" misc="null" smwe="null" upos="ADJ" wmwe="null" word="good" xpos="JJ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="to" />
+      <extra config="subordinating" deprel="mark" edeps="10:mark" feats="null" gov="271" govlemma="good" head="10" identified_for_pss="1" ind="9" is_part_of_mwe="False" lemma="to" lexcat="INF.P" lexlemma="to" lextag="O-INF.P-p.Characteristic|p.Purpose" local_gov="7" local_obj="10" misc="null" obj="274" objlemma="deal" smwe="null" upos="PART" wmwe="null" word="to" xpos="TO" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="deal" />
+      <extra deprel="advcl" edeps="7:advcl" feats="VerbForm=Inf" head="7" identified_for_pss="0" ind="10" is_part_of_mwe="True" lemma="deal" lexcat="V" lexlemma="deal with" lextag="B-V-v.cognition" misc="null" smwe="[1, 1]" upos="VERB" wmwe="null" word="deal" xpos="VB" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Characteristic">
+        <attributes />
+        <category tag="p.Characteristic" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="104703_0003_9-9">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="recoment" />
+      <extra deprel="parataxis" edeps="3:parataxis" feats="VerbForm=Inf" head="3" identified_for_pss="0" ind="7" is_part_of_mwe="False" lemma="recoment" lexcat="V" lexlemma="recoment" lextag="B-V-v.communication" misc="null" smwe="null" upos="VERB" wmwe="[1, 1]" word="recoment" xpos="VB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="to" />
+      <extra config="default" deprel="case" edeps="10:case" feats="null" gov="16" govlemma="recoment" head="10" identified_for_pss="1" ind="9" is_part_of_mwe="False" lemma="to" lexcat="P" lexlemma="to" lextag="I~-P-p.Recipient|p.Goal" local_gov="7" local_obj="10" misc="null" obj="19" objlemma="anyone" smwe="null" upos="ADP" wmwe="[1, 2]" word="to" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="anyone" />
+      <extra deprel="obl" edeps="7:obl" feats="Number=Sing" head="7" identified_for_pss="0" ind="10" is_part_of_mwe="False" lemma="anyone" lexcat="PRON" lexlemma="anyone" lextag="O-PRON" misc="SpaceAfter=No" smwe="null" upos="PRON" wmwe="null" word="anyone" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Recipient">
+        <attributes />
+        <category tag="p.Recipient" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

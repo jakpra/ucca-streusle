@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="211797_0013_23-23">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="was" />
+      <extra deprel="acl:relcl" edeps="20:acl:relcl" feats="Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin" head="20" identified_for_pss="0" ind="22" is_part_of_mwe="False" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" misc="null" smwe="null" upos="VERB" wmwe="null" word="was" xpos="VBD" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="about" />
+      <extra config="subordinating" deprel="mark" edeps="30:mark" feats="null" gov="292" govlemma="be" head="30" identified_for_pss="1" ind="23" is_part_of_mwe="False" lemma="about" lexcat="P" lexlemma="about" lextag="O-P-p.Topic" local_gov="22" local_obj="30" misc="null" obj="300" objlemma="compare" smwe="null" upos="SCONJ" wmwe="null" word="about" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="compared" />
+      <extra deprel="advcl" edeps="22:advcl" feats="Tense=Past|VerbForm=Part" head="22" identified_for_pss="0" ind="30" is_part_of_mwe="False" lemma="compare" lexcat="V" lexlemma="compare" lextag="B-V-v.stative" misc="null" smwe="null" upos="VERB" wmwe="[4, 1]" word="compared" xpos="VBN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Topic">
+        <attributes />
+        <category tag="p.Topic" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

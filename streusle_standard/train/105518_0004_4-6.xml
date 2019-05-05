@@ -1,0 +1,72 @@
+<root annotationID="0" passageID="105518_0004_4-6">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="you" />
+      <extra deprel="nsubj" edeps="6:nsubj" feats="Case=Nom|Person=2|PronType=Prs" head="6" identified_for_pss="0" ind="2" is_part_of_mwe="False" lemma="you" lexcat="PRON" lexlemma="you" lextag="O-PRON" misc="null" smwe="null" upos="PRON" wmwe="null" word="you" xpos="PRP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="on" />
+      <extra config="predicative" deprel="case" edeps="6:case" feats="null" gov="53" govlemma="you" head="6" identified_for_pss="1" ind="4" is_part_of_mwe="True" lemma="on" lexcat="PP" lexlemma="on the lookout" lextag="B-PP-p.Manner|p.Locus" local_gov="2" local_obj="6" misc="null" obj="57" objlemma="lookout" smwe="[1, 1]" upos="ADP" wmwe="[4, 1]" word="on" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="the" />
+      <extra config="predicative" deprel="det" edeps="6:det" feats="Definite=Def|PronType=Art" gov="53" govlemma="you" head="6" identified_for_pss="1" ind="5" is_part_of_mwe="True" lemma="the" lexcat="PP" lexlemma="on the lookout" lextag="I_" local_gov="2" local_obj="6" misc="null" obj="57" objlemma="lookout" smwe="[1, 2]" upos="DET" wmwe="[4, 2]" word="the" xpos="DT" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="lookout" />
+      <extra config="predicative" deprel="advcl" edeps="14:advcl" feats="Number=Sing" gov="53" govlemma="you" head="14" identified_for_pss="1" ind="6" is_part_of_mwe="True" lemma="lookout" lexcat="PP" lexlemma="on the lookout" lextag="I_" local_gov="2" local_obj="6" misc="null" obj="57" objlemma="lookout" smwe="[1, 3]" upos="NOUN" wmwe="[4, 3]" word="lookout" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Manner">
+        <attributes />
+        <category tag="p.Manner" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+    </node>
+  </layer>
+</root>

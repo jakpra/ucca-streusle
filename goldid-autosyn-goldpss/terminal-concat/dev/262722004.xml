@@ -1,0 +1,94 @@
+<root annotationID="0" passageID="262722004">
+  <attributes annotationID="4102" passageID="453" remarks="26344" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Accurate" />
+      <extra deprel="amod" edeps="null" feats="Degree=Pos" head="2" lemma="accurate" lextag="O-ADJ" misc="null" ner="O" orig_paragraph="1" remarks="0.14" smwe="null" upos="ADJ" wmwe="null" word="Accurate" xpos="JJ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="check" />
+      <extra deprel="root" edeps="null" feats="Number=Sing" head="0" lemma="check" lextag="B-N-n.ACT" misc="null" ner="O" orig_paragraph="1" remarks="0.15" smwe="[1, 1]" upos="NOUN" wmwe="null" word="check" xpos="NN" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="-" />
+      <extra deprel="punct" edeps="null" feats="null" head="4" lemma="-" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.16" smwe="[1, 2]" upos="PUNCT" wmwe="null" word="-" xpos=":" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="out" />
+      <extra deprel="dep" edeps="null" feats="null" head="2" lemma="out" lextag="I_" misc="null" ner="O" orig_paragraph="1" remarks="0.17" smwe="[1, 3]" upos="ADP" wmwe="null" word="out" xpos="RP" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="." />
+      <extra deprel="punct" edeps="null" feats="null" head="4" lemma="." lextag="O-PUNCT" misc="null" ner="O" orig_paragraph="1" remarks="0.18" smwe="null" upos="PUNCT" wmwe="null" word="." xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.18" tree_id="5" />
+      <edge toID="1.4" type="D">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+      </edge>
+      <edge toID="1.5" type="P">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <extra remarks="1.57" />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra remarks="1.19" tree_id="5-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra remarks="1.20" tree_id="5-2" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <extra remarks="1.56" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

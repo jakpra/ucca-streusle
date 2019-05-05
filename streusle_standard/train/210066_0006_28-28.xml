@@ -1,0 +1,56 @@
+<root annotationID="0" passageID="210066_0006_28-28">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="1" text="$" />
+      <extra deprel="conj" edeps="25:conj" feats="null" head="25" identified_for_pss="0" ind="29" is_part_of_mwe="False" lemma="$" lexcat="SYM" lexlemma="$" lextag="O-SYM" misc="SpaceAfter=No" smwe="null" upos="SYM" wmwe="null" word="$" xpos="$" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="around" />
+      <extra config="default" deprel="advmod" edeps="29:advmod" feats="null" gov="111" govlemma="$" head="29" identified_for_pss="1" ind="28" is_part_of_mwe="False" lemma="around" lexcat="P" lexlemma="around" lextag="O-P-p.Approximator" local_gov="29" misc="null" obj="null" objlemma="null" smwe="null" upos="ADV" wmwe="null" word="around" xpos="RB" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Approximator">
+        <attributes />
+        <category tag="p.Approximator" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,56 @@
+<root annotationID="0" passageID="048363_0007_25-25">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="fear" />
+      <extra deprel="obl" edeps="21:obl" feats="Number=Sing" head="21" identified_for_pss="0" ind="26" is_part_of_mwe="False" lemma="fear" lexcat="N" lexlemma="fear" lextag="O-N-n.ATTRIBUTE" misc="null" smwe="null" upos="NOUN" wmwe="null" word="fear" xpos="NN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="my" />
+      <extra config="possessive" deprel="nmod:poss" edeps="26:nmod:poss" feats="Number=Sing|Person=1|Poss=Yes|PronType=Prs" gov="140" govlemma="fear" head="26" identified_for_pss="1" ind="25" is_part_of_mwe="False" lemma="my" lexcat="PRON.POSS" lexlemma="my" lextag="O-PRON.POSS-p.Experiencer|p.Gestalt" local_gov="26" misc="null" obj="null" objlemma="null" smwe="null" upos="PRON" wmwe="null" word="my" xpos="PRP$" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Experiencer">
+        <attributes />
+        <category tag="p.Experiencer" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+    </node>
+  </layer>
+</root>

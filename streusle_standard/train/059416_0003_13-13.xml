@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="059416_0003_13-13">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="away" />
+      <extra deprel="advmod" edeps="11:advmod" feats="null" head="11" identified_for_pss="0" ind="12" is_part_of_mwe="True" lemma="away" lexcat="V" lexlemma="come away" lextag="I_" misc="null" smwe="[1, 2]" upos="ADV" wmwe="[4, 2]" word="away" xpos="RB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="from" />
+      <extra config="default" deprel="case" edeps="15:case" feats="null" gov="32" govlemma="away" head="15" identified_for_pss="1" ind="13" is_part_of_mwe="False" lemma="from" lexcat="P" lexlemma="from" lextag="I~-P-p.Source" local_gov="12" local_obj="15" misc="null" obj="35" objlemma="evening" smwe="null" upos="ADP" wmwe="[4, 3]" word="from" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="evening" />
+      <extra deprel="obl" edeps="12:obl" feats="Number=Sing" head="12" identified_for_pss="0" ind="15" is_part_of_mwe="False" lemma="evening" lexcat="N" lexlemma="evening" lextag="O-N-n.EVENT" misc="null" smwe="null" upos="NOUN" wmwe="null" word="evening" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Source">
+        <attributes />
+        <category tag="p.Source" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

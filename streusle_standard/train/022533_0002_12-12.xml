@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="022533_0002_12-12">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="agree" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" identified_for_pss="0" ind="11" is_part_of_mwe="False" lemma="agree" lexcat="V" lexlemma="agree" lextag="O-V-v.communication" misc="null" smwe="null" upos="VERB" wmwe="null" word="agree" xpos="VBP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="with" />
+      <extra config="default" deprel="case" edeps="14:case" feats="null" gov="13" govlemma="agree" head="14" identified_for_pss="1" ind="12" is_part_of_mwe="False" lemma="with" lexcat="P" lexlemma="with" lextag="O-P-p.Theme|p.Accompanier" local_gov="11" local_obj="14" misc="null" obj="16" objlemma="reviewer" smwe="null" upos="ADP" wmwe="null" word="with" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="reviewers" />
+      <extra deprel="obl" edeps="11:obl" feats="Number=Plur" head="11" identified_for_pss="0" ind="14" is_part_of_mwe="False" lemma="reviewer" lexcat="N" lexlemma="reviewer" lextag="O-N-n.PERSON" misc="null" smwe="null" upos="NOUN" wmwe="null" word="reviewers" xpos="NNS" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Theme">
+        <attributes />
+        <category tag="p.Theme" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

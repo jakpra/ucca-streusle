@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="159485_0001_1-1">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="important" />
+      <extra deprel="root" edeps="0:root" feats="Degree=Pos" head="0" identified_for_pss="0" ind="8" is_part_of_mwe="False" lemma="important" lexcat="ADJ" lexlemma="important" lextag="O-ADJ" misc="null" smwe="null" upos="ADJ" wmwe="null" word="important" xpos="JJ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="In" />
+      <extra config="default" deprel="case" edeps="5:case" feats="null" gov="8" govlemma="important" head="5" identified_for_pss="1" ind="1" is_part_of_mwe="False" lemma="in" lexcat="P" lexlemma="in" lextag="O-P-p.Time" local_gov="8" local_obj="5" misc="null" obj="5" objlemma="time" smwe="null" upos="ADP" wmwe="null" word="In" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="times" />
+      <extra deprel="obl" edeps="8:obl" feats="Number=Plur" head="8" identified_for_pss="0" ind="5" is_part_of_mwe="False" lemma="time" lexcat="N" lexlemma="time" lextag="O-N-n.COGNITION" misc="null" smwe="null" upos="NOUN" wmwe="null" word="times" xpos="NNS" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Time">
+        <attributes />
+        <category tag="p.Time" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

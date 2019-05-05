@@ -1,0 +1,72 @@
+<root annotationID="0" passageID="221664_0004_11-12">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="it" />
+      <extra deprel="nsubj" edeps="14:nsubj" feats="Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" head="14" identified_for_pss="0" ind="9" is_part_of_mwe="False" lemma="it" lexcat="PRON" lexlemma="it" lextag="O-PRON" misc="null" smwe="null" upos="PRON" wmwe="null" word="it" xpos="PRP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="due" />
+      <extra config="predicative" deprel="case" edeps="14:case" feats="null" gov="58" govlemma="it" head="14" identified_for_pss="1" ind="11" is_part_of_mwe="True" lemma="due" lexcat="P" lexlemma="due to" lextag="B-P-p.Explanation" local_gov="9" local_obj="14" misc="null" obj="63" objlemma="labor" smwe="[1, 1]" upos="ADP" wmwe="null" word="due" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="to" />
+      <extra config="predicative" deprel="fixed" edeps="11:fixed" feats="null" gov="58" govlemma="it" head="11" identified_for_pss="1" ind="12" is_part_of_mwe="True" lemma="to" lexcat="P" lexlemma="due to" lextag="I_" local_gov="9" local_obj="14" misc="null" obj="63" objlemma="labor" smwe="[1, 2]" upos="ADP" wmwe="null" word="to" xpos="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="labor" />
+      <extra deprel="ccomp" edeps="8:ccomp" feats="Number=Sing" head="8" identified_for_pss="0" ind="14" is_part_of_mwe="False" lemma="labor" lexcat="N" lexlemma="labor" lextag="O-N-n.ACT" misc="null" smwe="null" upos="NOUN" wmwe="null" word="labor" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Explanation">
+        <attributes />
+        <category tag="p.Explanation" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="026883_0010_49-49">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="lean" />
+      <extra deprel="xcomp" edeps="44:xcomp" feats="VerbForm=Inf" head="44" identified_for_pss="0" ind="48" is_part_of_mwe="False" lemma="lean" lexcat="V" lexlemma="lean" lextag="O-V-v.contact" misc="null" smwe="null" upos="VERB" wmwe="null" word="lean" xpos="VB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="into" />
+      <extra config="default" deprel="case" edeps="51:case" feats="null" gov="165" govlemma="lean" head="51" identified_for_pss="1" ind="49" is_part_of_mwe="False" lemma="into" lexcat="P" lexlemma="into" lextag="O-P-p.Direction|p.Goal" local_gov="48" local_obj="51" misc="null" obj="168" objlemma="wall" smwe="null" upos="ADP" wmwe="null" word="into" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="wall" />
+      <extra deprel="obl" edeps="48:obl" feats="Number=Sing" head="48" identified_for_pss="0" ind="51" is_part_of_mwe="False" lemma="wall" lexcat="N" lexlemma="wall" lextag="O-N-n.ARTIFACT" misc="SpaceAfter=No" smwe="null" upos="NOUN" wmwe="null" word="wall" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Direction">
+        <attributes />
+        <category tag="p.Direction" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

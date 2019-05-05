@@ -1,0 +1,72 @@
+<root annotationID="0" passageID="128636_0009_10-11">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="makes" />
+      <extra deprel="parataxis" edeps="5:parataxis" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="5" identified_for_pss="0" ind="8" is_part_of_mwe="False" lemma="make" lexcat="V" lexlemma="make" lextag="O-V-v.creation" misc="null" smwe="null" upos="VERB" wmwe="null" word="makes" xpos="VBZ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="out" />
+      <extra config="default" deprel="case" edeps="12:case" feats="null" gov="93" govlemma="make" head="12" identified_for_pss="1" ind="10" is_part_of_mwe="True" lemma="out" lexcat="P" lexlemma="out of" lextag="B-P-p.Source" local_gov="8" local_obj="12" misc="null" obj="97" objlemma="they" smwe="[1, 1]" upos="ADP" wmwe="null" word="out" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="of" />
+      <extra config="default" deprel="case" edeps="12:case" feats="null" gov="93" govlemma="make" head="12" identified_for_pss="1" ind="11" is_part_of_mwe="True" lemma="of" lexcat="P" lexlemma="out of" lextag="I_" local_gov="8" local_obj="12" misc="null" obj="97" objlemma="they" smwe="[1, 2]" upos="ADP" wmwe="null" word="of" xpos="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="them" />
+      <extra deprel="obl" edeps="8:obl" feats="Case=Acc|Number=Plur|Person=3|PronType=Prs" head="8" identified_for_pss="0" ind="12" is_part_of_mwe="False" lemma="they" lexcat="PRON" lexlemma="they" lextag="O-PRON" misc="null" smwe="null" upos="PRON" wmwe="null" word="them" xpos="PRP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Source">
+        <attributes />
+        <category tag="p.Source" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

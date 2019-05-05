@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="332972_0001_16-17">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="pizza" />
+      <extra deprel="nmod" edeps="13:nmod" feats="Number=Sing" head="13" identified_for_pss="0" ind="15" is_part_of_mwe="False" lemma="pizza" lexcat="N" lexlemma="pizza" lextag="O-N-n.FOOD" misc="null" smwe="null" upos="NOUN" wmwe="null" word="pizza" xpos="NN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="other" />
+      <extra config="default" deprel="amod" edeps="15:amod" feats="Degree=Pos" gov="15" govlemma="pizza" head="15" identified_for_pss="1" ind="16" is_part_of_mwe="True" lemma="other" lexcat="P" lexlemma="other than" lextag="B-P-p.Part/Portion" local_gov="15" misc="null" obj="null" objlemma="null" smwe="[2, 1]" upos="ADJ" wmwe="null" word="other" xpos="JJ" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="than" />
+      <extra config="default" deprel="case" edeps="18:case" feats="null" gov="15" govlemma="pizza" head="18" identified_for_pss="1" ind="17" is_part_of_mwe="True" lemma="than" lexcat="P" lexlemma="other than" lextag="I_" local_gov="15" misc="null" obj="null" objlemma="null" smwe="[2, 2]" upos="ADP" wmwe="null" word="than" xpos="IN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Part/Portion">
+        <attributes />
+        <category tag="p.Part/Portion" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+    </node>
+  </layer>
+</root>

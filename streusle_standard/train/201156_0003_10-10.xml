@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="201156_0003_10-10">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="puts" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="0" identified_for_pss="0" ind="7" is_part_of_mwe="False" lemma="put" lexcat="V" lexlemma="put" lextag="B-V-v.emotion" misc="null" smwe="null" upos="VERB" wmwe="[4, 1]" word="puts" xpos="VBZ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="in" />
+      <extra config="default" deprel="case" edeps="12:case" feats="null" gov="15" govlemma="put" head="12" identified_for_pss="1" ind="10" is_part_of_mwe="False" lemma="in" lexcat="P" lexlemma="in" lextag="I~-P-p.Purpose|p.Locus" local_gov="7" local_obj="12" misc="null" obj="20" objlemma="business" smwe="null" upos="ADP" wmwe="[4, 3]" word="in" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="business" />
+      <extra deprel="obl" edeps="7:obl" feats="Number=Sing" head="7" identified_for_pss="0" ind="12" is_part_of_mwe="False" lemma="business" lexcat="N" lexlemma="business" lextag="O-N-n.GROUP" misc="null" smwe="null" upos="NOUN" wmwe="null" word="business" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Purpose">
+        <attributes />
+        <category tag="p.Purpose" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

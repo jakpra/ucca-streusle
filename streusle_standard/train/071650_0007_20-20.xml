@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="071650_0007_20-20">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="cancel" />
+      <extra deprel="advcl" edeps="14:advcl" feats="VerbForm=Inf" head="14" identified_for_pss="0" ind="17" is_part_of_mwe="False" lemma="cancel" lexcat="V" lexlemma="cancel" lextag="O-V-v.change" misc="null" smwe="null" upos="VERB" wmwe="null" word="cancel" xpos="VB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="as" />
+      <extra config="subordinating" deprel="mark" edeps="23:mark" feats="null" gov="125" govlemma="cancel" head="23" identified_for_pss="1" ind="20" is_part_of_mwe="False" lemma="as" lexcat="P" lexlemma="as" lextag="O-P-p.ComparisonRef" local_gov="17" local_obj="23" misc="null" obj="131" objlemma="tell" smwe="null" upos="SCONJ" wmwe="null" word="as" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="told" />
+      <extra deprel="advcl" edeps="17:advcl" feats="Tense=Past|VerbForm=Part|Voice=Pass" head="17" identified_for_pss="0" ind="23" is_part_of_mwe="False" lemma="tell" lexcat="V" lexlemma="tell" lextag="O-V-v.communication" misc="null" smwe="null" upos="VERB" wmwe="null" word="told" xpos="VBN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.ComparisonRef">
+        <attributes />
+        <category tag="p.ComparisonRef" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

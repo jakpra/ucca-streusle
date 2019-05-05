@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="391012_0007_57-57">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="more" />
+      <extra deprel="obj" edeps="51:obj" feats="Degree=Cmp" head="51" identified_for_pss="0" ind="52" is_part_of_mwe="False" lemma="more" lexcat="ADJ" lexlemma="more" lextag="O-ADJ" misc="null" smwe="null" upos="ADJ" wmwe="null" word="more" xpos="JJR" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="than" />
+      <extra config="subordinating" deprel="mark" edeps="58:mark" feats="null" gov="153" govlemma="more" head="58" identified_for_pss="1" ind="57" is_part_of_mwe="False" lemma="than" lexcat="P" lexlemma="than" lextag="O-P-p.ComparisonRef" local_gov="52" local_obj="58" misc="null" obj="159" objlemma="help" smwe="null" upos="SCONJ" wmwe="null" word="than" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="help" />
+      <extra deprel="advcl" edeps="52:advcl" feats="VerbForm=Inf" head="52" identified_for_pss="0" ind="58" is_part_of_mwe="False" lemma="help" lexcat="V" lexlemma="help" lextag="O-V-v.cognition" misc="null" smwe="null" upos="VERB" wmwe="null" word="help" xpos="VB" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.ComparisonRef">
+        <attributes />
+        <category tag="p.ComparisonRef" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

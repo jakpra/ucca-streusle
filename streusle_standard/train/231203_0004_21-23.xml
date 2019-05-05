@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="231203_0004_21-23">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="drinking" />
+      <extra deprel="conj" edeps="15:conj" feats="VerbForm=Ger" head="15" identified_for_pss="0" ind="18" is_part_of_mwe="False" lemma="drink" lexcat="V" lexlemma="drink" lextag="O-V-v.consumption" misc="SpaceAfter=No" smwe="null" upos="VERB" wmwe="null" word="drinking" xpos="VBG" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="in" />
+      <extra config="default" deprel="case" edeps="23:case" feats="null" gov="43" govlemma="drink" head="23" identified_for_pss="1" ind="21" is_part_of_mwe="True" lemma="in" lexcat="PP" lexlemma="in hurry" lextag="B-PP-p.Manner|p.Locus" local_gov="18" local_obj="23" misc="null" obj="48" objlemma="hurry" smwe="[2, 1]" upos="ADP" wmwe="null" word="in" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="hurry" />
+      <extra config="default" deprel="obl" edeps="18:obl" feats="Number=Sing" gov="43" govlemma="drink" head="18" identified_for_pss="1" ind="23" is_part_of_mwe="True" lemma="hurry" lexcat="PP" lexlemma="in hurry" lextag="I_" local_gov="18" local_obj="23" misc="SpaceAfter=No" obj="48" objlemma="hurry" smwe="[2, 2]" upos="NOUN" wmwe="null" word="hurry" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Manner">
+        <attributes />
+        <category tag="p.Manner" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+    </node>
+  </layer>
+</root>

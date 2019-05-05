@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="333243_0010_21-21">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="leave" />
+      <extra deprel="ccomp" edeps="12:ccomp" feats="VerbForm=Inf" head="12" identified_for_pss="0" ind="19" is_part_of_mwe="False" lemma="leave" lexcat="V" lexlemma="leave" lextag="O-V-v.stative" misc="null" smwe="null" upos="VERB" wmwe="null" word="leave" xpos="VB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="with" />
+      <extra config="default" deprel="case" edeps="26:case" feats="null" gov="219" govlemma="leave" head="26" identified_for_pss="1" ind="21" is_part_of_mwe="False" lemma="with" lexcat="P" lexlemma="with" lextag="O-P-p.Possession" local_gov="19" local_obj="26" misc="null" obj="226" objlemma="liability" smwe="null" upos="ADP" wmwe="null" word="with" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="liability" />
+      <extra deprel="obl" edeps="19:obl" feats="Number=Sing" head="19" identified_for_pss="0" ind="26" is_part_of_mwe="False" lemma="liability" lexcat="N" lexlemma="liability" lextag="O-N-n.POSSESSION" misc="null" smwe="null" upos="NOUN" wmwe="null" word="liability" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Possession">
+        <attributes />
+        <category tag="p.Possession" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

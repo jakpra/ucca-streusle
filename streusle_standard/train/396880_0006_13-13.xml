@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="396880_0006_13-13">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="it" />
+      <extra deprel="nsubj" edeps="15:nsubj" feats="Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" head="15" identified_for_pss="0" ind="11" is_part_of_mwe="False" lemma="it" lexcat="PRON" lexlemma="it" lextag="O-PRON" misc="null" smwe="null" upos="PRON" wmwe="null" word="it" xpos="PRP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="inside" />
+      <extra config="predicative" deprel="case" edeps="15:case" feats="null" gov="107" govlemma="it" head="15" identified_for_pss="1" ind="13" is_part_of_mwe="False" lemma="inside" lexcat="P" lexlemma="inside" lextag="O-P-p.Locus" local_gov="11" local_obj="15" misc="null" obj="111" objlemma="room" smwe="null" upos="ADP" wmwe="null" word="inside" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="room" />
+      <extra deprel="advcl" edeps="3:advcl" feats="Number=Sing" head="3" identified_for_pss="0" ind="15" is_part_of_mwe="False" lemma="room" lexcat="N" lexlemma="room" lextag="O-N-n.LOCATION" misc="SpaceAfter=No" smwe="null" upos="NOUN" wmwe="null" word="room" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Locus">
+        <attributes />
+        <category tag="p.Locus" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

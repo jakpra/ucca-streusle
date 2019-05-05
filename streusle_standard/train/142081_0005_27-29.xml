@@ -1,0 +1,72 @@
+<root annotationID="0" passageID="142081_0005_27-29">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="go" />
+      <extra deprel="advcl" edeps="20:advcl" feats="VerbForm=Inf" head="20" identified_for_pss="0" ind="26" is_part_of_mwe="False" lemma="go" lexcat="V" lexlemma="go" lextag="O-V-v.motion" misc="null" smwe="null" upos="VERB" wmwe="null" word="go" xpos="VB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="back" />
+      <extra config="default" deprel="advmod" edeps="26:advmod" feats="null" gov="97" govlemma="go" head="26" identified_for_pss="1" ind="27" is_part_of_mwe="True" lemma="back" lexcat="PP" lexlemma="back and forth" lextag="B-PP-p.Direction" local_gov="26" misc="null" obj="null" objlemma="null" smwe="[4, 1]" upos="ADV" wmwe="null" word="back" xpos="RB" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="and" />
+      <extra config="default" deprel="cc" edeps="29:cc" feats="null" gov="97" govlemma="go" head="29" identified_for_pss="1" ind="28" is_part_of_mwe="True" lemma="and" lexcat="PP" lexlemma="back and forth" lextag="I_" local_gov="26" misc="null" obj="null" objlemma="null" smwe="[4, 2]" upos="CCONJ" wmwe="null" word="and" xpos="CC" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="forth" />
+      <extra config="default" deprel="conj" edeps="27:conj" feats="null" gov="97" govlemma="go" head="27" identified_for_pss="1" ind="29" is_part_of_mwe="True" lemma="forth" lexcat="PP" lexlemma="back and forth" lextag="I_" local_gov="26" misc="null" obj="null" objlemma="null" smwe="[4, 3]" upos="ADV" wmwe="null" word="forth" xpos="RB" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Direction">
+        <attributes />
+        <category tag="p.Direction" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,80 @@
+<root annotationID="0" passageID="269560_0003_12-14">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="see" />
+      <extra deprel="csubj" edeps="4:csubj" feats="VerbForm=Inf" head="4" identified_for_pss="0" ind="6" is_part_of_mwe="False" lemma="see" lexcat="V" lexlemma="see" lextag="O-V-v.cognition" misc="null" smwe="null" upos="VERB" wmwe="null" word="see" xpos="VB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="in" />
+      <extra config="default" deprel="case" edeps="13:case" feats="null" gov="99" govlemma="see" head="13" identified_for_pss="1" ind="12" is_part_of_mwe="True" lemma="in" lexcat="P" lexlemma="in front of" lextag="B-P-p.Locus" local_gov="6" local_obj="13" misc="null" obj="106" objlemma="front" smwe="[1, 1]" upos="ADP" wmwe="null" word="in" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="front" />
+      <extra config="default" deprel="obl" edeps="6:obl" feats="Number=Sing" gov="99" govlemma="see" head="6" identified_for_pss="1" ind="13" is_part_of_mwe="True" lemma="front" lexcat="P" lexlemma="in front of" lextag="I_" local_gov="6" local_obj="13" misc="null" obj="106" objlemma="front" smwe="[1, 2]" upos="NOUN" wmwe="null" word="front" xpos="NN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="of" />
+      <extra config="default" deprel="case" edeps="17:case" feats="null" gov="99" govlemma="see" head="17" identified_for_pss="1" ind="14" is_part_of_mwe="True" lemma="of" lexcat="P" lexlemma="in front of" lextag="I_" local_gov="6" local_obj="13" misc="null" obj="106" objlemma="front" smwe="[1, 3]" upos="ADP" wmwe="null" word="of" xpos="IN" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="front" />
+      <extra config="default" deprel="obl" edeps="6:obl" feats="Number=Sing" gov="99" govlemma="see" head="6" identified_for_pss="0" ind="13" is_part_of_mwe="True" lemma="front" lexcat="P" lexlemma="in front of" lextag="I_" local_gov="6" local_obj="13" misc="null" obj="106" objlemma="front" smwe="[1, 2]" upos="NOUN" wmwe="null" word="front" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Locus">
+        <attributes />
+        <category tag="p.Locus" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

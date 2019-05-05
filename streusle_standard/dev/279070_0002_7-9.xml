@@ -1,0 +1,72 @@
+<root annotationID="0" passageID="279070_0002_7-9">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Happened" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" identified_for_pss="0" ind="1" is_part_of_mwe="True" lemma="happen" lexcat="V" lexlemma="happen on to" lextag="B-V-v.cognition" misc="null" smwe="[1, 1]" upos="VERB" wmwe="null" word="Happened" xpos="VBD" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="out" />
+      <extra config="default" deprel="case" edeps="9:case" feats="null" gov="3" govlemma="happen" head="9" identified_for_pss="1" ind="7" is_part_of_mwe="True" lemma="out" lexcat="PP" lexlemma="out of town" lextag="B-PP-p.Locus|p.Source" local_gov="1" local_obj="9" misc="null" obj="11" objlemma="town" smwe="[2, 1]" upos="ADP" wmwe="null" word="out" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="of" />
+      <extra config="default" deprel="case" edeps="9:case" feats="null" gov="3" govlemma="happen" head="9" identified_for_pss="1" ind="8" is_part_of_mwe="True" lemma="of" lexcat="PP" lexlemma="out of town" lextag="I_" local_gov="1" local_obj="9" misc="null" obj="11" objlemma="town" smwe="[2, 2]" upos="ADP" wmwe="null" word="of" xpos="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="town" />
+      <extra config="default" deprel="advcl" edeps="1:advcl" feats="Number=Sing" gov="3" govlemma="happen" head="1" identified_for_pss="1" ind="9" is_part_of_mwe="True" lemma="town" lexcat="PP" lexlemma="out of town" lextag="I_" local_gov="1" local_obj="9" misc="null" obj="11" objlemma="town" smwe="[2, 3]" upos="NOUN" wmwe="null" word="town" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Locus">
+        <attributes />
+        <category tag="p.Locus" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+    </node>
+  </layer>
+</root>

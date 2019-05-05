@@ -1,0 +1,56 @@
+<root annotationID="0" passageID="235423_0009_9-9">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="as" />
+      <extra deprel="advmod" edeps="11:advmod" feats="null" head="11" identified_for_pss="0" ind="10" is_part_of_mwe="False" lemma="as" lexcat="ADV" lexlemma="as" lextag="O-ADV" misc="null" smwe="null" upos="ADV" wmwe="null" word="as" xpos="RB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="about" />
+      <extra config="default" deprel="advmod" edeps="10:advmod" feats="null" gov="125" govlemma="as" head="10" identified_for_pss="1" ind="9" is_part_of_mwe="False" lemma="about" lexcat="P" lexlemma="about" lextag="O-P-p.Approximator" local_gov="10" misc="null" obj="null" objlemma="null" smwe="null" upos="ADV" wmwe="null" word="about" xpos="RB" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Approximator">
+        <attributes />
+        <category tag="p.Approximator" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+    </node>
+  </layer>
+</root>

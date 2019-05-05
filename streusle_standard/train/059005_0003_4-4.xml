@@ -1,0 +1,56 @@
+<root annotationID="0" passageID="059005_0003_4-4">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="morning" />
+      <extra deprel="obl:tmod" edeps="2:obl:tmod" feats="Number=Sing" head="2" identified_for_pss="0" ind="6" is_part_of_mwe="False" lemma="morning" lexcat="N" lexlemma="morning" lextag="O-N-n.TIME" misc="null" smwe="null" upos="NOUN" wmwe="null" word="morning" xpos="NN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="about" />
+      <extra config="default" deprel="advmod" edeps="6:advmod" feats="null" gov="16" govlemma="morning" head="6" identified_for_pss="1" ind="4" is_part_of_mwe="False" lemma="about" lexcat="P" lexlemma="about" lextag="O-P-p.Approximator" local_gov="6" misc="null" obj="null" objlemma="null" smwe="null" upos="ADV" wmwe="null" word="about" xpos="RB" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Approximator">
+        <attributes />
+        <category tag="p.Approximator" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+    </node>
+  </layer>
+</root>

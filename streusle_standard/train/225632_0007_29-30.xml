@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="225632_0007_29-30">
+  <attributes />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Dartmouth" />
+      <extra deprel="obl" edeps="6:obl" feats="Number=Sing" head="6" identified_for_pss="0" ind="8" is_part_of_mwe="False" lemma="Dartmouth" lexcat="N" lexlemma="Dartmouth" lextag="O-N-n.GROUP" misc="SpaceAfter=No" smwe="null" upos="PROPN" wmwe="null" word="Dartmouth" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="among" />
+      <extra config="default" deprel="case" edeps="30:case" feats="null" gov="122" govlemma="Dartmouth" head="30" identified_for_pss="1" ind="29" is_part_of_mwe="True" lemma="among" lexcat="PP" lexlemma="among other" lextag="B-PP-p.Whole" local_gov="8" local_obj="30" misc="null" obj="144" objlemma="other" smwe="[4, 1]" upos="ADP" wmwe="null" word="among" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="others" />
+      <extra config="default" deprel="nmod" edeps="8:nmod" feats="Number=Plur" gov="122" govlemma="Dartmouth" head="8" identified_for_pss="1" ind="30" is_part_of_mwe="True" lemma="other" lexcat="PP" lexlemma="among other" lextag="I_" local_gov="8" local_obj="30" misc="SpaceAfter=No" obj="144" objlemma="other" smwe="[4, 2]" upos="NOUN" wmwe="null" word="others" xpos="NNS" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="gov">
+        <attributes />
+        <category tag="gov" />
+      </edge>
+      <edge toID="1.4" type="p.Whole">
+        <attributes />
+        <category tag="p.Whole" />
+      </edge>
+      <edge toID="1.5" type="obj">
+        <attributes />
+        <category tag="obj" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+    </node>
+  </layer>
+</root>
