@@ -21,7 +21,7 @@
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="want" />
-      <extra deprel="advcl" edeps="16:advcl:if" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="16" lemma="want" lexcat="V" lexlemma="want" lextag="O-V-v.cognition" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.298" smwe="null" ss="v.cognition" ss2="null" toknums="298" upos="VERB" wmwe="null" word="want" xpos="VBP" />
+      <extra deprel="advcl" edeps="16:advcl" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="16" lemma="want" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.298" smwe="null" upos="VERB" wmwe="null" word="want" xpos="VBP" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="a" />
@@ -33,7 +33,7 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="checkout" />
-      <extra deprel="obj" edeps="5:obj" feats="Number=Sing" head="5" lemma="checkout" lexcat="N" lexlemma="checkout" lextag="O-N-n.EVENT" local_toknums="8" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.301" smwe="null" ss="n.EVENT" ss2="null" toknums="301" upos="NOUN" wmwe="null" word="checkout" xpos="NN" />
+      <extra deprel="obj" edeps="5:obj" feats="Number=Sing" head="5" lemma="checkout" lextag="O-N-n.EVENT" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.301" smwe="null" upos="NOUN" wmwe="null" word="checkout" xpos="NN" />
     </node>
     <node ID="0.9" type="Punctuation">
       <attributes paragraph="1" paragraph_position="9" text="," />
@@ -53,7 +53,7 @@
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="AM" />
-      <extra deprel="nmod" edeps="8:nmod:after" feats="Number=Sing" head="8" lemma="am" lexcat="N" lexlemma="am" lextag="O-N-n.TIME" local_toknums="13" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.306" smwe="null" ss="n.TIME" ss2="null" toknums="306" upos="NOUN" wmwe="null" word="AM" xpos="NN" />
+      <extra deprel="nmod" edeps="8:nmod" feats="Number=Sing" head="8" lemma="am" lextag="O-N-n.TIME" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.306" smwe="null" upos="NOUN" wmwe="null" word="AM" xpos="NN" />
     </node>
     <node ID="0.14" type="Punctuation">
       <attributes paragraph="1" paragraph_position="14" text=")" />
@@ -61,11 +61,11 @@
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="they" />
-      <extra deprel="nsubj" edeps="16:nsubj|24.1:nsubj|25:nsubj" feats="Case=Nom|Number=Plur|Person=3|PronType=Prs" head="16" lemma="they" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.308" smwe="null" upos="PRON" wmwe="null" word="they" xpos="PRP" />
+      <extra deprel="nsubj" edeps="16:nsubj|24.1:nsubj" feats="Case=Nom|Number=Plur|Person=3|PronType=Prs" head="16" lemma="they" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.308" smwe="null" upos="PRON" wmwe="null" word="they" xpos="PRP" />
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="charge" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="charge" lexcat="V" lexlemma="charge" lextag="O-V-v.possession" local_toknums="16" misc="null" orig_paragraph="1" remarks="0.309" smwe="null" ss="v.possession" ss2="null" toknums="309" upos="VERB" wmwe="null" word="charge" xpos="VBP" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="charge" lextag="O-V-v.possession" misc="null" orig_paragraph="1" remarks="0.309" smwe="null" upos="VERB" wmwe="null" word="charge" xpos="VBP" />
     </node>
     <node ID="0.17" type="Word">
       <attributes paragraph="1" paragraph_position="17" text="you" />
@@ -93,15 +93,15 @@
     </node>
     <node ID="0.23" type="Word">
       <attributes paragraph="1" paragraph_position="23" text="hour" />
-      <extra deprel="obl" edeps="16:obl:for" feats="Number=Sing" head="16" lemma="hour" lexcat="N" lexlemma="hour" lextag="O-N-n.TIME" local_toknums="23" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.316" smwe="null" ss="n.TIME" ss2="null" toknums="316" upos="NOUN" wmwe="null" word="hour" xpos="NN" />
+      <extra deprel="obl" edeps="16:obl" feats="Number=Sing" head="16" lemma="hour" lextag="O-N-n.TIME" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.316" smwe="null" upos="NOUN" wmwe="null" word="hour" xpos="NN" />
     </node>
     <node ID="0.24" type="Punctuation">
       <attributes paragraph="1" paragraph_position="24" text="," />
-      <extra deprel="punct" edeps="24.1:punct|25:punct" feats="null" head="25" lemma="," lextag="O-PUNCT" misc="null" orig_paragraph="1" remarks="0.317" smwe="null" upos="PUNCT" wmwe="null" word="," xpos="," />
+      <extra deprel="punct" edeps="24.1:punct" feats="null" head="25" lemma="," lextag="O-PUNCT" misc="null" orig_paragraph="1" remarks="0.317" smwe="null" upos="PUNCT" wmwe="null" word="," xpos="," />
     </node>
     <node ID="0.25" type="Word">
       <attributes paragraph="1" paragraph_position="25" text="$" />
-      <extra deprel="conj" edeps="16:conj:and|24.1:obj" feats="null" head="16" lemma="$" lextag="O-SYM" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.318" smwe="null" upos="SYM" wmwe="null" word="$" xpos="$" />
+      <extra deprel="conj" edeps="24.1:obj" feats="null" head="16" lemma="$" lextag="O-SYM" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.318" smwe="null" upos="SYM" wmwe="null" word="$" xpos="$" />
     </node>
     <node ID="0.26" type="Word">
       <attributes paragraph="1" paragraph_position="26" text="25" />
@@ -121,7 +121,7 @@
     </node>
     <node ID="0.30" type="Word">
       <attributes paragraph="1" paragraph_position="30" text="hour" />
-      <extra deprel="orphan" edeps="24.1:obl:for" feats="Number=Sing" head="25" lemma="hour" lexcat="N" lexlemma="hour" lextag="O-N-n.TIME" local_toknums="30" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.323" smwe="null" ss="n.TIME" ss2="null" toknums="323" upos="NOUN" wmwe="null" word="hour" xpos="NN" />
+      <extra deprel="orphan" edeps="24.1:obl" feats="Number=Sing" head="25" lemma="hour" lextag="O-N-n.TIME" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.323" smwe="null" upos="NOUN" wmwe="null" word="hour" xpos="NN" />
     </node>
     <node ID="0.31" type="Punctuation">
       <attributes paragraph="1" paragraph_position="31" text="," />
@@ -141,7 +141,7 @@
     </node>
     <node ID="0.35" type="Word">
       <attributes paragraph="1" paragraph_position="35" text="PM" />
-      <extra deprel="obl" edeps="41:obl:after" feats="Number=Sing" head="41" lemma="pm" lexcat="N" lexlemma="pm" lextag="O-N-n.TIME" local_toknums="35" misc="null" orig_paragraph="1" remarks="0.328" smwe="null" ss="n.TIME" ss2="null" toknums="328" upos="NOUN" wmwe="null" word="PM" xpos="NN" />
+      <extra deprel="obl" edeps="41:obl" feats="Number=Sing" head="41" lemma="pm" lextag="O-N-n.TIME" misc="null" orig_paragraph="1" remarks="0.328" smwe="null" upos="NOUN" wmwe="null" word="PM" xpos="NN" />
     </node>
     <node ID="0.36" type="Word">
       <attributes paragraph="1" paragraph_position="36" text="it" />
@@ -149,7 +149,7 @@
     </node>
     <node ID="0.37" type="Word">
       <attributes paragraph="1" paragraph_position="37" text="'s" />
-      <extra deprel="cop" edeps="41:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="41" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="37" misc="null" orig_paragraph="1" remarks="0.330" smwe="null" ss="v.stative" ss2="null" toknums="330" upos="AUX" wmwe="null" word="'s" xpos="VBZ" />
+      <extra deprel="cop" edeps="41:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="41" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.330" smwe="null" upos="AUX" wmwe="null" word="'s" xpos="VBZ" />
     </node>
     <node ID="0.38" type="Word">
       <attributes paragraph="1" paragraph_position="38" text="a" />
@@ -161,11 +161,11 @@
     </node>
     <node ID="0.40" type="Word">
       <attributes paragraph="1" paragraph_position="40" text="day" />
-      <extra deprel="compound" edeps="41:compound" feats="Number=Sing" head="41" lemma="day" lexcat="N" lexlemma="day" lextag="O-N-n.TIME" local_toknums="40" misc="null" orig_paragraph="1" remarks="0.333" smwe="null" ss="n.TIME" ss2="null" toknums="333" upos="NOUN" wmwe="null" word="day" xpos="NN" />
+      <extra deprel="compound" edeps="41:compound" feats="Number=Sing" head="41" lemma="day" lextag="O-N-n.TIME" misc="null" orig_paragraph="1" remarks="0.333" smwe="null" upos="NOUN" wmwe="null" word="day" xpos="NN" />
     </node>
     <node ID="0.41" type="Word">
       <attributes paragraph="1" paragraph_position="41" text="charge" />
-      <extra deprel="conj" edeps="16:conj:and" feats="Number=Sing" head="16" lemma="charge" lexcat="N" lexlemma="charge" lextag="O-N-n.POSSESSION" local_toknums="41" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.334" smwe="null" ss="n.POSSESSION" ss2="null" toknums="334" upos="NOUN" wmwe="null" word="charge" xpos="NN" />
+      <extra deprel="conj" edeps="16:conj" feats="Number=Sing" head="16" lemma="charge" lextag="O-N-n.POSSESSION" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.334" smwe="null" upos="NOUN" wmwe="null" word="charge" xpos="NN" />
     </node>
     <node ID="0.42" type="Punctuation">
       <attributes paragraph="1" paragraph_position="42" text="." />

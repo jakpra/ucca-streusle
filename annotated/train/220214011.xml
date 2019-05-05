@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="do" />
-      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="do" lexcat="V" lexlemma="do" lextag="O-V-v.stative" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.228" smwe="null" ss="v.stative" ss2="null" toknums="228" upos="VERB" wmwe="null" word="do" xpos="VB" />
+      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="do" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.228" smwe="null" upos="VERB" wmwe="null" word="do" xpos="VB" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="certain" />
@@ -25,15 +25,15 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="things" />
-      <extra deprel="obj" edeps="4:obj|10:nsubj" feats="Number=Plur" head="4" lemma="thing" lextag="O-!!@" misc="null" orig_paragraph="1" remarks="0.230" smwe="null" upos="NOUN" wmwe="null" word="things" xpos="NNS" />
+      <extra deprel="obj" edeps="4:obj" feats="Number=Plur" head="4" lemma="thing" lextag="O-!!@" misc="null" orig_paragraph="1" remarks="0.230" smwe="null" upos="NOUN" wmwe="null" word="things" xpos="NNS" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="that" />
-      <extra deprel="nsubj" edeps="6:ref" feats="PronType=Rel" head="10" lemma="that" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.231" smwe="null" upos="PRON" wmwe="null" word="that" xpos="WDT" />
+      <extra deprel="nsubj" edeps="10:nsubj" feats="PronType=Rel" head="10" lemma="that" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.231" smwe="null" upos="PRON" wmwe="null" word="that" xpos="WDT" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="are" />
-      <extra deprel="cop" edeps="10:cop" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="10" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="8" misc="null" orig_paragraph="1" remarks="0.232" smwe="null" ss="v.stative" ss2="null" toknums="232" upos="AUX" wmwe="null" word="are" xpos="VBP" />
+      <extra deprel="cop" edeps="10:cop" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="10" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.232" smwe="null" upos="AUX" wmwe="null" word="are" xpos="VBP" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="really" />
@@ -53,7 +53,7 @@
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="offices" />
-      <extra deprel="obl" edeps="10:obl:about" feats="Number=Plur" head="10" lemma="office" lexcat="N" lexlemma="office" lextag="O-N-n.GROUP" local_toknums="13" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.237" smwe="null" ss="n.GROUP" ss2="null" toknums="237" upos="NOUN" wmwe="null" word="offices" xpos="NNS" />
+      <extra deprel="obl" edeps="10:obl" feats="Number=Plur" head="10" lemma="office" lextag="O-N-n.GROUP" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.237" smwe="null" upos="NOUN" wmwe="null" word="offices" xpos="NNS" />
     </node>
     <node ID="0.14" type="Punctuation">
       <attributes paragraph="1" paragraph_position="14" text="." />

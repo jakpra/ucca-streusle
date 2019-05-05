@@ -13,7 +13,7 @@
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="hear" />
-      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="hear" lexcat="V" lexlemma="hear" lextag="O-V-v.perception" local_toknums="3" misc="null" orig_paragraph="1" remarks="0.99" smwe="null" ss="v.perception" ss2="null" toknums="99" upos="VERB" wmwe="null" word="hear" xpos="VB" />
+      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="hear" lextag="O-V-v.perception" misc="null" orig_paragraph="1" remarks="0.99" smwe="null" upos="VERB" wmwe="null" word="hear" xpos="VB" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="every" />
@@ -25,15 +25,15 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="thing" />
-      <extra deprel="obj" edeps="3:obj|8:nsubj" feats="Number=Sing" head="3" lemma="thing" lextag="O-!!@" misc="null" orig_paragraph="1" remarks="0.102" smwe="null" upos="NOUN" wmwe="null" word="thing" xpos="NN" />
+      <extra deprel="obj" edeps="3:obj" feats="Number=Sing" head="3" lemma="thing" lextag="O-!!@" misc="null" orig_paragraph="1" remarks="0.102" smwe="null" upos="NOUN" wmwe="null" word="thing" xpos="NN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="that" />
-      <extra deprel="nsubj" edeps="6:ref" feats="PronType=Rel" head="8" lemma="that" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.103" smwe="null" upos="PRON" wmwe="null" word="that" xpos="WDT" />
+      <extra deprel="nsubj" edeps="8:nsubj" feats="PronType=Rel" head="8" lemma="that" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.103" smwe="null" upos="PRON" wmwe="null" word="that" xpos="WDT" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="happened" />
-      <extra deprel="acl:relcl" edeps="6:acl:relcl" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="6" lemma="happen" lexcat="V" lexlemma="happen" lextag="O-V-v.stative" local_toknums="8" misc="null" orig_paragraph="1" remarks="0.104" smwe="null" ss="v.stative" ss2="null" toknums="104" upos="VERB" wmwe="null" word="happened" xpos="VBD" />
+      <extra deprel="acl:relcl" edeps="6:acl:relcl" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="6" lemma="happen" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.104" smwe="null" upos="VERB" wmwe="null" word="happened" xpos="VBD" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="outside" />
@@ -49,7 +49,7 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="was" />
-      <extra deprel="cop" edeps="15:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="15" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="12" misc="null" orig_paragraph="1" remarks="0.108" smwe="null" ss="v.stative" ss2="null" toknums="108" upos="AUX" wmwe="null" word="was" xpos="VBD" />
+      <extra deprel="cop" edeps="15:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="15" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.108" smwe="null" upos="AUX" wmwe="null" word="was" xpos="VBD" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="inside" />
@@ -61,7 +61,7 @@
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="room" />
-      <extra deprel="advcl" edeps="3:advcl:inside" feats="Number=Sing" head="3" lemma="room" lexcat="N" lexlemma="room" lextag="O-N-n.LOCATION" local_toknums="15" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.111" smwe="null" ss="n.LOCATION" ss2="null" toknums="111" upos="NOUN" wmwe="null" word="room" xpos="NN" />
+      <extra deprel="advcl" edeps="3:advcl" feats="Number=Sing" head="3" lemma="room" lextag="O-N-n.LOCATION" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.111" smwe="null" upos="NOUN" wmwe="null" word="room" xpos="NN" />
     </node>
     <node ID="0.16" type="Punctuation">
       <attributes paragraph="1" paragraph_position="16" text="." />

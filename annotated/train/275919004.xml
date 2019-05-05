@@ -5,15 +5,15 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Managing" />
-      <extra deprel="csubj" edeps="10:csubj" feats="VerbForm=Ger" head="10" lemma="manage" lexcat="V" lexlemma="manage" lextag="O-V-v.social" local_toknums="1" misc="null" orig_paragraph="1" remarks="0.45" smwe="null" ss="v.social" ss2="null" toknums="45" upos="VERB" wmwe="null" word="Managing" xpos="VBG" />
+      <extra deprel="csubj" edeps="10:csubj" feats="VerbForm=Ger" head="10" lemma="manage" lextag="O-V-v.social" misc="null" orig_paragraph="1" remarks="0.45" smwe="null" upos="VERB" wmwe="null" word="Managing" xpos="VBG" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="POS" />
-      <extra deprel="nmod:npmod" edeps="3:nmod:npmod" feats="Number=Sing" head="3" lemma="pos" lexcat="N" lexlemma="pos" lextag="O-N-n.ARTIFACT" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.46" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="46" upos="NOUN" wmwe="null" word="POS" xpos="NN" />
+      <extra deprel="nmod:npmod" edeps="3:nmod:npmod" feats="Number=Sing" head="3" lemma="pos" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.46" smwe="null" upos="NOUN" wmwe="null" word="POS" xpos="NN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="counter" />
-      <extra deprel="obj" edeps="1:obj" feats="Number=Sing" head="1" lemma="counter" lexcat="N" lexlemma="counter" lextag="O-N-n.ARTIFACT" local_toknums="3" misc="null" orig_paragraph="1" remarks="0.47" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="47" upos="NOUN" wmwe="null" word="counter" xpos="NN" />
+      <extra deprel="obj" edeps="1:obj" feats="Number=Sing" head="1" lemma="counter" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.47" smwe="null" upos="NOUN" wmwe="null" word="counter" xpos="NN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="without" />
@@ -21,11 +21,11 @@
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="barcoding" />
-      <extra deprel="obl" edeps="1:obl:without" feats="Number=Sing" head="1" lemma="barcoding" lexcat="N" lexlemma="barcoding" lextag="O-N-n.COMMUNICATION" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.49" smwe="null" ss="n.COMMUNICATION" ss2="null" toknums="49" upos="NOUN" wmwe="null" word="barcoding" xpos="NN" />
+      <extra deprel="obl" edeps="1:obl" feats="Number=Sing" head="1" lemma="barcoding" lextag="O-N-n.COMMUNICATION" misc="null" orig_paragraph="1" remarks="0.49" smwe="null" upos="NOUN" wmwe="null" word="barcoding" xpos="NN" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="was" />
-      <extra deprel="cop" edeps="10:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="10" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.50" smwe="null" ss="v.stative" ss2="null" toknums="50" upos="AUX" wmwe="null" word="was" xpos="VBD" />
+      <extra deprel="cop" edeps="10:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin" head="10" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.50" smwe="null" upos="AUX" wmwe="null" word="was" xpos="VBD" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="really" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="time" />
-      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="time" lexcat="N" lexlemma="time" lextag="O-N-n.EVENT" local_toknums="10" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.54" smwe="null" ss="n.EVENT" ss2="null" toknums="54" upos="NOUN" wmwe="null" word="time" xpos="NN" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="time" lextag="O-N-n.EVENT" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.54" smwe="null" upos="NOUN" wmwe="null" word="time" xpos="NN" />
     </node>
     <node ID="0.11" type="Punctuation">
       <attributes paragraph="1" paragraph_position="11" text="." />
@@ -116,7 +116,7 @@
     </node>
     <node ID="1.5" type="PNCT">
       <attributes />
-      <extra remarks="1.197" />
+      <extra remarks="1.199" />
       <edge toID="0.11" type="Terminal">
         <attributes />
         <category tag="Terminal" />

@@ -1,5 +1,5 @@
 <root annotationID="0" passageID="381455001">
-  <attributes annotationID="431" passageID="191" remarks="26081" userID="1" />
+  <attributes annotationID="4339" passageID="191" remarks="26081" userID="14" />
   <layer layerID="0">
     <attributes />
     <extra doc="[[]]" />
@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="get" />
-      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="get" lexcat="V.VID" lexlemma="get it" lextag="B-V.VID-v.cognition" local_toknums="4 5" misc="null" orig_paragraph="1" remarks="0.9" smwe="[1, 1]" ss="v.cognition" ss2="null" toknums="9 10" upos="VERB" wmwe="null" word="get" xpos="VB" />
+      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="get" lextag="B-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.9" smwe="[1, 1]" upos="VERB" wmwe="null" word="get" xpos="VB" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="it" />
@@ -49,9 +49,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.5" type="D">
+      <edge toID="1.5" type="F">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
       </edge>
       <edge toID="1.6" type="D">
         <attributes />
@@ -64,7 +64,7 @@
     </node>
     <node ID="1.3" type="PNCT">
       <attributes />
-      <extra remarks="1.93" />
+      <extra remarks="1.87" />
       <edge toID="0.6" type="Terminal">
         <attributes />
         <category tag="Terminal" />

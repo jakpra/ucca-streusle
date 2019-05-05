@@ -5,7 +5,7 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Instead" />
-      <extra config="default" deprel="advmod" edeps="3:advmod" feats="null" gov="80" govlemma="choose" head="3" lemma="instead" lexcat="P" lexlemma="instead of" lextag="B-P-p.InsteadOf" local_gov="5" local_obj="3" local_toknums="1 2" misc="null" obj="78" objlemma="reschedule" orig_paragraph="1" remarks="0.76" smwe="[1, 1]" ss="p.InsteadOf" ss2="p.InsteadOf" toknums="76 77" upos="ADV" wmwe="null" word="Instead" xpos="RB" />
+      <extra config="default" deprel="advmod" edeps="3:advmod" feats="null" gov="78" govlemma="reschedule" head="3" lemma="instead" lexcat="P" lexlemma="instead of" lextag="B-P-p.InsteadOf" local_gov="3" local_toknums="1 2" misc="null" obj="null" objlemma="null" orig_paragraph="1" remarks="0.76" smwe="[1, 1]" ss="p.InsteadOf" ss2="p.InsteadOf" toknums="76 77" upos="ADV" wmwe="null" word="Instead" xpos="RB" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="of" />
@@ -13,15 +13,15 @@
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="rescheduling" />
-      <extra deprel="advcl" edeps="5:advcl:of" feats="VerbForm=Ger" head="5" lemma="reschedule" lexcat="V" lexlemma="reschedule" lextag="O-V-v.social" local_toknums="3" misc="null" orig_paragraph="1" remarks="0.78" smwe="null" ss="v.social" ss2="null" toknums="78" upos="VERB" wmwe="null" word="rescheduling" xpos="VBG" />
+      <extra deprel="advcl" edeps="5:advcl" feats="VerbForm=Ger" head="5" lemma="reschedule" lextag="O-V-v.social" misc="null" orig_paragraph="1" remarks="0.78" smwe="null" upos="VERB" wmwe="null" word="rescheduling" xpos="VBG" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="they" />
-      <extra deprel="nsubj" edeps="5:nsubj|7:nsubj:xsubj" feats="Case=Nom|Number=Plur|Person=3|PronType=Prs" head="5" lemma="they" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.79" smwe="null" upos="PRON" wmwe="null" word="they" xpos="PRP" />
+      <extra deprel="nsubj" edeps="5:nsubj" feats="Case=Nom|Number=Plur|Person=3|PronType=Prs" head="5" lemma="they" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.79" smwe="null" upos="PRON" wmwe="null" word="they" xpos="PRP" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="chose" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="choose" lexcat="V" lexlemma="choose" lextag="O-V-v.cognition" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.80" smwe="null" ss="v.cognition" ss2="null" toknums="80" upos="VERB" wmwe="null" word="chose" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="choose" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.80" smwe="null" upos="VERB" wmwe="null" word="chose" xpos="VBD" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="to" />
@@ -29,7 +29,7 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="waste" />
-      <extra deprel="xcomp" edeps="5:xcomp" feats="VerbForm=Inf" head="5" lemma="waste" lexcat="V.VID" lexlemma="waste time" lextag="B-V.VID-v.social" local_toknums="7 9" misc="null" orig_paragraph="1" remarks="0.82" smwe="[2, 1]" ss="v.social" ss2="null" toknums="82 84" upos="VERB" wmwe="null" word="waste" xpos="VB" />
+      <extra deprel="xcomp" edeps="5:xcomp" feats="VerbForm=Inf" head="5" lemma="waste" lextag="B-V-v.social" misc="null" orig_paragraph="1" remarks="0.82" smwe="[2, 1]" upos="VERB" wmwe="null" word="waste" xpos="VB" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="my" />

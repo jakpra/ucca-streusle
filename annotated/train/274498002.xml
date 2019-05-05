@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="jiu" />
-      <extra deprel="compound" edeps="4:compound" feats="Number=Sing" head="4" lemma="jiu" lexcat="N" lexlemma="jiu - jitsu" lextag="B-N-n.ACT" local_toknums="2 3 4" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.26" smwe="[1, 1]" ss="n.ACT" ss2="null" toknums="26 27 28" upos="NOUN" wmwe="null" word="jiu" xpos="NN" />
+      <extra deprel="compound" edeps="4:compound" feats="Number=Sing" head="4" lemma="jiu" lextag="B-N-n.ACT" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.26" smwe="[1, 1]" upos="NOUN" wmwe="null" word="jiu" xpos="NN" />
     </node>
     <node ID="0.3" type="Punctuation">
       <attributes paragraph="1" paragraph_position="3" text="-" />
@@ -21,7 +21,7 @@
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="mma" />
-      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="mma" lexcat="N" lexlemma="mma" lextag="O-N-n.ACT" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.29" smwe="null" ss="n.ACT" ss2="null" toknums="29" upos="NOUN" wmwe="null" word="mma" xpos="NN" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="mma" lextag="O-N-n.ACT" misc="null" orig_paragraph="1" remarks="0.29" smwe="null" upos="NOUN" wmwe="null" word="mma" xpos="NN" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="in" />
@@ -29,11 +29,11 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="Santa" />
-      <extra deprel="compound" edeps="8:compound" feats="Number=Sing" head="8" lemma="Santa" lexcat="N" lexlemma="Santa Rosa" lextag="B-N-n.LOCATION" local_toknums="7 8" misc="null" orig_paragraph="1" remarks="0.31" smwe="[2, 1]" ss="n.LOCATION" ss2="null" toknums="31 32" upos="PROPN" wmwe="null" word="Santa" xpos="NNP" />
+      <extra deprel="compound" edeps="8:compound" feats="Number=Sing" head="8" lemma="Santa" lextag="B-N-n.LOCATION" misc="null" orig_paragraph="1" remarks="0.31" smwe="[2, 1]" upos="PROPN" wmwe="null" word="Santa" xpos="NNP" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="Rosa" />
-      <extra deprel="nmod" edeps="5:nmod:in" feats="Number=Sing" head="5" lemma="Rosa" lextag="I_" misc="null" orig_paragraph="1" remarks="0.32" smwe="[2, 2]" upos="PROPN" wmwe="null" word="Rosa" xpos="NNP" />
+      <extra deprel="nmod" edeps="5:nmod" feats="Number=Sing" head="5" lemma="Rosa" lextag="I_" misc="null" orig_paragraph="1" remarks="0.32" smwe="[2, 2]" upos="PROPN" wmwe="null" word="Rosa" xpos="NNP" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="and" />
@@ -45,7 +45,7 @@
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="have" />
-      <extra deprel="conj" edeps="5:conj:and" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="5" lemma="have" lexcat="V.LVC.full" lexlemma="have experience" lextag="B-V.LVC.full-v.cognition" local_toknums="11 13" misc="null" orig_paragraph="1" remarks="0.35" smwe="[3, 1]" ss="v.cognition" ss2="null" toknums="35 37" upos="VERB" wmwe="null" word="have" xpos="VBP" />
+      <extra deprel="conj" edeps="5:conj" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="5" lemma="have" lextag="B-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.35" smwe="[3, 1]" upos="VERB" wmwe="null" word="have" xpos="VBP" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="the" />
@@ -61,7 +61,7 @@
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="belt" />
-      <extra deprel="conj" edeps="11:obj|13:conj:and" feats="Number=Sing" head="13" lemma="belt" lexcat="N" lexlemma="belt" lextag="O-N-n.COGNITION" local_toknums="15" misc="null" orig_paragraph="1" remarks="0.39" smwe="null" ss="n.COGNITION" ss2="null" toknums="39" upos="NOUN" wmwe="null" word="belt" xpos="NN" />
+      <extra deprel="conj" edeps="13:conj" feats="Number=Sing" head="13" lemma="belt" lextag="O-N-n.COGNITION" misc="null" orig_paragraph="1" remarks="0.39" smwe="null" upos="NOUN" wmwe="null" word="belt" xpos="NN" />
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="to" />
@@ -69,7 +69,7 @@
     </node>
     <node ID="0.17" type="Word">
       <attributes paragraph="1" paragraph_position="17" text="back" />
-      <extra deprel="acl" edeps="13:acl:to" feats="VerbForm=Inf" head="13" lemma="back" lexcat="V.VPC.full" lexlemma="back up" lextag="B-V.VPC.full-v.social" local_toknums="17 19" misc="null" orig_paragraph="1" remarks="0.41" smwe="[4, 1]" ss="v.social" ss2="null" toknums="41 43" upos="VERB" wmwe="null" word="back" xpos="VB" />
+      <extra deprel="acl" edeps="13:acl" feats="VerbForm=Inf" head="13" lemma="back" lextag="B-V-v.social" misc="null" orig_paragraph="1" remarks="0.41" smwe="[4, 1]" upos="VERB" wmwe="null" word="back" xpos="VB" />
     </node>
     <node ID="0.18" type="Word">
       <attributes paragraph="1" paragraph_position="18" text="it" />
@@ -160,7 +160,7 @@
     </node>
     <node ID="1.5" type="PNCT">
       <attributes />
-      <extra remarks="1.104" />
+      <extra remarks="1.105" />
       <edge toID="0.20" type="Terminal">
         <attributes />
         <category tag="Terminal" />
@@ -348,7 +348,7 @@
     </node>
     <node ID="1.24" type="PNCT">
       <attributes />
-      <extra remarks="1.103" />
+      <extra remarks="1.104" />
       <edge toID="0.3" type="Terminal">
         <attributes />
         <category tag="Terminal" />

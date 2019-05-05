@@ -9,11 +9,11 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="I" />
-      <extra deprel="nsubj" edeps="3:nsubj|5:nsubj:xsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="3" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.178" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
+      <extra deprel="nsubj" edeps="3:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="3" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.178" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="feel" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="feel" lexcat="V" lexlemma="feel" lextag="O-V-v.cognition" local_toknums="3" misc="null" orig_paragraph="1" remarks="0.179" smwe="null" ss="v.cognition" ss2="null" toknums="179" upos="VERB" wmwe="null" word="feel" xpos="VBP" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="feel" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.179" smwe="null" upos="VERB" wmwe="null" word="feel" xpos="VBP" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="more" />
@@ -25,7 +25,7 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="wearing" />
-      <extra deprel="advcl" edeps="5:advcl" feats="VerbForm=Ger" head="5" lemma="wear" lexcat="V" lexlemma="wear" lextag="O-V-v.body" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.182" smwe="null" ss="v.body" ss2="null" toknums="182" upos="VERB" wmwe="null" word="wearing" xpos="VBG" />
+      <extra deprel="advcl" edeps="5:advcl" feats="VerbForm=Ger" head="5" lemma="wear" lextag="O-V-v.body" misc="null" orig_paragraph="1" remarks="0.182" smwe="null" upos="VERB" wmwe="null" word="wearing" xpos="VBG" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="my" />
@@ -33,7 +33,7 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="bathing" />
-      <extra deprel="compound" edeps="9:compound" feats="Number=Sing" head="9" lemma="bathing" lexcat="N" lexlemma="bathing suit" lextag="B-N-n.ARTIFACT" local_toknums="8 9" misc="null" orig_paragraph="1" remarks="0.184" smwe="[1, 1]" ss="n.ARTIFACT" ss2="null" toknums="184 185" upos="NOUN" wmwe="null" word="bathing" xpos="NN" />
+      <extra deprel="compound" edeps="9:compound" feats="Number=Sing" head="9" lemma="bathing" lextag="B-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.184" smwe="[1, 1]" upos="NOUN" wmwe="null" word="bathing" xpos="NN" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="suit" />
@@ -49,7 +49,7 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="summer" />
-      <extra deprel="obl" edeps="6:obl:in" feats="Number=Sing" head="6" lemma="summer" lexcat="N" lexlemma="summer" lextag="O-N-n.TIME" local_toknums="12" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.188" smwe="null" ss="n.TIME" ss2="null" toknums="188" upos="NOUN" wmwe="null" word="summer" xpos="NN" />
+      <extra deprel="obl" edeps="6:obl" feats="Number=Sing" head="6" lemma="summer" lextag="O-N-n.TIME" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.188" smwe="null" upos="NOUN" wmwe="null" word="summer" xpos="NN" />
     </node>
     <node ID="0.13" type="Punctuation">
       <attributes paragraph="1" paragraph_position="13" text="." />

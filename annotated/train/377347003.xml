@@ -5,7 +5,7 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="I" />
-      <extra deprel="nsubj" edeps="3:nsubj|7:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="3" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.26" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
+      <extra deprel="nsubj" edeps="3:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="3" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.26" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="am" />
@@ -13,15 +13,15 @@
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="doing" />
-      <extra deprel="root" edeps="0:root" feats="Tense=Pres|VerbForm=Part" head="0" lemma="do" lexcat="V" lexlemma="do" lextag="O-V-v.stative" local_toknums="3" misc="null" orig_paragraph="1" remarks="0.28" smwe="null" ss="v.stative" ss2="null" toknums="28" upos="VERB" wmwe="null" word="doing" xpos="VBG" />
+      <extra deprel="root" edeps="0:root" feats="Tense=Pres|VerbForm=Part" head="0" lemma="do" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.28" smwe="null" upos="VERB" wmwe="null" word="doing" xpos="VBG" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="origami" />
-      <extra deprel="compound" edeps="5:compound" feats="Number=Sing" head="5" lemma="origami" lexcat="N" lexlemma="origami" lextag="O-N-n.ACT" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.29" smwe="null" ss="n.ACT" ss2="null" toknums="29" upos="NOUN" wmwe="null" word="origami" xpos="NN" />
+      <extra deprel="compound" edeps="5:compound" feats="Number=Sing" head="5" lemma="origami" lextag="O-N-n.ACT" misc="null" orig_paragraph="1" remarks="0.29" smwe="null" upos="NOUN" wmwe="null" word="origami" xpos="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="jewelry" />
-      <extra deprel="obj" edeps="3:obj" feats="Number=Sing" head="3" lemma="jewelry" lexcat="N" lexlemma="jewelry" lextag="O-N-n.ARTIFACT" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.30" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="30" upos="NOUN" wmwe="null" word="jewelry" xpos="NN" />
+      <extra deprel="obj" edeps="3:obj" feats="Number=Sing" head="3" lemma="jewelry" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.30" smwe="null" upos="NOUN" wmwe="null" word="jewelry" xpos="NN" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="and" />
@@ -29,7 +29,7 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="found" />
-      <extra deprel="conj" edeps="3:conj:and" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="3" lemma="find" lexcat="V" lexlemma="find" lextag="O-V-v.cognition" local_toknums="7" misc="null" orig_paragraph="1" remarks="0.32" smwe="null" ss="v.cognition" ss2="null" toknums="32" upos="VERB" wmwe="null" word="found" xpos="VBD" />
+      <extra deprel="conj" edeps="3:conj" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="3" lemma="find" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.32" smwe="null" upos="VERB" wmwe="null" word="found" xpos="VBD" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="exactly" />
@@ -53,7 +53,7 @@
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="earrings" />
-      <extra deprel="nmod" edeps="11:nmod:for" feats="Number=Plur" head="11" lemma="earring" lexcat="N" lexlemma="earring" lextag="O-N-n.ARTIFACT" local_toknums="13" misc="null" orig_paragraph="1" remarks="0.38" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="38" upos="NOUN" wmwe="null" word="earrings" xpos="NNS" />
+      <extra deprel="nmod" edeps="11:nmod" feats="Number=Plur" head="11" lemma="earring" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.38" smwe="null" upos="NOUN" wmwe="null" word="earrings" xpos="NNS" />
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="and" />
@@ -61,7 +61,7 @@
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="got" />
-      <extra deprel="conj" edeps="7:conj:and" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="7" lemma="get" lexcat="V" lexlemma="get" lextag="O-V-v.stative" local_toknums="15" misc="null" orig_paragraph="1" remarks="0.40" smwe="null" ss="v.stative" ss2="null" toknums="40" upos="VERB" wmwe="null" word="got" xpos="VBD" />
+      <extra deprel="conj" edeps="7:conj" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="7" lemma="get" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.40" smwe="null" upos="VERB" wmwe="null" word="got" xpos="VBD" />
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="many" />
@@ -73,7 +73,7 @@
     </node>
     <node ID="0.18" type="Word">
       <attributes paragraph="1" paragraph_position="18" text="ideas" />
-      <extra deprel="obj" edeps="15:obj" feats="Number=Plur" head="15" lemma="idea" lexcat="N" lexlemma="idea" lextag="O-N-n.COGNITION" local_toknums="18" misc="null" orig_paragraph="1" remarks="0.43" smwe="null" ss="n.COGNITION" ss2="null" toknums="43" upos="NOUN" wmwe="null" word="ideas" xpos="NNS" />
+      <extra deprel="obj" edeps="15:obj" feats="Number=Plur" head="15" lemma="idea" lextag="O-N-n.COGNITION" misc="null" orig_paragraph="1" remarks="0.43" smwe="null" upos="NOUN" wmwe="null" word="ideas" xpos="NNS" />
     </node>
     <node ID="0.19" type="Word">
       <attributes paragraph="1" paragraph_position="19" text="there" />

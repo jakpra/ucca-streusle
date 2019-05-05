@@ -5,7 +5,7 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="He" />
-      <extra deprel="nsubj" edeps="3:nsubj|11:nsubj" feats="Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs" head="3" lemma="he" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.84" smwe="null" upos="PRON" wmwe="null" word="He" xpos="PRP" />
+      <extra deprel="nsubj" edeps="3:nsubj" feats="Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs" head="3" lemma="he" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.84" smwe="null" upos="PRON" wmwe="null" word="He" xpos="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="really" />
@@ -13,11 +13,11 @@
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="knows" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="0" lemma="know" lexcat="V" lexlemma="know" lextag="O-V-v.cognition" local_toknums="3" misc="null" orig_paragraph="1" remarks="0.86" smwe="null" ss="v.cognition" ss2="null" toknums="86" upos="VERB" wmwe="null" word="knows" xpos="VBZ" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="0" lemma="know" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.86" smwe="null" upos="VERB" wmwe="null" word="knows" xpos="VBZ" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="what" />
-      <extra deprel="obl" edeps="7:obl:about" feats="PronType=Int" head="7" lemma="what" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.87" smwe="null" upos="PRON" wmwe="null" word="what" xpos="WP" />
+      <extra deprel="obl" edeps="7:obl" feats="PronType=Int" head="7" lemma="what" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.87" smwe="null" upos="PRON" wmwe="null" word="what" xpos="WP" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="he" />
@@ -29,7 +29,7 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="talking" />
-      <extra deprel="ccomp" edeps="3:ccomp" feats="Tense=Pres|VerbForm=Part" head="3" lemma="talk" lexcat="V" lexlemma="talk" lextag="O-V-v.communication" local_toknums="7" misc="null" orig_paragraph="1" remarks="0.90" smwe="null" ss="v.communication" ss2="null" toknums="90" upos="VERB" wmwe="null" word="talking" xpos="VBG" />
+      <extra deprel="ccomp" edeps="3:ccomp" feats="Tense=Pres|VerbForm=Part" head="3" lemma="talk" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.90" smwe="null" upos="VERB" wmwe="null" word="talking" xpos="VBG" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="about" />
@@ -45,7 +45,7 @@
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="approach" />
-      <extra deprel="conj" edeps="3:conj:and" feats="VerbForm=Inf" head="3" lemma="approach" lexcat="V" lexlemma="approach" lextag="O-V-v.social" local_toknums="11" misc="null" orig_paragraph="1" remarks="0.94" smwe="null" ss="v.social" ss2="null" toknums="94" upos="VERB" wmwe="null" word="approach" xpos="VB" />
+      <extra deprel="conj" edeps="3:conj" feats="VerbForm=Inf" head="3" lemma="approach" lextag="O-V-v.social" misc="null" orig_paragraph="1" remarks="0.94" smwe="null" upos="VERB" wmwe="null" word="approach" xpos="VB" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="the" />
@@ -57,7 +57,7 @@
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="options" />
-      <extra deprel="obj" edeps="11:obj" feats="Number=Plur" head="11" lemma="option" lexcat="N" lexlemma="option" lextag="O-N-n.COGNITION" local_toknums="14" misc="null" orig_paragraph="1" remarks="0.97" smwe="null" ss="n.COGNITION" ss2="null" toknums="97" upos="NOUN" wmwe="null" word="options" xpos="NNS" />
+      <extra deprel="obj" edeps="11:obj" feats="Number=Plur" head="11" lemma="option" lextag="O-N-n.COGNITION" misc="null" orig_paragraph="1" remarks="0.97" smwe="null" upos="NOUN" wmwe="null" word="options" xpos="NNS" />
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="fairly" />

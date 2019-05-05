@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="had" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="have" lexcat="V" lexlemma="have" lextag="O-V-v.possession" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.62" smwe="null" ss="v.possession" ss2="null" toknums="62" upos="VERB" wmwe="null" word="had" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="have" lextag="O-V-v.possession" misc="null" orig_paragraph="1" remarks="0.62" smwe="null" upos="VERB" wmwe="null" word="had" xpos="VBD" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="a" />
@@ -17,11 +17,11 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="robe" />
-      <extra deprel="obj" edeps="2:obj|7:nsubj:pass" feats="Number=Sing" head="2" lemma="robe" lexcat="N" lexlemma="robe" lextag="O-N-n.ARTIFACT" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.64" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="64" upos="NOUN" wmwe="null" word="robe" xpos="NN" />
+      <extra deprel="obj" edeps="2:obj" feats="Number=Sing" head="2" lemma="robe" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.64" smwe="null" upos="NOUN" wmwe="null" word="robe" xpos="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="that" />
-      <extra deprel="nsubj:pass" edeps="4:ref" feats="PronType=Rel" head="7" lemma="that" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.65" smwe="null" upos="PRON" wmwe="null" word="that" xpos="WDT" />
+      <extra deprel="nsubj:pass" edeps="7:nsubj:pass" feats="PronType=Rel" head="7" lemma="that" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.65" smwe="null" upos="PRON" wmwe="null" word="that" xpos="WDT" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="was" />
@@ -29,7 +29,7 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="made" />
-      <extra deprel="acl:relcl" edeps="4:acl:relcl" feats="Tense=Past|VerbForm=Part|Voice=Pass" head="4" lemma="make" lexcat="V" lexlemma="make" lextag="O-V-v.creation" local_toknums="7" misc="null" orig_paragraph="1" remarks="0.67" smwe="null" ss="v.creation" ss2="null" toknums="67" upos="VERB" wmwe="null" word="made" xpos="VBN" />
+      <extra deprel="acl:relcl" edeps="4:acl:relcl" feats="Tense=Past|VerbForm=Part|Voice=Pass" head="4" lemma="make" lextag="O-V-v.creation" misc="null" orig_paragraph="1" remarks="0.67" smwe="null" upos="VERB" wmwe="null" word="made" xpos="VBN" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="back" />
@@ -37,7 +37,7 @@
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="in" />
-      <extra config="default" deprel="case" edeps="11:case" feats="null" gov="67" govlemma="make" head="11" lemma="in" lexcat="P" lexlemma="in" lextag="I~-P-p.Time" local_gov="7" local_obj="11" local_toknums="9" misc="null" obj="71" objlemma="'60" orig_paragraph="1" remarks="0.69" smwe="null" ss="p.Time" ss2="p.Time" toknums="69" upos="ADP" wmwe="[1, 2]" word="in" xpos="IN" />
+      <extra config="default" deprel="case" edeps="11:case" feats="null" gov="68" govlemma="back" head="11" lemma="in" lexcat="P" lexlemma="in" lextag="I~-P-p.Time" local_gov="8" local_obj="11" local_toknums="9" misc="null" obj="71" objlemma="'60" orig_paragraph="1" remarks="0.69" smwe="null" ss="p.Time" ss2="p.Time" toknums="69" upos="ADP" wmwe="[1, 2]" word="in" xpos="IN" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="the" />
@@ -45,7 +45,7 @@
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="'60s" />
-      <extra deprel="obl" edeps="8:obl:in" feats="Number=Plur" head="8" lemma="'60" lexcat="N" lexlemma="'60" lextag="O-N-n.TIME" local_toknums="11" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.71" smwe="null" ss="n.TIME" ss2="null" toknums="71" upos="NOUN" wmwe="null" word="'60s" xpos="NNS" />
+      <extra deprel="obl" edeps="8:obl" feats="Number=Plur" head="8" lemma="'60" lextag="O-N-n.TIME" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.71" smwe="null" upos="NOUN" wmwe="null" word="'60s" xpos="NNS" />
     </node>
     <node ID="0.12" type="Punctuation">
       <attributes paragraph="1" paragraph_position="12" text="." />

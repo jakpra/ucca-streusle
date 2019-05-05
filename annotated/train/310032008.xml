@@ -5,7 +5,7 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Go" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Imp|VerbForm=Fin" head="0" lemma="go" lexcat="V" lexlemma="go" lextag="O-V-v.communication" local_toknums="1" misc="null" orig_paragraph="1" remarks="0.99" smwe="null" ss="v.communication" ss2="null" toknums="99" upos="VERB" wmwe="null" word="Go" xpos="VB" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Imp|VerbForm=Fin" head="0" lemma="go" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.99" smwe="null" upos="VERB" wmwe="null" word="Go" xpos="VB" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="to" />
@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="website" />
-      <extra deprel="obl" edeps="1:obl:to" feats="Number=Sing" head="1" lemma="website" lexcat="N" lexlemma="website" lextag="O-N-n.COMMUNICATION" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.102" smwe="null" ss="n.COMMUNICATION" ss2="null" toknums="102" upos="NOUN" wmwe="null" word="website" xpos="NN" />
+      <extra deprel="obl" edeps="1:obl" feats="Number=Sing" head="1" lemma="website" lextag="O-N-n.COMMUNICATION" misc="null" orig_paragraph="1" remarks="0.102" smwe="null" upos="NOUN" wmwe="null" word="website" xpos="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="for" />
@@ -25,7 +25,7 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="coupons" />
-      <extra deprel="obl" edeps="1:obl:for" feats="Number=Plur" head="1" lemma="coupon" lexcat="N" lexlemma="coupon" lextag="O-N-n.POSSESSION" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.104" smwe="null" ss="n.POSSESSION" ss2="null" toknums="104" upos="NOUN" wmwe="null" word="coupons" xpos="NNS" />
+      <extra deprel="obl" edeps="1:obl" feats="Number=Plur" head="1" lemma="coupon" lextag="O-N-n.POSSESSION" misc="null" orig_paragraph="1" remarks="0.104" smwe="null" upos="NOUN" wmwe="null" word="coupons" xpos="NNS" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="and" />
@@ -33,7 +33,7 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="join" />
-      <extra deprel="conj" edeps="1:conj:and" feats="Mood=Imp|VerbForm=Fin" head="1" lemma="join" lexcat="V" lexlemma="join" lextag="O-V-v.communication" local_toknums="8" misc="null" orig_paragraph="1" remarks="0.106" smwe="null" ss="v.communication" ss2="null" toknums="106" upos="VERB" wmwe="null" word="join" xpos="VB" />
+      <extra deprel="conj" edeps="1:conj" feats="Mood=Imp|VerbForm=Fin" head="1" lemma="join" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.106" smwe="null" upos="VERB" wmwe="null" word="join" xpos="VB" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="the" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="club" />
-      <extra deprel="obj" edeps="8:obj" feats="Number=Sing" head="8" lemma="club" lexcat="N" lexlemma="club" lextag="O-N-n.GROUP" local_toknums="10" misc="null" orig_paragraph="1" remarks="0.108" smwe="null" ss="n.GROUP" ss2="null" toknums="108" upos="NOUN" wmwe="null" word="club" xpos="NN" />
+      <extra deprel="obj" edeps="8:obj" feats="Number=Sing" head="8" lemma="club" lextag="O-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.108" smwe="null" upos="NOUN" wmwe="null" word="club" xpos="NN" />
     </node>
     <node ID="0.11" type="Punctuation">
       <attributes paragraph="1" paragraph_position="11" text="-" />
@@ -57,7 +57,7 @@
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="get" />
-      <extra deprel="parataxis" edeps="1:parataxis" feats="VerbForm=Inf" head="1" lemma="get" lexcat="V" lexlemma="get" lextag="O-V-v.stative" local_toknums="14" misc="null" orig_paragraph="1" remarks="0.112" smwe="null" ss="v.stative" ss2="null" toknums="112" upos="VERB" wmwe="null" word="get" xpos="VB" />
+      <extra deprel="parataxis" edeps="1:parataxis" feats="VerbForm=Inf" head="1" lemma="get" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.112" smwe="null" upos="VERB" wmwe="null" word="get" xpos="VB" />
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="free" />
@@ -65,7 +65,7 @@
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="parking" />
-      <extra deprel="obj" edeps="14:obj" feats="Number=Sing" head="14" lemma="parking" lexcat="N" lexlemma="parking" lextag="O-N-n.ACT" local_toknums="16" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.114" smwe="null" ss="n.ACT" ss2="null" toknums="114" upos="NOUN" wmwe="null" word="parking" xpos="NN" />
+      <extra deprel="obj" edeps="14:obj" feats="Number=Sing" head="14" lemma="parking" lextag="O-N-n.ACT" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.114" smwe="null" upos="NOUN" wmwe="null" word="parking" xpos="NN" />
     </node>
     <node ID="0.17" type="Punctuation">
       <attributes paragraph="1" paragraph_position="17" text="." />

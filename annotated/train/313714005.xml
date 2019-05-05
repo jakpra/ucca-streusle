@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="all" />
-      <extra deprel="obl" edeps="2:obl:of" feats="null" head="2" lemma="all" lextag="I~-DET" misc="null" orig_paragraph="1" remarks="0.57" smwe="null" upos="DET" wmwe="[2, 3]" word="all" xpos="DT" />
+      <extra deprel="obl" edeps="2:obl" feats="null" head="2" lemma="all" lextag="I~-DET" misc="null" orig_paragraph="1" remarks="0.57" smwe="null" upos="DET" wmwe="[2, 3]" word="all" xpos="DT" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="your" />
@@ -25,11 +25,11 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="child" />
-      <extra deprel="nsubj" edeps="7:nsubj" feats="Number=Sing" head="7" lemma="child" lexcat="N" lexlemma="child" lextag="O-N-n.PERSON" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.59" smwe="null" ss="n.PERSON" ss2="null" toknums="59" upos="NOUN" wmwe="null" word="child" xpos="NN" />
+      <extra deprel="nsubj" edeps="7:nsubj" feats="Number=Sing" head="7" lemma="child" lextag="O-N-n.PERSON" misc="null" orig_paragraph="1" remarks="0.59" smwe="null" upos="NOUN" wmwe="null" word="child" xpos="NN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="feels" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="0" lemma="feel" lexcat="V.VID" lexlemma="feel like a number" lextag="B-V.VID-v.cognition" local_toknums="7 8 9 10" misc="null" orig_paragraph="1" remarks="0.60" smwe="[1, 1]" ss="v.cognition" ss2="null" toknums="60 61 62 63" upos="VERB" wmwe="null" word="feels" xpos="VBZ" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="0" lemma="feel" lextag="B-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.60" smwe="[1, 1]" upos="VERB" wmwe="null" word="feels" xpos="VBZ" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="like" />
@@ -41,7 +41,7 @@
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="number" />
-      <extra deprel="obl" edeps="7:obl:like" feats="Number=Sing" head="7" lemma="number" lextag="I_" misc="null" orig_paragraph="1" remarks="0.63" smwe="[1, 4]" upos="NOUN" wmwe="null" word="number" xpos="NN" />
+      <extra deprel="obl" edeps="7:obl" feats="Number=Sing" head="7" lemma="number" lextag="I_" misc="null" orig_paragraph="1" remarks="0.63" smwe="[1, 4]" upos="NOUN" wmwe="null" word="number" xpos="NN" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="not" />
@@ -53,7 +53,7 @@
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="patient" />
-      <extra deprel="conj" edeps="7:obl:like|10:conj" feats="Number=Sing" head="10" lemma="patient" lexcat="N" lexlemma="patient" lextag="O-N-n.PERSON" local_toknums="13" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.66" smwe="null" ss="n.PERSON" ss2="null" toknums="66" upos="NOUN" wmwe="null" word="patient" xpos="NN" />
+      <extra deprel="conj" edeps="10:conj" feats="Number=Sing" head="10" lemma="patient" lextag="O-N-n.PERSON" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.66" smwe="null" upos="NOUN" wmwe="null" word="patient" xpos="NN" />
     </node>
     <node ID="0.14" type="Punctuation">
       <attributes paragraph="1" paragraph_position="14" text="." />

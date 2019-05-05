@@ -5,7 +5,7 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="DINING" />
-      <extra deprel="root" edeps="0:root" feats="VerbForm=Ger" head="0" lemma="dine" lexcat="V" lexlemma="dine" lextag="O-V-v.consumption" local_toknums="1" misc="null" orig_paragraph="1" remarks="0.1" smwe="null" ss="v.consumption" ss2="null" toknums="1" upos="VERB" wmwe="null" word="DINING" xpos="VBG" />
+      <extra deprel="root" edeps="0:root" feats="VerbForm=Ger" head="0" lemma="dine" lextag="O-V-v.consumption" misc="null" orig_paragraph="1" remarks="0.1" smwe="null" upos="VERB" wmwe="null" word="DINING" xpos="VBG" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="AT" />
@@ -13,11 +13,11 @@
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="TEXAS" />
-      <extra deprel="compound" edeps="4:compound" feats="Number=Sing" head="4" lemma="TEXAS" lexcat="N" lexlemma="TEXAS ROADHOUSE" lextag="B-N-n.GROUP" local_toknums="3 4" misc="null" orig_paragraph="1" remarks="0.3" smwe="[1, 1]" ss="n.GROUP" ss2="null" toknums="3 4" upos="PROPN" wmwe="null" word="TEXAS" xpos="NNP" />
+      <extra deprel="compound" edeps="4:compound" feats="Number=Sing" head="4" lemma="TEXAS" lextag="B-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.3" smwe="[1, 1]" upos="PROPN" wmwe="null" word="TEXAS" xpos="NNP" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="ROADHOUSE" />
-      <extra deprel="obl" edeps="1:obl:at" feats="Number=Sing" head="1" lemma="ROADHOUSE" lextag="I_" misc="null" orig_paragraph="1" remarks="0.4" smwe="[1, 2]" upos="PROPN" wmwe="null" word="ROADHOUSE" xpos="NNP" />
+      <extra deprel="obl" edeps="1:obl" feats="Number=Sing" head="1" lemma="ROADHOUSE" lextag="I_" misc="null" orig_paragraph="1" remarks="0.4" smwe="[1, 2]" upos="PROPN" wmwe="null" word="ROADHOUSE" xpos="NNP" />
     </node>
   </layer>
   <layer layerID="1">

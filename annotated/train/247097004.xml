@@ -5,7 +5,7 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="I" />
-      <extra deprel="nsubj" edeps="3:nsubj|10.1:nsubj|12:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="3" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.58" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
+      <extra deprel="nsubj" edeps="3:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="3" lemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.58" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="actually" />
@@ -13,7 +13,7 @@
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="loss" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="lose" lexcat="V" lexlemma="lose" lextag="O-V-v.change" local_toknums="3" misc="null" orig_paragraph="1" remarks="0.60" smwe="null" ss="v.change" ss2="null" toknums="60" upos="VERB" wmwe="null" word="loss" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="lose" lextag="O-V-v.change" misc="null" orig_paragraph="1" remarks="0.60" smwe="null" upos="VERB" wmwe="null" word="loss" xpos="VBD" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="4" />
@@ -21,7 +21,7 @@
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="pounds" />
-      <extra deprel="obj" edeps="3:obj" feats="Number=Plur" head="3" lemma="pound" lexcat="N" lexlemma="pound" lextag="O-N-n.QUANTITY" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.62" smwe="null" ss="n.QUANTITY" ss2="null" toknums="62" upos="NOUN" wmwe="null" word="pounds" xpos="NNS" />
+      <extra deprel="obj" edeps="3:obj" feats="Number=Plur" head="3" lemma="pound" lextag="O-N-n.QUANTITY" misc="null" orig_paragraph="1" remarks="0.62" smwe="null" upos="NOUN" wmwe="null" word="pounds" xpos="NNS" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="after" />
@@ -37,11 +37,11 @@
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="treatment" />
-      <extra deprel="obl" edeps="3:obl:after" feats="Number=Sing" head="3" lemma="treatment" lexcat="N" lexlemma="treatment" lextag="O-N-n.EVENT" local_toknums="9" misc="null" orig_paragraph="1" remarks="0.66" smwe="null" ss="n.EVENT" ss2="null" toknums="66" upos="NOUN" wmwe="null" word="treatment" xpos="NN" />
+      <extra deprel="obl" edeps="3:obl" feats="Number=Sing" head="3" lemma="treatment" lextag="O-N-n.EVENT" misc="null" orig_paragraph="1" remarks="0.66" smwe="null" upos="NOUN" wmwe="null" word="treatment" xpos="NN" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="and" />
-      <extra deprel="cc" edeps="10.1:cc|12:cc" feats="null" head="12" lemma="and" lextag="O-CCONJ" misc="null" orig_paragraph="1" remarks="0.67" smwe="null" upos="CCONJ" wmwe="null" word="and" xpos="CC" />
+      <extra deprel="cc" edeps="10.1:cc" feats="null" head="12" lemma="and" lextag="O-CCONJ" misc="null" orig_paragraph="1" remarks="0.67" smwe="null" upos="CCONJ" wmwe="null" word="and" xpos="CC" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="2" />
@@ -49,7 +49,7 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="pounds" />
-      <extra deprel="conj" edeps="3:conj:and|10.1:obj" feats="Number=Plur" head="3" lemma="pound" lexcat="N" lexlemma="pound" lextag="O-N-n.QUANTITY" local_toknums="12" misc="null" orig_paragraph="1" remarks="0.69" smwe="null" ss="n.QUANTITY" ss2="null" toknums="69" upos="NOUN" wmwe="null" word="pounds" xpos="NNS" />
+      <extra deprel="conj" edeps="10.1:obj" feats="Number=Plur" head="3" lemma="pound" lextag="O-N-n.QUANTITY" misc="null" orig_paragraph="1" remarks="0.69" smwe="null" upos="NOUN" wmwe="null" word="pounds" xpos="NNS" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="after" />
@@ -65,7 +65,7 @@
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="treatment" />
-      <extra deprel="orphan" edeps="10.1:obl:after" feats="Number=Sing" head="12" lemma="treatment" lexcat="N" lexlemma="treatment" lextag="O-N-n.EVENT" local_toknums="16" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.73" smwe="null" ss="n.EVENT" ss2="null" toknums="73" upos="NOUN" wmwe="null" word="treatment" xpos="NN" />
+      <extra deprel="orphan" edeps="10.1:obl" feats="Number=Sing" head="12" lemma="treatment" lextag="O-N-n.EVENT" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.73" smwe="null" upos="NOUN" wmwe="null" word="treatment" xpos="NN" />
     </node>
     <node ID="0.17" type="Punctuation">
       <attributes paragraph="1" paragraph_position="17" text="." />

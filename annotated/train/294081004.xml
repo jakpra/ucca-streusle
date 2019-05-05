@@ -25,15 +25,15 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="BE" />
-      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.46" smwe="null" ss="v.stative" ss2="null" toknums="46" upos="VERB" wmwe="null" word="BE" xpos="VB" />
+      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="be" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.46" smwe="null" upos="VERB" wmwe="null" word="BE" xpos="VB" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="PEANUTS" />
-      <extra deprel="nsubj" edeps="6:nsubj" feats="Number=Plur" head="6" lemma="peanut" lexcat="N" lexlemma="peanut" lextag="O-N-n.FOOD" local_toknums="7" misc="null" orig_paragraph="1" remarks="0.47" smwe="null" ss="n.FOOD" ss2="null" toknums="47" upos="NOUN" wmwe="null" word="PEANUTS" xpos="NNS" />
+      <extra deprel="nsubj" edeps="6:nsubj" feats="Number=Plur" head="6" lemma="peanut" lextag="O-N-n.FOOD" misc="null" orig_paragraph="1" remarks="0.47" smwe="null" upos="NOUN" wmwe="null" word="PEANUTS" xpos="NNS" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="ALL" />
-      <extra config="default" deprel="advmod" edeps="11:advmod" feats="null" gov="46" govlemma="be" head="11" lemma="all" lexcat="P" lexlemma="all over" lextag="B-P-p.Locus" local_gov="6" local_obj="11" local_toknums="8 9" misc="null" obj="51" objlemma="floor" orig_paragraph="1" remarks="0.48" smwe="[1, 1]" ss="p.Locus" ss2="p.Locus" toknums="48 49" upos="ADV" wmwe="null" word="ALL" xpos="RB" />
+      <extra config="default" deprel="advmod" edeps="11:advmod" feats="null" gov="51" govlemma="floor" head="11" lemma="all" lexcat="P" lexlemma="all over" lextag="B-P-p.Locus" local_gov="11" local_toknums="8 9" misc="null" obj="null" objlemma="null" orig_paragraph="1" remarks="0.48" smwe="[1, 1]" ss="p.Locus" ss2="p.Locus" toknums="48 49" upos="ADV" wmwe="null" word="ALL" xpos="RB" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="OVER" />
@@ -45,7 +45,7 @@
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="FLOOR" />
-      <extra deprel="obl" edeps="6:obl:over" feats="Number=Sing" head="6" lemma="floor" lexcat="N" lexlemma="floor" lextag="O-N-n.LOCATION" local_toknums="11" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.51" smwe="null" ss="n.LOCATION" ss2="null" toknums="51" upos="NOUN" wmwe="null" word="FLOOR" xpos="NN" />
+      <extra deprel="obl" edeps="6:obl" feats="Number=Sing" head="6" lemma="floor" lextag="O-N-n.LOCATION" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.51" smwe="null" upos="NOUN" wmwe="null" word="FLOOR" xpos="NN" />
     </node>
     <node ID="0.12" type="Punctuation">
       <attributes paragraph="1" paragraph_position="12" text="." />

@@ -5,7 +5,7 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="We" />
-      <extra deprel="nsubj" edeps="3:nsubj|4:nsubj:xsubj|6:nsubj:xsubj" feats="Case=Nom|Number=Plur|Person=1|PronType=Prs" head="3" lemma="we" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.45" smwe="null" upos="PRON" wmwe="null" word="We" xpos="PRP" />
+      <extra deprel="nsubj" edeps="3:nsubj" feats="Case=Nom|Number=Plur|Person=1|PronType=Prs" head="3" lemma="we" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.45" smwe="null" upos="PRON" wmwe="null" word="We" xpos="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="both" />
@@ -13,11 +13,11 @@
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="kept" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="keep" lexcat="V" lexlemma="keep" lextag="O-V-v.stative" local_toknums="3" misc="null" orig_paragraph="1" remarks="0.47" smwe="null" ss="v.stative" ss2="null" toknums="47" upos="VERB" wmwe="null" word="kept" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="keep" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.47" smwe="null" upos="VERB" wmwe="null" word="kept" xpos="VBD" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="trying" />
-      <extra deprel="xcomp" edeps="3:xcomp" feats="VerbForm=Ger" head="3" lemma="try" lexcat="V" lexlemma="try" lextag="O-V-v.social" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.48" smwe="null" ss="v.social" ss2="null" toknums="48" upos="VERB" wmwe="null" word="trying" xpos="VBG" />
+      <extra deprel="xcomp" edeps="3:xcomp" feats="VerbForm=Ger" head="3" lemma="try" lextag="O-V-v.social" misc="null" orig_paragraph="1" remarks="0.48" smwe="null" upos="VERB" wmwe="null" word="trying" xpos="VBG" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="to" />
@@ -25,7 +25,7 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="find" />
-      <extra deprel="xcomp" edeps="4:xcomp" feats="VerbForm=Inf" head="4" lemma="find" lexcat="V" lexlemma="find" lextag="O-V-v.cognition" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.50" smwe="null" ss="v.cognition" ss2="null" toknums="50" upos="VERB" wmwe="null" word="find" xpos="VB" />
+      <extra deprel="xcomp" edeps="4:xcomp" feats="VerbForm=Inf" head="4" lemma="find" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.50" smwe="null" upos="VERB" wmwe="null" word="find" xpos="VB" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="something" />
@@ -37,7 +37,7 @@
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="liked" />
-      <extra deprel="acl:relcl" edeps="7:acl:relcl" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="7" lemma="like" lexcat="V" lexlemma="like" lextag="O-V-v.emotion" local_toknums="9" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.53" smwe="null" ss="v.emotion" ss2="null" toknums="53" upos="VERB" wmwe="null" word="liked" xpos="VBD" />
+      <extra deprel="acl:relcl" edeps="7:acl:relcl" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="7" lemma="like" lextag="O-V-v.emotion" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.53" smwe="null" upos="VERB" wmwe="null" word="liked" xpos="VBD" />
     </node>
     <node ID="0.10" type="Punctuation">
       <attributes paragraph="1" paragraph_position="10" text="." />

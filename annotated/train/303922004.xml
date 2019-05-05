@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="location" />
-      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="location" lexcat="N" lexlemma="location" lextag="O-N-n.LOCATION" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.48" smwe="null" ss="n.LOCATION" ss2="null" toknums="48" upos="NOUN" wmwe="null" word="location" xpos="NN" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" lemma="location" lextag="O-N-n.LOCATION" misc="null" orig_paragraph="1" remarks="0.48" smwe="null" upos="NOUN" wmwe="null" word="location" xpos="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="as" />
@@ -33,11 +33,11 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="coffee" />
-      <extra deprel="compound" edeps="9:compound" feats="Number=Sing" head="9" lemma="coffee" lexcat="N" lexlemma="coffee" lextag="O-N-n.FOOD" local_toknums="8" misc="null" orig_paragraph="1" remarks="0.52" smwe="null" ss="n.FOOD" ss2="null" toknums="52" upos="NOUN" wmwe="null" word="coffee" xpos="NN" />
+      <extra deprel="compound" edeps="9:compound" feats="Number=Sing" head="9" lemma="coffee" lextag="O-N-n.FOOD" misc="null" orig_paragraph="1" remarks="0.52" smwe="null" upos="NOUN" wmwe="null" word="coffee" xpos="NN" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="shop" />
-      <extra deprel="nmod" edeps="4:nmod:with" feats="Number=Sing" head="4" lemma="shop" lexcat="N" lexlemma="shop" lextag="O-N-n.LOCATION" local_toknums="9" misc="null" orig_paragraph="1" remarks="0.53" smwe="null" ss="n.LOCATION" ss2="null" toknums="53" upos="NOUN" wmwe="null" word="shop" xpos="NN" />
+      <extra deprel="nmod" edeps="4:nmod" feats="Number=Sing" head="4" lemma="shop" lextag="O-N-n.LOCATION" misc="null" orig_paragraph="1" remarks="0.53" smwe="null" upos="NOUN" wmwe="null" word="shop" xpos="NN" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="and" />
@@ -45,11 +45,11 @@
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="bradley" />
-      <extra deprel="compound" edeps="12:compound" feats="Number=Sing" head="12" lemma="bradley" lexcat="N" lexlemma="bradley food and beverage" lextag="B-N-n.GROUP" local_toknums="11 12 13 14" misc="null" orig_paragraph="1" remarks="0.55" smwe="[2, 1]" ss="n.GROUP" ss2="null" toknums="55 56 57 58" upos="PROPN" wmwe="null" word="bradley" xpos="NNP" />
+      <extra deprel="compound" edeps="12:compound" feats="Number=Sing" head="12" lemma="bradley" lextag="B-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.55" smwe="[2, 1]" upos="PROPN" wmwe="null" word="bradley" xpos="NNP" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="food" />
-      <extra deprel="conj" edeps="4:nmod:with|9:conj:and" feats="Number=Sing" head="9" lemma="food" lextag="I_" misc="null" orig_paragraph="1" remarks="0.56" smwe="[2, 2]" upos="PROPN" wmwe="null" word="food" xpos="NNP" />
+      <extra deprel="conj" edeps="9:conj" feats="Number=Sing" head="9" lemma="food" lextag="I_" misc="null" orig_paragraph="1" remarks="0.56" smwe="[2, 2]" upos="PROPN" wmwe="null" word="food" xpos="NNP" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="and" />
@@ -57,7 +57,7 @@
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="beverage" />
-      <extra deprel="conj" edeps="12:conj:and" feats="Number=Sing" head="12" lemma="beverage" lextag="I_" misc="null" orig_paragraph="1" remarks="0.58" smwe="[2, 4]" upos="PROPN" wmwe="null" word="beverage" xpos="NNP" />
+      <extra deprel="conj" edeps="12:conj" feats="Number=Sing" head="12" lemma="beverage" lextag="I_" misc="null" orig_paragraph="1" remarks="0.58" smwe="[2, 4]" upos="PROPN" wmwe="null" word="beverage" xpos="NNP" />
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="right" />
@@ -69,7 +69,7 @@
     </node>
     <node ID="0.17" type="Word">
       <attributes paragraph="1" paragraph_position="17" text="corner" />
-      <extra deprel="nmod" edeps="9:nmod:around" feats="Number=Sing" head="9" lemma="corner" lextag="I_" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.61" smwe="[3, 2]" upos="NOUN" wmwe="null" word="corner" xpos="NN" />
+      <extra deprel="nmod" edeps="9:nmod" feats="Number=Sing" head="9" lemma="corner" lextag="I_" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.61" smwe="[3, 2]" upos="NOUN" wmwe="null" word="corner" xpos="NN" />
     </node>
     <node ID="0.18" type="Punctuation">
       <attributes paragraph="1" paragraph_position="18" text="." />

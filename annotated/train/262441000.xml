@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="phoned" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="phone" lexcat="V" lexlemma="phone" lextag="O-V-v.communication" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.2" smwe="null" ss="v.communication" ss2="null" toknums="2" upos="VERB" wmwe="null" word="phoned" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="phone" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.2" smwe="null" upos="VERB" wmwe="null" word="phoned" xpos="VBD" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="this" />
@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="company" />
-      <extra deprel="obj" edeps="2:obj" feats="Number=Sing" head="2" lemma="company" lexcat="N" lexlemma="company" lextag="O-N-n.GROUP" local_toknums="4" misc="null" orig_paragraph="1" remarks="0.4" smwe="null" ss="n.GROUP" ss2="null" toknums="4" upos="NOUN" wmwe="null" word="company" xpos="NN" />
+      <extra deprel="obj" edeps="2:obj" feats="Number=Sing" head="2" lemma="company" lextag="O-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.4" smwe="null" upos="NOUN" wmwe="null" word="company" xpos="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="for" />
@@ -25,7 +25,7 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="advice" />
-      <extra deprel="obl" edeps="2:obl:for" feats="Number=Sing" head="2" lemma="advice" lexcat="N" lexlemma="advice" lextag="O-N-n.COGNITION" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.6" smwe="null" ss="n.COGNITION" ss2="null" toknums="6" upos="NOUN" wmwe="null" word="advice" xpos="NN" />
+      <extra deprel="obl" edeps="2:obl" feats="Number=Sing" head="2" lemma="advice" lextag="O-N-n.COGNITION" misc="null" orig_paragraph="1" remarks="0.6" smwe="null" upos="NOUN" wmwe="null" word="advice" xpos="NN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="on" />
@@ -37,11 +37,11 @@
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="office" />
-      <extra deprel="compound" edeps="10:compound" feats="Number=Sing" head="10" lemma="office" lexcat="N" lexlemma="office" lextag="O-N-n.ARTIFACT" local_toknums="9" misc="null" orig_paragraph="1" remarks="0.9" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="9" upos="NOUN" wmwe="null" word="office" xpos="NN" />
+      <extra deprel="compound" edeps="10:compound" feats="Number=Sing" head="10" lemma="office" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.9" smwe="null" upos="NOUN" wmwe="null" word="office" xpos="NN" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="refurb" />
-      <extra deprel="nmod" edeps="6:nmod:on" feats="Number=Sing" head="6" lemma="refurb" lexcat="N" lexlemma="refurb" lextag="O-N-n.ACT" local_toknums="10" misc="null" orig_paragraph="1" remarks="0.10" smwe="null" ss="n.ACT" ss2="null" toknums="10" upos="NOUN" wmwe="null" word="refurb" xpos="NN" />
+      <extra deprel="nmod" edeps="6:nmod" feats="Number=Sing" head="6" lemma="refurb" lextag="O-N-n.ACT" misc="null" orig_paragraph="1" remarks="0.10" smwe="null" upos="NOUN" wmwe="null" word="refurb" xpos="NN" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="and" />
@@ -65,7 +65,7 @@
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="use" />
-      <extra deprel="advcl" edeps="34:advcl:although" feats="VerbForm=Inf" head="34" lemma="use" lexcat="V" lexlemma="use" lextag="O-V-v.social" local_toknums="16" misc="null" orig_paragraph="1" remarks="0.16" smwe="null" ss="v.social" ss2="null" toknums="16" upos="VERB" wmwe="null" word="use" xpos="VB" />
+      <extra deprel="advcl" edeps="34:advcl" feats="VerbForm=Inf" head="34" lemma="use" lextag="O-V-v.social" misc="null" orig_paragraph="1" remarks="0.16" smwe="null" upos="VERB" wmwe="null" word="use" xpos="VB" />
     </node>
     <node ID="0.17" type="Word">
       <attributes paragraph="1" paragraph_position="17" text="them" />
@@ -81,7 +81,7 @@
     </node>
     <node ID="0.20" type="Word">
       <attributes paragraph="1" paragraph_position="20" text="end" />
-      <extra deprel="obl" edeps="16:obl:in" feats="Number=Sing" head="16" lemma="end" lextag="I_" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.20" smwe="[1, 3]" upos="NOUN" wmwe="null" word="end" xpos="NN" />
+      <extra deprel="obl" edeps="16:obl" feats="Number=Sing" head="16" lemma="end" lextag="I_" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.20" smwe="[1, 3]" upos="NOUN" wmwe="null" word="end" xpos="NN" />
     </node>
     <node ID="0.21" type="Punctuation">
       <attributes paragraph="1" paragraph_position="21" text="(" />
@@ -97,15 +97,15 @@
     </node>
     <node ID="0.24" type="Word">
       <attributes paragraph="1" paragraph_position="24" text="building" />
-      <extra deprel="compound" edeps="25:compound" feats="Number=Sing" head="25" lemma="building" lexcat="N" lexlemma="building" lextag="O-N-n.ARTIFACT" local_toknums="24" misc="null" orig_paragraph="1" remarks="0.24" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="24" upos="NOUN" wmwe="null" word="building" xpos="NN" />
+      <extra deprel="compound" edeps="25:compound" feats="Number=Sing" head="25" lemma="building" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.24" smwe="null" upos="NOUN" wmwe="null" word="building" xpos="NN" />
     </node>
     <node ID="0.25" type="Word">
       <attributes paragraph="1" paragraph_position="25" text="contractor" />
-      <extra deprel="nsubj" edeps="26:nsubj" feats="Number=Sing" head="26" lemma="contractor" lexcat="N" lexlemma="contractor" lextag="O-N-n.PERSON" local_toknums="25" misc="null" orig_paragraph="1" remarks="0.25" smwe="null" ss="n.PERSON" ss2="null" toknums="25" upos="NOUN" wmwe="null" word="contractor" xpos="NN" />
+      <extra deprel="nsubj" edeps="26:nsubj" feats="Number=Sing" head="26" lemma="contractor" lextag="O-N-n.PERSON" misc="null" orig_paragraph="1" remarks="0.25" smwe="null" upos="NOUN" wmwe="null" word="contractor" xpos="NN" />
     </node>
     <node ID="0.26" type="Word">
       <attributes paragraph="1" paragraph_position="26" text="carried" />
-      <extra deprel="advcl" edeps="16:advcl:as" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="16" lemma="carry" lexcat="V.VPC.full" lexlemma="carry out" lextag="B-V.VPC.full-v.social" local_toknums="26 27" misc="null" orig_paragraph="1" remarks="0.26" smwe="[2, 1]" ss="v.social" ss2="null" toknums="26 27" upos="VERB" wmwe="null" word="carried" xpos="VBD" />
+      <extra deprel="advcl" edeps="16:advcl" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="16" lemma="carry" lextag="B-V-v.social" misc="null" orig_paragraph="1" remarks="0.26" smwe="[2, 1]" upos="VERB" wmwe="null" word="carried" xpos="VBD" />
     </node>
     <node ID="0.27" type="Word">
       <attributes paragraph="1" paragraph_position="27" text="out" />
@@ -121,7 +121,7 @@
     </node>
     <node ID="0.30" type="Word">
       <attributes paragraph="1" paragraph_position="30" text="work" />
-      <extra deprel="obj" edeps="26:obj" feats="Number=Sing" head="26" lemma="work" lexcat="N" lexlemma="work" lextag="O-N-n.ACT" local_toknums="30" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.30" smwe="null" ss="n.ACT" ss2="null" toknums="30" upos="NOUN" wmwe="null" word="work" xpos="NN" />
+      <extra deprel="obj" edeps="26:obj" feats="Number=Sing" head="26" lemma="work" lextag="O-N-n.ACT" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.30" smwe="null" upos="NOUN" wmwe="null" word="work" xpos="NN" />
     </node>
     <node ID="0.31" type="Punctuation">
       <attributes paragraph="1" paragraph_position="31" text=")" />
@@ -137,7 +137,7 @@
     </node>
     <node ID="0.34" type="Word">
       <attributes paragraph="1" paragraph_position="34" text="provided" />
-      <extra deprel="conj" edeps="2:conj:and" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="2" lemma="provide" lexcat="V" lexlemma="provide" lextag="O-V-v.social" local_toknums="34" misc="null" orig_paragraph="1" remarks="0.34" smwe="null" ss="v.social" ss2="null" toknums="34" upos="VERB" wmwe="null" word="provided" xpos="VBD" />
+      <extra deprel="conj" edeps="2:conj" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="2" lemma="provide" lextag="O-V-v.social" misc="null" orig_paragraph="1" remarks="0.34" smwe="null" upos="VERB" wmwe="null" word="provided" xpos="VBD" />
     </node>
     <node ID="0.35" type="Word">
       <attributes paragraph="1" paragraph_position="35" text="me" />
@@ -149,7 +149,7 @@
     </node>
     <node ID="0.37" type="Word">
       <attributes paragraph="1" paragraph_position="37" text="plenty" />
-      <extra deprel="obl" edeps="34:obl:with" feats="Number=Sing" head="34" lemma="plenty" lexcat="N" lexlemma="plenty" lextag="O-N-n.QUANTITY" local_toknums="37" misc="null" orig_paragraph="1" remarks="0.37" smwe="null" ss="n.QUANTITY" ss2="null" toknums="37" upos="NOUN" wmwe="null" word="plenty" xpos="NN" />
+      <extra deprel="obl" edeps="34:obl" feats="Number=Sing" head="34" lemma="plenty" lextag="O-N-n.QUANTITY" misc="null" orig_paragraph="1" remarks="0.37" smwe="null" upos="NOUN" wmwe="null" word="plenty" xpos="NN" />
     </node>
     <node ID="0.38" type="Word">
       <attributes paragraph="1" paragraph_position="38" text="of" />
@@ -161,7 +161,7 @@
     </node>
     <node ID="0.40" type="Word">
       <attributes paragraph="1" paragraph_position="40" text="information" />
-      <extra deprel="nmod" edeps="37:nmod:of" feats="Number=Sing" head="37" lemma="information" lexcat="N" lexlemma="information" lextag="O-N-n.COGNITION" local_toknums="40" misc="null" orig_paragraph="1" remarks="0.40" smwe="null" ss="n.COGNITION" ss2="null" toknums="40" upos="NOUN" wmwe="null" word="information" xpos="NN" />
+      <extra deprel="nmod" edeps="37:nmod" feats="Number=Sing" head="37" lemma="information" lextag="O-N-n.COGNITION" misc="null" orig_paragraph="1" remarks="0.40" smwe="null" upos="NOUN" wmwe="null" word="information" xpos="NN" />
     </node>
     <node ID="0.41" type="Word">
       <attributes paragraph="1" paragraph_position="41" text="over" />
@@ -173,15 +173,15 @@
     </node>
     <node ID="0.43" type="Word">
       <attributes paragraph="1" paragraph_position="43" text="hour" />
-      <extra deprel="compound" edeps="45:compound" feats="Number=Sing" head="45" lemma="hour" lexcat="N" lexlemma="hour" lextag="O-N-n.TIME" local_toknums="43" misc="null" orig_paragraph="1" remarks="0.43" smwe="null" ss="n.TIME" ss2="null" toknums="43" upos="NOUN" wmwe="null" word="hour" xpos="NN" />
+      <extra deprel="compound" edeps="45:compound" feats="Number=Sing" head="45" lemma="hour" lextag="O-N-n.TIME" misc="null" orig_paragraph="1" remarks="0.43" smwe="null" upos="NOUN" wmwe="null" word="hour" xpos="NN" />
     </node>
     <node ID="0.44" type="Word">
       <attributes paragraph="1" paragraph_position="44" text="phone" />
-      <extra deprel="compound" edeps="45:compound" feats="Number=Sing" head="45" lemma="phone" lexcat="N" lexlemma="phone call" lextag="B-N-n.COMMUNICATION" local_toknums="44 45" misc="null" orig_paragraph="1" remarks="0.44" smwe="[3, 1]" ss="n.COMMUNICATION" ss2="null" toknums="44 45" upos="NOUN" wmwe="null" word="phone" xpos="NN" />
+      <extra deprel="compound" edeps="45:compound" feats="Number=Sing" head="45" lemma="phone" lextag="B-N-n.COMMUNICATION" misc="null" orig_paragraph="1" remarks="0.44" smwe="[3, 1]" upos="NOUN" wmwe="null" word="phone" xpos="NN" />
     </node>
     <node ID="0.45" type="Word">
       <attributes paragraph="1" paragraph_position="45" text="call" />
-      <extra deprel="obl" edeps="34:obl:over" feats="Number=Sing" head="34" lemma="call" lextag="I_" misc="null" orig_paragraph="1" remarks="0.45" smwe="[3, 2]" upos="NOUN" wmwe="null" word="call" xpos="NN" />
+      <extra deprel="obl" edeps="34:obl" feats="Number=Sing" head="34" lemma="call" lextag="I_" misc="null" orig_paragraph="1" remarks="0.45" smwe="[3, 2]" upos="NOUN" wmwe="null" word="call" xpos="NN" />
     </node>
     <node ID="0.46" type="Word">
       <attributes paragraph="1" paragraph_position="46" text="and" />
@@ -205,11 +205,11 @@
     </node>
     <node ID="0.51" type="Word">
       <attributes paragraph="1" paragraph_position="51" text="using" />
-      <extra deprel="conj" edeps="2:conj:and" feats="VerbForm=Ger" head="2" lemma="use" lexcat="V" lexlemma="use" lextag="O-V-v.social" local_toknums="51" misc="null" orig_paragraph="1" remarks="0.51" smwe="null" ss="v.social" ss2="null" toknums="51" upos="VERB" wmwe="null" word="using" xpos="VBG" />
+      <extra deprel="conj" edeps="2:conj" feats="VerbForm=Ger" head="2" lemma="use" lextag="O-V-v.social" misc="null" orig_paragraph="1" remarks="0.51" smwe="null" upos="VERB" wmwe="null" word="using" xpos="VBG" />
     </node>
     <node ID="0.52" type="Word">
       <attributes paragraph="1" paragraph_position="52" text="PJC" />
-      <extra deprel="obj" edeps="51:obj" feats="Number=Sing" head="51" lemma="PJC" lexcat="N" lexlemma="PJC" lextag="O-N-n.GROUP" local_toknums="52" misc="null" orig_paragraph="1" remarks="0.52" smwe="null" ss="n.GROUP" ss2="null" toknums="52" upos="PROPN" wmwe="null" word="PJC" xpos="NNP" />
+      <extra deprel="obj" edeps="51:obj" feats="Number=Sing" head="51" lemma="PJC" lextag="O-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.52" smwe="null" upos="PROPN" wmwe="null" word="PJC" xpos="NNP" />
     </node>
     <node ID="0.53" type="Word">
       <attributes paragraph="1" paragraph_position="53" text="as" />
@@ -225,11 +225,11 @@
     </node>
     <node ID="0.56" type="Word">
       <attributes paragraph="1" paragraph_position="56" text="maintenance" />
-      <extra deprel="compound" edeps="57:compound" feats="Number=Sing" head="57" lemma="maintenance" lexcat="N" lexlemma="maintenance" lextag="O-N-n.ACT" local_toknums="56" misc="null" orig_paragraph="1" remarks="0.56" smwe="null" ss="n.ACT" ss2="null" toknums="56" upos="NOUN" wmwe="null" word="maintenance" xpos="NN" />
+      <extra deprel="compound" edeps="57:compound" feats="Number=Sing" head="57" lemma="maintenance" lextag="O-N-n.ACT" misc="null" orig_paragraph="1" remarks="0.56" smwe="null" upos="NOUN" wmwe="null" word="maintenance" xpos="NN" />
     </node>
     <node ID="0.57" type="Word">
       <attributes paragraph="1" paragraph_position="57" text="contractor" />
-      <extra deprel="obl" edeps="51:obl:as" feats="Number=Sing" head="51" lemma="contractor" lexcat="N" lexlemma="contractor" lextag="O-N-n.PERSON" local_toknums="57" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.57" smwe="null" ss="n.PERSON" ss2="null" toknums="57" upos="NOUN" wmwe="null" word="contractor" xpos="NN" />
+      <extra deprel="obl" edeps="51:obl" feats="Number=Sing" head="51" lemma="contractor" lextag="O-N-n.PERSON" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.57" smwe="null" upos="NOUN" wmwe="null" word="contractor" xpos="NN" />
     </node>
     <node ID="0.58" type="Punctuation">
       <attributes paragraph="1" paragraph_position="58" text="." />

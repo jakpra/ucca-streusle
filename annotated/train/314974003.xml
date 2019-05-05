@@ -21,7 +21,7 @@
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="park" />
-      <extra deprel="advcl" edeps="13:advcl:if" feats="VerbForm=Inf" head="13" lemma="park" lexcat="V" lexlemma="park" lextag="O-V-v.motion" local_toknums="5" misc="null" orig_paragraph="1" remarks="0.72" smwe="null" ss="v.motion" ss2="null" toknums="72" upos="VERB" wmwe="null" word="park" xpos="VB" />
+      <extra deprel="advcl" edeps="13:advcl" feats="VerbForm=Inf" head="13" lemma="park" lextag="O-V-v.motion" misc="null" orig_paragraph="1" remarks="0.72" smwe="null" upos="VERB" wmwe="null" word="park" xpos="VB" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="in" />
@@ -33,7 +33,7 @@
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="lot" />
-      <extra deprel="obl" edeps="5:obl:in" feats="Number=Sing" head="5" lemma="lot" lexcat="N" lexlemma="lot" lextag="O-N-n.LOCATION" local_toknums="8" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.75" smwe="null" ss="n.LOCATION" ss2="null" toknums="75" upos="NOUN" wmwe="null" word="lot" xpos="NN" />
+      <extra deprel="obl" edeps="5:obl" feats="Number=Sing" head="5" lemma="lot" lextag="O-N-n.LOCATION" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.75" smwe="null" upos="NOUN" wmwe="null" word="lot" xpos="NN" />
     </node>
     <node ID="0.9" type="Punctuation">
       <attributes paragraph="1" paragraph_position="9" text="," />
@@ -45,7 +45,7 @@
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="you" />
-      <extra deprel="nsubj" edeps="13:nsubj|22:nsubj" feats="Case=Nom|Person=2|PronType=Prs" head="13" lemma="you" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.78" smwe="null" upos="PRON" wmwe="null" word="you" xpos="PRP" />
+      <extra deprel="nsubj" edeps="13:nsubj" feats="Case=Nom|Person=2|PronType=Prs" head="13" lemma="you" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.78" smwe="null" upos="PRON" wmwe="null" word="you" xpos="PRP" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="can" />
@@ -53,7 +53,7 @@
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="park" />
-      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="park" lexcat="V" lexlemma="park" lextag="O-V-v.motion" local_toknums="13" misc="null" orig_paragraph="1" remarks="0.80" smwe="null" ss="v.motion" ss2="null" toknums="80" upos="VERB" wmwe="null" word="park" xpos="VB" />
+      <extra deprel="root" edeps="0:root" feats="VerbForm=Inf" head="0" lemma="park" lextag="O-V-v.motion" misc="null" orig_paragraph="1" remarks="0.80" smwe="null" upos="VERB" wmwe="null" word="park" xpos="VB" />
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="in" />
@@ -65,7 +65,7 @@
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="shopping" />
-      <extra deprel="compound" edeps="17:compound" feats="Number=Sing" head="17" lemma="shopping" lexcat="N" lexlemma="shopping center" lextag="B-N-n.GROUP" local_toknums="16 17" misc="null" orig_paragraph="1" remarks="0.83" smwe="[1, 1]" ss="n.GROUP" ss2="null" toknums="83 84" upos="NOUN" wmwe="null" word="shopping" xpos="NN" />
+      <extra deprel="compound" edeps="17:compound" feats="Number=Sing" head="17" lemma="shopping" lextag="B-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.83" smwe="[1, 1]" upos="NOUN" wmwe="null" word="shopping" xpos="NN" />
     </node>
     <node ID="0.17" type="Word">
       <attributes paragraph="1" paragraph_position="17" text="center" />
@@ -77,7 +77,7 @@
     </node>
     <node ID="0.19" type="Word">
       <attributes paragraph="1" paragraph_position="19" text="garage" />
-      <extra deprel="obl" edeps="13:obl:in" feats="Number=Sing" head="13" lemma="garage" lexcat="N" lexlemma="garage" lextag="O-N-n.ARTIFACT" local_toknums="19" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.86" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="86" upos="NOUN" wmwe="null" word="garage" xpos="NN" />
+      <extra deprel="obl" edeps="13:obl" feats="Number=Sing" head="13" lemma="garage" lextag="O-N-n.ARTIFACT" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.86" smwe="null" upos="NOUN" wmwe="null" word="garage" xpos="NN" />
     </node>
     <node ID="0.20" type="Punctuation">
       <attributes paragraph="1" paragraph_position="20" text="," />
@@ -89,7 +89,7 @@
     </node>
     <node ID="0.22" type="Word">
       <attributes paragraph="1" paragraph_position="22" text="walk" />
-      <extra deprel="conj" edeps="13:conj:and" feats="VerbForm=Inf" head="13" lemma="walk" lexcat="V" lexlemma="walk" lextag="O-V-v.motion" local_toknums="22" misc="null" orig_paragraph="1" remarks="0.89" smwe="null" ss="v.motion" ss2="null" toknums="89" upos="VERB" wmwe="null" word="walk" xpos="VB" />
+      <extra deprel="conj" edeps="13:conj" feats="VerbForm=Inf" head="13" lemma="walk" lextag="O-V-v.motion" misc="null" orig_paragraph="1" remarks="0.89" smwe="null" upos="VERB" wmwe="null" word="walk" xpos="VB" />
     </node>
     <node ID="0.23" type="Word">
       <attributes paragraph="1" paragraph_position="23" text="up" />
@@ -101,11 +101,11 @@
     </node>
     <node ID="0.25" type="Word">
       <attributes paragraph="1" paragraph_position="25" text="Endo" />
-      <extra deprel="compound" edeps="26:compound" feats="Number=Sing" head="26" lemma="Endo" lexcat="N" lexlemma="Endo Sushi" lextag="B-N-n.GROUP" local_toknums="25 26" misc="null" orig_paragraph="1" remarks="0.92" smwe="[2, 1]" ss="n.GROUP" ss2="null" toknums="92 93" upos="PROPN" wmwe="null" word="Endo" xpos="NNP" />
+      <extra deprel="compound" edeps="26:compound" feats="Number=Sing" head="26" lemma="Endo" lextag="B-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.92" smwe="[2, 1]" upos="PROPN" wmwe="null" word="Endo" xpos="NNP" />
     </node>
     <node ID="0.26" type="Word">
       <attributes paragraph="1" paragraph_position="26" text="Sushi" />
-      <extra deprel="obl" edeps="22:obl:to" feats="Number=Sing" head="22" lemma="Sushi" lextag="I_" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.93" smwe="[2, 2]" upos="PROPN" wmwe="null" word="Sushi" xpos="NNP" />
+      <extra deprel="obl" edeps="22:obl" feats="Number=Sing" head="22" lemma="Sushi" lextag="I_" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.93" smwe="[2, 2]" upos="PROPN" wmwe="null" word="Sushi" xpos="NNP" />
     </node>
     <node ID="0.27" type="Punctuation">
       <attributes paragraph="1" paragraph_position="27" text="." />

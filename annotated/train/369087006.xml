@@ -9,11 +9,11 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="advisor" />
-      <extra deprel="nsubj" edeps="3:nsubj" feats="Number=Sing" head="3" lemma="advisor" lexcat="N" lexlemma="advisor" lextag="O-N-n.PERSON" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.68" smwe="null" ss="n.PERSON" ss2="null" toknums="68" upos="NOUN" wmwe="null" word="advisor" xpos="NN" />
+      <extra deprel="nsubj" edeps="3:nsubj" feats="Number=Sing" head="3" lemma="advisor" lextag="O-N-n.PERSON" misc="null" orig_paragraph="1" remarks="0.68" smwe="null" upos="NOUN" wmwe="null" word="advisor" xpos="NN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="kept" />
-      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="keep" lexcat="V" lexlemma="keep" lextag="O-V-v.stative" local_toknums="3" misc="null" orig_paragraph="1" remarks="0.69" smwe="null" ss="v.stative" ss2="null" toknums="69" upos="VERB" wmwe="null" word="kept" xpos="VBD" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" lemma="keep" lextag="O-V-v.stative" misc="null" orig_paragraph="1" remarks="0.69" smwe="null" upos="VERB" wmwe="null" word="kept" xpos="VBD" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="me" />
@@ -29,7 +29,7 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="date" />
-      <extra deprel="obl" edeps="3:obl:up_to" feats="Number=Sing" head="3" lemma="date" lextag="I_" misc="null" orig_paragraph="1" remarks="0.73" smwe="[1, 3]" upos="NOUN" wmwe="null" word="date" xpos="NN" />
+      <extra deprel="obl" edeps="3:obl" feats="Number=Sing" head="3" lemma="date" lextag="I_" misc="null" orig_paragraph="1" remarks="0.73" smwe="[1, 3]" upos="NOUN" wmwe="null" word="date" xpos="NN" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="and" />
@@ -37,7 +37,7 @@
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="informed" />
-      <extra deprel="conj" edeps="3:obl:up_to|7:conj:and" feats="Tense=Past|VerbForm=Part" head="7" lemma="inform" lexcat="V" lexlemma="inform" lextag="O-V-v.communication" local_toknums="9" misc="null" orig_paragraph="1" remarks="0.75" smwe="null" ss="v.communication" ss2="null" toknums="75" upos="VERB" wmwe="null" word="informed" xpos="VBN" />
+      <extra deprel="conj" edeps="7:conj" feats="Tense=Past|VerbForm=Part" head="7" lemma="inform" lextag="O-V-v.communication" misc="null" orig_paragraph="1" remarks="0.75" smwe="null" upos="VERB" wmwe="null" word="informed" xpos="VBN" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="on" />
@@ -49,7 +49,7 @@
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="progress" />
-      <extra deprel="nmod" edeps="7:nmod:on" feats="Number=Sing" head="7" lemma="progress" lexcat="N" lexlemma="progress" lextag="O-N-n.PROCESS" local_toknums="12" misc="null" orig_paragraph="1" remarks="0.78" smwe="null" ss="n.PROCESS" ss2="null" toknums="78" upos="NOUN" wmwe="null" word="progress" xpos="NN" />
+      <extra deprel="nmod" edeps="7:nmod" feats="Number=Sing" head="7" lemma="progress" lextag="O-N-n.PROCESS" misc="null" orig_paragraph="1" remarks="0.78" smwe="null" upos="NOUN" wmwe="null" word="progress" xpos="NN" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="of" />
@@ -61,7 +61,7 @@
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="vehicle" />
-      <extra deprel="nmod" edeps="12:nmod:of" feats="Number=Sing" head="12" lemma="vehicle" lexcat="N" lexlemma="vehicle" lextag="O-N-n.ARTIFACT" local_toknums="15" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.81" smwe="null" ss="n.ARTIFACT" ss2="null" toknums="81" upos="NOUN" wmwe="null" word="vehicle" xpos="NN" />
+      <extra deprel="nmod" edeps="12:nmod" feats="Number=Sing" head="12" lemma="vehicle" lextag="O-N-n.ARTIFACT" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.81" smwe="null" upos="NOUN" wmwe="null" word="vehicle" xpos="NN" />
     </node>
     <node ID="0.16" type="Punctuation">
       <attributes paragraph="1" paragraph_position="16" text="." />

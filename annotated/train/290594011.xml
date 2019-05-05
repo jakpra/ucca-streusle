@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="business" />
-      <extra deprel="nsubj" edeps="4:nsubj|6:nsubj:xsubj" feats="Number=Sing" head="4" lemma="business" lexcat="N" lexlemma="business" lextag="O-N-n.GROUP" local_toknums="2" misc="null" orig_paragraph="1" remarks="0.314" smwe="null" ss="n.GROUP" ss2="null" toknums="314" upos="NOUN" wmwe="null" word="business" xpos="NN" />
+      <extra deprel="nsubj" edeps="4:nsubj" feats="Number=Sing" head="4" lemma="business" lextag="O-N-n.GROUP" misc="null" orig_paragraph="1" remarks="0.314" smwe="null" upos="NOUN" wmwe="null" word="business" xpos="NN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="is" />
@@ -25,11 +25,11 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="push" />
-      <extra deprel="xcomp" edeps="4:xcomp" feats="VerbForm=Inf" head="4" lemma="push" lexcat="V" lexlemma="push" lextag="O-V-v.social" local_toknums="6" misc="null" orig_paragraph="1" remarks="0.318" smwe="null" ss="v.social" ss2="null" toknums="318" upos="VERB" wmwe="null" word="push" xpos="VB" />
+      <extra deprel="xcomp" edeps="4:xcomp" feats="VerbForm=Inf" head="4" lemma="push" lextag="O-V-v.social" misc="null" orig_paragraph="1" remarks="0.318" smwe="null" upos="VERB" wmwe="null" word="push" xpos="VB" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="customers" />
-      <extra deprel="obj" edeps="6:obj" feats="Number=Plur" head="6" lemma="customer" lexcat="N" lexlemma="customer" lextag="O-N-n.PERSON" local_toknums="7" misc="null" orig_paragraph="1" remarks="0.319" smwe="null" ss="n.PERSON" ss2="null" toknums="319" upos="NOUN" wmwe="null" word="customers" xpos="NNS" />
+      <extra deprel="obj" edeps="6:obj" feats="Number=Plur" head="6" lemma="customer" lextag="O-N-n.PERSON" misc="null" orig_paragraph="1" remarks="0.319" smwe="null" upos="NOUN" wmwe="null" word="customers" xpos="NNS" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="away" />
@@ -45,7 +45,7 @@
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="reason" />
-      <extra deprel="obl" edeps="6:obl:without" feats="Number=Sing" head="6" lemma="reason" lexcat="N" lexlemma="reason" lextag="O-N-n.MOTIVE" local_toknums="11" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.323" smwe="null" ss="n.MOTIVE" ss2="null" toknums="323" upos="NOUN" wmwe="null" word="reason" xpos="NN" />
+      <extra deprel="obl" edeps="6:obl" feats="Number=Sing" head="6" lemma="reason" lextag="O-N-n.MOTIVE" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.323" smwe="null" upos="NOUN" wmwe="null" word="reason" xpos="NN" />
     </node>
     <node ID="0.12" type="Punctuation">
       <attributes paragraph="1" paragraph_position="12" text=";" />
@@ -57,7 +57,7 @@
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="is" />
-      <extra deprel="cop" edeps="17:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="17" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" local_toknums="14" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.326" smwe="null" ss="v.stative" ss2="null" toknums="326" upos="AUX" wmwe="null" word="is" xpos="VBZ" />
+      <extra deprel="cop" edeps="17:cop" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="17" lemma="be" lextag="O-V-v.stative" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.326" smwe="null" upos="AUX" wmwe="null" word="is" xpos="VBZ" />
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="n't" />
@@ -77,7 +77,7 @@
     </node>
     <node ID="0.19" type="Word">
       <attributes paragraph="1" paragraph_position="19" text="think" />
-      <extra deprel="csubj" edeps="17:csubj" feats="VerbForm=Inf" head="17" lemma="think" lexcat="V" lexlemma="think" lextag="O-V-v.cognition" local_toknums="19" misc="null" orig_paragraph="1" remarks="0.331" smwe="null" ss="v.cognition" ss2="null" toknums="331" upos="VERB" wmwe="null" word="think" xpos="VB" />
+      <extra deprel="csubj" edeps="17:csubj" feats="VerbForm=Inf" head="17" lemma="think" lextag="O-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.331" smwe="null" upos="VERB" wmwe="null" word="think" xpos="VB" />
     </node>
     <node ID="0.20" type="Word">
       <attributes paragraph="1" paragraph_position="20" text="they" />
@@ -89,7 +89,7 @@
     </node>
     <node ID="0.22" type="Word">
       <attributes paragraph="1" paragraph_position="22" text="know" />
-      <extra deprel="ccomp" edeps="19:ccomp" feats="VerbForm=Inf" head="19" lemma="know" lexcat="V.VID" lexlemma="know what they be do" lextag="B-V.VID-v.cognition" local_toknums="22 23 24 25 26" misc="null" orig_paragraph="1" remarks="0.334" smwe="[2, 1]" ss="v.cognition" ss2="null" toknums="334 335 336 337 338" upos="VERB" wmwe="null" word="know" xpos="VB" />
+      <extra deprel="ccomp" edeps="19:ccomp" feats="VerbForm=Inf" head="19" lemma="know" lextag="B-V-v.cognition" misc="null" orig_paragraph="1" remarks="0.334" smwe="[2, 1]" upos="VERB" wmwe="null" word="know" xpos="VB" />
     </node>
     <node ID="0.23" type="Word">
       <attributes paragraph="1" paragraph_position="23" text="what" />
