@@ -1,0 +1,75 @@
+<root annotationID="0" passageID="187266-0011">
+  <attributes annotationID="4373" passageID="309" remarks="26200" userID="4" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[9292011059273893969, 17472408549241926372, 1292078113972184607, 85, 0, 2, 8206900633647566924, 0, 16072095006890171862, 8804677687338025421, 11402152577528684049], [5049104408726598361, 5049104408726598361, 15794550382381185553, 96, 385, 3, 439, -1, 16072095006890171862, 12290980237632234855, 6679230115154754852], [12646065887601541794, 12646065887601541794, 12646065887601541794, 97, 0, 2, 445, -2, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Unlike" />
+      <extra config="default" dep="ROOT" deprel="case" depth="3" edeps="2:case" ent_iob="2" ent_type="" feats="null" gov="null" govlemma="null" head="2" lemma="unlike" lexcat="P" lexlemma="unlike" lextag="O-P-p.ComparisonRef" local_obj="2" local_toknums="1" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" obj="178" objlemma="Saratoga" orig_paragraph="1" orth="Unlike" pos="ADP" prefix="U" remarks="0.177" shape="Xxxxx" smwe="null" ss="p.ComparisonRef" ss2="p.ComparisonRef" suffix="ike" tag="IN" toknums="177" upos="ADP" wmwe="null" word="Unlike" xpos="IN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Saratoga" />
+      <extra dep="pobj" deprel="root" depth="3" edeps="0:root" ent_iob="3" ent_type="LOC" feats="Number=Sing" head="0" lemma="Saratoga" lextag="O-N-n.LOCATION" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Saratoga" pos="PROPN" prefix="S" remarks="0.178" shape="Xxxxx" smwe="null" suffix="oga" tag="NNP" upos="PROPN" wmwe="null" word="Saratoga" xpos="NNP" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="." />
+      <extra dep="punct" deprel="punct" depth="3" edeps="2:punct" ent_iob="2" ent_type="" feats="null" head="2" lemma="." lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="." pos="PUNCT" prefix="." remarks="0.179" shape="." smwe="null" suffix="." tag="." upos="PUNCT" wmwe="null" word="." xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="comparative" tree_id="26" />
+      <edge toID="1.4" type="S">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+      </edge>
+      <edge toID="1.5" type="D">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+      </edge>
+      <edge toID="1.6" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes implicit="True" />
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra tree_id="26-2" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra tree_id="26-3" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

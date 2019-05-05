@@ -1,0 +1,132 @@
+<root annotationID="0" passageID="147825-0002">
+  <attributes annotationID="4067" passageID="223" remarks="26124" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[7763320551915637149, 7763320551915637149, 8427216679587749980, 93, 397, 3, 12837356684637874264, 1, 4620368362210911820, 16743743820210141046, 7763320551915637149], [8861071527689086543, 8861071527689086543, 15308085513773655218, 92, 0, 2, 8206900633647566924, 0, 11123243248953317070, 8861071527689086543, 8861071527689086543], [16037325823156266367, 16037325823156266367, 1292078113972184607, 85, 0, 2, 443, -1, 4088098365541558500, 13110760720460257827, 16037325823156266367], [17860016486405283058, 17860016486405283058, 15308085513773655218, 92, 0, 2, 7037928807040764755, 1, 4088098365541558500, 15369245168918225700, 17860016486405283058], [7248544922998488549, 7248544922998488549, 15308085513773655218, 92, 0, 2, 439, -2, 13110060611322374290, 260667111241363922, 16111258787187009011], [17494803046312582752, 17494803046312582752, 12646065887601541794, 97, 0, 2, 445, -4, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="45" />
+      <extra dep="nummod" deprel="nummod" edeps="2:nummod" ent_iob="3" ent_type="CARDINAL" feats="NumType=Card" head="2" lemma="45" lextag="O-NUM" misc="SpaceAfter=No" orig_paragraph="1" orth="45" pos="NUM" prefix="4" remarks="0.4" shape="dd" smwe="null" suffix="45" tag="CD" upos="NUM" wmwe="null" word="45" xpos="CD" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="p" />
+      <extra dep="ROOT" deprel="root" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="p" lextag="O-N-n.POSSESSION" misc="null" orig_paragraph="1" orth="p" pos="NOUN" prefix="p" remarks="0.5" shape="x" smwe="null" suffix="p" tag="NN" upos="NOUN" wmwe="null" word="p" xpos="NN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="for" />
+      <extra config="default" dep="prep" deprel="case" edeps="5:case" ent_iob="2" ent_type="" feats="null" gov="5" govlemma="p" head="5" lemma="for" lexcat="P" lexlemma="for" lextag="O-P-p.Theme" local_gov="2" local_obj="5" local_toknums="3" misc="null" obj="8" objlemma="water" orig_paragraph="1" orth="for" pos="ADP" prefix="f" remarks="0.6" shape="xxx" smwe="null" ss="p.Theme" ss2="p.Theme" suffix="for" tag="IN" toknums="6" upos="ADP" wmwe="null" word="for" xpos="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="tap" />
+      <extra dep="compound" deprel="compound" edeps="5:compound" ent_iob="2" ent_type="" feats="Number=Sing" head="5" lemma="tap" lextag="B-N-n.SUBSTANCE" misc="null" orig_paragraph="1" orth="tap" pos="NOUN" prefix="t" remarks="0.7" shape="xxx" smwe="[1, 1]" suffix="tap" tag="NN" upos="NOUN" wmwe="null" word="tap" xpos="NN" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="water" />
+      <extra dep="pobj" deprel="nmod" edeps="2:nmod" ent_iob="2" ent_type="" feats="Number=Sing" head="2" lemma="water" lextag="I_" misc="SpaceAfter=No" orig_paragraph="1" orth="water" pos="NOUN" prefix="w" remarks="0.8" shape="xxxx" smwe="[1, 2]" suffix="ter" tag="NN" upos="NOUN" wmwe="null" word="water" xpos="NN" />
+    </node>
+    <node ID="0.6" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="6" text="!" />
+      <extra dep="punct" deprel="punct" edeps="2:punct" ent_iob="2" ent_type="" feats="null" head="2" lemma="!" lextag="O-PUNCT" misc="null" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" remarks="0.9" shape="!" smwe="null" suffix="!" tag="." upos="PUNCT" wmwe="null" word="!" xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="2" />
+      <edge toID="1.3" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.4" type="S">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+      </edge>
+      <edge toID="1.5" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <extra tree_id="2-1" />
+      <edge toID="1.9" type="Q">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="Q" />
+      </edge>
+      <edge toID="1.10" type="C">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra tree_id="2-2" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra tree_id="2-3" />
+      <edge toID="1.7" type="E">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
+      </edge>
+      <edge toID="1.8" type="C">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+      </edge>
+      <edge toID="1.11" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <extra tree_id="2-3-1" />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <extra tree_id="2-3-2" />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <extra tree_id="2-1-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <extra tree_id="2-1-2" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.11" type="PNCT">
+      <attributes />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

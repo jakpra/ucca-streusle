@@ -1,0 +1,44 @@
+<root annotationID="0" passageID="048198-0006">
+  <attributes annotationID="4145" passageID="721" remarks="26635" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[4506573885694767570, 4506573885694767570, 15794550382381185553, 96, 380, 3, 8206900633647566924, 0, 16072095006890171862, 12290980237632234855, 3627548385250545854], [12646065887601541794, 12646065887601541794, 12646065887601541794, 97, 0, 2, 445, -1, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Sophie" />
+      <extra dep="ROOT" deprel="root" edeps="0:root" ent_iob="3" ent_type="PERSON" feats="Number=Sing" head="0" lemma="Sophie" lextag="O-N-n.PERSON" misc="SpaceAfter=No" orig_paragraph="1" orth="Sophie" pos="PROPN" prefix="S" remarks="0.42" shape="Xxxxx" smwe="null" suffix="hie" tag="NNP" upos="PROPN" wmwe="null" word="Sophie" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text="." />
+      <extra dep="punct" deprel="punct" edeps="1:punct" ent_iob="2" ent_type="" feats="null" head="1" lemma="." lextag="O-PUNCT" misc="null" orig_paragraph="1" orth="." pos="PUNCT" prefix="." remarks="0.43" shape="." smwe="null" suffix="." tag="." upos="PUNCT" wmwe="null" word="." xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="10" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

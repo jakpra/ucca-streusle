@@ -1,0 +1,37 @@
+<root annotationID="0" passageID="226715-0001">
+  <attributes annotationID="2412" passageID="383" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[11582734297633872968, 11582734297633872968, 15794550382381185553, 96, 383, 3, 7037928807040764755, 1, 16072095006890171862, 4690420944186131903, 245310805451869579], [18393957984002066185, 18393957984002066185, 15794550382381185553, 96, 383, 1, 8206900633647566924, 0, 16072095006890171862, 3209455878668673793, 8107556697577969458]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Inford" />
+      <extra dep="compound" deprel="compound" depth="2" edeps="2:compound" ent_iob="3" ent_type="ORG" feats="Number=Sing" head="2" lemma="Inford" lextag="B-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Inford" pos="PROPN" prefix="I" remarks="0.1" shape="Xxxxx" smwe="[1, 1]" suffix="ord" tag="NNP" upos="PROPN" wmwe="null" word="Inford" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Media" />
+      <extra dep="ROOT" deprel="root" depth="2" edeps="0:root" ent_iob="1" ent_type="ORG" feats="Number=Sing" head="0" lemma="Media" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Media" pos="PROPN" prefix="M" remarks="0.2" shape="Xxxxx" smwe="[1, 2]" suffix="dia" tag="NNP" upos="PROPN" wmwe="null" word="Media" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

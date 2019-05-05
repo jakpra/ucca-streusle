@@ -5,51 +5,51 @@
     <extra doc="[[[15667417291854480293, 561228191312463089, 13656873538139661788, 95, 0, 2, 429, 2, 12204527652707022206, 14825646868312541310, 15667417291854480293], [2989924464908128948, 2989924464908128948, 9188597074677201817, 100, 0, 2, 405, 1, 4848600484254711268, 11221368173670222813, 2989924464908128948], [12960022596163002503, 14692702688101715474, 3822385049556375858, 100, 0, 2, 8206900633647566924, 0, 4088098365541558500, 15817570140490810055, 12960022596163002503], [942632335873952620, 942632335873952620, 164681854541413346, 86, 397, 3, 400, 1, 13110060611322374290, 11901859001352538922, 1696981056005371314], [2090661578966068036, 2090661578966068036, 8427216679587749980, 93, 397, 1, 12837356684637874264, 1, 8148669997605808657, 2090661578966068036, 2090661578966068036], [3657060024540175713, 1594796327064612570, 783433942507015291, 92, 0, 2, 416, -3, 13110060611322374290, 16562859848569467201, 3777718520593151414], [14395066107632849789, 2158845516055552166, 3822385049556375858, 100, 0, 2, 451, -1, 13110060611322374290, 8148669997605808657, 17454115351911680600], [5640369432778651323, 5640369432778651323, 1292078113972184607, 85, 0, 2, 443, -1, 4370460163704169311, 1489474827855109852, 5640369432778651323], [602994839685422785, 602994839685422785, 8427216679587749980, 93, 397, 3, 12837356684637874264, 2, 8148669997605808657, 602994839685422785, 602994839685422785], [17379251038783395147, 17379251038783395147, 10554686591937588953, 84, 0, 2, 402, 1, 13110060611322374290, 8148669997605808657, 12182527387764416033], [14049408453622435969, 15212965839952319347, 783433942507015291, 92, 0, 2, 439, -3, 13110060611322374290, 2985121464356781022, 14907022070452710044], [12646065887601541794, 12646065887601541794, 12646065887601541794, 97, 0, 2, 445, -9, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="We" />
-      <extra orig_paragraph="1" />
+      <extra dep="nsubj" ent_iob="2" ent_type="" head="2" lemma="-PRON-" orig_paragraph="1" orth="We" pos="PRON" prefix="W" shape="Xx" suffix="We" tag="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="'ve" />
-      <extra orig_paragraph="1" />
+      <extra dep="aux" ent_iob="2" ent_type="" head="1" lemma="'ve" orig_paragraph="1" orth="'ve" pos="VERB" prefix="'" shape="'xx" suffix="'ve" tag="VBP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="had" />
-      <extra orig_paragraph="1" />
+      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="have" orig_paragraph="1" orth="had" pos="VERB" prefix="h" shape="xxx" suffix="had" tag="VBN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="about" />
-      <extra orig_paragraph="1" />
+      <extra dep="advmod" ent_iob="3" ent_type="CARDINAL" head="1" lemma="about" orig_paragraph="1" orth="about" pos="ADV" prefix="a" shape="xxxx" suffix="out" tag="RB" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="5" />
-      <extra orig_paragraph="1" />
+      <extra dep="nummod" ent_iob="1" ent_type="CARDINAL" head="1" lemma="5" orig_paragraph="1" orth="5" pos="NUM" prefix="5" shape="d" suffix="5" tag="CD" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="repairs" />
-      <extra orig_paragraph="1" />
+      <extra dep="dobj" ent_iob="2" ent_type="" head="-3" lemma="repair" orig_paragraph="1" orth="repairs" pos="NOUN" prefix="r" shape="xxxx" suffix="irs" tag="NNS" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="done" />
-      <extra orig_paragraph="1" />
+      <extra dep="acl" ent_iob="2" ent_type="" head="-1" lemma="do" orig_paragraph="1" orth="done" pos="VERB" prefix="d" shape="xxxx" suffix="one" tag="VBN" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="on" />
-      <extra orig_paragraph="1" />
+      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="on" orig_paragraph="1" orth="on" pos="ADP" prefix="o" shape="xx" suffix="on" tag="IN" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="3" />
-      <extra orig_paragraph="1" />
+      <extra dep="nummod" ent_iob="3" ent_type="CARDINAL" head="2" lemma="3" orig_paragraph="1" orth="3" pos="NUM" prefix="3" shape="d" suffix="3" tag="CD" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="different" />
-      <extra orig_paragraph="1" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="1" lemma="different" orig_paragraph="1" orth="different" pos="ADJ" prefix="d" shape="xxxx" suffix="ent" tag="JJ" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="laptops" />
-      <extra orig_paragraph="1" />
+      <extra dep="pobj" ent_iob="2" ent_type="" head="-3" lemma="laptop" orig_paragraph="1" orth="laptops" pos="NOUN" prefix="l" shape="xxxx" suffix="ops" tag="NNS" />
     </node>
     <node ID="0.12" type="Punctuation">
       <attributes paragraph="1" paragraph_position="12" text="." />
-      <extra orig_paragraph="1" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-9" lemma="." orig_paragraph="1" orth="." pos="PUNCT" prefix="." shape="." suffix="." tag="." />
     </node>
   </layer>
   <layer layerID="1">

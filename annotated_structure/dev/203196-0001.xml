@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="203196-0001">
+  <attributes annotationID="4185" passageID="339" remarks="26230" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[15874503393672158698, 15874503393672158698, 15794550382381185553, 96, 383, 3, 8206900633647566924, 0, 13862804199789047564, 10926178514336144719, 9549268524730285829]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="VINGAS" />
+      <extra dep="ROOT" deprel="root" depth="2" edeps="0:root" ent_iob="3" ent_type="ORG" feats="Number=Sing" head="0" lemma="VINGAS" lextag="O-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="VINGAS" pos="PROPN" prefix="V" remarks="0.1" shape="XXXX" smwe="null" suffix="GAS" tag="NNP" upos="PROPN" wmwe="null" word="VINGAS" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

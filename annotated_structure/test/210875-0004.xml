@@ -1,0 +1,68 @@
+<root annotationID="0" passageID="210875-0004">
+  <attributes annotationID="2850" passageID="354" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[11061341230758823191, 8960195134057108264, 9188597074677201817, 100, 0, 2, 8206900633647566924, 0, 16072095006890171862, 5582244037879929967, 1230421989022628249], [7624161793554793053, 561228191312463089, 13656873538139661788, 95, 0, 2, 416, -1, 4088098365541558500, 9409450202036847209, 7624161793554793053], [17494803046312582752, 17494803046312582752, 12646065887601541794, 97, 0, 2, 445, -2, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Thank" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="thank" lextag="B-DISC" misc="null" next_terminal_lower_common_ancestor_category="P" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="Thank" pos="VERB" prefix="T" remarks="0.49" shape="Xxxxx" smwe="[1, 1]" suffix="ank" tag="VBP" upos="VERB" wmwe="null" word="Thank" xpos="VBP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="you" />
+      <extra dep="dobj" deprel="obj" depth="3" edeps="1:obj" ent_iob="2" ent_type="" feats="Case=Acc|Person=2|PronType=Prs" head="1" lemma="you" lextag="I_" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="you" pos="PRON" prefix="y" remarks="0.5" shape="xxx" smwe="[1, 2]" suffix="you" tag="PRP" upos="PRON" wmwe="null" word="you" xpos="PRP" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="!" />
+      <extra dep="punct" deprel="punct" depth="3" edeps="1:punct" ent_iob="2" ent_type="" feats="null" head="1" lemma="!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" remarks="0.51" shape="!" smwe="null" suffix="!" tag="." upos="PUNCT" wmwe="null" word="!" xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="10" />
+      <edge toID="1.3" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.4" type="P">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes implicit="True" />
+      <extra tree_id="10-1" />
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra tree_id="10-2" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

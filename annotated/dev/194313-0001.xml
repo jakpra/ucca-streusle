@@ -1,0 +1,68 @@
+<root annotationID="0" passageID="194313-0001">
+  <attributes annotationID="4093" passageID="324" remarks="26215" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[15751823003189152864, 11137614687254113498, 10554686591937588953, 84, 0, 2, 402, 1, 16072095006890171862, 9391737413944127320, 12182527387764416033], [15601048267590693104, 15601048267590693104, 15794550382381185553, 96, 0, 2, 8206900633647566924, 0, 16072095006890171862, 17714545831559622561, 14351626505423870853], [4253493419013473486, 4253493419013473486, 12646065887601541794, 97, 0, 2, 445, -1, 4253493419013473486, 17494803046312582752, 4253493419013473486]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Excellent" />
+      <extra dep="amod" deprel="amod" edeps="2:amod" ent_iob="2" ent_type="" feats="Degree=Pos" head="2" lemma="excellent" lextag="O-ADJ" misc="null" orig_paragraph="1" orth="Excellent" pos="ADJ" prefix="E" remarks="0.1" shape="Xxxxx" smwe="null" suffix="ent" tag="JJ" upos="ADJ" wmwe="null" word="Excellent" xpos="JJ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Pizza" />
+      <extra dep="ROOT" deprel="root" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="pizza" lextag="O-N-n.FOOD" misc="SpaceAfter=No" orig_paragraph="1" orth="Pizza" pos="PROPN" prefix="P" remarks="0.2" shape="Xxxxx" smwe="null" suffix="zza" tag="NNP" upos="NOUN" wmwe="null" word="Pizza" xpos="NN" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="!!" />
+      <extra dep="punct" deprel="punct" edeps="2:punct" ent_iob="2" ent_type="" feats="null" head="2" lemma="!!" lextag="O-PUNCT" misc="null" orig_paragraph="1" orth="!!" pos="PUNCT" prefix="!" remarks="0.3" shape="!!" smwe="null" suffix="!!" tag="." upos="PUNCT" wmwe="null" word="!!" xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="1.4" type="S">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+      </edge>
+      <edge toID="1.5" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra tree_id="1-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra tree_id="1-2" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

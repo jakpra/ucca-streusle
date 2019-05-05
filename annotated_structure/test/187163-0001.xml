@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="187163-0001">
+  <attributes annotationID="2840" passageID="308" remarks="26199" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[13974321488428455596, 13974321488428455596, 15794550382381185553, 96, 380, 3, 8206900633647566924, 0, 16072095006890171862, 10603054956214495369, 12462261755143554289]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Linda" />
+      <extra dep="ROOT" deprel="root" depth="2" edeps="0:root" ent_iob="3" ent_type="PERSON" feats="Number=Sing" head="0" lemma="Linda" lextag="O-N-n.PERSON" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Linda" pos="PROPN" prefix="L" remarks="0.1" shape="Xxxxx" smwe="null" suffix="nda" tag="NNP" upos="PROPN" wmwe="null" word="Linda" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

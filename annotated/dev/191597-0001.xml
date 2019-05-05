@@ -1,0 +1,60 @@
+<root annotationID="0" passageID="191597-0001">
+  <attributes annotationID="4091" passageID="317" remarks="26208" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[9928695510262715122, 3521391281120521496, 10554686591937588953, 84, 0, 2, 8206900633647566924, 0, 16072095006890171862, 14862748245026736845, 16679871905258096564], [17494803046312582752, 17494803046312582752, 12646065887601541794, 97, 0, 2, 445, -1, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Awsome" />
+      <extra dep="ROOT" deprel="root" edeps="0:root" ent_iob="2" ent_type="" feats="Degree=Pos" head="0" lemma="awsome" lextag="O-ADJ" misc="SpaceAfter=No" orig_paragraph="1" orth="Awsome" pos="ADJ" prefix="A" remarks="0.1" shape="Xxxxx" smwe="null" suffix="ome" tag="JJ" upos="ADJ" wmwe="null" word="Awsome" xpos="JJ" />
+    </node>
+    <node ID="0.2" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="2" text="!" />
+      <extra dep="punct" deprel="punct" edeps="1:punct" ent_iob="2" ent_type="" feats="null" head="1" lemma="!" lextag="O-PUNCT" misc="null" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" remarks="0.2" shape="!" smwe="null" suffix="!" tag="." upos="PUNCT" wmwe="null" word="!" xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="1.4" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.5" type="S">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+      </edge>
+      <edge toID="1.6" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes implicit="True" />
+      <extra tree_id="1-1" />
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra tree_id="1-2" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

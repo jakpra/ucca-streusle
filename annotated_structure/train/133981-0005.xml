@@ -1,0 +1,84 @@
+<root annotationID="0" passageID="133981-0005">
+  <attributes annotationID="1761" passageID="202" remarks="26103" userID="14" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[12172435438170721471, 2283656566040971221, 17571114184892886314, 89, 0, 2, 407, 2, 18200729499220207786, 14862748245026736845, 12172435438170721471], [16269466123650656832, 6690459778502256799, 783433942507015291, 92, 0, 2, 429, 1, 16561710490498607587, 13210364986222294696, 7409412530419520829], [8896031200014266444, 8896031200014266444, 9188597074677201817, 100, 0, 2, 8206900633647566924, 0, 13110060611322374290, 15598372446745583797, 5012629990875267006], [12736066093347293436, 12736066093347293436, 12646065887601541794, 97, 0, 2, 445, -1, 12736066093347293436, 17494803046312582752, 12736066093347293436]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="And" />
+      <extra dep="cc" deprel="cc" depth="3" edeps="3:cc" ent_iob="2" ent_type="" feats="null" head="3" lemma="and" lextag="O-CCONJ" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="And" pos="CCONJ" prefix="A" remarks="0.61" shape="Xxx" smwe="null" suffix="And" tag="CC" upos="CCONJ" wmwe="null" word="And" xpos="CC" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="non-smokers" />
+      <extra dep="nsubj" deprel="nsubj" depth="3" edeps="3:nsubj" ent_iob="2" ent_type="" feats="Number=Plur" head="3" lemma="non-smoker" lextag="O-N-n.PERSON" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="non-smokers" pos="NOUN" prefix="n" remarks="0.62" shape="xxx-xxxx" smwe="null" suffix="ers" tag="NNS" upos="NOUN" wmwe="null" word="non-smokers" xpos="NNS" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="beware" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Mood=Imp|VerbForm=Fin" head="0" lemma="beware" lextag="O-V-v.cognition" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="beware" pos="VERB" prefix="b" remarks="0.63" shape="xxxx" smwe="null" suffix="are" tag="VBP" upos="VERB" wmwe="null" word="beware" xpos="VB" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="!!!" />
+      <extra dep="punct" deprel="punct" depth="3" edeps="3:punct" ent_iob="2" ent_type="" feats="null" head="3" lemma="!!!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="!!!" pos="PUNCT" prefix="!" remarks="0.64" shape="!!!" smwe="null" suffix="!!!" tag="." upos="PUNCT" wmwe="null" word="!!!" xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="L">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="L" />
+      </edge>
+      <edge toID="1.3" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="12" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <extra tree_id="13" />
+      <edge toID="1.5" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.6" type="P">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra remarks="[non]e-[smokers]c" tree_id="13-1" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra tree_id="13-2" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

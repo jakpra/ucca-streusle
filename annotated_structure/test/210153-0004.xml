@@ -1,0 +1,29 @@
+<root annotationID="0" passageID="210153-0004">
+  <attributes annotationID="2849" passageID="353" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[13522778346701328950, 13522778346701328950, 15794550382381185553, 96, 0, 2, 8206900633647566924, 0, 3552942401566437853, 149303876845869574, 13522778346701328950]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="CLH" />
+      <extra dep="ROOT" deprel="root" depth="2" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="CLH" lextag="O-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="CLH" pos="PROPN" prefix="C" remarks="0.24" shape="XXX" smwe="null" suffix="CLH" tag="NNP" upos="PROPN" wmwe="null" word="CLH" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="4" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

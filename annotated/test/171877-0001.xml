@@ -1,0 +1,53 @@
+<root annotationID="0" passageID="171877-0001">
+  <attributes annotationID="2832" passageID="271" remarks="26171" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[8836152387775250206, 8836152387775250206, 15308085513773655218, 92, 0, 2, 7037928807040764755, 1, 13110060611322374290, 5097672513440128799, 11467086461095896941], [18330988602132087037, 18330988602132087037, 15308085513773655218, 92, 0, 2, 8206900633647566924, 0, 13110060611322374290, 16562859848569467201, 10572380676402051993]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="ipad" />
+      <extra dep="compound" deprel="compound" edeps="2:compound" ent_iob="2" ent_type="" feats="Number=Sing" head="2" lemma="ipad" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" orth="ipad" pos="NOUN" prefix="i" remarks="0.1" shape="xxxx" smwe="null" suffix="pad" tag="NN" upos="PROPN" wmwe="null" word="ipad" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="reiew" />
+      <extra dep="ROOT" deprel="root" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="reiew" lextag="O-N-n.COMMUNICATION" misc="null" orig_paragraph="1" orth="reiew" pos="NOUN" prefix="r" remarks="0.2" shape="xxxx" smwe="null" suffix="iew" tag="NN" upos="NOUN" wmwe="null" word="reiew" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="1.3" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.4" type="P">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <extra tree_id="1-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra tree_id="1-2" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

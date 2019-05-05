@@ -1,0 +1,134 @@
+<root annotationID="0" passageID="200668-0001">
+  <attributes annotationID="2846" passageID="333" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[8544758479135825247, 11268330132682913431, 783433942507015291, 92, 0, 2, 8206900633647566924, 0, 13110060611322374290, 15917291556903334389, 14014603652905717938], [3791531372978436496, 3791531372978436496, 1292078113972184607, 85, 0, 2, 443, -1, 4370460163704169311, 15369245168918225700, 3791531372978436496], [3238150154656655359, 3238150154656655359, 15794550382381185553, 96, 383, 3, 7037928807040764755, 1, 16072095006890171862, 14862748245026736845, 2646123857127441627], [5462145398838521438, 5462145398838521438, 15794550382381185553, 96, 383, 1, 7037928807040764755, 1, 10887629174180191697, 17714545831559622561, 16044663281106737988], [13141670118275511010, 13141670118275511010, 15794550382381185553, 96, 383, 1, 7037928807040764755, 1, 16072095006890171862, 17427324969254097257, 16077735445828477292], [850430561872953815, 850430561872953815, 15308085513773655218, 92, 0, 2, 439, -4, 13110060611322374290, 16978132545290669629, 4766821777953654978]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="kudos" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Plur" head="0" lemma="kudos" lextag="O-DISC" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="kudos" pos="NOUN" prefix="k" remarks="0.1" shape="xxxx" smwe="null" suffix="dos" tag="NNS" upos="NOUN" wmwe="null" word="kudos" xpos="NNS" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="to" />
+      <extra config="default" dep="prep" deprel="case" depth="4" edeps="6:case" ent_iob="2" ent_type="" feats="null" gov="1" govlemma="kudos" head="6" lemma="to" lexcat="P" lexlemma="to" lextag="O-P-p.Recipient|p.Goal" local_gov="1" local_obj="6" local_toknums="2" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" obj="6" objlemma="staff" orig_paragraph="1" orth="to" pos="ADP" prefix="t" remarks="0.2" shape="xx" smwe="null" ss="p.Recipient" ss2="p.Goal" suffix="to" tag="IN" toknums="2" upos="ADP" wmwe="null" word="to" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Allentown" />
+      <extra dep="compound" deprel="compound" depth="4" edeps="5:compound" ent_iob="3" ent_type="ORG" feats="Number=Sing" head="5" lemma="Allentown" lextag="B-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="E" next_terminal_lower_common_ancestor_depth="3" orig_paragraph="1" orth="Allentown" pos="PROPN" prefix="A" remarks="0.3" shape="Xxxxx" smwe="[1, 1]" suffix="own" tag="NNP" upos="PROPN" wmwe="null" word="Allentown" xpos="NNP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Post" />
+      <extra dep="compound" deprel="compound" depth="4" edeps="5:compound" ent_iob="1" ent_type="ORG" feats="Number=Sing" head="5" lemma="Post" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="E" next_terminal_lower_common_ancestor_depth="3" orig_paragraph="1" orth="Post" pos="PROPN" prefix="P" remarks="0.4" shape="Xxxx" smwe="[1, 2]" suffix="ost" tag="NNP" upos="PROPN" wmwe="null" word="Post" xpos="NNP" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="Office" />
+      <extra dep="compound" deprel="compound" depth="4" edeps="6:compound" ent_iob="1" ent_type="ORG" feats="Number=Sing" head="6" lemma="Office" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="Office" pos="PROPN" prefix="O" remarks="0.5" shape="Xxxxx" smwe="[1, 3]" suffix="ice" tag="NNP" upos="PROPN" wmwe="null" word="Office" xpos="NNP" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="staff" />
+      <extra dep="pobj" deprel="nmod" depth="4" edeps="1:nmod" ent_iob="2" ent_type="" feats="Number=Plur" head="1" lemma="staff" lextag="O-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="staff" pos="NOUN" prefix="s" remarks="0.6" shape="xxxx" smwe="null" suffix="aff" tag="NN" upos="NOUN" wmwe="null" word="staff" xpos="NNS" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="1.3" type="S">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+      </edge>
+      <edge toID="1.4" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <extra tree_id="1-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra tree_id="1-2" />
+      <edge toID="1.5" type="R">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+      </edge>
+      <edge toID="1.6" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.7" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra tree_id="1-2-1" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra remarks="revise" tree_id="1-2-2" />
+      <edge toID="1.8" type="E">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
+      </edge>
+      <edge toID="1.9" type="E">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
+      </edge>
+      <edge toID="1.10" type="C">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <extra tree_id="1-2-3" />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <extra tree_id="1-2-2-1" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <extra tree_id="1-2-2-2-1" />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <extra tree_id="1-2-2-2-2" />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,76 @@
+<root annotationID="0" passageID="139152-0004">
+  <attributes annotationID="2818" passageID="212" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[9153284864653046197, 9153284864653046197, 14872845191859177490, 97, 380, 3, 445, 2, 9153284864653046197, 9153284864653046197, 9153284864653046197], [16500640787848907462, 4857678030080284303, 15794550382381185553, 96, 380, 1, 7037928807040764755, 1, 16072095006890171862, 12290980237632234855, 1885430333798768031], [7116510761610077682, 7116510761610077682, 15794550382381185553, 96, 380, 1, 449, 0, 16072095006890171862, 16829822105563051112, 11560817535472117264], [9946890365738788363, 9946890365738788363, 15794550382381185553, 96, 380, 1, 2666271516716718244, -1, 16072095006890171862, 14230521632333904559, 1378273283833375277], [10648212074706584165, 10648212074706584165, 15794550382381185553, 96, 380, 1, 2666271516716718244, -2, 16072095006890171862, 3209455878668673793, 12745027602831959536], [18320188218667379811, 18320188218667379811, 15794550382381185553, 96, 380, 1, 17473201795025412735, -3, 16072095006890171862, 3209455878668673793, 470538875325686083]]]" />
+    <node ID="0.1" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="1" text="-" />
+      <extra dep="punct" ent_iob="3" ent_type="PERSON" head="2" lemma="-" orig_paragraph="1" orth="-" pos="PUNCT" prefix="-" shape="-" suffix="-" tag="NFP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Shree" />
+      <extra dep="compound" ent_iob="1" ent_type="PERSON" head="1" lemma="shree" orig_paragraph="1" orth="Shree" pos="PROPN" prefix="S" shape="Xxxxx" suffix="ree" tag="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Ghatkopar" />
+      <extra dep="root" ent_iob="1" ent_type="PERSON" head="3" lemma="Ghatkopar" orig_paragraph="1" orth="Ghatkopar" pos="PROPN" prefix="G" shape="Xxxxx" suffix="par" tag="NNP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="Bhatia" />
+      <extra dep="flat" ent_iob="1" ent_type="PERSON" head="-1" lemma="Bhatia" orig_paragraph="1" orth="Bhatia" pos="PROPN" prefix="B" shape="Xxxxx" suffix="tia" tag="NNP" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="Mitra" />
+      <extra dep="flat" ent_iob="1" ent_type="PERSON" head="-2" lemma="Mitra" orig_paragraph="1" orth="Mitra" pos="PROPN" prefix="M" shape="Xxxxx" suffix="tra" tag="NNP" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="Mandal" />
+      <extra dep="list" ent_iob="1" ent_type="PERSON" head="-3" lemma="Mandal" orig_paragraph="1" orth="Mandal" pos="PROPN" prefix="M" shape="Xxxxx" suffix="dal" tag="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="4" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="1.3" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

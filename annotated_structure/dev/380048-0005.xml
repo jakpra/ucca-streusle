@@ -1,0 +1,84 @@
+<root annotationID="0" passageID="380048-0005">
+  <attributes annotationID="2552" passageID="684" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[13420304071545091895, 14121509715367036122, 10554686591937588953, 84, 0, 2, 402, 2, 10887629174180191697, 10850957288794122991, 16077735445828477292], [4469020372817945905, 4469020372817945905, 10554686591937588953, 84, 0, 2, 402, 1, 13110060611322374290, 260667111241363922, 8259674898417220296], [7248544922998488549, 7248544922998488549, 15308085513773655218, 92, 0, 2, 8206900633647566924, 0, 13110060611322374290, 260667111241363922, 16111258787187009011], [12646065887601541794, 12646065887601541794, 12646065887601541794, 97, 0, 2, 445, -1, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Nice" />
+      <extra dep="amod" deprel="amod" depth="4" edeps="3:amod" ent_iob="2" ent_type="" feats="Degree=Pos" head="3" lemma="nice" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Nice" pos="ADJ" prefix="N" remarks="0.27" shape="Xxxx" smwe="null" suffix="ice" tag="JJ" upos="ADJ" wmwe="null" word="Nice" xpos="JJ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="warm" />
+      <extra dep="amod" deprel="amod" depth="4" edeps="3:amod" ent_iob="2" ent_type="" feats="Degree=Pos" head="3" lemma="warm" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="warm" pos="ADJ" prefix="w" remarks="0.28" shape="xxxx" smwe="null" suffix="arm" tag="JJ" upos="ADJ" wmwe="null" word="warm" xpos="JJ" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="water" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="water" lextag="O-N-n.NATURALOBJECT" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="water" pos="NOUN" prefix="w" remarks="0.29" shape="xxxx" smwe="null" suffix="ter" tag="NN" upos="NOUN" wmwe="null" word="water" xpos="NN" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="." />
+      <extra dep="punct" deprel="punct" depth="3" edeps="3:punct" ent_iob="2" ent_type="" feats="null" head="3" lemma="." lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="." pos="PUNCT" prefix="." remarks="0.3" shape="." smwe="null" suffix="." tag="." upos="PUNCT" wmwe="null" word="." xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="I did not mark &quot;nice&quot; and &quot;warm&quot; as two separate scenes because the water is nice due to its' temperature (inasmuch as the reader can infer)" tree_id="7" />
+      <edge toID="1.4" type="D">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+      </edge>
+      <edge toID="1.5" type="S">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+      </edge>
+      <edge toID="1.6" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+      </edge>
+      <edge toID="1.7" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra tree_id="7-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra tree_id="7-2" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra tree_id="7-3" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

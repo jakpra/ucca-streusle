@@ -1,0 +1,93 @@
+<root annotationID="0" passageID="061721-0001">
+  <attributes annotationID="2568" passageID="751" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[5931147113347055926, 5865838185239622912, 17202369883303991778, 90, 0, 2, 416, 2, 10887629174180191697, 14825646868312541310, 14949295185858420483], [11901859001352538922, 11901859001352538922, 15267657372422890137, 90, 0, 2, 415, 1, 11123243248953317070, 11901859001352538922, 11901859001352538922], [12463775800708475129, 3132864383886709487, 15308085513773655218, 92, 0, 2, 8206900633647566924, 0, 10887629174180191697, 3929483993944067416, 6305915743055363235], [17494803046312582752, 17494803046312582752, 12646065887601541794, 97, 0, 2, 445, -1, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="What" />
+      <extra dep="dobj" deprel="det" edeps="3:det" ent_iob="2" ent_type="" feats="PronType=Int" head="3" lemma="what" lextag="O-DET" misc="null" orig_paragraph="1" orth="What" pos="DET" prefix="W" remarks="0.1" shape="Xxxx" smwe="null" suffix="hat" tag="WDT" upos="DET" wmwe="null" word="What" xpos="WDT" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="a" />
+      <extra dep="det" deprel="det" edeps="3:det" ent_iob="2" ent_type="" feats="Definite=Ind|PronType=Art" head="3" lemma="a" lextag="O-DET" misc="null" orig_paragraph="1" orth="a" pos="DET" prefix="a" remarks="0.2" shape="x" smwe="null" suffix="a" tag="DT" upos="DET" wmwe="null" word="a" xpos="DT" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Dump" />
+      <extra dep="ROOT" deprel="root" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="dump" lextag="O-N-n.ARTIFACT" misc="SpaceAfter=No" orig_paragraph="1" orth="Dump" pos="NOUN" prefix="D" remarks="0.3" shape="Xxxx" smwe="null" suffix="ump" tag="NN" upos="NOUN" wmwe="null" word="Dump" xpos="NN" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="!" />
+      <extra dep="punct" deprel="punct" edeps="3:punct" ent_iob="2" ent_type="" feats="null" head="3" lemma="!" lextag="O-PUNCT" misc="null" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" remarks="0.4" shape="!" smwe="null" suffix="!" tag="." upos="PUNCT" wmwe="null" word="!" xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="1.4" type="D">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+      </edge>
+      <edge toID="1.5" type="A">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra tree_id="1-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra tree_id="1-2" />
+      <edge toID="1.6" type="F">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
+      </edge>
+      <edge toID="1.7" type="C">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+      </edge>
+      <edge toID="1.8" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra tree_id="1-2-1" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <extra tree_id="1-2-2" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="PNCT">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -1,0 +1,77 @@
+<root annotationID="0" passageID="359014-0001">
+  <attributes annotationID="4136" passageID="643" remarks="26541" userID="26" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[[717880881345064706, 5711639017775284443, 10554686591937588953, 84, 0, 2, 400, 1, 10887629174180191697, 16829822105563051112, 14387080380872362826], [13664881695293890848, 13664881695293890848, 10554686591937588953, 84, 0, 2, 402, 1, 13110060611322374290, 15817570140490810055, 14619786160612475726], [8976415452771482765, 8976415452771482765, 16235386156175103506, 100, 0, 2, 8206900633647566924, 0, 13110060611322374290, 260667111241363922, 2230633832911202763]]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Good" />
+      <extra dep="advmod" deprel="amod" depth="3" edeps="3:amod" ent_iob="2" ent_type="" feats="Degree=Pos" head="3" lemma="good" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Good" pos="ADJ" prefix="G" remarks="0.1" shape="Xxxx" smwe="null" suffix="ood" tag="JJ" upos="ADJ" wmwe="null" word="Good" xpos="JJ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="honest" />
+      <extra dep="amod" deprel="amod" depth="3" edeps="3:amod" ent_iob="2" ent_type="" feats="Degree=Pos" head="3" lemma="honest" lextag="B-N-n.ACT" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="honest" pos="ADJ" prefix="h" remarks="0.2" shape="xxxx" smwe="[1, 1]" suffix="est" tag="JJ" upos="ADJ" wmwe="null" word="honest" xpos="JJ" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="wrok" />
+      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="wrok" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="wrok" pos="VERB" prefix="w" remarks="0.3" shape="xxxx" smwe="[1, 2]" suffix="rok" tag="MD" upos="NOUN" wmwe="null" word="wrok" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra tree_id="1" />
+      <edge toID="1.3" type="D">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+      </edge>
+      <edge toID="1.4" type="P">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <extra remarks="revise" tree_id="1-1" />
+      <edge toID="1.5" type="C">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+      </edge>
+      <edge toID="1.6" type="C">
+        <attributes />
+        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra tree_id="1-2" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra tree_id="1-1-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra tree_id="1-1-2" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>
