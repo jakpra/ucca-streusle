@@ -5,23 +5,23 @@
     <extra doc="[[[13829306678568089077, 18057327756930201825, 15308085513773655218, 92, 0, 2, 414, 3, 10887629174180191697, 9148987913859918431, 14387080380872362826], [5711639017775284443, 5711639017775284443, 10554686591937588953, 84, 0, 2, 402, -1, 13110060611322374290, 6217145520856553898, 14387080380872362826], [2593208677638477497, 2593208677638477497, 2593208677638477497, 97, 0, 2, 445, 1, 2593208677638477497, 2593208677638477497, 2593208677638477497], [208172016153456603, 208172016153456603, 15308085513773655218, 92, 0, 2, 8206900633647566924, 0, 13110060611322374290, 16978132545290669629, 16077735445828477292], [13558078257114079636, 13558078257114079636, 10554686591937588953, 84, 0, 2, 402, -1, 13110060611322374290, 8861071527689086543, 3713561093872141241]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Food" />
-      <extra dep="dep" deprel="nsubj" depth="3" edeps="2:nsubj" ent_iob="2" ent_type="" feats="Number=Sing" head="2" lemma="food" lextag="O-N-n.FOOD" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Food" pos="NOUN" prefix="F" remarks="0.1" shape="Xxxx" smwe="null" suffix="ood" tag="NN" upos="NOUN" wmwe="null" word="Food" xpos="NN" />
+      <extra dep="dep" ent_iob="2" ent_type="" head="3" lemma="food" orig_paragraph="1" orth="Food" pos="NOUN" prefix="F" shape="Xxxx" suffix="ood" tag="NN" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="good" />
-      <extra dep="amod" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Degree=Pos" head="0" lemma="good" lextag="O-ADJ" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="good" pos="ADJ" prefix="g" remarks="0.2" shape="xxxx" smwe="null" suffix="ood" tag="JJ" upos="ADJ" wmwe="null" word="good" xpos="JJ" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="-1" lemma="good" orig_paragraph="1" orth="good" pos="ADJ" prefix="g" shape="xxxx" suffix="ood" tag="JJ" />
     </node>
     <node ID="0.3" type="Punctuation">
       <attributes paragraph="1" paragraph_position="3" text="," />
-      <extra dep="punct" deprel="punct" depth="3" edeps="2:punct" ent_iob="2" ent_type="" feats="null" head="2" lemma="," lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="," pos="PUNCT" prefix="," remarks="0.3" shape="," smwe="null" suffix="," tag="," upos="PUNCT" wmwe="null" word="," xpos="," />
+      <extra dep="punct" ent_iob="2" ent_type="" head="1" lemma="," orig_paragraph="1" orth="," pos="PUNCT" prefix="," shape="," suffix="," tag="," />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="service" />
-      <extra dep="ROOT" deprel="nsubj" depth="3" edeps="5:nsubj" ent_iob="2" ent_type="" feats="Number=Sing" head="5" lemma="service" lextag="O-N-n.ACT" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="service" pos="NOUN" prefix="s" remarks="0.4" shape="xxxx" smwe="null" suffix="ice" tag="NN" upos="NOUN" wmwe="null" word="service" xpos="NN" />
+      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="service" orig_paragraph="1" orth="service" pos="NOUN" prefix="s" shape="xxxx" suffix="ice" tag="NN" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="poor" />
-      <extra dep="amod" deprel="parataxis" depth="3" edeps="2:parataxis" ent_iob="2" ent_type="" feats="Degree=Pos" head="2" lemma="poor" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="poor" pos="ADJ" prefix="p" remarks="0.5" shape="xxxx" smwe="null" suffix="oor" tag="JJ" upos="ADJ" wmwe="null" word="poor" xpos="JJ" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="-1" lemma="poor" orig_paragraph="1" orth="poor" pos="ADJ" prefix="p" shape="xxxx" suffix="oor" tag="JJ" />
     </node>
   </layer>
   <layer layerID="1">

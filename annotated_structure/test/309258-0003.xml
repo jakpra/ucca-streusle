@@ -5,27 +5,27 @@
     <extra doc="[[[4690420944186131903, 561228191312463089, 13656873538139661788, 95, 0, 2, 429, 3, 101, 4690420944186131903, 4690420944186131903], [2158845516055552166, 2158845516055552166, 9188597074677201817, 100, 0, 2, 405, 2, 4370460163704169311, 8148669997605808657, 2158845516055552166], [9353232606613764737, 9353232606613764737, 164681854541413346, 86, 0, 2, 400, 1, 4370460163704169311, 13210364986222294696, 9353232606613764737], [8004577259940138793, 8004577259940138793, 14200088355797579614, 100, 0, 2, 8206900633647566924, 0, 4370460163704169311, 6217145520856553898, 8004577259940138793], [2112642640949226496, 2112642640949226496, 164681854541413346, 86, 0, 2, 400, -1, 13110060611322374290, 15369245168918225700, 18139757808136603089], [18185443378917019464, 18185443378917019464, 164681854541413346, 86, 0, 2, 400, -2, 13110060611322374290, 11901859001352538922, 16639369580702547507]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="I" />
-      <extra dep="nsubj" deprel="nsubj" depth="3" edeps="4:nsubj" ent_iob="2" ent_type="" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="4" lemma="I" lextag="O-PRON" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="I" pos="PRON" prefix="I" remarks="0.45" shape="X" smwe="null" suffix="I" tag="PRP" upos="PRON" wmwe="null" word="I" xpos="PRP" />
+      <extra dep="nsubj" ent_iob="2" ent_type="" head="3" lemma="-PRON-" orig_paragraph="1" orth="I" pos="PRON" prefix="I" shape="X" suffix="I" tag="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="do" />
-      <extra dep="aux" deprel="aux" depth="3" edeps="4:aux" ent_iob="2" ent_type="" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="4" lemma="do" lextag="O-AUX" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="do" pos="VERB" prefix="d" remarks="0.46" shape="xx" smwe="null" suffix="do" tag="VBP" upos="AUX" wmwe="null" word="do" xpos="VBP" />
+      <extra dep="aux" ent_iob="2" ent_type="" head="2" lemma="do" orig_paragraph="1" orth="do" pos="VERB" prefix="d" shape="xx" suffix="do" tag="VBP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="nt" />
-      <extra dep="advmod" deprel="advmod" depth="3" edeps="4:advmod" ent_iob="2" ent_type="" feats="null" head="4" lemma="not" lextag="O-ADV" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="nt" pos="ADV" prefix="n" remarks="0.47" shape="xx" smwe="null" suffix="nt" tag="RB" upos="PART" wmwe="null" word="nt" xpos="RB" />
+      <extra dep="advmod" ent_iob="2" ent_type="" head="1" lemma="nt" orig_paragraph="1" orth="nt" pos="ADV" prefix="n" shape="xx" suffix="nt" tag="RB" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="go" />
-      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="VerbForm=Inf" head="0" lemma="go" lextag="O-V-v.motion" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="go" pos="VERB" prefix="g" remarks="0.48" shape="xx" smwe="null" suffix="go" tag="VB" upos="VERB" wmwe="null" word="go" xpos="VB" />
+      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="go" orig_paragraph="1" orth="go" pos="VERB" prefix="g" shape="xx" suffix="go" tag="VB" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="there" />
-      <extra dep="advmod" deprel="advmod" depth="3" edeps="4:advmod" ent_iob="2" ent_type="" feats="PronType=Dem" head="4" lemma="there" lextag="O-ADV" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="there" pos="ADV" prefix="t" remarks="0.49" shape="xxxx" smwe="null" suffix="ere" tag="RB" upos="ADV" wmwe="null" word="there" xpos="RB" />
+      <extra dep="advmod" ent_iob="2" ent_type="" head="-1" lemma="there" orig_paragraph="1" orth="there" pos="ADV" prefix="t" shape="xxxx" suffix="ere" tag="RB" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="anymore" />
-      <extra dep="advmod" deprel="advmod" depth="3" edeps="4:advmod" ent_iob="2" ent_type="" feats="null" head="4" lemma="anymore" lextag="O-ADV" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="anymore" pos="ADV" prefix="a" remarks="0.5" shape="xxxx" smwe="null" suffix="ore" tag="RB" upos="ADV" wmwe="null" word="anymore" xpos="RB" />
+      <extra dep="advmod" ent_iob="2" ent_type="" head="-2" lemma="anymore" orig_paragraph="1" orth="anymore" pos="ADV" prefix="a" shape="xxxx" suffix="ore" tag="RB" />
     </node>
   </layer>
   <layer layerID="1">

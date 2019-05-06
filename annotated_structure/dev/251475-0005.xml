@@ -5,15 +5,15 @@
     <extra doc="[[[6898525711325499184, 7722715852355611219, 3252815442139690129, 91, 0, 2, 8206900633647566924, 0, 16072095006890171862, 5582244037879929967, 227923054444777232], [13432557758351830776, 13432557758351830776, 15794550382381185553, 96, 380, 3, 428, -1, 10887629174180191697, 18003918085672799305, 17628042886754139618], [17494803046312582752, 17494803046312582752, 12646065887601541794, 97, 0, 2, 445, -2, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Thanks" />
-      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="thanks" lextag="O-DISC" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Thanks" pos="INTJ" prefix="T" remarks="0.53" shape="Xxxxx" smwe="null" suffix="nks" tag="UH" upos="NOUN" wmwe="null" word="Thanks" xpos="NN" />
+      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="thanks" orig_paragraph="1" orth="Thanks" pos="INTJ" prefix="T" shape="Xxxxx" suffix="nks" tag="UH" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Josh" />
-      <extra dep="npadvmod" deprel="vocative" depth="3" edeps="1:vocative" ent_iob="3" ent_type="PERSON" feats="Number=Sing" head="1" lemma="Josh" lextag="O-N-n.PERSON" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Josh" pos="PROPN" prefix="J" remarks="0.54" shape="Xxxx" smwe="null" suffix="osh" tag="NNP" upos="PROPN" wmwe="null" word="Josh" xpos="NNP" />
+      <extra dep="npadvmod" ent_iob="3" ent_type="PERSON" head="-1" lemma="Josh" orig_paragraph="1" orth="Josh" pos="PROPN" prefix="J" shape="Xxxx" suffix="osh" tag="NNP" />
     </node>
     <node ID="0.3" type="Punctuation">
       <attributes paragraph="1" paragraph_position="3" text="!" />
-      <extra dep="punct" deprel="punct" depth="3" edeps="1:punct" ent_iob="2" ent_type="" feats="null" head="1" lemma="!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" remarks="0.55" shape="!" smwe="null" suffix="!" tag="." upos="PUNCT" wmwe="null" word="!" xpos="." />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-2" lemma="!" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" shape="!" suffix="!" tag="." />
     </node>
   </layer>
   <layer layerID="1">

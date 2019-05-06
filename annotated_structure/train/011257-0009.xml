@@ -5,19 +5,19 @@
     <extra doc="[[[3374232459564476082, 3374232459564476082, 15794550382381185553, 96, 380, 3, 7037928807040764755, 1, 16072095006890171862, 16337536289976144572, 1493767276839627183], [7192747039380374936, 7192747039380374936, 15794550382381185553, 96, 380, 1, 8206900633647566924, 0, 4544266894710282985, 3209455878668673793, 7192747039380374936], [2593208677638477497, 2593208677638477497, 2593208677638477497, 97, 0, 2, 445, -1, 2593208677638477497, 2593208677638477497, 2593208677638477497], [3173113726037577717, 3173113726037577717, 15794550382381185553, 96, 384, 3, 428, -2, 16072095006890171862, 14825646868312541310, 3147381831675906515]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Roger" />
-      <extra dep="compound" deprel="root" depth="3" edeps="0:root" ent_iob="3" ent_type="PERSON" feats="Number=Sing" head="0" lemma="Roger" lextag="B-N-n.PERSON" misc="null" next_terminal_lower_common_ancestor_category="C" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="Roger" pos="PROPN" prefix="R" remarks="0.13" shape="Xxxxx" smwe="[1, 1]" suffix="ger" tag="NNP" upos="PROPN" wmwe="null" word="Roger" xpos="NNP" />
+      <extra dep="compound" ent_iob="3" ent_type="PERSON" head="1" lemma="Roger" orig_paragraph="1" orth="Roger" pos="PROPN" prefix="R" shape="Xxxxx" suffix="ger" tag="NNP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="M." />
-      <extra dep="ROOT" deprel="flat" depth="3" edeps="1:flat" ent_iob="1" ent_type="PERSON" feats="Number=Sing" head="1" lemma="M." lextag="I_" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="M." pos="PROPN" prefix="M" remarks="0.131" shape="X." smwe="[1, 2]" suffix="M." tag="NNP" upos="PROPN" wmwe="null" word="M." xpos="NNP" />
+      <extra dep="ROOT" ent_iob="1" ent_type="PERSON" head="0" lemma="M." orig_paragraph="1" orth="M." pos="PROPN" prefix="M" shape="X." suffix="M." tag="NNP" />
     </node>
     <node ID="0.3" type="Punctuation">
       <attributes paragraph="1" paragraph_position="3" text="," />
-      <extra dep="punct" deprel="punct" depth="3" edeps="1:punct" ent_iob="2" ent_type="" feats="null" head="1" lemma="," lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="," pos="PUNCT" prefix="," remarks="0.132" shape="," smwe="null" suffix="," tag="," upos="PUNCT" wmwe="null" word="," xpos="," />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="," orig_paragraph="1" orth="," pos="PUNCT" prefix="," shape="," suffix="," tag="," />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Woodinville" />
-      <extra dep="npadvmod" deprel="appos" depth="3" edeps="1:appos" ent_iob="3" ent_type="GPE" feats="Number=Sing" head="1" lemma="Woodinville" lextag="O-N-n.LOCATION" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Woodinville" pos="PROPN" prefix="W" remarks="0.133" shape="Xxxxx" smwe="null" suffix="lle" tag="NNP" upos="PROPN" wmwe="null" word="Woodinville" xpos="NNP" />
+      <extra dep="npadvmod" ent_iob="3" ent_type="GPE" head="-2" lemma="Woodinville" orig_paragraph="1" orth="Woodinville" pos="PROPN" prefix="W" shape="Xxxxx" suffix="lle" tag="NNP" />
     </node>
   </layer>
   <layer layerID="1">

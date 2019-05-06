@@ -5,15 +5,15 @@
     <extra doc="[[[9335770981443976163, 6250203919658647129, 1982173196287093141, 86, 0, 2, 8206900633647566924, 0, 10887629174180191697, 14230521632333904559, 14619786160612475726], [3002984154512732771, 3002984154512732771, 1292078113972184607, 85, 0, 2, 443, -1, 4370460163704169311, 5097672513440128799, 3002984154512732771], [1052673664654378693, 1052673664654378693, 15794550382381185553, 96, 384, 3, 439, -1, 16072095006890171862, 3209455878668673793, 2661093235354845946]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Best" />
-      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Degree=Sup" head="0" lemma="best" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Best" pos="ADV" prefix="B" remarks="0.1" shape="Xxxx" smwe="null" suffix="est" tag="RBS" upos="ADJ" wmwe="null" word="Best" xpos="JJS" />
+      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="best" orig_paragraph="1" orth="Best" pos="ADV" prefix="B" shape="Xxxx" suffix="est" tag="RBS" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="in" />
-      <extra config="default" dep="prep" deprel="case" depth="4" edeps="3:case" ent_iob="2" ent_type="" feats="null" gov="1" govlemma="best" head="3" lemma="in" lexcat="P" lexlemma="in" lextag="O-P-p.Locus" local_gov="1" local_obj="3" local_toknums="2" misc="null" next_terminal_lower_common_ancestor_category="A" next_terminal_lower_common_ancestor_depth="2" obj="3" objlemma="Memphis" orig_paragraph="1" orth="in" pos="ADP" prefix="i" remarks="0.2" shape="xx" smwe="null" ss="p.Locus" ss2="p.Locus" suffix="in" tag="IN" toknums="2" upos="ADP" wmwe="null" word="in" xpos="IN" />
+      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="in" orig_paragraph="1" orth="in" pos="ADP" prefix="i" shape="xx" suffix="in" tag="IN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="Memphis" />
-      <extra dep="pobj" deprel="obl" depth="4" edeps="1:obl" ent_iob="3" ent_type="GPE" feats="Number=Sing" head="1" lemma="Memphis" lextag="O-N-n.LOCATION" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Memphis" pos="PROPN" prefix="M" remarks="0.3" shape="Xxxxx" smwe="null" suffix="his" tag="NNP" upos="PROPN" wmwe="null" word="Memphis" xpos="NNP" />
+      <extra dep="pobj" ent_iob="3" ent_type="GPE" head="-1" lemma="Memphis" orig_paragraph="1" orth="Memphis" pos="PROPN" prefix="M" shape="Xxxxx" suffix="his" tag="NNP" />
     </node>
   </layer>
   <layer layerID="1">

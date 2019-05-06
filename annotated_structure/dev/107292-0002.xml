@@ -5,35 +5,35 @@
     <extra doc="[[[12965068231793614765, 12965068231793614765, 10554686591937588953, 84, 0, 2, 402, 1, 13110060611322374290, 2985121464356781022, 7274326117416781431], [9199143519903352027, 9545763306533606446, 783433942507015291, 92, 0, 2, 8206900633647566924, 0, 13110060611322374290, 2985121464356781022, 5129495575088765286], [5640369432778651323, 5640369432778651323, 1292078113972184607, 85, 0, 2, 443, -1, 4370460163704169311, 1489474827855109852, 5640369432778651323], [7425985699627899538, 7425985699627899538, 15267657372422890137, 90, 391, 3, 415, 1, 4088098365541558500, 15369245168918225700, 7425985699627899538], [6848325044638967861, 6105388159866233819, 783433942507015291, 92, 391, 1, 439, -2, 13110060611322374290, 260667111241363922, 3460455159807539602], [14560795576765492085, 14560795576765492085, 17571114184892886314, 89, 0, 2, 407, -4, 4088098365541558500, 15598372446745583797, 14560795576765492085], [12282438651404021516, 12282438651404021516, 10554686591937588953, 84, 0, 2, 410, -5, 13110060611322374290, 260667111241363922, 3155103904874937243], [10239237003504588839, 561228191312463089, 13656873538139661788, 95, 0, 2, 416, -1, 4370460163704169311, 5097672513440128799, 10239237003504588839]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="long" />
-      <extra dep="amod" deprel="amod" depth="4" edeps="2:amod" ent_iob="2" ent_type="" feats="Degree=Pos" head="2" lemma="long" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="long" pos="ADJ" prefix="l" remarks="0.3" shape="xxxx" smwe="null" suffix="ong" tag="JJ" upos="ADJ" wmwe="null" word="long" xpos="JJ" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="1" lemma="long" orig_paragraph="1" orth="long" pos="ADJ" prefix="l" shape="xxxx" suffix="ong" tag="JJ" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="lines" />
-      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Plur" head="0" lemma="line" lextag="O-N-n.COGNITION" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="lines" pos="NOUN" prefix="l" remarks="0.4" shape="xxxx" smwe="null" suffix="nes" tag="NNS" upos="NOUN" wmwe="null" word="lines" xpos="NNS" />
+      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="line" orig_paragraph="1" orth="lines" pos="NOUN" prefix="l" shape="xxxx" suffix="nes" tag="NNS" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="on" />
-      <extra config="default" dep="prep" deprel="case" depth="4" edeps="5:case" ent_iob="2" ent_type="" feats="null" gov="4" govlemma="line" head="5" lemma="on" lexcat="P" lexlemma="on" lextag="O-P-p.Time" local_gov="2" local_obj="5" local_toknums="3" misc="null" next_terminal_lower_common_ancestor_category="T" next_terminal_lower_common_ancestor_depth="2" obj="7" objlemma="weekend" orig_paragraph="1" orth="on" pos="ADP" prefix="o" remarks="0.5" shape="xx" smwe="null" ss="p.Time" ss2="p.Time" suffix="on" tag="IN" toknums="5" upos="ADP" wmwe="null" word="on" xpos="IN" />
+      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="on" orig_paragraph="1" orth="on" pos="ADP" prefix="o" shape="xx" suffix="on" tag="IN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="the" />
-      <extra dep="det" deprel="det" depth="4" edeps="5:det" ent_iob="3" ent_type="DATE" feats="Definite=Def|PronType=Art" head="5" lemma="the" lextag="O-DET" misc="null" next_terminal_lower_common_ancestor_category="T" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="the" pos="DET" prefix="t" remarks="0.6" shape="xxx" smwe="null" suffix="the" tag="DT" upos="DET" wmwe="null" word="the" xpos="DT" />
+      <extra dep="det" ent_iob="3" ent_type="DATE" head="1" lemma="the" orig_paragraph="1" orth="the" pos="DET" prefix="t" shape="xxx" suffix="the" tag="DT" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="weekends" />
-      <extra dep="pobj" deprel="nmod" depth="4" edeps="2:nmod" ent_iob="1" ent_type="DATE" feats="Number=Plur" head="2" lemma="weekend" lextag="O-N-n.TIME" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="weekends" pos="NOUN" prefix="w" remarks="0.7" shape="xxxx" smwe="null" suffix="nds" tag="NNS" upos="NOUN" wmwe="null" word="weekends" xpos="NNS" />
+      <extra dep="pobj" ent_iob="1" ent_type="DATE" head="-2" lemma="weekend" orig_paragraph="1" orth="weekends" pos="NOUN" prefix="w" shape="xxxx" suffix="nds" tag="NNS" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="but" />
-      <extra dep="cc" deprel="cc" depth="2" edeps="7:cc" ent_iob="2" ent_type="" feats="null" head="7" lemma="but" lextag="O-CCONJ" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="but" pos="CCONJ" prefix="b" remarks="0.8" shape="xxx" smwe="null" suffix="but" tag="CC" upos="CCONJ" wmwe="null" word="but" xpos="CC" />
+      <extra dep="cc" ent_iob="2" ent_type="" head="-4" lemma="but" orig_paragraph="1" orth="but" pos="CCONJ" prefix="b" shape="xxx" suffix="but" tag="CC" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="worth" />
-      <extra dep="conj" deprel="conj" depth="3" edeps="2:conj" ent_iob="2" ent_type="" feats="Degree=Pos" head="2" lemma="worth" lextag="B-!@" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="worth" pos="ADJ" prefix="w" remarks="0.9" shape="xxxx" smwe="[1, 1]" suffix="rth" tag="JJ" upos="ADJ" wmwe="null" word="worth" xpos="JJ" />
+      <extra dep="conj" ent_iob="2" ent_type="" head="-5" lemma="worth" orig_paragraph="1" orth="worth" pos="ADJ" prefix="w" shape="xxxx" suffix="rth" tag="JJ" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="it" />
-      <extra dep="dobj" deprel="expl" depth="3" edeps="7:expl" ent_iob="2" ent_type="" feats="Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" head="7" lemma="it" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="it" pos="PRON" prefix="i" remarks="0.1" shape="xx" smwe="[1, 2]" suffix="it" tag="PRP" upos="PRON" wmwe="null" word="it" xpos="PRP" />
+      <extra dep="dobj" ent_iob="2" ent_type="" head="-1" lemma="-PRON-" orig_paragraph="1" orth="it" pos="PRON" prefix="i" shape="xx" suffix="it" tag="PRP" />
     </node>
   </layer>
   <layer layerID="1">

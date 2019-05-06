@@ -5,19 +5,19 @@
     <extra doc="[[[17652899683494573057, 15099054000809333061, 15267657372422890137, 90, 0, 2, 415, 1, 12204527652707022206, 14862748245026736845, 17652899683494573057], [17455109193554806144, 17455109193554806144, 15794550382381185553, 96, 0, 2, 8206900633647566924, 0, 16072095006890171862, 14862748245026736845, 11268780503345276587], [3791531372978436496, 3791531372978436496, 1292078113972184607, 85, 0, 2, 443, -1, 4370460163704169311, 15369245168918225700, 3791531372978436496], [14312649441703710401, 14312649441703710401, 15794550382381185553, 96, 384, 3, 439, -1, 16072095006890171862, 16337536289976144572, 2202124469992147544]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="An" />
-      <extra dep="det" deprel="det" depth="3" edeps="2:det" ent_iob="2" ent_type="" feats="Definite=Ind|PronType=Art" head="2" lemma="a" lextag="O-DET" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="An" pos="DET" prefix="A" remarks="0.1" shape="Xx" smwe="null" suffix="An" tag="DT" upos="DET" wmwe="null" word="An" xpos="DT" />
+      <extra dep="det" ent_iob="2" ent_type="" head="1" lemma="an" orig_paragraph="1" orth="An" pos="DET" prefix="A" shape="Xx" suffix="An" tag="DT" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Asset" />
-      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="asset" lextag="O-N-n.ATTRIBUTE" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Asset" pos="PROPN" prefix="A" remarks="0.2" shape="Xxxxx" smwe="null" suffix="set" tag="NNP" upos="NOUN" wmwe="null" word="Asset" xpos="NN" />
+      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="Asset" orig_paragraph="1" orth="Asset" pos="PROPN" prefix="A" shape="Xxxxx" suffix="set" tag="NNP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="to" />
-      <extra config="default" dep="prep" deprel="case" depth="4" edeps="4:case" ent_iob="2" ent_type="" feats="null" gov="2" govlemma="asset" head="4" lemma="to" lexcat="P" lexlemma="to" lextag="O-P-p.Beneficiary|p.Goal" local_gov="2" local_obj="4" local_toknums="3" misc="null" next_terminal_lower_common_ancestor_category="S" next_terminal_lower_common_ancestor_depth="2" obj="4" objlemma="Richmond" orig_paragraph="1" orth="to" pos="ADP" prefix="t" remarks="0.3" shape="xx" smwe="null" ss="p.Beneficiary" ss2="p.Goal" suffix="to" tag="IN" toknums="3" upos="ADP" wmwe="null" word="to" xpos="IN" />
+      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="to" orig_paragraph="1" orth="to" pos="ADP" prefix="t" shape="xx" suffix="to" tag="IN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Richmond" />
-      <extra dep="pobj" deprel="nmod" depth="4" edeps="2:nmod" ent_iob="3" ent_type="GPE" feats="Number=Sing" head="2" lemma="Richmond" lextag="O-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Richmond" pos="PROPN" prefix="R" remarks="0.4" shape="Xxxxx" smwe="null" suffix="ond" tag="NNP" upos="PROPN" wmwe="null" word="Richmond" xpos="NNP" />
+      <extra dep="pobj" ent_iob="3" ent_type="GPE" head="-1" lemma="Richmond" orig_paragraph="1" orth="Richmond" pos="PROPN" prefix="R" shape="Xxxxx" suffix="ond" tag="NNP" />
     </node>
   </layer>
   <layer layerID="1">

@@ -5,31 +5,31 @@
     <extra doc="[[[3341521537015186316, 9196506958337187253, 14200088355797579614, 100, 383, 3, 7037928807040764755, 1, 16072095006890171862, 12290980237632234855, 16077735445828477292], [15601048267590693104, 13450285337346246112, 15308085513773655218, 92, 383, 1, 8206900633647566924, 0, 16072095006890171862, 17714545831559622561, 14351626505423870853], [11667289587015813222, 11667289587015813222, 1292078113972184607, 85, 0, 2, 443, -1, 4370460163704169311, 11901859001352538922, 11667289587015813222], [6021520688599441668, 6021520688599441668, 10554686591937588953, 84, 0, 2, 402, 1, 13110060611322374290, 13110760720460257827, 14417343938296032250], [16477241557685883834, 16477241557685883834, 15794550382381185553, 96, 383, 3, 440, 2, 16072095006890171862, 14230521632333904559, 15923651374126431320], [16428057658620181782, 16428057658620181782, 74, 94, 383, 1, 8110129090154140942, -1, 3155823383004454315, 11221368173670222813, 16428057658620181782], [6406047268281013305, 4272944830542554761, 15308085513773655218, 92, 383, 1, 439, -4, 16072095006890171862, 10603054956214495369, 10748144119362648261]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Slice" />
-      <extra dep="compound" deprel="compound" depth="3" edeps="2:compound" ent_iob="3" ent_type="ORG" feats="Number=Sing" head="2" lemma="Slice" lextag="B-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="C" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="Slice" pos="VERB" prefix="S" remarks="0.1" shape="Xxxxx" smwe="[1, 1]" suffix="ice" tag="VB" upos="PROPN" wmwe="null" word="Slice" xpos="NNP" />
+      <extra dep="compound" ent_iob="3" ent_type="ORG" head="1" lemma="slice" orig_paragraph="1" orth="Slice" pos="VERB" prefix="S" shape="Xxxxx" suffix="ice" tag="VB" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Pizza" />
-      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="1" ent_type="ORG" feats="Number=Sing" head="0" lemma="Pizza" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Pizza" pos="NOUN" prefix="P" remarks="0.2" shape="Xxxxx" smwe="[1, 2]" suffix="zza" tag="NN" upos="PROPN" wmwe="null" word="Pizza" xpos="NNP" />
+      <extra dep="ROOT" ent_iob="1" ent_type="ORG" head="0" lemma="pizza" orig_paragraph="1" orth="Pizza" pos="NOUN" prefix="P" shape="Xxxxx" suffix="zza" tag="NN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="at" />
-      <extra config="default" dep="prep" deprel="case" depth="4" edeps="7:case" ent_iob="2" ent_type="" feats="null" gov="2" govlemma="Pizza" head="7" lemma="at" lexcat="P" lexlemma="at" lextag="O-P-p.Locus" local_gov="2" local_obj="7" local_toknums="3" misc="null" next_terminal_lower_common_ancestor_category="E" next_terminal_lower_common_ancestor_depth="2" obj="7" objlemma="location" orig_paragraph="1" orth="at" pos="ADP" prefix="a" remarks="0.3" shape="xx" smwe="null" ss="p.Locus" ss2="p.Locus" suffix="at" tag="IN" toknums="3" upos="ADP" wmwe="null" word="at" xpos="IN" />
+      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="at" orig_paragraph="1" orth="at" pos="ADP" prefix="a" shape="xx" suffix="at" tag="IN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="former" />
-      <extra dep="amod" deprel="amod" depth="5" edeps="7:amod" ent_iob="2" ent_type="" feats="Degree=Pos" head="7" lemma="former" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="E" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="former" pos="ADJ" prefix="f" remarks="0.4" shape="xxxx" smwe="null" suffix="mer" tag="JJ" upos="ADJ" wmwe="null" word="former" xpos="JJ" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="1" lemma="former" orig_paragraph="1" orth="former" pos="ADJ" prefix="f" shape="xxxx" suffix="mer" tag="JJ" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="Britt" />
-      <extra dep="poss" deprel="nmod:poss" depth="5" edeps="7:nmod:poss" ent_iob="3" ent_type="ORG" feats="Number=Sing" head="7" lemma="Britt" lextag="B-N-n.GROUP" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="E" next_terminal_lower_common_ancestor_depth="3" orig_paragraph="1" orth="Britt" pos="PROPN" prefix="B" remarks="0.5" shape="Xxxxx" smwe="[2, 1]" suffix="itt" tag="NNP" upos="PROPN" wmwe="null" word="Britt" xpos="NNP" />
+      <extra dep="poss" ent_iob="3" ent_type="ORG" head="2" lemma="Britt" orig_paragraph="1" orth="Britt" pos="PROPN" prefix="B" shape="Xxxxx" suffix="itt" tag="NNP" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="'s" />
-      <extra dep="case" deprel="case" depth="5" edeps="5:case" ent_iob="1" ent_type="ORG" feats="null" head="5" lemma="'s" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="E" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="'s" pos="PART" prefix="'" remarks="0.6" shape="'x" smwe="[2, 2]" suffix="'s" tag="POS" upos="PART" wmwe="null" word="'s" xpos="POS" />
+      <extra dep="case" ent_iob="1" ent_type="ORG" head="-1" lemma="'s" orig_paragraph="1" orth="'s" pos="PART" prefix="'" shape="'x" suffix="'s" tag="POS" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="Location" />
-      <extra dep="pobj" deprel="nmod" depth="4" edeps="2:nmod" ent_iob="1" ent_type="ORG" feats="Number=Sing" head="2" lemma="location" lextag="O-N-n.LOCATION" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Location" pos="NOUN" prefix="L" remarks="0.7" shape="Xxxxx" smwe="null" suffix="ion" tag="NN" upos="NOUN" wmwe="null" word="Location" xpos="NN" />
+      <extra dep="pobj" ent_iob="1" ent_type="ORG" head="-4" lemma="location" orig_paragraph="1" orth="Location" pos="NOUN" prefix="L" shape="Xxxxx" suffix="ion" tag="NN" />
     </node>
   </layer>
   <layer layerID="1">

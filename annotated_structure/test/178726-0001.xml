@@ -5,19 +5,19 @@
     <extra doc="[[[15751823003189152864, 11137614687254113498, 10554686591937588953, 84, 0, 2, 402, 2, 16072095006890171862, 9391737413944127320, 12182527387764416033], [10039723232229819975, 10039723232229819975, 10554686591937588953, 84, 0, 2, 402, 1, 13110060611322374290, 646772771845179972, 2045898031935137119], [14027581762467160941, 14027581762467160941, 15308085513773655218, 92, 0, 2, 8206900633647566924, 0, 13110060611322374290, 16900879642891266615, 5012629990875267006], [398914953151002451, 398914953151002451, 12646065887601541794, 97, 0, 2, 445, -1, 13418647357316071057, 17494803046312582752, 12736066093347293436]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Excellent" />
-      <extra dep="amod" deprel="amod" depth="3" edeps="3:amod" ent_iob="2" ent_type="" feats="Degree=Pos" head="3" lemma="excellent" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Excellent" pos="ADJ" prefix="E" remarks="0.1" shape="Xxxxx" smwe="null" suffix="ent" tag="JJ" upos="ADJ" wmwe="null" word="Excellent" xpos="JJ" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="2" lemma="excellent" orig_paragraph="1" orth="Excellent" pos="ADJ" prefix="E" shape="Xxxxx" suffix="ent" tag="JJ" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="medical" />
-      <extra dep="amod" deprel="amod" depth="3" edeps="3:amod" ent_iob="2" ent_type="" feats="Degree=Pos" head="3" lemma="medical" lextag="B-N-n.ACT" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="medical" pos="ADJ" prefix="m" remarks="0.2" shape="xxxx" smwe="[1, 1]" suffix="cal" tag="JJ" upos="ADJ" wmwe="null" word="medical" xpos="JJ" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="1" lemma="medical" orig_paragraph="1" orth="medical" pos="ADJ" prefix="m" shape="xxxx" suffix="cal" tag="JJ" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="care" />
-      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="care" lextag="I_" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="care" pos="NOUN" prefix="c" remarks="0.3" shape="xxxx" smwe="[1, 2]" suffix="are" tag="NN" upos="NOUN" wmwe="null" word="care" xpos="NN" />
+      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="care" orig_paragraph="1" orth="care" pos="NOUN" prefix="c" shape="xxxx" suffix="are" tag="NN" />
     </node>
     <node ID="0.4" type="Punctuation">
       <attributes paragraph="1" paragraph_position="4" text="!!!!!!" />
-      <extra dep="punct" deprel="punct" depth="3" edeps="3:punct" ent_iob="2" ent_type="" feats="null" head="3" lemma="!!!!!!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="!!!!!!" pos="PUNCT" prefix="!" remarks="0.4" shape="!!!!" smwe="null" suffix="!!!" tag="." upos="PUNCT" wmwe="null" word="!!!!!!" xpos="." />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma="!!!!!!" orig_paragraph="1" orth="!!!!!!" pos="PUNCT" prefix="!" shape="!!!!" suffix="!!!" tag="." />
     </node>
   </layer>
   <layer layerID="1">

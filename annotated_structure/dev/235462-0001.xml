@@ -5,19 +5,19 @@
     <extra doc="[[[506682576345968695, 506682576345968695, 15794550382381185553, 96, 380, 3, 8206900633647566924, 0, 16072095006890171862, 9350754067018752509, 9105855363366617664], [5640369432778651323, 5640369432778651323, 1292078113972184607, 85, 0, 2, 443, -1, 4370460163704169311, 1489474827855109852, 5640369432778651323], [3967420991386264654, 3967420991386264654, 15794550382381185553, 96, 380, 3, 439, -1, 10887629174180191697, 3209455878668673793, 14495111538762983819], [12646065887601541794, 12646065887601541794, 12646065887601541794, 97, 0, 2, 445, -3, 12646065887601541794, 12646065887601541794, 12646065887601541794]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Hobbs" />
-      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="3" ent_type="PERSON" feats="Number=Sing" head="0" lemma="Hobbs" lextag="O-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Hobbs" pos="PROPN" prefix="H" remarks="0.1" shape="Xxxxx" smwe="null" suffix="bbs" tag="NNP" upos="PROPN" wmwe="null" word="Hobbs" xpos="NNP" />
+      <extra dep="ROOT" ent_iob="3" ent_type="PERSON" head="0" lemma="Hobbs" orig_paragraph="1" orth="Hobbs" pos="PROPN" prefix="H" shape="Xxxxx" suffix="bbs" tag="NNP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="on" />
-      <extra config="default" dep="prep" deprel="case" depth="3" edeps="3:case" ent_iob="2" ent_type="" feats="null" gov="1" govlemma="Hobbs" head="3" lemma="on" lexcat="P" lexlemma="on" lextag="O-P-p.Locus" local_gov="1" local_obj="3" local_toknums="2" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" obj="3" objlemma="Mass" orig_paragraph="1" orth="on" pos="ADP" prefix="o" remarks="0.2" shape="xx" smwe="null" ss="p.Locus" ss2="p.Locus" suffix="on" tag="IN" toknums="2" upos="ADP" wmwe="null" word="on" xpos="IN" />
+      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="on" orig_paragraph="1" orth="on" pos="ADP" prefix="o" shape="xx" suffix="on" tag="IN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="Mass" />
-      <extra dep="pobj" deprel="nmod" depth="3" edeps="1:nmod" ent_iob="3" ent_type="PERSON" feats="Number=Sing" head="1" lemma="Mass" lextag="O-N-n.LOCATION" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Mass" pos="PROPN" prefix="M" remarks="0.3" shape="Xxxx" smwe="null" suffix="ass" tag="NNP" upos="PROPN" wmwe="null" word="Mass" xpos="NNP" />
+      <extra dep="pobj" ent_iob="3" ent_type="PERSON" head="-1" lemma="Mass" orig_paragraph="1" orth="Mass" pos="PROPN" prefix="M" shape="Xxxx" suffix="ass" tag="NNP" />
     </node>
     <node ID="0.4" type="Punctuation">
       <attributes paragraph="1" paragraph_position="4" text="." />
-      <extra dep="punct" deprel="punct" depth="3" edeps="1:punct" ent_iob="2" ent_type="" feats="null" head="1" lemma="." lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="." pos="PUNCT" prefix="." remarks="0.4" shape="." smwe="null" suffix="." tag="." upos="PUNCT" wmwe="null" word="." xpos="." />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-3" lemma="." orig_paragraph="1" orth="." pos="PUNCT" prefix="." shape="." suffix="." tag="." />
     </node>
   </layer>
   <layer layerID="1">

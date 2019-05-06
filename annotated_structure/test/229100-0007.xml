@@ -5,23 +5,23 @@
     <extra doc="[[[5927671249132274586, 8004577259940138793, 14200088355797579614, 100, 0, 2, 8206900633647566924, 0, 12204527652707022206, 16829822105563051112, 5927671249132274586], [3791531372978436496, 3791531372978436496, 1292078113972184607, 85, 0, 2, 443, -1, 4370460163704169311, 15369245168918225700, 3791531372978436496], [13725523133364990750, 13725523133364990750, 15794550382381185553, 96, 383, 3, 7037928807040764755, 1, 13862804199789047564, 14862748245026736845, 7684227624186098135], [930343412984996093, 930343412984996093, 15794550382381185553, 96, 383, 1, 439, -2, 13862804199789047564, 14825646868312541310, 9524463762318707933], [4253493419013473486, 4253493419013473486, 12646065887601541794, 97, 0, 2, 445, -4, 4253493419013473486, 17494803046312582752, 4253493419013473486]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Go" />
-      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Mood=Imp|VerbForm=Fin" head="0" lemma="go" lextag="O-V-v.motion" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Go" pos="VERB" prefix="G" remarks="0.41" shape="Xx" smwe="null" suffix="Go" tag="VB" upos="VERB" wmwe="null" word="Go" xpos="VB" />
+      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="go" orig_paragraph="1" orth="Go" pos="VERB" prefix="G" shape="Xx" suffix="Go" tag="VB" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="to" />
-      <extra config="default" dep="prep" deprel="case" depth="4" edeps="4:case" ent_iob="2" ent_type="" feats="null" gov="41" govlemma="go" head="4" lemma="to" lexcat="P" lexlemma="to" lextag="O-P-p.Goal" local_gov="1" local_obj="4" local_toknums="2" misc="null" next_terminal_lower_common_ancestor_category="A" next_terminal_lower_common_ancestor_depth="2" obj="44" objlemma="WIRELESS" orig_paragraph="1" orth="to" pos="ADP" prefix="t" remarks="0.42" shape="xx" smwe="null" ss="p.Goal" ss2="p.Goal" suffix="to" tag="IN" toknums="42" upos="ADP" wmwe="null" word="to" xpos="IN" />
+      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="to" orig_paragraph="1" orth="to" pos="ADP" prefix="t" shape="xx" suffix="to" tag="IN" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="ATLANTIC" />
-      <extra dep="compound" deprel="compound" depth="4" edeps="4:compound" ent_iob="3" ent_type="ORG" feats="Number=Sing" head="4" lemma="ATLANTIC" lextag="B-N-n.GROUP" misc="null" next_terminal_lower_common_ancestor_category="C" next_terminal_lower_common_ancestor_depth="3" orig_paragraph="1" orth="ATLANTIC" pos="PROPN" prefix="A" remarks="0.43" shape="XXXX" smwe="[1, 1]" suffix="TIC" tag="NNP" upos="PROPN" wmwe="null" word="ATLANTIC" xpos="NNP" />
+      <extra dep="compound" ent_iob="3" ent_type="ORG" head="1" lemma="ATLANTIC" orig_paragraph="1" orth="ATLANTIC" pos="PROPN" prefix="A" shape="XXXX" suffix="TIC" tag="NNP" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="WIRELESS" />
-      <extra dep="pobj" deprel="obl" depth="4" edeps="1:obl" ent_iob="1" ent_type="ORG" feats="Number=Sing" head="1" lemma="WIRELESS" lextag="I_" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="WIRELESS" pos="PROPN" prefix="W" remarks="0.44" shape="XXXX" smwe="[1, 2]" suffix="ESS" tag="NNP" upos="PROPN" wmwe="null" word="WIRELESS" xpos="NNP" />
+      <extra dep="pobj" ent_iob="1" ent_type="ORG" head="-2" lemma="WIRELESS" orig_paragraph="1" orth="WIRELESS" pos="PROPN" prefix="W" shape="XXXX" suffix="ESS" tag="NNP" />
     </node>
     <node ID="0.5" type="Punctuation">
       <attributes paragraph="1" paragraph_position="5" text="!!" />
-      <extra dep="punct" deprel="punct" depth="3" edeps="1:punct" ent_iob="2" ent_type="" feats="null" head="1" lemma="!!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="!!" pos="PUNCT" prefix="!" remarks="0.45" shape="!!" smwe="null" suffix="!!" tag="." upos="PUNCT" wmwe="null" word="!!" xpos="." />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-4" lemma="!!" orig_paragraph="1" orth="!!" pos="PUNCT" prefix="!" shape="!!" suffix="!!" tag="." />
     </node>
   </layer>
   <layer layerID="1">

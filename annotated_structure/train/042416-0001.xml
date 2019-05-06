@@ -5,31 +5,31 @@
     <extra doc="[[[17798231790394214103, 17798231790394214103, 16235386156175103506, 100, 0, 2, 405, 2, 12204527652707022206, 149303876845869574, 17798231790394214103], [2043519015752540944, 2043519015752540944, 164681854541413346, 86, 0, 2, 425, 1, 15075103628056407474, 13210364986222294696, 2043519015752540944], [6203382976377178934, 6203382976377178934, 14200088355797579614, 100, 0, 2, 8206900633647566924, 0, 13110060611322374290, 260667111241363922, 12604581822445695189], [3791531372978436496, 3791531372978436496, 5595707737748328492, 94, 0, 2, 405, 1, 4370460163704169311, 15369245168918225700, 3791531372978436496], [8004577259940138793, 8004577259940138793, 14200088355797579614, 100, 0, 2, 450, -2, 4370460163704169311, 6217145520856553898, 8004577259940138793], [15255859468896132977, 15255859468896132977, 164681854541413346, 86, 0, 2, 400, -1, 13110060611322374290, 15598372446745583797, 12794475650786432352], [12736066093347293436, 12736066093347293436, 12646065887601541794, 97, 0, 2, 445, -4, 12736066093347293436, 17494803046312582752, 12736066093347293436]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Ca" />
-      <extra dep="aux" deprel="aux" depth="4" edeps="3:aux" ent_iob="2" ent_type="" feats="VerbForm=Fin" head="3" lemma="can" lextag="B-V-v.cognition" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="P" next_terminal_lower_common_ancestor_depth="2" orig_paragraph="1" orth="Ca" pos="VERB" prefix="C" remarks="0.1" shape="Xx" smwe="[1, 1]" suffix="Ca" tag="MD" upos="AUX" wmwe="null" word="Ca" xpos="MD" />
+      <extra dep="aux" ent_iob="2" ent_type="" head="2" lemma="Ca" orig_paragraph="1" orth="Ca" pos="VERB" prefix="C" shape="Xx" suffix="Ca" tag="MD" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="n't" />
-      <extra dep="neg" deprel="advmod" depth="4" edeps="3:advmod" ent_iob="2" ent_type="" feats="null" head="3" lemma="not" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="n't" pos="ADV" prefix="n" remarks="0.2" shape="x'x" smwe="[1, 2]" suffix="n't" tag="RB" upos="PART" wmwe="null" word="n't" xpos="RB" />
+      <extra dep="neg" ent_iob="2" ent_type="" head="1" lemma="n't" orig_paragraph="1" orth="n't" pos="ADV" prefix="n" shape="x'x" suffix="n't" tag="RB" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="wait" />
-      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="VerbForm=Inf" head="0" lemma="wait" lextag="I_" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="wait" pos="VERB" prefix="w" remarks="0.3" shape="xxxx" smwe="[1, 3]" suffix="ait" tag="VB" upos="VERB" wmwe="null" word="wait" xpos="VB" />
+      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="wait" orig_paragraph="1" orth="wait" pos="VERB" prefix="w" shape="xxxx" suffix="ait" tag="VB" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="to" />
-      <extra dep="aux" deprel="mark" depth="3" edeps="5:mark" ent_iob="2" ent_type="" feats="null" head="5" lemma="to" lextag="O-INF" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="to" pos="PART" prefix="t" remarks="0.4" shape="xx" smwe="null" suffix="to" tag="TO" upos="PART" wmwe="null" word="to" xpos="TO" />
+      <extra dep="aux" ent_iob="2" ent_type="" head="1" lemma="to" orig_paragraph="1" orth="to" pos="PART" prefix="t" shape="xx" suffix="to" tag="TO" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="go" />
-      <extra dep="xcomp" deprel="advcl" depth="3" edeps="3:advcl" ent_iob="2" ent_type="" feats="VerbForm=Inf" head="3" lemma="go" lextag="O-V-v.motion" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="go" pos="VERB" prefix="g" remarks="0.5" shape="xx" smwe="null" suffix="go" tag="VB" upos="VERB" wmwe="null" word="go" xpos="VB" />
+      <extra dep="xcomp" ent_iob="2" ent_type="" head="-2" lemma="go" orig_paragraph="1" orth="go" pos="VERB" prefix="g" shape="xx" suffix="go" tag="VB" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="back" />
-      <extra config="default" dep="advmod" deprel="advmod" depth="3" edeps="5:advmod" ent_iob="2" ent_type="" feats="null" gov="5" govlemma="go" head="5" lemma="back" lexcat="P" lexlemma="back" lextag="O-P-p.Direction" local_gov="5" local_toknums="6" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" obj="null" objlemma="null" orig_paragraph="1" orth="back" pos="ADV" prefix="b" remarks="0.6" shape="xxxx" smwe="null" ss="p.Direction" ss2="p.Direction" suffix="ack" tag="RB" toknums="6" upos="ADV" wmwe="null" word="back" xpos="RB" />
+      <extra dep="advmod" ent_iob="2" ent_type="" head="-1" lemma="back" orig_paragraph="1" orth="back" pos="ADV" prefix="b" shape="xxxx" suffix="ack" tag="RB" />
     </node>
     <node ID="0.7" type="Punctuation">
       <attributes paragraph="1" paragraph_position="7" text="!!!" />
-      <extra dep="punct" deprel="punct" depth="3" edeps="3:punct" ent_iob="2" ent_type="" feats="null" head="3" lemma="!!!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="!!!" pos="PUNCT" prefix="!" remarks="0.7" shape="!!!" smwe="null" suffix="!!!" tag="." upos="PUNCT" wmwe="null" word="!!!" xpos="." />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-4" lemma="!!!" orig_paragraph="1" orth="!!!" pos="PUNCT" prefix="!" shape="!!!" suffix="!!!" tag="." />
     </node>
   </layer>
   <layer layerID="1">

@@ -5,19 +5,19 @@
     <extra doc="[[[9335770981443976163, 5711639017775284443, 14753207560692742245, 84, 0, 2, 402, 1, 10887629174180191697, 14230521632333904559, 14619786160612475726], [8630379882048548251, 8630379882048548251, 15794550382381185553, 96, 0, 2, 8206900633647566924, 0, 16072095006890171862, 9391737413944127320, 3477492905443839178], [3002984154512732771, 3002984154512732771, 1292078113972184607, 85, 0, 2, 443, -1, 4370460163704169311, 5097672513440128799, 3002984154512732771], [12541434741053510173, 12541434741053510173, 15794550382381185553, 96, 384, 3, 439, -1, 16072095006890171862, 9148987913859918431, 14431812100313486463]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Best" />
-      <extra dep="amod" deprel="amod" depth="3" edeps="2:amod" ent_iob="2" ent_type="" feats="Degree=Sup" head="2" lemma="best" lextag="O-ADJ" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Best" pos="ADJ" prefix="B" remarks="0.1" shape="Xxxx" smwe="null" suffix="est" tag="JJS" upos="ADJ" wmwe="null" word="Best" xpos="JJS" />
+      <extra dep="amod" ent_iob="2" ent_type="" head="1" lemma="good" orig_paragraph="1" orth="Best" pos="ADJ" prefix="B" shape="Xxxx" suffix="est" tag="JJS" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="Electrician" />
-      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Number=Sing" head="0" lemma="electrician" lextag="O-N-n.PERSON" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Electrician" pos="PROPN" prefix="E" remarks="0.2" shape="Xxxxx" smwe="null" suffix="ian" tag="NNP" upos="NOUN" wmwe="null" word="Electrician" xpos="NN" />
+      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="Electrician" orig_paragraph="1" orth="Electrician" pos="PROPN" prefix="E" shape="Xxxxx" suffix="ian" tag="NNP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="in" />
-      <extra config="default" dep="prep" deprel="case" depth="4" edeps="4:case" ent_iob="2" ent_type="" feats="null" gov="2" govlemma="electrician" head="4" lemma="in" lexcat="P" lexlemma="in" lextag="O-P-p.Locus" local_gov="2" local_obj="4" local_toknums="3" misc="null" next_terminal_lower_common_ancestor_category="D" next_terminal_lower_common_ancestor_depth="2" obj="4" objlemma="Florence" orig_paragraph="1" orth="in" pos="ADP" prefix="i" remarks="0.3" shape="xx" smwe="null" ss="p.Locus" ss2="p.Locus" suffix="in" tag="IN" toknums="3" upos="ADP" wmwe="null" word="in" xpos="IN" />
+      <extra dep="prep" ent_iob="2" ent_type="" head="-1" lemma="in" orig_paragraph="1" orth="in" pos="ADP" prefix="i" shape="xx" suffix="in" tag="IN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="Florence" />
-      <extra dep="pobj" deprel="nmod" depth="4" edeps="2:nmod" ent_iob="3" ent_type="GPE" feats="Number=Sing" head="2" lemma="Florence" lextag="O-N-n.LOCATION" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="Florence" pos="PROPN" prefix="F" remarks="0.4" shape="Xxxxx" smwe="null" suffix="nce" tag="NNP" upos="PROPN" wmwe="null" word="Florence" xpos="NNP" />
+      <extra dep="pobj" ent_iob="3" ent_type="GPE" head="-1" lemma="Florence" orig_paragraph="1" orth="Florence" pos="PROPN" prefix="F" shape="Xxxxx" suffix="nce" tag="NNP" />
     </node>
   </layer>
   <layer layerID="1">

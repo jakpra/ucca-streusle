@@ -5,23 +5,23 @@
     <extra doc="[[[4690420944186131903, 561228191312463089, 13656873538139661788, 95, 0, 2, 429, 1, 101, 4690420944186131903, 4690420944186131903], [18437031736592595799, 3702023516439754181, 9188597074677201817, 100, 0, 2, 8206900633647566924, 0, 13862804199789047564, 10603054956214495369, 8545482539346127626], [13580288687473188769, 227504873216781231, 4062917326063685704, 90, 0, 2, 440, 1, 14968597813295776895, 3209455878668673793, 13580288687473188769], [3168443199658469816, 3168443199658469816, 15794550382381185553, 96, 0, 2, 416, -2, 3552942401566437853, 16829822105563051112, 3168443199658469816], [17494803046312582752, 17494803046312582752, 12646065887601541794, 97, 0, 2, 445, -3, 17494803046312582752, 17494803046312582752, 17494803046312582752]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="I" />
-      <extra dep="nsubj" deprel="nsubj" depth="3" edeps="2:nsubj" ent_iob="2" ent_type="" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="2" lemma="I" lextag="O-PRON" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="I" pos="PRON" prefix="I" remarks="0.1" shape="X" smwe="null" suffix="I" tag="PRP" upos="PRON" wmwe="null" word="I" xpos="PRP" />
+      <extra dep="nsubj" ent_iob="2" ent_type="" head="1" lemma="-PRON-" orig_paragraph="1" orth="I" pos="PRON" prefix="I" shape="X" suffix="I" tag="PRP" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="LOVE" />
-      <extra dep="ROOT" deprel="root" depth="3" edeps="0:root" ent_iob="2" ent_type="" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" lemma="love" lextag="O-V-v.emotion" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="LOVE" pos="VERB" prefix="L" remarks="0.2" shape="XXXX" smwe="null" suffix="OVE" tag="VBP" upos="VERB" wmwe="null" word="LOVE" xpos="VBP" />
+      <extra dep="ROOT" ent_iob="2" ent_type="" head="0" lemma="love" orig_paragraph="1" orth="LOVE" pos="VERB" prefix="L" shape="XXXX" suffix="OVE" tag="VBP" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="MY" />
-      <extra config="possessive" dep="poss" deprel="nmod:poss" depth="5" edeps="4:nmod:poss" ent_iob="2" ent_type="" feats="Number=Sing|Person=1|Poss=Yes|PronType=Prs" gov="4" govlemma="gym" head="4" lemma="my" lexcat="PRON.POSS" lexlemma="my" lextag="O-PRON.POSS-p.OrgRole|p.Gestalt" local_gov="4" local_toknums="3" misc="null" next_terminal_lower_common_ancestor_category="E" next_terminal_lower_common_ancestor_depth="3" obj="null" objlemma="null" orig_paragraph="1" orth="MY" pos="DET" prefix="M" remarks="0.3" shape="XX" smwe="null" ss="p.OrgRole" ss2="p.Gestalt" suffix="MY" tag="PRP$" toknums="3" upos="PRON" wmwe="null" word="MY" xpos="PRP$" />
+      <extra dep="poss" ent_iob="2" ent_type="" head="1" lemma="my" orig_paragraph="1" orth="MY" pos="DET" prefix="M" shape="XX" suffix="MY" tag="PRP$" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="GYM" />
-      <extra dep="dobj" deprel="obj" depth="4" edeps="2:obj" ent_iob="2" ent_type="" feats="Number=Sing" head="2" lemma="gym" lextag="O-N-n.GROUP" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="GYM" pos="PROPN" prefix="G" remarks="0.4" shape="XXX" smwe="null" suffix="GYM" tag="NNP" upos="NOUN" wmwe="null" word="GYM" xpos="NN" />
+      <extra dep="dobj" ent_iob="2" ent_type="" head="-2" lemma="GYM" orig_paragraph="1" orth="GYM" pos="PROPN" prefix="G" shape="XXX" suffix="GYM" tag="NNP" />
     </node>
     <node ID="0.5" type="Punctuation">
       <attributes paragraph="1" paragraph_position="5" text="!" />
-      <extra dep="punct" deprel="punct" depth="3" edeps="2:punct" ent_iob="2" ent_type="" feats="null" head="2" lemma="!" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" remarks="0.5" shape="!" smwe="null" suffix="!" tag="." upos="PUNCT" wmwe="null" word="!" xpos="." />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-3" lemma="!" orig_paragraph="1" orth="!" pos="PUNCT" prefix="!" shape="!" suffix="!" tag="." />
     </node>
   </layer>
   <layer layerID="1">

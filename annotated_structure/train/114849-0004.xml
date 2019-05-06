@@ -5,19 +5,19 @@
     <extra doc="[[[6688763332587958774, 6688763332587958774, 15794550382381185553, 96, 380, 3, 8206900633647566924, 0, 16072095006890171862, 3929483993944067416, 13187833749459691974], [12638816674900267446, 12638816674900267446, 17111077179131903759, 97, 0, 2, 445, 1, 12638816674900267446, 12638816674900267446, 12638816674900267446], [17234646626012525202, 17234646626012525202, 15794550382381185553, 96, 384, 3, 403, -2, 16072095006890171862, 14862748245026736845, 5700881407479370692], [3842344029291005339, 3842344029291005339, 2465883113906300949, 97, 0, 2, 445, -1, 3842344029291005339, 3842344029291005339, 3842344029291005339]]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Danny" />
-      <extra dep="ROOT" deprel="root" depth="2" edeps="0:root" ent_iob="3" ent_type="PERSON" feats="Number=Sing" head="0" lemma="Danny" lextag="O-N-n.PERSON" misc="null" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Danny" pos="PROPN" prefix="D" remarks="0.74" shape="Xxxxx" smwe="null" suffix="nny" tag="NNP" upos="PROPN" wmwe="null" word="Danny" xpos="NNP" />
+      <extra dep="ROOT" ent_iob="3" ent_type="PERSON" head="0" lemma="Danny" orig_paragraph="1" orth="Danny" pos="PROPN" prefix="D" shape="Xxxxx" suffix="nny" tag="NNP" />
     </node>
     <node ID="0.2" type="Punctuation">
       <attributes paragraph="1" paragraph_position="2" text="(" />
-      <extra dep="punct" deprel="punct" depth="2" edeps="3:punct" ent_iob="2" ent_type="" feats="null" head="3" lemma="(" lextag="O-PUNCT" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="(" pos="PUNCT" prefix="(" remarks="0.75" shape="(" smwe="null" suffix="(" tag="-LRB-" upos="PUNCT" wmwe="null" word="(" xpos="-LRB-" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="1" lemma="(" orig_paragraph="1" orth="(" pos="PUNCT" prefix="(" shape="(" suffix="(" tag="-LRB-" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="Australia" />
-      <extra dep="appos" deprel="parataxis" depth="2" edeps="1:parataxis" ent_iob="3" ent_type="GPE" feats="Number=Sing" head="1" lemma="Australia" lextag="O-N-n.LOCATION" misc="SpaceAfter=No" next_terminal_lower_common_ancestor_category="H" next_terminal_lower_common_ancestor_depth="1" orig_paragraph="1" orth="Australia" pos="PROPN" prefix="A" remarks="0.76" shape="Xxxxx" smwe="null" suffix="lia" tag="NNP" upos="PROPN" wmwe="null" word="Australia" xpos="NNP" />
+      <extra dep="appos" ent_iob="3" ent_type="GPE" head="-2" lemma="Australia" orig_paragraph="1" orth="Australia" pos="PROPN" prefix="A" shape="Xxxxx" suffix="lia" tag="NNP" />
     </node>
     <node ID="0.4" type="Punctuation">
       <attributes paragraph="1" paragraph_position="4" text=")" />
-      <extra dep="punct" deprel="punct" depth="2" edeps="3:punct" ent_iob="2" ent_type="" feats="null" head="3" lemma=")" lextag="O-PUNCT" misc="null" next_terminal_lower_common_ancestor_category="null" next_terminal_lower_common_ancestor_depth="0" orig_paragraph="1" orth=")" pos="PUNCT" prefix=")" remarks="0.77" shape=")" smwe="null" suffix=")" tag="-RRB-" upos="PUNCT" wmwe="null" word=")" xpos="-RRB-" />
+      <extra dep="punct" ent_iob="2" ent_type="" head="-1" lemma=")" orig_paragraph="1" orth=")" pos="PUNCT" prefix=")" shape=")" suffix=")" tag="-RRB-" />
     </node>
   </layer>
   <layer layerID="1">
