@@ -225,9 +225,9 @@
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.51" tree_id="8-4" />
-      <edge toID="1.12" type="A">
+      <edge toID="1.12" type="A:p.Originator">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
+        <category tag="A:p.Originator" />
       </edge>
       <edge toID="1.13" type="P">
         <attributes />
@@ -237,9 +237,9 @@
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.52" tree_id="8-4-1" />
-      <edge toID="0.18" type="Terminal:p.Originator">
+      <edge toID="0.18" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.13" type="FN">
@@ -313,9 +313,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.37" tree_id="5-4" />
-      <edge toID="1.22" type="E">
+      <edge toID="1.22" type="E:p.Circumstance">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="E" />
+        <category tag="E:p.Circumstance" />
       </edge>
       <edge toID="1.23" type="E">
         <attributes />
@@ -329,9 +329,9 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.38" tree_id="5-4-1" />
-      <edge toID="0.6" type="Terminal:p.Circumstance">
+      <edge toID="0.6" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Circumstance" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.23" type="FN">

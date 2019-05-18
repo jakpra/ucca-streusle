@@ -41,9 +41,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.5" type="S">
+      <edge toID="1.5" type="S:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="S:p.Locus" />
       </edge>
     </node>
     <node ID="1.3" type="PNCT">
@@ -65,9 +65,9 @@
         <attributes />
         <category tag="Terminal" />
       </edge>
-      <edge toID="0.2" type="Terminal:p.Locus">
+      <edge toID="0.2" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
       <edge toID="0.3" type="Terminal">
         <attributes />

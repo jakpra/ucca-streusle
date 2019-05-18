@@ -121,9 +121,9 @@
         <attributes />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
       </edge>
-      <edge toID="1.10" type="A">
+      <edge toID="1.10" type="A:p.Goal">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
+        <category tag="A:p.Goal" />
       </edge>
     </node>
     <node ID="1.5" type="PNCT">
@@ -169,9 +169,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.201" tree_id="31-5" />
-      <edge toID="0.11" type="Terminal:p.Goal">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Goal" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">

@@ -165,9 +165,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.38" tree_id="4-5-1" />
-      <edge toID="1.14" type="R">
+      <edge toID="1.14" type="R:p.StartTime">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.StartTime" />
       </edge>
       <edge toID="1.15" type="C">
         <attributes />
@@ -205,9 +205,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.39" tree_id="4-5-1-1" />
-      <edge toID="0.8" type="Terminal:p.StartTime">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.StartTime" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.15" type="FN">

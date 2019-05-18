@@ -313,9 +313,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
       </edge>
-      <edge toID="1.29" type="A">
+      <edge toID="1.29" type="A:p.Experiencer">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
+        <category tag="A:p.Experiencer" />
       </edge>
       <edge toID="1.30" type="S">
         <attributes />
@@ -345,9 +345,9 @@
         <attributes />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
       </edge>
-      <edge toID="1.25" type="F">
+      <edge toID="1.25" type="F:p.Characteristic">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="F" />
+        <category tag="F:p.Characteristic" />
       </edge>
       <edge toID="1.26" type="P">
         <attributes />
@@ -365,9 +365,9 @@
     <node ID="1.25" type="FN">
       <attributes />
       <extra remarks="1.31" tree_id="5-3-3-2" />
-      <edge toID="0.7" type="Terminal:p.Characteristic">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Characteristic" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.26" type="FN">
@@ -385,25 +385,25 @@
         <attributes remote="True" />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="C" />
       </edge>
-      <edge toID="1.28" type="R">
+      <edge toID="1.28" type="R:p.Originator">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Originator" />
       </edge>
     </node>
     <node ID="1.28" type="FN">
       <attributes />
       <extra remarks="1.34" tree_id="5-3-3-4-2" />
-      <edge toID="0.9" type="Terminal:p.Originator">
+      <edge toID="0.9" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.29" type="FN">
       <attributes />
       <extra remarks="1.24" tree_id="5-3-1-1" />
-      <edge toID="0.3" type="Terminal:p.Experiencer">
+      <edge toID="0.3" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Experiencer" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.30" type="FN">

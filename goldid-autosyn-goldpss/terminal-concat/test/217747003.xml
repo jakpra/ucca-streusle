@@ -137,9 +137,9 @@
     <node ID="1.7" type="FN">
       <attributes />
       <extra remarks="1.40" tree_id="4-5" />
-      <edge toID="1.13" type="R">
+      <edge toID="1.13" type="R:p.Originator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Originator" />
       </edge>
       <edge toID="1.14" type="C">
         <attributes />
@@ -149,9 +149,9 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.43" tree_id="4-6" />
-      <edge toID="1.9" type="R">
+      <edge toID="1.9" type="R:p.Recipient">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Recipient" />
       </edge>
       <edge toID="1.10" type="C">
         <attributes />
@@ -169,9 +169,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.44" tree_id="4-6-1" />
-      <edge toID="0.10" type="Terminal:p.Recipient">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Recipient" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.10" type="FN">
@@ -201,9 +201,9 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.41" tree_id="4-5-1" />
-      <edge toID="0.8" type="Terminal:p.Originator">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.14" type="FN">
@@ -261,10 +261,10 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.21" type="A">
+      <edge toID="1.21" type="A:p.SocialRel">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="A:p.SocialRel" />
+        <category tag="S:p.SocialRel" />
       </edge>
     </node>
     <node ID="1.20" type="FN">
@@ -278,9 +278,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.32" tree_id="4-1-1-1-1" />
-      <edge toID="0.1" type="Terminal:p.SocialRel">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.SocialRel" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

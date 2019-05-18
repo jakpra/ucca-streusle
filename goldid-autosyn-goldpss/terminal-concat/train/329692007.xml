@@ -65,9 +65,9 @@
         <attributes />
         <category tag="F" />
       </edge>
-      <edge toID="1.6" type="A">
+      <edge toID="1.6" type="A:p.Agent">
         <attributes />
-        <category tag="A" />
+        <category tag="A:p.Agent" />
       </edge>
       <edge toID="1.7" type="D">
         <attributes />
@@ -109,9 +109,9 @@
     <node ID="1.6" type="FN">
       <attributes />
       <extra remarks="1.126" />
-      <edge toID="0.3" type="Terminal:p.Agent">
+      <edge toID="0.3" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.7" type="FN">
@@ -133,9 +133,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.129" />
-      <edge toID="1.10" type="R">
+      <edge toID="1.10" type="R:p.Goal">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Goal" />
       </edge>
       <edge toID="1.11" type="E">
         <attributes />
@@ -149,9 +149,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.130" />
-      <edge toID="0.6" type="Terminal:p.Goal">
+      <edge toID="0.6" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Goal" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">
@@ -161,10 +161,10 @@
         <attributes remote="True" />
         <category tag="A" />
       </edge>
-      <edge toID="1.13" type="S">
+      <edge toID="1.13" type="S:p.OrgRole">
         <attributes />
-        <category tag="S" />
-        <category tag="A" />
+        <category tag="S:p.OrgRole" />
+        <category tag="A:p.OrgRole" />
       </edge>
     </node>
     <node ID="1.12" type="FN">
@@ -178,9 +178,9 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.132" />
-      <edge toID="0.7" type="Terminal:p.OrgRole">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.OrgRole" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

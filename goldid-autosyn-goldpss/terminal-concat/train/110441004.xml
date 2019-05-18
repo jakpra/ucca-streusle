@@ -121,9 +121,9 @@
         <attributes />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="D" />
       </edge>
-      <edge toID="1.8" type="F">
+      <edge toID="1.8" type="F:p.Circumstance">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="F" />
+        <category tag="F:p.Circumstance" />
       </edge>
       <edge toID="1.9" type="P">
         <attributes />
@@ -165,9 +165,9 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.62" tree_id="9-5" />
-      <edge toID="0.12" type="Terminal:p.Circumstance">
+      <edge toID="0.12" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Circumstance" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.9" type="FN">
@@ -209,9 +209,9 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.53" tree_id="7-4" />
-      <edge toID="1.14" type="R">
+      <edge toID="1.14" type="R:p.Frequency">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Frequency" />
       </edge>
       <edge toID="1.15" type="F">
         <attributes />
@@ -229,9 +229,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.54" tree_id="7-4-1" />
-      <edge toID="0.5" type="Terminal:p.Frequency">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Frequency" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.15" type="FN">

@@ -185,9 +185,9 @@
         <attributes />
         <category tag="H" />
       </edge>
-      <edge toID="1.8" type="L">
+      <edge toID="1.8" type="L:p.Source">
         <attributes />
-        <category tag="L" />
+        <category tag="L:p.Source" />
       </edge>
       <edge toID="1.9" type="H">
         <attributes />
@@ -201,17 +201,17 @@
         <attributes />
         <category tag="H" />
       </edge>
-      <edge toID="1.12" type="L">
+      <edge toID="1.12" type="L:p.Explanation">
         <attributes />
-        <category tag="L" />
+        <category tag="L:p.Explanation" />
       </edge>
       <edge toID="1.13" type="H">
         <attributes />
         <category tag="H" />
       </edge>
-      <edge toID="1.14" type="L">
+      <edge toID="1.14" type="L:p.Source">
         <attributes />
-        <category tag="L" />
+        <category tag="L:p.Source" />
       </edge>
       <edge toID="1.15" type="H">
         <attributes />
@@ -297,9 +297,9 @@
         <attributes />
         <category tag="P" />
       </edge>
-      <edge toID="1.43" type="D">
+      <edge toID="1.43" type="D:p.Direction">
         <attributes />
-        <category tag="D" />
+        <category tag="D:p.Direction" />
       </edge>
       <edge toID="1.44" type="T">
         <attributes />
@@ -309,9 +309,9 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.109" />
-      <edge toID="0.15" type="Terminal:p.Source">
+      <edge toID="0.15" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Source" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.9" type="FN">
@@ -357,9 +357,9 @@
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.124" />
-      <edge toID="0.27" type="Terminal:p.Explanation">
+      <edge toID="0.27" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Explanation" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.13" type="FN">
@@ -381,17 +381,17 @@
         <attributes />
         <category tag="P" />
       </edge>
-      <edge toID="1.27" type="D">
+      <edge toID="1.27" type="D:p.Direction">
         <attributes />
-        <category tag="D" />
+        <category tag="D:p.Direction" />
       </edge>
     </node>
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.133" />
-      <edge toID="0.34" type="Terminal:p.Source">
+      <edge toID="0.34" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Source" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.15" type="FN">
@@ -437,9 +437,9 @@
         <attributes />
         <category tag="C" />
       </edge>
-      <edge toID="1.22" type="F">
+      <edge toID="1.22" type="F:p.Locus">
         <attributes />
-        <category tag="F" />
+        <category tag="F:p.Locus" />
       </edge>
     </node>
     <node ID="1.20" type="FN">
@@ -461,9 +461,9 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.138" />
-      <edge toID="0.37" type="Terminal:p.Locus">
+      <edge toID="0.37" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.23" type="FN">
@@ -505,9 +505,9 @@
     <node ID="1.27" type="FN">
       <attributes />
       <extra remarks="1.132" />
-      <edge toID="0.33" type="Terminal:p.Direction">
+      <edge toID="0.33" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Direction" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.28" type="FN">
@@ -593,9 +593,9 @@
         <attributes />
         <category tag="F" />
       </edge>
-      <edge toID="1.39" type="C">
+      <edge toID="1.39" type="C:p.Locus">
         <attributes />
-        <category tag="C" />
+        <category tag="C:p.Locus" />
       </edge>
     </node>
     <node ID="1.38" type="FN">
@@ -613,9 +613,9 @@
         <attributes />
         <category tag="Terminal" />
       </edge>
-      <edge toID="0.18" type="Terminal:p.Locus">
+      <edge toID="0.18" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.40" type="FN">
@@ -645,9 +645,9 @@
     <node ID="1.43" type="FN">
       <attributes />
       <extra remarks="1.107" />
-      <edge toID="0.13" type="Terminal:p.Direction">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Direction" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.44" type="FN">

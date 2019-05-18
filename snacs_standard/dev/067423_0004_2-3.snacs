@@ -1,0 +1,72 @@
+<root annotationID="0" passageID="067423_0004_2-3">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Everyone" />
+      <extra deprel="nsubj" edeps="6:nsubj" feats="Number=Sing" head="6" identified_for_pss="False" ind="1" is_part_of_mwe="False" lemma="everyone" lexcat="PRON" lexlemma="everyone" lextag="O-PRON" misc="null" smwe="null" ss="False" upos="PRON" wmwe="null" word="Everyone" xpos="NN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="on" />
+      <extra config="default" deprel="case" edeps="3:case" feats="null" gov="29" govlemma="everyone" head="3" identified_for_pss="True" ind="2" is_part_of_mwe="True" lemma="on" lexcat="PP" lexlemma="on staff" lextag="B-PP-p.OrgRole|p.Locus" local_gov="1" local_obj="3" misc="null" obj="31" objlemma="staff" smwe="[1, 1]" ss="False" upos="ADP" wmwe="null" word="on" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="staff" />
+      <extra config="default" deprel="nmod" edeps="1:nmod" feats="Number=Sing" gov="29" govlemma="everyone" head="1" identified_for_pss="True" ind="3" is_part_of_mwe="True" lemma="staff" lexcat="PP" lexlemma="on staff" lextag="I_" local_gov="1" local_obj="3" misc="null" obj="31" objlemma="staff" smwe="[1, 2]" ss="False" upos="NOUN" wmwe="null" word="staff" xpos="NN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="p.OrgRole">
+        <attributes />
+        <category tag="p.OrgRole" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

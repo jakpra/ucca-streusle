@@ -1,0 +1,103 @@
+<root annotationID="0" passageID="368431000">
+  <attributes annotationID="2537" passageID="669" userID="26" />
+  <extra format="find_refined" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Ray" />
+      <extra deprel="nmod:poss" edeps="3:nmod:poss" feats="Number=Sing" head="3" identified_for_pss="False" is_part_of_mwe="True" lemma="Ray" lexcat="A" lexlemma="Ray 's pizza" lextag="B-N-n.GROUP" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.1" smwe="[1, 1]" upos="PROPN" wmwe="null" word="Ray" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="'s" />
+      <extra deprel="case" edeps="1:case" feats="null" head="1" identified_for_pss="False" is_part_of_mwe="True" lemma="'s" lexcat="A" lexlemma="Ray 's pizza" lextag="I_" misc="null" orig_paragraph="1" remarks="0.2" smwe="[1, 2]" upos="PART" wmwe="null" word="'s" xpos="POS" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="pizza" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" identified_for_pss="False" is_part_of_mwe="True" lemma="pizza" lexcat="A" lexlemma="Ray 's pizza" lextag="I_" misc="null" orig_paragraph="1" remarks="0.3" smwe="[1, 3]" upos="PROPN" wmwe="null" word="pizza" xpos="NNP" />
+    </node>
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text=":" />
+      <extra deprel="punct" edeps="3:punct" feats="null" head="3" identified_for_pss="False" is_part_of_mwe="False" lemma=":" lexcat="U" lexlemma=":" lextag="O-PUNCT" misc="null" orig_paragraph="1" remarks="0.4" smwe="null" upos="PUNCT" wmwe="null" word=":" xpos=":" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="my" />
+      <extra config="possessive" deprel="nmod:poss" edeps="6:nmod:poss" feats="Number=Sing|Person=1|Poss=Yes|PronType=Prs" gov="6" govlemma="favorite" head="6" identified_for_pss="True" is_part_of_mwe="False" lemma="my" lexcat="A" lexlemma="my" lextag="O-PRON.POSS-p.Experiencer|p.Gestalt" local_gov="6" local_toknums="5" misc="null" obj="null" objlemma="null" orig_paragraph="1" remarks="0.5" smwe="null" ss="p.Experiencer" ss2="p.Gestalt" toknums="5" upos="PRON" wmwe="null" word="my" xpos="PRP$" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="favorite" />
+      <extra deprel="appos" edeps="3:appos" feats="Number=Sing" head="3" identified_for_pss="False" is_part_of_mwe="False" lemma="favorite" lexcat="S" lexlemma="favorite" lextag="O-N-n.COGNITION" misc="null" orig_paragraph="1" remarks="0.6" smwe="null" upos="NOUN" wmwe="null" word="favorite" xpos="NN" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.2" tree_id="1" />
+      <edge toID="1.3" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.4" type="True">
+        <attributes />
+        <category tag="True" />
+      </edge>
+      <edge toID="1.5" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.6" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <extra remarks="1.3" tree_id="1-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra remarks="1.4" tree_id="1-2" />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra remarks="1.5" tree_id="1-3" />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="PNCT">
+      <attributes />
+      <extra remarks="1.44" />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -185,13 +185,13 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.85" tree_id="18-3-2-4" />
-      <edge toID="1.14" type="R">
+      <edge toID="1.14" type="R:p.Interval">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Interval" />
       </edge>
-      <edge toID="1.15" type="R">
+      <edge toID="1.15" type="R:p.Time">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Time" />
       </edge>
       <edge toID="1.16" type="F">
         <attributes />
@@ -205,17 +205,17 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.86" tree_id="18-3-2-4-1" />
-      <edge toID="0.8" type="Terminal:p.Interval">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Interval" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.87" tree_id="18-3-2-4-2" />
-      <edge toID="0.9" type="Terminal:p.Time">
+      <edge toID="0.9" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Time" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.16" type="FN">

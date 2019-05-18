@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="192713_0002_11-11">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="walked" />
+      <extra deprel="advcl" edeps="2:advcl" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="2" identified_for_pss="False" ind="10" is_part_of_mwe="False" lemma="walk" lexcat="V" lexlemma="walk" lextag="O-V-v.motion" misc="null" smwe="null" ss="False" upos="VERB" wmwe="null" word="walked" xpos="VBD" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="through" />
+      <extra config="default" deprel="case" edeps="14:case" feats="null" gov="19" govlemma="walk" head="14" identified_for_pss="True" ind="11" is_part_of_mwe="False" lemma="through" lexcat="P" lexlemma="through" lextag="O-P-p.Path" local_gov="10" local_obj="14" misc="null" obj="23" objlemma="field" smwe="null" ss="False" upos="ADP" wmwe="null" word="through" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="fields" />
+      <extra deprel="obl" edeps="10:obl" feats="Number=Plur" head="10" identified_for_pss="False" ind="14" is_part_of_mwe="False" lemma="field" lexcat="N" lexlemma="field" lextag="O-N-n.NATURALOBJECT" misc="null" smwe="null" ss="False" upos="NOUN" wmwe="null" word="fields" xpos="NNS" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Path">
+        <attributes />
+        <category tag="p.Path" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

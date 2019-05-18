@@ -197,13 +197,13 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.47" tree_id="6-5" />
-      <edge toID="1.11" type="R">
+      <edge toID="1.11" type="R:p.Circumstance">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Circumstance" />
       </edge>
-      <edge toID="1.12" type="A">
+      <edge toID="1.12" type="A:p.Originator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Originator" />
       </edge>
       <edge toID="1.13" type="P">
         <attributes />
@@ -213,17 +213,17 @@
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.48" tree_id="6-5-1" />
-      <edge toID="0.16" type="Terminal:p.Circumstance">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Circumstance" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.49" tree_id="6-5-2" />
-      <edge toID="0.17" type="Terminal:p.Originator">
+      <edge toID="0.17" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.13" type="FN">

@@ -133,17 +133,17 @@
     <node ID="1.7" type="FN">
       <attributes />
       <extra remarks="1.86" tree_id="16-3" />
-      <edge toID="1.8" type="R">
+      <edge toID="1.8" type="R:p.Experiencer">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Experiencer" />
       </edge>
       <edge toID="1.9" type="Q">
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="Q" />
       </edge>
-      <edge toID="1.10" type="F">
+      <edge toID="1.10" type="F:p.Quantity">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
+        <category tag="F:p.Quantity" />
       </edge>
       <edge toID="1.11" type="C">
         <attributes />
@@ -157,9 +157,9 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.87" tree_id="16-3-1" />
-      <edge toID="0.8" type="Terminal:p.Experiencer">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Experiencer" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.9" type="FN">
@@ -173,9 +173,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.89" tree_id="16-3-3" />
-      <edge toID="0.10" type="Terminal:p.Quantity">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">

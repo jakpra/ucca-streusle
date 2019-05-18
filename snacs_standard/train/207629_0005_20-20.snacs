@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="207629_0005_20-20">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="interests" />
+      <extra config="predicative" deprel="conj" edeps="4:conj" feats="Number=Plur" gov="125" govlemma="test" head="4" identified_for_pss="False" ind="19" is_part_of_mwe="True" lemma="interest" lexcat="PP" lexlemma="in the best interest" lextag="I_" local_gov="9" local_obj="19" misc="null" obj="135" objlemma="interest" smwe="[2, 4]" ss="False" upos="NOUN" wmwe="null" word="interests" xpos="NNS" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="of" />
+      <extra config="default" deprel="case" edeps="21:case" feats="null" gov="135" govlemma="interest" head="21" identified_for_pss="True" ind="20" is_part_of_mwe="False" lemma="of" lexcat="P" lexlemma="of" lextag="O-P-p.Gestalt" local_gov="19" local_obj="21" misc="null" obj="137" objlemma="we" smwe="null" ss="False" upos="ADP" wmwe="null" word="of" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="us" />
+      <extra deprel="nmod" edeps="19:nmod" feats="Case=Acc|Number=Plur|Person=1|PronType=Prs" head="19" identified_for_pss="False" ind="21" is_part_of_mwe="False" lemma="we" lexcat="PRON" lexlemma="we" lextag="O-PRON" misc="null" smwe="null" ss="False" upos="PRON" wmwe="null" word="us" xpos="PRP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Gestalt">
+        <attributes />
+        <category tag="p.Gestalt" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

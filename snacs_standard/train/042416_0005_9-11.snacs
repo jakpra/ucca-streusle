@@ -1,0 +1,80 @@
+<root annotationID="0" passageID="042416_0005_9-11">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Sue" />
+      <extra deprel="obl" edeps="4:obl" feats="Number=Sing" head="4" identified_for_pss="False" ind="13" is_part_of_mwe="False" lemma="Sue" lexcat="N" lexlemma="Sue" lextag="O-N-n.PERSON" misc="null" smwe="null" ss="False" upos="PROPN" wmwe="null" word="Sue" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="in" />
+      <extra config="default" deprel="case" edeps="11:case" feats="null" gov="74" govlemma="Sue" head="11" identified_for_pss="True" ind="9" is_part_of_mwe="True" lemma="in" lexcat="PP" lexlemma="in large part" lextag="B-PP-p.Extent" local_gov="13" local_obj="11" misc="null" obj="72" objlemma="part" smwe="[2, 1]" ss="False" upos="ADP" wmwe="[4, 1]" word="in" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="large" />
+      <extra config="default" deprel="amod" edeps="11:amod" feats="Degree=Pos" gov="74" govlemma="Sue" head="11" identified_for_pss="True" ind="10" is_part_of_mwe="True" lemma="large" lexcat="PP" lexlemma="in large part" lextag="I_" local_gov="13" local_obj="11" misc="null" obj="72" objlemma="part" smwe="[2, 2]" ss="False" upos="ADJ" wmwe="[4, 2]" word="large" xpos="JJ" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="part" />
+      <extra config="default" deprel="nmod" edeps="13:nmod" feats="Number=Sing" gov="74" govlemma="Sue" head="13" identified_for_pss="True" ind="11" is_part_of_mwe="True" lemma="part" lexcat="PP" lexlemma="in large part" lextag="I_" local_gov="13" local_obj="11" misc="null" obj="72" objlemma="part" smwe="[2, 3]" ss="False" upos="NOUN" wmwe="[4, 3]" word="part" xpos="NN" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="p.Extent">
+        <attributes />
+        <category tag="p.Extent" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

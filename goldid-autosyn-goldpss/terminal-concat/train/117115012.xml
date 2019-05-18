@@ -197,9 +197,9 @@
         <attributes />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="C" />
       </edge>
-      <edge toID="1.14" type="R">
+      <edge toID="1.14" type="R:p.SocialRel">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.SocialRel" />
       </edge>
     </node>
     <node ID="1.11" type="FN">
@@ -229,9 +229,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.310" tree_id="41-4-1-2" />
-      <edge toID="0.15" type="Terminal:p.SocialRel">
+      <edge toID="0.15" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.SocialRel" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.15" type="FN">
@@ -281,9 +281,9 @@
     <node ID="1.20" type="FN">
       <attributes />
       <extra remarks="1.298" tree_id="39-4-2" />
-      <edge toID="1.21" type="R">
+      <edge toID="1.21" type="R:p.Part/Portion">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Part/Portion" />
       </edge>
       <edge toID="1.22" type="E">
         <attributes />
@@ -297,9 +297,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.299" tree_id="39-4-2-1" />
-      <edge toID="0.5" type="Terminal:p.Part/Portion">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Part/Portion" />
+        <category tag="Terminal" />
       </edge>
       <edge toID="0.6" type="Terminal">
         <attributes />

@@ -377,9 +377,9 @@
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.147" />
-      <edge toID="1.18" type="E">
+      <edge toID="1.18" type="E:p.Approximator">
         <attributes />
-        <category tag="E" />
+        <category tag="E:p.Approximator" />
       </edge>
       <edge toID="1.19" type="C">
         <attributes />
@@ -397,9 +397,9 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.148" />
-      <edge toID="0.28" type="Terminal:p.Approximator">
+      <edge toID="0.28" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Approximator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.19" type="FN">
@@ -421,9 +421,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.151" />
-      <edge toID="1.22" type="R">
+      <edge toID="1.22" type="R:p.Theme">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Theme" />
       </edge>
       <edge toID="1.23" type="F">
         <attributes />
@@ -437,9 +437,9 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.152" />
-      <edge toID="0.31" type="Terminal:p.Theme">
+      <edge toID="0.31" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Theme" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.23" type="FN">

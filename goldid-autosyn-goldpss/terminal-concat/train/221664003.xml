@@ -189,9 +189,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
       </edge>
-      <edge toID="1.11" type="D">
+      <edge toID="1.11" type="D:p.Explanation">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+        <category tag="D:p.Explanation" />
       </edge>
       <edge toID="1.12" type="P">
         <attributes />
@@ -221,9 +221,9 @@
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.78" tree_id="14-3-3" />
-      <edge toID="0.11" type="Terminal:p.Explanation">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Explanation" />
+        <category tag="Terminal" />
       </edge>
       <edge toID="0.12" type="Terminal">
         <attributes />
@@ -245,9 +245,9 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.82" tree_id="14-3-5" />
-      <edge toID="1.14" type="R">
+      <edge toID="1.14" type="R:p.Identity">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Identity" />
       </edge>
       <edge toID="1.15" type="P">
         <attributes />
@@ -257,9 +257,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.17" type="D">
+      <edge toID="1.17" type="D:p.Source">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+        <category tag="D:p.Source" />
       </edge>
       <edge toID="1.18" type="A">
         <attributes />
@@ -269,9 +269,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.83" tree_id="14-3-5-1" />
-      <edge toID="0.15" type="Terminal:p.Identity">
+      <edge toID="0.15" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Identity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.15" type="FN">
@@ -293,9 +293,9 @@
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.86" tree_id="14-3-5-4" />
-      <edge toID="0.18" type="Terminal:p.Source">
+      <edge toID="0.18" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Source" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.18" type="FN">

@@ -218,17 +218,17 @@
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.211" />
-      <edge toID="1.28" type="R">
+      <edge toID="1.28" type="R:p.Locus">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.29" type="Q">
         <attributes />
         <category tag="Q" />
       </edge>
-      <edge toID="1.30" type="R">
+      <edge toID="1.30" type="R:p.Quantity">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Quantity" />
       </edge>
       <edge toID="1.31" type="F">
         <attributes />
@@ -298,9 +298,9 @@
         <attributes remote="True" />
         <category tag="A" />
       </edge>
-      <edge toID="1.23" type="S">
+      <edge toID="1.23" type="S:p.Originator">
         <attributes />
-        <category tag="S" />
+        <category tag="S:p.Originator" />
       </edge>
       <edge toID="1.24" type="A">
         <attributes />
@@ -322,9 +322,9 @@
         <attributes />
         <category tag="D" />
       </edge>
-      <edge toID="1.21" type="A">
+      <edge toID="1.21" type="A:p.Experiencer">
         <attributes />
-        <category tag="A" />
+        <category tag="A:p.Experiencer" />
       </edge>
       <edge toID="1.22" type="S">
         <attributes />
@@ -354,9 +354,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.231" />
-      <edge toID="0.16" type="Terminal:p.Experiencer">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Experiencer" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.22" type="FN">
@@ -370,9 +370,9 @@
     <node ID="1.23" type="FN">
       <attributes />
       <extra remarks="1.223" />
-      <edge toID="0.10" type="Terminal:p.Originator">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.24" type="FN">
@@ -390,9 +390,9 @@
         <attributes />
         <category tag="F" />
       </edge>
-      <edge toID="1.27" type="C">
+      <edge toID="1.27" type="C:p.Originator">
         <attributes />
-        <category tag="C" />
+        <category tag="C:p.Originator" />
       </edge>
     </node>
     <node ID="1.26" type="FN">
@@ -410,17 +410,17 @@
         <attributes />
         <category tag="Terminal" />
       </edge>
-      <edge toID="0.13" type="Terminal:p.Originator">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.28" type="FN">
       <attributes />
       <extra remarks="1.212" />
-      <edge toID="0.1" type="Terminal:p.Locus">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.29" type="FN">
@@ -434,9 +434,9 @@
     <node ID="1.30" type="FN">
       <attributes />
       <extra remarks="1.214" />
-      <edge toID="0.3" type="Terminal:p.Quantity">
+      <edge toID="0.3" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.31" type="FN">

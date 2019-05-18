@@ -201,9 +201,9 @@
         <attributes />
         <category tag="H" />
       </edge>
-      <edge toID="1.6" type="L">
+      <edge toID="1.6" type="L:p.Explanation">
         <attributes />
-        <category tag="L" />
+        <category tag="L:p.Explanation" />
       </edge>
       <edge toID="1.7" type="H">
         <attributes />
@@ -281,9 +281,9 @@
     <node ID="1.6" type="FN">
       <attributes />
       <extra remarks="1.17" />
-      <edge toID="0.29" type="Terminal:p.Explanation">
+      <edge toID="0.29" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Explanation" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.7" type="FN">
@@ -425,9 +425,9 @@
     <node ID="1.20" type="FN">
       <attributes />
       <extra remarks="1.66" />
-      <edge toID="1.25" type="R">
+      <edge toID="1.25" type="R:p.Topic">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Topic" />
       </edge>
       <edge toID="1.26" type="D">
         <attributes />
@@ -445,9 +445,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.67" />
-      <edge toID="1.22" type="R">
+      <edge toID="1.22" type="R:p.Locus">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.23" type="F">
         <attributes />
@@ -461,9 +461,9 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.68" />
-      <edge toID="0.41" type="Terminal:p.Locus">
+      <edge toID="0.41" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.23" type="FN">
@@ -485,9 +485,9 @@
     <node ID="1.25" type="FN">
       <attributes />
       <extra remarks="1.71" />
-      <edge toID="0.37" type="Terminal:p.Topic">
+      <edge toID="0.37" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Topic" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.26" type="FN">
@@ -537,9 +537,9 @@
     <node ID="1.31" type="FN">
       <attributes />
       <extra remarks="1.77" />
-      <edge toID="1.32" type="R">
+      <edge toID="1.32" type="R:p.Duration">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Duration" />
       </edge>
       <edge toID="1.33" type="S">
         <attributes />
@@ -553,9 +553,9 @@
     <node ID="1.32" type="FN">
       <attributes />
       <extra remarks="1.78" />
-      <edge toID="0.23" type="Terminal:p.Duration">
+      <edge toID="0.23" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Duration" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.33" type="FN">
@@ -573,9 +573,9 @@
     <node ID="1.34" type="FN">
       <attributes />
       <extra remarks="1.80" />
-      <edge toID="1.35" type="R">
+      <edge toID="1.35" type="R:p.Whole">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Whole" />
       </edge>
       <edge toID="1.36" type="F">
         <attributes />
@@ -589,9 +589,9 @@
     <node ID="1.35" type="FN">
       <attributes />
       <extra remarks="1.81" />
-      <edge toID="0.26" type="Terminal:p.Whole">
+      <edge toID="0.26" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Whole" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.36" type="FN">
@@ -733,9 +733,9 @@
     <node ID="1.51" type="FN">
       <attributes />
       <extra remarks="1.97" />
-      <edge toID="1.52" type="R">
+      <edge toID="1.52" type="R:p.Theme">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Theme" />
       </edge>
       <edge toID="1.53" type="Q">
         <attributes />
@@ -753,9 +753,9 @@
     <node ID="1.52" type="FN">
       <attributes />
       <extra remarks="1.98" />
-      <edge toID="0.7" type="Terminal:p.Theme">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Theme" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.53" type="FN">
@@ -765,9 +765,9 @@
         <attributes />
         <category tag="C" />
       </edge>
-      <edge toID="1.59" type="N">
+      <edge toID="1.59" type="N:p.Quantity">
         <attributes />
-        <category tag="N" />
+        <category tag="N:p.Quantity" />
       </edge>
       <edge toID="1.60" type="C">
         <attributes />
@@ -821,9 +821,9 @@
     <node ID="1.59" type="FN">
       <attributes />
       <extra remarks="1.105" />
-      <edge toID="0.9" type="Terminal:p.Quantity">
+      <edge toID="0.9" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
       <edge toID="0.10" type="Terminal">
         <attributes />

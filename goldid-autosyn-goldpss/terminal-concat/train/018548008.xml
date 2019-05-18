@@ -216,9 +216,9 @@
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.155" tree_id="28-4" />
-      <edge toID="1.18" type="R">
+      <edge toID="1.18" type="R:p.Goal">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Goal" />
       </edge>
       <edge toID="1.19" type="C">
         <attributes />
@@ -236,9 +236,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
-      <edge toID="1.15" type="R">
+      <edge toID="1.15" type="R:p.Purpose">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Purpose" />
       </edge>
       <edge toID="1.16" type="Q">
         <attributes />
@@ -256,9 +256,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.163" tree_id="28-5-2" />
-      <edge toID="0.15" type="Terminal:p.Purpose">
+      <edge toID="0.15" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Purpose" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.16" type="FN">
@@ -280,9 +280,9 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.156" tree_id="28-4-1" />
-      <edge toID="0.11" type="Terminal:p.Goal">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Goal" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.19" type="FN">
@@ -296,9 +296,9 @@
     <node ID="1.20" type="FN">
       <attributes />
       <extra remarks="1.158" tree_id="28-4-3" />
-      <edge toID="1.21" type="R">
+      <edge toID="1.21" type="R:p.Stuff">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Stuff" />
       </edge>
       <edge toID="1.22" type="C">
         <attributes />
@@ -308,9 +308,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.159" tree_id="28-4-3-1" />
-      <edge toID="0.13" type="Terminal:p.Stuff">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Stuff" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.22" type="FN">

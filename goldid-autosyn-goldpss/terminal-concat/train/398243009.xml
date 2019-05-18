@@ -197,9 +197,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
       </edge>
-      <edge toID="1.7" type="L">
+      <edge toID="1.7" type="L:p.StartTime">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="L" />
+        <category tag="L:p.StartTime" />
       </edge>
       <edge toID="1.8" type="H">
         <attributes />
@@ -297,9 +297,9 @@
     <node ID="1.7" type="FN">
       <attributes />
       <extra remarks="1.280" tree_id="45" />
-      <edge toID="0.24" type="Terminal:p.StartTime">
+      <edge toID="0.24" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.StartTime" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.8" type="FN">
@@ -421,9 +421,9 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.267" tree_id="42-3" />
-      <edge toID="1.19" type="A">
+      <edge toID="1.19" type="A:p.SocialRel">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.SocialRel" />
       </edge>
       <edge toID="1.20" type="S">
         <attributes />
@@ -434,9 +434,9 @@
     <node ID="1.19" type="FN">
       <attributes />
       <extra remarks="1.268" tree_id="42-3-1" />
-      <edge toID="0.13" type="Terminal:p.SocialRel">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.SocialRel" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.20" type="FN">
@@ -503,9 +503,9 @@
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
       </edge>
-      <edge toID="1.32" type="A">
+      <edge toID="1.32" type="A:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Locus" />
       </edge>
     </node>
     <node ID="1.25" type="FN">
@@ -571,9 +571,9 @@
     <node ID="1.32" type="FN">
       <attributes />
       <extra remarks="1.300" tree_id="48-4-8" />
-      <edge toID="0.41" type="Terminal:p.Locus">
+      <edge toID="0.41" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.33" type="FN">
@@ -643,9 +643,9 @@
     <node ID="1.41" type="FN">
       <attributes />
       <extra remarks="1.275" tree_id="44-5" />
-      <edge toID="1.42" type="R">
+      <edge toID="1.42" type="R:p.Stimulus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Stimulus" />
       </edge>
       <edge toID="1.43" type="E">
         <attributes />
@@ -663,9 +663,9 @@
     <node ID="1.42" type="FN">
       <attributes />
       <extra remarks="1.276" tree_id="44-5-1" />
-      <edge toID="0.19" type="Terminal:p.Stimulus">
+      <edge toID="0.19" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Stimulus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.43" type="FN">
@@ -719,9 +719,9 @@
     <node ID="1.48" type="FN">
       <attributes />
       <extra remarks="1.255" tree_id="40-3" />
-      <edge toID="1.49" type="R">
+      <edge toID="1.49" type="R:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.50" type="F">
         <attributes />
@@ -739,9 +739,9 @@
     <node ID="1.49" type="FN">
       <attributes />
       <extra remarks="1.256" tree_id="40-3-1" />
-      <edge toID="0.4" type="Terminal:p.Locus">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.50" type="FN">

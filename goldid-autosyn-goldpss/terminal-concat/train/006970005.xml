@@ -153,9 +153,9 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.137" tree_id="21-4" />
-      <edge toID="1.9" type="R">
+      <edge toID="1.9" type="R:p.Instrument">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Instrument" />
       </edge>
       <edge toID="1.10" type="F">
         <attributes />
@@ -169,9 +169,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.138" tree_id="21-4-1" />
-      <edge toID="0.10" type="Terminal:p.Instrument">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Instrument" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.10" type="FN">
@@ -197,9 +197,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.14" type="S">
+      <edge toID="1.14" type="S:p.Possessor">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="S:p.Possessor" />
       </edge>
     </node>
     <node ID="1.13" type="FN">
@@ -213,9 +213,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.135" tree_id="21-3-1-1" />
-      <edge toID="0.8" type="Terminal:p.Possessor">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.15" type="FN">
@@ -241,9 +241,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
       </edge>
-      <edge toID="1.19" type="C">
+      <edge toID="1.19" type="C:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+        <category tag="C:p.Locus" />
       </edge>
     </node>
     <node ID="1.18" type="FN">
@@ -261,9 +261,9 @@
     <node ID="1.19" type="FN">
       <attributes />
       <extra remarks="1.129" tree_id="19-3-2" />
-      <edge toID="0.5" type="Terminal:p.Locus">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.20" type="FN">

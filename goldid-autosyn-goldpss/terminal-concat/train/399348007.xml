@@ -145,9 +145,9 @@
         <attributes />
         <category tag="C" />
       </edge>
-      <edge toID="1.29" type="R">
+      <edge toID="1.29" type="R:p.Locus">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
     </node>
     <node ID="1.7" type="FN">
@@ -177,9 +177,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.183" />
-      <edge toID="1.10" type="R">
+      <edge toID="1.10" type="R:p.Direction">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Direction" />
       </edge>
       <edge toID="1.11" type="C">
         <attributes />
@@ -209,9 +209,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.184" />
-      <edge toID="0.7" type="Terminal:p.Direction">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Direction" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">
@@ -385,9 +385,9 @@
     <node ID="1.29" type="FN">
       <attributes />
       <extra remarks="1.178" />
-      <edge toID="0.4" type="Terminal:p.Locus">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

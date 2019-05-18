@@ -413,9 +413,9 @@
     <node ID="1.28" type="FN">
       <attributes />
       <extra remarks="1.103" tree_id="14-3-4" />
-      <edge toID="1.30" type="R">
+      <edge toID="1.30" type="R:p.Approximator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Approximator" />
       </edge>
       <edge toID="1.31" type="Q">
         <attributes />
@@ -437,9 +437,9 @@
     <node ID="1.30" type="FN">
       <attributes />
       <extra remarks="1.104" tree_id="14-3-4-1" />
-      <edge toID="0.7" type="Terminal:p.Approximator">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Approximator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.31" type="FN">

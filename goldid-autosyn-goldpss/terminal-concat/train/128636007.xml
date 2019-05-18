@@ -97,9 +97,9 @@
     <node ID="1.7" type="FN">
       <attributes />
       <extra remarks="1.109" tree_id="14-4" />
-      <edge toID="1.8" type="A">
+      <edge toID="1.8" type="A:p.Experiencer">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
+        <category tag="A:p.Experiencer" />
       </edge>
       <edge toID="1.9" type="S">
         <attributes />
@@ -109,9 +109,9 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.110" tree_id="14-4-1" />
-      <edge toID="0.4" type="Terminal:p.Experiencer">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Experiencer" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.9" type="FN">

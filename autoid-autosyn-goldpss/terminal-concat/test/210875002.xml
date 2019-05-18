@@ -161,9 +161,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.7" type="D">
+      <edge toID="1.7" type="D:p.Possessor">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+        <category tag="D:p.Possessor" />
       </edge>
       <edge toID="1.24" type="P">
         <attributes remote="True" />
@@ -193,9 +193,9 @@
         <attributes />
         <category tag="Terminal" />
       </edge>
-      <edge toID="0.22" type="Terminal:p.Possessor">
+      <edge toID="0.22" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
       <edge toID="0.23" type="Terminal">
         <attributes />

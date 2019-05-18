@@ -121,9 +121,9 @@
         <attributes />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="D" />
       </edge>
-      <edge toID="1.10" type="A">
+      <edge toID="1.10" type="A:p.Agent">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
+        <category tag="A:p.Agent" />
       </edge>
       <edge toID="1.11" type="S">
         <attributes />
@@ -141,9 +141,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.138" tree_id="17-5-2" />
-      <edge toID="0.6" type="Terminal:p.Agent">
+      <edge toID="0.6" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">

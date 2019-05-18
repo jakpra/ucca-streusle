@@ -265,9 +265,9 @@
         <attributes />
         <category tag="H" />
       </edge>
-      <edge toID="1.14" type="L">
+      <edge toID="1.14" type="L:p.Means">
         <attributes />
-        <category tag="L" />
+        <category tag="L:p.Means" />
       </edge>
       <edge toID="1.15" type="H">
         <attributes />
@@ -301,9 +301,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.114" />
-      <edge toID="0.24" type="Terminal:p.Means">
+      <edge toID="0.24" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Means" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.15" type="FN">
@@ -477,9 +477,9 @@
     <node ID="1.31" type="FN">
       <attributes />
       <extra remarks="1.109" />
-      <edge toID="1.32" type="R">
+      <edge toID="1.32" type="R:p.Possessor">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Possessor" />
       </edge>
       <edge toID="1.33" type="F">
         <attributes />
@@ -493,9 +493,9 @@
     <node ID="1.32" type="FN">
       <attributes />
       <extra remarks="1.110" />
-      <edge toID="0.20" type="Terminal:p.Possessor">
+      <edge toID="0.20" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.33" type="FN">

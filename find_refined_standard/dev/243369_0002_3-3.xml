@@ -1,0 +1,171 @@
+<root annotationID="0" passageID="243369001">
+  <attributes annotationID="2451" passageID="422" userID="26" />
+  <extra format="find_refined" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Just" />
+      <extra deprel="advmod" edeps="2:advmod" feats="null" head="2" identified_for_pss="False" is_part_of_mwe="False" lemma="just" lexcat="T" lexlemma="Just" lextag="O-ADV" misc="null" orig_paragraph="1" remarks="0.6" smwe="null" upos="ADV" wmwe="null" word="Just" xpos="RB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="received" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" identified_for_pss="False" is_part_of_mwe="False" lemma="receive" lexcat="P" lexlemma="received" lextag="O-V-v.possession" misc="null" orig_paragraph="1" remarks="0.7" smwe="null" upos="VERB" wmwe="null" word="received" xpos="VBD" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="from" />
+      <extra config="default" deprel="case" edeps="6:case" feats="null" gov="7" govlemma="receive" head="6" identified_for_pss="True" is_part_of_mwe="False" lemma="from" lexcat="R" lexlemma="from" lextag="O-P-p.Originator|p.Source" local_gov="2" local_obj="6" local_toknums="3" misc="null" obj="11" objlemma="store" orig_paragraph="1" remarks="0.8" smwe="null" ss="p.Originator" ss2="p.Source" toknums="8" upos="ADP" wmwe="null" word="from" xpos="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="your" />
+      <extra config="possessive" deprel="nmod:poss" edeps="6:nmod:poss" feats="Person=2|Poss=Yes|PronType=Prs" gov="11" govlemma="store" head="6" identified_for_pss="False" is_part_of_mwe="False" lemma="you" lexcat="S" lexlemma="your" lextag="O-PRON.POSS-p.OrgRole|p.Possessor" local_gov="6" local_toknums="4" misc="null" obj="null" objlemma="null" orig_paragraph="1" remarks="0.9" smwe="null" ss="p.OrgRole" ss2="p.Possessor" toknums="9" upos="PRON" wmwe="null" word="your" xpos="PRP$" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="flower" />
+      <extra deprel="compound" edeps="6:compound" feats="Number=Sing" head="6" identified_for_pss="False" is_part_of_mwe="False" lemma="flower" lexcat="E" lexlemma="flower" lextag="O-N-n.PLANT" misc="null" orig_paragraph="1" remarks="0.10" smwe="null" upos="NOUN" wmwe="null" word="flower" xpos="NN" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="store" />
+      <extra deprel="obl" edeps="2:obl" feats="Number=Sing" head="2" identified_for_pss="False" is_part_of_mwe="False" lemma="store" lexcat="C" lexlemma="store" lextag="O-N-n.GROUP" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.11" smwe="null" upos="NOUN" wmwe="null" word="store" xpos="NN" />
+    </node>
+    <node ID="0.7" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="7" text="." />
+      <extra deprel="punct" edeps="2:punct" feats="null" head="2" identified_for_pss="False" is_part_of_mwe="False" lemma="." lexcat="U" lexlemma="." lextag="O-PUNCT" misc="null" orig_paragraph="1" remarks="0.12" smwe="null" upos="PUNCT" wmwe="null" word="." xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.3" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.8" tree_id="2" />
+      <edge toID="1.4" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.5" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.6" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.7" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.8" type="True">
+        <attributes />
+        <category tag="True" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <extra remarks="1.30" />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes implicit="True" />
+      <extra remarks="1.9" tree_id="2-1" />
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes implicit="True" />
+      <extra remarks="1.10" tree_id="2-2" />
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra remarks="1.11" tree_id="2-3" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <extra remarks="1.12" tree_id="2-4" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <extra remarks="1.13" tree_id="2-5" />
+      <edge toID="1.9" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.10" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.11" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.12" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <extra remarks="1.14" tree_id="2-5-1" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <extra remarks="1.15" tree_id="2-5-2" />
+      <edge toID="1.12" type="False">
+        <attributes remote="True" />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.13" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+    </node>
+    <node ID="1.11" type="FN">
+      <attributes />
+      <extra remarks="1.18" tree_id="2-5-3-1" />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.12" type="FN">
+      <attributes />
+      <extra remarks="1.19" tree_id="2-5-3-2" />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.13" type="FN">
+      <attributes />
+      <extra remarks="1.16" tree_id="2-5-2-1" />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

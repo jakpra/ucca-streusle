@@ -149,9 +149,9 @@
         <attributes />
         <category tag="P" />
       </edge>
-      <edge toID="1.11" type="D">
+      <edge toID="1.11" type="D:p.Direction">
         <attributes />
-        <category tag="D" />
+        <category tag="D:p.Direction" />
       </edge>
       <edge toID="1.12" type="U">
         <attributes />
@@ -201,9 +201,9 @@
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.88" />
-      <edge toID="0.13" type="Terminal:p.Direction">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Direction" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.12" type="PNCT">

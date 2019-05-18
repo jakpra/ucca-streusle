@@ -169,9 +169,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.24" type="D">
+      <edge toID="1.24" type="D:p.Direction">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+        <category tag="D:p.Direction" />
       </edge>
     </node>
     <node ID="1.5" type="FN">
@@ -189,9 +189,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
       </edge>
-      <edge toID="1.9" type="D">
+      <edge toID="1.9" type="D:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+        <category tag="D:p.Locus" />
       </edge>
       <edge toID="1.10" type="P">
         <attributes />
@@ -213,9 +213,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
-      <edge toID="1.17" type="R">
+      <edge toID="1.17" type="R:p.Time">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Time" />
       </edge>
     </node>
     <node ID="1.7" type="FN">
@@ -237,17 +237,17 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.210" tree_id="29-4" />
-      <edge toID="0.20" type="Terminal:p.Locus">
+      <edge toID="0.20" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.211" tree_id="29-5" />
-      <edge toID="1.11" type="R">
+      <edge toID="1.11" type="R:p.Source">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Source" />
       </edge>
       <edge toID="1.12" type="C">
         <attributes />
@@ -261,9 +261,9 @@
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.212" tree_id="29-5-1" />
-      <edge toID="0.21" type="Terminal:p.Source">
+      <edge toID="0.21" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Source" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.12" type="FN">
@@ -313,9 +313,9 @@
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.207" tree_id="29-1-4" />
-      <edge toID="0.17" type="Terminal:p.Time">
+      <edge toID="0.17" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Time" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.18" type="FN">
@@ -373,9 +373,9 @@
     <node ID="1.24" type="FN">
       <attributes />
       <extra remarks="1.199" tree_id="28-5" />
-      <edge toID="0.12" type="Terminal:p.Direction">
+      <edge toID="0.12" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Direction" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.25" type="FN">
@@ -385,9 +385,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.27" type="S">
+      <edge toID="1.27" type="S:p.Possessor">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="S:p.Possessor" />
       </edge>
     </node>
     <node ID="1.26" type="FN">
@@ -401,9 +401,9 @@
     <node ID="1.27" type="FN">
       <attributes />
       <extra remarks="1.197" tree_id="28-4-1-1" />
-      <edge toID="0.10" type="Terminal:p.Possessor">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

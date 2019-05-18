@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="210066_0008_2-2">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="So" />
+      <extra deprel="root" edeps="0:root" feats="null" head="0" identified_for_pss="False" ind="1" is_part_of_mwe="False" lemma="so" lexcat="ADV" lexlemma="so" lextag="O-ADV" misc="null" smwe="null" ss="False" upos="ADV" wmwe="null" word="So" xpos="RB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="from" />
+      <extra config="default" deprel="case" edeps="3:case" feats="null" gov="134" govlemma="so" head="3" identified_for_pss="True" ind="2" is_part_of_mwe="False" lemma="from" lexcat="P" lexlemma="from" lextag="O-P-p.Source" local_gov="1" local_obj="3" misc="null" obj="136" objlemma="$" smwe="null" ss="False" upos="ADP" wmwe="null" word="from" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="$" />
+      <extra deprel="obl" edeps="1:obl" feats="null" head="1" identified_for_pss="False" ind="3" is_part_of_mwe="False" lemma="$" lexcat="SYM" lexlemma="$" lextag="O-SYM" misc="SpaceAfter=No" smwe="null" ss="False" upos="SYM" wmwe="null" word="$" xpos="$" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="U">
+        <attributes />
+        <category tag="U" />
+      </edge>
+      <edge toID="1.6" type="p.Source">
+        <attributes />
+        <category tag="p.Source" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

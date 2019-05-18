@@ -137,13 +137,13 @@
     <node ID="1.7" type="FN">
       <attributes />
       <extra remarks="1.105" tree_id="18-3" />
-      <edge toID="1.8" type="R">
+      <edge toID="1.8" type="R:p.Manner">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Manner" />
       </edge>
-      <edge toID="1.9" type="A">
+      <edge toID="1.9" type="A:p.Gestalt">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Gestalt" />
       </edge>
       <edge toID="1.10" type="P">
         <attributes />
@@ -157,17 +157,17 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.106" tree_id="18-3-1" />
-      <edge toID="0.10" type="Terminal:p.Manner">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Manner" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.107" tree_id="18-3-2" />
-      <edge toID="0.11" type="Terminal:p.Gestalt">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Gestalt" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.10" type="FN">
@@ -213,13 +213,13 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.97" tree_id="16-4" />
-      <edge toID="1.16" type="R">
+      <edge toID="1.16" type="R:p.Circumstance">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Circumstance" />
       </edge>
-      <edge toID="1.17" type="A">
+      <edge toID="1.17" type="A:p.Agent">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Agent" />
       </edge>
       <edge toID="1.18" type="P">
         <attributes />
@@ -229,17 +229,17 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.98" tree_id="16-4-1" />
-      <edge toID="0.4" type="Terminal:p.Circumstance">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Circumstance" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.99" tree_id="16-4-2" />
-      <edge toID="0.5" type="Terminal:p.Agent">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.18" type="FN">

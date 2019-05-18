@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="329692_0007_13-13">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="disappointed" />
+      <extra deprel="advcl" edeps="4:advcl" feats="Degree=Pos" head="4" identified_for_pss="False" ind="12" is_part_of_mwe="False" lemma="disappointed" lexcat="ADJ" lexlemma="disappointed" lextag="B-ADJ" misc="null" smwe="null" ss="False" upos="ADJ" wmwe="[1, 1]" word="disappointed" xpos="JJ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="with" />
+      <extra config="default" deprel="case" edeps="15:case" feats="null" gov="86" govlemma="disappointed" head="15" identified_for_pss="True" ind="13" is_part_of_mwe="False" lemma="with" lexcat="P" lexlemma="with" lextag="I~-P-p.Stimulus|p.Topic" local_gov="12" local_obj="15" misc="null" obj="89" objlemma="experience" smwe="null" ss="False" upos="ADP" wmwe="[1, 2]" word="with" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="experience" />
+      <extra deprel="obl" edeps="12:obl" feats="Number=Sing" head="12" identified_for_pss="False" ind="15" is_part_of_mwe="False" lemma="experience" lexcat="N" lexlemma="experience" lextag="O-N-n.EVENT" misc="SpaceAfter=No" smwe="null" ss="False" upos="NOUN" wmwe="null" word="experience" xpos="NN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Stimulus">
+        <attributes />
+        <category tag="p.Stimulus" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

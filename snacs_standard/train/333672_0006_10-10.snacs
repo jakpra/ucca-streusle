@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="333672_0006_10-10">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="as" />
+      <extra config="default" deprel="advmod" edeps="9:advmod" feats="null" gov="62" govlemma="less" head="9" identified_for_pss="False" ind="8" is_part_of_mwe="False" lemma="as" lexcat="P" lexlemma="as" lextag="O-P-??" local_gov="9" misc="null" obj="null" objlemma="null" smwe="null" ss="False" upos="ADV" wmwe="null" word="as" xpos="RB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="as" />
+      <extra config="default" deprel="case" edeps="11:case" feats="null" gov="61" govlemma="as" head="11" identified_for_pss="True" ind="10" is_part_of_mwe="False" lemma="as" lexcat="P" lexlemma="as" lextag="O-P-p.ComparisonRef" local_gov="8" local_obj="11" misc="null" obj="64" objlemma="possible" smwe="null" ss="False" upos="SCONJ" wmwe="null" word="as" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="possible" />
+      <extra deprel="obl" edeps="8:obl" feats="Degree=Pos" head="8" identified_for_pss="False" ind="11" is_part_of_mwe="False" lemma="possible" lexcat="ADJ" lexlemma="possible" lextag="O-ADJ" misc="null" smwe="null" ss="False" upos="ADJ" wmwe="null" word="possible" xpos="JJ" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.ComparisonRef">
+        <attributes />
+        <category tag="p.ComparisonRef" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

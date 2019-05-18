@@ -161,13 +161,13 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.163" />
-      <edge toID="1.9" type="R">
+      <edge toID="1.9" type="R:p.Cost">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Cost" />
       </edge>
-      <edge toID="1.10" type="E">
+      <edge toID="1.10" type="E:p.Approximator">
         <attributes />
-        <category tag="E" />
+        <category tag="E:p.Approximator" />
       </edge>
       <edge toID="1.11" type="C">
         <attributes />
@@ -181,17 +181,17 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.164" />
-      <edge toID="0.6" type="Terminal:p.Cost">
+      <edge toID="0.6" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Cost" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.165" />
-      <edge toID="0.7" type="Terminal:p.Approximator">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Approximator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">

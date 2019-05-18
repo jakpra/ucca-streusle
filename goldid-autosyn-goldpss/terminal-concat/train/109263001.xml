@@ -265,10 +265,10 @@
         <attributes remote="True" />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
       </edge>
-      <edge toID="1.20" type="S">
+      <edge toID="1.20" type="S:p.Originator">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="S" />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
+        <category tag="S:p.Originator" />
+        <category tag="A:p.Originator" />
       </edge>
     </node>
     <node ID="1.19" type="FN">
@@ -282,9 +282,9 @@
     <node ID="1.20" type="FN">
       <attributes />
       <extra remarks="1.26" tree_id="4-4-1-1" />
-      <edge toID="0.5" type="Terminal:p.Originator">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

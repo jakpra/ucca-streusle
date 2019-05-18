@@ -309,17 +309,17 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
-      <edge toID="1.22" type="R">
+      <edge toID="1.22" type="R:p.Manner">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Manner" />
       </edge>
     </node>
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.38" tree_id="10-5-2" />
-      <edge toID="0.7" type="Terminal:p.Manner">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Manner" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

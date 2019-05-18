@@ -105,9 +105,9 @@
     <node ID="1.4" type="FN">
       <attributes />
       <extra remarks="1.8" tree_id="2-1" />
-      <edge toID="1.16" type="A">
+      <edge toID="1.16" type="A:p.SocialRel">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.SocialRel" />
       </edge>
       <edge toID="1.17" type="A">
         <attributes />
@@ -154,9 +154,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.17" tree_id="2-6" />
-      <edge toID="1.10" type="R">
+      <edge toID="1.10" type="R:p.Frequency">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Frequency" />
       </edge>
       <edge toID="1.11" type="F">
         <attributes />
@@ -174,9 +174,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.18" tree_id="2-6-1" />
-      <edge toID="0.8" type="Terminal:p.Frequency">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Frequency" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">
@@ -222,9 +222,9 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.9" tree_id="2-1-1" />
-      <edge toID="0.1" type="Terminal:p.SocialRel">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.SocialRel" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.17" type="FN">

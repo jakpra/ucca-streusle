@@ -157,9 +157,9 @@
     <node ID="1.4" type="FN">
       <attributes />
       <extra remarks="1.454" tree_id="73" />
-      <edge toID="1.25" type="R">
+      <edge toID="1.25" type="R:p.Time">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Time" />
       </edge>
       <edge toID="1.26" type="E">
         <attributes />
@@ -265,9 +265,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
       </edge>
-      <edge toID="1.23" type="R">
+      <edge toID="1.23" type="R:p.Manner">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Manner" />
       </edge>
       <edge toID="1.24" type="C">
         <attributes />
@@ -305,9 +305,9 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.471" tree_id="74-3-4-2" />
-      <edge toID="1.18" type="R">
+      <edge toID="1.18" type="R:p.Quantity">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Quantity" />
       </edge>
       <edge toID="1.19" type="F">
         <attributes />
@@ -329,9 +329,9 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.472" tree_id="74-3-4-2-1" />
-      <edge toID="0.18" type="Terminal:p.Quantity">
+      <edge toID="0.18" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.19" type="FN">
@@ -369,9 +369,9 @@
     <node ID="1.23" type="FN">
       <attributes />
       <extra remarks="1.466" tree_id="74-3-3-2" />
-      <edge toID="0.22" type="Terminal:p.Manner">
+      <edge toID="0.22" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Manner" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.24" type="FN">
@@ -385,9 +385,9 @@
     <node ID="1.25" type="FN">
       <attributes />
       <extra remarks="1.455" tree_id="73-1" />
-      <edge toID="0.9" type="Terminal:p.Time">
+      <edge toID="0.9" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Time" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.26" type="FN">
@@ -437,9 +437,9 @@
     <node ID="1.31" type="FN">
       <attributes />
       <extra remarks="1.451" tree_id="72-4" />
-      <edge toID="1.32" type="R">
+      <edge toID="1.32" type="R:p.Recipient">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Recipient" />
       </edge>
       <edge toID="1.33" type="C">
         <attributes />
@@ -449,9 +449,9 @@
     <node ID="1.32" type="FN">
       <attributes />
       <extra remarks="1.452" tree_id="72-4-1" />
-      <edge toID="0.6" type="Terminal:p.Recipient">
+      <edge toID="0.6" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Recipient" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.33" type="FN">

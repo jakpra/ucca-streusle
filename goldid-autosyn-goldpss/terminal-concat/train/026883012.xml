@@ -141,9 +141,9 @@
     <node ID="1.4" type="FN">
       <attributes />
       <extra remarks="1.321" tree_id="44" />
-      <edge toID="1.6" type="A">
+      <edge toID="1.6" type="A:p.Originator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Originator" />
       </edge>
       <edge toID="1.7" type="P">
         <attributes />
@@ -165,9 +165,9 @@
     <node ID="1.6" type="FN">
       <attributes />
       <extra remarks="1.322" tree_id="44-1" />
-      <edge toID="0.12" type="Terminal:p.Originator">
+      <edge toID="0.12" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.7" type="FN">
@@ -181,9 +181,9 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.324" tree_id="44-3" />
-      <edge toID="1.6" type="A">
+      <edge toID="1.6" type="A:p.Originator">
         <attributes remote="True" />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Originator" />
       </edge>
       <edge toID="1.9" type="R">
         <attributes />
@@ -261,9 +261,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.315" tree_id="42-3" />
-      <edge toID="1.18" type="R">
+      <edge toID="1.18" type="R:p.Gestalt">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Gestalt" />
       </edge>
       <edge toID="1.19" type="C">
         <attributes />
@@ -289,9 +289,9 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.316" tree_id="42-3-1" />
-      <edge toID="0.4" type="Terminal:p.Gestalt">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Gestalt" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.19" type="FN">

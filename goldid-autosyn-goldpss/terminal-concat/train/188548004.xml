@@ -141,9 +141,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.13" type="D">
+      <edge toID="1.13" type="D:p.Direction">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+        <category tag="D:p.Direction" />
       </edge>
     </node>
     <node ID="1.8" type="FN">
@@ -193,9 +193,9 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.113" tree_id="14-3-6" />
-      <edge toID="0.9" type="Terminal:p.Direction">
+      <edge toID="0.9" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Direction" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.14" type="FN">
@@ -209,9 +209,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.110" tree_id="14-3-5-2" />
-      <edge toID="1.16" type="R">
+      <edge toID="1.16" type="R:p.Instrument">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Instrument" />
       </edge>
       <edge toID="1.17" type="C">
         <attributes />
@@ -221,9 +221,9 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.111" tree_id="14-3-5-2-1" />
-      <edge toID="0.10" type="Terminal:p.Instrument">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Instrument" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.17" type="FN">

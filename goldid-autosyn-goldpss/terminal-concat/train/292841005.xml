@@ -273,9 +273,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
       </edge>
-      <edge toID="1.22" type="C">
+      <edge toID="1.22" type="C:p.ComparisonRef">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+        <category tag="C:p.ComparisonRef" />
       </edge>
     </node>
     <node ID="1.14" type="FN">
@@ -360,9 +360,9 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.207" tree_id="21-3-1-2" />
-      <edge toID="0.19" type="Terminal:p.ComparisonRef">
+      <edge toID="0.19" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.ComparisonRef" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.23" type="FN">

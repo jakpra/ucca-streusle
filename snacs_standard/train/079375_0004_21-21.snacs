@@ -1,0 +1,64 @@
+<root annotationID="0" passageID="079375_0004_21-21">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="often" />
+      <extra deprel="advmod" edeps="17:advmod" feats="null" head="17" identified_for_pss="False" ind="22" is_part_of_mwe="False" lemma="often" lexcat="ADV" lexlemma="often" lextag="O-ADV" misc="null" smwe="null" ss="False" upos="ADV" wmwe="null" word="often" xpos="RB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="as" />
+      <extra config="default" deprel="advmod" edeps="22:advmod" feats="null" gov="62" govlemma="often" head="22" identified_for_pss="True" ind="21" is_part_of_mwe="False" lemma="as" lexcat="P" lexlemma="as" lextag="O-P-p.Frequency|p.Identity" local_gov="22" misc="null" obj="null" objlemma="null" smwe="null" ss="False" upos="ADV" wmwe="null" word="as" xpos="RB" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="p.Frequency">
+        <attributes />
+        <category tag="p.Frequency" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

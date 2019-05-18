@@ -1,0 +1,72 @@
+<root annotationID="0" passageID="288163_0003_4-5">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Jana" />
+      <extra deprel="nsubj" edeps="4:nsubj" feats="Number=Sing" head="4" identified_for_pss="False" ind="1" is_part_of_mwe="True" lemma="Jana" lexcat="N" lexlemma="Jana Kueck" lextag="B-N-n.PERSON" misc="null" smwe="[1, 1]" ss="False" upos="PROPN" wmwe="null" word="Jana" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="nothing" />
+      <extra config="predicative" deprel="root" edeps="0:root" feats="Number=Sing" gov="15" govlemma="Jana" head="0" identified_for_pss="True" ind="4" is_part_of_mwe="True" lemma="nothing" lexcat="P" lexlemma="nothing but" lextag="B-P-p.Part/Portion" local_gov="1" misc="null" obj="null" objlemma="null" smwe="[2, 1]" ss="False" upos="PRON" wmwe="null" word="nothing" xpos="NN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="but" />
+      <extra config="predicative" deprel="case" edeps="6:case" feats="null" gov="15" govlemma="Jana" head="6" identified_for_pss="True" ind="5" is_part_of_mwe="True" lemma="but" lexcat="P" lexlemma="nothing but" lextag="I_" local_gov="1" misc="null" obj="null" objlemma="null" smwe="[2, 2]" ss="False" upos="ADP" wmwe="null" word="but" xpos="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="p.Part/Portion">
+        <attributes />
+        <category tag="p.Part/Portion" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

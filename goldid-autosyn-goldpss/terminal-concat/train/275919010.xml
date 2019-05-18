@@ -65,9 +65,9 @@
     <node ID="1.4" type="FN">
       <attributes />
       <extra remarks="1.171" tree_id="20-1" />
-      <edge toID="1.7" type="R">
+      <edge toID="1.7" type="R:p.Instrument">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Instrument" />
       </edge>
       <edge toID="1.8" type="C">
         <attributes />
@@ -93,9 +93,9 @@
     <node ID="1.7" type="FN">
       <attributes />
       <extra remarks="1.172" tree_id="20-1-1" />
-      <edge toID="0.1" type="Terminal:p.Instrument">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Instrument" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.8" type="FN">

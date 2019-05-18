@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="263630_0005_10-10">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="we" />
+      <extra deprel="nsubj" edeps="16:nsubj" feats="Case=Nom|Number=Plur|Person=1|PronType=Prs" head="16" identified_for_pss="False" ind="8" is_part_of_mwe="False" lemma="we" lexcat="PRON" lexlemma="we" lextag="O-PRON" misc="SpaceAfter=No" smwe="null" ss="False" upos="PRON" wmwe="null" word="we" xpos="PRP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="among" />
+      <extra config="default" deprel="case" edeps="14:case" feats="null" gov="72" govlemma="we" head="14" identified_for_pss="True" ind="10" is_part_of_mwe="False" lemma="among" lexcat="P" lexlemma="among" lextag="O-P-p.Whole" local_gov="8" local_obj="14" misc="null" obj="78" objlemma="guest" smwe="null" ss="False" upos="ADP" wmwe="null" word="among" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="guests" />
+      <extra deprel="nmod" edeps="8:nmod" feats="Number=Plur" head="8" identified_for_pss="False" ind="14" is_part_of_mwe="False" lemma="guest" lexcat="N" lexlemma="guest" lextag="O-N-n.PERSON" misc="SpaceAfter=No" smwe="null" ss="False" upos="NOUN" wmwe="null" word="guests" xpos="NNS" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Whole">
+        <attributes />
+        <category tag="p.Whole" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

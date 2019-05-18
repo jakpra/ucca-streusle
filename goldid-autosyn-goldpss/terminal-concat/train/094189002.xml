@@ -141,9 +141,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="G" />
       </edge>
-      <edge toID="1.9" type="F">
+      <edge toID="1.9" type="F:p.ComparisonRef">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
+        <category tag="F:p.ComparisonRef" />
       </edge>
       <edge toID="1.10" type="A">
         <attributes />
@@ -190,9 +190,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.43" tree_id="8-2" />
-      <edge toID="0.9" type="Terminal:p.ComparisonRef">
+      <edge toID="0.9" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.ComparisonRef" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.10" type="FN">
@@ -222,9 +222,9 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.47" tree_id="8-6" />
-      <edge toID="1.14" type="R">
+      <edge toID="1.14" type="R:p.Goal">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Goal" />
       </edge>
       <edge toID="1.15" type="F">
         <attributes />
@@ -238,9 +238,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.48" tree_id="8-6-1" />
-      <edge toID="0.13" type="Terminal:p.Goal">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Goal" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.15" type="FN">
@@ -302,9 +302,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.23" type="S">
+      <edge toID="1.23" type="S:p.OrgRole">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="S:p.OrgRole" />
       </edge>
     </node>
     <node ID="1.22" type="FN">
@@ -318,9 +318,9 @@
     <node ID="1.23" type="FN">
       <attributes />
       <extra remarks="1.34" tree_id="5-1-1-1" />
-      <edge toID="0.1" type="Terminal:p.OrgRole">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.OrgRole" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

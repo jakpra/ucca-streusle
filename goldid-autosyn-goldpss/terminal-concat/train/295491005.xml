@@ -177,17 +177,17 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.69" tree_id="14-3-2" />
-      <edge toID="1.11" type="R">
+      <edge toID="1.11" type="R:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
     </node>
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.70" tree_id="14-3-2-1" />
-      <edge toID="0.12" type="Terminal:p.Locus">
+      <edge toID="0.12" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.12" type="FN">

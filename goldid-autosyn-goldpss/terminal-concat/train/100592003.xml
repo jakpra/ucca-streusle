@@ -241,9 +241,9 @@
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.66" tree_id="12-4" />
-      <edge toID="1.12" type="R">
+      <edge toID="1.12" type="R:p.Cost">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Cost" />
       </edge>
       <edge toID="1.13" type="C">
         <attributes />
@@ -257,9 +257,9 @@
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.67" tree_id="12-4-1" />
-      <edge toID="0.20" type="Terminal:p.Cost">
+      <edge toID="0.20" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Cost" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.13" type="FN">
@@ -393,9 +393,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
       </edge>
-      <edge toID="1.28" type="F">
+      <edge toID="1.28" type="F:p.Characteristic">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="F" />
+        <category tag="F:p.Characteristic" />
       </edge>
       <edge toID="1.29" type="P">
         <attributes />
@@ -409,9 +409,9 @@
     <node ID="1.28" type="FN">
       <attributes />
       <extra remarks="1.52" tree_id="8-5-4-2" />
-      <edge toID="0.8" type="Terminal:p.Characteristic">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Characteristic" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.29" type="FN">

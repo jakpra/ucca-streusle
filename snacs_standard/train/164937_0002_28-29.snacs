@@ -1,0 +1,72 @@
+<root annotationID="0" passageID="164937_0002_28-29">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Baltimore" />
+      <extra deprel="conj" edeps="27:conj" feats="Number=Sing" head="27" identified_for_pss="False" ind="30" is_part_of_mwe="False" lemma="Baltimore" lexcat="N" lexlemma="Baltimore" lextag="O-N-n.LOCATION" misc="SpaceAfter=No" smwe="null" ss="False" upos="PROPN" wmwe="null" word="Baltimore" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="rather" />
+      <extra config="default" deprel="cc" edeps="30:cc" feats="null" gov="37" govlemma="Baltimore" head="30" identified_for_pss="True" ind="28" is_part_of_mwe="True" lemma="rather" lexcat="P" lexlemma="rather than" lextag="B-P-p.InsteadOf" local_gov="30" misc="null" obj="null" objlemma="null" smwe="[3, 1]" ss="False" upos="ADV" wmwe="null" word="rather" xpos="RB" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="than" />
+      <extra config="default" deprel="fixed" edeps="28:fixed" feats="null" gov="37" govlemma="Baltimore" head="28" identified_for_pss="True" ind="29" is_part_of_mwe="True" lemma="than" lexcat="P" lexlemma="rather than" lextag="I_" local_gov="30" misc="null" obj="null" objlemma="null" smwe="[3, 2]" ss="False" upos="ADP" wmwe="null" word="than" xpos="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="p.InsteadOf">
+        <attributes />
+        <category tag="p.InsteadOf" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

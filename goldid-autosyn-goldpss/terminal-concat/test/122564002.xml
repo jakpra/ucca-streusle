@@ -102,9 +102,9 @@
         <attributes />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="P" />
       </edge>
-      <edge toID="1.10" type="T">
+      <edge toID="1.10" type="T:p.Time">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="T" />
+        <category tag="T:p.Time" />
       </edge>
     </node>
     <node ID="1.4" type="PNCT">
@@ -162,9 +162,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.32" tree_id="6-6" />
-      <edge toID="0.9" type="Terminal:p.Time">
+      <edge toID="0.9" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Time" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">

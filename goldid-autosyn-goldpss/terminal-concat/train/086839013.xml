@@ -185,9 +185,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.315" tree_id="44-6" />
-      <edge toID="1.12" type="R">
+      <edge toID="1.12" type="R:p.Goal">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Goal" />
       </edge>
       <edge toID="1.13" type="C">
         <attributes />
@@ -213,9 +213,9 @@
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.316" tree_id="44-6-1" />
-      <edge toID="0.13" type="Terminal:p.Goal">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Goal" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.13" type="FN">
@@ -293,13 +293,13 @@
     <node ID="1.20" type="FN">
       <attributes />
       <extra remarks="1.308" tree_id="44-2-3-3" />
-      <edge toID="1.21" type="R">
+      <edge toID="1.21" type="R:p.OrgRole">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.OrgRole" />
       </edge>
-      <edge toID="1.22" type="A">
+      <edge toID="1.22" type="A:p.SocialRel">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.SocialRel" />
       </edge>
       <edge toID="1.23" type="A">
         <attributes />
@@ -310,17 +310,17 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.309" tree_id="44-2-3-3-1" />
-      <edge toID="0.6" type="Terminal:p.OrgRole">
+      <edge toID="0.6" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.OrgRole" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.310" tree_id="44-2-3-3-2" />
-      <edge toID="0.7" type="Terminal:p.SocialRel">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.SocialRel" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.23" type="FN">

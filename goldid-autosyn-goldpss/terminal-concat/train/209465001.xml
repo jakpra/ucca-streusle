@@ -545,9 +545,9 @@
     <node ID="1.29" type="FN">
       <attributes />
       <extra remarks="1.24" tree_id="4-5" />
-      <edge toID="1.30" type="R">
+      <edge toID="1.30" type="R:p.Goal">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Goal" />
       </edge>
       <edge toID="1.31" type="F">
         <attributes />
@@ -569,9 +569,9 @@
     <node ID="1.30" type="FN">
       <attributes />
       <extra remarks="1.25" tree_id="4-5-1" />
-      <edge toID="0.16" type="Terminal:p.Goal">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Goal" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.31" type="FN">
@@ -629,9 +629,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.53" type="S">
+      <edge toID="1.53" type="S:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="S:p.Locus" />
       </edge>
       <edge toID="1.54" type="A">
         <attributes />
@@ -653,9 +653,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.49" type="S">
+      <edge toID="1.49" type="S:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="S:p.Locus" />
       </edge>
       <edge toID="1.50" type="A">
         <attributes />
@@ -729,9 +729,9 @@
     <node ID="1.44" type="FN">
       <attributes />
       <extra remarks="1.48" tree_id="4-5-4-5-5" />
-      <edge toID="1.45" type="R">
+      <edge toID="1.45" type="R:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.46" type="C">
         <attributes />
@@ -741,9 +741,9 @@
     <node ID="1.45" type="FN">
       <attributes />
       <extra remarks="1.49" tree_id="4-5-4-5-5-1" />
-      <edge toID="0.32" type="Terminal:p.Locus">
+      <edge toID="0.32" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.46" type="FN">
@@ -773,9 +773,9 @@
     <node ID="1.49" type="FN">
       <attributes />
       <extra remarks="1.36" tree_id="4-5-4-3-2" />
-      <edge toID="0.24" type="Terminal:p.Locus">
+      <edge toID="0.24" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.50" type="FN">
@@ -809,9 +809,9 @@
     <node ID="1.53" type="FN">
       <attributes />
       <extra remarks="1.32" tree_id="4-5-4-1-2" />
-      <edge toID="0.20" type="Terminal:p.Locus">
+      <edge toID="0.20" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.54" type="FN">
@@ -869,17 +869,17 @@
     <node ID="1.60" type="FN">
       <attributes />
       <extra remarks="1.12" tree_id="2-6" />
-      <edge toID="1.61" type="R">
+      <edge toID="1.61" type="R:p.Duration">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Duration" />
       </edge>
       <edge toID="1.62" type="D">
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
       </edge>
-      <edge toID="1.63" type="A">
+      <edge toID="1.63" type="A:p.Possessor">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Possessor" />
       </edge>
       <edge toID="1.64" type="D">
         <attributes />
@@ -893,9 +893,9 @@
     <node ID="1.61" type="FN">
       <attributes />
       <extra remarks="1.13" tree_id="2-6-1" />
-      <edge toID="0.6" type="Terminal:p.Duration">
+      <edge toID="0.6" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Duration" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.62" type="FN">
@@ -909,9 +909,9 @@
     <node ID="1.63" type="FN">
       <attributes />
       <extra remarks="1.15" tree_id="2-6-3" />
-      <edge toID="0.8" type="Terminal:p.Possessor">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.64" type="FN">

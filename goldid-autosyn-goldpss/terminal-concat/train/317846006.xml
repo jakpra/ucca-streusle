@@ -249,9 +249,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.130" tree_id="22-5-1" />
-      <edge toID="1.19" type="A">
+      <edge toID="1.19" type="A:p.Gestalt">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Gestalt" />
       </edge>
       <edge toID="1.20" type="S">
         <attributes />
@@ -273,9 +273,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
       </edge>
-      <edge toID="1.19" type="A">
+      <edge toID="1.19" type="A:p.Gestalt">
         <attributes remote="True" />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Gestalt" />
       </edge>
     </node>
     <node ID="1.18" type="FN">
@@ -289,9 +289,9 @@
     <node ID="1.19" type="FN">
       <attributes />
       <extra remarks="1.131" tree_id="22-5-1-1" />
-      <edge toID="0.9" type="Terminal:p.Gestalt">
+      <edge toID="0.9" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Gestalt" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.20" type="FN">
@@ -313,9 +313,9 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.121" tree_id="22-1-2" />
-      <edge toID="1.23" type="R">
+      <edge toID="1.23" type="R:p.Part/Portion">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Part/Portion" />
       </edge>
       <edge toID="1.24" type="F">
         <attributes />
@@ -333,9 +333,9 @@
     <node ID="1.23" type="FN">
       <attributes />
       <extra remarks="1.122" tree_id="22-1-2-1" />
-      <edge toID="0.2" type="Terminal:p.Part/Portion">
+      <edge toID="0.2" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Part/Portion" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.24" type="FN">

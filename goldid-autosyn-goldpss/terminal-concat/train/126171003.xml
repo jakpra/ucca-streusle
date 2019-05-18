@@ -334,9 +334,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.87" tree_id="14-5-3" />
-      <edge toID="1.22" type="R">
+      <edge toID="1.22" type="R:p.Gestalt">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Gestalt" />
       </edge>
       <edge toID="1.23" type="P">
         <attributes />
@@ -346,9 +346,9 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.88" tree_id="14-5-3-1" />
-      <edge toID="0.12" type="Terminal:p.Gestalt">
+      <edge toID="0.12" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Gestalt" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.23" type="FN">

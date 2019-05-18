@@ -113,9 +113,9 @@
         <attributes />
         <category layer_name="UCCA's Foundational Layer v2" tag="Q" />
       </edge>
-      <edge toID="1.8" type="R">
+      <edge toID="1.8" type="R:p.Quantity">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" tag="R" />
+        <category tag="R:p.Quantity" />
       </edge>
       <edge toID="1.9" type="C">
         <attributes />
@@ -137,9 +137,9 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.42" tree_id="5-3-2-1" />
-      <edge toID="0.5" type="Terminal:p.Quantity">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.9" type="FN">
@@ -157,9 +157,9 @@
         <attributes />
         <category layer_name="UCCA's Foundational Layer v2" tag="R" />
       </edge>
-      <edge toID="1.12" type="R">
+      <edge toID="1.12" type="R:p.Beneficiary">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" tag="R" />
+        <category tag="R:p.Beneficiary" />
       </edge>
       <edge toID="1.13" type="D">
         <attributes />
@@ -182,9 +182,9 @@
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.46" tree_id="5-3-3-2" />
-      <edge toID="0.8" type="Terminal:p.Beneficiary">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Beneficiary" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.13" type="FN">

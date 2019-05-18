@@ -157,9 +157,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
       </edge>
-      <edge toID="1.7" type="L">
+      <edge toID="1.7" type="L:p.Purpose">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="L" />
+        <category tag="L:p.Purpose" />
       </edge>
       <edge toID="1.8" type="H">
         <attributes />
@@ -229,9 +229,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
       </edge>
-      <edge toID="1.27" type="F">
+      <edge toID="1.27" type="F:p.Topic">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
+        <category tag="F:p.Topic" />
       </edge>
       <edge toID="1.28" type="A">
         <attributes />
@@ -265,9 +265,9 @@
     <node ID="1.7" type="FN">
       <attributes />
       <extra remarks="1.106" tree_id="17" />
-      <edge toID="0.27" type="Terminal:p.Purpose">
+      <edge toID="0.27" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Purpose" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.8" type="FN">
@@ -461,9 +461,9 @@
     <node ID="1.27" type="FN">
       <attributes />
       <extra remarks="1.91" tree_id="15-3" />
-      <edge toID="0.15" type="Terminal:p.Topic">
+      <edge toID="0.15" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Topic" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.28" type="FN">

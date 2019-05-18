@@ -149,9 +149,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.58" />
-      <edge toID="1.10" type="R">
+      <edge toID="1.10" type="R:p.Quantity">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Quantity" />
       </edge>
       <edge toID="1.11" type="C">
         <attributes />
@@ -185,9 +185,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.59" />
-      <edge toID="0.5" type="Terminal:p.Quantity">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">

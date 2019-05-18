@@ -237,9 +237,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.359" tree_id="38-1-2-3" />
-      <edge toID="1.15" type="R">
+      <edge toID="1.15" type="R:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.16" type="C">
         <attributes />
@@ -249,9 +249,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.360" tree_id="38-1-2-3-1" />
-      <edge toID="0.17" type="Terminal:p.Locus">
+      <edge toID="0.17" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.16" type="FN">
@@ -319,9 +319,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
       </edge>
-      <edge toID="1.27" type="S">
+      <edge toID="1.27" type="S:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="S:p.Locus" />
       </edge>
       <edge toID="1.28" type="A">
         <attributes />
@@ -350,17 +350,17 @@
     <node ID="1.27" type="FN">
       <attributes />
       <extra remarks="1.345" tree_id="37-3-2-3" />
-      <edge toID="0.4" type="Terminal:p.Locus">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.28" type="FN">
       <attributes />
       <extra remarks="1.346" tree_id="37-3-2-4" />
-      <edge toID="1.29" type="R">
+      <edge toID="1.29" type="R:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.30" type="C">
         <attributes />
@@ -378,9 +378,9 @@
     <node ID="1.29" type="FN">
       <attributes />
       <extra remarks="1.347" tree_id="37-3-2-4-1" />
-      <edge toID="0.5" type="Terminal:p.Locus">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.30" type="FN">

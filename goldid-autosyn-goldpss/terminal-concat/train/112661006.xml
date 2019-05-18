@@ -206,9 +206,9 @@
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="C" />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="Q" />
       </edge>
-      <edge toID="1.14" type="R">
+      <edge toID="1.14" type="R:p.Quantity">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Quantity" />
       </edge>
     </node>
     <node ID="1.10" type="FN">
@@ -246,9 +246,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.98" tree_id="18-3-1-2" />
-      <edge toID="0.16" type="Terminal:p.Quantity">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
       <edge toID="0.17" type="Terminal">
         <attributes />

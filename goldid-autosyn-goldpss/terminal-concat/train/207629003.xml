@@ -249,9 +249,9 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.242" />
-      <edge toID="1.16" type="R">
+      <edge toID="1.16" type="R:p.Part/Portion">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Part/Portion" />
       </edge>
       <edge toID="1.17" type="S">
         <attributes />
@@ -265,9 +265,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
       </edge>
-      <edge toID="1.16" type="R">
+      <edge toID="1.16" type="R:p.Part/Portion">
         <attributes remote="True" />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Part/Portion" />
       </edge>
     </node>
     <node ID="1.15" type="FN">
@@ -285,9 +285,9 @@
         <attributes />
         <category tag="Terminal" />
       </edge>
-      <edge toID="0.18" type="Terminal:p.Part/Portion">
+      <edge toID="0.18" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Part/Portion" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.17" type="FN">
@@ -349,9 +349,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
-      <edge toID="1.31" type="R">
+      <edge toID="1.31" type="R:p.Quantity">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Quantity" />
       </edge>
     </node>
     <node ID="1.23" type="FN">
@@ -373,9 +373,9 @@
     <node ID="1.25" type="FN">
       <attributes />
       <extra remarks="1.128" tree_id="8-4-2" />
-      <edge toID="1.26" type="R">
+      <edge toID="1.26" type="R:p.OrgRole">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.OrgRole" />
       </edge>
       <edge toID="1.27" type="F">
         <attributes />
@@ -389,9 +389,9 @@
     <node ID="1.26" type="FN">
       <attributes />
       <extra remarks="1.129" tree_id="8-4-2-1" />
-      <edge toID="0.8" type="Terminal:p.OrgRole">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.OrgRole" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.27" type="FN">
@@ -429,9 +429,9 @@
     <node ID="1.31" type="FN">
       <attributes />
       <extra remarks="1.124" tree_id="8-4-1-1-2" />
-      <edge toID="0.5" type="Terminal:p.Quantity">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

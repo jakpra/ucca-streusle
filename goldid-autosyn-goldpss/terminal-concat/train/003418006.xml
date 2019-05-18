@@ -125,9 +125,9 @@
     <node ID="1.6" type="FN">
       <attributes />
       <extra remarks="1.78" tree_id="10-3" />
-      <edge toID="1.7" type="A">
+      <edge toID="1.7" type="A:p.Originator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Originator" />
       </edge>
       <edge toID="1.8" type="P">
         <attributes />
@@ -141,9 +141,9 @@
     <node ID="1.7" type="FN">
       <attributes />
       <extra remarks="1.79" tree_id="10-3-1" />
-      <edge toID="0.4" type="Terminal:p.Originator">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.8" type="FN">
@@ -157,9 +157,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.81" tree_id="10-3-3" />
-      <edge toID="1.7" type="A">
+      <edge toID="1.7" type="A:p.Originator">
         <attributes remote="True" />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Originator" />
       </edge>
       <edge toID="1.10" type="R">
         <attributes />
@@ -237,9 +237,9 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.88" tree_id="10-3-3-4-4" />
-      <edge toID="1.17" type="R">
+      <edge toID="1.17" type="R:p.Originator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Originator" />
       </edge>
       <edge toID="1.18" type="C">
         <attributes />
@@ -257,9 +257,9 @@
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.89" tree_id="10-3-3-4-4-1" />
-      <edge toID="0.11" type="Terminal:p.Originator">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.18" type="FN">

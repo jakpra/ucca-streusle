@@ -109,9 +109,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
       </edge>
-      <edge toID="1.5" type="L">
+      <edge toID="1.5" type="L:p.Theme">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="L" />
+        <category tag="L:p.Theme" />
       </edge>
       <edge toID="1.6" type="H">
         <attributes />
@@ -185,9 +185,9 @@
     <node ID="1.5" type="FN">
       <attributes />
       <extra remarks="1.53" tree_id="8" />
-      <edge toID="0.15" type="Terminal:p.Theme">
+      <edge toID="0.15" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Theme" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.6" type="FN">

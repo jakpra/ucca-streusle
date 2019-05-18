@@ -137,9 +137,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
       </edge>
-      <edge toID="1.23" type="T">
+      <edge toID="1.23" type="T:p.Time">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="T" />
+        <category tag="T:p.Time" />
       </edge>
       <edge toID="1.24" type="P">
         <attributes />
@@ -165,9 +165,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
       </edge>
-      <edge toID="1.16" type="P">
+      <edge toID="1.16" type="P:p.Originator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
+        <category tag="P:p.Originator" />
       </edge>
       <edge toID="1.17" type="A">
         <attributes />
@@ -193,9 +193,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
       </edge>
-      <edge toID="1.10" type="P">
+      <edge toID="1.10" type="P:p.Originator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
+        <category tag="P:p.Originator" />
       </edge>
       <edge toID="1.11" type="A">
         <attributes />
@@ -245,9 +245,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.100" tree_id="19-3" />
-      <edge toID="0.21" type="Terminal:p.Originator">
+      <edge toID="0.21" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">
@@ -301,9 +301,9 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.92" tree_id="17-3" />
-      <edge toID="0.15" type="Terminal:p.Originator">
+      <edge toID="0.15" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.17" type="FN">
@@ -357,9 +357,9 @@
     <node ID="1.23" type="FN">
       <attributes />
       <extra remarks="1.77" tree_id="16-3" />
-      <edge toID="0.3" type="Terminal:p.Time">
+      <edge toID="0.3" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Time" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.24" type="FN">
@@ -385,9 +385,9 @@
     <node ID="1.26" type="FN">
       <attributes />
       <extra remarks="1.82" tree_id="16-6" />
-      <edge toID="1.27" type="R">
+      <edge toID="1.27" type="R:p.Originator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Originator" />
       </edge>
       <edge toID="1.28" type="E">
         <attributes />
@@ -401,9 +401,9 @@
     <node ID="1.27" type="FN">
       <attributes />
       <extra remarks="1.83" tree_id="16-6-1" />
-      <edge toID="0.7" type="Terminal:p.Originator">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.28" type="FN">

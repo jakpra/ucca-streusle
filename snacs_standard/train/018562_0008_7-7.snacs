@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="018562_0008_7-7">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="as" />
+      <extra config="default" deprel="advmod" edeps="6:advmod" feats="null" gov="137" govlemma="natural" head="6" identified_for_pss="False" ind="5" is_part_of_mwe="False" lemma="as" lexcat="P" lexlemma="as" lextag="O-P-p.Characteristic|p.Identity" local_gov="6" misc="null" obj="null" objlemma="null" smwe="null" ss="False" upos="ADV" wmwe="null" word="as" xpos="RB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="as" />
+      <extra config="subordinating" deprel="mark" edeps="10:mark" feats="null" gov="136" govlemma="as" head="10" identified_for_pss="True" ind="7" is_part_of_mwe="False" lemma="as" lexcat="P" lexlemma="as" lextag="O-P-p.ComparisonRef" local_gov="5" local_obj="10" misc="null" obj="141" objlemma="expect" smwe="null" ss="False" upos="SCONJ" wmwe="null" word="as" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="expected" />
+      <extra deprel="advcl" edeps="5:advcl" feats="Tense=Past|VerbForm=Part|Voice=Pass" head="5" identified_for_pss="False" ind="10" is_part_of_mwe="False" lemma="expect" lexcat="V" lexlemma="expect" lextag="O-V-v.cognition" misc="SpaceAfter=No" smwe="null" ss="False" upos="VERB" wmwe="null" word="expected" xpos="VBN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.ComparisonRef">
+        <attributes />
+        <category tag="p.ComparisonRef" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

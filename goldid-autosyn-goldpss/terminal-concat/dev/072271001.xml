@@ -173,9 +173,9 @@
     <node ID="1.7" type="FN">
       <attributes />
       <extra remarks="1.13" tree_id="2-4" />
-      <edge toID="1.21" type="R">
+      <edge toID="1.21" type="R:p.Source">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Source" />
       </edge>
       <edge toID="1.22" type="E">
         <attributes />
@@ -193,9 +193,9 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.20" tree_id="2-5" />
-      <edge toID="1.9" type="R">
+      <edge toID="1.9" type="R:p.Goal">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Goal" />
       </edge>
       <edge toID="1.10" type="F">
         <attributes />
@@ -213,9 +213,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.21" tree_id="2-5-1" />
-      <edge toID="0.13" type="Terminal:p.Goal">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Goal" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.10" type="FN">
@@ -237,9 +237,9 @@
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.24" tree_id="2-5-4" />
-      <edge toID="1.13" type="R">
+      <edge toID="1.13" type="R:p.Characteristic">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Characteristic" />
       </edge>
       <edge toID="1.14" type="F">
         <attributes />
@@ -253,9 +253,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
       </edge>
-      <edge toID="1.17" type="R">
+      <edge toID="1.17" type="R:p.Species">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Species" />
       </edge>
       <edge toID="1.18" type="C">
         <attributes />
@@ -265,9 +265,9 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.25" tree_id="2-5-4-1" />
-      <edge toID="0.16" type="Terminal:p.Characteristic">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Characteristic" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.14" type="FN">
@@ -305,9 +305,9 @@
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.32" tree_id="2-5-4-5-1" />
-      <edge toID="0.20" type="Terminal:p.Species">
+      <edge toID="0.20" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Species" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.18" type="FN">
@@ -337,9 +337,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.14" tree_id="2-4-1" />
-      <edge toID="0.6" type="Terminal:p.Source">
+      <edge toID="0.6" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Source" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.22" type="FN">
@@ -365,9 +365,9 @@
     <node ID="1.24" type="FN">
       <attributes />
       <extra remarks="1.17" tree_id="2-4-4" />
-      <edge toID="1.25" type="R">
+      <edge toID="1.25" type="R:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.26" type="C">
         <attributes />
@@ -377,9 +377,9 @@
     <node ID="1.25" type="FN">
       <attributes />
       <extra remarks="1.18" tree_id="2-4-4-1" />
-      <edge toID="0.10" type="Terminal:p.Locus">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.26" type="FN">

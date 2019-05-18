@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="326649_0002_7-7">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="trust" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="0" identified_for_pss="False" ind="3" is_part_of_mwe="False" lemma="trust" lexcat="V" lexlemma="trust" lextag="B-V-v.emotion" misc="null" smwe="null" ss="False" upos="VERB" wmwe="[1, 1]" word="trust" xpos="VBP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="with" />
+      <extra config="default" deprel="case" edeps="10:case" feats="null" gov="7" govlemma="trust" head="10" identified_for_pss="True" ind="7" is_part_of_mwe="False" lemma="with" lexcat="P" lexlemma="with" lextag="I~-P-p.Topic" local_gov="3" local_obj="10" misc="null" obj="14" objlemma="vehicle" smwe="null" ss="False" upos="ADP" wmwe="[1, 2]" word="with" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="vehicles" />
+      <extra deprel="obl" edeps="3:obl" feats="Number=Plur" head="3" identified_for_pss="False" ind="10" is_part_of_mwe="False" lemma="vehicle" lexcat="N" lexlemma="vehicle" lextag="O-N-n.ARTIFACT" misc="SpaceAfter=No" smwe="null" ss="False" upos="NOUN" wmwe="null" word="vehicles" xpos="NNS" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Topic">
+        <attributes />
+        <category tag="p.Topic" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

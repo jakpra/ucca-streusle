@@ -229,9 +229,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
-      <edge toID="1.18" type="R">
+      <edge toID="1.18" type="R:p.Time">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Time" />
       </edge>
     </node>
     <node ID="1.12" type="FN">
@@ -293,9 +293,9 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.129" tree_id="20-6-4" />
-      <edge toID="0.17" type="Terminal:p.Time">
+      <edge toID="0.17" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Time" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.19" type="FN">
@@ -321,9 +321,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.112" tree_id="18-3" />
-      <edge toID="1.22" type="R">
+      <edge toID="1.22" type="R:p.Manner">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Manner" />
       </edge>
       <edge toID="1.23" type="S">
         <attributes />
@@ -337,9 +337,9 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.113" tree_id="18-3-1" />
-      <edge toID="0.4" type="Terminal:p.Manner">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Manner" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.23" type="FN">
@@ -385,10 +385,10 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.29" type="S">
+      <edge toID="1.29" type="S:p.Possessor">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="S:p.Possessor" />
+        <category tag="A:p.Possessor" />
       </edge>
     </node>
     <node ID="1.28" type="FN">
@@ -402,9 +402,9 @@
     <node ID="1.29" type="FN">
       <attributes />
       <extra remarks="1.109" tree_id="18-1-1-1" />
-      <edge toID="0.1" type="Terminal:p.Possessor">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

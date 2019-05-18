@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="018548_0013_4-4">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="This" />
+      <extra deprel="nsubj" edeps="5:nsubj" feats="Number=Sing|PronType=Dem" head="5" identified_for_pss="False" ind="1" is_part_of_mwe="False" lemma="this" lexcat="PRON" lexlemma="this" lextag="O-PRON" misc="null" smwe="null" ss="False" upos="PRON" wmwe="null" word="This" xpos="DT" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="between" />
+      <extra config="predicative" deprel="case" edeps="5:case" feats="null" gov="188" govlemma="this" head="5" identified_for_pss="True" ind="4" is_part_of_mwe="False" lemma="between" lexcat="P" lexlemma="between" lextag="O-P-p.Time|p.Whole" local_gov="1" local_obj="5" misc="null" obj="192" objlemma="'05" smwe="null" ss="False" upos="ADP" wmwe="null" word="between" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="'05" />
+      <extra deprel="root" edeps="0:root" feats="NumType=Card" head="0" identified_for_pss="False" ind="5" is_part_of_mwe="False" lemma="'05" lexcat="NUM" lexlemma="'05" lextag="O-NUM" misc="null" smwe="null" ss="False" upos="NUM" wmwe="null" word="'05" xpos="CD" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Time">
+        <attributes />
+        <category tag="p.Time" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

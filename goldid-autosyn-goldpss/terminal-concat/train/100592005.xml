@@ -112,9 +112,9 @@
     <node ID="1.6" type="FN">
       <attributes />
       <extra remarks="1.93" tree_id="18-3" />
-      <edge toID="1.7" type="R">
+      <edge toID="1.7" type="R:p.Recipient">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Recipient" />
       </edge>
       <edge toID="1.8" type="C">
         <attributes />
@@ -128,9 +128,9 @@
     <node ID="1.7" type="FN">
       <attributes />
       <extra remarks="1.94" tree_id="18-3-1" />
-      <edge toID="0.8" type="Terminal:p.Recipient">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Recipient" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.8" type="FN">

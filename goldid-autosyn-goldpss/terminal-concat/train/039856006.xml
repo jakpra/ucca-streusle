@@ -133,9 +133,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="Q" />
       </edge>
-      <edge toID="1.13" type="R">
+      <edge toID="1.13" type="R:p.Quantity">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Quantity" />
       </edge>
       <edge toID="1.14" type="E">
         <attributes />
@@ -153,9 +153,9 @@
     <node ID="1.7" type="FN">
       <attributes />
       <extra remarks="1.100" tree_id="13-5" />
-      <edge toID="1.8" type="R">
+      <edge toID="1.8" type="R:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.9" type="E">
         <attributes />
@@ -173,9 +173,9 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.101" tree_id="13-5-1" />
-      <edge toID="0.12" type="Terminal:p.Locus">
+      <edge toID="0.12" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.9" type="FN">
@@ -213,9 +213,9 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.92" tree_id="13-4-2-1" />
-      <edge toID="0.6" type="Terminal:p.Quantity">
+      <edge toID="0.6" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.14" type="FN">
@@ -273,17 +273,17 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
-      <edge toID="1.20" type="R">
+      <edge toID="1.20" type="R:p.Whole">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Whole" />
       </edge>
     </node>
     <node ID="1.20" type="FN">
       <attributes />
       <extra remarks="1.99" tree_id="13-4-3-3-2" />
-      <edge toID="0.11" type="Terminal:p.Whole">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Whole" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

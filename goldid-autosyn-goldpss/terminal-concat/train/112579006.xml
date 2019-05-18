@@ -229,13 +229,13 @@
         <attributes remote="True" />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
       </edge>
-      <edge toID="1.12" type="R">
+      <edge toID="1.12" type="R:p.Part/Portion">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Part/Portion" />
       </edge>
-      <edge toID="1.13" type="A">
+      <edge toID="1.13" type="A:p.Agent">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
+        <category tag="A:p.Agent" />
       </edge>
       <edge toID="1.14" type="P">
         <attributes />
@@ -249,17 +249,17 @@
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.145" tree_id="22-3-4-2" />
-      <edge toID="0.7" type="Terminal:p.Part/Portion">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Part/Portion" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.146" tree_id="22-3-4-3" />
-      <edge toID="0.8" type="Terminal:p.Agent">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.14" type="FN">
@@ -273,9 +273,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.148" tree_id="22-3-4-5" />
-      <edge toID="1.16" type="R">
+      <edge toID="1.16" type="R:p.Topic">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Topic" />
       </edge>
       <edge toID="1.17" type="C">
         <attributes />
@@ -293,9 +293,9 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.149" tree_id="22-3-4-5-1" />
-      <edge toID="0.10" type="Terminal:p.Topic">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Topic" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.17" type="FN">

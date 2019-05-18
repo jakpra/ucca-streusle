@@ -289,13 +289,13 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.79" tree_id="9-5-2" />
-      <edge toID="1.25" type="R">
+      <edge toID="1.25" type="R:p.Purpose">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Purpose" />
       </edge>
-      <edge toID="1.26" type="A">
+      <edge toID="1.26" type="A:p.Experiencer">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
+        <category tag="A:p.Experiencer" />
       </edge>
       <edge toID="1.27" type="P">
         <attributes />
@@ -425,17 +425,17 @@
     <node ID="1.25" type="FN">
       <attributes />
       <extra remarks="1.80" tree_id="9-5-2-1" />
-      <edge toID="0.14" type="Terminal:p.Purpose">
+      <edge toID="0.14" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Purpose" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.26" type="FN">
       <attributes />
       <extra remarks="1.81" tree_id="9-5-2-2" />
-      <edge toID="0.15" type="Terminal:p.Experiencer">
+      <edge toID="0.15" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Experiencer" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.27" type="FN">

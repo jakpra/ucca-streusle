@@ -198,9 +198,9 @@
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="Q" />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="C" />
       </edge>
-      <edge toID="1.12" type="N">
+      <edge toID="1.12" type="N:p.Cost:p.ComparisonRef">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="N" />
+        <category tag="N:p.Cost:p.ComparisonRef" />
       </edge>
       <edge toID="1.13" type="E">
         <attributes />
@@ -218,17 +218,17 @@
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.208" tree_id="30-4-2" />
-      <edge toID="0.11" type="Terminal:p.Cost">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Cost" />
+        <category tag="Terminal" />
       </edge>
       <edge toID="0.12" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
-      <edge toID="0.13" type="Terminal:p.ComparisonRef">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.ComparisonRef" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.13" type="FN">

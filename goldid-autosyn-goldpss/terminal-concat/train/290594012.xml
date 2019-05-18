@@ -233,9 +233,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="Q" />
       </edge>
-      <edge toID="1.30" type="R">
+      <edge toID="1.30" type="R:p.Quantity">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Quantity" />
       </edge>
       <edge toID="1.31" type="C">
         <attributes />
@@ -313,9 +313,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.447" tree_id="52-5-1" />
-      <edge toID="1.16" type="R">
+      <edge toID="1.16" type="R:p.Extent">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Extent" />
       </edge>
       <edge toID="1.17" type="C">
         <attributes />
@@ -333,9 +333,9 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.448" tree_id="52-5-1-1" />
-      <edge toID="0.24" type="Terminal:p.Extent">
+      <edge toID="0.24" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Extent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.17" type="FN">
@@ -385,9 +385,9 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.441" tree_id="52-4-5" />
-      <edge toID="1.25" type="R">
+      <edge toID="1.25" type="R:p.ComparisonRef">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.ComparisonRef" />
       </edge>
       <edge toID="1.26" type="T">
         <attributes />
@@ -414,9 +414,9 @@
     <node ID="1.25" type="FN">
       <attributes />
       <extra remarks="1.442" tree_id="52-4-5-1" />
-      <edge toID="0.19" type="Terminal:p.ComparisonRef">
+      <edge toID="0.19" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.ComparisonRef" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.26" type="FN">
@@ -454,9 +454,9 @@
     <node ID="1.30" type="FN">
       <attributes />
       <extra remarks="1.430" tree_id="52-1-2-1" />
-      <edge toID="0.10" type="Terminal:p.Quantity">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.31" type="FN">
@@ -494,9 +494,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
-      <edge toID="1.37" type="R">
+      <edge toID="1.37" type="R:p.Source">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Source" />
       </edge>
     </node>
     <node ID="1.35" type="FN">
@@ -518,9 +518,9 @@
     <node ID="1.37" type="FN">
       <attributes />
       <extra remarks="1.423" tree_id="50-3-2" />
-      <edge toID="0.5" type="Terminal:p.Source">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Source" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.38" type="FN">
@@ -530,9 +530,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.40" type="S">
+      <edge toID="1.40" type="S:p.Possessor">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="S:p.Possessor" />
       </edge>
     </node>
     <node ID="1.39" type="FN">
@@ -546,9 +546,9 @@
     <node ID="1.40" type="FN">
       <attributes />
       <extra remarks="1.418" tree_id="50-1-1-1" />
-      <edge toID="0.1" type="Terminal:p.Possessor">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

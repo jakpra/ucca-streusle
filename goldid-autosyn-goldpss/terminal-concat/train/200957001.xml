@@ -105,9 +105,9 @@
         <attributes />
         <category tag="H" />
       </edge>
-      <edge toID="1.5" type="L">
+      <edge toID="1.5" type="L:p.Purpose">
         <attributes />
-        <category tag="L" />
+        <category tag="L:p.Purpose" />
       </edge>
       <edge toID="1.6" type="H">
         <attributes />
@@ -177,9 +177,9 @@
     <node ID="1.5" type="FN">
       <attributes />
       <extra remarks="1.23" />
-      <edge toID="0.15" type="Terminal:p.Purpose">
+      <edge toID="0.15" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Purpose" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.6" type="FN">
@@ -309,9 +309,9 @@
     <node ID="1.19" type="FN">
       <attributes />
       <extra remarks="1.10" />
-      <edge toID="1.26" type="E">
+      <edge toID="1.26" type="E:p.Whole">
         <attributes />
-        <category tag="E" />
+        <category tag="E:p.Whole" />
       </edge>
       <edge toID="1.27" type="C">
         <attributes />
@@ -329,9 +329,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.14" />
-      <edge toID="1.22" type="R">
+      <edge toID="1.22" type="R:p.Duration">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Duration" />
       </edge>
       <edge toID="1.23" type="Q">
         <attributes />
@@ -341,17 +341,17 @@
         <attributes />
         <category tag="C" />
       </edge>
-      <edge toID="1.25" type="E">
+      <edge toID="1.25" type="E:p.Approximator">
         <attributes />
-        <category tag="E" />
+        <category tag="E:p.Approximator" />
       </edge>
     </node>
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.15" />
-      <edge toID="0.8" type="Terminal:p.Duration">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Duration" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.23" type="FN">
@@ -373,17 +373,17 @@
     <node ID="1.25" type="FN">
       <attributes />
       <extra remarks="1.18" />
-      <edge toID="0.11" type="Terminal:p.Approximator">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Approximator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.26" type="FN">
       <attributes />
       <extra remarks="1.11" />
-      <edge toID="0.5" type="Terminal:p.Whole">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Whole" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.27" type="FN">

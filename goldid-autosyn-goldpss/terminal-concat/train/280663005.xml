@@ -145,9 +145,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
       </edge>
-      <edge toID="1.7" type="L">
+      <edge toID="1.7" type="L:p.Time">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="L" />
+        <category tag="L:p.Time" />
       </edge>
       <edge toID="1.8" type="H">
         <attributes />
@@ -241,9 +241,9 @@
     <node ID="1.7" type="FN">
       <attributes />
       <extra remarks="1.81" tree_id="15" />
-      <edge toID="0.26" type="Terminal:p.Time">
+      <edge toID="0.26" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Time" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.8" type="FN">
@@ -357,9 +357,9 @@
     <node ID="1.20" type="FN">
       <attributes />
       <extra remarks="1.73" tree_id="12-5" />
-      <edge toID="1.21" type="R">
+      <edge toID="1.21" type="R:p.Co-Agent">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Co-Agent" />
       </edge>
       <edge toID="1.22" type="C">
         <attributes />
@@ -369,9 +369,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.74" tree_id="12-5-1" />
-      <edge toID="0.20" type="Terminal:p.Co-Agent">
+      <edge toID="0.20" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Co-Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.22" type="FN">

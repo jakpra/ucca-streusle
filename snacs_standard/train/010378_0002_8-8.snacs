@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="010378_0002_8-8">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="experience" />
+      <extra deprel="obj" edeps="4:obj" feats="Number=Sing" head="4" identified_for_pss="False" ind="7" is_part_of_mwe="True" lemma="experience" lexcat="V" lexlemma="have experience" lextag="I_" misc="null" smwe="[1, 2]" ss="False" upos="NOUN" wmwe="[3, 2]" word="experience" xpos="NN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="w" />
+      <extra config="default" deprel="case" edeps="10:case" feats="Abbr=Yes" gov="9" govlemma="experience" head="10" identified_for_pss="True" ind="8" is_part_of_mwe="False" lemma="with" lexcat="P" lexlemma="with" lextag="I~-P-p.Topic" local_gov="7" local_obj="10" misc="SpaceAfter=No" obj="12" objlemma="Dr." smwe="null" ss="False" upos="ADP" wmwe="[3, 3]" word="w" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Dr." />
+      <extra deprel="nmod" edeps="7:nmod" feats="Number=Sing" head="7" identified_for_pss="False" ind="10" is_part_of_mwe="True" lemma="Dr." lexcat="N" lexlemma="Dr. Ghassemlou" lextag="B-N-n.PERSON" misc="null" smwe="[2, 1]" ss="False" upos="PROPN" wmwe="null" word="Dr." xpos="NNP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Topic">
+        <attributes />
+        <category tag="p.Topic" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

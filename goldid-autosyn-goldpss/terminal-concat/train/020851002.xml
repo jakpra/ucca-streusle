@@ -209,9 +209,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.40" />
-      <edge toID="1.21" type="R">
+      <edge toID="1.21" type="R:p.Time">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Time" />
       </edge>
       <edge toID="1.22" type="F">
         <attributes />
@@ -298,9 +298,9 @@
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.52" />
-      <edge toID="1.18" type="R">
+      <edge toID="1.18" type="R:p.Locus">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.19" type="F">
         <attributes />
@@ -314,9 +314,9 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.53" />
-      <edge toID="0.19" type="Terminal:p.Locus">
+      <edge toID="0.19" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.19" type="FN">
@@ -338,9 +338,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.41" />
-      <edge toID="0.10" type="Terminal:p.Time">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Time" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.22" type="FN">
@@ -382,9 +382,9 @@
     <node ID="1.26" type="FN">
       <attributes />
       <extra remarks="1.29" />
-      <edge toID="1.29" type="A">
+      <edge toID="1.29" type="A:p.Agent">
         <attributes />
-        <category tag="A" />
+        <category tag="A:p.Agent" />
       </edge>
       <edge toID="1.30" type="S">
         <attributes />
@@ -410,9 +410,9 @@
     <node ID="1.29" type="FN">
       <attributes />
       <extra remarks="1.30" />
-      <edge toID="0.1" type="Terminal:p.Agent">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.30" type="FN">

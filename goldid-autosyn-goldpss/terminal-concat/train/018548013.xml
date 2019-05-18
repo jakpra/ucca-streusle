@@ -257,9 +257,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.247" tree_id="43-1-2" />
-      <edge toID="1.16" type="R">
+      <edge toID="1.16" type="R:p.Gestalt">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Gestalt" />
       </edge>
       <edge toID="1.17" type="F">
         <attributes />
@@ -273,9 +273,9 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.248" tree_id="43-1-2-1" />
-      <edge toID="0.11" type="Terminal:p.Gestalt">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Gestalt" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.17" type="FN">

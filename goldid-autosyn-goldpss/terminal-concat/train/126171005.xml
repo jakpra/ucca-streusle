@@ -265,9 +265,9 @@
         <attributes />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="H" />
       </edge>
-      <edge toID="1.18" type="L">
+      <edge toID="1.18" type="L:p.Approximator:p.ComparisonRef">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="L" />
+        <category tag="L:p.Approximator:p.ComparisonRef" />
       </edge>
       <edge toID="1.19" type="H">
         <attributes />
@@ -297,17 +297,17 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.114" tree_id="18-3-2" />
-      <edge toID="0.5" type="Terminal:p.Approximator">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Approximator" />
+        <category tag="Terminal" />
       </edge>
       <edge toID="0.6" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
-      <edge toID="0.7" type="Terminal:p.ComparisonRef">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.ComparisonRef" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.19" type="FN">
@@ -361,9 +361,9 @@
     <node ID="1.24" type="FN">
       <attributes />
       <extra remarks="1.111" tree_id="18-3-1-4" />
-      <edge toID="1.25" type="R">
+      <edge toID="1.25" type="R:p.Originator">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Originator" />
       </edge>
       <edge toID="1.26" type="C">
         <attributes />
@@ -373,9 +373,9 @@
     <node ID="1.25" type="FN">
       <attributes />
       <extra remarks="1.112" tree_id="18-3-1-4-1" />
-      <edge toID="0.10" type="Terminal:p.Originator">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.26" type="FN">

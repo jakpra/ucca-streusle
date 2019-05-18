@@ -225,9 +225,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="Q" />
       </edge>
-      <edge toID="1.15" type="F">
+      <edge toID="1.15" type="F:p.Whole">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
+        <category tag="F:p.Whole" />
       </edge>
       <edge toID="1.16" type="E">
         <attributes />
@@ -257,9 +257,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.65" tree_id="9-4-3-2" />
-      <edge toID="0.10" type="Terminal:p.Whole">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Whole" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.16" type="FN">
@@ -269,9 +269,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.26" type="A">
+      <edge toID="1.26" type="A:p.Experiencer">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Experiencer" />
       </edge>
       <edge toID="1.27" type="S">
         <attributes />
@@ -293,9 +293,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.24" type="R">
+      <edge toID="1.24" type="R:p.Characteristic">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Characteristic" />
       </edge>
       <edge toID="1.25" type="P">
         <attributes />
@@ -305,17 +305,17 @@
     <node ID="1.19" type="FN">
       <attributes />
       <extra remarks="1.73" tree_id="9-4-3-6" />
-      <edge toID="1.20" type="R">
+      <edge toID="1.20" type="R:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.21" type="Q">
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="Q" />
       </edge>
-      <edge toID="1.22" type="R">
+      <edge toID="1.22" type="R:p.Quantity">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Quantity" />
       </edge>
       <edge toID="1.23" type="C">
         <attributes />
@@ -325,9 +325,9 @@
     <node ID="1.20" type="FN">
       <attributes />
       <extra remarks="1.74" tree_id="9-4-3-6-1" />
-      <edge toID="0.16" type="Terminal:p.Locus">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.21" type="FN">
@@ -341,9 +341,9 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.77" tree_id="9-4-3-6-3-1" />
-      <edge toID="0.18" type="Terminal:p.Quantity">
+      <edge toID="0.18" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.23" type="FN">
@@ -357,9 +357,9 @@
     <node ID="1.24" type="FN">
       <attributes />
       <extra remarks="1.71" tree_id="9-4-3-5-2" />
-      <edge toID="0.14" type="Terminal:p.Characteristic">
+      <edge toID="0.14" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Characteristic" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.25" type="FN">
@@ -373,9 +373,9 @@
     <node ID="1.26" type="FN">
       <attributes />
       <extra remarks="1.67" tree_id="9-4-3-3-1" />
-      <edge toID="0.11" type="Terminal:p.Experiencer">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Experiencer" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.27" type="FN">

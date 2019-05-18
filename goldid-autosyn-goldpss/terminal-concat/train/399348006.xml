@@ -129,9 +129,9 @@
         <attributes />
         <category tag="F" />
       </edge>
-      <edge toID="1.23" type="S">
+      <edge toID="1.23" type="S:p.Locus">
         <attributes />
-        <category tag="S" />
+        <category tag="S:p.Locus" />
       </edge>
       <edge toID="1.24" type="A">
         <attributes />
@@ -181,9 +181,9 @@
         <attributes />
         <category tag="D" />
       </edge>
-      <edge toID="1.10" type="F">
+      <edge toID="1.10" type="F:p.Purpose">
         <attributes />
-        <category tag="F" />
+        <category tag="F:p.Purpose" />
       </edge>
       <edge toID="1.11" type="P">
         <attributes />
@@ -221,9 +221,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.170" />
-      <edge toID="0.19" type="Terminal:p.Purpose">
+      <edge toID="0.19" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Purpose" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">
@@ -261,9 +261,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.163" />
-      <edge toID="1.15" type="R">
+      <edge toID="1.15" type="R:p.Goal">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Goal" />
       </edge>
       <edge toID="1.16" type="C">
         <attributes />
@@ -273,9 +273,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.164" />
-      <edge toID="0.13" type="Terminal:p.Goal">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Goal" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.16" type="FN">
@@ -341,9 +341,9 @@
     <node ID="1.23" type="FN">
       <attributes />
       <extra remarks="1.151" />
-      <edge toID="0.3" type="Terminal:p.Locus">
+      <edge toID="0.3" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.24" type="FN">

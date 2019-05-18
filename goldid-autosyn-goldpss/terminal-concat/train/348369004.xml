@@ -117,9 +117,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.8" type="R">
+      <edge toID="1.8" type="R:p.Co-Theme">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Co-Theme" />
       </edge>
       <edge toID="1.9" type="D">
         <attributes />
@@ -137,9 +137,9 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.38" tree_id="7-4-2" />
-      <edge toID="0.4" type="Terminal:p.Co-Theme">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Co-Theme" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.9" type="FN">

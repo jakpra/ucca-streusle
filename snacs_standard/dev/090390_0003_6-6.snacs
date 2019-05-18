@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="090390_0003_6-6">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="is" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" head="0" identified_for_pss="False" ind="2" is_part_of_mwe="False" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" misc="SpaceAfter=No" smwe="null" ss="False" upos="VERB" wmwe="null" word="is" xpos="VBZ" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="near" />
+      <extra config="default" deprel="case" edeps="10:case" feats="null" gov="17" govlemma="be" head="10" identified_for_pss="True" ind="6" is_part_of_mwe="False" lemma="near" lexcat="P" lexlemma="near" lextag="O-P-p.Locus" local_gov="2" local_obj="10" misc="null" obj="25" objlemma="Bridges" smwe="null" ss="False" upos="ADP" wmwe="null" word="near" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Bridges" />
+      <extra deprel="obl" edeps="2:obl" feats="Number=Plur" head="2" identified_for_pss="False" ind="10" is_part_of_mwe="True" lemma="Bridges" lexcat="N" lexlemma="Blue Water Bridges" lextag="I_" misc="SpaceAfter=No" smwe="[1, 3]" ss="False" upos="PROPN" wmwe="null" word="Bridges" xpos="NNPS" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Locus">
+        <attributes />
+        <category tag="p.Locus" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

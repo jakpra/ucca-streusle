@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="342811_0003_7-7">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="booked" />
+      <extra deprel="root" edeps="0:root" feats="Tense=Past|VerbForm=Part" head="0" identified_for_pss="False" ind="3" is_part_of_mwe="False" lemma="book" lexcat="V" lexlemma="book" lextag="O-V-v.social" misc="null" smwe="null" ss="False" upos="VERB" wmwe="null" word="booked" xpos="VBN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="with" />
+      <extra config="default" deprel="case" edeps="9:case" feats="null" gov="14" govlemma="book" head="9" identified_for_pss="True" ind="7" is_part_of_mwe="False" lemma="with" lexcat="P" lexlemma="with" lextag="O-P-p.Accompanier" local_gov="3" local_obj="9" misc="null" obj="20" objlemma="number" smwe="null" ss="False" upos="ADP" wmwe="null" word="with" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="number" />
+      <extra deprel="obl" edeps="3:obl" feats="Number=Sing" head="3" identified_for_pss="False" ind="9" is_part_of_mwe="True" lemma="number" lexcat="N" lexlemma="a number" lextag="I_" misc="null" smwe="[1, 2]" ss="False" upos="NOUN" wmwe="null" word="number" xpos="NN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Accompanier">
+        <attributes />
+        <category tag="p.Accompanier" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

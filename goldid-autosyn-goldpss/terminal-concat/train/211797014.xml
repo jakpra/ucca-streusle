@@ -97,9 +97,9 @@
     <node ID="1.2" type="FN">
       <attributes />
       <extra remarks="1.501" />
-      <edge toID="1.4" type="A">
+      <edge toID="1.4" type="A:p.Originator">
         <attributes />
-        <category tag="A" />
+        <category tag="A:p.Originator" />
       </edge>
       <edge toID="1.5" type="S">
         <attributes />
@@ -125,9 +125,9 @@
     <node ID="1.4" type="FN">
       <attributes />
       <extra remarks="1.502" />
-      <edge toID="0.1" type="Terminal:p.Originator">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.5" type="FN">
@@ -273,9 +273,9 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.522" />
-      <edge toID="1.17" type="R">
+      <edge toID="1.17" type="R:p.Co-Agent">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Co-Agent" />
       </edge>
       <edge toID="1.18" type="P">
         <attributes />
@@ -285,9 +285,9 @@
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.523" />
-      <edge toID="0.16" type="Terminal:p.Co-Agent">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Co-Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.18" type="FN">

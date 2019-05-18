@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="007403_0006_11-11">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="visit" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Imp|VerbForm=Fin" head="0" identified_for_pss="False" ind="2" is_part_of_mwe="False" lemma="visit" lexcat="V" lexlemma="visit" lextag="O-V-v.communication" misc="null" smwe="null" ss="False" upos="VERB" wmwe="null" word="visit" xpos="VB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="at" />
+      <extra config="default" deprel="case" edeps="12:case" feats="null" gov="67" govlemma="visit" head="12" identified_for_pss="True" ind="11" is_part_of_mwe="False" lemma="at" lexcat="P" lexlemma="at" lextag="O-P-p.Locus" local_gov="2" local_obj="12" misc="null" obj="77" objlemma="www.veraakulov.com" smwe="null" ss="False" upos="ADP" wmwe="null" word="at" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="www.veraakulov.com" />
+      <extra deprel="obl" edeps="2:obl" feats="null" head="2" identified_for_pss="False" ind="12" is_part_of_mwe="False" lemma="www.veraakulov.com" lexcat="N" lexlemma="www.veraakulov.com" lextag="O-N-n.COMMUNICATION" misc="SpaceAfter=No" smwe="null" ss="False" upos="X" wmwe="null" word="www.veraakulov.com" xpos="ADD" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Locus">
+        <attributes />
+        <category tag="p.Locus" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

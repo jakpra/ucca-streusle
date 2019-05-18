@@ -129,9 +129,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
       </edge>
-      <edge toID="1.8" type="P">
+      <edge toID="1.8" type="P:p.Direction">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
+        <category tag="P:p.Direction" />
       </edge>
       <edge toID="1.9" type="A">
         <attributes />
@@ -173,21 +173,21 @@
         <attributes />
         <category tag="Terminal" />
       </edge>
-      <edge toID="0.10" type="Terminal:p.Direction">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Direction" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.138" tree_id="23-5" />
-      <edge toID="1.10" type="R">
+      <edge toID="1.10" type="R:p.Purpose">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Purpose" />
       </edge>
-      <edge toID="1.11" type="A">
+      <edge toID="1.11" type="A:p.Theme">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Theme" />
       </edge>
       <edge toID="1.12" type="D">
         <attributes />
@@ -201,17 +201,17 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.139" tree_id="23-5-1" />
-      <edge toID="0.11" type="Terminal:p.Purpose">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Purpose" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.140" tree_id="23-5-2" />
-      <edge toID="0.12" type="Terminal:p.Theme">
+      <edge toID="0.12" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Theme" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.12" type="FN">

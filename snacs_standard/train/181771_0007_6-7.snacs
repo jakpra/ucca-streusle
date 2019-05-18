@@ -1,0 +1,87 @@
+<root annotationID="0" passageID="181771_0007_6-7">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="it" />
+      <extra deprel="nsubj" edeps="10:nsubj" feats="Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" head="10" identified_for_pss="False" ind="3" is_part_of_mwe="False" lemma="it" lexcat="PRON" lexlemma="it" lextag="O-PRON" misc="null" smwe="null" ss="False" upos="PRON" wmwe="null" word="it" xpos="PRP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="out" />
+      <extra config="predicative" deprel="case" edeps="10:case" feats="null" gov="151" govlemma="it" head="10" identified_for_pss="True" ind="6" is_part_of_mwe="True" lemma="out" lexcat="P" lexlemma="out of" lextag="B-P-p.Locus" local_gov="3" local_obj="10" misc="null" obj="158" objlemma="range" smwe="[1, 1]" ss="False" upos="ADP" wmwe="[3, 1]" word="out" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="of" />
+      <extra config="predicative" deprel="case" edeps="10:case" feats="null" gov="151" govlemma="it" head="10" identified_for_pss="True" ind="7" is_part_of_mwe="True" lemma="of" lexcat="P" lexlemma="out of" lextag="I_" local_gov="3" local_obj="10" misc="null" obj="158" objlemma="range" smwe="[1, 2]" ss="False" upos="ADP" wmwe="[3, 2]" word="of" xpos="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="range" />
+      <extra deprel="ccomp" edeps="2:ccomp" feats="Number=Sing" head="2" identified_for_pss="False" ind="10" is_part_of_mwe="True" lemma="range" lexcat="N" lexlemma="price range" lextag="I_" misc="null" smwe="[2, 2]" ss="False" upos="NOUN" wmwe="[3, 4]" word="range" xpos="NN" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Locus">
+        <attributes />
+        <category tag="p.Locus" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

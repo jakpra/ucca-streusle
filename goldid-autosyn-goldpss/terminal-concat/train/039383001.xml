@@ -513,13 +513,13 @@
     <node ID="1.32" type="FN">
       <attributes />
       <extra remarks="1.27" />
-      <edge toID="1.33" type="R">
+      <edge toID="1.33" type="R:p.Stimulus">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Stimulus" />
       </edge>
-      <edge toID="1.34" type="A">
+      <edge toID="1.34" type="A:p.Recipient">
         <attributes />
-        <category tag="A" />
+        <category tag="A:p.Recipient" />
       </edge>
       <edge toID="1.35" type="P">
         <attributes />
@@ -529,17 +529,17 @@
     <node ID="1.33" type="FN">
       <attributes />
       <extra remarks="1.28" />
-      <edge toID="0.15" type="Terminal:p.Stimulus">
+      <edge toID="0.15" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Stimulus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.34" type="FN">
       <attributes />
       <extra remarks="1.29" />
-      <edge toID="0.16" type="Terminal:p.Recipient">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Recipient" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.35" type="FN">

@@ -349,9 +349,9 @@
     <node ID="1.23" type="FN">
       <attributes />
       <extra remarks="1.49" tree_id="6-4" />
-      <edge toID="1.24" type="R">
+      <edge toID="1.24" type="R:p.Co-Agent">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Co-Agent" />
       </edge>
       <edge toID="1.25" type="F">
         <attributes />
@@ -369,9 +369,9 @@
     <node ID="1.24" type="FN">
       <attributes />
       <extra remarks="1.50" tree_id="6-4-1" />
-      <edge toID="0.5" type="Terminal:p.Co-Agent">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Co-Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.25" type="FN">

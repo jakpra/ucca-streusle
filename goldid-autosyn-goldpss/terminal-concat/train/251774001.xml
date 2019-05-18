@@ -81,9 +81,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
       </edge>
-      <edge toID="1.5" type="L">
+      <edge toID="1.5" type="L:p.Purpose">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="L" />
+        <category tag="L:p.Purpose" />
       </edge>
       <edge toID="1.6" type="H">
         <attributes />
@@ -141,9 +141,9 @@
     <node ID="1.5" type="FN">
       <attributes />
       <extra remarks="1.29" tree_id="5" />
-      <edge toID="0.12" type="Terminal:p.Purpose">
+      <edge toID="0.12" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Purpose" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.6" type="FN">
@@ -212,9 +212,9 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.24" tree_id="4-3" />
-      <edge toID="1.15" type="R">
+      <edge toID="1.15" type="R:p.Approximator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Approximator" />
       </edge>
       <edge toID="1.16" type="Q">
         <attributes />
@@ -224,9 +224,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
-      <edge toID="1.18" type="E">
+      <edge toID="1.18" type="E:p.Time">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
+        <category tag="E:p.Time" />
       </edge>
     </node>
     <node ID="1.14" type="FN">
@@ -235,9 +235,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.25" tree_id="4-3-1" />
-      <edge toID="0.8" type="Terminal:p.Approximator">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Approximator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.16" type="FN">
@@ -259,9 +259,9 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.28" tree_id="4-3-4" />
-      <edge toID="0.11" type="Terminal:p.Time">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Time" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.19" type="FN">

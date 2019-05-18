@@ -113,9 +113,9 @@
         <attributes />
         <category tag="Q" />
       </edge>
-      <edge toID="1.18" type="F">
+      <edge toID="1.18" type="F:p.Quantity">
         <attributes />
-        <category tag="F" />
+        <category tag="F:p.Quantity" />
       </edge>
       <edge toID="1.19" type="C">
         <attributes />
@@ -149,13 +149,13 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.38" />
-      <edge toID="1.9" type="R">
+      <edge toID="1.9" type="R:p.Stimulus">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Stimulus" />
       </edge>
-      <edge toID="1.10" type="A">
+      <edge toID="1.10" type="A:p.Agent">
         <attributes />
-        <category tag="A" />
+        <category tag="A:p.Agent" />
       </edge>
       <edge toID="1.11" type="D">
         <attributes />
@@ -173,17 +173,17 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.39" />
-      <edge toID="0.7" type="Terminal:p.Stimulus">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Stimulus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.40" />
-      <edge toID="0.8" type="Terminal:p.Agent">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">
@@ -205,9 +205,9 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.43" />
-      <edge toID="1.14" type="R">
+      <edge toID="1.14" type="R:p.Duration">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Duration" />
       </edge>
       <edge toID="1.15" type="F">
         <attributes />
@@ -221,9 +221,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.44" />
-      <edge toID="0.11" type="Terminal:p.Duration">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Duration" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.15" type="FN">
@@ -253,9 +253,9 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.33" />
-      <edge toID="0.2" type="Terminal:p.Quantity">
+      <edge toID="0.2" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.19" type="FN">

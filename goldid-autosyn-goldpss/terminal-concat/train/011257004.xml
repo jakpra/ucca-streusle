@@ -189,9 +189,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.96" tree_id="22-4" />
-      <edge toID="1.10" type="R">
+      <edge toID="1.10" type="R:p.Topic">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Topic" />
       </edge>
       <edge toID="1.11" type="D">
         <attributes />
@@ -217,9 +217,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.97" tree_id="22-4-1" />
-      <edge toID="0.10" type="Terminal:p.Topic">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Topic" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">
@@ -261,9 +261,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.104" tree_id="22-4-6" />
-      <edge toID="1.16" type="R">
+      <edge toID="1.16" type="R:p.Purpose">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Purpose" />
       </edge>
       <edge toID="1.17" type="E">
         <attributes />
@@ -277,9 +277,9 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.105" tree_id="22-4-6-1" />
-      <edge toID="0.16" type="Terminal:p.Purpose">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Purpose" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.17" type="FN">
@@ -341,9 +341,9 @@
     <node ID="1.24" type="FN">
       <attributes />
       <extra remarks="1.89" tree_id="20-4" />
-      <edge toID="1.25" type="R">
+      <edge toID="1.25" type="R:p.Co-Agent">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Co-Agent" />
       </edge>
       <edge toID="1.26" type="C">
         <attributes />
@@ -353,9 +353,9 @@
     <node ID="1.25" type="FN">
       <attributes />
       <extra remarks="1.90" tree_id="20-4-1" />
-      <edge toID="0.4" type="Terminal:p.Co-Agent">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Co-Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.26" type="FN">

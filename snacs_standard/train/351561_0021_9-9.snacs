@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="351561_0021_9-9">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="17th" />
+      <extra deprel="ccomp" edeps="2:ccomp" feats="Number=Sing" head="2" identified_for_pss="False" ind="6" is_part_of_mwe="False" lemma="17th" lexcat="N" lexlemma="17th" lextag="O-N-n.LOCATION" misc="null" smwe="null" ss="False" upos="PROPN" wmwe="null" word="17th" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="past" />
+      <extra config="default" deprel="case" edeps="10:case" feats="null" gov="347" govlemma="17th" head="10" identified_for_pss="True" ind="9" is_part_of_mwe="False" lemma="past" lexcat="P" lexlemma="past" lextag="O-P-p.Locus|p.Path" local_gov="6" local_obj="10" misc="null" obj="351" objlemma="broad" smwe="null" ss="False" upos="ADP" wmwe="null" word="past" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="broad" />
+      <extra deprel="nmod" edeps="6:nmod" feats="Number=Sing" head="6" identified_for_pss="False" ind="10" is_part_of_mwe="False" lemma="broad" lexcat="N" lexlemma="broad" lextag="O-N-n.LOCATION" misc="SpaceAfter=No" smwe="null" ss="False" upos="PROPN" wmwe="null" word="broad" xpos="NNP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Locus">
+        <attributes />
+        <category tag="p.Locus" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

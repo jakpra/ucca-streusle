@@ -129,9 +129,9 @@
     <node ID="1.7" type="FN">
       <attributes />
       <extra remarks="1.14" tree_id="2-3-2" />
-      <edge toID="1.14" type="D">
+      <edge toID="1.14" type="D:p.Extent">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+        <category tag="D:p.Extent" />
       </edge>
       <edge toID="1.15" type="S">
         <attributes />
@@ -209,9 +209,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.15" tree_id="2-3-2-2" />
-      <edge toID="0.4" type="Terminal:p.Extent">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Extent" />
+        <category tag="Terminal" />
       </edge>
       <edge toID="0.5" type="Terminal">
         <attributes />

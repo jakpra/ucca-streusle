@@ -193,9 +193,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.13" type="R">
+      <edge toID="1.13" type="R:p.Explanation">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Explanation" />
       </edge>
       <edge toID="1.14" type="D">
         <attributes />
@@ -225,9 +225,9 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.372" tree_id="40-8-2" />
-      <edge toID="0.9" type="Terminal:p.Explanation">
+      <edge toID="0.9" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Explanation" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.14" type="FN">
@@ -257,13 +257,13 @@
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.376" tree_id="40-8-6" />
-      <edge toID="1.18" type="R">
+      <edge toID="1.18" type="R:p.Theme">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Theme" />
       </edge>
-      <edge toID="1.19" type="A">
+      <edge toID="1.19" type="A:p.Experiencer">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Experiencer" />
       </edge>
       <edge toID="1.20" type="S">
         <attributes />
@@ -273,17 +273,17 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.377" tree_id="40-8-6-1" />
-      <edge toID="0.13" type="Terminal:p.Theme">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Theme" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.19" type="FN">
       <attributes />
       <extra remarks="1.378" tree_id="40-8-6-2" />
-      <edge toID="0.14" type="Terminal:p.Experiencer">
+      <edge toID="0.14" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Experiencer" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.20" type="FN">

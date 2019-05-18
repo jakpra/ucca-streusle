@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="182354_0002_3-3">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Builders" />
+      <extra deprel="nsubj" edeps="7:nsubj" feats="Number=Plur" head="7" identified_for_pss="False" ind="2" is_part_of_mwe="True" lemma="builder" lexcat="N" lexlemma="prominent builder" lextag="I_" misc="null" smwe="[1, 2]" ss="False" upos="NOUN" wmwe="null" word="Builders" xpos="NNS" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="in" />
+      <extra config="default" deprel="case" edeps="5:case" feats="null" gov="5" govlemma="builder" head="5" identified_for_pss="True" ind="3" is_part_of_mwe="False" lemma="in" lexcat="P" lexlemma="in" lextag="O-P-p.Locus" local_gov="2" local_obj="5" misc="null" obj="8" objlemma="Jersey" smwe="null" ss="False" upos="ADP" wmwe="null" word="in" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Jersey" />
+      <extra deprel="nmod" edeps="2:nmod" feats="Number=Sing" head="2" identified_for_pss="False" ind="5" is_part_of_mwe="True" lemma="Jersey" lexcat="N" lexlemma="New Jersey" lextag="I_" misc="null" smwe="[2, 2]" ss="False" upos="PROPN" wmwe="null" word="Jersey" xpos="NNP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Locus">
+        <attributes />
+        <category tag="p.Locus" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

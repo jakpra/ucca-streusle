@@ -101,9 +101,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
       </edge>
-      <edge toID="1.5" type="L">
+      <edge toID="1.5" type="L:p.Purpose">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="L" />
+        <category tag="L:p.Purpose" />
       </edge>
       <edge toID="1.6" type="H">
         <attributes />
@@ -153,9 +153,9 @@
     <node ID="1.5" type="FN">
       <attributes />
       <extra remarks="1.56" tree_id="9" />
-      <edge toID="0.10" type="Terminal:p.Purpose">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Purpose" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.6" type="FN">
@@ -309,17 +309,17 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
-      <edge toID="1.21" type="R">
+      <edge toID="1.21" type="R:p.Co-Theme">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Co-Theme" />
       </edge>
     </node>
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.70" tree_id="10-3-3-6-2" />
-      <edge toID="0.19" type="Terminal:p.Co-Theme">
+      <edge toID="0.19" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Co-Theme" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.22" type="FN">
@@ -389,10 +389,10 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.30" type="S">
+      <edge toID="1.30" type="S:p.Agent">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="S:p.Agent" />
+        <category tag="A:p.Agent" />
       </edge>
     </node>
     <node ID="1.29" type="FN">
@@ -406,9 +406,9 @@
     <node ID="1.30" type="FN">
       <attributes />
       <extra remarks="1.54" tree_id="8-3-3-1-1" />
-      <edge toID="0.8" type="Terminal:p.Agent">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

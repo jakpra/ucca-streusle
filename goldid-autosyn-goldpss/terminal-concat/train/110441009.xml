@@ -137,9 +137,9 @@
     <node ID="1.6" type="FN">
       <attributes />
       <extra remarks="1.178" tree_id="27-1" />
-      <edge toID="1.11" type="A">
+      <edge toID="1.11" type="A:p.SocialRel">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
+        <category tag="A:p.SocialRel" />
       </edge>
       <edge toID="1.12" type="A">
         <attributes />
@@ -194,9 +194,9 @@
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.179" tree_id="27-1-1" />
-      <edge toID="0.8" type="Terminal:p.SocialRel">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.SocialRel" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.12" type="FN">

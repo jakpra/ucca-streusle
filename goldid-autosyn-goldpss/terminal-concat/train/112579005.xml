@@ -433,9 +433,9 @@
     <node ID="1.28" type="FN">
       <attributes />
       <extra remarks="1.115" tree_id="17-5" />
-      <edge toID="1.29" type="E">
+      <edge toID="1.29" type="E:p.Originator">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="E" />
+        <category tag="E:p.Originator" />
       </edge>
       <edge toID="1.30" type="C">
         <attributes />
@@ -445,9 +445,9 @@
     <node ID="1.29" type="FN">
       <attributes />
       <extra remarks="1.116" tree_id="17-5-1" />
-      <edge toID="0.11" type="Terminal:p.Originator">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.30" type="FN">

@@ -189,17 +189,17 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.160" tree_id="26-4" />
-      <edge toID="1.10" type="R">
+      <edge toID="1.10" type="R:p.Gestalt">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Gestalt" />
       </edge>
       <edge toID="1.11" type="Q">
         <attributes />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="Q" />
       </edge>
-      <edge toID="1.12" type="R">
+      <edge toID="1.12" type="R:p.Quantity">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Quantity" />
       </edge>
       <edge toID="1.13" type="C">
         <attributes />
@@ -209,9 +209,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.161" tree_id="26-4-1" />
-      <edge toID="0.13" type="Terminal:p.Gestalt">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Gestalt" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">
@@ -229,9 +229,9 @@
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.166" tree_id="26-4-3-1" />
-      <edge toID="0.16" type="Terminal:p.Quantity">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.13" type="FN">

@@ -557,13 +557,13 @@
     <node ID="1.23" type="FN">
       <attributes />
       <extra remarks="1.301" />
-      <edge toID="1.25" type="R">
+      <edge toID="1.25" type="R:p.Agent">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Agent" />
       </edge>
-      <edge toID="1.26" type="A">
+      <edge toID="1.26" type="A:p.SocialRel">
         <attributes />
-        <category tag="A" />
+        <category tag="A:p.SocialRel" />
       </edge>
       <edge toID="1.27" type="D">
         <attributes />
@@ -585,17 +585,17 @@
     <node ID="1.25" type="FN">
       <attributes />
       <extra remarks="1.302" />
-      <edge toID="0.46" type="Terminal:p.Agent">
+      <edge toID="0.46" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.26" type="FN">
       <attributes />
       <extra remarks="1.303" />
-      <edge toID="0.47" type="Terminal:p.SocialRel">
+      <edge toID="0.47" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.SocialRel" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.27" type="FN">
@@ -661,9 +661,9 @@
         <attributes />
         <category tag="A" />
       </edge>
-      <edge toID="1.36" type="U">
+      <edge toID="1.36" type="U:p.Originator">
         <attributes />
-        <category tag="U" />
+        <category tag="U:p.Originator" />
       </edge>
       <edge toID="1.40" type="S">
         <attributes remote="True" />
@@ -929,9 +929,9 @@
     <node ID="1.64" type="FN">
       <attributes />
       <extra remarks="1.255" />
-      <edge toID="1.65" type="R">
+      <edge toID="1.65" type="R:p.Recipient">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Recipient" />
       </edge>
       <edge toID="1.66" type="C">
         <attributes />
@@ -941,9 +941,9 @@
     <node ID="1.65" type="FN">
       <attributes />
       <extra remarks="1.256" />
-      <edge toID="0.12" type="Terminal:p.Recipient">
+      <edge toID="0.12" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Recipient" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.66" type="FN">

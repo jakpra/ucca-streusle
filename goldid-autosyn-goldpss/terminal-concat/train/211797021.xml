@@ -213,9 +213,9 @@
         <attributes />
         <category tag="D" />
       </edge>
-      <edge toID="1.46" type="F">
+      <edge toID="1.46" type="F:p.Theme">
         <attributes />
-        <category tag="F" />
+        <category tag="F:p.Theme" />
       </edge>
       <edge toID="1.47" type="A">
         <attributes />
@@ -325,9 +325,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.696" />
-      <edge toID="1.10" type="R">
+      <edge toID="1.10" type="R:p.Topic">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Topic" />
       </edge>
       <edge toID="1.11" type="F">
         <attributes />
@@ -345,9 +345,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.697" />
-      <edge toID="0.28" type="Terminal:p.Topic">
+      <edge toID="0.28" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Topic" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">
@@ -417,9 +417,9 @@
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.704" />
-      <edge toID="1.18" type="R">
+      <edge toID="1.18" type="R:p.Time">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Time" />
       </edge>
       <edge toID="1.19" type="A">
         <attributes />
@@ -437,9 +437,9 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.705" />
-      <edge toID="0.34" type="Terminal:p.Time">
+      <edge toID="0.34" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Time" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.19" type="FN">
@@ -497,9 +497,9 @@
         <attributes />
         <category tag="R" />
       </edge>
-      <edge toID="1.26" type="A">
+      <edge toID="1.26" type="A:p.Possessor">
         <attributes />
-        <category tag="A" />
+        <category tag="A:p.Possessor" />
       </edge>
       <edge toID="1.27" type="S">
         <attributes />
@@ -521,9 +521,9 @@
     <node ID="1.26" type="FN">
       <attributes />
       <extra remarks="1.713" />
-      <edge toID="0.40" type="Terminal:p.Possessor">
+      <edge toID="0.40" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.27" type="FN">
@@ -633,9 +633,9 @@
     <node ID="1.38" type="FN">
       <attributes />
       <extra remarks="1.687" />
-      <edge toID="1.39" type="R">
+      <edge toID="1.39" type="R:p.Possession">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Possession" />
       </edge>
       <edge toID="1.40" type="E">
         <attributes />
@@ -649,9 +649,9 @@
     <node ID="1.39" type="FN">
       <attributes />
       <extra remarks="1.688" />
-      <edge toID="0.21" type="Terminal:p.Possession">
+      <edge toID="0.21" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possession" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.40" type="FN">
@@ -713,9 +713,9 @@
     <node ID="1.46" type="FN">
       <attributes />
       <extra remarks="1.671" />
-      <edge toID="0.5" type="Terminal:p.Theme">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Theme" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.47" type="FN">

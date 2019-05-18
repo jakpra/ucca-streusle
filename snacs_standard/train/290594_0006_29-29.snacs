@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="290594_0006_29-29">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="expectations" />
+      <extra deprel="obj" edeps="24:obj" feats="Number=Plur" head="24" identified_for_pss="False" ind="26" is_part_of_mwe="False" lemma="expectation" lexcat="N" lexlemma="expectation" lextag="O-N-n.COGNITION" misc="null" smwe="null" ss="False" upos="NOUN" wmwe="null" word="expectations" xpos="NNS" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="of" />
+      <extra config="default" deprel="case" edeps="30:case" feats="null" gov="124" govlemma="expectation" head="30" identified_for_pss="True" ind="29" is_part_of_mwe="False" lemma="of" lexcat="P" lexlemma="of" lextag="O-P-p.Topic" local_gov="26" local_obj="30" misc="null" obj="128" objlemma="what" smwe="null" ss="False" upos="SCONJ" wmwe="null" word="of" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="what" />
+      <extra deprel="nmod" edeps="26:nmod" feats="PronType=Int" head="26" identified_for_pss="False" ind="30" is_part_of_mwe="False" lemma="what" lexcat="PRON" lexlemma="what" lextag="O-PRON" misc="null" smwe="null" ss="False" upos="PRON" wmwe="null" word="what" xpos="WP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Topic">
+        <attributes />
+        <category tag="p.Topic" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

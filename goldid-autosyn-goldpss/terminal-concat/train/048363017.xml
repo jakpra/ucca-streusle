@@ -165,9 +165,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
       </edge>
-      <edge toID="1.4" type="L">
+      <edge toID="1.4" type="L:p.Circumstance">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="L" />
+        <category tag="L:p.Circumstance" />
       </edge>
       <edge toID="1.5" type="H">
         <attributes />
@@ -242,9 +242,9 @@
     <node ID="1.4" type="FN">
       <attributes />
       <extra remarks="1.398" tree_id="43" />
-      <edge toID="0.17" type="Terminal:p.Circumstance">
+      <edge toID="0.17" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Circumstance" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.5" type="FN">
@@ -591,9 +591,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
       </edge>
-      <edge toID="1.41" type="E">
+      <edge toID="1.41" type="E:p.Originator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
+        <category tag="E:p.Originator" />
       </edge>
       <edge toID="1.42" type="C">
         <attributes />
@@ -611,9 +611,9 @@
     <node ID="1.41" type="FN">
       <attributes />
       <extra remarks="1.396" tree_id="42-4-2" />
-      <edge toID="0.15" type="Terminal:p.Originator">
+      <edge toID="0.15" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.42" type="FN">
@@ -630,13 +630,13 @@
     <node ID="1.44" type="FN">
       <attributes />
       <extra remarks="1.381" tree_id="41-2" />
-      <edge toID="1.51" type="R">
+      <edge toID="1.51" type="R:p.Recipient">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Recipient" />
       </edge>
-      <edge toID="1.52" type="A">
+      <edge toID="1.52" type="A:p.Possessor">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Possessor" />
       </edge>
       <edge toID="1.53" type="S">
         <attributes />
@@ -658,13 +658,13 @@
     <node ID="1.46" type="FN">
       <attributes />
       <extra remarks="1.386" tree_id="41-4" />
-      <edge toID="1.48" type="R">
+      <edge toID="1.48" type="R:p.Explanation">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Explanation" />
       </edge>
-      <edge toID="1.49" type="A">
+      <edge toID="1.49" type="A:p.Originator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Originator" />
       </edge>
       <edge toID="1.50" type="P">
         <attributes />
@@ -682,17 +682,17 @@
     <node ID="1.48" type="FN">
       <attributes />
       <extra remarks="1.387" tree_id="41-4-1" />
-      <edge toID="0.7" type="Terminal:p.Explanation">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Explanation" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.49" type="FN">
       <attributes />
       <extra remarks="1.388" tree_id="41-4-2" />
-      <edge toID="0.8" type="Terminal:p.Originator">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.50" type="FN">
@@ -706,17 +706,17 @@
     <node ID="1.51" type="FN">
       <attributes />
       <extra remarks="1.382" tree_id="41-2-1" />
-      <edge toID="0.1" type="Terminal:p.Recipient">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Recipient" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.52" type="FN">
       <attributes />
       <extra remarks="1.383" tree_id="41-2-2" />
-      <edge toID="0.2" type="Terminal:p.Possessor">
+      <edge toID="0.2" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.53" type="FN">

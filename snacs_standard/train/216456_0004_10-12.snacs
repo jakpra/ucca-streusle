@@ -1,0 +1,80 @@
+<root annotationID="0" passageID="216456_0004_10-12">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="soon" />
+      <extra config="default" deprel="advmod" edeps="3:advmod" feats="Degree=Pos" gov="74" govlemma="soon" head="3" identified_for_pss="False" ind="11" is_part_of_mwe="True" lemma="soon" lexcat="P" lexlemma="as soon as" lextag="I_" local_gov="11" misc="null" obj="null" objlemma="null" smwe="[1, 2]" ss="False" upos="ADV" wmwe="null" word="soon" xpos="RB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="as" />
+      <extra config="default" deprel="advmod" edeps="11:advmod" feats="null" gov="74" govlemma="soon" head="11" identified_for_pss="True" ind="10" is_part_of_mwe="True" lemma="as" lexcat="P" lexlemma="as soon as" lextag="B-P-p.Time" local_gov="11" misc="null" obj="null" objlemma="null" smwe="[1, 1]" ss="False" upos="ADV" wmwe="null" word="as" xpos="RB" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="soon" />
+      <extra config="default" deprel="advmod" edeps="3:advmod" feats="Degree=Pos" gov="74" govlemma="soon" head="3" identified_for_pss="True" ind="11" is_part_of_mwe="True" lemma="soon" lexcat="P" lexlemma="as soon as" lextag="I_" local_gov="11" misc="null" obj="null" objlemma="null" smwe="[1, 2]" ss="False" upos="ADV" wmwe="null" word="soon" xpos="RB" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="as" />
+      <extra config="default" deprel="mark" edeps="14:mark" feats="null" gov="74" govlemma="soon" head="14" identified_for_pss="True" ind="12" is_part_of_mwe="True" lemma="as" lexcat="P" lexlemma="as soon as" lextag="I_" local_gov="11" misc="null" obj="null" objlemma="null" smwe="[1, 3]" ss="False" upos="SCONJ" wmwe="null" word="as" xpos="IN" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="p.Time">
+        <attributes />
+        <category tag="p.Time" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

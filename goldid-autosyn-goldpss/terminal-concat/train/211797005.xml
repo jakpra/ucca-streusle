@@ -141,9 +141,9 @@
         <attributes />
         <category tag="H" />
       </edge>
-      <edge toID="1.9" type="L">
+      <edge toID="1.9" type="L:p.EndTime">
         <attributes />
-        <category tag="L" />
+        <category tag="L:p.EndTime" />
       </edge>
       <edge toID="1.10" type="H">
         <attributes />
@@ -185,9 +185,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.169" />
-      <edge toID="0.10" type="Terminal:p.EndTime">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.EndTime" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.10" type="FN">
@@ -241,10 +241,10 @@
         <attributes remote="True" />
         <category tag="A" />
       </edge>
-      <edge toID="1.16" type="S">
+      <edge toID="1.16" type="S:p.Possessor">
         <attributes />
-        <category tag="S" />
-        <category tag="A" />
+        <category tag="S:p.Possessor" />
+        <category tag="A:p.Possessor" />
       </edge>
     </node>
     <node ID="1.15" type="FN">
@@ -258,9 +258,9 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.175" />
-      <edge toID="0.13" type="Terminal:p.Possessor">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.17" type="FN">

@@ -253,13 +253,13 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.26" tree_id="4-5" />
-      <edge toID="1.19" type="R">
+      <edge toID="1.19" type="R:p.Time">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Time" />
       </edge>
-      <edge toID="1.20" type="E">
+      <edge toID="1.20" type="E:p.Approximator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
+        <category tag="E:p.Approximator" />
       </edge>
       <edge toID="1.21" type="C">
         <attributes />
@@ -269,17 +269,17 @@
     <node ID="1.19" type="FN">
       <attributes />
       <extra remarks="1.27" tree_id="4-5-1" />
-      <edge toID="0.4" type="Terminal:p.Time">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Time" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.20" type="FN">
       <attributes />
       <extra remarks="1.28" tree_id="4-5-2" />
-      <edge toID="0.5" type="Terminal:p.Approximator">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Approximator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.21" type="FN">

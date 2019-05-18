@@ -145,9 +145,9 @@
     <node ID="1.2" type="FN">
       <attributes />
       <extra remarks="1.135" tree_id="20" />
-      <edge toID="1.32" type="R">
+      <edge toID="1.32" type="R:p.Circumstance">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Circumstance" />
       </edge>
       <edge toID="1.33" type="Q">
         <attributes />
@@ -173,9 +173,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
       </edge>
-      <edge toID="1.27" type="C">
+      <edge toID="1.27" type="C:p.Explanation">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
+        <category tag="C:p.Explanation" />
       </edge>
       <edge toID="1.28" type="R">
         <attributes />
@@ -193,9 +193,9 @@
     <node ID="1.6" type="FN">
       <attributes />
       <extra remarks="1.149" tree_id="24" />
-      <edge toID="1.22" type="R">
+      <edge toID="1.22" type="R:p.Circumstance">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Circumstance" />
       </edge>
       <edge toID="1.23" type="Q">
         <attributes />
@@ -362,9 +362,9 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.150" tree_id="24-1" />
-      <edge toID="0.11" type="Terminal:p.Circumstance">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Circumstance" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.23" type="FN">
@@ -402,9 +402,9 @@
     <node ID="1.27" type="FN">
       <attributes />
       <extra remarks="1.145" tree_id="22-2" />
-      <edge toID="0.7" type="Terminal:p.Explanation">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Explanation" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.28" type="FN">
@@ -446,9 +446,9 @@
     <node ID="1.32" type="FN">
       <attributes />
       <extra remarks="1.136" tree_id="20-1" />
-      <edge toID="0.1" type="Terminal:p.Circumstance">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Circumstance" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.33" type="FN">

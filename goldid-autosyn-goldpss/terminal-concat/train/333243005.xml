@@ -353,9 +353,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
       </edge>
-      <edge toID="1.15" type="F">
+      <edge toID="1.15" type="F:p.Purpose">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
+        <category tag="F:p.Purpose" />
       </edge>
       <edge toID="1.16" type="P">
         <attributes />
@@ -425,9 +425,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.169" tree_id="21-3" />
-      <edge toID="0.46" type="Terminal:p.Purpose">
+      <edge toID="0.46" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Purpose" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.16" type="FN">
@@ -466,9 +466,9 @@
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
       </edge>
-      <edge toID="1.25" type="S">
+      <edge toID="1.25" type="S:p.Manner">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="S:p.Manner" />
       </edge>
     </node>
     <node ID="1.20" type="FN">
@@ -514,9 +514,9 @@
     <node ID="1.25" type="FN">
       <attributes />
       <extra remarks="1.159" tree_id="19-1-2" />
-      <edge toID="0.33" type="Terminal:p.Manner">
+      <edge toID="0.33" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Manner" />
+        <category tag="Terminal" />
       </edge>
       <edge toID="0.34" type="Terminal">
         <attributes />
@@ -562,9 +562,9 @@
     <node ID="1.29" type="FN">
       <attributes />
       <extra remarks="1.145" tree_id="18-4" />
-      <edge toID="1.30" type="R">
+      <edge toID="1.30" type="R:p.Purpose">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Purpose" />
       </edge>
       <edge toID="1.31" type="P">
         <attributes />
@@ -582,9 +582,9 @@
     <node ID="1.30" type="FN">
       <attributes />
       <extra remarks="1.146" tree_id="18-4-2" />
-      <edge toID="0.23" type="Terminal:p.Purpose">
+      <edge toID="0.23" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Purpose" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.31" type="FN">

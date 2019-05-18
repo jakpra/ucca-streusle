@@ -1,0 +1,72 @@
+<root annotationID="0" passageID="288100_0004_42-43">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="pretend" />
+      <extra deprel="csubj" edeps="40:csubj" feats="VerbForm=Inf" head="40" identified_for_pss="False" ind="44" is_part_of_mwe="False" lemma="pretend" lexcat="V" lexlemma="pretend" lextag="O-V-v.social" misc="null" smwe="null" ss="False" upos="VERB" wmwe="null" word="pretend" xpos="VB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="at" />
+      <extra config="default" deprel="advmod" edeps="44:advmod" feats="null" gov="113" govlemma="pretend" head="44" identified_for_pss="True" ind="42" is_part_of_mwe="True" lemma="at" lexcat="PP" lexlemma="at least" lextag="B-PP-p.Extent" local_gov="44" misc="null" obj="null" objlemma="null" smwe="[2, 1]" ss="False" upos="ADV" wmwe="null" word="at" xpos="RB" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="least" />
+      <extra config="default" deprel="fixed" edeps="42:fixed" feats="Degree=Sup" gov="113" govlemma="pretend" head="42" identified_for_pss="True" ind="43" is_part_of_mwe="True" lemma="least" lexcat="PP" lexlemma="at least" lextag="I_" local_gov="44" misc="null" obj="null" objlemma="null" smwe="[2, 2]" ss="False" upos="ADV" wmwe="null" word="least" xpos="RBS" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="p.Extent">
+        <attributes />
+        <category tag="p.Extent" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

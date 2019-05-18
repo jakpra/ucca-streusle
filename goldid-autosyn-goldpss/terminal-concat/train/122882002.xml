@@ -173,9 +173,9 @@
         <attributes />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="D" />
       </edge>
-      <edge toID="1.10" type="S">
+      <edge toID="1.10" type="S:p.Manner">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="S" />
+        <category tag="S:p.Manner" />
       </edge>
       <edge toID="1.11" type="A">
         <attributes />
@@ -229,9 +229,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.50" tree_id="9-4" />
-      <edge toID="0.13" type="Terminal:p.Manner">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Manner" />
+        <category tag="Terminal" />
       </edge>
       <edge toID="0.14" type="Terminal">
         <attributes />
@@ -245,9 +245,9 @@
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.51" tree_id="9-5" />
-      <edge toID="1.12" type="R">
+      <edge toID="1.12" type="R:p.ComparisonRef">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.ComparisonRef" />
       </edge>
       <edge toID="1.13" type="C">
         <attributes />
@@ -265,9 +265,9 @@
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.52" tree_id="9-5-1" />
-      <edge toID="0.16" type="Terminal:p.ComparisonRef">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.ComparisonRef" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.13" type="FN">

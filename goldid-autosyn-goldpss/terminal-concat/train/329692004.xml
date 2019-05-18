@@ -153,9 +153,9 @@
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.59" />
-      <edge toID="1.12" type="R">
+      <edge toID="1.12" type="R:p.EndTime">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.EndTime" />
       </edge>
       <edge toID="1.13" type="C">
         <attributes />
@@ -169,9 +169,9 @@
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.60" />
-      <edge toID="0.3" type="Terminal:p.EndTime">
+      <edge toID="0.3" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.EndTime" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.13" type="FN">

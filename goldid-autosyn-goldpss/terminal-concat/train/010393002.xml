@@ -290,9 +290,9 @@
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.53" tree_id="8-1-2-4" />
-      <edge toID="1.18" type="R">
+      <edge toID="1.18" type="R:p.OrgRole">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.OrgRole" />
       </edge>
       <edge toID="1.19" type="C">
         <attributes />
@@ -302,9 +302,9 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.54" tree_id="8-1-2-4-1" />
-      <edge toID="0.6" type="Terminal:p.OrgRole">
+      <edge toID="0.6" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.OrgRole" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.19" type="FN">

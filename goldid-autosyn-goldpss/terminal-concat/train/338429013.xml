@@ -113,10 +113,10 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.10" type="S">
+      <edge toID="1.10" type="S:p.Possessor">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="S:p.Possessor" />
+        <category tag="A:p.Possessor" />
       </edge>
     </node>
     <node ID="1.9" type="FN">
@@ -130,9 +130,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.226" tree_id="31-1-1-1" />
-      <edge toID="0.1" type="Terminal:p.Possessor">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

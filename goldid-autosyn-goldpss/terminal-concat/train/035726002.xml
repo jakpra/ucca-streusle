@@ -293,9 +293,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.53" tree_id="5-4" />
-      <edge toID="1.15" type="R">
+      <edge toID="1.15" type="R:p.Beneficiary">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Beneficiary" />
       </edge>
       <edge toID="1.16" type="F">
         <attributes />
@@ -309,9 +309,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.54" tree_id="5-4-1" />
-      <edge toID="0.19" type="Terminal:p.Beneficiary">
+      <edge toID="0.19" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Beneficiary" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.16" type="FN">
@@ -377,9 +377,9 @@
     <node ID="1.23" type="FN">
       <attributes />
       <extra remarks="1.42" tree_id="3-5" />
-      <edge toID="1.24" type="R">
+      <edge toID="1.24" type="R:p.Beneficiary">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Beneficiary" />
       </edge>
       <edge toID="1.25" type="F">
         <attributes />
@@ -393,9 +393,9 @@
     <node ID="1.24" type="FN">
       <attributes />
       <extra remarks="1.43" tree_id="3-5-1" />
-      <edge toID="0.8" type="Terminal:p.Beneficiary">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Beneficiary" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.25" type="FN">

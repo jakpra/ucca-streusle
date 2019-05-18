@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="221664_0002_18-18">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="March" />
+      <extra deprel="obl" edeps="2:obl" feats="Number=Sing" head="2" identified_for_pss="False" ind="17" is_part_of_mwe="False" lemma="March" lexcat="N" lexlemma="March" lextag="O-N-n.TIME" misc="null" smwe="null" ss="False" upos="PROPN" wmwe="null" word="March" xpos="NNP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="of" />
+      <extra config="default" deprel="case" edeps="19:case" feats="null" gov="24" govlemma="March" head="19" identified_for_pss="True" ind="18" is_part_of_mwe="False" lemma="of" lexcat="P" lexlemma="of" lextag="O-P-p.Time|p.Whole" local_gov="17" local_obj="19" misc="null" obj="26" objlemma="2010" smwe="null" ss="False" upos="ADP" wmwe="null" word="of" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="2010" />
+      <extra deprel="nmod" edeps="17:nmod" feats="NumType=Card" head="17" identified_for_pss="False" ind="19" is_part_of_mwe="False" lemma="2010" lexcat="NUM" lexlemma="2010" lextag="O-NUM" misc="SpaceAfter=No" smwe="null" ss="False" upos="NUM" wmwe="null" word="2010" xpos="CD" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Time">
+        <attributes />
+        <category tag="p.Time" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

@@ -201,9 +201,9 @@
     <node ID="1.6" type="FN">
       <attributes />
       <extra remarks="1.322" tree_id="57-2" />
-      <edge toID="1.35" type="E">
+      <edge toID="1.35" type="E:p.SocialRel">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
+        <category tag="E:p.SocialRel" />
       </edge>
       <edge toID="1.36" type="C">
         <attributes />
@@ -333,9 +333,9 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.345" tree_id="57-4-5-4" />
-      <edge toID="1.19" type="F">
+      <edge toID="1.19" type="F:p.Goal">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
+        <category tag="F:p.Goal" />
       </edge>
       <edge toID="1.20" type="C">
         <attributes />
@@ -353,9 +353,9 @@
     <node ID="1.19" type="FN">
       <attributes />
       <extra remarks="1.346" tree_id="57-4-5-4-1" />
-      <edge toID="0.19" type="Terminal:p.Goal">
+      <edge toID="0.19" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Goal" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.20" type="FN">
@@ -377,9 +377,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.351" tree_id="57-4-5-4-3" />
-      <edge toID="1.30" type="R">
+      <edge toID="1.30" type="R:p.Identity">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Identity" />
       </edge>
       <edge toID="1.31" type="C">
         <attributes />
@@ -449,9 +449,9 @@
     <node ID="1.27" type="FN">
       <attributes />
       <extra remarks="1.359" tree_id="57-4-5-4-4-6" />
-      <edge toID="1.28" type="R">
+      <edge toID="1.28" type="R:p.Beneficiary">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Beneficiary" />
       </edge>
       <edge toID="1.29" type="C">
         <attributes />
@@ -461,9 +461,9 @@
     <node ID="1.28" type="FN">
       <attributes />
       <extra remarks="1.360" tree_id="57-4-5-4-4-6-1" />
-      <edge toID="0.29" type="Terminal:p.Beneficiary">
+      <edge toID="0.29" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Beneficiary" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.29" type="FN">
@@ -477,9 +477,9 @@
     <node ID="1.30" type="FN">
       <attributes />
       <extra remarks="1.352" tree_id="57-4-5-4-3-1" />
-      <edge toID="0.23" type="Terminal:p.Identity">
+      <edge toID="0.23" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Identity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.31" type="FN">
@@ -517,9 +517,9 @@
     <node ID="1.35" type="FN">
       <attributes />
       <extra remarks="1.324" tree_id="57-2-1-1" />
-      <edge toID="0.2" type="Terminal:p.SocialRel">
+      <edge toID="0.2" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.SocialRel" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.36" type="FN">
@@ -565,9 +565,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
-      <edge toID="1.45" type="R">
+      <edge toID="1.45" type="R:p.Goal">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Goal" />
       </edge>
     </node>
     <node ID="1.40" type="FN">
@@ -621,9 +621,9 @@
     <node ID="1.45" type="FN">
       <attributes />
       <extra remarks="1.330" tree_id="57-2-2-3-2" />
-      <edge toID="0.6" type="Terminal:p.Goal">
+      <edge toID="0.6" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Goal" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

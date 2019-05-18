@@ -117,9 +117,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
       </edge>
-      <edge toID="1.6" type="L">
+      <edge toID="1.6" type="L:p.Explanation">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="L" />
+        <category tag="L:p.Explanation" />
       </edge>
       <edge toID="1.7" type="H">
         <attributes />
@@ -197,9 +197,9 @@
     <node ID="1.6" type="FN">
       <attributes />
       <extra remarks="1.349" tree_id="56" />
-      <edge toID="0.12" type="Terminal:p.Explanation">
+      <edge toID="0.12" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Explanation" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.7" type="FN">
@@ -217,9 +217,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.17" type="D">
+      <edge toID="1.17" type="D:p.Approximator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+        <category tag="D:p.Approximator" />
       </edge>
     </node>
     <node ID="1.8" type="FN">
@@ -301,9 +301,9 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.353" tree_id="57-3" />
-      <edge toID="1.18" type="E">
+      <edge toID="1.18" type="E:p.Approximator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
+        <category tag="E:p.Approximator" />
       </edge>
       <edge toID="1.19" type="C">
         <attributes />
@@ -317,17 +317,17 @@
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.357" tree_id="57-4" />
-      <edge toID="0.19" type="Terminal:p.Approximator">
+      <edge toID="0.19" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Approximator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.354" tree_id="57-3-1" />
-      <edge toID="0.16" type="Terminal:p.Approximator">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Approximator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.19" type="FN">

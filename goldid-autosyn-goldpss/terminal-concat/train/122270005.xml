@@ -221,9 +221,9 @@
         <attributes />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="L" />
       </edge>
-      <edge toID="1.10" type="R">
+      <edge toID="1.10" type="R:p.Stimulus">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Stimulus" />
       </edge>
       <edge toID="1.11" type="H">
         <attributes />
@@ -249,9 +249,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.148" tree_id="19-4-2" />
-      <edge toID="0.17" type="Terminal:p.Stimulus">
+      <edge toID="0.17" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Stimulus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">
@@ -469,9 +469,9 @@
     <node ID="1.32" type="FN">
       <attributes />
       <extra remarks="1.130" tree_id="17-1-1" />
-      <edge toID="1.36" type="A">
+      <edge toID="1.36" type="A:p.SocialRel">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
+        <category tag="A:p.SocialRel" />
       </edge>
       <edge toID="1.37" type="A">
         <attributes />
@@ -514,9 +514,9 @@
     <node ID="1.36" type="FN">
       <attributes />
       <extra remarks="1.131" tree_id="17-1-1-1" />
-      <edge toID="0.1" type="Terminal:p.SocialRel">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.SocialRel" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.37" type="FN">

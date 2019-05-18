@@ -165,9 +165,9 @@
     <node ID="1.5" type="FN">
       <attributes />
       <extra remarks="1.38" tree_id="9" />
-      <edge toID="1.22" type="A">
+      <edge toID="1.22" type="A:p.Causer">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Causer" />
       </edge>
       <edge toID="1.23" type="S">
         <attributes />
@@ -265,9 +265,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
-      <edge toID="1.16" type="N">
+      <edge toID="1.16" type="N:p.Accompanier">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="N" />
+        <category tag="N:p.Accompanier" />
       </edge>
       <edge toID="1.17" type="C">
         <attributes />
@@ -285,9 +285,9 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.47" tree_id="10-4-2" />
-      <edge toID="0.16" type="Terminal:p.Accompanier">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Accompanier" />
+        <category tag="Terminal" />
       </edge>
       <edge toID="0.17" type="Terminal">
         <attributes />
@@ -349,9 +349,9 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.39" tree_id="9-2" />
-      <edge toID="0.8" type="Terminal:p.Causer">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Causer" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.23" type="FN">

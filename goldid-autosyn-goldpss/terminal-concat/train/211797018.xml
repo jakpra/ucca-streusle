@@ -129,9 +129,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.611" />
-      <edge toID="1.11" type="E">
+      <edge toID="1.11" type="E:p.Possessor">
         <attributes />
-        <category tag="E" />
+        <category tag="E:p.Possessor" />
       </edge>
       <edge toID="1.12" type="C">
         <attributes />
@@ -149,9 +149,9 @@
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.612" />
-      <edge toID="0.6" type="Terminal:p.Possessor">
+      <edge toID="0.6" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.12" type="FN">

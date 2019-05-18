@@ -1,0 +1,167 @@
+<root annotationID="0" passageID="307170000">
+  <attributes annotationID="2884" passageID="532" userID="26" />
+  <extra format="find_refined" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="Best" />
+      <extra deprel="amod" edeps="4:amod" feats="Degree=Sup" head="4" identified_for_pss="False" is_part_of_mwe="False" lemma="best" lexcat="D" lexlemma="Best" lextag="O-ADJ" misc="null" orig_paragraph="1" remarks="0.1" smwe="null" upos="ADJ" wmwe="null" word="Best" xpos="JJS" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Limo" />
+      <extra deprel="compound" edeps="4:compound" feats="Number=Sing" head="4" identified_for_pss="False" is_part_of_mwe="False" lemma="limo" lexcat="E" lexlemma="Limo" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.2" smwe="null" upos="NOUN" wmwe="null" word="Limo" xpos="NN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Limousine" />
+      <extra deprel="compound" edeps="4:compound" feats="Number=Sing" head="4" identified_for_pss="False" is_part_of_mwe="False" lemma="limousine" lexcat="C" lexlemma="Limousine" lextag="O-N-n.ARTIFACT" misc="null" orig_paragraph="1" remarks="0.3" smwe="null" upos="NOUN" wmwe="null" word="Limousine" xpos="NN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="service" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" identified_for_pss="False" is_part_of_mwe="False" lemma="service" lexcat="P" lexlemma="service" lextag="O-N-n.ACT" misc="null" orig_paragraph="1" remarks="0.4" smwe="null" upos="NOUN" wmwe="null" word="service" xpos="NN" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="in" />
+      <extra config="default" deprel="case" edeps="6:case" feats="null" gov="4" govlemma="service" head="6" identified_for_pss="True" is_part_of_mwe="False" lemma="in" lexcat="R" lexlemma="in" lextag="O-P-p.Locus" local_gov="4" local_obj="6" local_toknums="5" misc="null" obj="6" objlemma="all" orig_paragraph="1" remarks="0.5" smwe="null" ss="p.Locus" ss2="p.Locus" toknums="5" upos="ADP" wmwe="null" word="in" xpos="IN" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="all" />
+      <extra deprel="nmod" edeps="4:nmod" feats="null" head="4" identified_for_pss="False" is_part_of_mwe="False" lemma="all" lexcat="Q" lexlemma="all" lextag="O-DET" misc="null" orig_paragraph="1" remarks="0.6" smwe="null" upos="DET" wmwe="null" word="all" xpos="DT" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="of" />
+      <extra config="default" deprel="case" edeps="8:case" feats="null" gov="6" govlemma="all" head="8" identified_for_pss="False" is_part_of_mwe="False" lemma="of" lexcat="R" lexlemma="of" lextag="O-P-p.Quantity|p.Whole" local_gov="6" local_obj="8" local_toknums="7" misc="null" obj="8" objlemma="Dallas" orig_paragraph="1" remarks="0.7" smwe="null" ss="p.Quantity" ss2="p.Whole" toknums="7" upos="ADP" wmwe="null" word="of" xpos="IN" />
+    </node>
+    <node ID="0.8" type="Word">
+      <attributes paragraph="1" paragraph_position="8" text="Dallas" />
+      <extra deprel="nmod" edeps="6:nmod" feats="Number=Sing" head="6" identified_for_pss="False" is_part_of_mwe="False" lemma="Dallas" lexcat="C" lexlemma="Dallas" lextag="O-N-n.LOCATION" misc="null" orig_paragraph="1" remarks="0.8" smwe="null" upos="PROPN" wmwe="null" word="Dallas" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.2" tree_id="1" />
+      <edge toID="1.3" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.4" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.5" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.6" type="True">
+        <attributes />
+        <category tag="True" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <extra remarks="1.3" tree_id="1-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra remarks="1.4" tree_id="1-2" />
+      <edge toID="1.11" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.12" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra remarks="1.7" tree_id="1-3" />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra remarks="1.8" tree_id="1-4" />
+      <edge toID="1.7" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.8" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.9" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.10" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <extra remarks="1.9" tree_id="1-4-1" />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <extra remarks="1.10" tree_id="1-4-2" />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <extra remarks="1.12" tree_id="1-4-3-1" />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="FN">
+      <attributes />
+      <extra remarks="1.13" tree_id="1-4-3-2" />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.11" type="FN">
+      <attributes />
+      <extra remarks="1.5" tree_id="1-2-1" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.12" type="FN">
+      <attributes />
+      <extra remarks="1.6" tree_id="1-2-2" />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

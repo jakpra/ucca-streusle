@@ -417,9 +417,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.33" type="S">
+      <edge toID="1.33" type="S:p.OrgRole">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="S:p.OrgRole" />
       </edge>
     </node>
     <node ID="1.32" type="FN">
@@ -433,9 +433,9 @@
     <node ID="1.33" type="FN">
       <attributes />
       <extra remarks="1.5" tree_id="1-1-1-1" />
-      <edge toID="0.1" type="Terminal:p.OrgRole">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.OrgRole" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

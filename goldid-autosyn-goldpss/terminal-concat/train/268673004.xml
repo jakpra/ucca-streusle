@@ -105,9 +105,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="H" />
       </edge>
-      <edge toID="1.6" type="L">
+      <edge toID="1.6" type="L:p.Circumstance">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="L" />
+        <category tag="L:p.Circumstance" />
       </edge>
       <edge toID="1.7" type="H">
         <attributes />
@@ -181,9 +181,9 @@
     <node ID="1.6" type="FN">
       <attributes />
       <extra remarks="1.92" tree_id="16" />
-      <edge toID="0.10" type="Terminal:p.Circumstance">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Circumstance" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.7" type="FN">

@@ -1,0 +1,63 @@
+<root annotationID="0" passageID="389136004">
+  <attributes annotationID="2559" passageID="691" userID="26" />
+  <extra format="find_refined" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="By" />
+      <extra config="default" deprel="case" edeps="2:case" feats="null" gov="null" govlemma="null" head="2" identified_for_pss="True" is_part_of_mwe="False" lemma="by" lexcat="P" lexlemma="By" lextag="O-P-p.Originator|p.Agent" local_obj="2" local_toknums="1" misc="null" obj="21" objlemma="samantha" orig_paragraph="1" remarks="0.20" smwe="null" ss="p.Originator" ss2="p.Agent" toknums="20" upos="ADP" wmwe="null" word="By" xpos="IN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="samantha" />
+      <extra deprel="root" edeps="0:root" feats="Number=Sing" head="0" identified_for_pss="False" is_part_of_mwe="True" lemma="samantha" lexcat="A" lexlemma="samantha Fox" lextag="B-N-n.PERSON" misc="null" orig_paragraph="1" remarks="0.21" smwe="[1, 1]" upos="PROPN" wmwe="null" word="samantha" xpos="NNP" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Fox" />
+      <extra deprel="flat" edeps="2:flat" feats="Number=Sing" head="2" identified_for_pss="False" is_part_of_mwe="True" lemma="Fox" lexcat="A" lexlemma="samantha Fox" lextag="I_" misc="null" orig_paragraph="1" remarks="0.22" smwe="[1, 2]" upos="PROPN" wmwe="null" word="Fox" xpos="NNP" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.29" tree_id="8" />
+      <edge toID="1.3" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.4" type="True">
+        <attributes />
+        <category tag="True" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <extra remarks="1.30" tree_id="8-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra remarks="1.31" tree_id="8-2" />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

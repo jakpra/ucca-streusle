@@ -245,9 +245,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
       </edge>
-      <edge toID="1.12" type="F">
+      <edge toID="1.12" type="F:p.Whole">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
+        <category tag="F:p.Whole" />
       </edge>
       <edge toID="1.13" type="C">
         <attributes />
@@ -273,9 +273,9 @@
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.74" tree_id="8-5-2" />
-      <edge toID="0.24" type="Terminal:p.Whole">
+      <edge toID="0.24" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Whole" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.13" type="FN">
@@ -397,9 +397,9 @@
     <node ID="1.26" type="FN">
       <attributes />
       <extra remarks="1.52" tree_id="6-6" />
-      <edge toID="1.27" type="R">
+      <edge toID="1.27" type="R:p.Experiencer">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Experiencer" />
       </edge>
       <edge toID="1.28" type="C">
         <attributes />
@@ -417,17 +417,17 @@
     <node ID="1.27" type="FN">
       <attributes />
       <extra remarks="1.53" tree_id="6-6-1" />
-      <edge toID="0.7" type="Terminal:p.Experiencer">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Experiencer" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.28" type="FN">
       <attributes />
       <extra remarks="1.54" tree_id="6-6-2" />
-      <edge toID="1.31" type="A">
+      <edge toID="1.31" type="A:p.SocialRel">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.SocialRel" />
       </edge>
       <edge toID="1.32" type="A">
         <attributes />
@@ -454,9 +454,9 @@
     <node ID="1.31" type="FN">
       <attributes />
       <extra remarks="1.55" tree_id="6-6-2-1" />
-      <edge toID="0.8" type="Terminal:p.SocialRel">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.SocialRel" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.32" type="FN">

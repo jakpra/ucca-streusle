@@ -122,9 +122,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
       </edge>
-      <edge toID="1.20" type="D">
+      <edge toID="1.20" type="D:p.OrgRole">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+        <category tag="D:p.OrgRole" />
       </edge>
       <edge toID="1.21" type="A">
         <attributes />
@@ -206,9 +206,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
-      <edge toID="1.17" type="R">
+      <edge toID="1.17" type="R:p.Quantity">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Quantity" />
       </edge>
     </node>
     <node ID="1.11" type="FN">
@@ -218,9 +218,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.15" type="S">
+      <edge toID="1.15" type="S:p.Originator">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="S:p.Originator" />
       </edge>
     </node>
     <node ID="1.12" type="FN">
@@ -254,9 +254,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.18" tree_id="4-3-2-1" />
-      <edge toID="0.13" type="Terminal:p.Originator">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.16" type="FN">
@@ -270,9 +270,9 @@
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.16" tree_id="4-3-1-2" />
-      <edge toID="0.12" type="Terminal:p.Quantity">
+      <edge toID="0.12" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.18" type="FN">
@@ -294,9 +294,9 @@
     <node ID="1.20" type="FN">
       <attributes />
       <extra remarks="1.8" tree_id="2-3" />
-      <edge toID="0.6" type="Terminal:p.OrgRole">
+      <edge toID="0.6" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.OrgRole" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.21" type="FN">

@@ -97,9 +97,9 @@
     <node ID="1.1" type="FN">
       <attributes />
       <extra remarks="1.1" />
-      <edge toID="1.2" type="L">
+      <edge toID="1.2" type="L:p.Manner">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="L" />
+        <category tag="L:p.Manner" />
       </edge>
       <edge toID="1.3" type="H">
         <attributes />
@@ -117,9 +117,9 @@
     <node ID="1.2" type="FN">
       <attributes />
       <extra remarks="1.315" tree_id="38" />
-      <edge toID="0.1" type="Terminal:p.Manner">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Manner" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.3" type="FN">
@@ -397,13 +397,13 @@
     <node ID="1.29" type="FN">
       <attributes />
       <extra remarks="1.320" tree_id="39-2" />
-      <edge toID="1.30" type="R">
+      <edge toID="1.30" type="R:p.Gestalt">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Gestalt" />
       </edge>
-      <edge toID="1.31" type="E">
+      <edge toID="1.31" type="E:p.Whole">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="E" />
+        <category tag="E:p.Whole" />
       </edge>
       <edge toID="1.32" type="C">
         <attributes />
@@ -413,17 +413,17 @@
     <node ID="1.30" type="FN">
       <attributes />
       <extra remarks="1.321" tree_id="39-2-1" />
-      <edge toID="0.4" type="Terminal:p.Gestalt">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Gestalt" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.31" type="FN">
       <attributes />
       <extra remarks="1.322" tree_id="39-2-2" />
-      <edge toID="0.5" type="Terminal:p.Whole">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Whole" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.32" type="FN">

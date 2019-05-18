@@ -93,9 +93,9 @@
         <attributes />
         <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="H" />
       </edge>
-      <edge toID="1.5" type="L">
+      <edge toID="1.5" type="L:p.Time">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="L" />
+        <category tag="L:p.Time" />
       </edge>
       <edge toID="1.6" type="H">
         <attributes />
@@ -157,17 +157,17 @@
     <node ID="1.5" type="FN">
       <attributes />
       <extra remarks="1.56" tree_id="9" />
-      <edge toID="0.14" type="Terminal:p.Time">
+      <edge toID="0.14" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Time" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.6" type="FN">
       <attributes />
       <extra remarks="1.57" tree_id="10" />
-      <edge toID="1.14" type="A">
+      <edge toID="1.14" type="A:p.Agent">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="A" />
+        <category tag="A:p.Agent" />
       </edge>
       <edge toID="1.15" type="P">
         <attributes />
@@ -249,9 +249,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.58" tree_id="10-1" />
-      <edge toID="0.15" type="Terminal:p.Agent">
+      <edge toID="0.15" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.15" type="FN">
@@ -305,9 +305,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.53" tree_id="8-5" />
-      <edge toID="1.22" type="R">
+      <edge toID="1.22" type="R:p.Circumstance">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Circumstance" />
       </edge>
       <edge toID="1.23" type="C">
         <attributes />
@@ -317,9 +317,9 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.54" tree_id="8-5-1" />
-      <edge toID="0.11" type="Terminal:p.Circumstance">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Circumstance" />
+        <category tag="Terminal" />
       </edge>
       <edge toID="0.12" type="Terminal">
         <attributes />

@@ -217,9 +217,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.67" tree_id="6-7" />
-      <edge toID="1.11" type="R">
+      <edge toID="1.11" type="R:p.ComparisonRef">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.ComparisonRef" />
       </edge>
       <edge toID="1.12" type="F">
         <attributes />
@@ -233,9 +233,9 @@
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.68" tree_id="6-7-1" />
-      <edge toID="0.21" type="Terminal:p.ComparisonRef">
+      <edge toID="0.21" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.ComparisonRef" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.12" type="FN">
@@ -333,9 +333,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.57" tree_id="6-3-2-4" />
-      <edge toID="1.22" type="R">
+      <edge toID="1.22" type="R:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.23" type="C">
         <attributes />
@@ -345,9 +345,9 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.58" tree_id="6-3-2-4-1" />
-      <edge toID="0.14" type="Terminal:p.Locus">
+      <edge toID="0.14" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.23" type="FN">
@@ -417,9 +417,9 @@
     <node ID="1.29" type="FN">
       <attributes />
       <extra remarks="1.51" tree_id="6-3-1-3-3" />
-      <edge toID="1.30" type="R">
+      <edge toID="1.30" type="R:p.Gestalt">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Gestalt" />
       </edge>
       <edge toID="1.31" type="F">
         <attributes />
@@ -433,9 +433,9 @@
     <node ID="1.30" type="FN">
       <attributes />
       <extra remarks="1.52" tree_id="6-3-1-3-3-1" />
-      <edge toID="0.10" type="Terminal:p.Gestalt">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Gestalt" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.31" type="FN">

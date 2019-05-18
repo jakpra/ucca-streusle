@@ -130,9 +130,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.85" tree_id="10-3-3" />
-      <edge toID="1.10" type="R">
+      <edge toID="1.10" type="R:p.Whole">
         <attributes />
-        <category layer_name="UCCA's Foundational Layer v2" slot="1" tag="R" />
+        <category tag="R:p.Whole" />
       </edge>
       <edge toID="1.11" type="F">
         <attributes />
@@ -146,9 +146,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.86" tree_id="10-3-3-1" />
-      <edge toID="0.6" type="Terminal:p.Whole">
+      <edge toID="0.6" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Whole" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">

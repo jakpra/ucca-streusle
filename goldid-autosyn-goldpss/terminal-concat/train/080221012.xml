@@ -73,9 +73,9 @@
     <node ID="1.4" type="FN">
       <attributes />
       <extra remarks="1.137" />
-      <edge toID="1.5" type="R">
+      <edge toID="1.5" type="R:p.Recipient">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Recipient" />
       </edge>
       <edge toID="1.6" type="C">
         <attributes />
@@ -93,9 +93,9 @@
     <node ID="1.5" type="FN">
       <attributes />
       <extra remarks="1.138" />
-      <edge toID="0.3" type="Terminal:p.Recipient">
+      <edge toID="0.3" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Recipient" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.6" type="FN">

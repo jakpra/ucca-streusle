@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="338429_0002_5-5">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="identity" />
+      <extra deprel="nsubj:pass" edeps="8:nsubj:pass" feats="Number=Sing" head="8" identified_for_pss="False" ind="6" is_part_of_mwe="False" lemma="identity" lexcat="N" lexlemma="identity" lextag="O-N-n.COGNITION" misc="null" smwe="null" ss="False" upos="NOUN" wmwe="null" word="identity" xpos="NN" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="'s" />
+      <extra config="default" deprel="case" edeps="1:case" feats="null" gov="8" govlemma="identity" head="1" identified_for_pss="True" ind="5" is_part_of_mwe="False" lemma="'s" lexcat="POSS" lexlemma="'s" lextag="O-POSS-p.Gestalt" local_gov="6" local_obj="1" misc="null" obj="3" objlemma="myself" smwe="null" ss="False" upos="PART" wmwe="null" word="'s" xpos="POS" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="Myself" />
+      <extra deprel="nmod:poss" edeps="6:nmod:poss" feats="Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes" head="6" identified_for_pss="False" ind="1" is_part_of_mwe="False" lemma="myself" lexcat="PRON" lexlemma="myself" lextag="O-PRON" misc="null" smwe="null" ss="False" upos="PRON" wmwe="null" word="Myself" xpos="PRP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Gestalt">
+        <attributes />
+        <category tag="p.Gestalt" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

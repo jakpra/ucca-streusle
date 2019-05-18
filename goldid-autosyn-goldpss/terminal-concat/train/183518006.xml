@@ -254,9 +254,9 @@
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.120" tree_id="14-6" />
-      <edge toID="1.13" type="R">
+      <edge toID="1.13" type="R:p.Topic">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Topic" />
       </edge>
       <edge toID="1.14" type="C">
         <attributes />
@@ -270,9 +270,9 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.121" tree_id="14-6-1" />
-      <edge toID="0.14" type="Terminal:p.Topic">
+      <edge toID="0.14" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Topic" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.14" type="FN">
@@ -390,10 +390,10 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.24" type="S">
+      <edge toID="1.24" type="S:p.Possessor">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="S:p.Possessor" />
+        <category tag="A:p.Possessor" />
       </edge>
     </node>
     <node ID="1.23" type="FN">
@@ -407,9 +407,9 @@
     <node ID="1.24" type="FN">
       <attributes />
       <extra remarks="1.137" tree_id="14-6-3-4-3-1-1" />
-      <edge toID="0.24" type="Terminal:p.Possessor">
+      <edge toID="0.24" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.25" type="FN">
@@ -503,9 +503,9 @@
     <node ID="1.36" type="FN">
       <attributes />
       <extra remarks="1.108" tree_id="12-4" />
-      <edge toID="1.37" type="R">
+      <edge toID="1.37" type="R:p.Quantity">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Quantity" />
       </edge>
       <edge toID="1.38" type="C">
         <attributes />
@@ -515,9 +515,9 @@
     <node ID="1.37" type="FN">
       <attributes />
       <extra remarks="1.109" tree_id="12-4-1" />
-      <edge toID="0.4" type="Terminal:p.Quantity">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.38" type="FN">

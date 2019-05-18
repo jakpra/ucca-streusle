@@ -1,0 +1,151 @@
+<root annotationID="0" passageID="116821010">
+  <attributes annotationID="4317" passageID="135" remarks="1205" userID="4" />
+  <extra format="find_refined" />
+  <layer layerID="0">
+    <attributes />
+    <extra doc="[[]]" />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="It" />
+      <extra deprel="nsubj" edeps="2:nsubj" feats="Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs" head="2" identified_for_pss="False" is_part_of_mwe="True" lemma="it" lexcat="True" lexlemma="It tasted like" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.140" smwe="null" upos="PRON" wmwe="null" word="It" xpos="PRP" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="tasted" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Ind|Tense=Past|VerbForm=Fin" head="0" identified_for_pss="False" is_part_of_mwe="True" lemma="taste" lexcat="True" lexlemma="It tasted like" lextag="O-V-v.perception" misc="null" orig_paragraph="1" remarks="0.141" smwe="null" upos="VERB" wmwe="null" word="tasted" xpos="VBD" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="like" />
+      <extra config="subordinating" deprel="mark" edeps="6:mark" feats="null" gov="141" govlemma="taste" head="6" identified_for_pss="False" is_part_of_mwe="True" lemma="like" lexcat="True" lexlemma="It tasted like" lextag="O-P-p.ComparisonRef" local_gov="2" local_obj="6" local_toknums="3" misc="null" obj="145" objlemma="fly" orig_paragraph="1" remarks="0.142" smwe="null" ss="p.ComparisonRef" ss2="p.ComparisonRef" toknums="142" upos="SCONJ" wmwe="null" word="like" xpos="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="I" />
+      <extra deprel="nsubj" edeps="6:nsubj" feats="Case=Nom|Number=Sing|Person=1|PronType=Prs" head="6" identified_for_pss="False" is_part_of_mwe="False" lemma="I" lexcat="False" lexlemma="I" lextag="O-PRON" misc="null" orig_paragraph="1" remarks="0.143" smwe="null" upos="PRON" wmwe="null" word="I" xpos="PRP" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="just" />
+      <extra deprel="advmod" edeps="6:advmod" feats="null" head="6" identified_for_pss="False" is_part_of_mwe="False" lemma="just" lexcat="False" lexlemma="just" lextag="O-ADV" misc="null" orig_paragraph="1" remarks="0.144" smwe="null" upos="ADV" wmwe="null" word="just" xpos="RB" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="flew" />
+      <extra deprel="advcl" edeps="2:advcl" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="2" identified_for_pss="False" is_part_of_mwe="False" lemma="fly" lexcat="False" lexlemma="flew" lextag="O-V-v.motion" misc="null" orig_paragraph="1" remarks="0.145" smwe="null" upos="VERB" wmwe="null" word="flew" xpos="VBP" />
+    </node>
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="back" />
+      <extra config="default" deprel="advmod" edeps="8:advmod" feats="null" gov="147" govlemma="home" head="8" identified_for_pss="True" is_part_of_mwe="False" lemma="back" lexcat="False" lexlemma="back" lextag="O-P-p.Direction" local_gov="8" local_toknums="7" misc="null" obj="null" objlemma="null" orig_paragraph="1" remarks="0.146" smwe="null" ss="p.Direction" ss2="p.Direction" toknums="146" upos="ADV" wmwe="null" word="back" xpos="RB" />
+    </node>
+    <node ID="0.8" type="Word">
+      <attributes paragraph="1" paragraph_position="8" text="home" />
+      <extra deprel="advmod" edeps="6:advmod" feats="null" head="6" identified_for_pss="False" is_part_of_mwe="False" lemma="home" lexcat="False" lexlemma="home" lextag="O-ADV" misc="SpaceAfter=No" orig_paragraph="1" remarks="0.147" smwe="null" upos="ADV" wmwe="null" word="home" xpos="RB" />
+    </node>
+    <node ID="0.9" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="9" text="." />
+      <extra deprel="punct" edeps="2:punct" feats="null" head="2" identified_for_pss="False" is_part_of_mwe="False" lemma="." lexcat="False" lexlemma="." lextag="O-PUNCT" misc="null" orig_paragraph="1" remarks="0.148" smwe="null" upos="PUNCT" wmwe="null" word="." xpos="." />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <extra remarks="1.1" />
+      <edge toID="1.2" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.3" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <extra remarks="1.179" tree_id="26" />
+      <edge toID="1.4" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.5" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.6" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.7" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+      <edge toID="1.8" type="True">
+        <attributes />
+        <category tag="True" />
+      </edge>
+      <edge toID="1.9" type="False">
+        <attributes />
+        <category tag="False" />
+      </edge>
+    </node>
+    <node ID="1.3" type="PNCT">
+      <attributes />
+      <extra remarks="1.290" />
+      <edge toID="0.9" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <extra remarks="1.180" tree_id="26-1" />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <extra remarks="1.181" tree_id="26-2" />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <extra remarks="1.182" tree_id="26-3" />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.7" type="FN">
+      <attributes />
+      <extra remarks="1.183" tree_id="26-4" />
+      <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.8" type="FN">
+      <attributes />
+      <extra remarks="1.184" tree_id="26-5" />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <extra remarks="1.185" tree_id="26-6" />
+      <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

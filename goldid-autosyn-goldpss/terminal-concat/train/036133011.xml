@@ -281,13 +281,13 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.219" tree_id="28-3-4-2-2" />
-      <edge toID="1.19" type="R">
+      <edge toID="1.19" type="R:p.Topic">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Topic" />
       </edge>
-      <edge toID="1.20" type="A">
+      <edge toID="1.20" type="A:p.Agent">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
+        <category tag="A:p.Agent" />
       </edge>
       <edge toID="1.21" type="P">
         <attributes />
@@ -297,17 +297,17 @@
     <node ID="1.19" type="FN">
       <attributes />
       <extra remarks="1.220" tree_id="28-3-4-2-2-1" />
-      <edge toID="0.16" type="Terminal:p.Topic">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Topic" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.20" type="FN">
       <attributes />
       <extra remarks="1.221" tree_id="28-3-4-2-2-2" />
-      <edge toID="0.17" type="Terminal:p.Agent">
+      <edge toID="0.17" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.21" type="FN">
@@ -345,9 +345,9 @@
     <node ID="1.25" type="FN">
       <attributes />
       <extra remarks="1.204" tree_id="26-4" />
-      <edge toID="1.26" type="R">
+      <edge toID="1.26" type="R:p.Instrument">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Instrument" />
       </edge>
       <edge toID="1.27" type="C">
         <attributes />
@@ -357,9 +357,9 @@
     <node ID="1.26" type="FN">
       <attributes />
       <extra remarks="1.205" tree_id="26-4-1" />
-      <edge toID="0.4" type="Terminal:p.Instrument">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Instrument" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.27" type="FN">

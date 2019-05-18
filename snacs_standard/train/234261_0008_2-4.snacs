@@ -1,0 +1,80 @@
+<root annotationID="0" passageID="234261_0008_2-4">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="AVOID" />
+      <extra deprel="root" edeps="0:root" feats="Mood=Imp|VerbForm=Fin" head="0" identified_for_pss="False" ind="1" is_part_of_mwe="False" lemma="avoid" lexcat="V" lexlemma="avoid" lextag="O-V-v.cognition" misc="null" smwe="null" ss="False" upos="VERB" wmwe="null" word="AVOID" xpos="VB" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="AT" />
+      <extra config="default" deprel="case" edeps="4:case" feats="null" gov="135" govlemma="avoid" head="4" identified_for_pss="True" ind="2" is_part_of_mwe="True" lemma="at" lexcat="PP" lexlemma="at all cost" lextag="B-PP-p.Manner" local_gov="1" local_obj="4" misc="null" obj="138" objlemma="cost" smwe="[1, 1]" ss="False" upos="ADP" wmwe="null" word="AT" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="ALL" />
+      <extra config="default" deprel="det" edeps="4:det" feats="null" gov="135" govlemma="avoid" head="4" identified_for_pss="True" ind="3" is_part_of_mwe="True" lemma="all" lexcat="PP" lexlemma="at all cost" lextag="I_" local_gov="1" local_obj="4" misc="null" obj="138" objlemma="cost" smwe="[1, 2]" ss="False" upos="DET" wmwe="null" word="ALL" xpos="DT" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="COSTS" />
+      <extra config="default" deprel="obl" edeps="1:obl" feats="Number=Plur" gov="135" govlemma="avoid" head="1" identified_for_pss="True" ind="4" is_part_of_mwe="True" lemma="cost" lexcat="PP" lexlemma="at all cost" lextag="I_" local_gov="1" local_obj="4" misc="SpaceAfter=No" obj="138" objlemma="cost" smwe="[1, 3]" ss="False" upos="NOUN" wmwe="null" word="COSTS" xpos="NNS" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="p.Manner">
+        <attributes />
+        <category tag="p.Manner" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

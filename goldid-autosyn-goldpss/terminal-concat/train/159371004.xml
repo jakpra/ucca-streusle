@@ -237,9 +237,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="G" />
       </edge>
-      <edge toID="1.27" type="F">
+      <edge toID="1.27" type="F:p.Theme">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="F" />
+        <category tag="F:p.Theme" />
       </edge>
       <edge toID="1.28" type="A">
         <attributes />
@@ -313,9 +313,9 @@
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.140" tree_id="26" />
-      <edge toID="1.11" type="R">
+      <edge toID="1.11" type="R:p.Purpose">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Purpose" />
       </edge>
       <edge toID="1.12" type="P">
         <attributes />
@@ -341,9 +341,9 @@
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.141" tree_id="26-2" />
-      <edge toID="0.32" type="Terminal:p.Purpose">
+      <edge toID="0.32" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Purpose" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.12" type="FN">
@@ -385,17 +385,17 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.135" tree_id="25-4" />
-      <edge toID="1.17" type="R">
+      <edge toID="1.17" type="R:p.StartTime">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.StartTime" />
       </edge>
       <edge toID="1.18" type="C">
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
-      <edge toID="1.19" type="N">
+      <edge toID="1.19" type="N:p.EndTime">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="N" />
+        <category tag="N:p.EndTime" />
       </edge>
       <edge toID="1.20" type="C">
         <attributes />
@@ -405,9 +405,9 @@
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.136" tree_id="25-4-1" />
-      <edge toID="0.28" type="Terminal:p.StartTime">
+      <edge toID="0.28" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.StartTime" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.18" type="FN">
@@ -421,9 +421,9 @@
     <node ID="1.19" type="FN">
       <attributes />
       <extra remarks="1.138" tree_id="25-4-3" />
-      <edge toID="0.30" type="Terminal:p.EndTime">
+      <edge toID="0.30" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.EndTime" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.20" type="FN">
@@ -486,9 +486,9 @@
     <node ID="1.27" type="FN">
       <attributes />
       <extra remarks="1.121" tree_id="21-3" />
-      <edge toID="0.16" type="Terminal:p.Theme">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Theme" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.28" type="FN">

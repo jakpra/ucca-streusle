@@ -121,9 +121,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.11" type="S">
+      <edge toID="1.11" type="S:p.Experiencer">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="S:p.Experiencer" />
       </edge>
     </node>
     <node ID="1.9" type="FN">
@@ -145,9 +145,9 @@
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.197" tree_id="32-5-1-1" />
-      <edge toID="0.5" type="Terminal:p.Experiencer">
+      <edge toID="0.5" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Experiencer" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

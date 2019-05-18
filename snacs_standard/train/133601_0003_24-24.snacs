@@ -1,0 +1,79 @@
+<root annotationID="0" passageID="133601_0003_24-24">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="better" />
+      <extra deprel="parataxis" edeps="2:parataxis" feats="Degree=Cmp" head="2" identified_for_pss="False" ind="23" is_part_of_mwe="False" lemma="better" lexcat="ADJ" lexlemma="better" lextag="O-ADJ" misc="null" smwe="null" ss="False" upos="ADJ" wmwe="null" word="better" xpos="JJR" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="then" />
+      <extra config="subordinating" deprel="mark" edeps="27:mark" feats="Typo=Yes" gov="45" govlemma="better" head="27" identified_for_pss="True" ind="24" is_part_of_mwe="False" lemma="than" lexcat="P" lexlemma="than" lextag="O-P-p.ComparisonRef" local_gov="23" local_obj="26" misc="null" obj="48" objlemma="be" smwe="null" ss="False" upos="SCONJ" wmwe="null" word="then" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="are" />
+      <extra deprel="cop" edeps="27:cop" feats="Mood=Ind|Tense=Pres|VerbForm=Fin" head="27" identified_for_pss="False" ind="26" is_part_of_mwe="False" lemma="be" lexcat="V" lexlemma="be" lextag="O-V-v.stative" misc="null" smwe="null" ss="False" upos="AUX" wmwe="null" word="are" xpos="VBP" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.ComparisonRef">
+        <attributes />
+        <category tag="p.ComparisonRef" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

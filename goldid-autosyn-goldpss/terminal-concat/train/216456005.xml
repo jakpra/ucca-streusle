@@ -233,9 +233,9 @@
         <attributes />
         <category tag="C" />
       </edge>
-      <edge toID="1.20" type="R">
+      <edge toID="1.20" type="R:p.Time">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Time" />
       </edge>
     </node>
     <node ID="1.13" type="FN">
@@ -269,10 +269,10 @@
         <attributes remote="True" />
         <category tag="A" />
       </edge>
-      <edge toID="1.17" type="S">
+      <edge toID="1.17" type="S:p.Possessor">
         <attributes />
-        <category tag="S" />
-        <category tag="A" />
+        <category tag="S:p.Possessor" />
+        <category tag="A:p.Possessor" />
       </edge>
     </node>
     <node ID="1.16" type="FN">
@@ -286,9 +286,9 @@
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.149" />
-      <edge toID="0.10" type="Terminal:p.Possessor">
+      <edge toID="0.10" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.18" type="FN">
@@ -314,9 +314,9 @@
     <node ID="1.20" type="FN">
       <attributes />
       <extra remarks="1.145" />
-      <edge toID="0.8" type="Terminal:p.Time">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Time" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.21" type="FN">

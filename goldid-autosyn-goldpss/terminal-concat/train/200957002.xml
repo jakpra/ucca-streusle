@@ -177,9 +177,9 @@
     <node ID="1.7" type="FN">
       <attributes />
       <extra remarks="1.35" />
-      <edge toID="1.8" type="R">
+      <edge toID="1.8" type="R:p.Part/Portion">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Part/Portion" />
       </edge>
       <edge toID="1.9" type="H">
         <attributes />
@@ -209,9 +209,9 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.36" />
-      <edge toID="0.4" type="Terminal:p.Part/Portion">
+      <edge toID="0.4" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Part/Portion" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.9" type="FN">
@@ -309,9 +309,9 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.62" />
-      <edge toID="1.17" type="R">
+      <edge toID="1.17" type="R:p.Locus">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.18" type="F">
         <attributes />
@@ -325,9 +325,9 @@
     <node ID="1.17" type="FN">
       <attributes />
       <extra remarks="1.63" />
-      <edge toID="0.23" type="Terminal:p.Locus">
+      <edge toID="0.23" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.18" type="FN">
@@ -377,9 +377,9 @@
     <node ID="1.23" type="FN">
       <attributes />
       <extra remarks="1.54" />
-      <edge toID="1.24" type="R">
+      <edge toID="1.24" type="R:p.Locus">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.25" type="F">
         <attributes />
@@ -393,9 +393,9 @@
     <node ID="1.24" type="FN">
       <attributes />
       <extra remarks="1.55" />
-      <edge toID="0.17" type="Terminal:p.Locus">
+      <edge toID="0.17" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.25" type="FN">
@@ -461,9 +461,9 @@
     <node ID="1.32" type="FN">
       <attributes />
       <extra remarks="1.43" />
-      <edge toID="1.33" type="R">
+      <edge toID="1.33" type="R:p.Locus">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.34" type="F">
         <attributes />
@@ -477,9 +477,9 @@
     <node ID="1.33" type="FN">
       <attributes />
       <extra remarks="1.44" />
-      <edge toID="0.9" type="Terminal:p.Locus">
+      <edge toID="0.9" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.34" type="FN">

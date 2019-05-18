@@ -1,0 +1,87 @@
+<root annotationID="0" passageID="047184_0006_18-19">
+  <attributes />
+  <extra format="snacs" />
+  <layer layerID="0">
+    <attributes />
+    <node ID="0.1" type="Word">
+      <attributes paragraph="1" paragraph_position="1" text="12" />
+      <extra deprel="obj" edeps="15:obj" feats="NumType=Card" head="15" identified_for_pss="False" ind="17" is_part_of_mwe="False" lemma="12" lexcat="NUM" lexlemma="12" lextag="O-NUM" misc="null" smwe="null" ss="False" upos="NUM" wmwe="null" word="12" xpos="CD" />
+    </node>
+    <node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="out" />
+      <extra config="default" deprel="case" edeps="20:case" feats="null" gov="131" govlemma="12" head="20" identified_for_pss="True" ind="18" is_part_of_mwe="True" lemma="out" lexcat="P" lexlemma="out of" lextag="B-P-p.Quantity|p.Whole" local_gov="17" local_obj="20" misc="null" obj="134" objlemma="10" smwe="[1, 1]" ss="False" upos="ADP" wmwe="null" word="out" xpos="IN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="of" />
+      <extra config="default" deprel="case" edeps="20:case" feats="null" gov="131" govlemma="12" head="20" identified_for_pss="True" ind="19" is_part_of_mwe="True" lemma="of" lexcat="P" lexlemma="out of" lextag="I_" local_gov="17" local_obj="20" misc="null" obj="134" objlemma="10" smwe="[1, 2]" ss="False" upos="ADP" wmwe="null" word="of" xpos="IN" />
+    </node>
+    <node ID="0.4" type="Word">
+      <attributes paragraph="1" paragraph_position="4" text="10" />
+      <extra deprel="nmod" edeps="17:nmod" feats="NumType=Card" head="17" identified_for_pss="False" ind="20" is_part_of_mwe="False" lemma="10" lexcat="NUM" lexlemma="10" lextag="O-NUM" misc="null" smwe="null" ss="False" upos="NUM" wmwe="null" word="10" xpos="CD" />
+    </node>
+    <node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="*ss*" />
+    </node>
+  </layer>
+  <layer layerID="1">
+    <attributes />
+    <node ID="1.1" type="FN">
+      <attributes />
+      <edge toID="1.2" type="H">
+        <attributes />
+        <category tag="H" />
+      </edge>
+    </node>
+    <node ID="1.2" type="FN">
+      <attributes />
+      <edge toID="1.3" type="*gov*">
+        <attributes />
+        <category tag="*gov*" />
+      </edge>
+      <edge toID="1.4" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.5" type="*obj*">
+        <attributes />
+        <category tag="*obj*" />
+      </edge>
+      <edge toID="1.6" type="p.Quantity">
+        <attributes />
+        <category tag="p.Quantity" />
+      </edge>
+    </node>
+    <node ID="1.3" type="FN">
+      <attributes />
+      <edge toID="0.1" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.4" type="FN">
+      <attributes />
+      <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+      <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
+      <edge toID="0.4" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+  </layer>
+</root>

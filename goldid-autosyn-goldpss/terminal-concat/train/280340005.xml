@@ -145,9 +145,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="P" />
       </edge>
-      <edge toID="1.8" type="D">
+      <edge toID="1.8" type="D:p.Direction">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="D" />
+        <category tag="D:p.Direction" />
       </edge>
       <edge toID="1.9" type="A">
         <attributes />
@@ -181,17 +181,17 @@
     <node ID="1.8" type="FN">
       <attributes />
       <extra remarks="1.112" tree_id="23-3" />
-      <edge toID="0.8" type="Terminal:p.Direction">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Direction" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.9" type="FN">
       <attributes />
       <extra remarks="1.113" tree_id="23-4" />
-      <edge toID="1.10" type="R">
+      <edge toID="1.10" type="R:p.Cost">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Cost" />
       </edge>
       <edge toID="1.11" type="Q">
         <attributes />
@@ -213,9 +213,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.114" tree_id="23-4-1" />
-      <edge toID="0.9" type="Terminal:p.Cost">
+      <edge toID="0.9" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Cost" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.11" type="FN">
@@ -225,9 +225,9 @@
         <attributes />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="C" />
       </edge>
-      <edge toID="1.24" type="R">
+      <edge toID="1.24" type="R:p.ComparisonRef">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.ComparisonRef" />
       </edge>
     </node>
     <node ID="1.12" type="FN">
@@ -249,9 +249,9 @@
     <node ID="1.14" type="FN">
       <attributes />
       <extra remarks="1.121" tree_id="23-4-4" />
-      <edge toID="1.15" type="R">
+      <edge toID="1.15" type="R:p.Gestalt">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Gestalt" />
       </edge>
       <edge toID="1.16" type="Q">
         <attributes />
@@ -269,9 +269,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.122" tree_id="23-4-4-1" />
-      <edge toID="0.14" type="Terminal:p.Gestalt">
+      <edge toID="0.14" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Gestalt" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.16" type="FN">
@@ -293,9 +293,9 @@
     <node ID="1.18" type="FN">
       <attributes />
       <extra remarks="1.125" tree_id="23-4-4-4" />
-      <edge toID="1.19" type="R">
+      <edge toID="1.19" type="R:p.Locus">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.20" type="E">
         <attributes />
@@ -313,9 +313,9 @@
     <node ID="1.19" type="FN">
       <attributes />
       <extra remarks="1.126" tree_id="23-4-4-4-1" />
-      <edge toID="0.17" type="Terminal:p.Locus">
+      <edge toID="0.17" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.20" type="FN">
@@ -353,9 +353,9 @@
     <node ID="1.24" type="FN">
       <attributes />
       <extra remarks="1.117" tree_id="23-4-2-2" />
-      <edge toID="0.11" type="Terminal:p.ComparisonRef">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.ComparisonRef" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.25" type="FN">

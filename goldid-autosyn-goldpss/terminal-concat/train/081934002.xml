@@ -245,9 +245,9 @@
         <attributes remote="True" />
         <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="A" />
       </edge>
-      <edge toID="1.16" type="S">
+      <edge toID="1.16" type="S:p.Possessor">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="S" />
+        <category tag="S:p.Possessor" />
       </edge>
     </node>
     <node ID="1.15" type="FN">
@@ -261,9 +261,9 @@
     <node ID="1.16" type="FN">
       <attributes />
       <extra remarks="1.53" tree_id="8-5-1-1" />
-      <edge toID="0.13" type="Terminal:p.Possessor">
+      <edge toID="0.13" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.17" type="FN">
@@ -317,9 +317,9 @@
     <node ID="1.23" type="FN">
       <attributes />
       <extra remarks="1.38" tree_id="6-3" />
-      <edge toID="1.24" type="R">
+      <edge toID="1.24" type="R:p.SocialRel">
         <attributes />
-        <category layer_name="UCCA's foundational layer (+restrictions)" slot="1" tag="R" />
+        <category tag="R:p.SocialRel" />
       </edge>
       <edge toID="1.25" type="C">
         <attributes />
@@ -329,9 +329,9 @@
     <node ID="1.24" type="FN">
       <attributes />
       <extra remarks="1.39" tree_id="6-3-1" />
-      <edge toID="0.3" type="Terminal:p.SocialRel">
+      <edge toID="0.3" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.SocialRel" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.25" type="FN">

@@ -276,9 +276,9 @@
         <attributes />
         <category tag="C" />
       </edge>
-      <edge toID="1.22" type="R">
+      <edge toID="1.22" type="R:p.Quantity">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Quantity" />
       </edge>
     </node>
     <node ID="1.18" type="FN">
@@ -316,9 +316,9 @@
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.70" />
-      <edge toID="0.14" type="Terminal:p.Quantity">
+      <edge toID="0.14" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.23" type="FN">

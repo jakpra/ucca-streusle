@@ -165,9 +165,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.12" />
-      <edge toID="1.15" type="E">
+      <edge toID="1.15" type="E:p.Possessor">
         <attributes />
-        <category tag="E" />
+        <category tag="E:p.Possessor" />
       </edge>
       <edge toID="1.16" type="C">
         <attributes />
@@ -177,9 +177,9 @@
     <node ID="1.11" type="FN">
       <attributes />
       <extra remarks="1.15" />
-      <edge toID="1.12" type="R">
+      <edge toID="1.12" type="R:p.Locus">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Locus" />
       </edge>
       <edge toID="1.13" type="E">
         <attributes />
@@ -193,9 +193,9 @@
     <node ID="1.12" type="FN">
       <attributes />
       <extra remarks="1.16" />
-      <edge toID="0.9" type="Terminal:p.Locus">
+      <edge toID="0.9" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Locus" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.13" type="FN">
@@ -217,9 +217,9 @@
     <node ID="1.15" type="FN">
       <attributes />
       <extra remarks="1.13" />
-      <edge toID="0.7" type="Terminal:p.Possessor">
+      <edge toID="0.7" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Possessor" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.16" type="FN">

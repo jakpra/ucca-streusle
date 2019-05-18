@@ -137,9 +137,9 @@
         <attributes />
         <category tag="F" />
       </edge>
-      <edge toID="1.15" type="P">
+      <edge toID="1.15" type="P:p.Gestalt">
         <attributes />
-        <category tag="P" />
+        <category tag="P:p.Gestalt" />
       </edge>
     </node>
     <node ID="1.4" type="FN">
@@ -250,9 +250,9 @@
         <attributes />
         <category tag="Terminal" />
       </edge>
-      <edge toID="0.11" type="Terminal:p.Gestalt">
+      <edge toID="0.11" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Gestalt" />
+        <category tag="Terminal" />
       </edge>
       <edge toID="0.12" type="Terminal">
         <attributes />
@@ -294,9 +294,9 @@
         <attributes remote="True" />
         <category tag="A" />
       </edge>
-      <edge toID="1.21" type="S">
+      <edge toID="1.21" type="S:p.Originator">
         <attributes />
-        <category tag="S" />
+        <category tag="S:p.Originator" />
       </edge>
     </node>
     <node ID="1.20" type="FN">
@@ -314,9 +314,9 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.172" />
-      <edge toID="0.1" type="Terminal:p.Originator">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Originator" />
+        <category tag="Terminal" />
       </edge>
     </node>
   </layer>

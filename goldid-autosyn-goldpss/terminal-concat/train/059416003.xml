@@ -109,9 +109,9 @@
         <attributes />
         <category tag="H" />
       </edge>
-      <edge toID="1.3" type="L">
+      <edge toID="1.3" type="L:p.Time">
         <attributes />
-        <category tag="L" />
+        <category tag="L:p.Time" />
       </edge>
       <edge toID="1.4" type="H">
         <attributes />
@@ -161,9 +161,9 @@
     <node ID="1.3" type="FN">
       <attributes />
       <extra remarks="1.77" />
-      <edge toID="0.8" type="Terminal:p.Time">
+      <edge toID="0.8" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Time" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.4" type="FN">
@@ -237,9 +237,9 @@
     <node ID="1.10" type="FN">
       <attributes />
       <extra remarks="1.89" />
-      <edge toID="1.13" type="R">
+      <edge toID="1.13" type="R:p.Agent">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Agent" />
       </edge>
       <edge toID="1.14" type="H">
         <attributes />
@@ -273,9 +273,9 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.90" />
-      <edge toID="0.16" type="Terminal:p.Agent">
+      <edge toID="0.16" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.14" type="FN">

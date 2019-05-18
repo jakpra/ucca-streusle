@@ -97,13 +97,13 @@
     <node ID="1.2" type="FN">
       <attributes />
       <extra remarks="1.20" />
-      <edge toID="1.21" type="R">
+      <edge toID="1.21" type="R:p.Circumstance">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Circumstance" />
       </edge>
-      <edge toID="1.22" type="A">
+      <edge toID="1.22" type="A:p.Agent">
         <attributes />
-        <category tag="A" />
+        <category tag="A:p.Agent" />
       </edge>
       <edge toID="1.23" type="P">
         <attributes />
@@ -217,9 +217,9 @@
         <attributes />
         <category tag="Q" />
       </edge>
-      <edge toID="1.13" type="R">
+      <edge toID="1.13" type="R:p.Quantity">
         <attributes />
-        <category tag="R" />
+        <category tag="R:p.Quantity" />
       </edge>
       <edge toID="1.14" type="F">
         <attributes />
@@ -241,9 +241,9 @@
     <node ID="1.13" type="FN">
       <attributes />
       <extra remarks="1.38" />
-      <edge toID="0.15" type="Terminal:p.Quantity">
+      <edge toID="0.15" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Quantity" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.14" type="FN">
@@ -313,17 +313,17 @@
     <node ID="1.21" type="FN">
       <attributes />
       <extra remarks="1.21" />
-      <edge toID="0.1" type="Terminal:p.Circumstance">
+      <edge toID="0.1" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Circumstance" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.22" type="FN">
       <attributes />
       <extra remarks="1.22" />
-      <edge toID="0.2" type="Terminal:p.Agent">
+      <edge toID="0.2" type="Terminal">
         <attributes />
-        <category tag="Terminal:p.Agent" />
+        <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.23" type="FN">
