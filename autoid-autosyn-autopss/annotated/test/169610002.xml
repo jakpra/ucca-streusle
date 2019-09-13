@@ -5,7 +5,7 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="Her" />
-      <extra deprel="nmod:poss" head="2" lemma="she" orig_paragraph="1" remarks="0.21" upos="PRON" word="Her" xpos="PRP$" />
+      <extra config="possessive" deprel="nmod:poss" gov="22" govlemma="flexibility" head="2" lemma="she" lexcat="PRON.POSS" lexlemma="she" local_gov="2" local_toknums="1" obj="null" objlemma="null" orig_paragraph="1" remarks="0.21" ss="p.Gestalt" ss2="p.Gestalt" toknums="21" upos="PRON" word="Her" xpos="PRP$" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="flexibility" />
@@ -25,7 +25,7 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="for" />
-      <extra deprel="case" head="9" lemma="for" orig_paragraph="1" remarks="0.26" upos="ADP" word="for" xpos="IN" />
+      <extra config="default" deprel="case" gov="25" govlemma="make" head="9" lemma="for" lexcat="P" lexlemma="for" local_gov="5" local_obj="9" local_toknums="6" obj="29" objlemma="closing" orig_paragraph="1" remarks="0.26" ss="p.Purpose" ss2="p.Purpose" toknums="26" upos="ADP" word="for" xpos="IN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="an" />

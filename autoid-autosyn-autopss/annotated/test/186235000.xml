@@ -29,7 +29,7 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="above" />
-      <extra deprel="case" head="8" lemma="above" orig_paragraph="1" remarks="0.7" upos="ADP" word="above" xpos="IN" />
+      <extra config="default" deprel="case" gov="5" govlemma="go" head="8" lemma="above" lexcat="P" lexlemma="above" local_gov="5" local_obj="8" local_toknums="7" obj="8" objlemma="and" orig_paragraph="1" remarks="0.7" ss="p.Direction" ss2="p.Time" toknums="7" upos="ADP" word="above" xpos="IN" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="and" />
@@ -37,11 +37,11 @@
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="beyond" />
-      <extra deprel="case" head="8" lemma="beyond" orig_paragraph="1" remarks="0.9" upos="ADP" word="beyond" xpos="IN" />
+      <extra config="default" deprel="case" gov="5" govlemma="go" head="8" lemma="beyond" lexcat="P" lexlemma="beyond" local_gov="5" local_obj="8" local_toknums="9" obj="8" objlemma="and" orig_paragraph="1" remarks="0.9" ss="p.Extent" ss2="p.Time" toknums="9" upos="ADP" word="beyond" xpos="IN" />
     </node>
     <node ID="0.10" type="Word">
       <attributes paragraph="1" paragraph_position="10" text="in" />
-      <extra deprel="mark" head="11" lemma="in" orig_paragraph="1" remarks="0.10" upos="SCONJ" word="in" xpos="IN" />
+      <extra config="subordinating" deprel="mark" gov="5" govlemma="go" head="11" lemma="in" lexcat="P" lexlemma="in" local_gov="5" local_obj="11" local_toknums="10" obj="11" objlemma="help" orig_paragraph="1" remarks="0.10" ss="p.Topic" ss2="p.Locus" toknums="10" upos="SCONJ" word="in" xpos="IN" />
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="helping" />
@@ -53,11 +53,11 @@
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="with" />
-      <extra deprel="case" head="15" lemma="with" orig_paragraph="1" remarks="0.13" upos="ADP" word="with" xpos="IN" />
+      <extra config="default" deprel="case" gov="11" govlemma="help" head="15" lemma="with" lexcat="P" lexlemma="with" local_gov="11" local_obj="15" local_toknums="13" obj="15" objlemma="account" orig_paragraph="1" remarks="0.13" ss="p.Theme" ss2="p.Theme" toknums="13" upos="ADP" word="with" xpos="IN" />
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="my" />
-      <extra deprel="nmod:poss" head="15" lemma="my" orig_paragraph="1" remarks="0.14" upos="PRON" word="my" xpos="PRP$" />
+      <extra config="possessive" deprel="nmod:poss" gov="15" govlemma="account" head="15" lemma="my" lexcat="PRON.POSS" lexlemma="my" local_gov="15" local_toknums="14" obj="null" objlemma="null" orig_paragraph="1" remarks="0.14" ss="p.Possessor" ss2="p.Possessor" toknums="14" upos="PRON" word="my" xpos="PRP$" />
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="account" />

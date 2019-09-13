@@ -9,7 +9,7 @@
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="our" />
-      <extra deprel="nmod:poss" head="3" lemma="we" orig_paragraph="1" remarks="0.34" upos="PRON" word="our" xpos="PRP$" />
+      <extra config="possessive" deprel="nmod:poss" gov="35" govlemma="room" head="3" lemma="we" lexcat="PRON.POSS" lexlemma="we" local_gov="3" local_toknums="2" obj="null" objlemma="null" orig_paragraph="1" remarks="0.34" ss="p.Possessor" ss2="p.Possessor" toknums="34" upos="PRON" word="our" xpos="PRP$" />
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="room" />
@@ -21,7 +21,7 @@
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="at" />
-      <extra deprel="case" head="6" lemma="at" orig_paragraph="1" remarks="0.37" upos="ADP" word="at" xpos="IN" />
+      <extra config="default" deprel="case" gov="39" govlemma="noisy" head="6" lemma="at" lexcat="P" lexlemma="at" local_gov="7" local_obj="6" local_toknums="5" obj="38" objlemma="time" orig_paragraph="1" remarks="0.37" ss="p.Locus" ss2="p.Time" toknums="37" upos="ADP" word="at" xpos="IN" />
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="times" />
@@ -65,7 +65,7 @@
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="at" />
-      <extra deprel="case" head="20" lemma="at" orig_paragraph="1" remarks="0.48" upos="ADP" word="at" xpos="IN" />
+      <extra config="default" deprel="case" gov="47" govlemma="city" head="20" lemma="at" lexcat="P" lexlemma="at" local_gov="15" local_obj="20" local_toknums="16" obj="52" objlemma="time" orig_paragraph="1" remarks="0.48" ss="p.Time" ss2="p.Locus" toknums="48" upos="ADP" word="at" xpos="IN" />
     </node>
     <node ID="0.17" type="Word">
       <attributes paragraph="1" paragraph_position="17" text="an" />
@@ -85,7 +85,7 @@
     </node>
     <node ID="0.21" type="Word">
       <attributes paragraph="1" paragraph_position="21" text="of" />
-      <extra deprel="case" head="22" lemma="of" orig_paragraph="1" remarks="0.53" upos="ADP" word="of" xpos="IN" />
+      <extra config="default" deprel="case" gov="52" govlemma="time" head="22" lemma="of" lexcat="P" lexlemma="of" local_gov="20" local_obj="22" local_toknums="21" obj="54" objlemma="year" orig_paragraph="1" remarks="0.53" ss="p.Whole" ss2="p.Whole" toknums="53" upos="ADP" word="of" xpos="IN" />
     </node>
     <node ID="0.22" type="Word">
       <attributes paragraph="1" paragraph_position="22" text="year" />

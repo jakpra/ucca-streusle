@@ -13,7 +13,7 @@
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="my" />
-      <extra deprel="nmod:poss" head="5" lemma="my" orig_paragraph="1" remarks="0.9" upos="PRON" word="my" xpos="PRP$" />
+      <extra config="possessive" deprel="nmod:poss" gov="11" govlemma="appointment" head="5" lemma="my" lexcat="PRON.POSS" lexlemma="my" local_gov="5" local_toknums="3" obj="null" objlemma="null" orig_paragraph="1" remarks="0.9" ss="p.Agent" ss2="p.Gestalt" toknums="9" upos="PRON" word="my" xpos="PRP$" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="weekly" />
@@ -61,11 +61,11 @@
     </node>
     <node ID="0.15" type="Word">
       <attributes paragraph="1" paragraph_position="15" text="on" />
-      <extra deprel="case" head="17" lemma="on" orig_paragraph="1" remarks="0.21" upos="ADP" word="on" xpos="IN" />
+      <extra config="default" deprel="case" gov="19" govlemma="lie" head="17" lemma="on" lexcat="P" lexlemma="on" local_gov="13" local_obj="17" local_toknums="15" obj="23" objlemma="tummy" orig_paragraph="1" remarks="0.21" ss="p.Locus" ss2="p.Locus" toknums="21" upos="ADP" word="on" xpos="IN" />
     </node>
     <node ID="0.16" type="Word">
       <attributes paragraph="1" paragraph_position="16" text="my" />
-      <extra deprel="nmod:poss" head="17" lemma="my" orig_paragraph="1" remarks="0.22" upos="PRON" word="my" xpos="PRP$" />
+      <extra config="possessive" deprel="nmod:poss" gov="23" govlemma="tummy" head="17" lemma="my" lexcat="PRON.POSS" lexlemma="my" local_gov="17" local_toknums="16" obj="null" objlemma="null" orig_paragraph="1" remarks="0.22" ss="p.Whole" ss2="p.Gestalt" toknums="22" upos="PRON" word="my" xpos="PRP$" />
     </node>
     <node ID="0.17" type="Word">
       <attributes paragraph="1" paragraph_position="17" text="tummy" />
