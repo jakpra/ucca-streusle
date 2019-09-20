@@ -19,5 +19,5 @@ In Proc. of ACL, pages 228–238, Sofia, Bulgaria.
 Jakob Prange, Nathan Schneider, and Omri Abend. 2019. [Made for Each Other: Broad-coverage Semantic Structures Meet Preposition Supersenses.](https://arxiv.org/abs/1909.08796)
 To appear at CoNLL, Hong Kong, China.
 
-Nathan Schneider, Jena D. Hwang, Vivek Srikumar, Jakob Prange, Austin Blodgett, Sarah R. Moeller, Aviram Stern, Adi Bitan, and Omri Abend. 2018. [Comprehensive supersense disambiguation of English prepositions and possessives.(https://www.aclweb.org/anthology/papers/P/P18/P18-1018/)
+Nathan Schneider, Jena D. Hwang, Vivek Srikumar, Jakob Prange, Austin Blodgett, Sarah R. Moeller, Aviram Stern, Adi Bitan, and Omri Abend. 2018. [Comprehensive supersense disambiguation of English prepositions and possessives.](https://www.aclweb.org/anthology/papers/P/P18/P18-1018/)
 In Proc. of ACL, pages 185–196, Melbourne, Australia.
