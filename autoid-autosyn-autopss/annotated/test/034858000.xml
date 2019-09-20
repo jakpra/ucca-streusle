@@ -13,7 +13,7 @@
     </node>
     <node ID="0.3" type="Word">
       <attributes paragraph="1" paragraph_position="3" text="for" />
-      <extra deprel="mark" head="4" lemma="for" orig_paragraph="1" remarks="0.3" upos="SCONJ" word="for" xpos="IN" />
+      <extra config="subordinating" deprel="mark" gov="1" govlemma="thank" head="4" lemma="for" lexcat="P" lexlemma="for" local_gov="1" local_obj="4" local_toknums="3" obj="4" objlemma="fix" orig_paragraph="1" remarks="0.3" ss="p.Explanation" ss2="p.Explanation" toknums="3" upos="SCONJ" word="for" xpos="IN" />
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="fixing" />
@@ -29,11 +29,11 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="on" />
-      <extra deprel="case" head="9" lemma="on" orig_paragraph="1" remarks="0.7" upos="ADP" word="on" xpos="IN" />
+      <extra config="default" deprel="case" gov="4" govlemma="fix" head="9" lemma="on" lexcat="P" lexlemma="on" local_gov="4" local_obj="9" local_toknums="7" obj="9" objlemma="bathroom" orig_paragraph="1" remarks="0.7" ss="p.Locus" ss2="p.Locus" toknums="7" upos="ADP" word="on" xpos="IN" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="my" />
-      <extra deprel="nmod:poss" head="9" lemma="my" orig_paragraph="1" remarks="0.8" upos="PRON" word="my" xpos="PRP$" />
+      <extra config="possessive" deprel="nmod:poss" gov="9" govlemma="bathroom" head="9" lemma="my" lexcat="PRON.POSS" lexlemma="my" local_gov="9" local_toknums="8" obj="null" objlemma="null" orig_paragraph="1" remarks="0.8" ss="p.Possessor" ss2="p.Possessor" toknums="8" upos="PRON" word="my" xpos="PRP$" />
     </node>
     <node ID="0.9" type="Word">
       <attributes paragraph="1" paragraph_position="9" text="bathroom" />

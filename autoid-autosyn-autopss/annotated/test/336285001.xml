@@ -25,11 +25,11 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="for" />
-      <extra deprel="case" head="8" lemma="for" orig_paragraph="1" remarks="0.10" upos="ADP" word="for" xpos="IN" />
+      <extra config="default" deprel="case" gov="9" govlemma="best" head="8" lemma="for" lexcat="P" lexlemma="for" local_gov="5" local_obj="8" local_toknums="6" obj="12" objlemma="child" orig_paragraph="1" remarks="0.10" ss="p.Beneficiary" ss2="p.Beneficiary" toknums="10" upos="ADP" word="for" xpos="IN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="your" />
-      <extra deprel="nmod:poss" head="8" lemma="you" orig_paragraph="1" remarks="0.11" upos="PRON" word="your" xpos="PRP$" />
+      <extra config="possessive" deprel="nmod:poss" gov="12" govlemma="child" head="8" lemma="you" lexcat="PRON.POSS" lexlemma="you" local_gov="8" local_toknums="7" obj="null" objlemma="null" orig_paragraph="1" remarks="0.11" ss="p.SocialRel" ss2="p.Gestalt" toknums="11" upos="PRON" word="your" xpos="PRP$" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="child" />
@@ -53,7 +53,7 @@
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="in" />
-      <extra deprel="mark" head="14" lemma="in" orig_paragraph="1" remarks="0.17" upos="SCONJ" word="in" xpos="IN" />
+      <extra config="subordinating" deprel="mark" gov="16" govlemma="hesitate" head="14" lemma="in" lexcat="P" lexlemma="in" local_gov="12" local_obj="14" local_toknums="13" obj="18" objlemma="visit" orig_paragraph="1" remarks="0.17" ss="p.Topic" ss2="p.Topic" toknums="17" upos="SCONJ" word="in" xpos="IN" />
     </node>
     <node ID="0.14" type="Word">
       <attributes paragraph="1" paragraph_position="14" text="visiting" />

@@ -29,7 +29,7 @@
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="his" />
-      <extra deprel="nmod:poss" head="8" lemma="he" orig_paragraph="1" remarks="0.11" upos="PRON" word="his" xpos="PRP$" />
+      <extra config="possessive" deprel="nmod:poss" gov="12" govlemma="firm" head="8" lemma="he" lexcat="PRON.POSS" lexlemma="he" local_gov="8" local_toknums="7" obj="null" objlemma="null" orig_paragraph="1" remarks="0.11" ss="p.SocialRel" ss2="p.Gestalt" toknums="11" upos="PRON" word="his" xpos="PRP$" />
     </node>
     <node ID="0.8" type="Word">
       <attributes paragraph="1" paragraph_position="8" text="firm" />
@@ -45,11 +45,11 @@
     </node>
     <node ID="0.11" type="Word">
       <attributes paragraph="1" paragraph_position="11" text="in" />
-      <extra deprel="case" head="13" lemma="in" orig_paragraph="1" remarks="0.15" upos="ADP" word="in" xpos="IN" />
+      <extra config="default" deprel="case" gov="14" govlemma="now" head="13" lemma="in" lexcat="P" lexlemma="in" local_gov="10" local_obj="13" local_toknums="11" obj="17" objlemma="family" orig_paragraph="1" remarks="0.15" ss="p.OrgRole" ss2="p.Locus" toknums="15" upos="ADP" word="in" xpos="IN" />
     </node>
     <node ID="0.12" type="Word">
       <attributes paragraph="1" paragraph_position="12" text="our" />
-      <extra deprel="nmod:poss" head="13" lemma="we" orig_paragraph="1" remarks="0.16" upos="PRON" word="our" xpos="PRP$" />
+      <extra config="possessive" deprel="nmod:poss" gov="17" govlemma="family" head="13" lemma="we" lexcat="PRON.POSS" lexlemma="we" local_gov="13" local_toknums="12" obj="null" objlemma="null" orig_paragraph="1" remarks="0.16" ss="p.SocialRel" ss2="p.Gestalt" toknums="16" upos="PRON" word="our" xpos="PRP$" />
     </node>
     <node ID="0.13" type="Word">
       <attributes paragraph="1" paragraph_position="13" text="family" />

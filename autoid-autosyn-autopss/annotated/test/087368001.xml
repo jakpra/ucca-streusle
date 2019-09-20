@@ -5,7 +5,7 @@
     <extra doc="[[]]" />
     <node ID="0.1" type="Word">
       <attributes paragraph="1" paragraph_position="1" text="My" />
-      <extra deprel="nmod:poss" head="3" lemma="my" orig_paragraph="1" remarks="0.4" upos="PRON" word="My" xpos="PRP$" />
+      <extra config="possessive" deprel="nmod:poss" gov="6" govlemma="order" head="3" lemma="my" lexcat="PRON.POSS" lexlemma="my" local_gov="3" local_toknums="1" obj="null" objlemma="null" orig_paragraph="1" remarks="0.4" ss="p.Originator" ss2="p.Possessor" toknums="4" upos="PRON" word="My" xpos="PRP$" />
     </node>
     <node ID="0.2" type="Word">
       <attributes paragraph="1" paragraph_position="2" text="pharmacy" />
@@ -73,7 +73,7 @@
     </node>
     <node ID="0.18" type="Word">
       <attributes paragraph="1" paragraph_position="18" text="with" />
-      <extra deprel="case" head="19" lemma="with" orig_paragraph="1" remarks="0.21" upos="ADP" word="with" xpos="IN" />
+      <extra config="default" deprel="case" gov="20" govlemma="short" head="19" lemma="with" lexcat="P" lexlemma="with" local_gov="17" local_obj="19" local_toknums="18" obj="22" objlemma="I" orig_paragraph="1" remarks="0.21" ss="p.Co-Agent" ss2="p.Co-Agent" toknums="21" upos="ADP" word="with" xpos="IN" />
     </node>
     <node ID="0.19" type="Word">
       <attributes paragraph="1" paragraph_position="19" text="me" />

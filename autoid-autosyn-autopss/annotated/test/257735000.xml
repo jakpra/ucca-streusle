@@ -17,7 +17,7 @@
     </node>
     <node ID="0.4" type="Word">
       <attributes paragraph="1" paragraph_position="4" text="your" />
-      <extra deprel="nmod:poss" head="5" lemma="you" orig_paragraph="1" remarks="0.4" upos="PRON" word="your" xpos="PRP$" />
+      <extra config="possessive" deprel="nmod:poss" gov="5" govlemma="money" head="5" lemma="you" lexcat="PRON.POSS" lexlemma="you" local_gov="5" local_toknums="4" obj="null" objlemma="null" orig_paragraph="1" remarks="0.4" ss="p.Possessor" ss2="p.Possessor" toknums="4" upos="PRON" word="your" xpos="PRP$" />
     </node>
     <node ID="0.5" type="Word">
       <attributes paragraph="1" paragraph_position="5" text="money" />
@@ -25,7 +25,7 @@
     </node>
     <node ID="0.6" type="Word">
       <attributes paragraph="1" paragraph_position="6" text="on" />
-      <extra deprel="case" head="8" lemma="on" orig_paragraph="1" remarks="0.6" upos="ADP" word="on" xpos="IN" />
+      <extra config="default" deprel="case" gov="5" govlemma="money" head="8" lemma="on" lexcat="P" lexlemma="on" local_gov="5" local_obj="8" local_toknums="6" obj="8" objlemma="jukebox" orig_paragraph="1" remarks="0.6" ss="p.Locus" ss2="p.Locus" toknums="6" upos="ADP" word="on" xpos="IN" />
     </node>
     <node ID="0.7" type="Word">
       <attributes paragraph="1" paragraph_position="7" text="the" />
