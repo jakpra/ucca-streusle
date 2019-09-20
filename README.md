@@ -7,7 +7,7 @@ Here present specifically a version of this data where the two different semanti
 
 - orig: original UCCA annotations
 - annotated: original UCCA annotations with SNACS categories as token features
--	autoid-autosyn-autopss, autoid-autosyn-goldpss, goldid-autosyn-goldpss: UCCA annotations with automatic syntactic features from spacy and auto/gold SNACS target identification and disambiguation (see Schneider et al., 2018; automatic SNACS labels are obtained from their SVM classifier). Subdirectories refer to setup-specific inputs in Prange et al., 2019.
+-	autoid-autosyn-autopss, autoid-autosyn-goldpss, goldid-autosyn-goldpss: UCCA annotations with integrated SNACS categories. For details on automatic SNACS target identification (autoid) and disambiguation (autopss), see Schneider et al., 2018; automatic SNACS labels are obtained from their SVM classifier). Subdirectories refer to setup-specific inputs in Prange et al., 2019.
 - snacs_standard: SNACS targets, formatted as UCCA standard xml, for independent MTL setup in Prange et al., 2019
 - find_refined_standard: UCCA passages, with boolean edge labels identifying SNACS-refinement, for independent MTL setup in Prange et al., 2019
 
