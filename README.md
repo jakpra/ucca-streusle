@@ -8,10 +8,10 @@ Here present specifically a version of this data where the two different semanti
 - orig: original UCCA annotations
 - annotated: original UCCA annotations with SNACS categories as token features, for *pipeline* setup in Prange et al., 2019
 -	autoid-autosyn-autopss, autoid-autosyn-goldpss, goldid-autosyn-goldpss: UCCA annotations with integrated SNACS categories. For details on automatic SNACS target identification (autoid) and disambiguation (autopss), see Schneider et al., 2018; automatic SNACS labels are obtained from their SVM classifier). Subdirectories refer to the following setup-specific inputs in Prange et al., 2019:
-  ..* integrated: *dependent MTL/rel*
-  ..* terminal: *dependent MTL/ter*
-  ..* integrated-concat: *joint/rel* 
-  ..* terminal-concat: *joint/ter*
+  * integrated: *dependent MTL/rel*
+  * terminal: *dependent MTL/ter*
+  * integrated-concat: *joint/rel* 
+  * terminal-concat: *joint/ter*
 - snacs_standard: SNACS targets, formatted as UCCA standard xml, for *independent MTL* setup in Prange et al., 2019
 - find_refined_standard: UCCA passages, with boolean edge labels identifying SNACS-refinement, for *independent MTL* setup in Prange et al., 2019
 
